@@ -1,0 +1,325 @@
+//Variables
+$verde : #38c377
+$verde-limon : #98ba06
+$azul : #36a8e0
+$cafe: #4f3013
+$morado: #5a61ab
+$rosado: #883d84
+$gris: #787878
+@font-face
+  font-family: "general"
+  src: url("../font/Antonio-Regular.ttf")
+@font-face
+  font-family: "ligera"
+  src: url("../font/Antonio-Light.ttf")
+@font-face
+  font-family: "bold"
+  src: url("../font/Antonio-Bold.ttf")
+@font-face
+  font-family: "avenir bold"
+  src: url("../font/AvenirNextLTPro-Bold.ttf")
+@font-face
+  font-size: "avenir"
+  src: url("../font/AvenirNextLTPro-Regular.ttf")
+body
+  font-family: "ligera"
+h3,h4, h5,h6
+  font-family: "general"
+.temas
+  color: $verde
+  border-left: 3px solid $verde-limon
+  padding-left: 20px
+.menu
+  font-family: "bold"
+  letter-spacing: 0.1em
+#encabezado
+  background-color: #ffffff
+  font-size: 1em
+  color: $gris
+  padding-top: 5px
+  padding-bottom: 5px
+  font-family: "ligera"
+#encabezado img
+  width: 230px
+  height: 120px
+.contador
+  width: 300px
+  border: 1px solid gray
+  text-align: center
+  border-radius: 8px
+.contador h5
+  padding-top: 5px
+  padding-bottom: 4px
+  margin-top: -8px
+  margin-bottom: -8px
+.contador #contador
+  color: #ffffff
+  font-size: 13px
+  background: #787878
+  margin: 3px
+  border-radius: 0 0 8px 8px
+#redes-header img
+  width: 25px
+  height: 20px
+  margin-bottom: 5px
+
+
+
+header .callout, footer
+  color:white
+  background: -webkit-linear-gradient( right, $morado, $rosado)
+  background: -moz-linear-gradient( right, $morado, $rosado)
+  background: -o-linear-gradient( right, $morado, $rosado)
+#submenu-principal, .sub-menu-central
+  border: 0
+#submenu-principal li a
+  font-family: general
+  font-size: 1em
+#submenu-principal a
+  background: #ffffff
+  color: $gris
+
+#menu-central
+  padding: 17px 0 17px 0
+  background:#ffffff
+  border: 0
+#menu-central a
+  color: #606060
+  font-size: 1.8em
+  text-transform: uppercase
+#menu-central a:hover
+  color: $azul
+  background: #ffffff
+#menu-sticky, .sticky-container
+  background:
+
+.sub-menu-central
+  font-family: general
+  background:
+.sub-menu-central li
+  font-size: 10px
+
+#banner-central
+  padding: 2.5em 0 2.5em 0
+  margin-top: 5em
+  background-color: $verde
+#banner-central h3, #banner-central h2
+  color: white
+  font-family: general
+#banner-central a
+  font-family: bold
+  font-size: 1.2em
+
+  //Sección patrocinadores y proveedores
+#proveedores
+  padding: 80px 0 80px
+#proveedores h3
+  color: #0d848a
+  font-family: general
+  margin-bottom: 20px
+#proveedores h4
+  font-family: ligera
+  color: #11b1b5
+  margin: 1em 0 .5em 0
+#proveedores img:first-child
+  height: 150px
+#patrocinadores h3
+  margin: .5em 0 0
+  color: white
+  font-family: general
+  background-color: #11b1b5
+  display: inline-block
+  padding: .3em 1.2em .3em 1.2em
+.apoyos
+  border: 1px solid #11b1b5
+.img-patrocinador
+  height: 90px !important
+  margin: 20px 30px 20px 0px
+.marcas-1
+  background-image: url('../img/fondo-1.png')
+  background-size: 10% 100%
+  background-repeat: no-repeat
+  background-position: right center
+.marcas-2
+    background-image: url('../img/fondo-2.png')
+    background-size: 10% 100%
+    background-repeat: no-repeat
+    background-position: left center
+// ====sección actividades====
+#eventos
+  background: #019e57
+  margin-top: 50px
+#eventos .column:nth-child(even) figcaption
+  text-align: right
+  padding-right: 10%
+#eventos .column:nth-child(odd) figcaption
+  padding-left: 10%
+.text-inf h3, .subtitulo
+  text-transform: uppercase
+  margin-bottom: 0
+  padding-bottom: 0
+// ==== sección contacto====
+#contenido-contacto
+  margin-right: 3em
+#contacto
+  background: $azul
+  color: white
+  font-family: "avenir"
+  margin-bottom: 10em
+#contacto h6, #contacto h3
+  font-family: "avenir bold"
+#contacto h6
+  margin-top: 2em
+  margin-bottom: 0
+#contacto h3
+  margin-top: -10px
+.info-contacto
+  font-size: .8rem
+  margin-bottom: 1.2em
+#contacto span
+  background: white
+  color: $azul
+  display: block
+  margin-bottom: 1em
+#form-contacto input[type=text], #form-contacto input[type=email], #form-contacto textarea
+  border: 1px solid white
+  background-color: $azul !important
+  color: white
+#form-contacto input::placeholder, #form-contacto textarea::placeholder
+  color: white
+#mapa iframe
+  width: 100%
+  padding: 0 0 0 .5em
+  margin: 0
+#mapa
+  padding: 0
+//=== Sección registro boletín===
+#registro
+  background: $rosado
+  margin-bottom: 40px
+#registro h4
+  padding-top: 2em
+#registro h6
+  margin-bottom: 2em
+#registro h4 , #registro h6
+  color: white
+.btn-morado
+  background:  $rosado
+  border: 2px solid white
+  border-radius:  1em
+  padding-left: 2em
+  padding-right: 2em
+  text-transform: uppercase
+  letter-spacing: 0.1em
+  height: 3em
+#registro-horizontal
+  width: 100%
+  font-family: "ligera"
+.formulario-1
+  padding-bottom: 1.2em
+.formulario-1 input
+  margin-bottom: 0
+.formulario-1 label
+  font-family: "ligera"
+  color: white
+  font-size: 1em
+  text-transform: uppercase
+.formulario-1 input[type=text]
+  margin: auto
+  border-color: white
+  border-radius: 1em
+  height: 3em
+  color: $gris
+.nota-boletin
+  font-size: .8em
+  color: white
+  margin: auto
+  padding-bottom: 4em
+//Sección redes sociales
+#redes-sociales
+  margin-bottom: 30px
+#redes-sociales img
+    width: 70px
+    height: 60px
+    margin-left: 20px
+//footer
+footer
+  background: #d4d4d0
+  padding-top: 2em
+  padding-bottom: 2em
+footer img
+  height: 100px
+footer h5:first-child
+  color: $gris
+footer h4, footer h6, #menu-footer ul li a
+  color: #828282
+#menu-footer
+  margin-top: 2em
+.menu-text
+  color: $gris
+  text-transform: uppercase
+  font-family: ligera
+  letter-spacing: .01em
+#menu-footer ul li a
+  text-transform: uppercase
+  font-family: ligera
+  padding-top: 0
+  letter-spacing: .03em
+  font-size: .9em
+#pie
+  background: #c8c8c8
+#pie p
+  font-size: 16px
+  color: $gris
+  margin: 10px 0 10px 0
+.data-sticky
+  width: 100%
+.text-inf
+  position: absolute
+  margin-top: -40%
+  height: 100%
+  width: 100%
+  color: white
+
+
+#menu-principal .dropdown.menu > li.is-dropdown-submenu-parent > a::after
+      border-color: #b0bc46 transparent transparent
+.redes-sociales a img
+  width: 30px
+  height: 30px
+  float: right
+  margin-left: 5px
+
+.redes-sociales a, .redes-sociales
+  color: white
+  text-align: right
+li .redes-sociales
+  padding-left: 20px
+  margin-bottom: 10px
+//Menu off-canvas
+#off-canvas, #off-canvas li a
+  background-color: $verde
+  color: white
+  background-color: $verde
+  text-transform: uppercase
+  font-size:
+
+#off-canvas .is-drilldown-submenu-parent > a::after
+      border-color: transparent transparent transparent $morado
+#off-canvas .js-drilldown-back > a::before
+  border-color: transparent $morado transparent transparent;
+
+// dispositivos moviles
+
+@media screen and (max-width: 800px)
+  #patrocinadores h3
+    font-size: 21px
+  #proveedores
+    padding-top: 40px
+  footer h5
+    margin-top: 30px
+  #off-canvas, #off-canvas li a
+    color: white
+    background-color: $verde
+    text-transform: uppercase
+    font-size: 14px
