@@ -18,6 +18,7 @@ session_start();
     <link rel="stylesheet" href="css/foundation-flex.css">
     <link type="text/css" href="css/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/boletos.css">
        <script type="text/javascript" src="contador/js/jquery-1.5.1.min.js"></script>
         <script type="text/javascript" src="contador/js/jquery-ui-1.8.14.custom.min.js"></script>
         <script type="text/javascript" src="contador/js/jquery-ui-timepicker-addon.js"></script>
@@ -333,6 +334,46 @@ session_start();
           </div>
         </div>
       </section>
+      <!--  Fin sección contacto-->
+      <section id="boletos-contenedor">
+        <h3>INVERSION</h3>
+        <div class="row">
+          <div class="column small-10 medium-4">
+            <ul class="pricing-table no-bullet text-center">
+                <li class="title">Estudiantes</li>
+                <li class="price">$350.00</li>
+                <li class="description">An awesome description</li>
+                <li>1 Database</li>
+                <li>5GB Storage</li>
+                <li>20 Users</li>
+                <li><a class="button" href="#">Buy Now</a></li>
+              </ul>
+          </div>
+          <div class="column small-10 medium-4">
+            <ul class="pricing-table no-bullet text-center">
+                <li class="title">Estudiantes</li>
+                <li class="price">$350.00</li>
+                <li class="description">An awesome description</li>
+                <li>1 Database</li>
+                <li>5GB Storage</li>
+                <li>20 Users</li>
+                <li><a class="button" href="#">Buy Now</a></li>
+              </ul>
+          </div>
+          <div class="column small-10 medium-4">
+            <ul class="pricing-table no-bullet text-center">
+                <li class="title">Estudiantes</li>
+                <li class="price">$350.00</li>
+                <li class="description">An awesome description</li>
+                <li>1 Database</li>
+                <li>5GB Storage</li>
+                <li>20 Users</li>
+                <li><a class="button" href="#">Buy Now</a></li>
+              </ul>
+          </div>
+        </div>
+      </section>
+
       <!-- Registro Boletín -->
     <section id="registro">
       <h4 class="text-center">¡Mantente informado!</h4>
