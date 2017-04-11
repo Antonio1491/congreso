@@ -6,6 +6,7 @@ $cafe: #4f3013
 $morado: #5a61ab
 $rosado: #883d84
 $gris: #787878
+
 @font-face
   font-family: "general"
   src: url("../font/Antonio-Regular.ttf")
@@ -21,17 +22,40 @@ $gris: #787878
 @font-face
   font-size: "avenir"
   src: url("../font/AvenirNextLTPro-Regular.ttf")
+@font-face
+  font-size: "avenir medium"
+  src: url("../font/avenirltstd_medium.ttf")
 body
   font-family: "ligera"
 h3,h4, h5,h6
   font-family: "general"
-.temas
+.sub-1
   color: $verde
-  border-left: 3px solid $verde-limon
+  border-left: 4px solid $verde-limon
   padding-left: 20px
+.sub-2
+  color: rgb(4, 134, 40)
+  border-left: 4px solid $verde
+  padding-left: 20px
+.sub-3
+  border-left: 4px solid rgb(59, 191, 209)
+  padding-left: 20px
+.sub-4
+  border-left: 4px solid rgb(59, 191, 209)
+  padding-left: 20px
+  color: #0662dd
+.sub-5
+  border-left: 4px solid rgb(192, 60, 246)
+  padding-left: 20px
+  color: #8711b8
+  margin-bottom: 0.8em
+
+
 .menu
   font-family: "bold"
   letter-spacing: 0.1em
+.menu li a
+  line-height: 1.15em
 #encabezado
   background-color: #ffffff
   font-size: 1em
@@ -92,24 +116,81 @@ header .callout, footer
   background: #ffffff
 #menu-sticky, .sticky-container
   background: white
-
 .sub-menu-central
   font-family: general
 .sub-menu-central li
   font-size: 10px
 
-#banner-central
-  padding: 2.5em 0 2.5em 0
-  margin-top: 5em
-  background-color: $verde
-#banner-central h3, #banner-central h2
+#barra
+  margin-bottom: 1em
+// ===== Temas =======
+#temas-slider
+  height: 20em
+.fondo-verde
+  background: #80aa5c
+.fondo-azul
+  background-color: #2893b0
+.fondo-verde, .fondo-azul
+  padding: 2.13em 8em
+  text-align: justify !important
   color: white
-  font-family: general
-#banner-central a
-  font-family: bold
-  font-size: 1.2em
+  min-height: 100%
+#tematicas #mensajes
+  padding: 0
+#iconos-temas
+  background:#eeeeee
+  margin-bottom: 5em
+#iconos-temas img
+  height: 6em
+  margin: 0.856em 0
+#mensajes .orbit .orbit-container .orbit-slide
+  height: 20em
+#img-slider
+  padding: 0
+#img-slider img
+  min-width: 100%
+  min-height: 100%
+  padding: 0
+// ==== sección actividades ====
+#eventos
+  background: #019e57
+  margin-top:
+#eventos .column:nth-child(even) figcaption
+  text-align: right
+  padding-right: 10%
+  transition: .4s
+  transform: translateX(250px)
+  -webkit-transform: translateX(250px)
+  -moz-transform: translateX(250px)
+  cursor: pointer
+  text-shadow: 0px 0px 8px #666666
 
-  //Sección patrocinadores y proveedores
+#eventos .column:nth-child(even):hover figcaption
+  transform: translateX(0px)
+  -webkit-transform: translateX(0px)
+  -moz-transform: translateX(0px)
+
+#eventos .column:nth-child(odd) figcaption
+  padding-left: 10%
+  transition: .4s
+  transform: translateX(-250px)
+  -webkit-transform: translateX(-250px)
+  -moz-transform: translateX(-250px)
+  cursor: pointer
+  text-shadow: 0px 0px 8px #666666
+
+#eventos .column:nth-child(odd):hover figcaption
+  transform: translateX(0px)
+  -webkit-transform: translateX(0px)
+  -moz-transform: translateX(0px)
+.text-inf h3, .subtitulo
+  text-transform: uppercase
+  margin-bottom: 0
+  padding-bottom: 0
+.orbit-imagen:hover
+ opacity: .5
+
+//==== Sección patrocinadores y proveedores ===
 #proveedores
   padding: 80px 0 80px
 #proveedores h3
@@ -122,8 +203,8 @@ header .callout, footer
   margin: 1em 0 .5em 0
 #proveedores img:first-child
   height: 150px
-#patrocinadores h3
-  margin: .5em 0 0
+#patrocinadores h3 a
+  margin: 1em 0 0
   color: white
   font-family: general
   background-color: #11b1b5
@@ -144,19 +225,7 @@ header .callout, footer
     background-size: 10% 100%
     background-repeat: no-repeat
     background-position: left center
-// ====sección actividades====
-#eventos
-  background: #019e57
-  margin-top:
-#eventos .column:nth-child(even) figcaption
-  text-align: right
-  padding-right: 10%
-#eventos .column:nth-child(odd) figcaption
-  padding-left: 10%
-.text-inf h3, .subtitulo
-  text-transform: uppercase
-  margin-bottom: 0
-  padding-bottom: 0
+
 // ==== sección contacto====
 #contenido-contacto
   margin-right: 3em
@@ -164,7 +233,7 @@ header .callout, footer
   background: $azul
   color: white
   font-family: "avenir"
-  margin-bottom: 10em
+  margin-bottom: 5em
 #contacto h6, #contacto h3
   font-family: "avenir bold"
 #contacto h6
@@ -187,16 +256,66 @@ header .callout, footer
   color: white
 #form-contacto input::placeholder, #form-contacto textarea::placeholder
   color: white
+#form-contacto input[type=submit]
+  background: white
+  color: $azul
+  font-weight: bold
 #mapa iframe
   width: 100%
-  padding: 0 0 0 .5em
+  padding: 0
   margin: 0
 #mapa
   padding: 0
 
 //=== Boletos ===========
 #boletos-contenedor
-  margin: 1em 0
+  margin-bottom: 5em
+  background: url('../img/fondo-3.png')
+  background-size: 10% 100%
+  background-repeat: no-repeat
+  background-position: right center
+  font-family: avenir
+
+.pricing-table
+  border: solid 1px #883D84
+  border-radius: 0 0 30px 30px
+.pricing-table li
+  border-bottom: dotted 1px #DDDDDD
+  font-size: 0.90rem
+  padding: 0.25rem 1.125rem
+  font-family:
+  color: rgb(93, 93, 93)
+.pricing-table li a
+  font-weight: 600
+  letter-spacing: 0.1em
+.pricing-table li i
+  font-size: 1.25rem
+  color: #883D84
+  margin: 0
+  padding: 0px
+.pricing-table li:last-child
+  border-bottom: 0
+.pricing-table .title
+  background-color: #883D84
+  color: #EEEEEE
+  font-size: 1.45rem
+  border-bottom: 0
+  font-family: "avenir bold"
+  text-transform: uppercase
+  padding: 0.450rem 0
+.pricing-table .price
+  background-color: #F6F6F6
+  color: #883D84
+  font-size: 1.75rem
+  border-bottom: 0
+  font-family: "avenir bold"
+  padding: 1rem 0
+.pricing-table .description
+  color: #777777
+  font-size: 0.625rem
+.pricing-table .button
+  margin: 0.585rem 0
+  background: #883D84
 
 
 //=== Sección registro boletín===

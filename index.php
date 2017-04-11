@@ -18,153 +18,10 @@ session_start();
     <link rel="stylesheet" href="css/foundation-flex.css">
     <link type="text/css" href="css/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="css/boletos.css">
-       <script type="text/javascript" src="contador/js/jquery-1.5.1.min.js"></script>
-        <script type="text/javascript" src="contador/js/jquery-ui-1.8.14.custom.min.js"></script>
-        <script type="text/javascript" src="contador/js/jquery-ui-timepicker-addon.js"></script>
-        <script type="text/javascript" src="contador/js/jquery.ui.datepicker-es.js"></script>
-
-<script type="text/javascript">
-
-        $(function(){
-            $('#datepicker').datetimepicker();
-        });
-
-        function countdown(id){
-            var fecha=new Date('<?=$_SESSION['ano']?>','<?=$_SESSION['mes']?>','<?=$_SESSION['dia']?>','<?=$_SESSION['hora']?>','<?=$_SESSION['minuto']?>','<?=$_SESSION['segundo']?>')
-            var hoy=new Date()
-            var dias=0
-            var horas=0
-            var minutos=0
-            var segundos=0
-
-            if (fecha>hoy){
-                    var diferencia=(fecha.getTime()-hoy.getTime())/1000
-                    dias=Math.floor(diferencia/86400)
-                    diferencia=diferencia-(86400*dias)
-                    horas=Math.floor(diferencia/3600)
-                    diferencia=diferencia-(3600*horas)
-                    minutos=Math.floor(diferencia/60)
-                    diferencia=diferencia-(60*minutos)
-                    segundos=Math.floor(diferencia)
-
-                    document.getElementById(id).innerHTML='<h5>Faltan ' + dias + ' D&iacute;as </h5>' + horas + ' Horas | ' + minutos + ' Minutos | ' + segundos + ' Segundos' +''
-
-                    if (dias>0 || horas>0 || minutos>0 || segundos>0){
-                            setTimeout("countdown(\"" + id + "\")",1000)
-                    }
-            }
-            else{
-                    document.getElementById('restante').innerHTML='Quedan ' + dias + ' D&iacute;as, ' + horas + ' Horas, ' + minutos + ' Minutos, ' + segundos + ' Segundos'
-            }
-        }
-        </script>
-
-  </head>
-  <body onload="countdown('contador')">
-<!-- menú canvas para dispositivos moviles -->
-<div class="off-canvas-wrapper">
-  <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
-    <div id="off-canvas" class="off-canvas position-left" data-off-canvas>
-      <nav data-magellan>
-        <ul class="vertical menu" data-drilldown>
-          <li><a href="#">conferencia</a>
-            <ul class=" vertical menu sub-menu-central">
-              <li><a href="">Programa a la vista</a></li>
-              <li><a href="">Programa Completo</a></li>
-              <li><a href="">Talleres</a></li>
-              <li><a href="">Patrocinadores y socios</a></li>
-              <li><a href="">Expositores</a></li>
-              <li><a href="">Congreso 2019</a></li>
-            </ul>
-          </li>
-          <li><a href="#">mérida yucatán</a>
-            <ul class="vertical menu  sub-menu-central">
-              <li><a href="">La ciudad Blanca</a></li>
-              <li><a href="#eventos">Actividades locales</a></li>
-              <li><a href="">Hotel sede</a></li>
-              <li><a href="">Trasnsportación</a></li>
-              <li><a href="">Turismo en Mérida</a></li>
-            </ul>
-          </li>
-          <li><a href="#">registro</a>
-            <ul class=" vertical menu  sub-menu-central">
-              <li><a href="">Tipos de Registro</a></li>
-              <li><a href="">Precios</a></li>
-        </ul>
-      </nav>
-    </div>
-
-    <div class="off-canvas-content" data-off-canvas-content>
-
-      <header>
-      <!--  informacion de contacto -->
-      <section id="encabezado">
-      <div class="row align-justify">
-        <div class="colum">
-          <img src="img/congreso-parques-urbanos-logo.png" alt="">
-        </div>
-        <div class="colum">
-          <div class="contador">
-            <h5>ABRIL 25-27</h5>
-            <h5>MÉRIDA YUCATÁN</h5>
-            <div id='contador'></div>
-          </div>
-          <div id="redes-header" class="text-center">
-            <img src="img/facebook.png" alt="">
-            <img src="img/twitter.png" alt="">
-            <img src="img/instagram.png" alt="">
-            <img src="img/youtobe.png" alt="">
-          </div>
-        </div>
-      </div>
-      </section>
-      <!--  /Informacion de contacto  -->
-      <!-- Menu header-->
-
-        <!-- Mega menu -->
-        <section id="menu-sticky" class="sticky-container " data-sticky-container>
-          <div class="data-sticky" data-sticky data-options="marginTop:0;" data-sticky-on="small"
-          data-top-anchor="menu-sticky">
-            <nav id="menu-central" class="row">
-              <ul class="menu align-spaced show-for-small-only">
-                <li><a href="#" data-toggle="off-canvas">Menu</a></li>
-              </ul>
-              <ul class="menu align-spaced dropdown show-for-medium" id="" data-dropdown-menu>
-                <li><a href="#">conferencia</a>
-                  <ul class="menu sub-menu-central">
-                    <li><a href="">Programa a la vista</a></li>
-                    <li><a href="">Programa Completo</a></li>
-                    <li><a href="">Talleres</a></li>
-                    <li><a href="">Patrocinadores y socios</a></li>
-                    <li><a href="">Expositores</a></li>
-                    <li><a href="">Congreso 2019</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">mérida yucatán</a>
-                  <ul class="menu  sub-menu-central">
-                    <li><a href="">La ciudad Blanca</a></li>
-                    <li><a href="">Actividades locales</a></li>
-                    <li><a href="">Hotel sede</a></li>
-                    <li><a href="">Trasnsportación</a></li>
-                    <li><a href="">Turismo en Mérida</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">registro</a>
-                  <ul class="menu  sub-menu-central">
-                    <li><a href="">Tipos de Registro</a></li>
-                    <li><a href="">Precios</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </nav>
-
-          </div>
-        </section>
-        <!--   /Mega menu -->
-      </header>
-      <!--   /Menu header -->
-      <!--   slider  -->
+</head>
+<body onload="countdown('contador')">
+<?php include'assets/menu.php'; ?>
+      <!--=====  portada/video  ====-->
       <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
         <ul class="orbit-container" style="max-height:70vh">
           <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
@@ -172,36 +29,79 @@ session_start();
           <li class="is-active orbit-slide">
             <img class="orbit-image" src="img/slider.jpg" alt="Space">
           </li>
-          <li class="orbit-slide">
-            <img class="orbit-image" src="img/slider.jpg" alt="Space">
-          </li>
         </ul>
-        <!--<nav class="orbit-bullets">
-          <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
-          <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
-          <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
-          <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
-        </nav>-->
-      </div>
-      <!--   /slider  -->
-      <div class="row expanded align-middle align-justify">
+      </div><!-- Fin Portada -->
+
+      <!-- ======  Barra y título temas  =====-->
+      <div class="row expanded align-middle align-justify" id="barra">
         <div class="colum medium-6">
           <img src="img/barra.png" alt="">
         </div>
-        <div class="colum medium-6 ">
-          <h3 class="temas">TEMAS</h3>
+        <div class="colum medium-4 offset-2 ">
+          <h3 class="sub-1">TEMAS</h3>
         </div>
       </div>
+      <!--===== Temas del congreso ==== -->
+      <section id="tematicas">
+        <div class="row expanded" id="temas-slider">
+          <div class="column medium-6 " id="mensajes">
+            <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+              <ul class="orbit-container">
+                <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+                <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+                <li class="orbit-slide">
+                  <div class="fondo-verde">
+                    <h4 class="text-center">2: You can also throw some text in here!</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam. Rerum ratione, delectus atque tempore sed, suscipit ullam, beatae distinctio cupiditate ipsam eligendi tempora expedita.</p>
+                  </div>
+                </li>
+                <li class="orbit-slide">
+                  <div class="fondo-azul">
+                    <h4 class="text-center">2: You can also throw some text in here!</h4>
+                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam. Rerum ratione, delectus atque tempore sed, suscipit ullam, beatae distinctio cupiditate ipsam eligendi tempora expedita.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="column medium-6" id="img-slider">
+            <img src="img/planeacion-y-diseno.jpg" alt="">
+          </div>
+        </div>
+        <div class="" id="iconos-temas">
+          <div class="row align-spaced">
+              <div class="column">
+                <a href="#"><img src="img/planeacion-y-diseno-02.png" onmouseover="this.src='img/planeacion-y-diseno-01.png';" onmouseout="this.src='img/planeacion-y-diseno-02.png';" alt=""></a>
+              </div>
+              <div class="column">
+                <a href="#"><img src="img/la-ciudad-02.png" onmouseover="this.src='img/la-ciudad-01.png';" onmouseout="this.src='img/la-ciudad-02.png';" alt=""></a>
+              </div>
+              <div class="column">
+                <a href="#"><img src="img/uso-del-espacio-publico-02.png" onmouseover="this.src='img/uso-del-espacio-publico-01.png';" onmouseout="this.src='img/uso-del-espacio-publico-02.png';" alt=""></a>
+              </div>
+              <div class="column">
+                <a href="#"><img src="img/salud-y-medio-ambiente-02.png" onmouseover="this.src='img/salud-y-medio-ambiente-01.png';" onmouseout="this.src='img/salud-y-medio-ambiente-02.png';" alt=""></a>
+              </div>
+              <div class="column">
+                <a href="#"><img src="img/servicio-publico-02.png" onmouseover="this.src='img/servicio-publico-01.png';" onmouseout="this.src='img/servicio-publico-02.png';" alt=""></a>
+              </div>
+          </div>
+        </div>
+      </section>
 
-
-      <!-- Eventos - talleres -->
+      <!-- === Eventos - talleres === -->
+      <div class="row">
+        <div class="column medium-offset-8">
+          <h3 class="sub-2">ACTIVIDADES DESTACADAS</h3>
+        </div>
+      </div>
       <section id="eventos">
         <div class="row collapse">
           <div class="small-12 medium-6 column">
             <div div class=“orbit” data-orbit>
               <div class="orbit-container">
                 <div class="orbit-slide">
-                  <img class="orbit-image" src="img/conferencias-magistrales-congreso.jpg" data-src="" alt="Space">
+                  <img class="orbit-image" src="img/conferencias-magistrales-2.jpg" data-src="" alt="Space">
                   <figcaption class="text-inf">
                     <p class="subtitulo">Expertos en los espacios públicos</p>
                     <h3>Conferencias</h3>
@@ -255,17 +155,15 @@ session_start();
               </div>
             </div>
           </div>
-
         </div>
-      </section>
-      <!-- /Eventos - talleres -->
+      </section><!-- /Eventos - talleres -->
 
       <!--  Sección patrocinadores -->
       <section id="proveedores" data-margellan-target="proveedores">
         <div class="marcas-1">
-          <div class="row text-center">
-            <div class="column ">
-              <h3 class="">PRESENTADO POR</h3>
+          <div class="row">
+            <div class="column medium-offset-5">
+              <h3 class="sub-3">ORGANIZA</h3>
             </div>
           </div>
           <div class="row text-center">
@@ -275,7 +173,7 @@ session_start();
           </div>
         <div class="row">
           <div class="column text-center">
-            <h4>CON EL APOYO DE</h4>
+            <h4>PRESENTA</h4>
           </div>
         </div>
         <div class="row align-middle text-center apoyos">
@@ -290,8 +188,8 @@ session_start();
       <div class="marcas-2">
         <div class="row" id="patrocinadores">
           <div class="column text-center" >
-            <h3 class="">¿INTERESADO EN SER PATROCINADOR/EXPOSITOR?</h3>
-            <h4>PATROCINADORES</h4>
+            <h3 class=""><a href="#">¿INTERESADO EN SER PATROCINADOR/EXPOSITOR?</a></h3>
+            <h4>CON EL APOYO DE</h4>
           </div>
         </div>
         <div class="row align-middle text-center apoyos">
@@ -305,7 +203,13 @@ session_start();
         </div>
       </div>
       </section>
-      <!--  //Sección patrocinadores -->
+
+      <!--  Sección contacto -->
+      <div class="row">
+        <div class="column medium-offset-8">
+          <h3 class="sub-4">LUGAR Y CONTACTO</h3>
+        </div>
+      </div>
       <section id="contacto">
         <div class="row expanded">
           <div class="column medium-3 medium-offset-3 text-center">
@@ -317,13 +221,14 @@ session_start();
                 <i class="fi-mail"></i> info@anpr.org.mx
               </div>
               <span class="">
-                Si tienes dudas o comentarios ¡Contáctanos!
+                Si tienes dudas o comentarios<br> ¡Contáctanos!
               </span>
               <div>
                 <form id="form-contacto" action="" method="post">
                   <input type="text" name="nombre" value="" placeholder="NOMBRE">
                   <input type="email" name="email" value="" placeholder="CORREO">
                   <textarea name="mensaje" rows="2" cols="80" placeholder="MENSAJE"></textarea>
+                  <input type="submit" name="" value="ENVIAR" class="button small">
                 </form>
               </div>
             </div>
@@ -336,39 +241,49 @@ session_start();
       </section>
       <!--  Fin sección contacto-->
       <section id="boletos-contenedor">
-        <h3>INVERSION</h3>
+        <div class="row">
+          <div class="column medium-offset-9">
+            <h3 class="sub-5">INVERSION</h3>
+          </div>
+        </div>
         <div class="row">
           <div class="column small-10 medium-4">
             <ul class="pricing-table no-bullet text-center">
-                <li class="title">Estudiantes</li>
-                <li class="price">$350.00</li>
-                <li class="description">An awesome description</li>
-                <li>1 Database</li>
-                <li>5GB Storage</li>
-                <li>20 Users</li>
-                <li><a class="button" href="#">Buy Now</a></li>
+                <li class="title">General</li>
+                <li class="price">$3,900.00</li>
+                <li class="description">* Precio hasta el 1 de Agosto</li>
+                <li>Conferencias Magistrales <br><i class="fi-check"></i></li>
+                <li>Sesiones Educativas <br><i class="fi-check"></i></li>
+                <li>Expo <br><i class="fi-check"></i></li>
+                <li>Eventos Sociales <br><i class="fi-check"></i></li>
+                <li>Talleres <br><i class="fi-x"></i></li>
+                <li><a class="button" href="https://goo.gl/4DDkN9" target="_blank">VER MÁS</a></li>
               </ul>
           </div>
           <div class="column small-10 medium-4">
             <ul class="pricing-table no-bullet text-center">
                 <li class="title">Estudiantes</li>
-                <li class="price">$350.00</li>
-                <li class="description">An awesome description</li>
-                <li>1 Database</li>
-                <li>5GB Storage</li>
-                <li>20 Users</li>
-                <li><a class="button" href="#">Buy Now</a></li>
+                <li class="price">$1,500.00</li>
+                <li class="description">* Precio hasta el 1 de Febrero</li>
+                <li>Conferencias Magistrales <br><i class="fi-check"></i></li>
+                <li>Sesiones Educativas <br><i class="fi-check"></i></li>
+                <li>Expo <br><i class="fi-check"></i></li>
+                <li>Eventos Sociales <br><i class="fi-x"></i></li>
+                <li>Talleres <br><i class="fi-x"></i></li>
+                <li><a class="button" href="https://goo.gl/4DDkN9" target="_blank">VER MÁS</a></li>
               </ul>
           </div>
           <div class="column small-10 medium-4">
             <ul class="pricing-table no-bullet text-center">
-                <li class="title">Estudiantes</li>
-                <li class="price">$350.00</li>
-                <li class="description">An awesome description</li>
-                <li>1 Database</li>
-                <li>5GB Storage</li>
-                <li>20 Users</li>
-                <li><a class="button" href="#">Buy Now</a></li>
+                <li class="title">Expo</li>
+                <li class="price">$500.00</li>
+                <li class="description">* Precio para la expo durante los 3 días del evento</li>
+                <li>Conferencias Magistrales <br><i class="fi-x"></i></li>
+                <li>Sesiones Educativas <br><i class="fi-x"></i></li>
+                <li>Expo <br><i class="fi-check"></i></li>
+                <li>Eventos Sociales <br><i class="fi-x"></i></li>
+                <li>Talleres <br><i class="fi-x"></i></li>
+                <li><a class="button" href="https://goo.gl/4DDkN9" target="_blank">VER MÁS</a></li>
               </ul>
           </div>
         </div>
@@ -402,105 +317,14 @@ session_start();
       </div>
     </section>
     <!-- //Registro Boletín  -->
-      <!--sección de redes sociales-->
-      <section id="redes-sociales">
-        <div class="row column align-center ">
-          <img src="img/facebook.png" alt="">
-          <img src="img/twitter.png" alt="">
-          <img src="img/instagram.png" alt="">
-          <img src="img/youtobe.png" alt="">
-        </div>
-      </section>
-      <!--fin redes sociales-->
-      <!--   footer  -->
-      <footer>
-        <div class="row align-justify text-center">
-          <div class="column small-6 medium-3 small-order-1 medium-order-1">
-            <img src="img/congreso-parques-logo-gris.png" alt="">
-          </div>
-          <div class="column small-12 medium-6 small-order-3 medium-order-2">
-            <h5>CONFERENCIA INTERNACIONAL DE PARQUES URBANOS</h5>
-            <h4>25 AL 27 DE ABRIL 2018 - MÉRIDA, YUCATÁN, MÉXICO</h4>
-            <h6>Presentado por La Asociación Nacional de Parques y Recreación México.</h6>
-          </div>
-          <div class="column small-6 medium-3 small-order-2 medium-order-3">
-            <img src="img/parques-urbanos-logo-anpr.png" alt="">
-          </div>
-        </div>
-        <!-- Ménu footer -->
-        <div class="row" id="menu-footer">
-          <div class="column">
-            <ul class="menu vertical ">
-              <li class="menu-text">contáctenos</a></li>
-              <li><a href="#">términos de uso</a></li>
-              <li><a href="#">política de privacidad</a></li>
-              <li><a href="#">siga a ANPR</a></li>
-
-              <li><a href="#">#CONGRESOPARQUES</a></li>
-            </ul>
-          </div>
-          <div class="column ">
-            <ul class="menu vertical">
-              <li class="menu-text">conferencia</a></li>
-              <li><a href="">programa a la vista</a></li>
-              <li><a href="">programa completo</a></li>
-              <li><a href="">talleres</a></li>
-              <li><a href="">patrocinadores y socios</a></li>
-              <li><a href="">expositores</a></li>
-              <li><a href="">congreso 2019</a></li>
-            </ul>
-          </div>
-          <div class="column">
-            <ul class="menu vertical">
-              <li class="menu-text">Mérida</li>
-              <li><a href="">La ciudad Blanca</a></li>
-              <li><a href="">actividades locales</a></li>
-              <li><a href="">Hotel sede</a></li>
-              <li><a href="">Transportación</a></li>
-              <li><a href="">Turismo en mérida</a></li>
-            </ul>
-          </div>
-          <div class="column">
-            <ul class="menu vertical">
-              <li class="menu-text">Registro</a></li>
-              <li><a href="">Tipos de registro</a></li>
-              <li><a href="">Precios</a></li>
-            </ul>
-          </div>
-          <div class="column">
-            <ul class="menu vertical">
-              <li class="menu-text">Acerca de</a></li>
-              <li><a href="">ANPR</a></li>
-              <li><a href="">¿Por qué participar?</a></li>
-              <li><a href="">Parques de México</a></li>
-              <li><a href="">Parques Alegres</a></li>
-              <li><a href="">Preguntas Frecuentes</a></li>
-            </ul>
-          </div>
-        </div>
-          <!-- //Ménu footer -->
-      </footer>
-      <div class="row column expanded align-center" id="pie">
-        <p>© 2017 Asociación Nacional de Parques y Recreación</p>
+    <!--sección de redes sociales-->
+    <section id="redes-sociales">
+      <div class="row column align-center ">
+        <img src="img/facebook.png" alt="">
+        <img src="img/twitter.png" alt="">
+        <img src="img/instagram.png" alt="">
+        <img src="img/youtobe.png" alt="">
       </div>
-    </div>
+    </section><!--fin redes sociales-->
 
-  </div>
-</div>
-
-
-  <!--   /footer  -->
-    <!-- cdn de belazy para la carga de imagenes-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.8.2/blazy.min.js"></script>
-
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
-    <script type="text/javascript">
-    var bLazy = new Blazy({
-      selector:'img'
-      });
-      </script>
-  </body>
-</html>
+<?php include'assets/footer.php'; ?>
