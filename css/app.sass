@@ -55,7 +55,7 @@ h3,h4, h5,h6
   font-family: "bold"
   letter-spacing: 0.1em
 .menu li a
-  line-height: 1.15em
+  line-height: 1.21em
 #encabezado
   background-color: #ffffff
   font-size: 1em
@@ -87,13 +87,6 @@ h3,h4, h5,h6
   height: 20px
   margin-bottom: 5px
 
-
-
-header .callout, footer
-  color:white
-  background: -webkit-linear-gradient( right, $morado, $rosado)
-  background: -moz-linear-gradient( right, $morado, $rosado)
-  background: -o-linear-gradient( right, $morado, $rosado)
 #submenu-principal, .sub-menu-central
   border: 0
 #submenu-principal li a
@@ -125,7 +118,7 @@ header .callout, footer
   margin-bottom: 1em
 // ===== Temas =======
 #temas-slider
-  height: 20em
+  height: 320px
 .fondo-verde
   background: #80aa5c
 .fondo-azul
@@ -151,6 +144,7 @@ header .callout, footer
   min-width: 100%
   min-height: 100%
   padding: 0
+  margin: 0
 // ==== sección actividades ====
 #eventos
   background: #019e57
@@ -433,13 +427,49 @@ li .redes-sociales
   background-color: $verde
   text-transform: uppercase
   font-size:
-
 #off-canvas .is-drilldown-submenu-parent > a::after
       border-color: transparent transparent transparent $morado
 #off-canvas .js-drilldown-back > a::before
-  border-color: transparent $morado transparent transparent;
+  border-color: transparent $morado transparent transparent
 
-// dispositivos moviles
+//====================  péginas  ====================================
+.header
+  background-repeat: no-repeat
+  background-position: center center
+  height: 200px
+  margin: 0
+.header-participar
+    background-image: url('../img/header-1.1.jpg')
+.header-magistrales
+  background-image: url('../img/header-1.3.jpg')
+main
+  margin-bottom: 1.876em
+  font-family: "avenir"
+  color: #555555
+main h3
+  color: white
+  font-family: "avenir bold"
+  vertical-align: middle
+  letter-spacing: 0.105em
+  padding-top: 2.5em
+main .contenido
+  margin-top: 2.265em
+main p
+  text-align: justify
+main .contenido ul li
+  text-align: justify
+  margin-left: 0.438em
+.letra-capital
+  font-size: 150%
+
+//====== Conferencias magistrales ======
+.contenido-magistrales h4
+  background: #009d96
+  color: white
+.contenido-magistrales .verde h4
+  background: #8cb81f
+  color: white
+//================== dispositivos moviles ================================
 
 @media screen and (max-width: 800px)
   #patrocinadores h3

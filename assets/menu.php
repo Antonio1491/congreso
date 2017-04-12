@@ -68,7 +68,7 @@
                 <li><a href="#">congreso</a>
                   <ul class="menu sub-menu-central">
                     <li><a href="participar.php">¿por qué participar?</a></li>
-                    <li><a href="">Programa a la vista</a></li>
+                    <li><a href="conferencias.php">Conferencias magistrales</a></li>
                     <li><a href="">Programa Completo</a></li>
                     <li><a href="">Talleres</a></li>
                     <li><a href="">Patrocinadores y socios</a></li>
