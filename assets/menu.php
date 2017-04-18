@@ -68,17 +68,18 @@
                 <li><a href="#">congreso</a>
                   <ul class="menu sub-menu-central">
                     <li><a href="participar.php">¿por qué participar?</a></li>
+                    <li><a href="tematicas.php">Temáticas</a></li>
                     <li><a href="conferencias.php">Conferencias magistrales</a></li>
-                    <li><a href="">Programa Completo</a></li>
-                    <li><a href="">Talleres</a></li>
+                    <li><a href="talleres.php">Talleres</a></li>
                     <li><a href="">Patrocinadores y socios</a></li>
                     <li><a href="">Expositores</a></li>
+                    <li><a href="">Programa Completo</a></li>
                     <li><a href="">Congreso 2019</a></li>
                   </ul>
                 </li>
                 <li><a href="#">mérida yucatán</a>
                   <ul class="menu  sub-menu-central">
-                    <li><a href="">La ciudad Blanca</a></li>
+                    <li><a href="ciudad-blanca.php">La ciudad Blanca</a></li>
                     <li><a href="">Actividades locales</a></li>
                     <li><a href="">Hotel sede</a></li>
                     <li><a href="">Trasnsportación</a></li>
