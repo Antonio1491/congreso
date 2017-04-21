@@ -63,7 +63,7 @@ session_start();
         <img src="img/malecon-progreso.png" alt="">
       </div>
       <div class="column medium-5 contenido-talleres ">
-        <h4 class="text-center">MALECÓN DE CONGRESO</h4>
+        <h4 class="text-center">MALECÓN DE PROGRESO</h4>
         <h6 class="text-center">Ayuntamiento Progreso</h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue velit quis eleifend viverra. </p>
       </div>

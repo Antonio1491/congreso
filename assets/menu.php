@@ -80,16 +80,17 @@
                 <li><a href="#">mérida yucatán</a>
                   <ul class="menu  sub-menu-central">
                     <li><a href="ciudad-blanca.php">La ciudad Blanca</a></li>
-                    <li><a href="">Actividades locales</a></li>
-                    <li><a href="">Hotel sede</a></li>
-                    <li><a href="">Trasnsportación</a></li>
-                    <li><a href="">Turismo en Mérida</a></li>
+                    <li><a href="http://www.merida.gob.mx/municipio/sitiosphp/merida/eventos.phpx" target="_blank">Actividades locales</a></li>
+                    <li><a href="hoteles.php">Hospedajes</a></li>
+                    <li><a href="transportacion.php">Trasnsportación</a></li>
+                    <li><a href="http://www.merida.gob.mx/capitalcultural/" target="_blank">Turismo en Mérida</a></li>
                   </ul>
                 </li>
-                <li><a href="#">registro</a>
+                <li><a href="#">Registro</a>
                   <ul class="menu  sub-menu-central">
                     <li><a href="">Tipos de Registro</a></li>
                     <li><a href="">Precios</a></li>
+                    <li><a href="">Preguntas frecuentes</a></li>
                   </ul>
                 </li>
               </ul>

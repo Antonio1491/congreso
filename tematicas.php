@@ -13,7 +13,7 @@ session_start();
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La Ciudad Blanca</title>
+    <title>Temáticas</title>
     <link rel="stylesheet" href="icons/foundation-icons.css">
     <link rel="stylesheet" href="css/foundation-flex.css">
     <link type="text/css" href="css/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
@@ -60,7 +60,7 @@ session_start();
       </div>
       <div class="row fila-espacio">
         <div class="column medium-6">
-          <img src="img/usos-del-espacio-publico.png" alt="">
+          <img src="img/economia.png" alt="">
         </div>
         <div class="column medium-6 economia">
           <h4>Economía y Usos del Espacio Público</h4>

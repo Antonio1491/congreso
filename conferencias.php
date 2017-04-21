@@ -31,6 +31,10 @@ session_start();
       </div>
     </div>
     <div class="row contenido">
+      <p><span class="letra-capital">L</span>as Conferencias Magistrales serán el momento en el que todos los
+        asistentes al congreso se reunirán en una misma sala para escuchar
+        hablar a nuestros expertos sobre los parques urbanos y temas de interés
+        común para nuestras ciudades. </p>
       <div class="column medium-2">
         <img src="img/1.png" alt="">
       </div>
@@ -63,6 +67,42 @@ session_start();
       <div class="column medium-4 contenido-magistrales ">
         <h4 class="text-center">Espacio público</h4>
         <h6 class="text-center">Barbara Tulipane</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue velit quis eleifend viverra. </p>
+      </div>
+    </div>
+    <div class="row fila-espacio">
+      <div class="column medium-2">
+        <img src="img/amanda-burden.png" alt="">
+      </div>
+      <div class="column medium-4 contenido-magistrales ">
+        <h4 class="text-center">Espacio público</h4>
+        <h6 class="text-center">Amanda Burden</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue velit quis eleifend viverra. </p>
+      </div>
+      <div class="column medium-2">
+        <img src="img/guillermo-penalosa.png" alt="">
+      </div>
+      <div class="column medium-4 contenido-magistrales ">
+        <h4 class="text-center">Espacio público</h4>
+        <h6 class="text-center">Guillermo Peñalosa</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue velit quis eleifend viverra. </p>
+      </div>
+    </div>
+    <div class="row fila-espacio">
+      <div class="column medium-2">
+        <img src="img/tom.png" alt="">
+      </div>
+      <div class="column medium-4 contenido-magistrales ">
+        <h4 class="text-center">Espacio público</h4>
+        <h6 class="text-center">Tom O-Rourke</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue velit quis eleifend viverra. </p>
+      </div>
+      <div class="column medium-2">
+        <img src="img/marinela-servitje.png" alt="">
+      </div>
+      <div class="column medium-4 contenido-magistrales ">
+        <h4 class="text-center">Espacio público</h4>
+        <h6 class="text-center">Marinela Servitje</h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue velit quis eleifend viverra. </p>
       </div>
     </div>

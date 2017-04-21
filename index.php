@@ -22,18 +22,15 @@ session_start();
 <body onload="countdown('contador')">
 <?php include'assets/menu.php'; ?>
       <!--=====  portada/video  ====-->
-      <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
-        <ul class="orbit-container" style="max-height:70vh">
-          <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
-          <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
-          <li class="is-active orbit-slide">
-            <img class="orbit-image" src="img/slider.jpg" alt="Space">
-          </li>
-        </ul>
+      <div  style="max-height:70vh" >
+          <video  autoplay loop poster="posterimage.jpg" style="max-height:vh; min-width:100vw; -moz-z-index:-10; -webkit-z-index:-10">
+            <source src="video/loop.mp4" type="video/mp4">
+            <source src="videos/loop.webm" type="video/webm">
+          </video>
       </div><!-- Fin Portada -->
 
       <!-- ======  Barra y título temas  =====-->
-      <div class="row expanded align-middle align-justify" id="barra">
+      <div class="row expanded align-middle align-justify" id="barra" style="-moz-z-index:10; -webkit-z-index:10;">
         <div class="colum medium-6">
           <img src="img/barra.png" alt="">
         </div>
@@ -188,7 +185,7 @@ session_start();
       <div class="marcas-2">
         <div class="row" id="patrocinadores">
           <div class="column text-center" >
-            <h3 class=""><a href="#">¿INTERESADO EN SER PATROCINADOR/EXPOSITOR?</a></h3>
+            <h3 class=""><a href="#">DIRECTORIO PATROCINADORES</a></h3>
             <h4>CON EL APOYO DE</h4>
           </div>
         </div>

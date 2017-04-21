@@ -37,8 +37,14 @@ session_start();
         que da la bienvenida a todo aquel que la visita. Todas sus calles y esquinas están
         llenas de historias y testigos del paso del tiempo y su arquitectura como muestra de
         nuestro pasado colonial.</p>
+        <p>La revista Forbes la nombró como una de las tres mejores ciudades de México para vivir, y con las mejores alternativas para invertir y hacer negocios.</p>
+        <p>El periódico español El País, la eligió como una de las 10 ciudades para darle la bienvenida a 2017.</p>
+        <p>Lonely Planet, una destacada publicación internacional materia turística, calificó a la ciudad como una de las más atractivas internacionalmente.</p>
     </div>
   </article>
+  <div class="responsive-embed widescreen">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/w4kxTTyH7yw" frameborder="0" allowfullscreen></iframe>
+  </div>
 </main>
 
 <?php include'assets/footer.php'; ?>
