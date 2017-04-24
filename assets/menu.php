@@ -42,10 +42,10 @@
           </div>
           <div class="colum">
             <div id="redes-header" class="text-center">
-              <img src="img/facebook.png" alt="">
-              <img src="img/twitter.png" alt="">
-              <img src="img/instagram.png" alt="">
-              <img src="img/youtobe.png" alt="">
+              <a href="https://www.facebook.com/Congreso-Internacional-de-Parques-Urbanos-433605833658855/" target="_blank"><img src="img/facebook.png" alt=""></a>
+              <a href="https://twitter.com/congreso_parque" target="_blank"><img src="img/twitter.png" alt=""></a>
+              <a href="https://www.instagram.com/congreso_parques/" target="_blank"><img src="img/instagram.png" alt=""></a>
+              <a href="#"><img src="img/youtobe.png" alt=""></a>
             </div>
             <div class="contador">
               <h5>ABRIL 25-27</h5>
@@ -74,6 +74,7 @@
                     <li><a href="">Patrocinadores y socios</a></li>
                     <li><a href="">Expositores</a></li>
                     <li><a href="">Programa Completo</a></li>
+                    <li><a href="preguntas.php">Preguntas frecuentes</a></li>
                     <li><a href="">Congreso 2019</a></li>
                   </ul>
                 </li>
@@ -81,8 +82,8 @@
                   <ul class="menu  sub-menu-central">
                     <li><a href="ciudad-blanca.php">La ciudad Blanca</a></li>
                     <li><a href="http://www.merida.gob.mx/municipio/sitiosphp/merida/eventos.phpx" target="_blank">Actividades locales</a></li>
-                    <li><a href="hoteles.php">Hospedajes</a></li>
-                    <li><a href="transportacion.php">Trasnsportación</a></li>
+                    <li><a href="hospedajes.php">Hospedaje</a></li>
+                    <li><a href="conectividad.php">Conectividad</a></li>
                     <li><a href="http://www.merida.gob.mx/capitalcultural/" target="_blank">Turismo en Mérida</a></li>
                   </ul>
                 </li>
@@ -90,7 +91,6 @@
                   <ul class="menu  sub-menu-central">
                     <li><a href="">Tipos de Registro</a></li>
                     <li><a href="">Precios</a></li>
-                    <li><a href="">Preguntas frecuentes</a></li>
                   </ul>
                 </li>
               </ul>

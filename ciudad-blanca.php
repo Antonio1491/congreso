@@ -31,19 +31,21 @@ session_start();
       </div>
     </div>
     <div class="row contenido">
-      <p><span class="letra-capital">L</span>a Ciudad de Mérida de Yucatán fue fundada el 6 de Enero de 1542 por el Español
-        Francisco de Montejo y León "El Mozo", donde se encontraba la antigua Ciudad Maya T'Hó. </p>
-      <p>Mérida se posiciona como una ciudad llena de cultura y tradiciones con gente encantadora
+      <p><span class="letra-capital">L</span>a Ciudad de Mérida Yucatán fue fundada el 6 de Enero de 1542 por el Español
+        Francisco de Montejo y León "El Mozo", donde se encontraba la antigua Ciudad Maya T'Hó. </br>
+      Mérida se posiciona como una ciudad llena de cultura y tradiciones con gente encantadora
         que da la bienvenida a todo aquel que la visita. Todas sus calles y esquinas están
         llenas de historias y testigos del paso del tiempo y su arquitectura como muestra de
-        nuestro pasado colonial.</p>
-        <p>La revista Forbes la nombró como una de las tres mejores ciudades de México para vivir, y con las mejores alternativas para invertir y hacer negocios.</p>
-        <p>El periódico español El País, la eligió como una de las 10 ciudades para darle la bienvenida a 2017.</p>
+        nuestro pasado colonial.</br>
+        La revista Forbes la nombró como una de las tres mejores ciudades de México para vivir, y con las mejores alternativas para invertir y hacer negocios.
+        El periódico español El País, la eligió como una de las 10 ciudades para darle la bienvenida a 2017.</p>
         <p>Lonely Planet, una destacada publicación internacional materia turística, calificó a la ciudad como una de las más atractivas internacionalmente.</p>
     </div>
   </article>
-  <div class="responsive-embed widescreen">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/w4kxTTyH7yw" frameborder="0" allowfullscreen></iframe>
+  <div class="row">
+    <div class="responsive-embed">
+      <iframe width="420" height="315" src="https://www.youtube.com/embed/w4kxTTyH7yw" frameborder="0" allowfullscreen></iframe>
+    </div>
   </div>
 </main>
 

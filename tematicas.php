@@ -21,7 +21,7 @@ session_start();
 </head>
 <body onload="countdown('contador')">
 <?php include'assets/menu.php'; ?>
-<main>
+<main class="back-2">
   <article class="">
     <div class=" header header-tematicas">
       <div class="row align-middle">
@@ -90,7 +90,7 @@ session_start();
           <img src="img/participacion-ciudadana.png" alt="">
         </div>
         <div class="column medium-6 servicio-publico">
-          <h4>Servicio Público y participación Ciudadana</h4>
+          <h4>Servicio Público y Participación Ciudadana</h4>
           <p>Los parques necesitan servidores públicos comprometidos con
             el espacio público, con las mejores prácticas para su
             implementación y sostenimiento en conjunto con la ciudadanía,

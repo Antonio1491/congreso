@@ -21,7 +21,7 @@ session_start();
 </head>
 <body onload="countdown('contador')">
 <?php include'assets/menu.php'; ?>
-<main>
+<main class="back-1">
   <article class="">
     <div class=" header header-magistrales">
       <div class="row align-middle">
@@ -31,10 +31,13 @@ session_start();
       </div>
     </div>
     <div class="row contenido">
-      <p><span class="letra-capital">L</span>as Conferencias Magistrales serán el momento en el que todos los
-        asistentes al congreso se reunirán en una misma sala para escuchar
-        hablar a nuestros expertos sobre los parques urbanos y temas de interés
-        común para nuestras ciudades. </p>
+      <div class="row">
+        <p><span class="letra-capital">L</span>as Conferencias Magistrales serán el momento en el que todos los
+          asistentes al congreso se reunirán en una misma sala para escuchar
+          hablar a nuestros expertos sobre los parques urbanos y temas de interés
+          común para nuestras ciudades. </p>
+      </div>
+      <div class="row fila-espacio">
       <div class="column medium-2">
         <img src="img/1.png" alt="">
       </div>
@@ -51,6 +54,7 @@ session_start();
         <h6 class="text-center">Mario Shejtan</h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue velit quis eleifend viverra. </p>
       </div>
+
     </div>
     <div class="row fila-espacio">
       <div class="column medium-2">

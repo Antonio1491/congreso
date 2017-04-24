@@ -22,8 +22,8 @@ session_start();
 <body onload="countdown('contador')">
 <?php include'assets/menu.php'; ?>
       <!--=====  portada/video  ====-->
-      <div  style="max-height:70vh" >
-          <video  autoplay loop poster="posterimage.jpg" style="max-height:vh; min-width:100vw; -moz-z-index:-10; -webkit-z-index:-10">
+      <div id="video">
+          <video  autoplay loop poster="posterimage.jpg">
             <source src="video/loop.mp4" type="video/mp4">
             <source src="videos/loop.webm" type="video/webm">
           </video>
@@ -53,7 +53,25 @@ session_start();
                   </div>
                 </li>
                 <li class="orbit-slide">
+                  <div class="fondo-acuamarina">
+                    <h4 class="text-center">2: You can also throw some text in here!</h4>
+                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam. Rerum ratione, delectus atque tempore sed, suscipit ullam, beatae distinctio cupiditate ipsam eligendi tempora expedita.</p>
+                  </div>
+                </li>
+                <li class="orbit-slide">
                   <div class="fondo-azul">
+                    <h4 class="text-center">2: You can also throw some text in here!</h4>
+                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam. Rerum ratione, delectus atque tempore sed, suscipit ullam, beatae distinctio cupiditate ipsam eligendi tempora expedita.</p>
+                  </div>
+                </li>
+                <li class="orbit-slide">
+                  <div class="fondo-azulmarino">
+                    <h4 class="text-center">2: You can also throw some text in here!</h4>
+                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam. Rerum ratione, delectus atque tempore sed, suscipit ullam, beatae distinctio cupiditate ipsam eligendi tempora expedita.</p>
+                  </div>
+                </li>
+                <li class="orbit-slide">
+                  <div class="fondo-rosado">
                     <h4 class="text-center">2: You can also throw some text in here!</h4>
                     <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam. Rerum ratione, delectus atque tempore sed, suscipit ullam, beatae distinctio cupiditate ipsam eligendi tempora expedita.</p>
                   </div>
@@ -68,19 +86,19 @@ session_start();
         <div class="" id="iconos-temas">
           <div class="row align-spaced">
               <div class="column">
-                <a href="#"><img src="img/planeacion-y-diseno-02.png" onmouseover="this.src='img/planeacion-y-diseno-01.png';" onmouseout="this.src='img/planeacion-y-diseno-02.png';" alt=""></a>
+                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Diseño y Planeación"><a href="#"><img src="img/planeacion-y-diseno-02.png" onmouseover="this.src='img/planeacion-y-diseno-01.png';" onmouseout="this.src='img/planeacion-y-diseno-02.png';" alt=""></a></span>
               </div>
               <div class="column">
-                <a href="#"><img src="img/la-ciudad-02.png" onmouseover="this.src='img/la-ciudad-01.png';" onmouseout="this.src='img/la-ciudad-02.png';" alt=""></a>
+                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="La Ciudad"><a href="#"><img src="img/la-ciudad-02.png" onmouseover="this.src='img/la-ciudad-01.png';" onmouseout="this.src='img/la-ciudad-02.png';" alt=""></a></span>
               </div>
               <div class="column">
-                <a href="#"><img src="img/uso-del-espacio-publico-02.png" onmouseover="this.src='img/uso-del-espacio-publico-01.png';" onmouseout="this.src='img/uso-del-espacio-publico-02.png';" alt=""></a>
+                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Economía y Usos del Espacio Público"><a href="#"><img src="img/uso-del-espacio-publico-02.png" onmouseover="this.src='img/uso-del-espacio-publico-01.png';" onmouseout="this.src='img/uso-del-espacio-publico-02.png';" alt=""></a></span>
               </div>
               <div class="column">
-                <a href="#"><img src="img/salud-y-medio-ambiente-02.png" onmouseover="this.src='img/salud-y-medio-ambiente-01.png';" onmouseout="this.src='img/salud-y-medio-ambiente-02.png';" alt=""></a>
+                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Salud y Medio Ambiente"><a href="#"><img src="img/salud-y-medio-ambiente-02.png" onmouseover="this.src='img/salud-y-medio-ambiente-01.png';" onmouseout="this.src='img/salud-y-medio-ambiente-02.png';" alt=""></a></span>
               </div>
               <div class="column">
-                <a href="#"><img src="img/servicio-publico-02.png" onmouseover="this.src='img/servicio-publico-01.png';" onmouseout="this.src='img/servicio-publico-02.png';" alt=""></a>
+                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Servicio Público y Participación Ciudadana"><a href="#"><img src="img/servicio-publico-02.png" onmouseover="this.src='img/servicio-publico-01.png';" onmouseout="this.src='img/servicio-publico-02.png';" alt=""></a>
               </div>
           </div>
         </div>
@@ -98,8 +116,9 @@ session_start();
             <div div class=“orbit” data-orbit>
               <div class="orbit-container">
                 <div class="orbit-slide">
-                  <img class="orbit-image" src="img/conferencias-magistrales-2.jpg" data-src="" alt="Space">
-                  <figcaption class="text-inf">
+
+                  <img class="orbit-image" src="img/conferencias-magistrales.jpg" onmouseover="this.src='img/conferencias-magistrales-2.png';" onmouseout="this.src='img/conferencias-magistrales.jpg';" data-src="" alt="Space">
+                    <figcaption class="text-inf">
                     <p class="subtitulo">Expertos en los espacios públicos</p>
                     <h3>Conferencias</h3>
                     <p>Descripción</p>
@@ -115,7 +134,7 @@ session_start();
                   <img class="orbit-image" src="img/conferencias-educativas.jpg" alt="Space">
                   <figcaption class="text-inf">
                     <p class="subtitulo">Expertos en los espacios públicos</p>
-                    <h3>Visitas</h3>
+                    <h3>Sesiones educativas</h3>
                     <p>Descripción</p>
                    </figcaption>
                 </div>
@@ -139,13 +158,13 @@ session_start();
             </div>
           </div>
           <div class="small-12 medium-6 column">
-            <div div class=“orbit” data-orbit>
+            <div div class="orbit" data-orbit>
               <div class="orbit-container">
                 <div class="orbit-slide">
                   <img class="orbit-image" src="img/eventos-sociales.jpg" alt="Space">
                   <figcaption class="text-inf">
                     <p class="subtitulo">Expertos en los espacios públicos</p>
-                    <h3>Actividades</h3>
+                    <h3>Eventos Sociales</h3>
                     <p>Descripción</p>
                    </figcaption>
                 </div>
@@ -154,7 +173,6 @@ session_start();
           </div>
         </div>
       </section><!-- /Eventos - talleres -->
-
       <!--  Sección patrocinadores -->
       <section id="proveedores" data-margellan-target="proveedores">
         <div class="marcas-1">
@@ -165,7 +183,7 @@ session_start();
           </div>
           <div class="row text-center">
             <div class="column ">
-              <img src="img/anpr-web.png" alt="">
+              <a href="http://www.anpr.org.mx/" target="_blank"><img src="img/anpr-web.png" alt=""></a>
             </div>
           </div>
         <div class="row">
@@ -175,10 +193,10 @@ session_start();
         </div>
         <div class="row align-middle text-center apoyos">
           <div class="column">
-            <img src="img/parques-de-mexico-logo.png" alt="" class="img-patrocinador">
-            <img src="img/parques-alegres-logo.png" alt="" class="img-patrocinador">
-            <img src="img/sedatu-logo.png" alt="" class="img-patrocinador">
-            <img src="img/merida-logo.jpg" alt="" class="img-patrocinador">
+            <a href="" target="_blank"><img src="img/parques-de-mexico-logo.png" alt="" class="img-patrocinador"></a>
+            <a href="" target="_blank"><img src="img/parques-alegres-logo.png" alt="" class="img-patrocinador"></a>
+            <a href="" target="_blank"><img src="img/sedatu-logo.png" alt="" class="img-patrocinador"></a>
+            <a href="" target="_blank"><img src="img/merida-logo.jpg" alt="" class="img-patrocinador"></a>
           </div>
         </div>
       </div>
@@ -215,13 +233,13 @@ session_start();
               <h3>Mérida, Yucatán</h3>
               <div class="info-contacto">
                 <i class="fi-telephone"></i> 99944060
-                <i class="fi-mail"></i> info@anpr.org.mx
+                <i class="fi-mail"></i> info.congreso@anpr.org.mx
               </div>
               <span class="">
                 Si tienes dudas o comentarios<br> ¡Contáctanos!
               </span>
               <div>
-                <form id="form-contacto" action="" method="post">
+                <form id="form-contacto" action="https://formspree.io/info.congreso@anpr.org.mx" method="POST">
                   <input type="text" name="nombre" value="" placeholder="NOMBRE">
                   <input type="email" name="email" value="" placeholder="CORREO">
                   <textarea name="mensaje" rows="2" cols="80" placeholder="MENSAJE"></textarea>
@@ -240,7 +258,7 @@ session_start();
       <section id="boletos-contenedor">
         <div class="row">
           <div class="column medium-offset-9">
-            <h3 class="sub-5">INVERSION</h3>
+            <h3 class="sub-5">INVERSIÓN</h3>
           </div>
         </div>
         <div class="row">
@@ -290,7 +308,7 @@ session_start();
     <section id="registro">
       <h4 class="text-center">¡Mantente informado!</h4>
       <h6 class="text-center">Regístrate para obtener actualizaciones sobre descuentos para conferencias, promociones y noticias.</h6>
-      <form action="" method="">
+      <form >
         <div class="row align-justify formulario-1">
           <div class="column small-12 medium-3 small-order-1">
             <input type="text" class="">
@@ -305,7 +323,7 @@ session_start();
             <label for="" class="text-center">E-mail</label>
           </div>
           <div class="column small-12 medium-3 text-center small-order-4">
-            <input type="button" name="" id="registro-horizontal" class="button btn-morado" value="REGISTRATE">
+            <input type="button" name="" id="registro-horizontal" class="button btn-morado" value="REGÍSTRATE">
           </div>
         </div>
       </form>
@@ -317,9 +335,9 @@ session_start();
     <!--sección de redes sociales-->
     <section id="redes-sociales">
       <div class="row column align-center ">
-        <img src="img/facebook.png" alt="">
-        <img src="img/twitter.png" alt="">
-        <img src="img/instagram.png" alt="">
+        <a href="https://www.facebook.com/Congreso-Internacional-de-Parques-Urbanos-433605833658855/" target="_blank"><img src="img/facebook.png" alt=""></a>
+        <a href="https://twitter.com/congreso_parque" target="_blank"><img src="img/twitter.png" alt=""></a>
+        <a href="https://www.instagram.com/congreso_parques/" target="_blank"><img src="img/instagram.png" alt=""></a>
         <img src="img/youtobe.png" alt="">
       </div>
     </section><!--fin redes sociales-->

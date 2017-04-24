@@ -114,17 +114,40 @@ h3,h4, h5,h6
 .sub-menu-central li
   font-size: 10px
 
+.back-1
+  background: url("../img/fondo-5.png")
+  background-size: 10% 100%
+  background-repeat: no-repeat
+  background-position: left center
+.back-2
+  background: url("../img/fondo-4.png")
+  background-size: 10% 80%
+  background-repeat: no-repeat
+  background-position: right center
+//===== Video portada ========
+#video
+  overflow: hidden
+  height: 70vh
+  min-width: 100vw
+#video video
+ transform: translateY(-190px)
 #barra
   margin-bottom: 1em
 // ===== Temas =======
 #temas-slider
   height: 320px
 .fondo-verde
-  background: #80aa5c
+  background: #94c01f
+.fondo-acuamarina
+  background-color: #00a099
 .fondo-azul
-  background-color: #2893b0
-.fondo-verde, .fondo-azul
-  padding: 2.13em 8em
+  background-color: #05bbda
+.fondo-azulmarino
+  background-color: #2d2e82
+.fondo-rosado
+  background-color: #e61d73
+.fondo-verde, .fondo-acuamarina, .fondo-azul, .fondo-azulmarino, .fondo-rosado
+  padding: 3em 15em
   text-align: justify !important
   color: white
   min-height: 100%
@@ -148,16 +171,15 @@ h3,h4, h5,h6
 // ==== sección actividades ====
 #eventos
   background: #019e57
-  margin-top:
 #eventos .column:nth-child(even) figcaption
   text-align: right
   padding-right: 10%
   transition: .4s
-  transform: translateX(250px)
-  -webkit-transform: translateX(250px)
-  -moz-transform: translateX(250px)
+  transform: translateX(300px)
+  -webkit-transform: translateX(300px)
+  -moz-transform: translateX(300px)
   cursor: pointer
-  text-shadow: 0px 0px 8px #666666
+  text-shadow: 5px 5px 5px #666666
 
 #eventos .column:nth-child(even):hover figcaption
   transform: translateX(0px)
@@ -405,7 +427,6 @@ footer h4, footer h6, #menu-footer ul li a
   width: 100%
   color: white
 
-
 #menu-principal .dropdown.menu > li.is-dropdown-submenu-parent > a::after
       border-color: #b0bc46 transparent transparent
 .redes-sociales a img
@@ -505,20 +526,15 @@ main .contenido ul li
   padding-left: .5em
   color: white
   background: #b605a5
+// ======== La ciudad blanca ======
+#video-ciudad
+  max-height: 350px !important
 
-//======== Videos  =====
-.video-responsive-contenedor
-  position: relative
-  padding-top: 56.25%
-.video-responsive-src
-  position: absolute
-  left: 0
-  right: 0
-  top: 0
-  bottom: 0
-  width: 100%
-  height: 100%
-
+//======== Hoteles  =====
+.hoteles a
+  color: #aa1a86
+.hoteles a:hover
+  color: #8137d5
 //================== dispositivos moviles ================================
 
 @media screen and (max-width: 800px)

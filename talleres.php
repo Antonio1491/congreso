@@ -21,7 +21,7 @@ session_start();
 </head>
 <body onload="countdown('contador')">
 <?php include'assets/menu.php'; ?>
-<main>
+<main class="back-2">
   <article class="">
     <div class=" header header-talleres">
       <div class="row align-middle">
@@ -75,12 +75,12 @@ session_start();
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue velit quis eleifend viverra. </p>
       </div>
       <div class="column medium-3">
-        <img src="img/parques-hundidos.png" alt="">
+        <img src="img/placemaking.png" alt="">
       </div>
     </div>
     <div class="row fila-espacio">
       <div class="column medium-3">
-        <img src="img/malecon-progreso.png" alt="">
+        <img src="img/la-plancha.png" alt="">
       </div>
       <div class="column medium-5 contenido-talleres ">
         <h4 class="text-center">LA PLANCHA</h4>
@@ -95,12 +95,12 @@ session_start();
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue velit quis eleifend viverra. </p>
       </div>
       <div class="column medium-3">
-        <img src="img/parques-hundidos.png" alt="">
+        <img src="img/parques-lineales.png" alt="">
       </div>
     </div>
     <div class="row fila-espacio">
       <div class="column medium-3">
-        <img src="img/malecon-progreso.png" alt="">
+        <img src="img/parques-de-merida.png" alt="">
       </div>
       <div class="column medium-5 contenido-talleres ">
         <h4 class="text-center">PARQUES CON HISTORIA</h4>
@@ -115,12 +115,12 @@ session_start();
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue velit quis eleifend viverra. </p>
       </div>
       <div class="column medium-3">
-        <img src="img/parques-hundidos.png" alt="">
+        <img src="img/bici-ruta.png" alt="">
       </div>
     </div>
     <div class="row fila-espacio">
       <div class="column medium-3">
-        <img src="img/malecon-progreso.png" alt="">
+        <img src="img/huertos-hurbanos.png" alt="">
       </div>
       <div class="column medium-5 contenido-talleres ">
         <h4 class="text-center">HUERTOS URBANOS</h4>
