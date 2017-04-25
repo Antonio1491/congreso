@@ -20,8 +20,6 @@
           <li class="menu-text">contáctenos</a></li>
           <li><a href="#">términos de uso</a></li>
           <li><a href="#">política de privacidad</a></li>
-          <li><a href="#">siga a ANPR</a></li>
-
           <li><a href="#">#CONGRESOPARQUES</a></li>
         </ul>
       </div>

@@ -7,13 +7,13 @@
         <ul class="vertical menu" data-drilldown>
           <li><a href="#">conferencia</a>
             <ul class=" vertical menu sub-menu-central">
-              <li><a href="#">¿por qué participar?</a></li>
+
               <li><a href="">Programa a la vista</a></li>
               <li><a href="">Programa Completo</a></li>
               <li><a href="">Talleres</a></li>
               <li><a href="">Patrocinadores y socios</a></li>
               <li><a href="">Expositores</a></li>
-              <li><a href="">Congreso 2019</a></li>
+
             </ul>
           </li>
           <li><a href="#">mérida yucatán</a>
@@ -25,10 +25,11 @@
               <li><a href="">Turismo en Mérida</a></li>
             </ul>
           </li>
-          <li><a href="#">registro</a>
+          <li><a href="#">Acerca de</a>
             <ul class=" vertical menu  sub-menu-central">
-              <li><a href="">Tipos de Registro</a></li>
-              <li><a href="">Precios</a></li>
+              <li><a href="precios.php">Inscripción</a></li>
+              <li><a href="#">¿por qué participar?</a></li>
+                <li><a href="">Congreso 2019</a></li>
         </ul>
       </nav>
     </div>
@@ -67,15 +68,13 @@
               <ul class="menu align-spaced dropdown show-for-medium" id="" data-dropdown-menu>
                 <li><a href="#">congreso</a>
                   <ul class="menu sub-menu-central">
-                    <li><a href="participar.php">¿por qué participar?</a></li>
+                    <li><a href="patrocinadores.php">Patrocinadores y socios</a></li>
                     <li><a href="tematicas.php">Temáticas</a></li>
                     <li><a href="conferencias.php">Conferencias magistrales</a></li>
                     <li><a href="talleres.php">Talleres</a></li>
-                    <li><a href="">Patrocinadores y socios</a></li>
-                    <li><a href="">Expositores</a></li>
-                    <li><a href="">Programa Completo</a></li>
-                    <li><a href="preguntas.php">Preguntas frecuentes</a></li>
-                    <li><a href="">Congreso 2019</a></li>
+                    <li><a href="sesiones.php">Sesiones Educativas</a></li>
+                    <li><a href="programa.php">Programa Completo</a></li>
+                    <li><a href="expo.php">Expo Comercial Parques Urbanos</a></li>
                   </ul>
                 </li>
                 <li><a href="#">mérida yucatán</a>
@@ -87,10 +86,12 @@
                     <li><a href="http://www.merida.gob.mx/capitalcultural/" target="_blank">Turismo en Mérida</a></li>
                   </ul>
                 </li>
-                <li><a href="#">Registro</a>
+                <li><a href="#">Acerca de</a>
                   <ul class="menu  sub-menu-central">
-                    <li><a href="">Tipos de Registro</a></li>
-                    <li><a href="">Precios</a></li>
+                    <li><a href="precios.php">Inscripción</a></li>
+                    <li><a href="participar.php">¿por qué participar?</a></li>
+                    <li><a href="preguntas.php">Preguntas frecuentes</a></li>
+                    <li><a href="congreso-2019.php">Congreso 2019</a></li>
                   </ul>
                 </li>
               </ul>

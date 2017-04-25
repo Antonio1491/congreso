@@ -44,14 +44,14 @@ session_start();
       </div>
       <div class="column medium-5 contenido-talleres ">
         <h4 class="text-center">LOS BARRIOS DE MÉRIDA</h4>
-        <h6 class="text-center">UADY</h6>
+        <h6 class="text-center"></h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue velit quis eleifend viverra. </p>
       </div>
     </div>
     <div class="row fila-espacio">
       <div class="column medium-5 medium-offset-4 contenido-talleres ">
         <h4 class="text-center">PARQUES HUNDIDOS</h4>
-        <h6 class="text-center">Ayuntamiento Mérida</h6>
+        <h6 class="text-center"></h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue velit quis eleifend viverra. </p>
       </div>
       <div class="column medium-3">
@@ -64,14 +64,14 @@ session_start();
       </div>
       <div class="column medium-5 contenido-talleres ">
         <h4 class="text-center">MALECÓN DE PROGRESO</h4>
-        <h6 class="text-center">Ayuntamiento Progreso</h6>
+        <h6 class="text-center"></h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue velit quis eleifend viverra. </p>
       </div>
     </div>
     <div class="row fila-espacio">
       <div class="column medium-5 medium-offset-4 contenido-talleres ">
         <h4 class="text-center">PLACEMAKING</h4>
-        <h6 class="text-center">Lugares Públicos A.C.</h6>
+        <h6 class="text-center"></h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue velit quis eleifend viverra. </p>
       </div>
       <div class="column medium-3">
@@ -84,14 +84,14 @@ session_start();
       </div>
       <div class="column medium-5 contenido-talleres ">
         <h4 class="text-center">LA PLANCHA</h4>
-        <h6 class="text-center">GPLP A.C.</h6>
+        <h6 class="text-center"></h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue velit quis eleifend viverra. </p>
       </div>
     </div>
     <div class="row fila-espacio">
       <div class="column medium-5 medium-offset-4 contenido-talleres ">
         <h4 class="text-center">PARQUES LINEALES</h4>
-        <h6 class="text-center">COMEY</h6>
+        <h6 class="text-center"></h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue velit quis eleifend viverra. </p>
       </div>
       <div class="column medium-3">
@@ -104,14 +104,14 @@ session_start();
       </div>
       <div class="column medium-5 contenido-talleres ">
         <h4 class="text-center">PARQUES CON HISTORIA</h4>
-        <h6 class="text-center">Ayuntamiento Mérida</h6>
+        <h6 class="text-center"></h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue velit quis eleifend viverra. </p>
       </div>
     </div>
     <div class="row fila-espacio">
       <div class="column medium-5 medium-offset-4 contenido-talleres ">
         <h4 class="text-center">BICI-RUTA</h4>
-        <h6 class="text-center">Ayuntamiento Mérida</h6>
+        <h6 class="text-center"></h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue velit quis eleifend viverra. </p>
       </div>
       <div class="column medium-3">
@@ -124,7 +124,7 @@ session_start();
       </div>
       <div class="column medium-5 contenido-talleres ">
         <h4 class="text-center">HUERTOS URBANOS</h4>
-        <h6 class="text-center">Colectivo Milpa Kanankab</h6>
+        <h6 class="text-center"></h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue velit quis eleifend viverra. </p>
       </div>
     </div>
