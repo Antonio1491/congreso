@@ -21,7 +21,7 @@ session_start();
 </head>
 <body onload="countdown('contador')">
 <?php include'assets/menu.php'; ?>
-<main>
+<main class="back-1">
   <article class="">
     <div class=" header header-ciudad">
       <div class="row align-middle">

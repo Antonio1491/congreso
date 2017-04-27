@@ -2,7 +2,7 @@
 <footer>
   <div class="row align-justify text-center">
     <div class="column small-6 medium-3 small-order-1 medium-order-1">
-      <img src="img/congreso-parques-logo-gris.png" alt="">
+      <a href="participar.php"><img src="img/congreso-parques-logo-gris.png" alt=""></a>
     </div>
     <div class="column small-12 medium-6 small-order-3 medium-order-2">
       <h5>CONFERENCIA INTERNACIONAL DE PARQUES URBANOS</h5>
@@ -10,7 +10,7 @@
       <h6>Presentado por La Asociación Nacional de Parques y Recreación México.</h6>
     </div>
     <div class="column small-6 medium-3 small-order-2 medium-order-3">
-      <img src="img/parques-urbanos-logo-anpr.png" alt="">
+      <a href="http://anpr.org.mx/"><img src="img/parques-urbanos-logo-anpr.png" alt=""></a>
     </div>
   </div>
     <!-- Ménu footer -->
@@ -25,47 +25,41 @@
       </div>
       <div class="column ">
         <ul class="menu vertical">
-          <li class="menu-text">conferencia</a></li>
-          <li><a href="">programa a la vista</a></li>
-          <li><a href="">programa completo</a></li>
-          <li><a href="">talleres</a></li>
-          <li><a href="">patrocinadores y socios</a></li>
-          <li><a href="">expositores</a></li>
-          <li><a href="">congreso 2019</a></li>
+          <li class="menu-text">congreso</a></li>
+          <li><a href="patrocinadores.php">patrocinadores y socios</a></li>
+          <li><a href="tematicas.php">temáticas</a></li>
+          <li><a href="conferencias.php">conferencias magistrales</a></li>
+          <li><a href="talleres.php">talleres</a></li>
+          <li><a href="sesiones.php">sesiones educativas</a></li>
+          <li><a href="programa.php">programa completo</a></li>
+          <li><a href="expo.php">expo comercial parques urbanos</a></li>
         </ul>
       </div>
       <div class="column">
         <ul class="menu vertical">
-          <li class="menu-text">Mérida</li>
-          <li><a href="">La ciudad Blanca</a></li>
-          <li><a href="">actividades locales</a></li>
-          <li><a href="">Hotel sede</a></li>
-          <li><a href="">Transportación</a></li>
-          <li><a href="">Turismo en mérida</a></li>
-        </ul>
-      </div>
-      <div class="column">
-        <ul class="menu vertical">
-          <li class="menu-text">Registro</a></li>
-          <li><a href="">Tipos de registro</a></li>
-          <li><a href="">Precios</a></li>
+          <li class="menu-text">Mérida yucatán</li>
+          <li><a href="ciudad-blanca.php">La ciudad Blanca</a></li>
+          <li><a href="http://www.merida.gob.mx/municipio/sitiosphp/merida/eventos.phpx" target="_blank">actividades locales</a></li>
+          <li><a href="hospedajes.php">Hospedaje</a></li>
+          <li><a href="conectividad.php">conectividad</a></li>
+          <li><a href="http://www.merida.gob.mx/capitalcultural/">Turismo en mérida</a></li>
         </ul>
       </div>
       <div class="column">
         <ul class="menu vertical">
           <li class="menu-text">Acerca de</a></li>
-          <li><a href="">ANPR</a></li>
-          <li><a href="">¿Por qué participar?</a></li>
-          <li><a href="">Parques de México</a></li>
-          <li><a href="">Parques Alegres</a></li>
-          <li><a href="">Preguntas Frecuentes</a></li>
+          <li><a href="http://anpr.org.mx/" target="_blank">ANPR</a></li>
+          <li><a href="participar.php">¿Por qué participar?</a></li>
+          <li><a href="http://www.parquesdemexico.org/consultora/">Parques de México</a></li>
+          <li><a href="http://parquesalegres.org/" target="_blank">Parques Alegres</a></li>
+          <li><a href="preguntas.php">Preguntas Frecuentes</a></li>
         </ul>
       </div>
     </div>
       <!-- //Ménu footer -->
   </footer>
   <div class="row column expanded align-center" id="pie">
-    <p>© 2017 Asociación Nacional de Parques y Recreación</p>
+    <p><a href="http://anpr.org.mx/" target="_blank">© 2017 Asociación Nacional de Parques y Recreación</a></p>
   </div>
 </div>
 

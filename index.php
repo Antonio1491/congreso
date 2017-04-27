@@ -264,7 +264,7 @@ session_start();
         <div class="row">
           <div class="column small-10 medium-4">
             <ul class="pricing-table no-bullet text-center">
-                <li class="title">General</li>
+                <li class="title text-center">General</li>
                 <li class="price">$3,900.00</li>
                 <li class="description">* Precio hasta el 1 de Agosto</li>
                 <li>Conferencias Magistrales <br><i class="fi-check"></i></li>
