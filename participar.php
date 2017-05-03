@@ -17,6 +17,7 @@ session_start();
     <link rel="stylesheet" href="icons/foundation-icons.css">
     <link rel="stylesheet" href="css/foundation-flex.css">
     <link type="text/css" href="css/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body onload="countdown('contador')">
@@ -36,7 +37,7 @@ session_start();
         <p>Este evento impulsará a que profesionales de la industria de parques aumenten en número y conocimientos, para que amplíen sus negocios y desarrollen relaciones con otros asistentes.</p>
         <p>Si todavía no estás convencido de asistir a este congreso compartimos algunas de las razones por las que debes asistir:</p>
         <ul>
-          <li>El congreso contará con: 8 conferencias magistrales, 48 sesiones educativas y 8 talleres vivenciales.  </li>
+          <li>El congreso contará con: 8 <a href="conferencias.php">conferencias magistrales</a>, 48 <a href="sesiones.php">sesiones educativas</a> y 8 <a href="talleres.php">talleres vivenciales</a>.  </li>
           <li>Iniciarás relaciones duraderas con otros profesionales nacionales e internacionales con intereses e ideas similares.</li>
         </ul>
       </div>
@@ -45,7 +46,7 @@ session_start();
           <li>Serás parte del inicio del gran movimiento social de los parques en México. </li>
           <li>Aprenderás acerca de temas clave sobre los parques y la industria de recreación, con la oportunidad de especializarte en alguno de nuestros temas de sesiones educativas.</li>
           <li>Elige a que sesiones educativas asistir y obtén una certificación validando la participación y conocimientos adquiridos con un 80% de asistencia.</li>
-          <li>Obtén un año de membresía a la Asociación Nacional de Parques y Recreación incluida en tu cuota de registro. </li>
+          <li>Obtén un año de membresía a la <a href="http://anpr.org.mx/" target="_blank">Asociación Nacional de Parques y Recreación</a> incluida en tu cuota de registro. </li>
           <li>Conoce a la gran gama de proveedores de equipamiento de espacio público y haz negocios con ellos.</li>
           <li>Tendrás la oportunidad de conocer nuevos proyectos relacionados con el espacio público, además de conocer a algunos de los líderes en la industria. </li>
           <li>Eventos sociales en lugares atractivos de la ciudad. </li>

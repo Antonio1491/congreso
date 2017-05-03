@@ -17,6 +17,7 @@ session_start();
     <link rel="stylesheet" href="icons/foundation-icons.css">
     <link rel="stylesheet" href="css/foundation-flex.css">
     <link type="text/css" href="css/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body onload="countdown('contador')">
@@ -31,63 +32,51 @@ session_start();
       </div>
     </div>
     <div class="row contenido">
-      <div class="column medium-6 patrocinador">
-        <h6>Patrocinador Nombre</h6>
-        <div class="row">
-          <div class="column medium-8">
-            <span>Localidad:</span> Mérida, Yucatán</br>
-            <span>Dirección:</span> Col. Campestre</br>
-            <span>Tel:</span> (999) 9-44-40-60</br>
-            <span>Web:</span> <a href="#">www.parquesdemexico.org</a></br>
-          </div>
-          <div class="column medium-4">
-            <img src="img/marca-1.png" alt="">
-          </div>
-        </div>
-      </div>
-      <div class="column medium-6 patrocinador">
-        <h6>Patrocinador Nombre</h6>
-        <div class="row">
-          <div class="column medium-8">
-            <span>Localidad:</span> Mérida, Yucatán</br>
-            <span>Dirección:</span> Col. Campestre</br>
-            <span>Tel:</span> (999) 9-44-40-60</br>
-            <span>Web:</span> <a href="#">www.parquesdemexico.org</a></br>
-          </div>
-          <div class="column medium-4">
-            <img src="img/marca-1.png" alt="">
-          </div>
-        </div>
+      <div class="column patrocinador-oro">
+        <h4 class="text-center">ORO</h4>
       </div>
     </div>
-    <div class="row fila-espacio">
-      <div class="column medium-6 patrocinador">
-        <h6>Patrocinador Nombre</h6>
-        <div class="row">
-          <div class="column medium-8">
-            <span>Localidad:</span> Mérida, Yucatán</br>
-            <span>Dirección:</span> Col. Campestre</br>
-            <span>Tel:</span> (999) 9-44-40-60</br>
-            <span>Web:</span> <a href="#">www.parquesdemexico.org</a></br>
-          </div>
-          <div class="column medium-4">
-            <img src="img/marca-1.png" alt="">
-          </div>
-        </div>
+    <div class="row contenido-oro">
+      <div class="column medium-4">
+        <a href="#"><img src="img/marca-4.png" alt=""></a>
       </div>
-      <div class="column medium-6 patrocinador">
-        <h6>Patrocinador Nombre</h6>
-        <div class="row">
-          <div class="column medium-8">
-            <span>Localidad:</span> Mérida, Yucatán</br>
-            <span>Dirección:</span> Col. Campestre</br>
-            <span>Tel:</span> (999) 9-44-40-60</br>
-            <span>Web:</span> <a href="#">www.parquesdemexico.org</a></br>
-          </div>
-          <div class="column medium-4">
-            <img src="img/marca-1.png" alt="">
-          </div>
-        </div>
+      <div class="column medium-4">
+        <a href="#"><img src="img/marca-4.png" alt=""></a>
+      </div>
+      <div class="column medium-4">
+        <a href="#"><img src="img/marca-4.png" alt=""></a>
+      </div>
+    </div>
+    <div class="row contenido">
+      <div class="column patrocinador-plata">
+        <h4 class="text-center">PLATA</h4>
+      </div>
+    </div>
+    <div class="row contenido-plata">
+      <div class="column medium-4">
+        <a href="#"><img src="img/marca-3.png" alt=""></a>
+      </div>
+      <div class="column medium-4">
+        <a href="#"><img src="img/marca-3.png" alt=""></a>
+      </div>
+      <div class="column medium-4">
+        <a href="#"><img src="img/marca-3.png" alt=""></a>
+      </div>
+    </div>
+    <div class="row contenido">
+      <div class="column patrocinador-bronce">
+        <h4 class="text-center">BRONCE</h4>
+      </div>
+    </div>
+    <div class="row contenido-bronce">
+      <div class="column medium-4">
+        <a href="#"><img src="img/marca-5.png" alt=""></a>
+      </div>
+      <div class="column medium-4">
+        <a href="#"><img src="img/marca-5.png" alt=""></a>
+      </div>
+      <div class="column medium-4">
+        <a href="#"><img src="img/marca-5.png" alt=""></a>
       </div>
     </div>
   </article>

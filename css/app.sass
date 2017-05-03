@@ -20,13 +20,10 @@ $gris: #787878
   font-family: "avenir bold"
   src: url("../font/AvenirNextLTPro-Bold.ttf")
 @font-face
-  font-size: "avenir"
-  src: url("../font/AvenirNextLTPro-Regular.ttf")
-@font-face
   font-size: "avenir medium"
   src: url("../font/avenirltstd_medium.ttf")
-body
-  font-family: "ligera"
+body, main, article
+  font-family: "Roboto"
 h3,h4, h5,h6
   font-family: "general"
 .sub-1
@@ -124,7 +121,7 @@ h3,h4, h5,h6
   background-size: 10% 80%
   background-repeat: no-repeat
   background-position: right center
-//===== Video portada ========
+//==================== Video portada ================================
 #video
   overflow: hidden
   height: 70vh
@@ -133,7 +130,7 @@ h3,h4, h5,h6
  transform: translateY(-190px)
 #barra
   margin-bottom: 1em
-// ===== Temas =======
+// ======================= Temas =====================================
 #temas-slider
   height: 320px
 .fondo-verde
@@ -168,7 +165,7 @@ h3,h4, h5,h6
   min-height: 100%
   padding: 0
   margin: 0
-// ==== sección actividades ====
+// ============================== sección actividades ===========================
 #eventos
   background: #019e57
 #eventos .column:nth-child(even) figcaption
@@ -206,7 +203,7 @@ h3,h4, h5,h6
 .orbit-imagen:hover
  opacity: .5
 
-//==== Sección patrocinadores y proveedores ===
+//=============================== Sección patrocinadores y proveedores ======================
 #proveedores
   padding: 80px 0 80px
 #proveedores h3
@@ -242,13 +239,13 @@ h3,h4, h5,h6
     background-repeat: no-repeat
     background-position: left center
 
-// ==== sección contacto====
+// =========================== sección contacto =================================
 #contenido-contacto
   margin-right: 3em
 #contacto
   background: $azul
   color: white
-  font-family: "avenir"
+  font-family: "Roboto"
   margin-bottom: 5em
 #contacto h6, #contacto h3
   font-family: "avenir bold"
@@ -258,14 +255,15 @@ h3,h4, h5,h6
 #contacto h3
   margin-top: -10px
 .info-contacto
-  font-size: .8rem
+  font-size: .65rem
   margin-bottom: 1.2em
+  font-family: "Roboto"
 #contacto span
   background: white
+  font-family: "Roboto"
   color: $azul
   display: block
   margin-bottom: 1em
-  font-family: avenir
 #form-contacto input[type=text], #form-contacto input[type=email], #form-contacto textarea
   border: 1px solid white
   background-color: $azul !important
@@ -283,14 +281,14 @@ h3,h4, h5,h6
 #mapa
   padding: 0
 
-//=== Boletos ===========
+//=====================================  Boletos ============================================================
 #boletos-contenedor
   margin-bottom: 5em
   background: url('../img/fondo-3.png')
   background-size: 10% 100%
   background-repeat: no-repeat
   background-position: right center
-  font-family: avenir
+  font-family: "Roboto"
 .pricing-table
   border: solid 1px #883D84
   border-radius: 0 0 30px 30px
@@ -332,7 +330,7 @@ h3,h4, h5,h6
   background: #883D84
 
 
-//=== Sección registro boletín===
+//============================    Sección registro boletín    === ========================
 #registro
   background: $rosado
   margin-bottom: 40px
@@ -340,7 +338,7 @@ h3,h4, h5,h6
   padding-top: 2em
 #registro h6
   margin-bottom: 2em
-#registro h4 , #registro h6
+#registro h4 , #registro p
   color: white
 .btn-morado
   background:  $rosado
@@ -507,20 +505,26 @@ main .contenido ul li
   background: #33a5c9
   color: white
 //=========== Patrocinadores ===========
-.patrocinador h6
-  background: #466cd0
+.patrocinador-oro
+  background: #ecb133
   color: white
-  padding-left: 0.5em
-  padding-top: 0.35em
-  padding-bottom: 0.35em
-.patrocinador span
-  font-weight: bold
+  padding: 0.25em 0 0.25em
+.patrocinador-plata
+  background: #b3b3b3
+  color: white
+  padding: 0.25em 0 0.25em
+.patrocinador-bronce
+  background: #f2914e
+  color: white
+  padding: 0.25em 0 0.25em
 .patrocinador a
   color: #466cd0
-.patrocinador img
-  width: 80px
-.categoria
-  width: 120px
+.contenido-oro
+  border: 1px solid #ecb133
+.contenido-plata
+  border: 1px solid #b3b3b3
+.contenido-bronce
+  border: 1px solid #f2914e
 //==== Temáticas ===========
 .planeacion-diseno h4
   background: #79bb4b
@@ -572,12 +576,17 @@ a .accordion-title
   font-weight: bold
   letter-spacing: .08em
   margin-top: 2em
+.precios
+  width: 200px
 //=========== Sesiones ======
 .lista-sesiones li
   font-size: 0.86em
   color: #545454
 .isesiones
   width: 80px
+//===================================  Aviso  =======================
+.aviso
+  font-size: 13px
 //================== dispositivos moviles ================================
 
 @media screen and (max-width: 800px)

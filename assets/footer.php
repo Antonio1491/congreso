@@ -18,7 +18,7 @@
       <div class="column">
         <ul class="menu vertical ">
           <li class="menu-text">contáctenos</a></li>
-          <li><a href="#">términos de uso</a></li>
+          <li><a href="aviso-legal.php">aviso legal</a></li>
           <li><a href="#">política de privacidad</a></li>
           <li><a href="#">#CONGRESOPARQUES</a></li>
         </ul>

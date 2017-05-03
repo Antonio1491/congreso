@@ -17,6 +17,7 @@ session_start();
     <link rel="stylesheet" href="icons/foundation-icons.css">
     <link rel="stylesheet" href="css/foundation-flex.css">
     <link type="text/css" href="css/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body onload="countdown('contador')">
@@ -34,11 +35,20 @@ session_start();
       <a href="registro-expositores.php" class="button">Solicitud de expositor</a>
     </div>
     <div class="row contenido expo">
+      <div class="column">
+        <h4>PISO DE EXPOSICIÓN</h4>
+        <p>Esta modalidad de contratación no cuenta con mobiliario, alfombra
+          ni electricidad ya que está destinado para diseños especiales contratados
+          por el expositor con el proveedor de su preferencia. En estos casos, generalmente
+          se requiere de una toma eléctrica especial la cual deberá ser contratada por el expositor.</p>
+        </p>
+      </div>
+      <div class="row">
         <div class="column medium-7">
           <img src="img/expo-1.png" alt="">
         </div>
         <div class="column medium-5" >
-          <h4>PISO DE EXPOSICIÓN</h4>
+          <img src="img/precio-espacio.png" alt="">
           <ul>
             <li>Área marcada en piso.</li>
             <li>Decoración general e iluminación propia de la expo.</li>
@@ -47,11 +57,6 @@ session_start();
             <li>Diploma de participación.</li>
             <li>Gafetes de Expositor (uno por cada 3m2).</li>
           </ul>
-          <p>Esta modalidad de contratación no cuenta con mobiliario, alfombra
-            ni electricidad ya que está destinado para diseños especiales contratados
-            por el expositor con el proveedor de su preferencia. En estos casos, generalmente
-            se requiere de una toma eléctrica especial la cual deberá ser contratada por el expositor.</p>
-          </p>
         </div>
       </div>
       <div class="row expo">
@@ -75,7 +80,8 @@ session_start();
         </div>
         <div class="column medium-5">
         </br>
-          <img src="img/stand.png" alt="">
+        <img src="img/stand.png" alt="">
+
         </div>
       </div>
   </article>

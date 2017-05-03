@@ -17,6 +17,7 @@ session_start();
     <link rel="stylesheet" href="icons/foundation-icons.css">
     <link rel="stylesheet" href="css/foundation-flex.css">
     <link type="text/css" href="css/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body onload="countdown('contador')">
@@ -307,7 +308,7 @@ session_start();
       <!-- Registro Boletín -->
     <section id="registro">
       <h4 class="text-center">¡Mantente informado!</h4>
-      <h6 class="text-center">Regístrate para obtener actualizaciones sobre descuentos para conferencias, promociones y noticias.</h6>
+      <p class="text-center">Regístrate para obtener actualizaciones sobre descuentos para conferencias, promociones y noticias.</p>
       <form >
         <div class="row align-justify formulario-1">
           <div class="column small-12 medium-3 small-order-1">
