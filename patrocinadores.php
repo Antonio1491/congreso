@@ -23,7 +23,7 @@ session_start();
 <body onload="countdown('contador')">
 <?php include'assets/menu.php'; ?>
 <main class="back-1">
-  <article class="">
+  <article class="patrocinadores">
     <div class=" header header-tematicas">
       <div class="row align-middle">
         <div class="column text-center">
@@ -38,13 +38,13 @@ session_start();
     </div>
     <div class="row contenido-oro">
       <div class="column medium-4">
-        <a href="#"><img src="img/marca-4.png" alt=""></a>
+        <a href="#"><img src="img/marca-2.png" alt=""></a>
       </div>
       <div class="column medium-4">
         <a href="#"><img src="img/marca-4.png" alt=""></a>
       </div>
       <div class="column medium-4">
-        <a href="#"><img src="img/marca-4.png" alt=""></a>
+        <a href="#"><img src="img/marca-1.png" alt=""></a>
       </div>
     </div>
     <div class="row contenido">
@@ -57,10 +57,10 @@ session_start();
         <a href="#"><img src="img/marca-3.png" alt=""></a>
       </div>
       <div class="column medium-4">
-        <a href="#"><img src="img/marca-3.png" alt=""></a>
+        <a href="#"><img src="img/marca-5.png" alt=""></a>
       </div>
       <div class="column medium-4">
-        <a href="#"><img src="img/marca-3.png" alt=""></a>
+        <a href="#"><img src="img/marca-6.png" alt=""></a>
       </div>
     </div>
     <div class="row contenido">
@@ -70,13 +70,13 @@ session_start();
     </div>
     <div class="row contenido-bronce">
       <div class="column medium-4">
-        <a href="#"><img src="img/marca-5.png" alt=""></a>
+        <a href="#"></a>
       </div>
       <div class="column medium-4">
-        <a href="#"><img src="img/marca-5.png" alt=""></a>
+        <a href="http://www.deacero.com/es/" target="_blank"><img src="img/patrocinadores/deacero.png" alt=""></a>
       </div>
       <div class="column medium-4">
-        <a href="#"><img src="img/marca-5.png" alt=""></a>
+        <a href="#"></a>
       </div>
     </div>
   </article>

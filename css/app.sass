@@ -71,7 +71,7 @@ h3,h4, h5,h6
 .contador h5
   padding-top: 5px
   padding-bottom: 4px
-  margin-top: -8px
+  margin-top: -5px
   margin-bottom: -8px
 .contador #contador
   color: #ffffff
@@ -131,7 +131,7 @@ h3,h4, h5,h6
 #barra
   margin-bottom: 1em
 // ======================= Temas =====================================
-#temas-slider
+#frases-slider
   height: 320px
 .fondo-verde
   background: #94c01f
@@ -143,11 +143,13 @@ h3,h4, h5,h6
   background-color: #2d2e82
 .fondo-rosado
   background-color: #e61d73
-.fondo-verde, .fondo-acuamarina, .fondo-azul, .fondo-azulmarino, .fondo-rosado
-  padding: 3em 15em
-  text-align: justify !important
+.frases
   color: white
   min-height: 100%
+.frases p
+  font-size: 1.55em
+  padding: 11% 20% 0 20%
+  min-height: 320px
 #tematicas #mensajes
   padding: 0
 #iconos-temas
@@ -156,8 +158,6 @@ h3,h4, h5,h6
 #iconos-temas img
   height: 6em
   margin: 0.856em 0
-#mensajes .orbit .orbit-container .orbit-slide
-  height: 20em
 #img-slider
   padding: 0
 #img-slider img
@@ -168,38 +168,58 @@ h3,h4, h5,h6
 // ============================== sección actividades ===========================
 #eventos
   background: #019e57
-#eventos .column:nth-child(even) figcaption
+.destacados
+  overflow: hidden
+  background-size: 100% 100%
+  background-repeat: no-repeat
+.destacados-text
+  color: white
+  display: block
+  padding: 15% 0 15% 0%
+  transition: .4s
+.izq
+  padding-left: 10%
+  transform: translateX(-320px)
+  -webkit-transform: translateX(-320px)
+  -moz-transform: translateX(-320px)
+  text-shadow: 0px 0px 8px #666666
+.derecha
   text-align: right
   padding-right: 10%
-  transition: .4s
   transform: translateX(300px)
   -webkit-transform: translateX(300px)
   -moz-transform: translateX(300px)
-  cursor: pointer
   text-shadow: 5px 5px 5px #666666
-
-#eventos .column:nth-child(even):hover figcaption
+#destacados-1
+  background-image: url("../img/conferencias-magistrales.jpg")
+#destacados-1:hover
+  background-image: url("../img/conferencias-magistrales-2.jpg")
+#destacados-2
+  background-image: url("../img/sesiones-educativas.jpg")
+#destacados-2:hover
+  background-image: url("../img/sesiones-educativas-2.jpg")
+#destacados-3
+  background-image: url("../img/talleres-vivenciales.jpg")
+#destacados-3:hover
+  background-image: url("../img/talleres-vivenciales-2.jpg")
+#destacados-4
+  background-image: url("../img/expo.png")
+#destacados-4:hover
+  background-image: url("../img/expo-2.jpg")
+#destacados-1:hover .izq, #destacados-3:hover .izq
   transform: translateX(0px)
   -webkit-transform: translateX(0px)
   -moz-transform: translateX(0px)
 
-#eventos .column:nth-child(odd) figcaption
-  padding-left: 10%
-  transition: .4s
-  transform: translateX(-250px)
-  -webkit-transform: translateX(-250px)
-  -moz-transform: translateX(-250px)
-  cursor: pointer
-  text-shadow: 0px 0px 8px #666666
-
-#eventos .column:nth-child(odd):hover figcaption
+#destacados-2:hover .derecha, #destacados-4:hover .derecha
   transform: translateX(0px)
   -webkit-transform: translateX(0px)
   -moz-transform: translateX(0px)
-.text-inf h3, .subtitulo
+.destacados-text h3, .subtitulo
   text-transform: uppercase
+.destacados-text .subtitulo
   margin-bottom: 0
-  padding-bottom: 0
+
 .orbit-imagen:hover
  opacity: .5
 
@@ -525,6 +545,11 @@ main .contenido ul li
   border: 1px solid #b3b3b3
 .contenido-bronce
   border: 1px solid #f2914e
+.patrocinadores img
+  height: 150px
+  margin: 0.8em 0 0.8em 0
+.contenido-bronce img
+  height: 100px
 //==== Temáticas ===========
 .planeacion-diseno h4
   background: #79bb4b
@@ -588,12 +613,34 @@ a .accordion-title
 .aviso
   font-size: 13px
 //================== dispositivos moviles ================================
-
+@media screen and (max-width: 500px)
+  #video
+    background-image: url("../img/posterimage.jpg")
+  .contenido-contador, .logo-principal
+    margin: auto
+  #redes-header img
+    width: 50px
+    height: 40px
+    margin-bottom: 15px
+    margin-top: 15px
+  .sub-1
+    font-size: 20px
+  .frases p
+    font-size: 1em
+    padding: 7% 10%
+    min-height: 150px
+  #iconos-temas
+    background:#eeeeee
+    margin-bottom: 2em
+  #iconos-temas img
+    height: 2.8em
+    margin: 0.856em 0
 @media screen and (max-width: 800px)
   #patrocinadores h3
     font-size: 21px
   #proveedores
     padding-top: 40px
+
   footer h5
     margin-top: 30px
   #off-canvas, #off-canvas li a

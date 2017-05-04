@@ -94,7 +94,11 @@ session_start();
       <div class="column medium-7 medium-offset-2 contenido-talleres ">
         <h4 class="text-center">PLACEMAKING</h4>
         <h6 class="text-center"></h6>
-        <p></p>
+        <p>Placemaking en Paseo de Montejo y Avenida Colón: El Placemaking es una metodología
+          para el diseño de espacios públicos que tiene como principios el  observar, escuchar
+         y preguntar a las personas que lo utilizan y/o viven cerca del sitio. En este taller
+         podrás conocer ésta metodología a profundidad y llevarla a la práctica en dos de las
+         avenidas principales de la ciudad.</p>
       </div>
       <div class="column medium-3">
         <img src="img/placemaking.png" alt="">

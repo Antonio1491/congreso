@@ -32,53 +32,47 @@ session_start();
 
       <!-- ======  Barra y título temas  =====-->
       <div class="row expanded align-middle align-justify" id="barra" style="-moz-z-index:10; -webkit-z-index:10;">
-        <div class="colum medium-6">
+        <div class="colum small-8 medium-6">
           <img src="img/barra.png" alt="">
         </div>
-        <div class="colum medium-4 offset-2 ">
+        <div class="colum small-4 medium-4 medium-offset-2 ">
           <h3 class="sub-1">TEMAS</h3>
         </div>
       </div>
       <!--===== Temas del congreso ==== -->
       <section id="tematicas">
-        <div class="row expanded" id="temas-slider">
-          <div class="column medium-6 " id="mensajes">
-            <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
-              <ul class="orbit-container">
+        <div class="row expanded align-middle">
+          <div class=" orbit column small-12 medium-6 " id="mensajes" role="region" aria-label="Favorite Space Pictures" data-orbit>
+              <ul class="orbit-container" >
                 <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
                 <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
-                <li class="orbit-slide">
-                  <div class="fondo-verde">
-                    <h4 class="text-center">2: You can also throw some text in here!</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam. Rerum ratione, delectus atque tempore sed, suscipit ullam, beatae distinctio cupiditate ipsam eligendi tempora expedita.</p>
+                <li class="orbit-slide fondo-verde">
+                  <div class=" frases">
+                  <p class="text-center">"Los parques fortalecen los lazos comunitarios, transforman vidas y protegen nuestro futuro."</p>
                   </div>
                 </li>
-                <li class="orbit-slide">
-                  <div class="fondo-acuamarina">
-                    <h4 class="text-center">2: You can also throw some text in here!</h4>
-                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam. Rerum ratione, delectus atque tempore sed, suscipit ullam, beatae distinctio cupiditate ipsam eligendi tempora expedita.</p>
+                <li class="orbit-slide fondo-acuamarina">
+                  <div class=" frases">
+                    <p class="text-center">"Los parques deben construirse de acuerdo a las necesidades de cada comunidad, ningún espacio es igual a otro."</p>
                   </div>
                 </li>
-                <li class="orbit-slide">
-                  <div class="fondo-azul">
-                    <h4 class="text-center">2: You can also throw some text in here!</h4>
-                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam. Rerum ratione, delectus atque tempore sed, suscipit ullam, beatae distinctio cupiditate ipsam eligendi tempora expedita.</p>
+                <li class="orbit-slide fondo-azul">
+                  <div class=" frases">
+                    <p class="text-center">"Los parques urbanos pueden llegar a reducir hasta 10º C en las ciudades, mejorando la calidad de vida de sus habitantes."</p>
                   </div>
                 </li>
-                <li class="orbit-slide">
-                  <div class="fondo-azulmarino">
-                    <h4 class="text-center">2: You can also throw some text in here!</h4>
-                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam. Rerum ratione, delectus atque tempore sed, suscipit ullam, beatae distinctio cupiditate ipsam eligendi tempora expedita.</p>
+                <li class="orbit-slide fondo-azulmarino">
+                  <div class=" frases">
+                    <p class="text-center">"Si el jugar es el trabajo de los niños, ¿qué pasa si se quedan desempleados?"</p>
                   </div>
                 </li>
-                <li class="orbit-slide">
-                  <div class="fondo-rosado">
-                    <h4 class="text-center">2: You can also throw some text in here!</h4>
-                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam. Rerum ratione, delectus atque tempore sed, suscipit ullam, beatae distinctio cupiditate ipsam eligendi tempora expedita.</p>
+                <li class="orbit-slide fondo-rosado">
+                  <div class=" frases">
+                    <p class="text-center">"Las áreas verdes generan bienestar y felicidad ayudando a evitar problemas mentales como: depresión, ansiedad o estrés laboral."</p>
                   </div>
                 </li>
               </ul>
-            </div>
+
           </div>
           <div class="column medium-6" id="img-slider">
             <img src="img/planeacion-y-diseno.jpg" alt="">
@@ -87,19 +81,19 @@ session_start();
         <div class="" id="iconos-temas">
           <div class="row align-spaced">
               <div class="column">
-                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Diseño y Planeación"><a href="#"><img src="img/planeacion-y-diseno-02.png" onmouseover="this.src='img/planeacion-y-diseno-01.png';" onmouseout="this.src='img/planeacion-y-diseno-02.png';" alt=""></a></span>
+                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Diseño y Planeación"><img src="img/planeacion-y-diseno-02.png" onmouseover="this.src='img/planeacion-y-diseno-01.png';" onmouseout="this.src='img/planeacion-y-diseno-02.png';" alt=""></span>
               </div>
               <div class="column">
-                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="La Ciudad"><a href="#"><img src="img/la-ciudad-02.png" onmouseover="this.src='img/la-ciudad-01.png';" onmouseout="this.src='img/la-ciudad-02.png';" alt=""></a></span>
+                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="La Ciudad"><img src="img/la-ciudad-02.png" onmouseover="this.src='img/la-ciudad-01.png';" onmouseout="this.src='img/la-ciudad-02.png';" alt=""></span>
               </div>
               <div class="column">
-                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Economía y Usos del Espacio Público"><a href="#"><img src="img/uso-del-espacio-publico-02.png" onmouseover="this.src='img/uso-del-espacio-publico-01.png';" onmouseout="this.src='img/uso-del-espacio-publico-02.png';" alt=""></a></span>
+                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Economía y Usos del Espacio Público"><img src="img/uso-del-espacio-publico-02.png" onmouseover="this.src='img/uso-del-espacio-publico-01.png';" onmouseout="this.src='img/uso-del-espacio-publico-02.png';" alt=""></span>
               </div>
               <div class="column">
-                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Salud y Medio Ambiente"><a href="#"><img src="img/salud-y-medio-ambiente-02.png" onmouseover="this.src='img/salud-y-medio-ambiente-01.png';" onmouseout="this.src='img/salud-y-medio-ambiente-02.png';" alt=""></a></span>
+                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Salud y Medio Ambiente"><img src="img/salud-y-medio-ambiente-02.png" onmouseover="this.src='img/salud-y-medio-ambiente-01.png';" onmouseout="this.src='img/salud-y-medio-ambiente-02.png';" alt=""></span>
               </div>
               <div class="column">
-                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Servicio Público y Participación Ciudadana"><a href="#"><img src="img/servicio-publico-02.png" onmouseover="this.src='img/servicio-publico-01.png';" onmouseout="this.src='img/servicio-publico-02.png';" alt=""></a>
+                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Servicio Público y Participación Ciudadana"><img src="img/servicio-publico-02.png" onmouseover="this.src='img/servicio-publico-01.png';" onmouseout="this.src='img/servicio-publico-02.png';" alt=""></span>
               </div>
           </div>
         </div>
@@ -112,64 +106,35 @@ session_start();
         </div>
       </div>
       <section id="eventos">
+        <div class="row">
+            <div class="small-12 medium-6 column destacados" id="destacados-1">
+              <div class="destacados-text izq">
+                <h5 class="subtitulo">8 CONFERENCIAS</h5>
+                <h3>MAGISTRALES</h3>
+                <a href="conferencias.php" class="button">Ver Más</a>
+              </div>
+            </div>
+            <div class="small-12 medium-6 column destacados" id="destacados-2">
+              <div class="destacados-text derecha">
+                <h5 class="subtitulo">+50 sesiones </h5>
+                <h3>Educativas</h3>
+                <a href="sesiones.php" class="button">Ver Más</a>
+              </div>
+            </div>
+        </div> <!-- fila -->
         <div class="row collapse">
-          <div class="small-12 medium-6 column">
-            <div div class=“orbit” data-orbit>
-              <div class="orbit-container">
-                <div class="orbit-slide">
-
-                  <img class="orbit-image" src="img/conferencias-magistrales.jpg" onmouseover="this.src='img/conferencias-magistrales-2.png';" onmouseout="this.src='img/conferencias-magistrales.jpg';" data-src="" alt="Space">
-                    <figcaption class="text-inf">
-                    <p class="subtitulo">Expertos en los espacios públicos</p>
-                    <h3>Conferencias</h3>
-                    <p>Descripción</p>
-                   </figcaption>
-                </div>
-            </div>
+          <div class="small-12 medium-6 column destacados" id="destacados-3">
+            <div class="destacados-text izq">
+              <h5 class="subtitulo">9 talleres</h5>
+              <h3>Vivenciales</h3>
+              <a href="talleres.php" class="button">Ver Más</a>
             </div>
           </div>
-          <div class="small-12 medium-6 column">
-            <div div class=“orbit” data-orbit>
-              <div class="orbit-container">
-                <div class="orbit-slide">
-                  <img class="orbit-image" src="img/conferencias-educativas.jpg" alt="Space">
-                  <figcaption class="text-inf">
-                    <p class="subtitulo">Expertos en los espacios públicos</p>
-                    <h3>Sesiones educativas</h3>
-                    <p>Descripción</p>
-                   </figcaption>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row collapse">
-          <div class="small-12 medium-6 column">
-            <div div class=“orbit” data-orbit>
-              <div class="orbit-container">
-                <div class="orbit-slide">
-                  <img class="orbit-image" src="img/talleres-vivenciales.jpg" alt="Space">
-                  <figcaption class="text-inf">
-                    <p class="subtitulo">Expertos en los espacios públicos</p>
-                    <h3>Talleres</h3>
-                    <p>Descripción</p>
-                   </figcaption>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="small-12 medium-6 column">
-            <div div class="orbit" data-orbit>
-              <div class="orbit-container">
-                <div class="orbit-slide">
-                  <img class="orbit-image" src="img/eventos-sociales.jpg" alt="Space">
-                  <figcaption class="text-inf">
-                    <p class="subtitulo">Expertos en los espacios públicos</p>
-                    <h3>Eventos Sociales</h3>
-                    <p>Descripción</p>
-                   </figcaption>
-                </div>
-              </div>
+          <div class="small-12 medium-6 column destacados" id="destacados-4">
+            <div class="destacados-text derecha">
+              <h5 class="subtitulo">Expo Comercial </h5>
+              <h3>Parques Urbanos</h3>
+              <a href="expo.php" class="button">Ver Más</a>
             </div>
           </div>
         </div>
@@ -194,10 +159,10 @@ session_start();
         </div>
         <div class="row align-middle text-center apoyos">
           <div class="column">
-            <a href="" target="_blank"><img src="img/parques-de-mexico-logo.png" alt="" class="img-patrocinador"></a>
-            <a href="" target="_blank"><img src="img/parques-alegres-logo.png" alt="" class="img-patrocinador"></a>
-            <a href="" target="_blank"><img src="img/sedatu-logo.png" alt="" class="img-patrocinador"></a>
-            <a href="" target="_blank"><img src="img/merida-logo.jpg" alt="" class="img-patrocinador"></a>
+            <a href="http://www.parquesdemexico.org/consultora/" target="_blank"><img src="img/parques-de-mexico-logo.png" alt="" class="img-patrocinador"></a>
+            <a href="http://parquesalegres.org/" target="_blank"><img src="img/parques-alegres-logo.png" alt="" class="img-patrocinador"></a>
+            <a href="https://www.gob.mx/sedatu" target="_blank"><img src="img/sedatu-logo.png" alt="" class="img-patrocinador"></a>
+            <a href="http://www.merida.gob.mx/municipio/portal/index.phpx" target="_blank"><img src="img/merida-logo.jpg" alt="" class="img-patrocinador"></a>
           </div>
         </div>
       </div>

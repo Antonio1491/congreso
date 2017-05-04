@@ -206,13 +206,18 @@ session_start();
           </div>
         </div>
         <div class="row">
-          <input type="checkbox" name="" value="acepto"<label class="condiciones">
-            Al aceptar esta solicitud de espacio, estoy de acuerdo
+          <div class="column shrink">
+            <input type="checkbox" name="" value="acepto">
+          </div>
+          <div class="column">
+            <label class="condiciones">Al aceptar esta solicitud de espacio, estoy de acuerdo
             con las normas, reglamentos, condiciones de pago y las
             condiciones para la "Expo Comercial Parques Urbanos 2018".</label>
+          </div>
+
         </div>
         <div class="row column text-center fila-espacio">
-          <input type="submit" name="" value="ENVIAR" class="button large">
+          <input type="submit" name="" value="ENVIAR" class="button">
         </div>
     </form>
   </article
