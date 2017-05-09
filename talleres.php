@@ -41,7 +41,7 @@ session_start();
     </div>
     <div class="row contenido">
       <div class="column medium-3">
-        <img src="img/los-barrios-de-merida.png" alt="">
+        <img src="img/talleres/los-barrios-de-merida.png" alt="">
       </div>
       <div class="column medium-7 contenido-talleres ">
         <h4 class="text-center">LOS BARRIOS DE MÉRIDA</h4>

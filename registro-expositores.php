@@ -38,104 +38,104 @@ session_start();
         <h5>Datos Fiscales (Elaboración de Factura y Contrato)</h5>
         <div class="column medium-8">
           <label for="">Razón Social a Facturar</label>
-          <input type="text" name="" value="">
+          <input type="text" name="rs" value="">
         </div>
         <div class="column medium-4">
           <label for="">RFC:</label>
-          <input type="text" name="" value="">
+          <input type="text" name="rfc" value="">
         </div>
         <div class="column medium-3">
           <label for="">Calle:</label>
-          <input type="text" name="" value="">
+          <input type="text" name="calle" value="">
         </div>
         <div class="column medium-3">
           <label for="">Número Ext:</label>
-          <input type="text" name="" value="">
+          <input type="text" name="num_ext" value="">
         </div>
         <div class="column medium-3">
           <label for="">Número Int:</label>
-          <input type="text" name="" value="">
+          <input type="text" name="num_int" value="">
         </div>
         <div class="column medium-3">
           <label for="">Colonia:</label>
-          <input type="text" name="" value="">
+          <input type="text" name="colonia" value="">
         </div>
         <div class="column medium-3">
           <label for="">Ciudad:</label>
-          <input type="text" name="" value="">
+          <input type="text" name="ciudad" value="">
         </div>
         <div class="column medium-3">
           <label for="">Estado:</label>
-          <input type="text" name="" value="">
+          <input type="text" name="estado" value="">
         </div>
         <div class="column medium-3">
           <label for="">País:</label>
-          <input type="text" name="" value="">
+          <input type="text" name="pais" value="">
         </div>
         <div class="column medium-3">
           <label for="">C.P:</label>
-          <input type="text" name="" value="">
+          <input type="text" name="cp" value="">
         </div>
         <div class="column medium-6">
           <label for="">Representante Legal:</label>
-          <input type="text" name="" value="">
+          <input type="text" name="representante" value="">
         </div>
         <div class="column medium-3">
           <label for="">Cargo:</label>
-          <input type="text" name="" value="">
+          <input type="text" name="cargo" value="">
         </div>
         <div class="column medium-3">
           <label for="">E-mail:</label>
-          <input type="text" name="" value="">
+          <input type="text" name="email" value="">
         </div>
         <h5>Información para el directorio de expositores</h5>
         <div class="column medium-12">
           <label for="">Nombre Comercial:</label>
-          <input type="text" name="" value="">
+          <input type="text" name="nom_comercial" value="">
         </div>
         <div class="column medium-3">
           <label for="">Calle:</label>
-          <input type="text" name="" value="">
+          <input type="text" name="calle_2" value="">
         </div>
         <div class="column medium-3">
           <label for="">Número Ext:</label>
-          <input type="text" name="" value="">
+          <input type="text" name="num_ext_2" value="">
         </div>
         <div class="column medium-3">
           <label for="">Número Int:</label>
-          <input type="text" name="" value="">
+          <input type="text" name="num_int_2" value="">
         </div>
         <div class="column medium-3">
           <label for="">Colonia:</label>
-          <input type="text" name="" value="">
+          <input type="text" name="colonia_2" value="">
         </div>
         <div class="column medium-3">
           <label for="">Ciudad:</label>
-          <input type="text" name="" value="">
+          <input type="text" name="ciudad_2" value="">
         </div>
         <div class="column medium-3">
           <label for="">Estado:</label>
-          <input type="text" name="" value="">
+          <input type="text" name="estado_2" value="">
         </div>
         <div class="column medium-3">
           <label for="">País:</label>
-          <input type="text" name="" value="">
+          <input type="text" name="pais_2" value="">
         </div>
         <div class="column medium-3">
           <label for="">C.P:</label>
-          <input type="text" name="" value="">
+          <input type="text" name="cp_2" value="">
         </div>
         <div class="column medium-4">
           <label for="">Página Web:</label>
-          <input type="text" name="" value="">
+          <input type="text" name="web" value="">
         </div>
         <div class="column medium-4">
           <label for="">Lada y Tel:</label>
-          <input type="text" name="" value="">
+          <input type="text" name="tel" value="">
         </div>
         <div class="column medium-4">
           <label for="">Ext:</label>
-          <input type="text" name="" value="">
+          <input type="text" name="ext" value="">
         </div>
       </div>
         <div class="row">
@@ -144,27 +144,27 @@ session_start();
         <div class="row">
           <div class="column medium-6">
             <label for="">Contacto del Evento (Responsable de la organización):</label>
-            <input type="text" name="" value="">
+            <input type="text" name="contacto_evento" value="">
           </div>
           <div class="column medium-3">
             <label for="">Cargo:</label>
-            <input type="text" name="" value="">
+            <input type="text" name="cargo_evento" value="">
           </div>
           <div class="column medium-3">
             <label for="">E-mail:</label>
-            <input type="text" name="" value="">
+            <input type="text" name="email_evento" value="">
           </div>
           <div class="column medium-6">
             <label for="">Contacto para pagos:</label>
-            <input type="text" name="" value="">
+            <input type="text" name="contacto_pagos" value="">
           </div>
           <div class="column medium-3">
             <label for="">Cargo:</label>
-            <input type="text" name="" value="">
+            <input type="text" name="cargo_pagos" value="">
           </div>
           <div class="column medium-3">
             <label for="">E-mail:</label>
-            <input type="text" name="" value="">
+            <input type="text" name="email_pagos" value="">
           </div>
         </div>
         <div class="row fila-espacio">

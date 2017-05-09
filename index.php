@@ -159,10 +159,10 @@ session_start();
         </div>
         <div class="row align-middle text-center apoyos">
           <div class="column">
-            <a href="http://www.parquesdemexico.org/consultora/" target="_blank"><img src="img/parques-de-mexico-logo.png" alt="" class="img-patrocinador"></a>
-            <a href="http://parquesalegres.org/" target="_blank"><img src="img/parques-alegres-logo.png" alt="" class="img-patrocinador"></a>
-            <a href="https://www.gob.mx/sedatu" target="_blank"><img src="img/sedatu-logo.png" alt="" class="img-patrocinador"></a>
-            <a href="http://www.merida.gob.mx/municipio/portal/index.phpx" target="_blank"><img src="img/merida-logo.jpg" alt="" class="img-patrocinador"></a>
+            <a href="http://www.parquesdemexico.org/consultora/" target="_blank"><img src="img/patrocinadores/parques-de-mexico-logo.png" alt="" class="img-patrocinador"></a>
+            <a href="http://parquesalegres.org/" target="_blank"><img src="img/patrocinadores/parques-alegres-logo.png" alt="" class="img-patrocinador"></a>
+            <a href="https://www.gob.mx/sedatu" target="_blank"><img src="img/patrocinadores/sedatu-logo.png" alt="" class="img-patrocinador"></a>
+            <a href="http://www.merida.gob.mx/municipio/portal/index.phpx" target="_blank"><img src="img/patrocinadores/merida-logo.jpg" alt="" class="img-patrocinador"></a>
           </div>
         </div>
       </div>
@@ -175,11 +175,11 @@ session_start();
         </div>
         <div class="row align-middle text-center apoyos">
           <div class="column">
-            <img src="img/marca-1.png" alt="" class="img-patrocinador">
-            <img src="img/marca-2.png" alt="" class="img-patrocinador">
-            <img src="img/marca-3.png" alt="" class="img-patrocinador">
-            <img src="img/marca-4.png" alt="" class="img-patrocinador">
-            <img src="img/marca-5.png" alt="" class="img-patrocinador">
+            <img src="img/patrocinadores/marca-1.png" alt="" class="img-patrocinador">
+            <img src="img/patrocinadores/marca-2.png" alt="" class="img-patrocinador">
+            <img src="img/patrocinadores/marca-3.png" alt="" class="img-patrocinador">
+            <img src="img/patrocinadores/marca-4.png" alt="" class="img-patrocinador">
+            <img src="img/patrocinadores/marca-5.png" alt="" class="img-patrocinador">
           </div>
         </div>
       </div>

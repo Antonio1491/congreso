@@ -40,7 +40,7 @@ session_start();
       </div>
       <div class="row fila-espacio">
       <div class="column medium-2">
-        <img src="img/1.png" alt="">
+        <img src="img/conferencistas/martha-fajardo.png" alt="">
       </div>
       <div class="column medium-4 contenido-magistrales">
         <h4 class="text-center">Espacio público</h4>
@@ -48,7 +48,7 @@ session_start();
         <h6 class="text-center">Grupo Verde - Colombia</h6>
       </div>
       <div class="column medium-2">
-        <img src="img/3.png" alt="">
+        <img src="img/conferencistas/mario-shejtan.png" alt="">
       </div>
       <div class="column medium-4 contenido-magistrales ">
         <h4 class="text-center">Espacio público</h4>
@@ -59,7 +59,7 @@ session_start();
     </div>
     <div class="row fila-espacio">
       <div class="column medium-2">
-        <img src="img/2.png" alt="">
+        <img src="img/conferencistas/robert-hammond.png" alt="">
       </div>
       <div class="column medium-4 contenido-magistrales ">
         <h4 class="text-center">Espacio público</h4>
@@ -67,7 +67,7 @@ session_start();
         <h6 class="text-center">High Line - E.E.U.U.</h6>
       </div>
       <div class="column medium-2">
-        <img src="img/4.png" alt="">
+        <img src="img/conferencistas/barbara-tulipane.png" alt="">
       </div>
       <div class="column medium-4 contenido-magistrales ">
         <h4 class="text-center">Espacio público</h4>
@@ -77,7 +77,7 @@ session_start();
     </div>
     <div class="row fila-espacio">
       <div class="column medium-2">
-        <img src="img/peter.png" alt="">
+        <img src="img/conferencistas/peter.png" alt="">
       </div>
       <div class="column medium-4 contenido-magistrales ">
         <h4 class="text-center">Espacio público</h4>
@@ -85,7 +85,7 @@ session_start();
         <h6 class="text-center">The Trust for Public Land - E.E.U.U.</h6>
       </div>
       <div class="column medium-2">
-        <img src="img/jorge-perez.png" alt="">
+        <img src="img/conferencistas/jorge-perez.png" alt="">
       </div>
       <div class="column medium-4 contenido-magistrales ">
         <h4 class="text-center">Espacio público</h4>
@@ -95,7 +95,7 @@ session_start();
     </div>
     <div class="row fila-espacio">
       <div class="column medium-2">
-        <img src="img/tom.png" alt="">
+        <img src="img/conferencistas/tom.png" alt="">
       </div>
       <div class="column medium-4 contenido-magistrales ">
         <h4 class="text-center">Espacio público</h4>
@@ -103,7 +103,7 @@ session_start();
         <h6 class="text-center">Director Ejecutivo Charleston Country Park - E.E.U.U</h6>
       </div>
       <div class="column medium-2">
-        <img src="img/marinela-servitje.png" alt="">
+        <img src="img/conferencistas/marinela-servitje.png" alt="">
       </div>
       <div class="column medium-4 contenido-magistrales ">
         <h4 class="text-center">Espacio público</h4>
