@@ -40,7 +40,7 @@ session_start();
           <h4>Diseño y Planeación</h4>
           <p>El objetivo de esta temática es hablar sobre principios y
             procesos de diseño para parques; ahondando en temas específicos
-            como: áreas infantiles, juegos de agua, entre otros. Se
+            como: áreas infantiles, juegos de agua, parques de mascotas entre otros. Se
             brindará información sobre los procesos intelectuales y
             creativos de diseño y la importancia de la crrecta planeación
             de estos espacios para su éxito. </p>
@@ -56,7 +56,7 @@ session_start();
             de forma positiva a una ciudad y de cómo la sociedad civil
             organizada la transforma y le da identidad a través de sus
             iniciativas y proyectos. Los espacios públicos son el lugar
-            en dónde se vive la ciudad </p>
+            en dónde se vive la ciudad.</p>
         </div>
       </div>
       <div class="row fila-espacio">
@@ -66,9 +66,9 @@ session_start();
         <div class="column medium-6 economia">
           <h4>Economía y Usos del Espacio Público</h4>
           <p>Además de ser espacios para la recreación, los parques
-            impulsan la economía y generan ingresos. Se presentarán modelos
+            impulsan la economía y generan empleos. Se presentarán modelos
             exitosos de administración, fomento económico y procuración de
-            fondos mostrando la gran variedad de formas en la que un parque
+            fondos mostrando la gran variedad de formas en las que un parque
             puede ser sostenible en el tiempo. </p>
         </div>
       </div>
@@ -96,7 +96,7 @@ session_start();
             el espacio público, con las mejores prácticas para su
             implementación y sostenimiento en conjunto con la ciudadanía,
             fomentando la participación ciudadana. En esta temática se
-            presentaran modelos para fomentar la participación ciudadana
+            presentarán modelos para fomentar la participación ciudadana
             y estructuras que mejoren el servicio público enfocado a los
             parques.</p>
         </div>

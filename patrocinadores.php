@@ -38,13 +38,13 @@ session_start();
     </div>
     <div class="row contenido-oro">
       <div class="column medium-4">
-        <a href="#"><img src="img/marca-2.png" alt=""></a>
+        <a href="#"><img src="img/patrocinadores/marca-2.png" alt=""></a>
       </div>
       <div class="column medium-4">
-        <a href="#"><img src="img/marca-4.png" alt=""></a>
+        <a href="#"><img src="img/patrocinadores/marca-4.png" alt=""></a>
       </div>
       <div class="column medium-4">
-        <a href="#"><img src="img/marca-1.png" alt=""></a>
+        <a href="#"><img src="img/patrocinadores/marca-1.png" alt=""></a>
       </div>
     </div>
     <div class="row contenido">
@@ -54,13 +54,13 @@ session_start();
     </div>
     <div class="row contenido-plata">
       <div class="column medium-4">
-        <a href="#"><img src="img/marca-3.png" alt=""></a>
+        <a href="#"><img src="img/patrocinadores/marca-3.png" alt=""></a>
       </div>
       <div class="column medium-4">
-        <a href="#"><img src="img/marca-5.png" alt=""></a>
+        <a href="#"><img src="img/patrocinadores/marca-5.png" alt=""></a>
       </div>
       <div class="column medium-4">
-        <a href="#"><img src="img/marca-6.png" alt=""></a>
+        <a href="#"><img src="img/patrocinadores/marca-6.png" alt=""></a>
       </div>
     </div>
     <div class="row contenido">

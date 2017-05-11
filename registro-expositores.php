@@ -17,12 +17,13 @@ session_start();
     <link rel="stylesheet" href="icons/foundation-icons.css">
     <link rel="stylesheet" href="css/foundation-flex.css">
     <link type="text/css" href="css/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body onload="countdown('contador')">
 <?php include'assets/menu.php'; ?>
 <main class="back-2">
-  <article class="">
+  <article class="registro-expo">
     <div class=" header header-expo">
       <div class="row align-middle">
         <div class="column text-center">
@@ -30,14 +31,17 @@ session_start();
         </div>
       </div>
     </div>
-    <form class="" action="" method="post">
+    <div class="row fila-espacio">
+      <img src="img/croquis.jpg" alt="" class="croquis">
+    </div>
+    <form class="expositores" action="alta.php" method="post">
       <div class="row fila-espacio">
         <p>Complete esta solicitud para asegurar su participación en la "Expo Comercial Parques Urbanos 2018".</p>
       </div>
       <div class="row">
         <h5>Datos Fiscales (Elaboración de Factura y Contrato)</h5>
         <div class="column medium-8">
-          <label for="">Razón Social a Facturar</label>
+          <label for="">Razón Social a Facturar:</label>
           <input type="text" name="rs" value="">
         </div>
         <div class="column medium-4">
@@ -178,31 +182,31 @@ session_start();
         <div class="row">
           <div class="column medium-2">
             <label for="">1.-Stand No.:</label>
-            <input type="text" name="" value="">
+            <input type="text" name="op_1" value="">
           </div>
           <div class="column medium-4">
             <label for="">Medidas:</label>
-            <input type="text" name="" value="">
+            <input type="text" name="m_1" value="">
           </div>
         </div>
         <div class="row">
           <div class="column medium-2">
             <label for="">2.-Stand No.:</label>
-            <input type="text" name="" value="">
+            <input type="text" name="op_2" value="">
           </div>
           <div class="column medium-4">
             <label for="">Medidas:</label>
-            <input type="text" name="" value="">
+            <input type="text" name="m_2" value="">
           </div>
         </div>
         <div class="row">
           <div class="column medium-2">
             <label for="">3.-Stand No.:</label>
-            <input type="text" name="" value="">
+            <input type="text" name="op_3" value="">
           </div>
           <div class="column medium-4">
             <label for="">Medidas:</label>
-            <input type="text" name="" value="">
+            <input type="text" name="m_3" value="">
           </div>
         </div>
         <div class="row">
@@ -220,7 +224,7 @@ session_start();
           <input type="submit" name="" value="ENVIAR" class="button">
         </div>
     </form>
-  </article
+  </article>
 </main>
 
 <?php include'assets/footer.php'; ?>

@@ -59,7 +59,7 @@ session_start();
           </ul>
         </div>
       </div>
-      <div class="row expo">
+      <div class="row expo fila-espacio">
         <div class="column medium-7">
           <h4>STAND DE 3 X 3 CON MAMPARAS</h4>
           <ul>
@@ -79,9 +79,8 @@ session_start();
           </ul>
         </div>
         <div class="column medium-5">
-        </br>
-        <img src="img/stand.png" alt="">
-
+        <img src="img/precio-stand-2.png" alt="" class="precio">
+        <img src="img/stand.png" alt="" class="stand">
         </div>
       </div>
   </article>

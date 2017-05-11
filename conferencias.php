@@ -35,7 +35,7 @@ session_start();
       <div class="row">
         <p><span class="letra-capital">L</span>as Conferencias Magistrales serán el momento en el que todos los
           asistentes al congreso se reunirán en una misma sala para escuchar
-          hablar a nuestros expertos sobre los parques urbanos y temas de interés
+          hablar a los expertos sobre los parques urbanos y temas de interés
           común para nuestras ciudades. </p>
       </div>
       <div class="row fila-espacio">
@@ -43,7 +43,7 @@ session_start();
         <img src="img/conferencistas/martha-fajardo.png" alt="">
       </div>
       <div class="column medium-4 contenido-magistrales">
-        <h4 class="text-center">Espacio público</h4>
+        <h4 class="text-center"></h4>
         <h5 class="text-center">Martha Fajardo</h5>
         <h6 class="text-center">Grupo Verde - Colombia</h6>
       </div>
@@ -51,7 +51,7 @@ session_start();
         <img src="img/conferencistas/mario-shejtan.png" alt="">
       </div>
       <div class="column medium-4 contenido-magistrales ">
-        <h4 class="text-center">Espacio público</h4>
+        <h4 class="text-center"></h4>
         <h5 class="text-center">Mario Shejtan</h5>
         <h6 class="text-center">Grupo Desarrollo Urbano - México</h6>
       </div>
@@ -62,7 +62,7 @@ session_start();
         <img src="img/conferencistas/robert-hammond.png" alt="">
       </div>
       <div class="column medium-4 contenido-magistrales ">
-        <h4 class="text-center">Espacio público</h4>
+        <h4 class="text-center"></h4>
         <h5 class="text-center">Robert Hammond</h5>
         <h6 class="text-center">High Line - E.E.U.U.</h6>
       </div>
@@ -70,7 +70,7 @@ session_start();
         <img src="img/conferencistas/barbara-tulipane.png" alt="">
       </div>
       <div class="column medium-4 contenido-magistrales ">
-        <h4 class="text-center">Espacio público</h4>
+        <h4 class="text-center"></h4>
         <h5 class="text-center">Barbara Tulipane</h5>
         <h6 class="text-center">Directora Ejecutiva, NRPA - E.E.U.U.</h6>
       </div>
@@ -80,7 +80,7 @@ session_start();
         <img src="img/conferencistas/peter.png" alt="">
       </div>
       <div class="column medium-4 contenido-magistrales ">
-        <h4 class="text-center">Espacio público</h4>
+        <h4 class="text-center"></h4>
         <h5 class="text-center">Peter Harnik</h5>
         <h6 class="text-center">The Trust for Public Land - E.E.U.U.</h6>
       </div>
@@ -88,7 +88,7 @@ session_start();
         <img src="img/conferencistas/jorge-perez.png" alt="">
       </div>
       <div class="column medium-4 contenido-magistrales ">
-        <h4 class="text-center">Espacio público</h4>
+        <h4 class="text-center"></h4>
         <h5 class="text-center">Jorge Pérez Jaramillo</h5>
         <h6 class="text-center">Ex Director del Dpto. Administrativo de Planeación de Medallín - Colombia </h6>
       </div>
@@ -98,7 +98,7 @@ session_start();
         <img src="img/conferencistas/tom.png" alt="">
       </div>
       <div class="column medium-4 contenido-magistrales ">
-        <h4 class="text-center">Espacio público</h4>
+        <h4 class="text-center"></h4>
         <h5 class="text-center">Tom O-Rourke</h5>
         <h6 class="text-center">Director Ejecutivo Charleston Country Park - E.E.U.U</h6>
       </div>
@@ -106,7 +106,7 @@ session_start();
         <img src="img/conferencistas/marinela-servitje.png" alt="">
       </div>
       <div class="column medium-4 contenido-magistrales ">
-        <h4 class="text-center">Espacio público</h4>
+        <h4 class="text-center"></h4>
         <h5 class="text-center">Marinela Servitje</h5>
         <h6 class="text-center">Directora General Siete Colores - México</h6>
       </div>

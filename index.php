@@ -35,9 +35,6 @@ session_start();
         <div class="colum small-8 medium-6">
           <img src="img/barra.png" alt="">
         </div>
-        <div class="colum small-4 medium-4 medium-offset-2 ">
-          <h3 class="sub-1">TEMAS</h3>
-        </div>
       </div>
       <!--===== Temas del congreso ==== -->
       <section id="tematicas">
@@ -79,21 +76,27 @@ session_start();
           </div>
         </div>
         <div class="" id="iconos-temas">
+          <div class="row">
+            <div class="column medium-offset-5">
+              <h3 class="sub-1">EJES TEMÁTICOS</h3>
+            </div>
+          </div>
+
           <div class="row align-spaced">
               <div class="column">
-                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Diseño y Planeación"><img src="img/planeacion-y-diseno-02.png" onmouseover="this.src='img/planeacion-y-diseno-01.png';" onmouseout="this.src='img/planeacion-y-diseno-02.png';" alt=""></span>
+                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Diseño y Planeación"><a href="tematicas.php"><img src="img/planeacion-y-diseno-02.png" onmouseover="this.src='img/planeacion-y-diseno-01.png';" onmouseout="this.src='img/planeacion-y-diseno-02.png';" alt=""></a></span>
               </div>
               <div class="column">
-                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="La Ciudad"><img src="img/la-ciudad-02.png" onmouseover="this.src='img/la-ciudad-01.png';" onmouseout="this.src='img/la-ciudad-02.png';" alt=""></span>
+                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="La Ciudad"><a href="tematicas.php"><img src="img/la-ciudad-02.png" onmouseover="this.src='img/la-ciudad-01.png';" onmouseout="this.src='img/la-ciudad-02.png';" alt=""></a></span>
               </div>
               <div class="column">
-                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Economía y Usos del Espacio Público"><img src="img/uso-del-espacio-publico-02.png" onmouseover="this.src='img/uso-del-espacio-publico-01.png';" onmouseout="this.src='img/uso-del-espacio-publico-02.png';" alt=""></span>
+                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Economía y Usos del Espacio Público"><a href="tematicas.php"><img src="img/uso-del-espacio-publico-02.png" onmouseover="this.src='img/uso-del-espacio-publico-01.png';" onmouseout="this.src='img/uso-del-espacio-publico-02.png';" alt=""></a></span>
               </div>
               <div class="column">
-                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Salud y Medio Ambiente"><img src="img/salud-y-medio-ambiente-02.png" onmouseover="this.src='img/salud-y-medio-ambiente-01.png';" onmouseout="this.src='img/salud-y-medio-ambiente-02.png';" alt=""></span>
+                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Salud y Medio Ambiente"><a href="tematicas.php"><img src="img/salud-y-medio-ambiente-02.png" onmouseover="this.src='img/salud-y-medio-ambiente-01.png';" onmouseout="this.src='img/salud-y-medio-ambiente-02.png';" alt=""></a></span>
               </div>
               <div class="column">
-                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Servicio Público y Participación Ciudadana"><img src="img/servicio-publico-02.png" onmouseover="this.src='img/servicio-publico-01.png';" onmouseout="this.src='img/servicio-publico-02.png';" alt=""></span>
+                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Servicio Público y Participación Ciudadana"><a href="tematicas.php"><img src="img/servicio-publico-02.png" onmouseover="this.src='img/servicio-publico-01.png';" onmouseout="this.src='img/servicio-publico-02.png';" alt=""></a></span>
               </div>
           </div>
         </div>
@@ -193,7 +196,7 @@ session_start();
       </div>
       <section id="contacto">
         <div class="row expanded">
-          <div class="column medium-3 medium-offset-3 text-center">
+          <div class="column small-12 medium-3 medium-offset-3 text-center">
             <div id="contenido-contacto">
               <h6>Centro Internacional de Congresos</h6>
               <h3>Mérida, Yucatán</h3>
@@ -214,7 +217,7 @@ session_start();
               </div>
             </div>
           </div>
-          <div class="column medium-6 " id="mapa">
+          <div class="column small-12 medium-6 " id="mapa">
             <div class="map" data-interchange="[assets/mapa-small.html, small], [assets/mapa.html, medium]">
             </div>
           </div>

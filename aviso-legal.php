@@ -76,7 +76,7 @@ session_start();
         <ul>
           <li>Reproducir, copiar, distribuir, poner a disposición o de cualquier otra forma comunicar
             públicamente, transformar o modificar los Contenidos, a menos que se cuente con la autorización
-            escrita y explícita de la <b>Asociación Nacional de Parques Urbanos</b>, que es titular de los correspondientes derechos,
+            escrita y explícita de la <b>Asociacion Nacional de Parques y Recreación</b>, que es titular de los correspondientes derechos,
             o bien que ello resulte legalmente permitido.</li>
           <li>Suprimir, manipular o de cualquier forma alterar el “copyright” y demás datos identificativos
             de la reserva de derechos de la <b>Asociación Nacional de Parques y Recreación</b>  o de sus titulares, de las huellas y/o
@@ -90,7 +90,7 @@ session_start();
           puedan entenderse cedidos al Usuario, ninguno de los derechos de explotación que existen o puedan
           existir sobre dichos Contenidos. De igual modo los Contenidos son propiedad intelectual de la
           <b>Asociación Nacional de Parques y Recreación</b>, o de terceros en su caso, por tanto, los derechos de
-          Propiedad Intelectual son titularidad de la <b>Asociación nacional de Parques y Recreación</b>, o de terceros que han autorizado su uso, a quienes
+          Propiedad Intelectual son titularidad de la <b>Asociacion Nacional de Parques y Recreación</b>, o de terceros que han autorizado su uso, a quienes
           corresponde el ejercicio exclusivo de los derechos de explotación de los mismos en cualquier forma
           y, en especial, los derechos de reproducción, distribución, comunicación pública y transformación.
           La utilización no autorizada de la información contenida en esta Web, así como la lesión de los
@@ -103,15 +103,15 @@ session_start();
         <p>La prestación del servicio de la Página y de los Contenidos tiene, en principio, duración indefinida.
           La <b>Asociación Nacional de Parques y Recreación</b>, no obstante, queda autorizada para dar por terminada o
           suspender la prestación del servicio de la Página y/o de cualquiera de los Contenidos en cualquier momento.
-          Cuando ello sea razonablemente posible, la <b>Asociación de Parques y Recreación</b> advertirá previamente la terminación o
+          Cuando ello sea razonablemente posible, la <b>Asociacion Nacional de Parques y Recreación</b> advertirá previamente la terminación o
           suspensión de la Página.</p>
         <h6>PROTECCIÓN DE DATOS DE CARÁCTER PERSONAL</h6>
-        <p>La <b>Asociación de Parques y Recreación</b> es consciente de la importancia de la privacidad de los
+        <p>La <b>Asociacion Nacional de Parques y Recreación</b> es consciente de la importancia de la privacidad de los
           datos de carácter personal y por ello, ha implementado una política de tratamiento de datos orientada
           a proveer la máxima seguridad en el uso y recogida de los mismos, garantizando el cumplimiento de la
           normativa vigente en la materia y configurando dicha política como uno de los pilares básicos en las
           líneas de actuación de la entidad. Durante la navegación a través de la web www.anpr.org.mx/congreso es
-          posible se que soliciten datos de carácter personal a través de diferentes formularios dispuestos al
+          posible que soliciten datos de carácter personal a través de diferentes formularios dispuestos al
           efecto. Dichos datos formarán parte de los pertinentes ficheros en función de la finalidad determinada y
           concreta que motiva el recabo de los mismos.</p>
       </div>

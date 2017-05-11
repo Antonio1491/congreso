@@ -5,7 +5,7 @@
       <a href="participar.php"><img src="img/congreso-parques-logo-gris.png" alt=""></a>
     </div>
     <div class="column small-12 medium-6 small-order-3 medium-order-2">
-      <h5>CONFERENCIA INTERNACIONAL DE PARQUES URBANOS</h5>
+      <h5>CONGRESO INTERNACIONAL DE PARQUES URBANOS</h5>
       <h4>25 AL 27 DE ABRIL 2018 - MÉRIDA, YUCATÁN, MÉXICO</h4>
       <h6>Presentado por La Asociación Nacional de Parques y Recreación México.</h6>
     </div>

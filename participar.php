@@ -37,7 +37,7 @@ session_start();
         <p>Este evento impulsará a que profesionales de la industria de parques aumenten en número y conocimientos, para que amplíen sus negocios y desarrollen relaciones con otros asistentes.</p>
         <p>Si todavía no estás convencido de asistir a este congreso compartimos algunas de las razones por las que debes asistir:</p>
         <ul>
-          <li>El congreso contará con: 8 <a href="conferencias.php">conferencias magistrales</a>, 48 <a href="sesiones.php">sesiones educativas</a> y 8 <a href="talleres.php">talleres vivenciales</a>.  </li>
+          <li>El congreso contará con: 8 <a href="conferencias.php">conferencias magistrales</a>, más de 50 <a href="sesiones.php">sesiones educativas</a> y 8 <a href="talleres.php">talleres vivenciales</a>.  </li>
           <li>Iniciarás relaciones duraderas con otros profesionales nacionales e internacionales con intereses e ideas similares.</li>
         </ul>
       </div>
