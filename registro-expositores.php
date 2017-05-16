@@ -172,12 +172,12 @@ session_start();
           </div>
         </div>
         <div class="row fila-espacio">
-          <p>Enliste sus 3 opciones principales de stands y sus medidas de su stand.
-            Estas solicitudes de espacio son usadas por la administración del show para identificar donde
-            le gustaría exhibir. Las opciones de stand seleccionadas no están garantizadas.
-            La administración del show revisará su selección al momento de recibir la
-            información y la usará como referencia si no es posible encontrarle en el
-            día en que usted llenó este formato.</p>
+          <p>Enliste sus 3 opciones principales de su stand según la numeración en el plano (espacios disponibles).
+            Estas opciones de espacio serán usadas por la administración de la Expo Parques Urbanos 2018, para
+            identificar los lugares donde desea exhibir el cliente. Las opciones de stand seleccionadas no están
+            garantizadas. La administración de la Expo Parques Urbanos 2018 revisará esta selección al momento de
+            recibir la información y la usará como referencia para definir el espacio junto con el cliente al momento
+            de la firma del convenio.  </p>
         </div>
         <div class="row">
           <div class="column medium-2">

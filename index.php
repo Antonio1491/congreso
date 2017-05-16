@@ -25,7 +25,7 @@ session_start();
 <?php include'assets/menu.php'; ?>
       <!--=====  portada/video  ====-->
       <div id="video">
-          <video  autoplay loop poster="posterimage.jpg">
+          <video  autoplay loop poster="posterimage.jpg" >
             <source src="video/loop-2.mp4" type="video/mp4">
             <source src="videos/loop-2.webm" type="video/webm">
           </video>
@@ -81,25 +81,25 @@ session_start();
       <section id="tematicas">
         <div class="" id="iconos-temas"><!--   Iconos temas -->
           <div class="row">
-            <div class="column medium-offset-5">
+            <div class="column medium-offset-4 large-offset-5">
               <h3 class="sub-1">EJES TEMÁTICOS</h3>
             </div>
           </div>
           <div class="row align-spaced">
               <div class="column">
-                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Diseño y Planeación"><a href="tematicas.php"><img src="img/planeacion-y-diseno-02.png" onmouseover="this.src='img/planeacion-y-diseno-01.png';" onmouseout="this.src='img/planeacion-y-diseno-02.png';" alt=""></a></span>
+                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Diseño y Planeación"><a href="tematicas.php"><img data-src="img/planeacion-y-diseno-02.png" alt="icono diseno" onmouseover="this.src='img/planeacion-y-diseno-01.png';" onmouseout="this.src='img/planeacion-y-diseno-02.png';" alt=""></a></span>
               </div>
               <div class="column">
-                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="La Ciudad"><a href="tematicas.php"><img src="img/la-ciudad-02.png" onmouseover="this.src='img/la-ciudad-01.png';" onmouseout="this.src='img/la-ciudad-02.png';" alt=""></a></span>
+                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="La Ciudad"><a href="tematicas.php"><img data-src="img/la-ciudad-02.png" alt="icono ciudad" onmouseover="this.src='img/la-ciudad-01.png';" onmouseout="this.src='img/la-ciudad-02.png';" alt=""></a></span>
               </div>
               <div class="column">
-                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Economía y Usos del Espacio Público"><a href="tematicas.php"><img src="img/uso-del-espacio-publico-02.png" onmouseover="this.src='img/uso-del-espacio-publico-01.png';" onmouseout="this.src='img/uso-del-espacio-publico-02.png';" alt=""></a></span>
+                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Economía y Usos del Espacio Público"><a href="tematicas.php"><img data-src="img/uso-del-espacio-publico-02.png" alt="icono-economía" onmouseover="this.src='img/uso-del-espacio-publico-01.png';" onmouseout="this.src='img/uso-del-espacio-publico-02.png';" alt=""></a></span>
               </div>
               <div class="column">
-                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Salud y Medio Ambiente"><a href="tematicas.php"><img src="img/salud-y-medio-ambiente-02.png" onmouseover="this.src='img/salud-y-medio-ambiente-01.png';" onmouseout="this.src='img/salud-y-medio-ambiente-02.png';" alt=""></a></span>
+                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Salud y Medio Ambiente"><a href="tematicas.php"><img data-src="img/salud-y-medio-ambiente-02.png" alt="icono salud" onmouseover="this.src='img/salud-y-medio-ambiente-01.png';" onmouseout="this.src='img/salud-y-medio-ambiente-02.png';" alt=""></a></span>
               </div>
               <div class="column">
-                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Servicio Público y Participación Ciudadana"><a href="tematicas.php"><img src="img/servicio-publico-02.png" onmouseover="this.src='img/servicio-publico-01.png';" onmouseout="this.src='img/servicio-publico-02.png';" alt=""></a></span>
+                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Servicio Público y Participación Ciudadana"><a href="tematicas.php"><img data-src="img/servicio-publico-02.png" alt="icono participación ciudadana" onmouseover="this.src='img/servicio-publico-01.png';" onmouseout="this.src='img/servicio-publico-02.png';" alt=""></a></span>
               </div>
           </div>
         </div>
@@ -140,7 +140,7 @@ session_start();
 
               <li class="orbit-slide fondo-verde">
                 <div class=" frases">
-                  <img src="img/planeacion-slider.jpg" alt="">
+                  <img src="img/planeacion-slider.jpg" alt="Planeación de la ciudad">
                 </div>
               </li>
               <li class="orbit-slide fondo-verde">
@@ -179,7 +179,7 @@ session_start();
           </div>
           <div class="row text-center">
             <div class="column ">
-              <a href="http://www.anpr.org.mx/" target="_blank"><img src="img/anpr-web.png" alt=""></a>
+              <a href="http://www.anpr.org.mx/" target="_blank"><img data-src="img/anpr-web.png" alt="Asociación Nacional de Parques y Recreación"></a>
             </div>
           </div>
         <div class="row">
@@ -187,12 +187,12 @@ session_start();
             <h4>PRESENTA</h4>
           </div>
         </div>
-        <div class="row align-middle text-center apoyos">
-          <div class="column">
-            <a href="http://www.parquesdemexico.org/consultora/" target="_blank"><img src="img/patrocinadores/parques-de-mexico-logo.png" alt="" class="img-patrocinador"></a>
-            <a href="http://parquesalegres.org/" target="_blank"><img src="img/patrocinadores/parques-alegres-logo.png" alt="" class="img-patrocinador"></a>
-            <a href="https://www.gob.mx/sedatu" target="_blank"><img src="img/patrocinadores/sedatu-logo.png" alt="" class="img-patrocinador"></a>
-            <a href="http://www.merida.gob.mx/municipio/portal/index.phpx" target="_blank"><img src="img/patrocinadores/merida-logo.jpg" alt="" class="img-patrocinador"></a>
+        <div class="row  text-center ">
+          <div class="column large-12 medium-10 medium-offset-1 apoyos">
+            <a href="http://www.parquesdemexico.org/consultora/" target="_blank"><img data-src="img/patrocinadores/parques-de-mexico-logo.png" alt="Espacios Públicos y Parques de México" class="img-patrocinador"></a>
+            <a href="http://parquesalegres.org/" target="_blank"><img data-src="img/patrocinadores/parques-alegres-logo.png" alt="Parques Alegres" class="img-patrocinador"></a>
+            <a href="https://www.gob.mx/sedatu" target="_blank"><img data-src="img/patrocinadores/sedatu-logo.png" alt="SEDATU" class="img-patrocinador"></a>
+            <a href="http://www.merida.gob.mx/municipio/portal/index.phpx" target="_blank"><img data-src="img/patrocinadores/merida-logo.jpg" alt="Mérida Ayuntamiento" class="img-patrocinador"></a>
           </div>
         </div>
       </div>
@@ -203,8 +203,8 @@ session_start();
             <h4>CON EL APOYO DE</h4>
           </div>
         </div>
-        <div class="row align-middle text-center apoyos">
-          <div class="column">
+        <div class="row text-center ">
+          <div class="column large-12 medium-10 medium-offset-1 apoyos">
             <img src="img/patrocinadores/marca-1.png" alt="" class="img-patrocinador">
             <img src="img/patrocinadores/marca-2.png" alt="" class="img-patrocinador">
             <img src="img/patrocinadores/marca-3.png" alt="" class="img-patrocinador">
@@ -223,7 +223,7 @@ session_start();
       </div>
       <section id="contacto">
         <div class="row expanded ">
-          <div class="column small-12 medium-3 medium-offset-3 text-center">
+          <div class="column small-12 large-3 large-offset-3 medium-6  text-center">
             <div id="contenido-contacto">
               <h6>Centro Internacional de Congresos</h6>
               <h3>Mérida, Yucatán</h3>
@@ -244,7 +244,7 @@ session_start();
               </div>
             </div>
           </div>
-          <div class="column small-12 medium-6 " id="mapa">
+          <div class="column small-12 medium-6 large-6 " id="mapa">
             <div class="map" data-interchange="[assets/mapa-small.html, small], [assets/mapa.html, medium]">
             </div>
           </div>

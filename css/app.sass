@@ -47,6 +47,16 @@ h3,h4, h5,h6
   padding-left: 20px
   color: #8711b8
   margin-bottom: 0.8em
+.carga
+  background-image: url("../img/load.gif")
+  background-repeat: no-repeat
+  background-position: center
+.carga img
+  opacity: 0
+  transition: 1s
+img.b-loaded
+  opacity: 1
+
 
 
 .menu
@@ -148,11 +158,13 @@ h3,h4, h5,h6
   background-color: #d13ebe
 .frases
   color: white
-  min-height: 100%
-.frases p
   font-size: 1.55em
-  padding: 7% 10% 0 20%
-  height: 220px
+  text-align: center
+#mensajes
+  min-height: 100%
+#frases p
+  min-height: 220px
+
 #tematicas #mensajes
   padding: 0
 #iconos-temas
@@ -193,9 +205,9 @@ h3,h4, h5,h6
   -moz-transform: translateX(300px)
   text-shadow: 5px 5px 5px #666666
 #destacados-1
-  background-image: url("../img/conferencias-magistrales.jpg")
+  background-image: url("../img/conferencias.gif")
 #destacados-1:hover
-  background-image: url("../img/conferencias-magistrales-2.jpg")
+  background-image: url("../img/conferencias-2.gif")
 #destacados-2
   background-image: url("../img/sesiones-educativas.jpg")
 #destacados-2:hover
@@ -316,6 +328,7 @@ h3,h4, h5,h6
 .pricing-table
   border: solid 1px #883D84
   border-radius: 0 0 30px 30px
+  background-color: white
 .pricing-table li
   border-bottom: dotted 1px #DDDDDD
   font-size: 0.90rem
@@ -639,10 +652,7 @@ a .accordion-title
     margin-top: 15px
   .sub-1
     font-size: 20px
-  .frases p
-    font-size: 1em
-    padding: 7% 10%
-    min-height: 150px
+
   #iconos-temas
     background:#eeeeee
     margin-bottom: 2em
@@ -652,9 +662,8 @@ a .accordion-title
 @media screen and (max-width: 800px)
   #patrocinadores h3
     font-size: 21px
-  #proveedores
-    padding-top: 40px
-
+  #banners
+    margin-bottom: 1em
   footer h5
     margin-top: 30px
   #off-canvas, #off-canvas li a

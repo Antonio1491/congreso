@@ -2,7 +2,7 @@
 <footer>
   <div class="row align-justify text-center">
     <div class="column small-6 medium-3 small-order-1 medium-order-1">
-      <a href="participar.php"><img src="img/congreso-parques-logo-gris.png" alt=""></a>
+      <a href="participar.php"><img data-src="img/congreso-parques-logo-gris.png" alt="1er Congreso de Parques Urbanos"></a>
     </div>
     <div class="column small-12 medium-6 small-order-3 medium-order-2">
       <h5>CONGRESO INTERNACIONAL DE PARQUES URBANOS</h5>
@@ -10,7 +10,7 @@
       <h6>Presentado por La Asociación Nacional de Parques y Recreación México.</h6>
     </div>
     <div class="column small-6 medium-3 small-order-2 medium-order-3">
-      <a href="http://anpr.org.mx/"><img src="img/parques-urbanos-logo-anpr.png" alt=""></a>
+      <a href="http://anpr.org.mx/"><img data-src="img/parques-urbanos-logo-anpr.png" alt="Asociación Nacional de Parques y Recreación"></a>
     </div>
   </div>
     <!-- Ménu footer -->
