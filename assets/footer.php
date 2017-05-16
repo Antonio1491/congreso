@@ -18,8 +18,9 @@
       <div class="column">
         <ul class="menu vertical ">
           <li class="menu-text">contáctenos</a></li>
-          <li><a href="aviso-legal.php">aviso legal</a></li>
-          <li><a href="#">política de privacidad</a></li>
+          <li><a href="http://www.parquesdemexico.org/consultora/">Parques de México</a></li>
+          <li><a href="http://parquesalegres.org/" target="_blank">Parques Alegres</a></li>
+
           <li><a href="mailto:info.congreso@anpr.org.mx">info.congreso@anpr.org.mx</a></li>
           <li><a href="#">#CONGRESOPARQUES</a></li>
         </ul>
@@ -51,9 +52,9 @@
           <li class="menu-text">Acerca de</a></li>
           <li><a href="http://anpr.org.mx/" target="_blank">ANPR</a></li>
           <li><a href="participar.php">¿Por qué participar?</a></li>
-          <li><a href="http://www.parquesdemexico.org/consultora/">Parques de México</a></li>
-          <li><a href="http://parquesalegres.org/" target="_blank">Parques Alegres</a></li>
           <li><a href="preguntas.php">Preguntas Frecuentes</a></li>
+          <li><a href="aviso-legal.php">aviso legal</a></li>
+          <li><a href="privacidad.php">política de privacidad</a></li>
         </ul>
       </div>
     </div>

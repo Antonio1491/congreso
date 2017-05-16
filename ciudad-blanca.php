@@ -40,10 +40,10 @@ session_start();
         nuestro pasado colonial.</p>
         <p>La revista Forbes la nombró como una de las tres mejores ciudades de México para vivir, y con las mejores alternativas para invertir y hacer negocios.</p>
         <p>El periódico español El País, la eligió como una de las 10 ciudades para darle la bienvenida a 2017.</p>
-        <p>Lonely Planet, una destacada publicación internacional materia turística, calificó a la ciudad como una de las más atractivas internacionalmente.</p>
+        <p>Lonely Planet, una destacada publicación internacional en materia turística, calificó a la ciudad como una de las más atractivas internacionalmente.</p>
     </div>
     <div class="row">
-      <div class="">
+      <div class="video">
         <iframe width="420" height="315" src="https://www.youtube.com/embed/w4kxTTyH7yw" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>

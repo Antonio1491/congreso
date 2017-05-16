@@ -14,6 +14,7 @@ session_start();
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Congreso Internacional de Parques Urbanos</title>
+    <link rel="icon" type="image/png" href="img/favicon.png" />
     <link rel="stylesheet" href="icons/foundation-icons.css">
     <link rel="stylesheet" href="css/foundation-flex.css">
     <link type="text/css" href="css/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
@@ -25,8 +26,8 @@ session_start();
       <!--=====  portada/video  ====-->
       <div id="video">
           <video  autoplay loop poster="posterimage.jpg">
-            <source src="video/loop.mp4" type="video/mp4">
-            <source src="videos/loop.webm" type="video/webm">
+            <source src="video/loop-2.mp4" type="video/mp4">
+            <source src="videos/loop-2.webm" type="video/webm">
           </video>
       </div><!-- Fin Portada -->
 
@@ -36,72 +37,6 @@ session_start();
           <img src="img/barra.png" alt="">
         </div>
       </div>
-      <!--===== Temas del congreso ==== -->
-      <section id="tematicas">
-        <div class="row expanded align-middle">
-          <div class=" orbit column small-12 medium-6 " id="mensajes" role="region" aria-label="Favorite Space Pictures" data-orbit>
-              <ul class="orbit-container" >
-                <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
-                <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
-                <li class="orbit-slide fondo-verde">
-                  <div class=" frases">
-                  <p class="text-center">"Los parques fortalecen los lazos comunitarios, transforman vidas y protegen nuestro futuro."</p>
-                  </div>
-                </li>
-                <li class="orbit-slide fondo-acuamarina">
-                  <div class=" frases">
-                    <p class="text-center">"Los parques deben construirse de acuerdo a las necesidades de cada comunidad, ningún espacio es igual a otro."</p>
-                  </div>
-                </li>
-                <li class="orbit-slide fondo-azul">
-                  <div class=" frases">
-                    <p class="text-center">"Los parques urbanos pueden llegar a reducir hasta 10º C en las ciudades, mejorando la calidad de vida de sus habitantes."</p>
-                  </div>
-                </li>
-                <li class="orbit-slide fondo-azulmarino">
-                  <div class=" frases">
-                    <p class="text-center">"Si el jugar es el trabajo de los niños, ¿qué pasa si se quedan desempleados?"</p>
-                  </div>
-                </li>
-                <li class="orbit-slide fondo-rosado">
-                  <div class=" frases">
-                    <p class="text-center">"Las áreas verdes generan bienestar y felicidad ayudando a evitar problemas mentales como: depresión, ansiedad o estrés laboral."</p>
-                  </div>
-                </li>
-              </ul>
-
-          </div>
-          <div class="column medium-6" id="img-slider">
-            <img src="img/planeacion-y-diseno.jpg" alt="">
-          </div>
-        </div>
-        <div class="" id="iconos-temas">
-          <div class="row">
-            <div class="column medium-offset-5">
-              <h3 class="sub-1">EJES TEMÁTICOS</h3>
-            </div>
-          </div>
-
-          <div class="row align-spaced">
-              <div class="column">
-                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Diseño y Planeación"><a href="tematicas.php"><img src="img/planeacion-y-diseno-02.png" onmouseover="this.src='img/planeacion-y-diseno-01.png';" onmouseout="this.src='img/planeacion-y-diseno-02.png';" alt=""></a></span>
-              </div>
-              <div class="column">
-                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="La Ciudad"><a href="tematicas.php"><img src="img/la-ciudad-02.png" onmouseover="this.src='img/la-ciudad-01.png';" onmouseout="this.src='img/la-ciudad-02.png';" alt=""></a></span>
-              </div>
-              <div class="column">
-                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Economía y Usos del Espacio Público"><a href="tematicas.php"><img src="img/uso-del-espacio-publico-02.png" onmouseover="this.src='img/uso-del-espacio-publico-01.png';" onmouseout="this.src='img/uso-del-espacio-publico-02.png';" alt=""></a></span>
-              </div>
-              <div class="column">
-                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Salud y Medio Ambiente"><a href="tematicas.php"><img src="img/salud-y-medio-ambiente-02.png" onmouseover="this.src='img/salud-y-medio-ambiente-01.png';" onmouseout="this.src='img/salud-y-medio-ambiente-02.png';" alt=""></a></span>
-              </div>
-              <div class="column">
-                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Servicio Público y Participación Ciudadana"><a href="tematicas.php"><img src="img/servicio-publico-02.png" onmouseover="this.src='img/servicio-publico-01.png';" onmouseout="this.src='img/servicio-publico-02.png';" alt=""></a></span>
-              </div>
-          </div>
-        </div>
-      </section>
-
       <!-- === Eventos - talleres === -->
       <div class="row">
         <div class="column medium-offset-8">
@@ -142,6 +77,98 @@ session_start();
           </div>
         </div>
       </section><!-- /Eventos - talleres -->
+      <!--===== Temas del congreso ==== -->
+      <section id="tematicas">
+        <div class="" id="iconos-temas"><!--   Iconos temas -->
+          <div class="row">
+            <div class="column medium-offset-5">
+              <h3 class="sub-1">EJES TEMÁTICOS</h3>
+            </div>
+          </div>
+          <div class="row align-spaced">
+              <div class="column">
+                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Diseño y Planeación"><a href="tematicas.php"><img src="img/planeacion-y-diseno-02.png" onmouseover="this.src='img/planeacion-y-diseno-01.png';" onmouseout="this.src='img/planeacion-y-diseno-02.png';" alt=""></a></span>
+              </div>
+              <div class="column">
+                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="La Ciudad"><a href="tematicas.php"><img src="img/la-ciudad-02.png" onmouseover="this.src='img/la-ciudad-01.png';" onmouseout="this.src='img/la-ciudad-02.png';" alt=""></a></span>
+              </div>
+              <div class="column">
+                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Economía y Usos del Espacio Público"><a href="tematicas.php"><img src="img/uso-del-espacio-publico-02.png" onmouseover="this.src='img/uso-del-espacio-publico-01.png';" onmouseout="this.src='img/uso-del-espacio-publico-02.png';" alt=""></a></span>
+              </div>
+              <div class="column">
+                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Salud y Medio Ambiente"><a href="tematicas.php"><img src="img/salud-y-medio-ambiente-02.png" onmouseover="this.src='img/salud-y-medio-ambiente-01.png';" onmouseout="this.src='img/salud-y-medio-ambiente-02.png';" alt=""></a></span>
+              </div>
+              <div class="column">
+                <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Servicio Público y Participación Ciudadana"><a href="tematicas.php"><img src="img/servicio-publico-02.png" onmouseover="this.src='img/servicio-publico-01.png';" onmouseout="this.src='img/servicio-publico-02.png';" alt=""></a></span>
+              </div>
+          </div>
+        </div>
+        <div class="row expanded align-middle" id="banners">
+          <div class=" orbit column small-12 medium-6 " id="mensajes" role="region" aria-label="Favorite Space Pictures" data-orbit>
+              <ul class="orbit-container" >
+                <!--<button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+                <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>-->
+                <li class="orbit-slide fondo-verde">
+                  <div class=" frases">
+                  <p class="text-center">"Los parques fortalecen los lazos comunitarios, transforman vidas y protegen nuestro futuro."</p>
+                  </div>
+                </li>
+                <li class="orbit-slide fondo-acuamarina">
+                  <div class=" frases">
+                    <p class="text-center">"Los parques deben construirse de acuerdo a las necesidades de cada comunidad, ningún espacio es igual a otro."</p>
+                  </div>
+                </li>
+                <li class="orbit-slide fondo-azul">
+                  <div class=" frases">
+                    <p class="text-center">"Los parques urbanos pueden llegar a reducir hasta 10º C en las ciudades, mejorando la calidad de vida de sus habitantes."</p>
+                  </div>
+                </li>
+                <li class="orbit-slide fondo-azulmarino">
+                  <div class=" frases">
+                    <p class="text-center">"Si el jugar es el trabajo de los niños, ¿qué pasa si se quedan desempleados?"</p>
+                  </div>
+                </li>
+                <li class="orbit-slide fondo-rosado">
+                  <div class=" frases">
+                    <p class="text-center">"Las áreas verdes generan bienestar y felicidad ayudando a evitar problemas mentales como: depresión, ansiedad o estrés laboral."</p>
+                  </div>
+                </li>
+              </ul>
+          </div>
+          <div class=" orbit column small-12 medium-6 " id="mensajes" role="region" aria-label="Favorite Space Pictures" data-orbit>
+            <ul class="orbit-container" >
+
+              <li class="orbit-slide fondo-verde">
+                <div class=" frases">
+                  <img src="img/planeacion-slider.jpg" alt="">
+                </div>
+              </li>
+              <li class="orbit-slide fondo-verde">
+                <div class=" frases">
+                  <img src="img/ciudad-slider.jpg" alt="">
+                </div>
+              </li>
+              <li class="orbit-slide fondo-verde">
+                <div class=" frases">
+                  <img src="img/economia-slider.jpg" alt="">
+                </div>
+              </li>
+              <li class="orbit-slide fondo-verde">
+                <div class=" frases">
+                  <img src="img/salud-slider.jpg" alt="">
+                </div>
+              </li>
+              <li class="orbit-slide fondo-verde">
+                <div class=" frases">
+                  <img src="img/participacion-slider.jpg" alt="">
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </section>
+
       <!--  Sección patrocinadores -->
       <section id="proveedores" data-margellan-target="proveedores">
         <div class="marcas-1">
@@ -195,13 +222,13 @@ session_start();
         </div>
       </div>
       <section id="contacto">
-        <div class="row expanded">
+        <div class="row expanded ">
           <div class="column small-12 medium-3 medium-offset-3 text-center">
             <div id="contenido-contacto">
               <h6>Centro Internacional de Congresos</h6>
               <h3>Mérida, Yucatán</h3>
               <div class="info-contacto">
-                <i class="fi-telephone"></i> 99944060
+                <i class="fi-telephone"></i> 99944060<br>
                 <i class="fi-mail"></i> info.congreso@anpr.org.mx
               </div>
               <span class="">
@@ -277,22 +304,22 @@ session_start();
     <section id="registro">
       <h4 class="text-center">¡Mantente informado!</h4>
       <p class="text-center">Regístrate para obtener actualizaciones sobre descuentos para conferencias, promociones y noticias.</p>
-      <form >
+      <form action="https://formspree.io/info.congreso@anpr.org.mx" method="POST">
         <div class="row align-justify formulario-1">
           <div class="column small-12 medium-3 small-order-1">
-            <input type="text" class="">
+            <input type="text" name="Nombre" class="">
             <label for="" class="text-center">Nombre</label>
           </div>
           <div class="column small-12 medium-3 small-order-2">
-            <input type="text">
+            <input type="text" name="Apellido">
             <label for="" class="text-center">Apellido</label>
           </div>
           <div class="column small-12 medium-3 small-order-3">
-            <input type="text"></input>
+            <input type="text" name="Email"></input>
             <label for="" class="text-center">E-mail</label>
           </div>
           <div class="column small-12 medium-3 text-center small-order-4">
-            <input type="button" name="" id="registro-horizontal" class="button btn-morado" value="REGÍSTRATE">
+            <input type="submit" name="" id="registro-horizontal" class="button btn-morado" value="REGÍSTRATE">
           </div>
         </div>
       </form>

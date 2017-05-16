@@ -31,7 +31,19 @@ session_start();
         </div>
       </div>
     </div>
-    <div class="row contenido tematicas">
+    <div class="row contenido">
+      <div class="column">
+        <p><span class="letra-capital">E</span>l 1er Congreso Internacional de Parques y Recreación es un evento
+          especializado de contenido educativo y vivencial dirigido a un público
+          cuyo trabajo impacta los parques urbanos y espacios públicos.</p>
+          <p>Cada temática profundizará en elementos cruciales para las mejores
+            prácticas en los parques urbanos y permitirán a los asistentes
+            especializarse en alguna área si así lo deseas o conocer todos
+            los aspectos del espacio público.</p>
+        </p>
+      </div>
+    </div>
+    <div class="row fila-espacio tematicas">
       <div class="row">
         <div class="column medium-6">
           <img src="img/diseno-planeacion.png" alt="">
@@ -52,11 +64,10 @@ session_start();
         </div>
         <div class="column medium-6 la-ciudad">
           <h4>La Ciudad</h4>
-          <p>En esta temática se hablará sobre cómo los parques impactan
-            de forma positiva a una ciudad y de cómo la sociedad civil
-            organizada la transforma y le da identidad a través de sus
-            iniciativas y proyectos. Los espacios públicos son el lugar
-            en dónde se vive la ciudad.</p>
+          <p>Las ciudades están compuestas por elementos de gran complejidad
+            que las hacen únicas. La peatonalidad, proyectos de bicicleta pública,
+            datos abiertos, barrios seguros y la resiliencia serán algunos de
+            los elementos tratados en esta temática. </p>
         </div>
       </div>
       <div class="row fila-espacio">

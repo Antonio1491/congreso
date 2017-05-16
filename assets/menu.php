@@ -7,13 +7,13 @@
         <ul class="vertical menu" data-drilldown>
           <li><a href="#">congreso</a>
             <ul class=" vertical menu sub-menu-central">
-                  <li><a href="patrocinadores.php">Patrocinadores y socios</a></li>
-                  <li><a href="tematicas.php">Temáticas</a></li>
                   <li><a href="conferencias.php">Conferencias magistrales</a></li>
-                  <li><a href="talleres.php">Talleres</a></li>
                   <li><a href="sesiones.php">Sesiones Educativas</a></li>
-                  <li><a href="programa.php">Programa Completo</a></li>
+                  <li><a href="talleres.php">Talleres</a></li>
+                  <li><a href="tematicas.php">Temáticas</a></li>
                   <li><a href="expo.php">Expo Comercial Parques Urbanos</a></li>
+                  <li><a href="programa.php">Programa Completo</a></li>
+                  <li><a href="patrocinadores.php">Patrocinadores y socios</a></li>
             </ul>
           </li>
           <li><a href="#">mérida yucatán</a>
@@ -49,7 +49,7 @@
               <a href="#"><img src="img/youtobe.png" alt=""></a>
             </div>
             <div class="contador">
-              <h5>ABRIL 25-27</h5>
+              <h5>ABRIL 25-27 DEL 2018</h5>
               <h5>MÉRIDA YUCATÁN</h5>
               <div id='contador'></div>
             </div>
@@ -68,13 +68,13 @@
               <ul class="menu align-spaced dropdown show-for-medium" id="" data-dropdown-menu>
                 <li><a href="#">congreso</a>
                   <ul class="menu sub-menu-central">
-                    <li><a href="patrocinadores.php">Patrocinadores y socios</a></li>
-                    <li><a href="tematicas.php">Temáticas</a></li>
                     <li><a href="conferencias.php">Conferencias magistrales</a></li>
-                    <li><a href="talleres.php">Talleres</a></li>
                     <li><a href="sesiones.php">Sesiones Educativas</a></li>
-                    <li><a href="programa.php">Programa Completo</a></li>
+                    <li><a href="talleres.php">Talleres</a></li>
+                    <li><a href="tematicas.php">Temáticas</a></li>
                     <li><a href="expo.php">Expo Comercial Parques Urbanos</a></li>
+                    <li><a href="programa.php">Programa Completo</a></li>
+                    <li><a href="patrocinadores.php">Patrocinadores y socios</a></li>
                   </ul>
                 </li>
                 <li><a href="#">mérida yucatán</a>

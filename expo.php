@@ -22,7 +22,7 @@ session_start();
 </head>
 <body onload="countdown('contador')">
 <?php include'assets/menu.php'; ?>
-<main class="back-2">
+<main class="">
   <article class="">
     <div class=" header header-expo">
       <div class="row align-middle">
@@ -31,58 +31,25 @@ session_start();
         </div>
       </div>
     </div>
-    <div class="action text-center">
-      <a href="registro-expositores.php" class="button">Solicitud de expositor</a>
+    <div class="action-2 text-center">
+      <div class="row align-spaced">
+        <div class="column">
+          <a href="visitante.php" class="button large">Visitante</a>
+        </div>
+        <div class="column">
+          <a href="expositor.php" class="button large">Expositor</a>
+        </div>
+      </div>
     </div>
-    <div class="row contenido expo">
-      <div class="column">
-        <h4>PISO DE EXPOSICIÓN</h4>
-        <p>Esta modalidad de contratación no cuenta con mobiliario, alfombra
-          ni electricidad ya que está destinado para diseños especiales contratados
-          por el expositor con el proveedor de su preferencia. En estos casos, generalmente
-          se requiere de una toma eléctrica especial la cual deberá ser contratada por el expositor.</p>
-        </p>
+    <div class="row contenido expo ">
+      <div class="column text-center">
+        <h5>La única exposición mexicana especializada de la industria reunirá a más de
+          <span style="font-size:1.4em;">150</span> empresas líderes en el mercado.</h5>
+        <p>Invierte en el foro de negocios en donde los principales tomadores de
+          decisiones en México se reunirán en torno a la industria de los parques
+          urbanos y la recreación. </p>
       </div>
-      <div class="row">
-        <div class="column medium-7">
-          <img src="img/expo-1.png" alt="">
-        </div>
-        <div class="column medium-5" >
-          <img src="img/precio-espacio.png" alt="">
-          <ul>
-            <li>Área marcada en piso.</li>
-            <li>Decoración general e iluminación propia de la expo.</li>
-            <li>Seguridad en áreas comunes.</li>
-            <li>Espacio Público en el "Directorio de Expositores". </li>
-            <li>Diploma de participación.</li>
-            <li>Gafetes de Expositor (uno por cada 3m2).</li>
-          </ul>
-        </div>
-      </div>
-      <div class="row expo fila-espacio">
-        <div class="column medium-7">
-          <h4>STAND DE 3 X 3 CON MAMPARAS</h4>
-          <ul>
-            <li>Mamparas blancas posteriores y laterales de 1m de ancho x 2.50m de alto en sistema
-            Octanorm y panel trovicel de 3mm.</li>
-            <li>Antepecho con nombre del expositor en vinil con letra estánder.</li>
-            <li>Contacto eléctrico doble de 110 volts por cada 9m2.</li>
-            <li>Iluminación dicroica.</li>
-            <li>1 Mesa.</li>
-            <li>2 Sillas.</li>
-            <li>1 Bote de basura.</li>
-            <li>Seguridad en áreas comunes.</li>
-            <li>Servicio de limpieza en pasillos y áreas comunes.</li>
-            <li>Registro en el "Directorio de Expositores".</li>
-            <li>Diploma de participación.</li>
-            <li>Gafetes de Expositor (uno por cada 3m2).</li>
-          </ul>
-        </div>
-        <div class="column medium-5">
-        <img src="img/precio-stand-2.png" alt="" class="precio">
-        <img src="img/stand.png" alt="" class="stand">
-        </div>
-      </div>
+    </div>
   </article>
 </main>
 

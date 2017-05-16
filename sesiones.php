@@ -35,6 +35,14 @@ session_start();
       <a href="convocatoria-sesiones.php" class="button">CONVOCATORIA</a>
     </div>
     <div class="row contenido">
+      <div class="column">
+        <p><span class="letra-capital">L</span>as sesiones educativas son la médula espinal del congreso. Son el espacio en 
+          el cual el asistente podrá aprender de nuestros ponentes. Los asistentes tendrán
+          a su alcance y más de 50 sesiones educativas y podrán seleccionar en qué sesiones
+           participar. </p>
+      </div>
+    </div>
+    <div class="row fila-espacio">
       <div class="column medium-6 planeacion-diseno">
         <h4 class="text-center">Diseño y Planeación</h4>
         <div class="text-center">

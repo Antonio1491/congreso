@@ -22,7 +22,7 @@ session_start();
 <body onload="countdown('contador')">
 <?php include'assets/menu.php'; ?>
 <main class="back-1">
-  <article class="">
+  <article class="conectividad">
     <div class=" header header-ciudad">
       <div class="row align-middle">
         <div class="column text-center">
@@ -30,14 +30,31 @@ session_start();
         </div>
       </div>
     </div>
-    <div class="row contenido">
+    <div class="row fila-espacio">
+      <p>El Aeropuerto Internacional de Mérida está ubicado a unos 15 minutos del
+        centro de la ciudad. Es una de las cuatro terminales aéreas que cuentan
+        con Centro de Área de Control y funciona como base de la Fuerza Aérea.
+        Opera vuelos nacionales e internacionales a América Central y del Norte.</p>
+    </div>
+    <div class="row fila-espacio">
+      <div class="column">
+        <h4 class="text-center">CONEXIONES NACIONALES</h4>
+      </div>
+    </div>
+    <div class="row">
       <div class="column medium-12">
         <img src="img/vuelos-1.jpg" alt="">
       </div>
+      <br>
     </div>
     <div class="row fila-espacio">
+      <div class="column">
+        <h4 class="text-center">CONEXIONES INTERNACIONALES</h4>
+      </div>
+    </div>
+    <div class="row">
       <div class="column medium-12">
-        <img src="img/vuelos-2.jpg" alt="">
+          <img src="img/vuelos-2.jpg" alt="">
       </div>
     </div>
   </article>

@@ -30,7 +30,7 @@ h3,h4, h5,h6
   color:#03549e
   border-left: 4px solid #0eaacd
   padding-left: 20px
-  margin-top: 0.5em
+  margin: 1em 0 1em 0
 .sub-2
   color: rgb(4, 134, 40)
   border-left: 4px solid $verde
@@ -132,11 +132,10 @@ h3,h4, h5,h6
 #barra
   margin-bottom: 1em
 // ======================= Temas =====================================
-#tematicas
+#banners
   overflow: hidden
-  height: 300px
-#frases-slider
-  height: 320px
+  height: 220px
+  margin-bottom: 5em
 .fondo-verde
   background: #94c01f
 .fondo-acuamarina
@@ -146,22 +145,21 @@ h3,h4, h5,h6
 .fondo-azulmarino
   background-color: #2d2e82
 .fondo-rosado
-  background-color: #e61d73
+  background-color: #d13ebe
 .frases
   color: white
   min-height: 100%
 .frases p
   font-size: 1.55em
-  padding: 11% 20% 0 20%
-  min-height: 320px
+  padding: 7% 10% 0 20%
+  height: 220px
 #tematicas #mensajes
   padding: 0
 #iconos-temas
   background:#eeeeee
-  margin-bottom: 5em
 #iconos-temas img
   height: 6em
-  margin: 0.856em 0
+  margin-bottom: 2.3em
 #img-slider
   padding: 0
 #img-slider img
@@ -229,7 +227,7 @@ h3,h4, h5,h6
 
 //=============================== Sección patrocinadores y proveedores ======================
 #proveedores
-  padding: 80px 0 80px
+  padding: 0px 0 80px
 #proveedores h3
   color: #0d848a
   font-family: general
@@ -264,23 +262,22 @@ h3,h4, h5,h6
     background-position: left center
 
 // =========================== sección contacto =================================
-#contenido-contacto
-  margin-right: 3em
 #contacto
   background: $azul
   color: white
   font-family: "Roboto"
   margin-bottom: 5em
+  padding-bottom: 0
 #contacto h6, #contacto h3
   font-family: "avenir bold"
 #contacto h6
-  margin-top: 2em
+  margin-top: .55em
   margin-bottom: 0
 #contacto h3
   margin-top: -10px
 .info-contacto
-  font-size: .65rem
-  margin-bottom: 1.2em
+  font-size: .88em
+  margin-bottom: 1em
   font-family: "Roboto"
 #contacto span
   background: white
@@ -298,6 +295,9 @@ h3,h4, h5,h6
   background: white
   color: $azul
   font-weight: bold
+  margin-bottom: 0
+  padding-left: 2em
+  padding-right: 2em
 #mapa iframe
   width: 100%
   padding: 0
@@ -473,7 +473,7 @@ li .redes-sociales
 #off-canvas .js-drilldown-back > a::before
   border-color: transparent $morado transparent transparent
 
-//====================  páginas  ====================================
+//============================  páginas  ====================================
 .header
   background-repeat: no-repeat
   background-position: center center
@@ -516,7 +516,7 @@ main .contenido ul li
 .letra-capital
   font-size: 150%
 
-//====== Conferencias magistrales ======
+//================    Conferencias magistrales    ======================
 .contenido-magistrales h4
   background: #009d96
   color: white
@@ -524,11 +524,11 @@ main .contenido ul li
   margin-top: 1.65em
 
 
-//====== TALLERES ======
+//=================   TALLERES   =======================================
 .contenido-talleres h4
   background: #33a5c9
   color: white
-//=========== Patrocinadores ===========
+//=================   Patrocinadores   ===============================
 .patrocinador-oro
   background: #ecb133
   color: white
@@ -554,7 +554,7 @@ main .contenido ul li
   margin: 0.8em 0 0.8em 0
 .contenido-bronce img
   height: 100px
-//==== Temáticas ===========
+//=============   Temáticas   ===========================
 .planeacion-diseno h4
   background: #79bb4b
   color: white
@@ -575,16 +575,15 @@ main .contenido ul li
   padding-left: .5em
   color: white
   background: #b605a5
-// ======== La ciudad blanca ======
-#video-ciudad
-  max-height: 350px !important
-
-//======== Hoteles  =====
+// =====================   La ciudad blanca   ==================
+.video
+  margin: auto
+//================   Hoteles    ================================
 .hoteles a
   color: #aa1a86
 .hoteles a:hover
   color: #8137d5
-//============ Inscripciones  ==============
+//==================     Inscripciones    =========================
 .inscripciones
   margin-top: 4em
 .fecha-precio
@@ -600,7 +599,10 @@ a .accordion-title
 .action
   height: 6em
   background-color: #e4e4e4
-.action a
+.action-2
+  height: 8em
+  background-color: #e4e4e4
+.action a, .action-2 a
   text-transform: uppercase
   font-weight: bold
   letter-spacing: .08em
@@ -618,6 +620,9 @@ a .accordion-title
   color: #545454
 .isesiones
   width: 80px
+//=============================  Conectividad ============
+.conectividad h4
+  color: #3c9f86
 //===================================  Aviso  =======================
 .aviso
   font-size: 14px

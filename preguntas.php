@@ -68,7 +68,7 @@ session_start();
         <li class="accordion-item" data-accordion-item>
           <a href="#" class="accordion-title">4.- RECINTO </a>
           <div class="accordion-content" data-tab-content>
-            <p>En el nuevo Centro Internacional de Congresos. Este se encuentra entre las avenidas
+            <p>El evento se llevará a cabo en el nuevo Centro Internacional de Congresos. Este se encuentra entre las avenidas
               Colón y Cupules con cruce de las calles 60 y 62 en la Colonia Centro. Está a una
               distancia caminable de multiples <a href="hospedajes.php">hoteles</a>.</p>
           </div>
@@ -78,9 +78,9 @@ session_start();
           <div class="accordion-content" data-tab-content>
             <p>Este evento impulsará a que profesionales de la industria de parques aumenten
               en número y conocimientos, para que amplíen sus negocios y desarrollen relaciones con
-              otros asistentes.</br>Además en el congreso podrás:</p>
+              otros asistentes.</p>
               <ul>
-                <li>El congreso contará con: 8 <a href="conferencias.php">conferencias magistrales</a>, 48 <a href="sesiones.php">sesiones educativas</a> y 9 <a href="talleres.php">talleres vivenciales</a>.</li>
+                <li>El congreso contará con: 8 <a href="conferencias.php">conferencias magistrales</a>, más de 50 <a href="sesiones.php">sesiones educativas</a> y 9 <a href="talleres.php">talleres vivenciales</a>.</li>
                 <li>Iniciarás relaciones duraderas con otros profesionales nacionales e internacionales con intereses e ideas similares.</li>
                 <li>Serás parte del inicio del gran movimiento social de los parques en México.</li>
                 <li>Aprenderás acerca de temas clave sobre los parques y la industria de recreación, con la oportunidad de especializarte en alguno de nuestros temas de <a href="sesiones.php">sesiones educativas</a>.</li>
@@ -97,8 +97,8 @@ session_start();
           <a href="#" class="accordion-title">6.- ¿QUÉ ACTIVIDADES ESTARÁN INCLUIDAS EN EL CONGRESO? </a>
           <div class="accordion-content" data-tab-content>
             <p>El Primer <a href="participar.php">Congreso Internacional de Parques</a> combina conocimientos técnicos en las <a href="sesiones.php">sesiones educativas</a>, pero también ofrece experiencias vivenciales a través de los <a href="talleres.php">talleres vivenciales</a>.</p>
-            <p>Las actividades comienzan el miércoles 25 con 9 <a href="talleres.php">talleres</a> (tendrán un costo adicional al costo del congreso) en los que se visitarán parques de la ciudad, el malecón del puerto de Progreso, se aprenderá a desarrollar un proyecto de biciruta, huertos urbanos, entre otros que extenderán los conocimientos sobre el espacio público. </p>
-            <p>El jueves y viernes tendrán lugar las 8 <a href="conferencias.php">conferencias magistrales</a> y las 48 <a href="sesiones.php">sesiones educativas</a> correspondientes a las <a href="tematicas.php">temáticas</a> desarrolladas: diseño y planeación, servicio público y participación ciudadana, la ciudad, economía y usos del espacio público además de salud y medio ambiente, en el Centro Internacional de Convenciones.</p>
+            <p>Las actividades comienzan el miércoles 25 de Abril del 2018 con 9 <a href="talleres.php">talleres</a> (tendrán un costo adicional al costo del congreso) en los que se visitarán parques de la ciudad, el malecón de Puerto Progreso, se aprenderá a desarrollar un proyecto de biciruta, huertos urbanos, entre otros que extenderán los conocimientos sobre el espacio público. </p>
+            <p>El jueves y viernes tendrán lugar las 8 <a href="conferencias.php">conferencias magistrales</a> y más de 50 <a href="sesiones.php">sesiones educativas</a> correspondientes a las <a href="tematicas.php">temáticas</a> desarrolladas: diseño y planeación, servicio público y participación ciudadana, la ciudad, economía y usos del espacio público además de salud y medio ambiente, en el Centro Internacional de Convenciones.</p>
             <p>El congreso ofrece dos eventos sociales, la inauguración que tendrá lugar el miércoles 25 por la tarde en el Remate de la avenida Paseo de Montejo y la clausura el viernes 27 en la explanada del Gran Museo del Mundo Maya de Mérida. Estos eventos son oportunidades únicas para que los asistentes al congreso se reúnan, intercambien conocimientos e información en un ambiente relajado, hagan networking y se diviertan.</p>
             <p>Se tendrá acceso ilimitado a la muestra comercial que se encontrará en Centro de Convenciones en el horario de las <a href="conferencias.php">conferencias magistrales</a> y <a href="sesiones.php">sesiones educativas</a>. Sin embargo se tendrán horarios designados para visitas exclusivas a la muestra.</p>
           </div>
@@ -106,7 +106,7 @@ session_start();
         <li class="accordion-item" data-accordion-item>
           <a href="#" class="accordion-title">7.- ¿QUIÉN ASISITIRÁ AL CONGRESO? </a>
           <div class="accordion-content" data-tab-content>
-            <p>Este congreso reunirá a más de 1.000 líderes urbanos, profesionales, funcionarios públicos, técnicos, tomadores de decisiones, académicos, estudiantes, sociedad civil y proveedores de equipamiento de más de 40 ciudades del mundo.</p>
+            <p>Este congreso reunirá a más de 1.000 líderes entre los que se encuentrán: planeadores urbanos, funcionarios públicos, técnicos, tomadores de decisiones, académicos, estudiantes, sociedad civil y proveedores de equipamiento de todo México y Latinoamérica.</p>
           </div>
         </li>
         <li class="accordion-item" data-accordion-item>
@@ -188,13 +188,13 @@ session_start();
         <li class="accordion-item" data-accordion-item>
           <a href="#" class="accordion-title">16.- ¿CON QUIÉN ME PUEDO COMUNICAR PARA SOLICITAR AYUDA SOBRE LA INSCRIPCIÓN?</a>
           <div class="accordion-content" data-tab-content>
-            <p>Cualquier miembro de nuestro equipo podrá ayudarte comunicándote al teléfono: 01 99 99 44 40 60 de lunes a viernes de 8:00am a 6:00pm.</p>
+            <p>Cualquier miembro de nuestro equipo podrá ayudarte comunicándote al teléfono: 01 99 99 44 40 60 / 01 800 400 PARK (7275) de lunes a viernes de 8:00am a 6:00pm.</p>
           </div>
         </li>
         <li class="accordion-item" data-accordion-item>
           <a href="#" class="accordion-title">17.- ¿DÓNDE ME PUEDO REGISTAR DURANTE EL CONGRESO?</a>
           <div class="accordion-content" data-tab-content>
-            <p>Podrás registrarte en el primer nivel del Centro Internacional de Convenciones de Mérida siguiendo la señalética en sitio.</p>
+            <p>Podrás registrarte en el primer nivel del Centro Internacional de Convenciones de Yucatán siguiendo la señalética en sitio.</p>
             <h6>Horarios</h6>
             <ul>
               <li>Miércoles, 25/04/17: 8 am – 6 pm</li>
