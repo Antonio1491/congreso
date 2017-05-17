@@ -36,14 +36,14 @@ session_start();
     </div>
     <div class="row contenido">
       <div class="column">
-        <p><span class="letra-capital">L</span>as sesiones educativas son la médula espinal del congreso. Son el espacio en 
+        <p><span class="letra-capital">L</span>as sesiones educativas son la médula espinal del congreso. Son el espacio en
           el cual el asistente podrá aprender de nuestros ponentes. Los asistentes tendrán
-          a su alcance y más de 50 sesiones educativas y podrán seleccionar en qué sesiones
+          a su alcance más de <span style="font-size:1.2em;">50</span> sesiones educativas y podrán seleccionar en qué sesiones
            participar. </p>
       </div>
     </div>
     <div class="row fila-espacio">
-      <div class="column medium-6 planeacion-diseno">
+      <div class="column small-12 medium-6 planeacion-diseno">
         <h4 class="text-center">Diseño y Planeación</h4>
         <div class="text-center">
             <img src="img/planeacion-y-diseno-02.png" alt="" class="isesiones">
@@ -58,7 +58,7 @@ session_start();
           <li>Las mujeres en la arquitectura de paisaje.</li>
         </ul>
       </div>
-      <div class="column medium-6 la-ciudad">
+      <div class="column small-12 medium-6 la-ciudad">
         <h4 class="text-center">La Ciudad</h4>
         <div class="text-center">
             <img src="img/la-ciudad-02.png" alt="" class="isesiones">
@@ -74,7 +74,7 @@ session_start();
       </div>
     </div>
     <div class="row fila-espacio">
-      <div class="column medium-6 economia">
+      <div class="column small-12 medium-6 economia">
         <h4 class="text-center">Economía y Usos del Espacio Público</h4>
         <div class="text-center">
             <img src="img/uso-del-espacio-publico-02.png" alt="" class="isesiones">
@@ -87,7 +87,7 @@ session_start();
           <li>¿Cómo organizar un evento exitoso en un espacio público?</li>
         </ul>
       </div>
-      <div class="column medium-6 salud">
+      <div class="column small-12 medium-6 salud">
         <h4 class="text-center">Salud y Medio Ambiente</h4>
         <div class="text-center">
             <img src="img/salud-y-medio-ambiente-02.png" alt="" class="isesiones">
@@ -102,7 +102,7 @@ session_start();
       </div>
     </div>
     <div class="row fila-espacio">
-      <div class="column medium-6 servicio-publico">
+      <div class="column small-12 medium-6 servicio-publico">
         <h4 class="text-center">Servicio Público y Participación Ciudadana</h4>
         <div class="text-center">
             <img src="img/servicio-publico-02.png" alt="" class="isesiones">

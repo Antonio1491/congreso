@@ -32,19 +32,22 @@ session_start();
       </div>
     </div>
     <div class="row contenido">
-      <p><span class="letra-capital">L</span>os talleres vivenciales serán experiencias únicas de aprendizaje
-        un día previo a que las sesiones educativas comiencen. Se visitarán
-        parques y espacios icónicos de la ciudad y el estado impartidos por
-        expertos en el tema y colaboradores de nuestra ciudad anfitriona. Los
-        talleres son una gran oportunidad para extender nuestro conocimiento
-        sobre el espacio público y hacer relaciones con profecionales de muchas ciudades de México y
-        el Continente. Los talleres se impartirán el día 25 de Abril de 2018.</p>
-    </div>
-    <div class="row contenido">
-      <div class="column medium-3">
-        <img src="img/talleres/los-barrios-de-merida.png" alt="">
+      <div class="column">
+        <p><span class="letra-capital">L</span>os talleres vivenciales serán experiencias únicas
+          de aprendizaje un día previo a que las sesiones educativas comiencen; se visitarán parques
+          y espacios icónicos de la ciudad y del estado junto con expertos en el tema y colaboradores
+          de nuestra ciudad anfitriona. Sin duda los talleres son una gran oportunidad para extender
+          nuestro conocimiento sobre el espacio público. Estas actividades tendrán lugar el día
+          miércoles <strong>25 de abril</strong>.</p>
       </div>
-      <div class="column medium-7 contenido-talleres ">
+    </div>
+    <div class="row contenido align-center">
+      <div class="column small-8 medium-3 large-3">
+        <figure class="carga">
+          <img data-src="img/talleres/los-barrios-de-merida.png" alt="Barrios de Mérida" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+        </figure>
+      </div>
+      <div class="column medium-8 large-7 contenido-talleres ">
         <h4 class="text-center">LOS BARRIOS DE MÉRIDA</h4>
         <h6 class="text-center"></h6>
         <p>Recorrido por los 7 principales barrios del centro de la ciudad, en los cuales
@@ -62,8 +65,8 @@ session_start();
         </p>
       </div>
     </div>
-    <div class="row fila-espacio">
-      <div class="column medium-7 medium-offset-2 contenido-talleres ">
+    <div class="row fila-espacio align-center">
+      <div class="column small-order-2 medium-order-1 medium-8 large-7 medium-offset-1 large-offset-2 contenido-talleres ">
         <h4 class="text-center">PARQUES HUNDIDOS</h4>
         <h6 class="text-center"></h6>
         <p>Los llamados “Parques Hundidos” son un tipo de parques particulares de Mérida,
@@ -73,15 +76,19 @@ session_start();
           de la ciudad, y se podrán observar los diferentes usos y actividades que tiene
           cada uno. </p>
       </div>
-      <div class="column medium-3">
-        <img src="img/talleres/parques-hundidos.png" alt="">
+      <div class="column small-8 small-order-1 medium-order-2 medium-3">
+        <figure class="carga">
+          <img data-src="img/talleres/parques-hundidos.png" alt="Parques Hundidos" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+        </figura>
       </div>
     </div>
-    <div class="row fila-espacio">
-      <div class="column medium-3">
-        <img src="img/talleres/malecon-progreso.png" alt="">
+    <div class="row fila-espacio align-center">
+      <div class="column small-8 medium-3 large-3">
+        <figure class="carga">
+          <img data-src="img/talleres/malecon-progreso.png" alt="Malecón de Puerto Progreso" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+        </figure>
       </div>
-      <div class="column medium-7 contenido-talleres ">
+      <div class="column small-12 medium-8 large-7 contenido-talleres ">
         <h4 class="text-center">MALECÓN DE PUERTO PROGRESO</h4>
         <h6 class="text-center"></h6>
         <p>En este taller se estudiará un espacio público común en las costas, el Malecón;
@@ -91,8 +98,8 @@ session_start();
           los beneficios que le trae a la ciudad.</p>
       </div>
     </div>
-    <div class="row fila-espacio">
-      <div class="column medium-7 medium-offset-2 contenido-talleres ">
+    <div class="row fila-espacio align-center">
+      <div class="column small-order-2 medium-order-1 medium-8 large-7 medium-offset-1 large-offset-2 contenido-talleres ">
         <h4 class="text-center">PLACEMAKING</h4>
         <h6 class="text-center"></h6>
         <p>Placemaking en dos de las avenidas más icónicas de Mérida: Paseo de Montejo y Av. Colón: El Placemaking es una metodología
@@ -101,15 +108,19 @@ session_start();
          podrás conocer ésta metodología a profundidad y llevarla a la práctica en dos de las
          avenidas principales de la ciudad.</p>
       </div>
-      <div class="column medium-3">
-        <img src="img/talleres/placemaking.png" alt="">
+      <div class="column small-8 medium-3 small-order-1 medium-order-2">
+        <figure class="carga">
+          <img data-src="img/talleres/placemaking.png" alt="Placemaking" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+        </figure>
       </div>
     </div>
-    <div class="row fila-espacio">
-      <div class="column medium-3">
-        <img src="img/talleres/la-plancha.png" alt="">
+    <div class="row fila-espacio align-center">
+      <div class="column small-8 medium-3">
+        <figure class="carga">
+          <img data-src="img/talleres/la-plancha.png" alt="Ex estación de trenes" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+        </figure>
       </div>
-      <div class="column medium-7 contenido-talleres ">
+      <div class="column medium-8 large-7 contenido-talleres ">
         <h4 class="text-center">LA PLANCHA</h4>
         <h6 class="text-center"></h6>
         <p>Se organizará un recorrido dentro de “La Plancha”, como se le conoce a la ex
@@ -120,8 +131,8 @@ session_start();
         trabajan de la mano con el gobierno para transformarlo en un gran parque metropolitano.  </p>
       </div>
     </div>
-    <div class="row fila-espacio">
-      <div class="column medium-7 medium-offset-2 contenido-talleres ">
+    <div class="row fila-espacio align-center">
+      <div class="column small-order-2 medium-order-1 medium-8 large-7 medium-offset-1 large-offset-2 contenido-talleres ">
         <h4 class="text-center">PARQUES LINEALES</h4>
         <h6 class="text-center"></h6>
         <p>¿Cómo utilizar espacios que pareciera están destinados al abandono? En este
@@ -130,15 +141,19 @@ session_start();
           espacios que generaban inseguridad, ahora son centros de convivencia de gran
           importancia en la ciudad.  </p>
       </div>
-      <div class="column medium-3">
-        <img src="img/talleres/parques-lineales.png" alt="">
+      <div class="column small-8 medium-3 small-order-1 medium-order-2">
+        <figure class="carga">
+          <img data-src="img/talleres/parques-lineales.png" alt="Parque Líneal" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+        </figure>
       </div>
     </div>
-    <div class="row fila-espacio">
-      <div class="column medium-3">
-        <img src="img/talleres/parques-de-merida.png" alt="">
+    <div class="row fila-espacio align-center">
+      <div class="column small-8 medium-3">
+        <figure class="carga">
+          <img data-src="img/talleres/parques-de-merida.png" alt="Parques con historia" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+        </figure>
       </div>
-      <div class="column medium-7 contenido-talleres ">
+      <div class="column  medium-8 large-7 contenido-talleres ">
         <h4 class="text-center">PARQUES CON HISTORIA</h4>
         <h6 class="text-center"></h6>
         <p>Cada ciudad cuenta con parques icónicos. En este taller, recorreremos algunos de
@@ -148,8 +163,8 @@ session_start();
         parque de "Las Américas" con más de 60 años de historia en la comunidad yucateca.</p>
       </div>
     </div>
-    <div class="row fila-espacio">
-      <div class="column medium-7 medium-offset-2 contenido-talleres ">
+    <div class="row fila-espacio align-center">
+      <div class="column small-order-2 medium-order-1 medium-8 large-7 medium-offset-1 large-offset-2 contenido-talleres ">
         <h4 class="text-center">BICI-RUTA</h4>
         <h6 class="text-center"></h6>
         <p>El programa de la bici-ruta de Mérida tiene 11 años siendo un programa dominical exitoso.
@@ -158,15 +173,19 @@ session_start();
           necesita, entre otros. Tendremos expertos que nos contarán sus experiencias, y con los
           cuales podremos recorrer algunas de las calles de este excelente programa.</p>
       </div>
-      <div class="column medium-3">
-        <img src="img/talleres/bici-ruta.png" alt="">
+      <div class="column small-8 medium-3 small-order-1 medium-order-2">
+        <figure class="carga">
+          <img data-src="img/talleres/bici-ruta.png" alt="Bici-Ruta en Mérida" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+        </figure>
       </div>
     </div>
-    <div class="row fila-espacio">
-      <div class="column medium-3">
-        <img src="img/talleres/huertos-hurbanos.png" alt="">
+    <div class="row fila-espacio align-center">
+      <div class="column small-8 medium-3">
+        <figure class="carga">
+          <img data-src="img/talleres/huertos-hurbanos.png" alt="Huertos Urbanos" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+        </figure>
       </div>
-      <div class="column medium-7 contenido-talleres ">
+      <div class="column small-12 medium-8 large-7 contenido-talleres ">
         <h4 class="text-center">HUERTOS URBANOS Y VIVEROS</h4>
         <h6 class="text-center"></h6>
         <p>Esta es una gran oportunidad para aprender todo lo necesario y desarrollar un huerto urbano en tu parque,

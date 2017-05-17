@@ -24,8 +24,8 @@ session_start();
 <?php include'assets/menu.php'; ?>
 <main class="back-2">
   <article class="">
-    <div class=" header header-expo">
-      <div class="row align-middle">
+    <div class="">
+      <div class="row header header-expo">
         <div class="column text-center">
           <h3 class="titulos">EXPO COMERCIAL PARQUES URBANOS</h3>
         </div>
@@ -34,41 +34,55 @@ session_start();
     <div class="action text-center">
      <a href="registro-expositores.php" class="button">Solicitud de expositor</a>
    </div>
-   <div class="row contenido expo">
-     <div class="column">
-       <p><span class="letra-capital">L</span>a "Expo Comercial Parques Urbanos" reune a todos los proveedores de materiales
-         y equipos de recreación, que se instalará durante tres días en la ciudad de Mérida, del 25 al 27 de Abril de 2018.  </p>
-       <h4>PISO DE EXPOSICIÓN</h4>
-       <p>Esta modalidad de contratación no cuenta con mobiliario, alfombra
-         ni electricidad ya que está destinado para diseños especiales contratados
-         por el expositor con el proveedor de su preferencia. En estos casos, generalmente
-         se requiere de una toma eléctrica especial la cual deberá ser contratada por el expositor.</p>
-       </p>
+   <div class="contenido expo">
+     <div class="row">
+       <div class="column">
+         <p><span class="letra-capital">L</span>a "Expo Comercial Parques Urbanos" reune a todos los proveedores de materiales
+           y equipos de recreación, que se instalará durante tres días en la ciudad de Mérida, del 25 al 27 de Abril de 2018.  </p>
+         <h4>PISO DE EXPOSICIÓN</h4>
+         <p>Esta modalidad de contratación no cuenta con mobiliario, alfombra
+           ni electricidad ya que está destinado para diseños especiales contratados
+           por el expositor con el proveedor de su preferencia. En estos casos, generalmente
+           se requiere de una toma eléctrica especial la cual deberá ser contratada por el expositor.</p>
+         </p>
+       </div>
      </div>
      <div class="row">
-       <div class="column medium-7">
-         <img src="img/expo-1.png" alt="">
-       </div>
-       <div class="column medium-5" >
-         <img src="img/precio-espacio.png" alt="">
+       <div class="column small-12 medium-6">
          <ul>
            <li>Área marcada en piso.</li>
            <li>Decoración general e iluminación propia de la expo.</li>
            <li>Seguridad en áreas comunes.</li>
-           <li>Espacio Público en el "Directorio de Expositores". </li>
-           <li>Diploma de participación.</li>
-           <li>Gafetes de Expositor (uno por cada 3m2).</li>
          </ul>
+       </div>
+       <div class="column small-12 medium-6">
+         <ul>
+         <li>Espacio Público en el "Directorio de Expositores". </li>
+         <li>Diploma de participación.</li>
+         <li>Gafetes de Expositor (uno por cada 3m<sup>2</sup> ).</li>
+       </ul>
+       </div>
+     </div>
+     <div class="row">
+       <div class="column small-12 medium-6 large-7">
+         <figure class="carga">
+           <img data-src="img/expo-1.png" alt="Piso de exposición" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+         </figure>
+       </div>
+       <div class="column medium-6 large-5" >
+         <figure>
+            <img data-src="img/precio-espacio.png" alt="Precios piso de exposición" >
+         </figure>
        </div>
      </div>
      <div class="row expo fila-espacio">
-       <div class="column medium-7">
+       <div class="column  small-12 medium-7">
          <h4>STAND DE 3 X 3 CON MAMPARAS</h4>
          <ul>
            <li>Mamparas blancas posteriores y laterales de 1m de ancho x 2.50m de alto en sistema
            Octanorm y panel trovicel de 3mm.</li>
            <li>Antepecho con nombre del expositor en vinil con letra estánder.</li>
-           <li>Contacto eléctrico doble de 110 volts por cada 9m2.</li>
+           <li>Contacto eléctrico doble de 110 volts por cada 9m<sup>2</sup>.</li>
            <li>Iluminación dicroica.</li>
            <li>1 Mesa.</li>
            <li>2 Sillas.</li>
@@ -77,12 +91,16 @@ session_start();
            <li>Servicio de limpieza en pasillos y áreas comunes.</li>
            <li>Registro en el "Directorio de Expositores".</li>
            <li>Diploma de participación.</li>
-           <li>Gafetes de Expositor (uno por cada 3m2).</li>
+           <li>Gafetes de Expositor (uno por cada 3m<sup>2</sup>).</li>
          </ul>
        </div>
        <div class="column medium-5">
-       <img src="img/precio-stand-2.png" alt="" class="precio">
-       <img src="img/stand.png" alt="" class="stand">
+       <figure >
+         <img data-src="img/precio-stand-2.png" alt="Precios Stand" class="precio" >
+       </figure>
+       <figure>
+          <img data-src="img/stand.png" alt="Stand de 3x3" class="stand" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+       </figure>
        </div>
      </div>
  </article>

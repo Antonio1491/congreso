@@ -37,7 +37,7 @@
     <header>
       <!--======================== Sección header "contador" ===================================-->
       <section id="encabezado">
-        <div class="row align-justify">
+        <div class="row align-justify hide-for-small-only">
           <div class="colum logo-principal">
             <a href="index.php"><img src="img/congreso-parques-urbanos-logo.png" alt=""></a>
           </div>

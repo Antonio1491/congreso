@@ -34,17 +34,19 @@ session_start();
     <div class="action-2 text-center">
       <div class="row align-spaced">
         <div class="column">
-          <a href="visitante.php" class="button large">Visitante</a>
+          <a href="visitante.php" class="button large show-for-medium">Visitante</a>
+          <a href="visitante.php" class="button small show-for-small-only">Visitante</a>
         </div>
         <div class="column">
-          <a href="expositor.php" class="button large">Expositor</a>
+          <a href="expositor.php" class="button large show-for-medium">Expositor</a>
+          <a href="expositor.php" class="button small show-for-small-only">Expositor</a>
         </div>
       </div>
     </div>
     <div class="row contenido expo ">
       <div class="column text-center">
         <h5>La única exposición mexicana especializada de la industria reunirá a más de
-          <span style="font-size:1.4em;">150</span> empresas líderes en el mercado.</h5>
+          <span style="font-size:1.4em;">100</span> empresas líderes en el mercado.</h5>
         <p>Invierte en el foro de negocios en donde los principales tomadores de
           decisiones en México se reunirán en torno a la industria de los parques
           urbanos y la recreación. </p>

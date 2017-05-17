@@ -66,7 +66,9 @@ session_start();
         </div>
       </div>
       <div class="row">
-        <img src="img/croquis.jpg" alt="" class="croquis">
+        <figure class="carga">
+          <img data-src="img/croquis.png" alt="Croquis del recinto" class="croquis" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+        </figure>
       </div>
   </article>
 </main>

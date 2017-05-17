@@ -14,7 +14,7 @@
     </div>
   </div>
     <!-- Ménu footer -->
-    <div class="row" id="menu-footer">
+    <div class="row hide-for-small-only" id="menu-footer">
       <div class="column">
         <ul class="menu vertical ">
           <li class="menu-text">contáctenos</a></li>

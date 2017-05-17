@@ -43,12 +43,14 @@ session_start();
         </p>
       </div>
     </div>
-    <div class="row fila-espacio tematicas">
-      <div class="row">
-        <div class="column medium-6">
-          <img src="img/diseno-planeacion.png" alt="">
+    <div class="fila-espacio tematicas">
+      <div class="row align-center">
+        <div class="column small-12 medium-6">
+          <figure class="carga">
+            <img data-src="img/diseno-planeacion.png" alt="Diseño y Planeación" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+          </figure>
         </div>
-        <div class="column medium-6 planeacion-diseno">
+        <div class="column small-12 medium-6 planeacion-diseno">
           <h4>Diseño y Planeación</h4>
           <p>El objetivo de esta temática es hablar sobre principios y
             procesos de diseño para parques; ahondando en temas específicos
@@ -59,10 +61,12 @@ session_start();
         </div>
       </div>
       <div class="row fila-espacio">
-        <div class="column medium-6">
-          <img src="img/la-ciudad.png" alt="">
+        <div class="column small-12 medium-6">
+          <figure class="carga">
+           <img data-src="img/la-ciudad.png" alt="La ciudad" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+          </figure>
         </div>
-        <div class="column medium-6 la-ciudad">
+        <div class="column small-12 medium-6 la-ciudad">
           <h4>La Ciudad</h4>
           <p>Las ciudades están compuestas por elementos de gran complejidad
             que las hacen únicas. La peatonalidad, proyectos de bicicleta pública,
@@ -71,10 +75,12 @@ session_start();
         </div>
       </div>
       <div class="row fila-espacio">
-        <div class="column medium-6">
-          <img src="img/economia.png" alt="">
+        <div class="column small-12 medium-6">
+          <figure class="carga">
+            <img data-src="img/economia.png" alt="Economía y Usos del Espacio Público" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+          </figure>
         </div>
-        <div class="column medium-6 economia">
+        <div class="column small-12 medium-6 economia">
           <h4>Economía y Usos del Espacio Público</h4>
           <p>Además de ser espacios para la recreación, los parques
             impulsan la economía y generan empleos. Se presentarán modelos
@@ -84,8 +90,10 @@ session_start();
         </div>
       </div>
       <div class="row fila-espacio">
-        <div class="column medium-6">
-          <img src="img/salud-medio-ambiente.png" alt="">
+        <div class="column small-12 medium-6">
+          <figure class="carga">
+            <img data-src="img/salud-medio-ambiente.png" alt="Salud y Medio Ambiente" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+          </figure>
         </div>
         <div class="column medium-6 salud">
           <h4>Salud y Medio Ambiente</h4>
@@ -98,8 +106,10 @@ session_start();
         </div>
       </div>
       <div class="row fila-espacio">
-        <div class="column medium-6">
-          <img src="img/participacion-ciudadana.png" alt="">
+        <div class="column small-12 medium-6">
+          <figure class="carga">
+            <img data-src="img/participacion-ciudadana.png" alt="Servicio Público y Participación Ciudadana" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+          </figure>
         </div>
         <div class="column medium-6 servicio-publico">
           <h4>Servicio Público y Participación Ciudadana</h4>

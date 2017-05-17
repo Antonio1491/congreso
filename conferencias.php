@@ -40,90 +40,90 @@ session_start();
             común para nuestras ciudades. </p>
         </div>
       </div>
-      <div class="row fila-espacio">
-      <div class="column medium-3 large-2">
+      <div class="row align-center fila-espacio">
+      <div class="columns small-9 medium-3 large-2">
         <figure class="carga">
           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="img/conferencistas/martha-fajardo.png" alt="Martha Fajardo">
         </figure>
       </div>
-      <div class="column medium-3 large-4 contenido-magistrales">
+      <div class="column small-10 medium-3 large-4 contenido-magistrales">
         <h4 class="text-center">Tema 1</h4>
         <h5 class="text-center">Martha Fajardo</h5>
         <h6 class="text-center">Grupo Verde - Colombia</h6>
       </div>
-      <div class="column medium-3 large-2">
+      <div class="column small-9 medium-3 large-2">
         <figure class="carga">
           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="img/conferencistas/mario-shejtan.png" alt="Mario Shejtan">
         </figure>
       </div>
-      <div class="column medium-3 large-4 contenido-magistrales ">
+      <div class="column small-10 medium-3 large-4 contenido-magistrales ">
         <h4 class="text-center">Tema 2</h4>
         <h5 class="text-center">Mario Shejtan</h5>
         <h6 class="text-center">Grupo Desarrollo Urbano - México</h6>
       </div>
 
     </div>
-    <div class="row fila-espacio">
-      <div class="column medium-3 large-2">
+    <div class="row align-center fila-espacio">
+      <div class="column small-9 medium-3 large-2">
         <figure class="carga">
           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="img/conferencistas/robert-hammond.png" alt="Robert Hammond">
         </figure>
       </div>
-      <div class="column medium-3 large-4 contenido-magistrales ">
+      <div class="column small-10 medium-3 large-4 contenido-magistrales ">
         <h4 class="text-center"></h4>
         <h5 class="text-center">Robert Hammond</h5>
         <h6 class="text-center">High Line - E.E.U.U.</h6>
       </div>
-      <div class="column medium-3 large-2">
+      <div class="column small-9 medium-3 large-2">
         <figure class="carga">
           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="img/conferencistas/barbara-tulipane.png" alt="Barbara Tulipane">
         </figure>
       </div>
-      <div class="column medium-2 large-4 contenido-magistrales ">
+      <div class="column small-10 medium-3 large-4 contenido-magistrales ">
         <h4 class="text-center"></h4>
         <h5 class="text-center">Barbara Tulipane</h5>
         <h6 class="text-center">Directora Ejecutiva, NRPA - E.E.U.U.</h6>
       </div>
     </div>
-    <div class="row fila-espacio">
-      <div class="column medium-2">
+    <div class="row align-center fila-espacio">
+      <div class="column small-9 medium-3 large-2">
         <figure class="carga">
           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="img/conferencistas/peter.png" alt="Peter Harnik">
         </figure>
       </div>
-      <div class="column medium-3 large-2 contenido-magistrales ">
+      <div class="column small-10 medium-3 large-4 contenido-magistrales ">
         <h4 class="text-center"></h4>
         <h5 class="text-center">Peter Harnik</h5>
         <h6 class="text-center">The Trust for Public Land - E.E.U.U.</h6>
       </div>
-      <div class="column medium-2">
+      <div class="column small-9 medium-3 large-2">
         <figure class="carga">
           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="img/conferencistas/jorge-perez.png" alt="Jorge Pérez Jaramillo">
         </figure>
       </div>
-      <div class="column medium-4 contenido-magistrales ">
+      <div class="column small-10 medium-3 large-4 contenido-magistrales ">
         <h4 class="text-center"></h4>
         <h5 class="text-center">Jorge Pérez Jaramillo</h5>
         <h6 class="text-center">Ex Director del Dpto. Administrativo de Planeación de Medallín - Colombia </h6>
       </div>
     </div>
-    <div class="row fila-espacio">
-      <div class="column medium-2">
+    <div class="row align-center fila-espacio">
+      <div class="column small-9 medium-3 large-2">
         <figure class="carga">
           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="img/conferencistas/tom.png" alt="Tom O-Rourke">
         </figure>
       </div>
-      <div class="column medium-3 large-2 contenido-magistrales ">
+      <div class="column small-10 medium-3 large-4 contenido-magistrales ">
         <h4 class="text-center"></h4>
         <h5 class="text-center">Tom O-Rourke</h5>
         <h6 class="text-center">Director Ejecutivo Charleston Country Park - E.E.U.U</h6>
       </div>
-      <div class="column medium-2">
+      <div class="column small-9 medium-3 large-2">
         <figure class="carga">
           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="img/conferencistas/marinela-servitje.png" alt="Marinela Servitje">
         </figure>
       </div>
-      <div class="column medium-4 contenido-magistrales ">
+      <div class="column small-10 medium-3 large-4 contenido-magistrales ">
         <h4 class="text-center"></h4>
         <h5 class="text-center">Marinela Servitje</h5>
         <h6 class="text-center">Directora General Siete Colores - México</h6>
