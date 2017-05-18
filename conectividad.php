@@ -17,6 +17,7 @@ session_start();
     <link rel="stylesheet" href="icons/foundation-icons.css">
     <link rel="stylesheet" href="css/foundation-flex.css">
     <link type="text/css" href="css/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body onload="countdown('contador')">
@@ -31,10 +32,12 @@ session_start();
       </div>
     </div>
     <div class="row fila-espacio">
-      <p>El Aeropuerto Internacional de Mérida está ubicado a unos 15 minutos del
-        centro de la ciudad. Es una de las cuatro terminales aéreas que cuentan
-        con Centro de Área de Control y funciona como base de la Fuerza Aérea.
-        Opera vuelos nacionales e internacionales a América Central y del Norte.</p>
+      <div class="column">
+        <p><strong class="letra-capital">E</strong>l Aeropuerto Internacional de Mérida está ubicado a unos 15 minutos del
+          centro de la ciudad. Otras alternativas son; llegar al Aeropuerto internacional de Cancún (CUN) y tomar un autobús 
+          a Mérida (el tiempo de traslado es de cuatro horas aproximadamente) o hacer una escala en el Aeropuerto Internacional
+          de la Ciudad de México, Benito Juárez (MEX) llegando a Mérida en un vuelo con duración de una hora y media aproximadamente.</p>
+      </div>
     </div>
     <div class="row fila-espacio">
       <div class="column">
@@ -43,7 +46,9 @@ session_start();
     </div>
     <div class="row">
       <div class="column medium-12">
-        <img src="img/vuelos-1.jpg" alt="">
+        <figure class="carga">
+          <img data-src="img/vuelos-1.jpg" alt="Vuelos Nacionales" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+        </figure>
       </div>
       <br>
     </div>
@@ -54,7 +59,9 @@ session_start();
     </div>
     <div class="row">
       <div class="column medium-12">
-          <img src="img/vuelos-2.jpg" alt="">
+          <figure class="carga">
+            <img data-src="img/vuelos-2.jpg" alt="Vuelos Internacionales" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+          </figure>
       </div>
     </div>
   </article>

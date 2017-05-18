@@ -7,6 +7,7 @@
         <ul class="vertical menu" data-drilldown>
           <li><a href="#">congreso</a>
             <ul class=" vertical menu sub-menu-central">
+                  <li><a href="#">Convocatoria 2018</a></li>
                   <li><a href="conferencias.php">Conferencias magistrales</a></li>
                   <li><a href="sesiones.php">Sesiones Educativas</a></li>
                   <li><a href="talleres.php">Talleres</a></li>
@@ -68,6 +69,7 @@
               <ul class="menu align-spaced dropdown show-for-medium" id="" data-dropdown-menu>
                 <li><a href="#">congreso</a>
                   <ul class="menu sub-menu-central">
+                    <li><a href="#">Convocatoria 2018</a></li>
                     <li><a href="conferencias.php">Conferencias magistrales</a></li>
                     <li><a href="sesiones.php">Sesiones Educativas</a></li>
                     <li><a href="talleres.php">Talleres</a></li>
@@ -91,6 +93,7 @@
                     <li><a href="inscripcion.php">Inscripción</a></li>
                     <li><a href="participar.php">¿por qué participar?</a></li>
                     <li><a href="preguntas.php">Preguntas frecuentes</a></li>
+                    <li><a href="contacto.php">Contacto</a></li>
                     <!--<li><a href="congreso-2019.php">Congreso 2019</a></li>-->
                   </ul>
                 </li>

@@ -80,23 +80,23 @@ session_start();
           <label for="">Estado:</label>
           <input type="text" name="estado" value="">
         </div>
-        <div class="column medium-3">
+        <div class="column  small-12 medium-3">
           <label for="">País:</label>
           <input type="text" name="pais" value="">
         </div>
-        <div class="column medium-3">
+        <div class="column small-12 medium-3">
           <label for="">C.P:</label>
           <input type="text" name="cp" value="">
         </div>
-        <div class="column medium-6">
+        <div class="column small-12 medium-6">
           <label for="">Representante Legal:</label>
           <input type="text" name="representante" value="">
         </div>
-        <div class="column medium-3">
+        <div class="column small-12 medium-3">
           <label for="">Cargo:</label>
           <input type="text" name="cargo" value="">
         </div>
-        <div class="column medium-3">
+        <div class="column small-12 medium-3">
           <label for="">E-mail:</label>
           <input type="text" name="email" value="">
         </div>
@@ -107,11 +107,11 @@ session_start();
         </div>
       </div>
       <div class="row">
-        <div class="column medium-12">
+        <div class="column small-12 medium-12">
           <label for="">Nombre Comercial:</label>
           <input type="text" name="nom_comercial" value="">
         </div>
-        <div class="column medium-3">
+        <div class="column small-12 medium-3">
           <label for="">Calle:</label>
           <input type="text" name="calle_2" value="">
         </div>
@@ -123,27 +123,27 @@ session_start();
           <label for="">Número Int:</label>
           <input type="text" name="num_int_2" value="">
         </div>
-        <div class="column medium-3">
+        <div class="column small-12 medium-3">
           <label for="">Colonia:</label>
           <input type="text" name="colonia_2" value="">
         </div>
-        <div class="column medium-3">
+        <div class="column small-12 medium-3">
           <label for="">Ciudad:</label>
           <input type="text" name="ciudad_2" value="">
         </div>
-        <div class="column medium-3">
+        <div class="column small-12 medium-3">
           <label for="">Estado:</label>
           <input type="text" name="estado_2" value="">
         </div>
-        <div class="column medium-3">
+        <div class="column small-12 medium-3">
           <label for="">País:</label>
           <input type="text" name="pais_2" value="">
         </div>
-        <div class="column medium-3">
+        <div class="column small-12 medium-3">
           <label for="">C.P:</label>
           <input type="text" name="cp_2" value="">
         </div>
-        <div class="column medium-4">
+        <div class="column small-12 medium-4">
           <label for="">Página Web:</label>
           <input type="text" name="web" value="">
         </div>
@@ -162,27 +162,27 @@ session_start();
           </div>
         </div>
         <div class="row">
-          <div class="column medium-6">
+          <div class="column small-12 medium-6">
             <label for="">Contacto del Evento (Responsable de la organización):</label>
             <input type="text" name="contacto_evento" value="">
           </div>
-          <div class="column medium-3">
+          <div class="column small-12 medium-3">
             <label for="">Cargo:</label>
             <input type="text" name="cargo_evento" value="">
           </div>
-          <div class="column medium-3">
+          <div class="column small-12 medium-3">
             <label for="">E-mail:</label>
             <input type="text" name="email_evento" value="">
           </div>
-          <div class="column medium-6">
+          <div class="column small-12 medium-6">
             <label for="">Contacto para pagos:</label>
             <input type="text" name="contacto_pagos" value="">
           </div>
-          <div class="column medium-3">
+          <div class="column small-12 medium-3">
             <label for="">Cargo:</label>
             <input type="text" name="cargo_pagos" value="">
           </div>
-          <div class="column medium-3">
+          <div class="column small-12 medium-3">
             <label for="">E-mail:</label>
             <input type="text" name="email_pagos" value="">
           </div>
@@ -233,10 +233,17 @@ session_start();
           </div>
           <div class="column">
             <label class="condiciones">Al aceptar esta solicitud de espacio, estoy de acuerdo
-            con las normas, reglamentos, condiciones de pago y las
+            con las normas, <a href="Reglamento-Expo.pdf">reglamentos</a>, condiciones de pago y las
             condiciones para la "Expo Comercial Parques Urbanos 2018".</label>
           </div>
-
+        </div>
+        <div class="row fila-espacio">
+          <div class="column">
+            <strong>Descargas Importantes:</strong>
+            <ul>
+              <li><a href="Reglamento-Expo.pdf">Reglamento</a></li>
+            </ul>
+          </div>
         </div>
         <div class="row column text-center fila-espacio">
           <input type="submit" name="" value="ENVIAR" class="button">

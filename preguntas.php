@@ -36,7 +36,7 @@ session_start();
         <li class="accordion-item is-active" data-accordion-item>
           <a href="#" class="accordion-title">1.- ¿QUÉ ES EL PRIMER CONGRESO DE PARQUES URBANOS?</a>
           <div class="accordion-content" data-tab-content>
-            <p>El Primer Congreso de Parques Urbanos es la primera edición de un evento que se realizará
+            <p>El Primer Congreso de Parques Urbanos es la <em>primera edición</em> de un evento que se realizará
               anualmente que tendrá como objetivo reunir y capacitar a profesionales, funcionarios públicos,
               técnicos, tomadores de decisiones, académicos, estudiantes, sociedad civil y proveedores
               relacionados al espacio público en un mismo lugar, para impulsar la industria de los parques
@@ -48,7 +48,7 @@ session_start();
           <a href="#" class="accordion-title">2.- ¿DÓNDE ES EL PRIMER CONGRESO DE PARQUES URBANOS?</a>
           <div class="accordion-content" data-tab-content>
             <p>En <a href="ciudad-blanca.php">Mérida</a>, capital del estado de Yucatán y Capital de la Cultura de las Américas en 2017.
-              Ciudad nombrada por Forbes como una de las tres mejores ciudades de México para vivir, y con
+              Ciudad nombrada por <strong>Forbes</strong> como una de las tres mejores ciudades de México para vivir, y con
               las mejores alternativas para invertir y hacer negocios, por el suplemento El Viajero, del
               periódico español El País, elegida como una de las 10 ciudades para darle la bienvenida a 2017
               y por la publicación internacional Lonely Planet calificada como una de las más atractivas
@@ -58,8 +58,8 @@ session_start();
         <li class="accordion-item" data-accordion-item>
           <a href="#" class="accordion-title">3.- ¿CUÁNDO ES EL PRIMER CONGRESO DE PARQUES URBANOS? </a>
           <div class="accordion-content" data-tab-content>
-            <p>El <a href="participar.php">Primer Congreso de Parques Urbanos</a> tendrá lugar en la ciudad de Mérida del 25 al 27
-              de abril del 2018. Durante estos tres días el asistente tendrá la oportunidad de visitar
+            <p>El <a href="participar.php">Primer Congreso de Parques Urbanos</a> tendrá lugar en la ciudad de Mérida del <strong>25 al 27
+              de abril del 2018</strong>. Durante estos tres días el asistente tendrá la oportunidad de visitar
               la ciudad en nuestros <a href="talleres.php">talleres vivenciales</a>, aprender en  nuestras <a href="conferencias.php">conferencias magistrales</a>
               y nuestras <a href="sesiones.php">sesiones educativas</a>, hacer networking durante el día y en los eventos sociales,
               además de tener acceso a la <a href="expo.php">muestra comercial</a>.</p>
@@ -68,7 +68,7 @@ session_start();
         <li class="accordion-item" data-accordion-item>
           <a href="#" class="accordion-title">4.- RECINTO </a>
           <div class="accordion-content" data-tab-content>
-            <p>El evento se llevará a cabo en el nuevo Centro Internacional de Congresos. Este se encuentra entre las avenidas
+            <p>El evento se llevará a cabo en el nuevo <strong>Centro Internacional de Congresos Yucatán</strong>. Este se encuentra entre las avenidas
               Colón y Cupules con cruce de las calles 60 y 62 en la Colonia Centro. Está a una
               distancia caminable de multiples <a href="hospedajes.php">hoteles</a>.</p>
           </div>

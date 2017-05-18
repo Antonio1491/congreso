@@ -25,7 +25,7 @@ session_start();
 <main class="back-2">
   <article class="">
     <div class=" header header-expo">
-      <div class="row align-middle">
+      <div class="row">
         <div class="column text-center">
           <h3 class="titulos">EXPO COMERCIAL PARQUES URBANOS</h3>
         </div>
@@ -45,6 +45,7 @@ session_start();
         <ul>
           <li>Juegos Infantiles</li>
           <li>Mobiliario Urbano</li>
+          <li>Parques Caninos</li>
           <li>Superficies</li>
           <li>Sombras y Velarias</li>
           <li>Iluminación</li>

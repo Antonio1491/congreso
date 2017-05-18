@@ -32,7 +32,7 @@ session_start();
       </div>
     </div>
     <section >
-      <div class="row inscripciones">
+      <div class="row inscripciones align-center">
         <div class="column small-10 medium-4">
           <ul class="pricing-table no-bullet text-center">
               <li class="title text-center">General</li>
@@ -73,7 +73,7 @@ session_start();
             </ul>
         </div>
       </div>
-      <div class="row fila-espacio">
+      <div class="row fila-espacio align-center">
         <div class="column small-10 medium-4">
           <ul class="pricing-table no-bullet text-center">
             <li class="title">Estudiantes</li>

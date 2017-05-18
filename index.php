@@ -103,15 +103,14 @@ session_start();
               </div>
           </div>
         </div>
-        <div class="row expanded align-middle" id="banners">
+        <!-- sliders frases y fotos -->
+        <div class="row expanded" id="banners">
           <div class=" orbit column small-12 medium-6 " id="mensajes" role="region" aria-label="Favorite Space Pictures" data-orbit>
               <ul class="orbit-container" >
                 <!--<button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
                 <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>-->
                 <li class="orbit-slide fondo-verde">
-                  <div class=" frases">
-                  <p class="text-center">"Los parques fortalecen los lazos comunitarios, transforman vidas y protegen nuestro futuro."</p>
-                  </div>
+                  <p class="text-center frases" >"Los parques fortalecen los lazos comunitarios, transforman vidas y protegen nuestro futuro."</p>
                 </li>
                 <li class="orbit-slide fondo-acuamarina">
                   <div class=" frases">
@@ -137,120 +136,26 @@ session_start();
           </div>
           <div class=" orbit column small-12 medium-6 " id="mensajes" role="region" aria-label="Favorite Space Pictures" data-orbit>
             <ul class="orbit-container" >
-
-              <li class="orbit-slide fondo-verde">
-                <div class=" frases">
-                  <img src="img/planeacion-slider.jpg" alt="Planeación de la ciudad">
-                </div>
+              <li class="orbit-slide">
+                <img src="img/planeacion-slider.jpg" alt="Planeación de la ciudad">
               </li>
-              <li class="orbit-slide fondo-verde">
-                <div class=" frases">
-                  <img src="img/ciudad-slider.jpg" alt="">
-                </div>
+              <li class="orbit-slide">
+                <img src="img/ciudad-slider.jpg" alt="">
               </li>
-              <li class="orbit-slide fondo-verde">
-                <div class=" frases">
-                  <img src="img/economia-slider.jpg" alt="">
-                </div>
+              <li class="orbit-slide ">
+                <img src="img/economia-slider.jpg" alt="">
               </li>
-              <li class="orbit-slide fondo-verde">
-                <div class=" frases">
-                  <img src="img/salud-slider.jpg" alt="">
-                </div>
+              <li class="orbit-slide ">
+                <img src="img/salud-slider.jpg" alt="">
               </li>
-              <li class="orbit-slide fondo-verde">
-                <div class=" frases">
-                  <img src="img/participacion-slider.jpg" alt="">
-                </div>
+              <li class="orbit-slide ">
+                <img src="img/participacion-slider.jpg" alt="">
               </li>
             </ul>
           </div>
         </div>
-
       </section>
-
-      <!--  Sección patrocinadores -->
-      <section id="proveedores" data-margellan-target="proveedores">
-        <div class="marcas-1">
-          <div class="row">
-            <div class="column medium-offset-5">
-              <h3 class="sub-3">ORGANIZA</h3>
-            </div>
-          </div>
-          <div class="row text-center">
-            <div class="column ">
-              <a href="http://www.anpr.org.mx/" target="_blank"><img data-src="img/anpr-web.png" alt="Asociación Nacional de Parques y Recreación"></a>
-            </div>
-          </div>
-        <div class="row">
-          <div class="column text-center">
-            <h4>PRESENTA</h4>
-          </div>
-        </div>
-        <div class="row  text-center ">
-          <div class="column large-12 medium-10 medium-offset-1 apoyos">
-            <a href="http://www.parquesdemexico.org/consultora/" target="_blank"><img data-src="img/patrocinadores/parques-de-mexico-logo.png" alt="Espacios Públicos y Parques de México" class="img-patrocinador"></a>
-            <a href="http://parquesalegres.org/" target="_blank"><img data-src="img/patrocinadores/parques-alegres-logo.png" alt="Parques Alegres" class="img-patrocinador"></a>
-            <a href="https://www.gob.mx/sedatu" target="_blank"><img data-src="img/patrocinadores/sedatu-logo.png" alt="SEDATU" class="img-patrocinador"></a>
-            <a href="http://www.merida.gob.mx/municipio/portal/index.phpx" target="_blank"><img data-src="img/patrocinadores/merida-logo.jpg" alt="Mérida Ayuntamiento" class="img-patrocinador"></a>
-          </div>
-        </div>
-      </div>
-      <div class="marcas-2">
-        <div class="row" id="patrocinadores">
-          <div class="column text-center" >
-            <h3 class=""><a href="#">DIRECTORIO PATROCINADORES</a></h3>
-            <h4>CON EL APOYO DE</h4>
-          </div>
-        </div>
-        <div class="row text-center ">
-          <div class="column large-12 medium-10 medium-offset-1 apoyos">
-            <img src="img/patrocinadores/marca-1.png" alt="" class="img-patrocinador">
-            <img src="img/patrocinadores/marca-2.png" alt="" class="img-patrocinador">
-            <img src="img/patrocinadores/marca-3.png" alt="" class="img-patrocinador">
-            <img src="img/patrocinadores/marca-4.png" alt="" class="img-patrocinador">
-            <img src="img/patrocinadores/marca-5.png" alt="" class="img-patrocinador">
-          </div>
-        </div>
-      </div>
-      </section>
-
-      <!--  Sección contacto -->
-      <div class="row">
-        <div class="column medium-offset-8">
-          <h3 class="sub-4">LUGAR Y CONTACTO</h3>
-        </div>
-      </div>
-      <section id="contacto">
-        <div class="row expanded ">
-          <div class="column small-12 large-3 large-offset-3 medium-6  text-center">
-            <div id="contenido-contacto">
-              <h6>Centro Internacional de Congresos</h6>
-              <h3>Mérida, Yucatán</h3>
-              <div class="info-contacto">
-                <i class="fi-telephone"></i> 99944060<br>
-                <i class="fi-mail"></i> info.congreso@anpr.org.mx
-              </div>
-              <span class="">
-                Si tienes dudas o comentarios<br> ¡Contáctanos!
-              </span>
-              <div>
-                <form id="form-contacto" action="https://formspree.io/info.congreso@anpr.org.mx" method="POST">
-                  <input type="text" name="nombre" value="" placeholder="NOMBRE">
-                  <input type="email" name="email" value="" placeholder="CORREO">
-                  <textarea name="mensaje" rows="2" cols="80" placeholder="MENSAJE"></textarea>
-                  <input type="submit" name="" value="ENVIAR" class="button small">
-                </form>
-              </div>
-            </div>
-          </div>
-          <div class="column small-12 medium-6 large-6 " id="mapa">
-            <div class="map" data-interchange="[assets/mapa-small.html, small], [assets/mapa.html, medium]">
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--  Fin sección contacto-->
+      <!-- Seccion boletos-->
       <section id="boletos-contenedor">
         <div class="row">
           <div class="column medium-offset-9">
@@ -299,7 +204,6 @@ session_start();
           </div>
         </div>
       </section>
-
       <!-- Registro Boletín -->
     <section id="registro">
       <h4 class="text-center">¡Mantente informado!</h4>
@@ -328,6 +232,52 @@ session_start();
       </div>
     </section>
     <!-- //Registro Boletín  -->
+      <!--  Sección patrocinadores -->
+      <section id="proveedores" data-margellan-target="proveedores">
+        <div class="marcas-1">
+          <div class="row">
+            <div class="column medium-offset-5">
+              <h3 class="sub-3">ORGANIZA</h3>
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="column ">
+              <a href="http://www.anpr.org.mx/" target="_blank"><img data-src="img/anpr-web.png" alt="Asociación Nacional de Parques y Recreación"></a>
+            </div>
+          </div>
+        <div class="row">
+          <div class="column text-center">
+            <h4>PRESENTA</h4>
+          </div>
+        </div>
+        <div class="row  align-center text-center">
+          <div class="column large-12 medium-10  apoyos">
+            <a href="http://www.parquesdemexico.org/consultora/" target="_blank"><img data-src="img/patrocinadores/parques-de-mexico-logo.png" alt="Espacios Públicos y Parques de México" class="img-patrocinador"></a>
+            <a href="http://parquesalegres.org/" target="_blank"><img data-src="img/patrocinadores/parques-alegres-logo.png" alt="Parques Alegres" class="img-patrocinador"></a>
+            <a href="https://www.gob.mx/sedatu" target="_blank"><img data-src="img/patrocinadores/sedatu-logo.png" alt="SEDATU" class="img-patrocinador"></a>
+            <a href="http://www.merida.gob.mx/municipio/portal/index.phpx" target="_blank"><img data-src="img/patrocinadores/merida-logo.jpg" alt="Mérida Ayuntamiento" class="img-patrocinador"></a>
+          </div>
+        </div>
+      </div>
+      <div class="marcas-2">
+        <div class="row" id="patrocinadores">
+          <div class="column text-center" >
+            <h3 class=""><a href="#">DIRECTORIO PATROCINADORES</a></h3>
+            <h4>CON EL APOYO DE</h4>
+          </div>
+        </div>
+        <div class="row text-center align-center">
+          <div class="column large-12 medium-10  apoyos">
+            <img src="img/patrocinadores/marca-1.png" alt="" class="img-patrocinador">
+            <img src="img/patrocinadores/marca-2.png" alt="" class="img-patrocinador">
+            <img src="img/patrocinadores/marca-3.png" alt="" class="img-patrocinador">
+            <img src="img/patrocinadores/marca-4.png" alt="" class="img-patrocinador">
+            <img src="img/patrocinadores/marca-5.png" alt="" class="img-patrocinador">
+          </div>
+        </div>
+      </div>
+      </section>
+
     <!--sección de redes sociales-->
     <section id="redes-sociales">
       <div class="row column align-center ">

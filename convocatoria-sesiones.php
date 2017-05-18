@@ -19,7 +19,7 @@ session_start();
     <link type="text/css" href="css/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
-</head>
+  </head>
 <body onload="countdown('contador')">
 <?php include'assets/menu.php'; ?>
 <main class="back-2 sesiones">

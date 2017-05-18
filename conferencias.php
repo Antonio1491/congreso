@@ -47,7 +47,7 @@ session_start();
         </figure>
       </div>
       <div class="column small-10 medium-3 large-4 contenido-magistrales">
-        <h4 class="text-center">Tema 1</h4>
+        <h4 class="text-center"></h4>
         <h5 class="text-center">Martha Fajardo</h5>
         <h6 class="text-center">Grupo Verde - Colombia</h6>
       </div>
@@ -57,7 +57,7 @@ session_start();
         </figure>
       </div>
       <div class="column small-10 medium-3 large-4 contenido-magistrales ">
-        <h4 class="text-center">Tema 2</h4>
+        <h4 class="text-center"></h4>
         <h5 class="text-center">Mario Shejtan</h5>
         <h6 class="text-center">Grupo Desarrollo Urbano - México</h6>
       </div>

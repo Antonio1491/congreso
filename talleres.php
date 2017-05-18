@@ -38,7 +38,7 @@ session_start();
           y espacios icónicos de la ciudad y del estado junto con expertos en el tema y colaboradores
           de nuestra ciudad anfitriona. Sin duda los talleres son una gran oportunidad para extender
           nuestro conocimiento sobre el espacio público. Estas actividades tendrán lugar el día
-          miércoles <strong>25 de abril</strong>.</p>
+          miércoles <strong>25 de abril</strong>. Incluye: lunch, transporte, materiales y papelería.</p>
       </div>
     </div>
     <div class="row contenido align-center">

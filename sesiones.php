@@ -44,10 +44,10 @@ session_start();
     </div>
     <div class="row fila-espacio">
       <div class="column small-12 medium-6 planeacion-diseno">
-        <h4 class="text-center">Diseño y Planeación</h4>
         <div class="text-center">
             <img src="img/planeacion-y-diseno-02.png" alt="" class="isesiones">
         </div>
+        <h4 class="text-center">Diseño y Planeación</h4>
         <ul class="lista-sesiones">
           <li>El Parque infantil ideal.</li>
           <li>Juegos de agua, soluciones recreativas para climas calurosos.</li>
@@ -59,10 +59,10 @@ session_start();
         </ul>
       </div>
       <div class="column small-12 medium-6 la-ciudad">
-        <h4 class="text-center">La Ciudad</h4>
         <div class="text-center">
             <img src="img/la-ciudad-02.png" alt="" class="isesiones">
         </div>
+        <h4 class="text-center">La Ciudad</h4>
         <ul class="lista-sesiones">
           <li>¿De quién es el parque?</li>
           <li>Viviendo la cultura en los parques.</li>
@@ -75,10 +75,10 @@ session_start();
     </div>
     <div class="row fila-espacio">
       <div class="column small-12 medium-6 economia">
-        <h4 class="text-center">Economía y Usos del Espacio Público</h4>
         <div class="text-center">
             <img src="img/uso-del-espacio-publico-02.png" alt="" class="isesiones">
         </div>
+        <h4 class="text-center">Economía y Usos del Espacio Público</h4>
         <ul class="lista-sesiones">
           <li>Concesiones comerciales en parques urbanos ¿Un tema tabú?</li>
           <li>Los Parques Caninos, una gran oportunidad para los parques urbanos.</li>
@@ -88,12 +88,12 @@ session_start();
         </ul>
       </div>
       <div class="column small-12 medium-6 salud">
-        <h4 class="text-center">Salud y Medio Ambiente</h4>
         <div class="text-center">
             <img src="img/salud-y-medio-ambiente-02.png" alt="" class="isesiones">
         </div>
+        <h4 class="text-center">Salud y Medio Ambiente</h4>
         <ul class="lista-sesiones">
-          <li>Proyectos de arborización en espacios públicos. MODERADOR: Leticia Roche.</li>
+          <li>Proyectos de arborización en espacios públicos.</li>
           <li>Huertos urbanos y composta en los parques urbanos.</li>
           <li>La importancia de la activación física en los parques</li>
           <li>Los Niños y el Parque. Activación física en pro de nuestra niñez.</li>
@@ -103,10 +103,10 @@ session_start();
     </div>
     <div class="row fila-espacio">
       <div class="column small-12 medium-6 servicio-publico">
-        <h4 class="text-center">Servicio Público y Participación Ciudadana</h4>
         <div class="text-center">
             <img src="img/servicio-publico-02.png" alt="" class="isesiones">
         </div>
+        <h4 class="text-center">Servicio Público y Participación Ciudadana</h4>
         <ul class="lista-sesiones">
           <li>¿Cómo construir un parque urbano en menos de 1 día? </li>
           <li>Parques Alegres, un modelo de transformación social en Culiacán.</li>

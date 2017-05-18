@@ -145,7 +145,7 @@ img.b-loaded
 #banners
   overflow: hidden
   height: 220px
-  margin-bottom: 5em
+  margin-bottom: 4em
 .fondo-verde
   background: #94c01f
 .fondo-acuamarina
@@ -159,12 +159,11 @@ img.b-loaded
 .frases
   color: white
   font-size: 1.55em
+  padding: 0 5em
   text-align: center
-#mensajes
-  min-height: 100%
-#frases p
-  min-height: 220px
-
+#mensajes ul li
+  height:  220px
+  align-items: center
 #tematicas #mensajes
   padding: 0
 #iconos-temas
@@ -239,7 +238,8 @@ img.b-loaded
 
 //=============================== Sección patrocinadores y proveedores ======================
 #proveedores
-  padding: 0px 0 80px
+  margin-top: 5em
+  padding: 0px 0 60px
 #proveedores h3
   color: #0d848a
   font-family: general
@@ -411,7 +411,7 @@ img.b-loaded
   padding-bottom: 4em
 //Sección redes sociales
 #redes-sociales
-  margin-bottom: 30px
+  margin-bottom: 40px
 #redes-sociales img
     width: 70px
     height: 60px
@@ -494,6 +494,7 @@ li .redes-sociales
   margin: 0
   display: flex
   align-items: center
+  min-width: 100%
 .header-participar
   background-image: url('../img/header-1.1.jpg')
 .header-magistrales
@@ -639,6 +640,20 @@ a .accordion-title
 //===================================  Aviso  =======================
 .aviso
   font-size: 14px
+//=======================  Programa Completo =====
+.pistas figure
+  display:block
+.pistas img
+  height: 50px
+
+.pistas figure figcaption
+  font-size: 12px
+  font-weight: bold
+  display: inline
+  height: 50px
+
+.horario
+  width: 60%
 //================== dispositivos moviles ================================
 @media screen and (max-width: 500px)
   #video
@@ -654,7 +669,13 @@ a .accordion-title
     font-size: 20px
   .action-2
     height: 5em
-
+  #redes-sociales
+    margin-bottom: 10px
+    margin-top: -40px
+  #redes-sociales img
+      width: 40px
+      height: 30px
+      margin-left: 10px
   #iconos-temas
     background:#eeeeee
     margin-bottom: 2em
