@@ -24,7 +24,7 @@ session_start();
 <?php include'assets/menu.php'; ?>
 <main class="back-2">
   <article class="registro-expo">
-    <div class=" header header-expo">
+    <div class=" header header-2">
       <div class="row align-middle">
         <div class="column text-center">
           <h3 class="titulos">EXPO COMERCIAL PARQUES URBANOS</h3>
@@ -39,6 +39,7 @@ session_start();
     <form class="expositores" action="alta.php" method="post">
       <div class="row fila-espacio">
         <div class="column">
+          <p>Teléfono: 9999 60 07 65 <br> E-mail: comercial@anpr.org.mx</p>
           <p>Complete esta solicitud para asegurar su participación en la "Expo Comercial Parques Urbanos 2018".</p>
         </div>
       </div>
@@ -233,7 +234,7 @@ session_start();
           </div>
           <div class="column">
             <label class="condiciones">Al aceptar esta solicitud de espacio, estoy de acuerdo
-            con las normas, <a href="Reglamento-Expo.pdf">reglamentos</a>, condiciones de pago y las
+            con las normas, <a href="assets/Reglamento-Expo.pdf">reglamentos</a>, condiciones de pago y las
             condiciones para la "Expo Comercial Parques Urbanos 2018".</label>
           </div>
         </div>
@@ -241,7 +242,7 @@ session_start();
           <div class="column">
             <strong>Descargas Importantes:</strong>
             <ul>
-              <li><a href="Reglamento-Expo.pdf">Reglamento</a></li>
+              <li><a href="assets/Reglamento-Expo.pdf">Reglamento</a></li>
             </ul>
           </div>
         </div>

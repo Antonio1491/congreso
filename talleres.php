@@ -24,7 +24,7 @@ session_start();
 <?php include'assets/menu.php'; ?>
 <main class="back-2">
   <article class="">
-    <div class=" header header-talleres">
+    <div class=" header header-4">
       <div class="row align-middle">
         <div class="column text-center">
           <h3 class="titulos">TALLERES</h3>
@@ -55,12 +55,13 @@ session_start();
            plazas además de ser testigos de la dinámica de vida de sus habitantes. Dentro
            de los barrios que se visitarán se encuentran:
           <ul>
-            <li>Santa Ana ubicado en la calle 47x60</li>
-            <li>Santiago ubicado en la calle 70 x 59, </li>
-            <li>San Sebastián ubicado en la calle 70 x 75, </li>
-            <li>San Juan ubicado en la calle 62 x 69, </li>
-            <li>Santa Isabel ubicado en la calle 66 x 77, el barrio de San Cristóbal ubicado en la calle 59 x 69 y </li>
-            <li>Mejorada ubicado en la calle 50 x 59.</li>
+            <li>Santa Ana ubicado en la calle <a href="https://goo.gl/maps/Kp92nW8AboK2" target="_blank">47x60</a></li>
+            <li>Santiago ubicado en la calle <a href="https://goo.gl/maps/M6w4jguEzpP2" target="_blank">70 x 59</a>, </li>
+            <li>San Sebastián ubicado en la calle <a href="https://goo.gl/maps/ag4aCBpUVdA2" target="_blank">70 x 75</a>, </li>
+            <li>San Juan ubicado en la calle <a href="https://goo.gl/maps/vkn7Duav5uT2" target="_blank">62 x 69</a>, </li>
+            <li>Santa Isabel ubicado en la calle <a href="https://goo.gl/maps/8DPphsmVzZn" target="_blank">66 x 77</a>,</li>
+            <li>El barrio de San Cristóbal ubicado en la calle <a href="https://goo.gl/maps/N5LbaNoYUKQ2" target="_blank">59 x 69</a> y </li>
+            <li>Mejorada ubicado en la calle <a href="https://goo.gl/maps/YHGBmGf391Q2" target="_blank">50 x 59</a>.</li>
         </ul>
         </p>
       </div>
@@ -91,7 +92,7 @@ session_start();
       <div class="column small-12 medium-8 large-7 contenido-talleres ">
         <h4 class="text-center">MALECÓN DE PUERTO PROGRESO</h4>
         <h6 class="text-center"></h6>
-        <p>En este taller se estudiará un espacio público común en las costas, el Malecón;
+        <p>En este taller se estudiará un espacio público común en las costas, el <a href="https://goo.gl/maps/6nQNpJuvmpr" target="_blank">Malecón</a>;
           espacio que víncula a todo tipo de personas, desde los que llegan a pasar el día
           a Puerto Porgreso, hasta los habitantes de la ciudad. Se explicará todas las
           actividades que se realizan y que se pueden organizar en estos espacios así como
@@ -102,7 +103,7 @@ session_start();
       <div class="column small-order-2 medium-order-1 medium-8 large-7 medium-offset-1 large-offset-2 contenido-talleres ">
         <h4 class="text-center">PLACEMAKING</h4>
         <h6 class="text-center"></h6>
-        <p>Placemaking en dos de las avenidas más icónicas de Mérida: Paseo de Montejo y Av. Colón: El Placemaking es una metodología
+        <p>Placemaking en dos de las avenidas más icónicas de Mérida: <a href="https://goo.gl/maps/h2BaksEzEbS2" target="_blank">Paseo de Montejo</a> y <a href="https://goo.gl/maps/tLynEbEBA452" target="_blank">Av. Colón</a>: El Placemaking es una metodología
           para el diseño de espacios públicos que tiene como principios el  observar, escuchar
          y preguntar a las personas que lo utilizan y/o viven cerca del sitio. En este taller
          podrás conocer ésta metodología a profundidad y llevarla a la práctica en dos de las
@@ -123,8 +124,7 @@ session_start();
       <div class="column medium-8 large-7 contenido-talleres ">
         <h4 class="text-center">LA PLANCHA</h4>
         <h6 class="text-center"></h6>
-        <p>Se organizará un recorrido dentro de “La Plancha”, como se le conoce a la ex
-          estación de trenes de la ciudad de Mérida. En el recorrido se contará la historia
+        <p>Se organizará un recorrido dentro de “La Plancha”, como se le conoce a la <a href="https://goo.gl/maps/uKUo8LPD2nk" target="_blank">ex-estación de trenes</a> de la ciudad de Mérida. En el recorrido se contará la historia
           del sitio, y se presentará el proyecto ciudadano que existe para transformarlo
           en el parque central de Mérida. Con una superficie de más de 25 hectareas, la plancha
         es un espacio lleno de historia y arqueología industrial. Durante más de 2 años vecinos y grupos sociales
@@ -136,7 +136,7 @@ session_start();
         <h4 class="text-center">PARQUES LINEALES</h4>
         <h6 class="text-center"></h6>
         <p>¿Cómo utilizar espacios que pareciera están destinados al abandono? En este
-          taller se explicará la historia, el plan maestro, la construcción y desarrollo de dos parques lineales ubicados en
+          taller se explicará la historia, el plan maestro, la construcción y desarrollo de dos <a href="https://goo.gl/maps/7FX52qxE4K82" target="_blank">parques lineales</a> ubicados en
           las líneas de alta tensión en la periferia de Mérida, ahondando en cómo estos
           espacios que generaban inseguridad, ahora son centros de convivencia de gran
           importancia en la ciudad.  </p>
@@ -160,7 +160,7 @@ session_start();
           los parques más representativos de Mérida, aquellos que nos cuentan las historias que
           ha vivido la ciudad. Podremos ver diferentes diseños y estilos arquitectónicos, así
           como la dinámica que se vive y las actividades que se desarrollan en ellos. Conoce el
-        parque de "Las Américas" con más de 60 años de historia en la comunidad yucateca.</p>
+        parque de "<a href="https://goo.gl/maps/unTZYog129z" target="_blank">Las Américas</a>" con más de 60 años de historia en la comunidad yucateca.</p>
       </div>
     </div>
     <div class="row fila-espacio align-center">

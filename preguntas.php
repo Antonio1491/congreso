@@ -24,7 +24,7 @@ session_start();
 <?php include'assets/menu.php'; ?>
 <main class="back-1">
   <article class="">
-    <div class=" header header-actividades">
+    <div class=" header header-1">
       <div class="row align-middle">
         <div class="column text-center">
           <h3 class="titulos">PREGUNTAS FRECUENTES</h3>

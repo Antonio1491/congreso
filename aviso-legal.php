@@ -24,7 +24,7 @@ session_start();
 <?php include'assets/menu.php'; ?>
 <main>
   <article class="aviso">
-    <div class=" header header-ciudad">
+    <div class=" header header-6">
       <div class="row align-middle">
         <div class="column text-center">
           <h3 class="titulos">AVISO LEGAL</h3>

@@ -24,7 +24,7 @@ session_start();
 <?php include'assets/menu.php'; ?>
 <main class="back-1">
   <article class="">
-    <div class=" header header-ciudad">
+    <div class=" header header-8">
       <div class="row align-middle">
         <div class="column text-center">
           <h3 class="titulos">PROGRAMA COMPLETO</h3>

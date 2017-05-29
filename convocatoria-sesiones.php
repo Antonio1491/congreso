@@ -24,7 +24,7 @@ session_start();
 <?php include'assets/menu.php'; ?>
 <main class="back-2 sesiones">
   <article class="">
-    <div class=" header header-talleres">
+    <div class=" header header-1">
       <div class="row align-middle">
         <div class="column text-center">
           <h3 class="titulos">CONVOCATORIA</h3>

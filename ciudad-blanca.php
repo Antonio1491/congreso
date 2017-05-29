@@ -24,7 +24,7 @@ session_start();
 <?php include'assets/menu.php'; ?>
 <main>
   <article class="">
-    <div class=" header header-ciudad">
+    <div class=" header header-4">
       <div class="row align-middle">
         <div class="column text-center">
           <h3 class="titulos">LA CIUDAD BLANCA</h3>

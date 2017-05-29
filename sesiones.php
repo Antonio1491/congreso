@@ -24,16 +24,16 @@ session_start();
 <?php include'assets/menu.php'; ?>
 <main class="back-2 sesiones">
   <article class="">
-    <div class=" header header-talleres">
+    <div class=" header header-3">
       <div class="row align-middle">
         <div class="column text-center">
           <h3 class="titulos">SESIONES EDUCATIVAS</h3>
         </div>
       </div>
     </div>
-    <div class="action text-center">
+    <!--<div class="action text-center">
       <a href="convocatoria-sesiones.php" class="button">CONVOCATORIA</a>
-    </div>
+    </div>-->
     <div class="row contenido">
       <div class="column">
         <p><span class="letra-capital">L</span>as sesiones educativas son la médula espinal del congreso. Son el espacio en

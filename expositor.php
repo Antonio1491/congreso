@@ -13,7 +13,7 @@ session_start();
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Expo Comercial Parques Urbanos</title>
+    <title>Expo Parques Urbanos</title>
     <link rel="stylesheet" href="icons/foundation-icons.css">
     <link rel="stylesheet" href="css/foundation-flex.css">
     <link type="text/css" href="css/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
@@ -25,9 +25,9 @@ session_start();
 <main class="back-2">
   <article class="">
     <div class="">
-      <div class="row header header-expo">
+      <div class="row header header-7">
         <div class="column text-center">
-          <h3 class="titulos">EXPO COMERCIAL PARQUES URBANOS</h3>
+          <h3 class="titulos">EXPO PARQUES URBANOS</h3>
         </div>
       </div>
     </div>
@@ -37,8 +37,18 @@ session_start();
    <div class="contenido expo">
      <div class="row">
        <div class="column">
-         <p><span class="letra-capital">L</span>a "Expo Comercial Parques Urbanos" reune a todos los proveedores de materiales
+         <p><span class="letra-capital">L</span>a "Expo Parques Urbanos" reune a todos los proveedores de materiales
            y equipos de recreación, que se instalará durante tres días en la ciudad de Mérida, del 25 al 27 de Abril de 2018.  </p>
+           <ul>
+             <li>Exhiba sus productos o servicios y alcance su público meta</li>
+             <li>Cree y refuerce la visibilidad y aumente  el interés sobre su capacidad de suministro</li>
+             <li>Comparta sus investigaciones y difunda información relevante sobre sus productos</li>
+             <li>Identifique nuevos clientes potenciales y/o fortalezca las relaciones con los existentes</li>
+             <li>Establezca vínculos comerciales hacia nuevos mercados; Identificar agentes y/o representantes</li>
+            <li>Negocie ofertas que pueden resultar en órdenes reales</li>
+            <li>Desarrolle la red de relaciones</li>
+            <li>Conozca socios potenciales que lo pueden llevar a alianzas comerciales</li>
+           </ul>
          <h4>PISO DE EXPOSICIÓN</h4>
          <p>Esta modalidad de contratación no cuenta con mobiliario, alfombra
            ni electricidad ya que está destinado para diseños especiales contratados

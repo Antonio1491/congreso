@@ -24,7 +24,7 @@ session_start();
 <?php include'assets/menu.php'; ?>
 <main class="back-1">
   <article class="patrocinadores">
-    <div class=" header header-tematicas">
+    <div class=" header header-9">
       <div class="row align-middle">
         <div class="column text-center">
           <h3 class="titulos">PATROCINADORES</h3>
@@ -70,7 +70,7 @@ session_start();
     </div>
     <div class="row contenido-bronce">
       <div class="column medium-4">
-        <a href="#"></a>
+        <a href="#"><a href="#"> <img src="img/patrocinadores/fundidora.png" alt=""></a></a>
       </div>
       <div class="column medium-4">
         <a href="http://www.deacero.com/es/" target="_blank"><img src="img/patrocinadores/deacero.png" alt=""></a>

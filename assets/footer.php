@@ -34,7 +34,7 @@
           <li><a href="talleres.php">talleres</a></li>
           <li><a href="sesiones.php">sesiones educativas</a></li>
           <li><a href="programa.php">programa completo</a></li>
-          <li><a href="expo.php">expo comercial parques urbanos</a></li>
+          <li><a href="expo.php">expo parques urbanos</a></li>
         </ul>
       </div>
       <div class="column">
@@ -63,12 +63,11 @@
   <div class="row column expanded align-center" id="pie">
     <p><a href="http://anpr.org.mx/" target="_blank">© 2017 Asociación Nacional de Parques y Recreación</a></p>
   </div>
+
 </div>
 
 </div>
 </div>
-
-
 <!--   /footer  -->
 <!-- cdn de belazy para la carga de imagenes-->
 <script type="text/javascript">
@@ -88,7 +87,7 @@
           minutos=Math.floor(diferencia/60)
           diferencia=diferencia-(60*minutos)
           segundos=Math.floor(diferencia)
-          document.getElementById(id).innerHTML='<h5>Faltan ' + dias + ' D&iacute;as </h5>' + horas + ' Horas | ' + minutos + ' Minutos | ' + segundos + ' Segundos' +''
+          document.getElementById(id).innerHTML='<h4>Faltan ' + dias + ' D&iacute;as </h4>'
                     if (dias>0 || horas>0 || minutos>0 || segundos>0){
                             setTimeout("countdown(\"" + id + "\")",1000)
                     }
@@ -103,6 +102,15 @@
 var bLazy = new Blazy({
   selector:'img'
   });
+</script>
+<script>/*google analytics*/
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-100039379-1', 'auto');
+    ga('send', 'pageview');
 </script>
 <script src="js/vendor/jquery.js"></script>
 <script src="js/vendor/what-input.js"></script>

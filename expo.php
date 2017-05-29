@@ -13,7 +13,7 @@ session_start();
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Expo Comercial Parques Urbanos</title>
+    <title>Expo Parques Urbanos</title>
     <link rel="stylesheet" href="icons/foundation-icons.css">
     <link rel="stylesheet" href="css/foundation-flex.css">
     <link type="text/css" href="css/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
@@ -24,10 +24,10 @@ session_start();
 <?php include'assets/menu.php'; ?>
 <main class="">
   <article class="">
-    <div class=" header header-expo">
+    <div class=" header header-7">
       <div class="row align-middle">
         <div class="column text-center">
-          <h3 class="titulos">EXPO COMERCIAL PARQUES URBANOS</h3>
+          <h3 class="titulos">EXPO PARQUES URBANOS</h3>
         </div>
       </div>
     </div>

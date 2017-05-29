@@ -24,7 +24,7 @@ session_start();
 <?php include'assets/menu.php'; ?>
 <main class="back-1">
   <article class="">
-    <div class=" header header-magistrales">
+    <div class=" header header-2">
       <div class="row align-middle">
         <div class="column text-center">
           <h3 class="titulos">CONFERENCIAS MAGISTRALES</h3>
@@ -58,7 +58,7 @@ session_start();
       </div>
       <div class="column small-10 medium-3 large-4 contenido-magistrales ">
         <h4 class="text-center"></h4>
-        <h5 class="text-center">Mario Shejtan</h5>
+        <h5 class="text-center">Mario Schjetnan</h5>
         <h6 class="text-center">Grupo Desarrollo Urbano - México</h6>
       </div>
 
@@ -115,7 +115,7 @@ session_start();
       </div>
       <div class="column small-10 medium-3 large-4 contenido-magistrales ">
         <h4 class="text-center"></h4>
-        <h5 class="text-center">Tom O-Rourke</h5>
+        <h5 class="text-center">Tom O'Rourke</h5>
         <h6 class="text-center">Director Ejecutivo Charleston Country Park - E.E.U.U</h6>
       </div>
       <div class="column small-9 medium-3 large-2">

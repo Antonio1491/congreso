@@ -24,10 +24,10 @@ session_start();
 <?php include'assets/menu.php'; ?>
 <main class="back-2">
   <article class="">
-    <div class=" header header-expo">
+    <div class=" header header-2">
       <div class="row">
         <div class="column text-center">
-          <h3 class="titulos">EXPO COMERCIAL PARQUES URBANOS</h3>
+          <h3 class="titulos">EXPO PARQUES URBANOS</h3>
         </div>
       </div>
     </div>
@@ -35,13 +35,29 @@ session_start();
       <div class="column">
         <p><span class="letra-capital">P</span>articipa en la Exposición Comercial más especializada de la industria de los Parques Urbanos
           y Espacios Públicos en México y Latinoamérica.</p>
+          <ul>
+            <li>Explore el mercado y observe las últimas tendencias</li>
+             <li>Intercambie  experiencias con proveedores y congresistas expertos</li>
+             <li>Recopile información:</li>
+            <li>Manténganse al tanto de las innovaciones de los producto y la industria;</li>
+             <li>Conozca qué hacen los competidores;</li>
+             <li>Aprenda las últimas técnicas de ventas y promoción. </li>
+            <li>Compare la calidad, el precio y el rendimiento de la mezcla de marketing;</li>
+             <li>Asista a las conferencias magistrales, sesiones educativas y talleres vivenciales.</li>
+             <li>Visite la industria y los parques locales</li>
+             <li>Disfrute del esplendido turismo de Mérida.</li>
+          </ul>
         <strong>Durante 2 días tendrás acceso a:</strong>
         <ul>
           <li>Más de 6,000 m<sup>2</sup> de exposición</li>
-          <li>Más de 80 Expositores</li>
+          <li>Más de 100 Expositores</li>
           <li>Área de negocios</li>
         </ul>
-        <p>Conoce a los mejores proveedores de México y Estados Unidos de:</p>
+        <p>Conoce a los mejores fabricantes de México y Estados Unidos de:</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column medium-3">
         <ul>
           <li>Juegos Infantiles</li>
           <li>Mobiliario Urbano</li>
@@ -51,6 +67,10 @@ session_start();
           <li>Iluminación</li>
           <li>Equipamiento Deportivo</li>
           <li>Juegos de Agua</li>
+        </ul>
+      </div>
+      <div class="column medium-3">
+        <ul>
           <li>Parques para patinetas y bicicletas</li>
           <li>Software especializado</li>
           <li>Productos de Recreación</li>
@@ -60,10 +80,56 @@ session_start();
           <li>Y mucho más…</li>
         </ul>
       </div>
+      <div class="column medium-6">
+        <div id="galeria-expo" class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+          <ul class="orbit-container">
+            <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+            <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+            <li class="is-active orbit-slide">
+              <img class="orbit-image" src="img/galeria/01.jpg" alt="Space">
+            </li>
+            <li class="orbit-slide">
+              <img class="orbit-image" src="img/galeria/02.jpg" alt="Space">
+            </li>
+            <li class="orbit-slide">
+              <img class="orbit-image" src="img/galeria/03.jpg" alt="Space">
+            </li>
+            <li class="orbit-slide">
+              <img class="orbit-image" src="img/galeria/04.jpg" alt="Space">
+            </li>
+            <li class="orbit-slide">
+              <img class="orbit-image" src="img/galeria/05.jpg" alt="Space">
+            </li>
+            <li class="orbit-slide">
+              <img class="orbit-image" src="img/galeria/06.jpg" alt="Space">
+            </li>
+            <li class="orbit-slide">
+              <img class="orbit-image" src="img/galeria/07.jpg" alt="Space">
+            </li>
+            <li class="orbit-slide">
+              <img class="orbit-image" src="img/galeria/08.jpg" alt="Space">
+            </li>
+            <li class="orbit-slide">
+              <img class="orbit-image" src="img/galeria/09.jpg" alt="Space">
+            </li>
+          </ul>
+          <nav class="orbit-bullets">
+            <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+            <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+            <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+            <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+            <button data-slide="4"><span class="show-for-sr">Fourth slide details.</span></button>
+            <button data-slide="5"><span class="show-for-sr">Fourth slide details.</span></button>
+            <button data-slide="6"><span class="show-for-sr">Fourth slide details.</span></button>
+            <button data-slide="7"><span class="show-for-sr">Fourth slide details.</span></button>
+            <button data-slide="8"><span class="show-for-sr">Fourth slide details.</span></button>
+          </nav>
+        </div>
+      </div>
     </div>
-      <div class="row text-center">
+      <div class="row text-center fila-espacio">
         <div class="column">
-          <h5>PLANO DE LA "EXPO COMERCIAL PARQUES URBANOS"</h5>
+          <h5>PLANO DE LA "EXPO PARQUES URBANOS"</h5>
         </div>
       </div>
       <div class="row">

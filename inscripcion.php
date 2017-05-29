@@ -24,7 +24,7 @@ session_start();
 <?php include'assets/menu.php'; ?>
 <main class="back-2">
   <article class="">
-    <div class=" header header-inscripciones">
+    <div class=" header header-2">
       <div class="row align-middle">
         <div class="column text-center">
           <h3 class="titulos">INSCRIPCIONES</h3>

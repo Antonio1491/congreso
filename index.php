@@ -21,29 +21,54 @@ session_start();
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
 </head>
-<body onload="countdown('contador')">
+<body onload="countdown('contador'), countdown('contador-small')">
 <?php include'assets/menu.php'; ?>
+
       <!--=====  portada/video  ====-->
-      <div id="video">
+      <div id="video" class="hide-for-small-only">
           <video  autoplay loop poster="posterimage.jpg" >
             <source src="video/loop-2.mp4" type="video/mp4">
             <source src="videos/loop-2.webm" type="video/webm">
           </video>
       </div><!-- Fin Portada -->
+      <!--======  diseño pra móviles   ======-->
+      <div class="show-for-small-only">
+        <div class="row align-center logo-contenedor-small">
+          <a href="index.php">
+            <img src="img/congreso-parques-urbanos-logo.png" alt="" class="logo-small">
+          </a>
+        </div>
+        <div class="row align-center contenido-contador">
+          <div class="contador">
+            <h5>ABRIL 25-27 DEL 2018</h5>
+            <h5>MÉRIDA YUCATÁN</h5>
+            <div id='contador-small'></div>
+          </div>
+        </div>
+      </div>
+      <section id="redes-small" class="show-for-small-only">
+        <div class="row column align-center ">
+          <a href="https://www.facebook.com/Congreso-Internacional-de-Parques-Urbanos-433605833658855/" target="_blank"><img src="img/facebook.png" alt=""></a>
+          <a href="https://twitter.com/congreso_parque" target="_blank"><img src="img/twitter.png" alt=""></a>
+          <a href="https://www.instagram.com/congreso_parques/" target="_blank"><img src="img/instagram.png" alt=""></a>
+          <img src="img/youtobe.png" alt="">
+        </div>
+      </section>
 
+      <!--======  Fin diseño pra móviles   ======-->
       <!-- ======  Barra y título temas  =====-->
       <div class="row expanded align-middle align-justify" id="barra" style="-moz-z-index:10; -webkit-z-index:10;">
-        <div class="colum small-8 medium-6">
+        <div class="colum small-12 medium-6">
           <img src="img/barra.png" alt="">
         </div>
       </div>
       <!-- === Eventos - talleres === -->
-      <div class="row">
+      <div class="row hide-for-small-only">
         <div class="column medium-offset-8">
           <h3 class="sub-2">ACTIVIDADES DESTACADAS</h3>
         </div>
       </div>
-      <section id="eventos">
+      <section id="eventos" class="hide-for-small-only">
         <div class="row">
             <div class="small-12 medium-6 column destacados" id="destacados-1">
               <div class="destacados-text izq">
@@ -78,14 +103,14 @@ session_start();
         </div>
       </section><!-- /Eventos - talleres -->
       <!--===== Temas del congreso ==== -->
-      <section id="tematicas">
+      <section id="tematicas" class="hide-for-small-only">
         <div class="" id="iconos-temas"><!--   Iconos temas -->
           <div class="row">
             <div class="column medium-offset-4 large-offset-5">
               <h3 class="sub-1">EJES TEMÁTICOS</h3>
             </div>
           </div>
-          <div class="row align-spaced">
+          <!--<div class="row align-spaced">
               <div class="column">
                 <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Diseño y Planeación"><a href="tematicas.php"><img data-src="img/planeacion-y-diseno-02.png" alt="icono diseno" onmouseover="this.src='img/planeacion-y-diseno-01.png';" onmouseout="this.src='img/planeacion-y-diseno-02.png';" alt=""></a></span>
               </div>
@@ -102,14 +127,14 @@ session_start();
                 <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Servicio Público y Participación Ciudadana"><a href="tematicas.php"><img data-src="img/servicio-publico-02.png" alt="icono participación ciudadana" onmouseover="this.src='img/servicio-publico-01.png';" onmouseout="this.src='img/servicio-publico-02.png';" alt=""></a></span>
               </div>
           </div>
-        </div>
+        </div>-->
         <!-- sliders frases y fotos -->
-        <div class="row expanded" id="banners">
-          <div class=" orbit column small-12 medium-6 " id="mensajes" role="region" aria-label="Favorite Space Pictures" data-orbit>
+        <div class="row " id="banners">
+          <div class=" orbit column small-12 medium-12 " id="mensajes" role="region" aria-label="Favorite Space Pictures" data-orbit>
               <ul class="orbit-container" >
                 <!--<button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
                 <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>-->
-                <li class="orbit-slide fondo-verde">
+                <!--<li class="orbit-slide fondo-verde">
                   <p class="text-center frases" >"Los parques fortalecen los lazos comunitarios, transforman vidas y protegen nuestro futuro."</p>
                 </li>
                 <li class="orbit-slide fondo-acuamarina">
@@ -150,13 +175,29 @@ session_start();
               </li>
               <li class="orbit-slide ">
                 <img src="img/participacion-slider.jpg" alt="">
+              </li>-->
+              <li class="orbit-slide">
+                <img class="orbit-image" src="img/t1.jpg" alt="Space">
+              </li>
+              <li class="orbit-slide">
+                <img class="orbit-image" src="img/t2.jpg" alt="Space">
+              </li>
+              <li class="orbit-slide">
+                <img class="orbit-image" src="img/t3.jpg" alt="Space">
+              </li>
+              <li class="orbit-slide">
+                <img class="orbit-image" src="img/t4.jpg" alt="Space">
+              </li>
+              <li class="orbit-slide">
+                <img class="orbit-image" src="img/t5.jpg" alt="Space">
               </li>
             </ul>
           </div>
         </div>
       </section>
+
       <!-- Seccion boletos-->
-      <section id="boletos-contenedor">
+      <section id="boletos-contenedor" class="hide-for-small-only">
         <div class="row">
           <div class="column medium-offset-9">
             <h3 class="sub-5">INVERSIÓN</h3>
@@ -205,7 +246,7 @@ session_start();
         </div>
       </section>
       <!-- Registro Boletín -->
-    <section id="registro">
+    <section id="registro" class="hide-for-small-only">
       <h4 class="text-center">¡Mantente informado!</h4>
       <p class="text-center">Regístrate para obtener actualizaciones sobre descuentos para conferencias, promociones y noticias.</p>
       <form action="https://formspree.io/info.congreso@anpr.org.mx" method="POST">
@@ -233,7 +274,7 @@ session_start();
     </section>
     <!-- //Registro Boletín  -->
       <!--  Sección patrocinadores -->
-      <section id="proveedores" data-margellan-target="proveedores">
+      <section id="proveedores" data-margellan-target="proveedores" class="hide-for-small-only">
         <div class="marcas-1">
           <div class="row">
             <div class="column medium-offset-5">
@@ -259,10 +300,9 @@ session_start();
           </div>
         </div>
       </div>
-      <div class="marcas-2">
-        <div class="row" id="patrocinadores">
+      <div class="marcas-2" id="patrocinadores">
+        <div class="row" >
           <div class="column text-center" >
-            <h3 class=""><a href="#">DIRECTORIO PATROCINADORES</a></h3>
             <h4>CON EL APOYO DE</h4>
           </div>
         </div>
@@ -275,11 +315,12 @@ session_start();
             <img src="img/patrocinadores/marca-5.png" alt="" class="img-patrocinador">
           </div>
         </div>
+        <h3 class="text-center"><a href="patrocinadores.php">DIRECTORIO PATROCINADORES</a></h3>
       </div>
       </section>
 
     <!--sección de redes sociales-->
-    <section id="redes-sociales">
+    <section id="redes-sociales" class="hide-for-small-only">
       <div class="row column align-center ">
         <a href="https://www.facebook.com/Congreso-Internacional-de-Parques-Urbanos-433605833658855/" target="_blank"><img src="img/facebook.png" alt=""></a>
         <a href="https://twitter.com/congreso_parque" target="_blank"><img src="img/twitter.png" alt=""></a>
@@ -287,5 +328,6 @@ session_start();
         <img src="img/youtobe.png" alt="">
       </div>
     </section><!--fin redes sociales-->
-
-<?php include'assets/footer.php'; ?>
+<div class="hide-for-small-only">
+  <?php include'assets/footer.php'; ?>
+</div>

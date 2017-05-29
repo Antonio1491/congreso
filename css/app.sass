@@ -26,8 +26,20 @@ body, main, article
   font-family: "Roboto"
 h3,h4, h5,h6
   font-family: "general"
+.fecha
+  border-left: 2px solid #a7a3a3
+  padding-left: 20px
+  margin-left: 1em
+.fecha h4
+  color: #94c01f
+  letter-spacing: 0
+  font-family: "avenir bold"
+  margin: 0
+.fecha h5
+  color: #00a099
+  letter-spacing: 3px
 .sub-1
-  color:#03549e
+  color: #03549e
   border-left: 4px solid #0eaacd
   padding-left: 20px
   margin: 1em 0 1em 0
@@ -57,8 +69,6 @@ h3,h4, h5,h6
 img.b-loaded
   opacity: 1
 
-
-
 .menu
   font-family: "bold"
   letter-spacing: 0.1em
@@ -72,29 +82,27 @@ img.b-loaded
   padding-bottom: 5px
   font-family: "ligera"
 #encabezado img
+  margin: .4em 0
   width: 230px
   height: 120px
 .contador
   width: 300px
-  border: 1px solid gray
+  /*border: 1px solid gray
   text-align: center
   border-radius: 8px
-.contador h5
-  padding-top: 5px
-  padding-bottom: 4px
-  margin-top: -5px
-  margin-bottom: -8px
-.contador #contador
+.contador h4
+  padding-top: 8px
+  padding-bottom: 8px
+  margin: 0
+.contador #contador, .contador #contador-small
   color: #ffffff
-  font-size: 13px
-  background: #787878
+  background: #941f80
   margin: 3px
-  border-radius: 0 0 8px 8px
+  border-radius: 0px 0px 8px 8px
 #redes-header img
-  width: 25px
-  height: 20px
+  width: 60px
+  height: 50px
   margin-bottom: 5px
-
 #submenu-principal, .sub-menu-central
   border: 0
 #submenu-principal li a
@@ -106,11 +114,11 @@ img.b-loaded
 
 #menu-central
   padding: 13px 0 13px 0
-  background:#ffffff
+  background: #ffffff
   border: 0
 #menu-central a
   color: #606060
-  font-size: 1.5em
+  font-size: 1.3em
   text-transform: uppercase
 #menu-central a:hover
   color: $azul
@@ -132,6 +140,14 @@ img.b-loaded
   background-size: 10% 80%
   background-repeat: no-repeat
   background-position: right center
+.logo-contenedor-small
+  margin: 4vh 0
+.logo-small
+  width: 80vw
+#redes-small
+  margin: 4vh 0
+#redes-small img
+  height: 45px
 //==================== Video portada ================================
 #video
   overflow: hidden
@@ -144,7 +160,6 @@ img.b-loaded
 // ======================= Temas =====================================
 #banners
   overflow: hidden
-  height: 220px
   margin-bottom: 4em
 .fondo-verde
   background: #94c01f
@@ -162,14 +177,14 @@ img.b-loaded
   padding: 0 5em
   text-align: center
 #mensajes ul li
-  height:  220px
+  height:  260px
   align-items: center
 #tematicas #mensajes
   padding: 0
 #iconos-temas
   background:#eeeeee
 #iconos-temas img
-  height: 6em
+  height: 100%
   margin-bottom: 2.3em
 #img-slider
   padding: 0
@@ -239,7 +254,7 @@ img.b-loaded
 //=============================== Sección patrocinadores y proveedores ======================
 #proveedores
   margin-top: 5em
-  padding: 0px 0 60px
+  padding: 0px 0 20px
 #proveedores h3
   color: #0d848a
   font-family: general
@@ -440,6 +455,9 @@ footer h4, footer h6, #menu-footer ul li a
   padding-top: 0
   letter-spacing: .03em
   font-size: .9em
+#menu-footer ul li a:hover
+  color: #11569d
+  border-left: 1px solid #3b64be
 #pie
   background: #c8c8c8
   height: 2em
@@ -495,22 +513,24 @@ li .redes-sociales
   display: flex
   align-items: center
   min-width: 100%
-.header-participar
+.header-1
   background-image: url('../img/header-1.1.jpg')
-.header-magistrales
-  background-image: url('../img/header-1.3.jpg')
-.header-talleres
+.header-2
   background-image: url('../img/header-1.2.jpg')
-.header-ciudad
+.header-3
+  background-image: url('../img/header-1.3.jpg')
+.header-4
   background-image: url('../img/header-1.4.jpg')
-.header-tematicas
+.header-5
   background-image: url('../img/header-1.5.jpg')
-.header-actividades
+.header-6
   background-image: url('../img/header-1.6.jpg')
-.header-expo
+.header-7
   background-image: url('../img/header-expo.jpg')
-.header-inscripciones
+.header-8
   background-image: url('../img/header-1.7.jpg')
+.header-9
+  background-image: url('../img/header-1.8.jpg')
 main
   margin-bottom: 2.876em
   font-family: "avenir"
@@ -519,7 +539,7 @@ main h3
   color: white
   font-family: "avenir bold"
   letter-spacing: 0.105em
-  text-shadow: 2px 2px 2px #0e0e0e
+
 .contenido
   margin-top: 3.265em
 main p
@@ -628,6 +648,11 @@ a .accordion-title
   margin-left: 15px
 .croquis
   height: 350px
+#galeria-expo
+  height: 180px
+#galeria-expo ul li img
+  height: 180px
+
 //=========== Sesiones ======
 .lista-sesiones li
   font-size: 0.88em
@@ -658,8 +683,8 @@ a .accordion-title
 @media screen and (max-width: 500px)
   #video
     background-image: url("../img/posterimage.jpg")
-  .contenido-contador, .logo-principal
-    margin: auto
+  .contenido-contador
+    margin-top: 8vh
   #redes-header img
     width: 50px
     height: 40px
@@ -682,6 +707,9 @@ a .accordion-title
   #iconos-temas img
     height: 2.8em
     margin: 0.856em 0
+@media screen and (max-width: 1025)
+  #mensajes ul li
+    height:  240px
 @media screen and (max-width: 800px)
   #encabezado
     padding-top: 0
