@@ -32,28 +32,22 @@ session_start();
       </div>
     </div>
     <div class="row column contenido">
-      <h4>PISTAS</h4>
+      <h4 class="titulo-programa ">PISTAS</h4>
     </div>
     <div class="row">
-      <div class="column pistas">
+      <div class="column pistas text-center">
         <figure>
           <img src="img/icon-magistrales.png" alt="icon-magistrales">
           <figcaption>Conferencias Magistrales</figcaption>
         </figure>
-      </div>
-      <div class="column pistas">
         <figure>
           <img src="img/icon-talleres.png" alt="icon-magistrales">
           <figcaption>Talleres</figcaption>
         </figure>
-      </div>
-      <div class="column pistas">
         <figure>
           <img src="img/icon-sesiones.png" alt="icon-magistrales">
           <figcaption>Sesiones Educativas</figcaption>
         </figure>
-      </div>
-      <div class="column pistas">
         <figure>
           <img src="img/icon-expo.png" alt="icon-magistrales">
           <figcaption>Expo</figcaption>
@@ -61,32 +55,27 @@ session_start();
       </div>
     </div>
     <hr>
-    <div class="row fila-espacio">
+    <div class="row column fila-espacio">
+      <h4 class="titulo-programa">TEMÁTICAS</h4>
+    </div>
+    <div class="row">
       <div class="column pistas">
         <figure>
           <img src="img/planeacion-y-diseno-02.png" alt="icon-magistrales">
           <figcaption>Planeación y Diseño</figcaption>
         </figure>
-      </div>
-      <div class="column pistas">
+        <figure>
+          <img src="img/uso-del-espacio-publico-02.png" alt="icon-magistrales">
+          <figcaption>Economía y Usos del Espacio Público</figcaption>
+        </figure>
         <figure>
           <img src="img/la-ciudad-02.png" alt="icon-magistrales">
           <figcaption>La Ciudad</figcaption>
         </figure>
-      </div>
-      <div class="column pistas">
         <figure>
           <img src="img/salud-y-medio-ambiente-02.png" alt="icon-magistrales">
           <figcaption>Salud y Medio Ambiente</figcaption>
         </figure>
-      </div>
-      <div class="column pistas">
-        <figure>
-          <img src="img/uso-del-espacio-publico-02.png" alt="icon-magistrales">
-          <figcaption>Economía y Usos del <br>Espacio Público</figcaption>
-        </figure>
-      </div>
-      <div class="column-2 pistas">
         <figure>
           <img src="img/servicio-publico-02.png" alt="icon-magistrales">
           <figcaption>Servicio Público y Participación Ciudadana</figcaption>
@@ -96,7 +85,7 @@ session_start();
     <hr>
     <!-- Horarios -->
     <div class="row column fila-espacio">
-      <h4>Horarios</h4>
+      <h4 class="titulo-programa">Horarios</h4>
     </div>
     <div class="row align-center">
       <div class="column-10 horario">

@@ -37,24 +37,24 @@ session_start();
         audiencia proporcionando una selección de temas y sesiones relevantes dirigidas
         por expertos en el tema a nivel nacional e internacional.</p>
       <p>Las propuestas recibidas con más probabilidad de ser aceptadas para formar parte
-      del programa del Primer Congreso de Parques Urbanos son, aquellas que se apeguen
+      del programa del <strong>"Primer Congreso Internacional de Parques Urbanos"</strong> son, aquellas que se apeguen
       a nuestras 5 temáticas:</p>
       <div class="">
         <ul>
-          <li>Diseño y Planeación</li>
-          <li>Función Pública y participación Ciudadana</li>
-          <li>La Ciudad</li>
-          <li>Salud y medio Ambiente</li>
-          <li>Economía y Usos del Espacio Público</li>
+          <li>Diseño y Planeación.</li>
+          <li>Función Pública y participación Ciudadana.</li>
+          <li>La Ciudad.</li>
+          <li>Salud y medio Ambiente.</li>
+          <li>Economía y Usos del Espacio Público.</li>
         </ul>
       </div>
       <div class="">
         <h6>PERFIL DEL PONENTE</h6>
           <ul>
-            <li>Arquitectos, urbanistas, arquitectos paisajistas, diseñador del hábitat </li>
+            <li>Arquitectos, urbanistas, arquitectos paisajistas, diseñador del hábitat. </li>
             <li>Sociólogos, antropólogos, mercadólogos y administradores.</li>
             <li>Funcionarios públicos de los tres niveles de gobierno.</li>
-            <li>Ambientalistas, líderes de grupos de la sociedad civil organizada</li>
+            <li>Ambientalistas, líderes de grupos de la sociedad civil organizada.</li>
             <li>Cualquier otra persona interesada en compartir sus conocimientos y proyectos sobre el espacio público con los asistentes.</li>
           </ul>
       </div>
@@ -62,7 +62,7 @@ session_start();
           El formulario deberá ser enviado a la dirección de correo: <a href="mailto:contenido@anpr.org.mx">contenido@anpr.org.mx</a> en el tiempo adecuado y en el formato solicitado. </p>
 
         <h6>SELECCIÓN Y FECHAS</h6>
-        <p>La fecha máxima de recepción es el 15 de septiembre del 2017 dando resultados a principios del mes de noviembre del 2017.</p>
+        <p>La fecha máxima de recepción es el 15 de Octubre del 2017 dando resultados a principios del mes de Diciembre del 2017.</p>
         Consideraciones generales:
         <ul>
           <li>Las sesiones educativas están destinadas a la capacitación y el aprendizaje
@@ -79,10 +79,10 @@ session_start();
           de participación en el congreso y todas sus actividades como lo son:</P>
           <ul>
             <li>Conferencias magistrales y sesiones educativas.</li>
-            <li>Entrada a la muestra comercial “Expo Parques Urbanos”</li>
+            <li>Entrada a la muestra comercial <strong>“Expo Parques Urbanos”</strong>.</li>
             <li>Eventos sociales.</li>
           </ul>
-          <p>NOTA: Los gastos relacionados con inscripción a talleres, traslado, hospedaje, comidas y honorarios por presentación de
+          <p><strong>NOTA:</strong> Los gastos relacionados con inscripción a talleres, traslado, hospedaje, comidas y honorarios por presentación de
             la sesión no están incluidos en el paquete de beneficios.</p>
 
     </div>

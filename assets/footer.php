@@ -18,6 +18,7 @@
       <div class="column">
         <ul class="menu vertical ">
           <li class="menu-text">contáctenos</a></li>
+          <li><a href="http://anpr.org.mx/" target="_blank">ANPR</a></li>
           <li><a href="http://www.parquesdemexico.org/consultora/">Parques de México</a></li>
           <li><a href="http://parquesalegres.org/" target="_blank">Parques Alegres</a></li>
 
@@ -28,14 +29,25 @@
       <div class="column ">
         <ul class="menu vertical">
           <li class="menu-text">congreso</a></li>
-          <li><a href="patrocinadores.php">patrocinadores y socios</a></li>
-          <li><a href="tematicas.php">temáticas</a></li>
           <li><a href="conferencias.php">conferencias magistrales</a></li>
-          <li><a href="talleres.php">talleres</a></li>
           <li><a href="sesiones.php">sesiones educativas</a></li>
+          <li><a href="talleres.php">talleres</a></li>
           <li><a href="programa.php">programa completo</a></li>
+          <li><a href="patrocinadores.php">patrocinadores y socios</a></li>
           <li><a href="expo.php">expo parques urbanos</a></li>
         </ul>
+      </div>
+      <div class="column">
+          <ul class="menu vertical">
+            <li class="menu-text">Participa</a></li>
+            <li><a href="convocatoria-sesiones.php">Convocatoria 2018</a></li>
+            <li><a href="inscripcion.php">Inscripción</a></li>
+            <li><a href="participar.php">¿por qué participar?</a></li>
+            <li><a href="preguntas.php">Preguntas frecuentes</a></li>
+            <li><a href="contacto.php">Contacto</a></li>
+            <li><a href="aviso-legal.php">aviso legal</a></li>
+            <li><a href="privacidad.php">política de privacidad</a></li>
+          </ul>
       </div>
       <div class="column">
         <ul class="menu vertical">
@@ -45,16 +57,6 @@
           <li><a href="hospedajes.php">Hospedaje</a></li>
           <li><a href="conectividad.php">conectividad</a></li>
           <li><a href="http://www.merida.gob.mx/capitalcultural/">Turismo en mérida</a></li>
-        </ul>
-      </div>
-      <div class="column">
-        <ul class="menu vertical">
-          <li class="menu-text">Acerca de</a></li>
-          <li><a href="http://anpr.org.mx/" target="_blank">ANPR</a></li>
-          <li><a href="participar.php">¿Por qué participar?</a></li>
-          <li><a href="preguntas.php">Preguntas Frecuentes</a></li>
-          <li><a href="aviso-legal.php">aviso legal</a></li>
-          <li><a href="privacidad.php">política de privacidad</a></li>
         </ul>
       </div>
     </div>
@@ -102,6 +104,7 @@
 var bLazy = new Blazy({
   selector:'img'
   });
+
 </script>
 <script>/*google analytics*/
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -112,9 +115,27 @@ var bLazy = new Blazy({
     ga('create', 'UA-100039379-1', 'auto');
     ga('send', 'pageview');
 </script>
-<script src="js/vendor/jquery.js"></script>
+<!--  slick  -->
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('.marquee').slick({
+        autoplay:true,
+        autoplaySpeed: 1000,
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1
+      });
+    });
+  </script>
+<!---->
+<!--<script src="js/vendor/jquery.js"></script>-->
 <script src="js/vendor/what-input.js"></script>
 <script src="js/vendor/foundation.js"></script>
 <script src="js/app.js"></script>
+
 </body>
 </html>

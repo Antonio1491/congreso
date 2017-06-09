@@ -37,8 +37,9 @@ session_start();
       </figure>
     </div>
     <form class="expositores" action="alta.php" method="post">
-      <div class="row fila-espacio">
+      <div class="row ">
         <div class="column">
+          <strong>Para informes y ventas con Roberto Romahn Diez</strong>
           <p>Teléfono: 9999 60 07 65 <br> E-mail: comercial@anpr.org.mx</p>
           <p>Complete esta solicitud para asegurar su participación en la "Expo Comercial Parques Urbanos 2018".</p>
         </div>

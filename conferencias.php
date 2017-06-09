@@ -40,14 +40,16 @@ session_start();
             común para nuestras ciudades. </p>
         </div>
       </div>
-      <div class="row align-center fila-espacio">
+      <div class="row align-center fila-espacio fila-espacio2">
       <div class="columns small-9 medium-3 large-2">
         <figure class="carga">
           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="img/conferencistas/martha-fajardo.png" alt="Martha Fajardo">
         </figure>
       </div>
       <div class="column small-10 medium-3 large-4 contenido-magistrales">
-        <h4 class="text-center"></h4>
+        <div class="titulo-conferencia ">
+          <h6 class="text-center">CIUDAD Y PARQUES PARA LA VIDA</h6>
+        </div>
         <h5 class="text-center">Martha Fajardo</h5>
         <h6 class="text-center">Grupo Verde - Colombia</h6>
       </div>
@@ -57,20 +59,24 @@ session_start();
         </figure>
       </div>
       <div class="column small-10 medium-3 large-4 contenido-magistrales ">
-        <h4 class="text-center"></h4>
+        <div class="titulo-conferencia">
+          <h6 class="text-center ">GRANDES PARQUES Y GRANDES CIUDADES</h6>
+        </div>
         <h5 class="text-center">Mario Schjetnan</h5>
-        <h6 class="text-center">Grupo Desarrollo Urbano - México</h6>
+        <h6 class="text-center">Grupo de Diseño Urbano - México</h6>
       </div>
 
     </div>
-    <div class="row align-center fila-espacio">
+    <div class="row align-center fila-espacio2">
       <div class="column small-9 medium-3 large-2">
         <figure class="carga">
           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="img/conferencistas/robert-hammond.png" alt="Robert Hammond">
         </figure>
       </div>
       <div class="column small-10 medium-3 large-4 contenido-magistrales ">
-        <h4 class="text-center"></h4>
+        <div class="titulo-conferencia">
+          <h6 class="text-center ">CONSTRUYENDO UN PARQUE EN EL CIELO</h6>
+        </div>
         <h5 class="text-center">Robert Hammond</h5>
         <h6 class="text-center">High Line - E.E.U.U.</h6>
       </div>
@@ -80,32 +86,36 @@ session_start();
         </figure>
       </div>
       <div class="column small-10 medium-3 large-4 contenido-magistrales ">
-        <h4 class="text-center"></h4>
+        <div class="titulo-conferencia">
+          <h6 class="text-center ">COMO TRANSFORMAR UN PAÍS A TRAVÉS DE SUS PARQUES URBANOS</h6>
+        </div>
         <h5 class="text-center">Barbara Tulipane</h5>
         <h6 class="text-center">Directora Ejecutiva, NRPA - E.E.U.U.</h6>
       </div>
     </div>
-    <div class="row align-center fila-espacio">
+    <div class="row align-center fila-espacio2">
       <div class="column small-9 medium-3 large-2">
         <figure class="carga">
           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="img/conferencistas/peter.png" alt="Peter Harnik">
         </figure>
       </div>
       <div class="column small-10 medium-3 large-4 contenido-magistrales ">
-        <h4 class="text-center"></h4>
+        <div class="titulo-conferencia">
+          <h6 class="text-center ">PARQUES INNOVADORES PARA CIUDADES EMERGENTES</h6>
+        </div>
         <h5 class="text-center">Peter Harnik</h5>
         <h6 class="text-center">The Trust for Public Land - E.E.U.U.</h6>
       </div>
       <div class="column small-9 medium-3 large-2">
-        <figure class="carga">
+        <!--<figure class="carga">
           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="img/conferencistas/jorge-perez.png" alt="Jorge Pérez Jaramillo">
-        </figure>
+        </figure>-->
       </div>
-      <div class="column small-10 medium-3 large-4 contenido-magistrales ">
-        <h4 class="text-center"></h4>
+    <!--  <div class="column small-10 medium-3 large-4 contenido-magistrales ">
+        <h4 class="text-center">MEDELLIN DESDE LOS ESPACIOS PÚBLICOS</h4>
         <h5 class="text-center">Jorge Pérez Jaramillo</h5>
         <h6 class="text-center">Ex Director del Dpto. Administrativo de Planeación de Medallín - Colombia </h6>
-      </div>
+      </div>-->
     </div>
     <div class="row align-center fila-espacio">
       <div class="column small-9 medium-3 large-2">
@@ -114,19 +124,23 @@ session_start();
         </figure>
       </div>
       <div class="column small-10 medium-3 large-4 contenido-magistrales ">
-        <h4 class="text-center"></h4>
+        <div class="titulo-conferencia">
+          <h6 class="text-center ">PARQUES Y RECREACIÓN, ¿CÓMO SER RELEVANTES EN EL PRESENTE?</h6>
+        </div>
         <h5 class="text-center">Tom O'Rourke</h5>
         <h6 class="text-center">Director Ejecutivo Charleston Country Park - E.E.U.U</h6>
       </div>
       <div class="column small-9 medium-3 large-2">
         <figure class="carga">
-          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="img/conferencistas/marinela-servitje.png" alt="Marinela Servitje">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="img/conferencistas/inaki-echeverria.png" alt="Marinela Servitje">
         </figure>
       </div>
       <div class="column small-10 medium-3 large-4 contenido-magistrales ">
-        <h4 class="text-center"></h4>
-        <h5 class="text-center">Marinela Servitje</h5>
-        <h6 class="text-center">Directora General Siete Colores - México</h6>
+        <div class="titulo-conferencia">
+          <h6 class="text-center ">EL ESPACIO PÚBLIC Y LOS PARQUES COMO INFRAESTRUCTURA METROPOLITANA MULTIFUNCIONAL</h6>
+        </div>
+        <h5 class="text-center">Iñaki Echeverria</h5>
+        <h6 class="text-center">Director General Iñaki Echeverria México</h6>
       </div>
     </div>
   </article>

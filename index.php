@@ -19,7 +19,10 @@ session_start();
     <link rel="stylesheet" href="css/foundation-flex.css">
     <link type="text/css" href="css/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
     <link rel="stylesheet" href="css/app.css">
+
 </head>
 <body onload="countdown('contador'), countdown('contador-small')">
 <?php include'assets/menu.php'; ?>
@@ -27,10 +30,22 @@ session_start();
       <!--=====  portada/video  ====-->
       <div id="video" class="hide-for-small-only">
           <video  autoplay loop poster="posterimage.jpg" >
-            <source src="video/loop-2.mp4" type="video/mp4">
+            <source src="video/congreso2.mp4" type="video/mp4">
             <source src="videos/loop-2.webm" type="video/webm">
           </video>
       </div><!-- Fin Portada -->
+      <div class="cinta-marquee">
+        <section class="marquee slider2">
+          <div><img src="img/patrocinadores/deacero.png" alt=""></div>
+          <div><img src="img/patrocinadores/escofet.png" alt=""></div>
+          <div><img src="img/patrocinadores/fundidora.png" alt=""></div>
+          <div><img src="img/patrocinadores/marca-3.png" alt=""></div>
+          <div><img src="img/patrocinadores/marca-5.png" alt=""></div>
+          <div><img src="img/patrocinadores/marca-6.png" alt=""></div>
+        </section>
+      </div>
+
+
       <!--======  diseño pra móviles   ======-->
       <div class="show-for-small-only">
         <div class="row align-center logo-contenedor-small">
@@ -57,16 +72,17 @@ session_start();
 
       <!--======  Fin diseño pra móviles   ======-->
       <!-- ======  Barra y título temas  =====-->
-      <div class="row expanded align-middle align-justify" id="barra" style="-moz-z-index:10; -webkit-z-index:10;">
+      <!--<div class="row expanded align-middle align-justify" id="barra" style="-moz-z-index:10; -webkit-z-index:10;">
         <div class="colum small-12 medium-6">
           <img src="img/barra.png" alt="">
         </div>
-      </div>
+      </div>-->
+
       <!-- === Eventos - talleres === -->
-      <div class="row hide-for-small-only">
+      <!--<div class="row hide-for-small-only">
         <div class="column medium-offset-8">
           <h3 class="sub-2">ACTIVIDADES DESTACADAS</h3>
-        </div>
+        </div>-->
       </div>
       <section id="eventos" class="hide-for-small-only">
         <div class="row">
@@ -177,19 +193,19 @@ session_start();
                 <img src="img/participacion-slider.jpg" alt="">
               </li>-->
               <li class="orbit-slide">
-                <img class="orbit-image" src="img/t1.jpg" alt="Space">
+                <img class="orbit-image" src="img/diseno.png" alt="Space">
               </li>
               <li class="orbit-slide">
-                <img class="orbit-image" src="img/t2.jpg" alt="Space">
+                <img class="orbit-image" src="img/economia-espacio.png" alt="Space">
               </li>
               <li class="orbit-slide">
-                <img class="orbit-image" src="img/t3.jpg" alt="Space">
+                <img class="orbit-image" src="img/salud.png" alt="Space">
               </li>
               <li class="orbit-slide">
-                <img class="orbit-image" src="img/t4.jpg" alt="Space">
+                <img class="orbit-image" src="img/participacion.png" alt="Space">
               </li>
               <li class="orbit-slide">
-                <img class="orbit-image" src="img/t5.jpg" alt="Space">
+                <img class="orbit-image" src="img/ciudad.png" alt="Space">
               </li>
             </ul>
           </div>
@@ -208,7 +224,7 @@ session_start();
             <ul class="pricing-table no-bullet text-center">
                 <li class="title text-center">General</li>
                 <li class="price">$3,900.00</li>
-                <li class="description">* Precio hasta el 1 de Agosto</li>
+                <li class="description">* Precio hasta el 1 de Octubre</li>
                 <li>Conferencias Magistrales <br><i class="fi-check"></i></li>
                 <li>Sesiones Educativas <br><i class="fi-check"></i></li>
                 <li>Expo <br><i class="fi-check"></i></li>
@@ -296,11 +312,11 @@ session_start();
             <a href="http://www.parquesdemexico.org/consultora/" target="_blank"><img data-src="img/patrocinadores/parques-de-mexico-logo.png" alt="Espacios Públicos y Parques de México" class="img-patrocinador"></a>
             <a href="http://parquesalegres.org/" target="_blank"><img data-src="img/patrocinadores/parques-alegres-logo.png" alt="Parques Alegres" class="img-patrocinador"></a>
             <a href="https://www.gob.mx/sedatu" target="_blank"><img data-src="img/patrocinadores/sedatu-logo.png" alt="SEDATU" class="img-patrocinador"></a>
-            <a href="http://www.merida.gob.mx/municipio/portal/index.phpx" target="_blank"><img data-src="img/patrocinadores/merida-logo.jpg" alt="Mérida Ayuntamiento" class="img-patrocinador"></a>
+
           </div>
         </div>
       </div>
-      <div class="marcas-2" id="patrocinadores">
+      <!--<div class="marcas-2" id="patrocinadores">
         <div class="row" >
           <div class="column text-center" >
             <h4>CON EL APOYO DE</h4>
@@ -316,7 +332,7 @@ session_start();
           </div>
         </div>
         <h3 class="text-center"><a href="patrocinadores.php">DIRECTORIO PATROCINADORES</a></h3>
-      </div>
+      </div>-->
       </section>
 
     <!--sección de redes sociales-->
@@ -328,6 +344,11 @@ session_start();
         <img src="img/youtobe.png" alt="">
       </div>
     </section><!--fin redes sociales-->
+
+    <!--<section class="convocatoria">
+      <div class="row convocatoria-content">
+      </div>
+    </section>-->
 <div class="hide-for-small-only">
   <?php include'assets/footer.php'; ?>
 </div>

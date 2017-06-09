@@ -8,7 +8,7 @@
           <li><a href="index.php">Home</a></li>
           <li><a href="#">congreso</a>
             <ul class=" vertical menu sub-menu-central">
-                  <li><a href="convocatoria-sesiones.php">Convocatoria 2018</a></li>
+
                   <li><a href="conferencias.php">Conferencias magistrales</a></li>
                   <li><a href="sesiones.php">Sesiones Educativas</a></li>
                   <li><a href="talleres.php">Talleres</a></li>
@@ -18,21 +18,23 @@
             </ul>
           </li>
           <li><a href="expo.php">Expo Parques Urbanos</a></li>
-          <li><a href="#">mérida yucatán</a>
+          <li><a href="#">Participa</a>
+            <ul class=" vertical menu  sub-menu-central">
+              <li><a href="convocatoria-sesiones.php">Convocatoria 2018</a></li>
+              <li><a href="inscripcion.php">Inscripción</a></li>
+              <li><a href="participar.php">¿por qué participar?</a></li>
+              <li><a href="promotor.php">¿Quieres ser promotor?</a></li>
+              <li><a href="preguntas.php">Preguntas frecuentes</a></li>
+              <li><a href="contacto.php">Contacto</a></li>
+            </ul>
+          </li>
+          <li><a href="#">mérida, yucatán</a>
             <ul class="vertical menu  sub-menu-central">
               <li><a href="ciudad-blanca.php">La ciudad Blanca</a></li>
               <li><a href="http://www.merida.gob.mx/municipio/sitiosphp/merida/eventos.phpx" target="_blank">Actividades locales</a></li>
               <li><a href="hospedajes.php">Hospedaje</a></li>
               <li><a href="conectividad.php">Conectividad</a></li>
               <li><a href="http://www.merida.gob.mx/capitalcultural/" target="_blank">Turismo en Mérida</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Acerca de</a>
-            <ul class=" vertical menu  sub-menu-central">
-              <li><a href="inscripcion.php">Inscripción</a></li>
-              <li><a href="participar.php">¿por qué participar?</a></li>
-              <li><a href="preguntas.php">Preguntas frecuentes</a></li>
-              <li><a href="contacto.php">Contacto</a></li>
             </ul>
           </li>
         </ul>
@@ -83,14 +85,24 @@
                     <li><a href="conferencias.php">Conferencias magistrales</a></li>
                     <li><a href="sesiones.php">Sesiones Educativas</a></li>
                     <li><a href="talleres.php">Talleres</a></li>
-                    <li><a href="tematicas.php">Temáticas</a></li>
+                    <!--<li><a href="tematicas.php">Temáticas</a></li>-->
                     <li><a href="programa.php">Programa Completo</a></li>
-                    <li><a href="convocatoria-sesiones.php">Convocatoria 2018</a></li>
                     <li><a href="patrocinadores.php">Patrocinadores y socios</a></li>
                   </ul>
                 </li>
                 <li><a href="expo.php">Expo Parques Urbanos</a></li>
-                <li><a href="#">mérida yucatán</a>
+                <li><a href="#">Participa</a>
+                  <ul class="menu  sub-menu-central">
+                    <li><a href="convocatoria-sesiones.php">Convocatoria 2018</a></li>
+                    <li><a href="inscripcion.php">Inscripción</a></li>
+                    <li><a href="participar.php">¿por qué participar?</a></li>
+                    <li><a href="promotor.php">¿Quieres ser promotor?</a></li>
+                    <li><a href="preguntas.php">Preguntas frecuentes</a></li>
+                    <li><a href="contacto.php">Contacto</a></li>
+                    <!--<li><a href="congreso-2019.php">Congreso 2019</a></li>-->
+                  </ul>
+                </li>
+                <li><a href="#">mérida, yucatán</a>
                   <ul class="menu  sub-menu-central">
                     <li><a href="ciudad-blanca.php">La ciudad Blanca</a></li>
                     <li><a href="http://www.merida.gob.mx/municipio/sitiosphp/merida/eventos.phpx" target="_blank">Actividades locales</a></li>
@@ -99,15 +111,7 @@
                     <li><a href="http://www.merida.gob.mx/capitalcultural/" target="_blank">Turismo en Mérida</a></li>
                   </ul>
                 </li>
-                <li><a href="#">Acerca de</a>
-                  <ul class="menu  sub-menu-central">
-                    <li><a href="inscripcion.php">Inscripción</a></li>
-                    <li><a href="participar.php">¿por qué participar?</a></li>
-                    <li><a href="preguntas.php">Preguntas frecuentes</a></li>
-                    <li><a href="contacto.php">Contacto</a></li>
-                    <!--<li><a href="congreso-2019.php">Congreso 2019</a></li>-->
-                  </ul>
-                </li>
+
               </ul>
             </nav>
           </div>

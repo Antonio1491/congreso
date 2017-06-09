@@ -30,6 +30,7 @@ h3,h4, h5,h6
   border-left: 2px solid #a7a3a3
   padding-left: 20px
   margin-left: 1em
+  margin-top: 5px
 .fecha h4
   color: #94c01f
   letter-spacing: 0
@@ -151,12 +152,38 @@ img.b-loaded
 //==================== Video portada ================================
 #video
   overflow: hidden
-  height: 70vh
-  min-width: 100vw
+  height: 500px
+  max-width: 100vw
+  background-image: url("../img/bg_repeat2.png")
+  background-size: contain
+  background-repeat: repeat-x
+  text-align: center
 #video video
- transform: translateY(-190px)
+  margin: 0 auto
+  width: 100%
+  height: 800px
+  transform: translateY(-150px)
+
 #barra
   margin-bottom: 1em
+
+.cinta-marquee
+  background-color: #ececec
+  margin-bottom: 0
+  height: 100px
+  display: flex
+  align-items: center
+.slider2
+  width: 60%
+  margin: 0px auto
+  display: block
+.slick-slide
+    margin: 0px 15px
+.slick-slide img
+  width: 100%
+.slick-prev:before,
+.slick-next:before
+  color: black
 // ======================= Temas =====================================
 #banners
   overflow: hidden
@@ -253,7 +280,7 @@ img.b-loaded
 
 //=============================== Sección patrocinadores y proveedores ======================
 #proveedores
-  margin-top: 5em
+  margin-top: 3em
   padding: 0px 0 20px
 #proveedores h3
   color: #0d848a
@@ -278,10 +305,10 @@ img.b-loaded
   height: 90px !important
   margin: 20px 30px 20px 0px
 .marcas-1
-  background-image: url('../img/fondo-1.png')
+  background-image: url('../img/fondo-2.png')
   background-size: 10% 100%
   background-repeat: no-repeat
-  background-position: right center
+  background-position: left center
 .marcas-2
     background-image: url('../img/fondo-2.png')
     background-size: 10% 100%
@@ -424,13 +451,19 @@ img.b-loaded
   color: white
   margin: auto
   padding-bottom: 4em
+.convocatoria
+
+.convocatoria-content
+  background-image: url("../img/convocatoria.jpg")
+  background-size:  100%
+  height: 15em
 //Sección redes sociales
 #redes-sociales
-  margin-bottom: 40px
+  margin-bottom: 25px
 #redes-sociales img
-    width: 70px
-    height: 60px
-    margin-left: 20px
+  width: 70px
+  height: 60px
+  margin-left: 20px
 //footer
 footer
   background: #d4d4d0
@@ -551,12 +584,22 @@ main .contenido ul li
   font-size: 150%
 
 //================    Conferencias magistrales    ======================
-.contenido-magistrales h4
+.contenido-magistrales
+  border-bottom: 1px solid #c3c3c3
+.titulo-conferencia
   background: #009d96
   color: white
+  height: 50px
+  display: flex
+  align-items: center
+  margin-bottom: 0.75em
+.titulo-conferencia h6
+  text-align: center
+  margin: 0 auto
 .fila-espacio
   margin-top: 1.65em
-
+.fila-espacio2
+  margin-bottom: 3em
 
 //=================   TALLERES   =======================================
 .contenido-talleres h4
@@ -666,16 +709,20 @@ a .accordion-title
 .aviso
   font-size: 14px
 //=======================  Programa Completo =====
+.titulo-programa
+  margin: auto
+  color: #BE004C
+  padding-bottom: .4em
 .pistas figure
-  display:block
+  display: inline-block
+  margin-left: 6px
 .pistas img
-  height: 50px
+  height: 30px
 
 .pistas figure figcaption
   font-size: 12px
   font-weight: bold
   display: inline
-  height: 50px
 
 .horario
   width: 60%
