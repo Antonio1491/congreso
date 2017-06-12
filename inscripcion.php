@@ -33,18 +33,25 @@ session_start();
     </div>
     <section >
       <div class="row inscripciones align-center">
-        <div class="column small-10 medium-4">
-          <ul class="pricing-table no-bullet text-center">
-              <li class="title text-center">General</li>
-              <li class="price">$3,900.00</li>
-              <li class="fecha-precio">* Precio hasta el 1 de Octubre</li>
-              <li>Conferencias Magistrales <br><i class="fi-check"></i></li>
-              <li>Sesiones Educativas <br><i class="fi-check"></i></li>
-              <li>Expo <br><i class="fi-check"></i></li>
-              <li>Eventos Sociales <br><i class="fi-check"></i></li>
-              <li>Talleres <br><i class="fi-x"></i></li>
-              <li><a class="button" href="https://goo.gl/4DDkN9" target="_blank">COMPRAR</a></li>
-            </ul>
+        <div class="column small-10 medium-4 card-info warning">
+          <div class="card-info-label">
+            <div class="card-info-label-text">
+              COMPRA
+            </div>
+          </div>
+          <div class="card-info-content">
+            <ul class="pricing-table no-bullet text-center">
+                <li class="title text-center">General</li>
+                <li class="price">$3,900.00</li>
+                <li class="fecha-precio">* Precio hasta el 1 de Octubre</li>
+                <li>Conferencias Magistrales <br><i class="fi-check"></i></li>
+                <li>Sesiones Educativas <br><i class="fi-check"></i></li>
+                <li>Expo <br><i class="fi-check"></i></li>
+                <li>Eventos Sociales <br><i class="fi-check"></i></li>
+                <li>Talleres <br><i class="fi-x"></i></li>
+                <li><a class="button" href="https://goo.gl/4DDkN9" target="_blank">COMPRAR</a></li>
+              </ul>
+            </div>
         </div>
         <div class="column small-10 medium-4">
           <ul class="pricing-table no-bullet text-center">

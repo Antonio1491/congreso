@@ -235,7 +235,7 @@ session_start();
           </div>
           <div class="column">
             <label class="condiciones">Al aceptar esta solicitud de espacio, estoy de acuerdo
-            con las normas, <a href="assets/Reglamento-Expo.pdf">reglamentos</a>, condiciones de pago y las
+            con las normas, <a href="assets/Reglamento-Espanol-V1.0.pdf">reglamentos</a>, condiciones de pago y las
             condiciones para la "Expo Comercial Parques Urbanos 2018".</label>
           </div>
         </div>
@@ -243,7 +243,7 @@ session_start();
           <div class="column">
             <strong>Descargas Importantes:</strong>
             <ul>
-              <li><a href="assets/Reglamento-Expo.pdf">Reglamento</a></li>
+              <li><a href="assets/Reglamento-Espanol-V1.0.pdf">Reglamento</a></li>
             </ul>
           </div>
         </div>

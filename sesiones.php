@@ -128,7 +128,7 @@ session_start();
           </figure>
         </div>
         <div class="column medium-6 servicio-publico">
-          <h4>Servicio Público y Participación Ciudadana</h4>
+          <h4>Función Pública y Participación Ciudadana</h4>
           <p style="text-align:justify; color:#555;">Los parques necesitan servidores públicos comprometidos con
             el espacio público, con las mejores prácticas para su
             implementación y sostenimiento en conjunto con la ciudadanía,
@@ -167,7 +167,7 @@ session_start();
         <ul class="lista-sesiones">
           <li>El Parque infantil ideal.</li>
           <li>Juegos de agua, soluciones recreativas para climas calurosos.</li>
-          <li>Jardines botánicos y  contemplativos como espacios públicos para todos.</li>
+          <li>-	El Jardín Botánico como un espacio público para todos.</li>
           <li>Los Parques lineales, alternativas para espacios públicos residuales.</li>
           <li>Al interior con:</li>
           <li>¿Por qué es importante un plan maestro para los parques urbanos?</li>
@@ -244,7 +244,7 @@ session_start();
         </div>
         <a data-open="servicio-publico" style="color:white;">
           <span data-tooltip aria-haspopup="true" class="has-tip left" data-disable-hover="false" tabindex="2" title="Más información">
-            <h4 class="text-center">Servicio Público y Participación Ciudadana</h4>
+            <h4 class="text-center">Función Pública y Participación Ciudadana</h4>
           </span>
         </a>
         <ul class="lista-sesiones">

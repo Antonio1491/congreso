@@ -230,7 +230,7 @@ session_start();
                 <li>Expo <br><i class="fi-check"></i></li>
                 <li>Eventos Sociales <br><i class="fi-check"></i></li>
                 <li>Talleres <br><i class="fi-x"></i></li>
-                <li><a class="button" href="https://goo.gl/4DDkN9" target="_blank">VER MÁS</a></li>
+                <li><a class="button" href="https://goo.gl/4DDkN9" target="_blank">COMPRAR</a></li>
               </ul>
           </div>
           <div class="column small-10 medium-4">
@@ -243,7 +243,7 @@ session_start();
                 <li>Expo <br><i class="fi-check"></i></li>
                 <li>Eventos Sociales <br><i class="fi-x"></i></li>
                 <li>Talleres <br><i class="fi-x"></i></li>
-                <li><a class="button" href="https://goo.gl/4DDkN9" target="_blank">VER MÁS</a></li>
+                <li><a class="button" href="https://goo.gl/4DDkN9" target="_blank">COMPRAR</a></li>
               </ul>
           </div>
           <div class="column small-10 medium-4">
@@ -256,7 +256,7 @@ session_start();
                 <li>Expo <br><i class="fi-check"></i></li>
                 <li>Eventos Sociales <br><i class="fi-x"></i></li>
                 <li>Talleres <br><i class="fi-x"></i></li>
-                <li><a class="button" href="https://goo.gl/4DDkN9" target="_blank">VER MÁS</a></li>
+                <li><a class="button" href="https://goo.gl/4DDkN9" target="_blank">COMPRAR</a></li>
               </ul>
           </div>
         </div>
@@ -345,10 +345,12 @@ session_start();
       </div>
     </section><!--fin redes sociales-->
 
-    <!--<section class="convocatoria">
-      <div class="row convocatoria-content">
-      </div>
-    </section>-->
+    <a href="convocatoria-sesiones.php">
+      <section class="convocatoria">
+        <div class="row convocatoria-content">
+        </div>
+      </section>
+    </a>
 <div class="hide-for-small-only">
   <?php include'assets/footer.php'; ?>
 </div>
