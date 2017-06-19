@@ -33,10 +33,11 @@ session_start();
     </div>
     <div class="row fila-espacio">
       <div class="column">
-        <p><strong class="letra-capital">E</strong>l Aeropuerto Internacional de Mérida está ubicado a unos 15 minutos del
-          centro de la ciudad. Otras alternativas son; llegar al Aeropuerto internacional de Cancún (CUN) y tomar un autobús
-          a Mérida (el tiempo de traslado es de cuatro horas aproximadamente) o hacer una escala en el Aeropuerto Internacional
-          de la Ciudad de México, Benito Juárez (MEX) llegando a Mérida en un vuelo con duración de una hora y media aproximadamente.</p>
+        <p><strong class="letra-capital">E</strong>l aeropuerto internacional de Mérida (MID) está ubicado a
+          unos 15 minutos del centro de la ciudad. Otras alternativas son; llegar al aeropuerto internacional
+          de Cancún (CUN) y tomar un autobús a Mérida (el tiempo de traslado es de cuatro horas aproximadamente)
+          o hacer una escala en el aeropuerto internacional de la Ciudad de México (MEX) llegando a Mérida en un
+          vuelo con duración de una hora y media aproximadamente.</p>
       </div>
     </div>
     <div class="row fila-espacio">

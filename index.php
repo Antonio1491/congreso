@@ -34,7 +34,7 @@ session_start();
             <source src="videos/loop-2.webm" type="video/webm">
           </video>
       </div><!-- Fin Portada -->
-      <div class="cinta-marquee">
+      <div class="cinta-marquee hide-for-small-only">
         <section class="marquee slider2">
           <div><img src="img/patrocinadores/deacero.png" alt=""></div>
           <div><img src="img/patrocinadores/escofet.png" alt=""></div>
@@ -250,7 +250,7 @@ session_start();
             <ul class="pricing-table no-bullet text-center">
                 <li class="title">Expo</li>
                 <li class="price">$500.00</li>
-                <li class="description">* Precio para la expo durante los 3 días del evento</li>
+                <li class="description">* Precio para la expo durante los 2 días del evento</li>
                 <li>Conferencias Magistrales <br><i class="fi-x"></i></li>
                 <li>Sesiones Educativas <br><i class="fi-x"></i></li>
                 <li>Expo <br><i class="fi-check"></i></li>
@@ -345,12 +345,15 @@ session_start();
       </div>
     </section><!--fin redes sociales-->
 
-    <a href="convocatoria-sesiones.php">
-      <section class="convocatoria">
-        <div class="row convocatoria-content">
-        </div>
-      </section>
-    </a>
+    <section class="hide-for-small-only">
+      <a href="convocatoria-sesiones.php">
+        <section class="convocatoria">
+          <div class="row convocatoria-content">
+          </div>
+        </section>
+      </a>
+    </section>
+
 <div class="hide-for-small-only">
   <?php include'assets/footer.php'; ?>
 </div>

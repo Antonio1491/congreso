@@ -27,7 +27,7 @@ session_start();
     <div class=" header header-convocatoria">
       <div class="row align-middle">
         <div class="column text-center">
-          <h3 class="titulos">CONVOCATORIA</h3>
+          <h3 class="titulos">CONVOCATORIA 2018</h3>
         </div>
       </div>
     </div>
@@ -37,7 +37,7 @@ session_start();
         audiencia proporcionando una selección de temas y sesiones relevantes dirigidas
         por expertos en el tema a nivel nacional e internacional.</p>
       <p>Las propuestas recibidas con más probabilidad de ser aceptadas para formar parte
-      del programa del <strong>"Primer Congreso Internacional de Parques Urbanos"</strong> son, aquellas que se apeguen
+      del programa del <strong>"1er Congreso Internacional de Parques Urbanos"</strong> son, aquellas que se apeguen
       a nuestras 5 temáticas:</p>
       <div class="">
         <ul>
@@ -49,21 +49,21 @@ session_start();
         </ul>
       </div>
       <div class="">
-        <h6>PERFIL DEL PONENTE</h6>
+        <h6>Perfil del ponente.</h6>
           <ul>
-            <li>Arquitectos, urbanistas, arquitectos paisajistas, diseñador del hábitat. </li>
+            <li>Arquitectos, urbanistas, arquitectos paisajistas, diseñadores del hábitat. </li>
             <li>Sociólogos, antropólogos, mercadólogos y administradores.</li>
             <li>Funcionarios públicos de los tres niveles de gobierno.</li>
-            <li>Ambientalistas, líderes de grupos de la sociedad civil organizada.</li>
+            <li>Ambientalistas, grupos de la sociedad civil organizada.</li>
             <li>Cualquier otra persona interesada en compartir sus conocimientos y proyectos sobre el espacio público con los asistentes.</li>
           </ul>
       </div>
         <p>El participante deberá <a href="assets/formularios-sesiones-educativas-pre-aprobadas.pdf" target="_blank" class="">descargar el formulario</a>, llenarlo con la información de su propuesta y los datos personales que se solicitan.
           El formulario deberá ser enviado a la dirección de correo: <a href="mailto:contenido@anpr.org.mx">contenido@anpr.org.mx</a> en el tiempo adecuado y en el formato solicitado. </p>
 
-        <h6>SELECCIÓN Y FECHAS</h6>
-        <p>La fecha máxima de recepción es el 15 de Octubre del 2017 dando resultados a principios del mes de Diciembre del 2017.</p>
-        Consideraciones generales:
+        <h6>Elección y fechas</h6>
+        <p>La fecha máxima de recepción de propuestas es el 15 de Octubre del 2017 dando resultados a principios del mes de Diciembre del 2017.</p>
+        <h6>Consideraciones generales:</h6>
         <ul>
           <li>Las sesiones educativas están destinadas a la capacitación y el aprendizaje
             al compartir conocimientos, experiencias y proyectos en los que se haya colaborado
@@ -74,7 +74,7 @@ session_start();
             con el comité de contenido, ya que ese material se hará público en la plataforma web de la Asociación Nacional de Parques y
             Recreación. </li>
         </ul>
-        <h6>BNEFICIOS</h6>
+        <h6>Beneficios</h6>
         <p>Los ponentes seleccionados para las sesiones educativas recibirán un paquete de beneficios que incluye dos días completos
           de participación en el congreso y todas sus actividades como lo son:</P>
           <ul>
@@ -82,7 +82,7 @@ session_start();
             <li>Entrada a la muestra comercial <strong>“Expo Parques Urbanos”</strong>.</li>
             <li>Eventos sociales.</li>
           </ul>
-          <p><strong>NOTA:</strong> Los gastos relacionados con inscripción a talleres, traslado, hospedaje, comidas y honorarios por presentación de
+          <p><strong>Nota:</strong> Los gastos relacionados con inscripción a talleres, traslado, hospedaje, comidas y honorarios por presentación de
             la sesión no están incluidos en el paquete de beneficios.</p>
 
     </div>

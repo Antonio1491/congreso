@@ -33,33 +33,33 @@ session_start();
     </div>
     <div class="row contenido">
       <div class="column small-12 medium-12">
-        <p><span class="letra-capital">S</span>e promotor del <strong>"1er Congreso Internacional de Parques Urbanos"</strong> y gana premios y recompensas
-          promoviendo la participación y las inscripciones en este importante evento.</p>
+        <p><span class="letra-capital">S</span>e promotor del <strong>"1er Congreso Internacional de Parques Urbanos"</strong> obtén recompensas promoviendo
+          la participación y las inscripciones a este importante evento.</p>
         <h5>¿Por qué participar?</h5>
         <p class="fila-espacio">¿Te interesan los parques urbanos y los espacios públicos en
-          México y Latinoamérica?  Tu puedes ser promotor del 1er Congreso Internacional de Parques Urbanos en México y participar
+          México y Latinoamérica?  Tú puedes ser promotor del <strong>1er Congreso Internacional de Parques Urbanos</strong> en México y participar
           de nuestro programa de metas y recompensas donde podrás ganar:</p>
         <ol type=a>
-          <li>Inscripción completa al 1er Congreso Internacional de Parques Urbanos.</li>
+          <li>Inscripción completa de dos días al 1er Congreso Internacional de Parques Urbanos.</li>
           <li>Transportación aérea desde tu ciudad al evento.</li>
           <li>Hospedaje sin costo durante los días del evento.</li>
           <li>Entrada al coctel VIP donde podrás conocer y convivir con nuestros conferencias magistrales y de sesiones educativas.</li>
           <li>Incentivos económicos por logros en las metas alcanzadas.</li>
         </ol>
         <h5>Cómo participar</h5>
-        <p>Llena el formulario en esta página y te haremos llegar por correo electrónico una presentación explicativa de todo el
-          proceso, las bases y la condiciones.  Un representante del Congreso se comunicará contigo para resolver tus dudas y
+        <p>Llena el formulario en esta página y te haremos llegar una presentación explicativa del
+          proceso, las bases y la condiciones.  Un representante del congreso se comunicará contigo para resolver tus dudas y
           darte todas las herramientas necesarias para que logres un programa exitoso de promoción.</p>
           <p>Contarás con material como:</p>
         <ol type="a">
           <li>Presentación de ventas.</li>
           <li>Video promocional.</li>
-          <li>Pre-programas.</li>
+          <li>Programas preliminares</li>
           <li>Posters y Volantes.</li>
           <li>Contactos relevantes en tu comunidad interesados en los parques y espacios públicos.</li>
-          <li>Una sesión de capacitación.</li>
+          <li>Sesión de capacitación.</li>
         </ol>
-        <p class="text-center"><strong>¡Participa en el esfuerzo de convocar a todos los que nos interesan los parques urbanos y espacios púbicos en México y Latinoamérica!</strong></p>
+        <p class="text-center"><strong>¡Participa en este gran esfuerzo por convocar a todos los que nos interesan los parques urbanos y espacios púbicos en México y Latinoamérica!</strong></p>
       </div>
     </div>
   </article>

@@ -57,10 +57,10 @@
           </div>
           <div class="colum contenido-contador">
             <div id="redes-header" class="text-center">
-              <a href="https://www.facebook.com/Congreso-Internacional-de-Parques-Urbanos-433605833658855/" target="_blank"><img src="img/facebook.png" alt=""></a>
+              <a href="https://www.facebook.com/Congreso-Internacional-de-Parques-Urbanos-433605833658855/" target="_blank"><img src="img/facebook.png"  alt=""></a>
               <a href="https://twitter.com/congreso_parque" target="_blank"><img src="img/twitter.png" alt=""></a>
               <a href="https://www.instagram.com/congreso_parques/" target="_blank"><img src="img/instagram.png" alt=""></a>
-              <a href="#"><img src="img/youtobe.png" alt=""></a>
+              <a href="https://www.youtube.com/channel/UC_ExzrmxP5er7qZHeVpWidQ" target="_blank"><img src="img/youtobe.png" alt=""></a>
             </div>
             <div class="contador">
               <!--<h5>25-27 ABRIL, 2018</h5>

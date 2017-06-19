@@ -37,17 +37,17 @@ session_start();
    <div class="contenido expo">
      <div class="row">
        <div class="column">
-         <p><span class="letra-capital">L</span>a "Expo Parques Urbanos" reune a todos los proveedores de materiales
-           y equipos de recreación, que se instalará el día 25 y se llevará a cabo los días 26 y 27 de Abril de 2018.  </p>
+         <p><span class="letra-capital">L</span>a "Expo Parques Urbanos" reune a proveedores de materiales
+           y equipo de recreación, que se instalará el día 25 y se llevará a cabo los días 26 y 27 de Abril de 2018.  </p>
            <ul>
-             <li>Exhiba sus productos o servicios y alcance su público meta.</li>
-             <li>Cree y refuerce la visibilidad y aumente  el interés sobre su capacidad de suministro.</li>
-             <li>Comparta sus investigaciones y difunda información relevante sobre sus productos.</li>
-             <li>Identifique nuevos clientes potenciales y/o fortalezca las relaciones con los existentes.</li>
-             <li>Establezca vínculos comerciales hacia nuevos mercados; Identificar agentes y/o representantes.</li>
-            <li>Negocie ofertas que pueden resultar en órdenes reales.</li>
-            <li>Desarrolle la red de relaciones.</li>
-            <li>Conozca socios potenciales que lo pueden llevar a alianzas comerciales.</li>
+             <li>Exhibe tus productos o servicios y alcance tu público meta.</li>
+             <li>Crea y refuerza visibilidad y aumenta  el interés sobre tu capacidad de suministro.</li>
+             <li>Comparte tus investigaciones y difunde información relevante sobre sus productos.</li>
+             <li>Identifica nuevos clientes potenciales y/o fortalece las relaciones con los existentes.</li>
+             <li>Establece vínculos comerciales hacia nuevos mercados; identificar agentes y/o representantes.</li>
+            <li>Negocia ofertas que pueden resultar en órdenes reales.</li>
+            <li>Desarrolla una red de relaciones.</li>
+            <li>Conoce a socios potenciales que lo pueden llevar a alianzas comerciales.</li>
            </ul>
          <h4>PISO DE EXPOSICIÓN</h4>
          <p>Esta modalidad de contratación no cuenta con mobiliario, alfombra
@@ -67,7 +67,7 @@ session_start();
        </div>
        <div class="column small-12 medium-6">
          <ul>
-         <li>Espacio Público en el "Directorio de Expositores". </li>
+         <li>Espacio en el "Directorio de Expositores". </li>
          <li>Diploma de participación.</li>
          <li>Gafetes de Expositor (uno por cada 3m<sup>2</sup> ).</li>
        </ul>

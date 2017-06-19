@@ -33,14 +33,11 @@ session_start();
     </div>
     <div class="row contenido">
       <div class="column">
-        <p><span class="letra-capital">L</span>a Ciudad de Mérida Yucatán fue fundada el 6 de Enero de 1542 por el Español
-          Francisco de Montejo y León "El Mozo", donde se encontraba la antigua Ciudad Maya T'Hó.</p>
-        <p>Mérida se posiciona como una ciudad llena de cultura y tradiciones con gente encantadora
-          que da la bienvenida a todo aquel que la visita. Todas sus calles y esquinas están
-          llenas de historias y testigos del paso del tiempo y su arquitectura como muestra de
-          nuestro pasado colonial.</p>
-          <p>La revista Forbes la nombró como una de las tres mejores ciudades de México para vivir, y con las mejores alternativas para invertir y hacer negocios.</p>
-          <p>El periódico español El País, la eligió como una de las 10 ciudades para darle la bienvenida a 2017.</p>
+        <p><span class="letra-capital">L</span>a Ciudad de Mérida, Yucatán fue fundada el 6 de Enero de 1542 por el español Francisco de Montejo y León "El Mozo", donde se encontraba la antigua Ciudad Maya T'Hó.</p>
+        <p>Mérida se posiciona como una ciudad llena de cultura y tradiciones con gente encantadora que da la bienvenida a todo aquel que la visita. Todas sus calles y esquinas están llenas de historia y su arquitectura como testigo de nuestro pasado colonial.</p>
+          <p>Es la capital del estado de Yucatán y Capital Americana de la Cultura en 2017.</p>
+          <p>La revista Forbes la nombró como una de las tres mejores ciudades de México para vivir, y con las mejores alternativas para invertir y hacer negocios;</p>
+          <p>El periódico español El País, la eligió como una de las 10 mejores ciudades para darle la bienvenida a 2017.</p>
           <p>Lonely Planet, una destacada publicación internacional en materia turística, calificó a la ciudad como una de las más atractivas internacionalmente.</p>
       </div>
     </div>

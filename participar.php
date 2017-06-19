@@ -33,12 +33,13 @@ session_start();
     </div>
     <div class="row contenido">
       <div class="column small-12 medium-6">
-        <p><span class="letra-capital">E</span>l Primer Congreso de Parques Urbanos es la <em>primera edición</em> de un evento que se realizará anualmente que tendrá como objetivo reunir y capacitar a profesionales, funcionarios públicos, técnicos, tomadores de decisiones, académicos, estudiantes, sociedad civil y proveedores relacionados al espacio público en un mismo lugar, para impulsar la industria de los parques urbanos y la recreación en México, creando un espacio de  tres días de capacitación, conferencias, talleres y muestra comercial.</p>
-        <p>Este evento impulsará a que profesionales de la industria de parques aumenten en número y conocimientos, para que amplíen sus negocios y desarrollen relaciones con otros asistentes.</p>
-        <p>Si todavía no estás convencido de asistir a este congreso compartimos algunas de las razones por las que debes asistir:</p>
+        <p><span class="letra-capital">E</span>l Congreso de Parques Urbanos es un evento que se realizará anualmente que tiene como objetivo reunir y capacitar a profesionales, funcionarios públicos, técnicos, tomadores de decisiones, académicos, estudiantes, sociedad civil y proveedores relacionados al espacio público en un mismo lugar, para impulsar la industria de los parques urbanos y la recreación en México, en un espacio de tres días de capacitación, conferencias, talleres y muestra comercial.</p>
+        <p>Este evento hará que profesionales de la industria de los parques aumenten en número y conocimientos, para que amplíen sus negocios y desarrollen relaciones con otros asistentes.</p>
+        <p>Si todavía no estás convencido de asistir a este congreso, te compartimos algunas de las razones por las que debes hacerlo:</p>
         <ul>
-          <li>El congreso contará con: 8 <a href="conferencias.php">conferencias magistrales</a>, más de 50 <a href="sesiones.php">sesiones educativas</a> y 9 <a href="talleres.php">talleres vivenciales</a>.  </li>
-          <li>Iniciarás relaciones duraderas con otros profesionales nacionales e internacionales con intereses e ideas similares.</li>
+          <li>Elige a qué sesiones educativas asistir y obtén una certificación validando tu participación y conocimientos adquiridos con un 80% de asistencia a las sesiones educativas.</li>
+          <li>Tendrás la oportunidad de conocer nuevos proyectos relacionados con el espacio público, además de conocer a líderes en la industria.</li>
+          <li>Conocerás las experiencias de otros profesionales que se enfrentan a desafíos similares a los tuyos.</li>
         </ul>
       </div>
       <div class="column small-12 medium-6">

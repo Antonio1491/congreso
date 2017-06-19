@@ -57,7 +57,7 @@ session_start();
           <ul class="pricing-table no-bullet text-center">
               <li class="title">general</li>
               <li class="price">$4,500.00</li>
-              <li class="fecha-precio">* Precio hasta el 1 de Febrero</li>
+              <li class="fecha-precio">* Precio del 2 de Octubre hasta el 1 de Febrero</li>
               <li>Conferencias Magistrales <br><i class="fi-check"></i></li>
               <li>Sesiones Educativas <br><i class="fi-check"></i></li>
               <li>Expo <br><i class="fi-check"></i></li>

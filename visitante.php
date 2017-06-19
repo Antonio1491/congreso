@@ -33,19 +33,20 @@ session_start();
     </div>
     <div class="row contenido expo">
       <div class="column">
-        <p><span class="letra-capital">P</span>articipa en la Exposición Comercial más especializada de la industria de los Parques Urbanos
-          y Espacios Públicos en México y Latinoamérica.</p>
+        <p><span class="letra-capital">P</span>articipa en la exposición comercial más especializada
+          de la industria de los parques urbanos y espacios públicos en México y Latinoamérica.</p>
           <ul>
-            <li>Explore el mercado y observe las últimas tendencias.</li>
-             <li>Intercambie  experiencias con proveedores y congresistas expertos.</li>
-             <li>Recopile información.</li>
+            <li>Explora el mercado y observe las últimas tendencias.</li>
+             <li>Intercambia experiencias con proveedores y congresistas expertos.</li>
+             <li>Recopila información.</li>
             <li>Manténganse al tanto de las innovaciones de los producto y la industria.</li>
-             <li>Conozca qué hacen los competidores.</li>
-             <li>Aprenda las últimas técnicas de ventas y promoción. </li>
-            <li>Compare la calidad, el precio y el rendimiento de la mezcla de marketing.</li>
-             <li>Asista a las conferencias magistrales, sesiones educativas y talleres vivenciales.</li>
-             <li>Visite la industria y los parques locales.</li>
-             <li>Disfrute del esplendido turismo de Mérida.</li>
+             <li>Conoce los productos más innovadores de la industria. .</li>
+             <li>Conoce qué hacen los competidores.</li>
+            <li>Aprende las últimas técnicas de ventas y promoción.</li>
+             <li>Compara la calidad, el precio y el rendimiento de la mezcla de marketing.</li>
+             <li>Asiste a las conferencias magistrales, sesiones educativas y talleres vivenciales.</li>
+             <li>Visita parques locales.</li>
+             <li>Disfruta del espléndido turismo de Mérida.</li>
           </ul>
         <strong>Durante 2 días tendrás acceso a:</strong>
         <ul>

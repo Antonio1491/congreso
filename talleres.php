@@ -34,7 +34,7 @@ session_start();
     <div class="row contenido">
       <div class="column">
         <p><span class="letra-capital">L</span>os talleres vivenciales serán experiencias únicas
-          de aprendizaje un día previo a que las sesiones educativas comiencen; se visitarán parques
+          de aprendizaje un día previo a que las sesiones educativas comiencen. Se visitarán parques
           y espacios icónicos de la ciudad y del estado junto con expertos en el tema y colaboradores
           de nuestra ciudad anfitriona. Sin duda los talleres son una gran oportunidad para extender
           nuestro conocimiento sobre el espacio público. Estas actividades tendrán lugar el día
@@ -50,9 +50,9 @@ session_start();
       <div class="column medium-8 large-7 contenido-talleres ">
         <h4 class="text-center">LOS BARRIOS DE MÉRIDA</h4>
         <h6 class="text-center"></h6>
-        <p>Recorrido por los 7 principales barrios del centro de la ciudad, en los cuales
+        <p>Recorrido por los 7 barrios principales de la ciudad, en los cuales
            se podrá comparar la arquitectura, la composición, el estilo de vida, parques y
-           plazas además de ser testigos de la dinámica de vida de sus habitantes. Dentro
+           plazas de cada uno, además de ser testigos de la dinámica de vida de sus habitantes. Dentro
            de los barrios que se visitarán se encuentran:
           <ul>
             <li>Santa Ana ubicado en la calle <a href="https://goo.gl/maps/Kp92nW8AboK2" target="_blank">47x60</a></li>
@@ -73,9 +73,8 @@ session_start();
         <p>Los llamados “Parques Hundidos” son un tipo de parques particulares de Mérida,
           los cuales son espacios que antes fueron sascaberas (bancos de materiales). Este tipo de parques nos
           demuestran que un espacio público puede encontrarse hasta en los lugares más
-          inesperados. Se hará un recorrido por algunos de los principales Parques Hundidos
-          de la ciudad, y se podrán observar los diferentes usos y actividades que tiene
-          cada uno. </p>
+          inesperados. Haremos un recorrido por algunos de los principales Parques Hundidos de la ciudad, y
+          se podrán observar los diferentes usos y actividades que tiene cada uno. </p>
       </div>
       <div class="column small-8 small-order-1 medium-order-2 medium-3">
         <figure class="carga">
@@ -103,7 +102,7 @@ session_start();
       <div class="column small-order-2 medium-order-1 medium-8 large-7 medium-offset-1 large-offset-2 contenido-talleres ">
         <h4 class="text-center">PLACEMAKING</h4>
         <h6 class="text-center"></h6>
-        <p>Placemaking en dos de las avenidas más icónicas de Mérida: <a href="https://goo.gl/maps/h2BaksEzEbS2" target="_blank">Paseo de Montejo</a> y <a href="https://goo.gl/maps/tLynEbEBA452" target="_blank">Av. Colón</a>: El Placemaking es una metodología
+        <p>Haremos un proceso de placemaking en dos de las avenidas más icónicas de Mérida: <a href="https://goo.gl/maps/h2BaksEzEbS2" target="_blank">Paseo de Montejo</a> y <a href="https://goo.gl/maps/tLynEbEBA452" target="_blank">Av. Colón</a>: El Placemaking es una metodología
           para el diseño de espacios públicos que tiene como principios el  observar, escuchar
          y preguntar a las personas que lo utilizan y/o viven cerca del sitio. En este taller
          podrás conocer ésta metodología a profundidad y llevarla a la práctica en dos de las
@@ -124,11 +123,12 @@ session_start();
       <div class="column medium-8 large-7 contenido-talleres ">
         <h4 class="text-center">LA PLANCHA</h4>
         <h6 class="text-center"></h6>
-        <p>Se organizará un recorrido dentro de “La Plancha”, como se le conoce a la <a href="https://goo.gl/maps/uKUo8LPD2nk" target="_blank">ex-estación de trenes</a> de la ciudad de Mérida. En el recorrido se contará la historia
-          del sitio, y se presentará el proyecto ciudadano que existe para transformarlo
-          en el parque central de Mérida. Con una superficie de más de 25 hectareas, la plancha
-        es un espacio lleno de historia y arqueología industrial. Durante más de 2 años vecinos y grupos sociales
-        trabajan de la mano con el gobierno para transformarlo en un gran parque metropolitano.  </p>
+        <p>Se organizará un recorrido dentro de “La Plancha”, como se le conoce a la <a href="https://goo.gl/maps/uKUo8LPD2nk" target="_blank">ex-estación de trenes</a> de la ciudad de Mérida.
+          En el recorrido se contará la historia del sitio, y se presentará el proyecto ciudadano
+          que existe para transformarlo en el parque central de Mérida. Con una superficie de más
+          de 25 hectáreas, La Plancha es un espacio lleno de historia y arqueología industrial. Durante
+          más de 2 años vecinos y grupos sociales trabajan de la mano con el gobierno para transformarlo
+          en un gran parque metropolitano. </p>
       </div>
     </div>
     <div class="row fila-espacio align-center">
@@ -157,21 +157,18 @@ session_start();
         <h4 class="text-center">PARQUES CON HISTORIA</h4>
         <h6 class="text-center"></h6>
         <p>Cada ciudad cuenta con parques icónicos. En este taller, recorreremos algunos de
-          los parques más representativos de Mérida, aquellos que nos cuentan las historias que
-          ha vivido la ciudad. Podremos ver diferentes diseños y estilos arquitectónicos, así
-          como la dinámica que se vive y las actividades que se desarrollan en ellos. Conoce el
-        parque de "<a href="https://goo.gl/maps/unTZYog129z" target="_blank">Las Américas</a>" con más de 60 años de historia en la comunidad yucateca.</p>
+          los parques más representativos de Mérida, aquellos que nos cuentan la historia de la ciudad.
+          Podremos ver diferentes diseños y estilos arquitectónicos, la dinámica que se vive y las actividades que se desarrollan en ellos.</p>
       </div>
     </div>
     <div class="row fila-espacio align-center">
       <div class="column small-order-2 medium-order-1 medium-8 large-7 medium-offset-1 large-offset-2 contenido-talleres ">
         <h4 class="text-center">BICI-RUTA</h4>
         <h6 class="text-center"></h6>
-        <p>El programa de la bici-ruta de Mérida tiene 11 años siendo un programa dominical exitoso.
-          En este taller se enseñará a planear un programa de bici-ruta que cumpla con todos los
-          requerimientos necesarios, desde las rutas sugeridas mantenimiento, el personal que se
-          necesita, entre otros. Tendremos expertos que nos contarán sus experiencias, y con los
-          cuales podremos recorrer algunas de las calles de este excelente programa.</p>
+        <p>Desde hace 11 años el programa de la bici-ruta dominical de Mérida es un programa exitoso. En este taller
+          se le enseñará a los asistentes a planear un programa de bici-ruta que cumpla con los requerimientos
+          necesarios, desde las rutas sugeridas, mantenimiento, el personal necesario, entre otros. Expertos que
+          nos contarán sus experiencias, y podremos recorrer algunas de las calles que forman parte de este excelente programa.</p>
       </div>
       <div class="column small-8 medium-3 small-order-1 medium-order-2">
         <figure class="carga">
@@ -188,11 +185,10 @@ session_start();
       <div class="column small-12 medium-8 large-7 contenido-talleres ">
         <h4 class="text-center">HUERTOS URBANOS Y VIVEROS</h4>
         <h6 class="text-center"></h6>
-        <p>Esta es una gran oportunidad para aprender todo lo necesario y desarrollar un huerto urbano en tu parque,
-           los expertos te enseñarán las mejores técnicas para poder tener
-          cultivos exitosos. Además visitaremos uno de los vivieron más importantes de la ciudad, a cargo de una
-          asociación civil que tiene como objetivo la mejora del medio ambiente a través de la siembra de árboles
-          y la educación ambiental. </p>
+        <p>Esta es una gran oportunidad para aprender todo lo necesario y desarrollar un huerto urbano
+          en tu parque ¡los expertos te enseñarán las mejores técnicas para poder tener cultivos exitosos!
+          Además, visitaremos uno de los vivieron más importantes de la ciudad, a cargo de una asociación
+          civil que tiene como objetivo la mejora del medio ambiente a través de la siembra de árboles y la educación ambiental. </p>
       </div>
     </div>
   </article>

@@ -39,7 +39,7 @@ session_start();
         <div class="row expanded ">
           <div class="column small-12 large-3 large-offset-3 medium-6  text-center">
             <div id="contenido-contacto">
-              <h6>Centro Internacional de Congresos</h6>
+              <h6>Centro Internacional de Congresos de Yucatán</h6>
               <h4>Yucatán</h4>
               <div class="info-contacto">
                 <i class="fi-telephone"></i> 99944060<br>

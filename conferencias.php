@@ -34,10 +34,9 @@ session_start();
     <div class="contenido">
       <div class="row">
         <div class="column">
-          <p><span class="letra-capital">L</span>as Conferencias Magistrales serán el momento en el que todos los
-            asistentes al congreso se reunirán en una misma sala para escuchar
-            hablar a los expertos sobre los parques urbanos y temas de interés
-            común para nuestras ciudades. </p>
+          <p><span class="letra-capital">L</span>as Conferencias Magistrales serán el momento en el cual todos los
+            asistentes al congreso se reunirán en una misma sala para escuchar hablar a los expertos sobre los parques
+            urbanos y temas de interés común para nuestras ciudades.. </p>
         </div>
       </div>
       <div class="row align-center fila-espacio fila-espacio2">
@@ -87,7 +86,7 @@ session_start();
       </div>
       <div class="column small-10 medium-3 large-4 contenido-magistrales ">
         <div class="titulo-conferencia">
-          <h6 class="text-center ">COMO TRANSFORMAR UN PAÍS A TRAVÉS DE SUS PARQUES URBANOS</h6>
+          <h6 class="text-center ">¿CÓMO TRANSFORMAR UN PAÍS A TRAVÉS DE SUS PARQUES URBANOS?</h6>
         </div>
         <h5 class="text-center">Barbara Tulipane</h5>
         <h6 class="text-center">Directora Ejecutiva, NRPA - E.E.U.U.</h6>
@@ -104,7 +103,7 @@ session_start();
           <h6 class="text-center ">PARQUES INNOVADORES PARA CIUDADES EMERGENTES</h6>
         </div>
         <h5 class="text-center">Peter Harnik</h5>
-        <h6 class="text-center">The Trust for Public Land - E.E.U.U.</h6>
+        <h6 class="text-center">Centro de Excelencia de Parques - E.E.U.U.</h6>
       </div>
       <div class="column small-9 medium-3 large-2">
         <!--<figure class="carga">
@@ -128,7 +127,7 @@ session_start();
           <h6 class="text-center ">PARQUES Y RECREACIÓN, ¿CÓMO SER RELEVANTES EN EL PRESENTE?</h6>
         </div>
         <h5 class="text-center">Tom O'Rourke</h5>
-        <h6 class="text-center">Director Ejecutivo Charleston Country Park - E.E.U.U</h6>
+        <h6 class="text-center">Director de la escuela de directores de la NRPA</h6>
       </div>
       <div class="column small-9 medium-3 large-2">
         <figure class="carga">
@@ -137,7 +136,7 @@ session_start();
       </div>
       <div class="column small-10 medium-3 large-4 contenido-magistrales ">
         <div class="titulo-conferencia">
-          <h6 class="text-center ">EL ESPACIO PÚBLIC Y LOS PARQUES COMO INFRAESTRUCTURA METROPOLITANA MULTIFUNCIONAL</h6>
+          <h6 class="text-center ">EL ESPACIO PÚBLICO Y LOS PARQUES COMO INFRAESTRUCTURA METROPOLITANA MULTIFUNCIONAL</h6>
         </div>
         <h5 class="text-center">Iñaki Echeverria</h5>
         <h6 class="text-center">Director General Iñaki Echeverria México</h6>

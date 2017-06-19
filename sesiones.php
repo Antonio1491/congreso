@@ -147,9 +147,8 @@ session_start();
     <div class="row contenido">
       <div class="column">
         <p><span class="letra-capital">L</span>as sesiones educativas son la médula espinal del congreso. Son el espacio en
-          el cual el asistente podrá aprender de nuestros ponentes. Los asistentes tendrán
-          a su alcance más de <span style="font-size:1.2em;">50</span> sesiones educativas y podrán seleccionar en qué sesiones
-           participar. </p>
+          el cual el asistente podrá aprender de nuestros ponentes. Teniendo a su alcance más de  <span style="font-size:1.2em;">50</span>
+          sesiones educativas, los asistentes podrán seleccionar en qué sesiones participar con base en sus intereses.</p>
       </div>
     </div>
     <div class="row fila-espacio">
@@ -167,9 +166,8 @@ session_start();
         <ul class="lista-sesiones">
           <li>El Parque infantil ideal.</li>
           <li>Juegos de agua, soluciones recreativas para climas calurosos.</li>
-          <li>-	El Jardín Botánico como un espacio público para todos.</li>
+          <li>El Jardín Botánico como un espacio público para todos.</li>
           <li>Los Parques lineales, alternativas para espacios públicos residuales.</li>
-          <li>Al interior con:</li>
           <li>¿Por qué es importante un plan maestro para los parques urbanos?</li>
           <li>Las mujeres en la arquitectura de paisaje.</li>
         </ul>

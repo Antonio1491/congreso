@@ -27,14 +27,12 @@ session_start();
     <div class=" header header-5">
       <div class="row align-middle">
         <div class="column text-center">
-          <h3 class="titulos">HOSPEDAJES</h3>
+          <h3 class="titulos">HOSPEDAJE</h3>
         </div>
       </div>
     </div>
     <div class="row column contenido">
-      <p>¡Encuentra tu hospedaje! Mérida cuenta con una vasta oferta de hoteles y en esta sección te
-        proporcionamos información de hoteles a una distancia caminable del <strong>Centro Internacional de
-        Convenciones de Yucatán</strong>.</p>
+      <p>¡Encuentra tu hospedaje! Mérida cuenta con una vasta oferta de hoteles, en esta sección encontrarás información sobre hoteles a una distancia caminable del Centro Internacional de Congresos de Yucatán.</p>
     </div>
     <div class="row fila-espacio">
       <div class="column small-12 medium-4 hoteles">
