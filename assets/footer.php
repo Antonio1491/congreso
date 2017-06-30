@@ -17,7 +17,7 @@
     <div class="row hide-for-small-only" id="menu-footer">
       <div class="column">
         <ul class="menu vertical ">
-          <li class="menu-text">contáctenos</a></li>
+          <li class="menu-text">contáctanos</a></li>
           <li><a href="http://anpr.org.mx/" target="_blank">ANPR</a></li>
           <li><a href="http://www.parquesdemexico.org/consultora/">Parques de México</a></li>
           <li><a href="http://parquesalegres.org/" target="_blank">Parques Alegres</a></li>
@@ -116,9 +116,7 @@ var bLazy = new Blazy({
     ga('send', 'pageview');
 </script>
 <!--  slick  -->
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 
-<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 
 <script type="text/javascript">
     $(document).ready(function(){
@@ -133,6 +131,8 @@ var bLazy = new Blazy({
   </script>
 <!---->
 <!--<script src="js/vendor/jquery.js"></script>-->
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 <script src="js/vendor/what-input.js"></script>
 <script src="js/vendor/foundation.js"></script>
 <script src="js/app.js"></script>

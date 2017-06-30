@@ -1,0 +1,24 @@
+[33mcommit a451e5e31e218d0334546b2defca60c6a4fc0f18[m
+Merge: 1c5ddea 87c7732
+Author: Antonio Góngora <antonio.gongora1491@gmail.com>
+Date:   Mon Apr 3 17:31:38 2017 -0500
+
+    fusion
+
+[33mcommit 87c7732275c5e6e40829937d21d962cc8c46921c[m
+Author: Antonio Góngora G <antonio.gongora1491@gmail.com>
+Date:   Sun Apr 2 23:13:59 2017 -0500
+
+    Menú completo - fixed y width 100%
+
+[33mcommit 1c5ddeae878eb9ee1edde784b7582914a8ce2c1b[m
+Author: Antonio Góngora <antonio.gongora1491@gmail.com>
+Date:   Fri Mar 31 17:33:13 2017 -0600
+
+    index.php
+
+[33mcommit e99eff6a8ecc530fa202ca62548c2acd84216ae6[m
+Author: Antonio Góngora <antonio.gongora1491@gmail.com>
+Date:   Fri Mar 31 17:21:54 2017 -0600
+
+    Estructura base de sitio web página de inicio

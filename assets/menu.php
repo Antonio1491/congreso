@@ -55,6 +55,10 @@
               <h5>MÉRIDA, YUCATÁN, MÉXICO</h5>
             </div>
           </div>
+          <div class="shrink column " id="idiomas">
+            <a href="index.php"><img src="img/mex.png" alt="Español"></a>
+            <a href="english/index.php"><img src="img/usa.png" alt="Englis"></a>
+          </div>
           <div class="colum contenido-contador">
             <div id="redes-header" class="text-center">
               <a href="https://www.facebook.com/Congreso-Internacional-de-Parques-Urbanos-433605833658855/" target="_blank"><img src="img/facebook.png"  alt=""></a>

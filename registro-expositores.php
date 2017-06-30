@@ -32,9 +32,9 @@ session_start();
       </div>
     </div>
     <div class="row fila-espacio">
-      <figure class="carga">
+      <!--<figure class="carga">
         <img data-src="img/croquis.png" alt="Croquis de la Expo Parques Urbanos" class="croquis" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
-      </figure>
+      </figure>-->
     </div>
     <form class="expositores" action="alta.php" method="post">
       <div class="row ">

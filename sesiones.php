@@ -19,6 +19,9 @@ session_start();
     <link type="text/css" href="css/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
 </head>
 <body onload="countdown('contador')">
 <?php include'assets/menu.php'; ?>
@@ -164,12 +167,53 @@ session_start();
           </span>
         </a>
         <ul class="lista-sesiones">
-          <li>El Parque infantil ideal.</li>
-          <li>Juegos de agua, soluciones recreativas para climas calurosos.</li>
+          <?php
+                include("clases.php");
+
+                $conect = new Conexion("localhost", "root", "", "conferencistas"); /*Llamamos a la clase conexion*/
+                $conect->conectar();
+
+                $sql = "SELECT * FROM conferencia WHERE id_tema = 1";
+
+                $conect->consultar($sql);
+
+                while($fila = $conect->mostrar()){
+                  echo "<li class=".$fila['id_conferencia']." onclick='infoSesion(".$fila['id_conferencia'].")'>";
+                  echo $fila['nombre']. "</li>";
+                  echo "<div style='display:none;' id=".$fila['id_conferencia'].">";
+
+                        $conex = new Conexion("localhost", "root", "", "conferencistas");
+                        $conex->conectar();
+
+                        $sql2 = "SELECT * FROM ponentes WHERE id_conferencia = ".$fila['id_conferencia']." ";
+                        $conex->consultar($sql2);
+
+                        while ($row = $conex->mostrar()) {
+                          echo $row['nombre'];
+                        }
+
+                  echo "</div>";
+
+
+                  ?>
+                  <script>
+                  $(document).ready(function(){
+                        $(".<?php echo $fila['id_conferencia']?>").click(function(){
+                            $("#<?php echo $fila['id_conferencia'] ?>").fadeToggle();
+
+                        });
+                      });
+                  </script>
+
+                  <?php
+                    }
+              ?>
+
+          <!--<li>Juegos de agua, soluciones recreativas para climas calurosos.</li>
           <li>El Jardín Botánico como un espacio público para todos.</li>
           <li>Los Parques lineales, alternativas para espacios públicos residuales.</li>
           <li>¿Por qué es importante un plan maestro para los parques urbanos?</li>
-          <li>Las mujeres en la arquitectura de paisaje.</li>
+          <li>Las mujeres en la arquitectura de paisaje.</li>-->
         </ul>
       </div>
       <div class="column small-12 medium-6 la-ciudad">
