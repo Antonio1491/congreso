@@ -13,7 +13,7 @@ session_start();
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inscripciones</title>
+    <title>Inscripciones | Congreso Internacional de Parques Urbanos</title>
     <link rel="stylesheet" href="icons/foundation-icons.css">
     <link rel="stylesheet" href="css/foundation-flex.css">
     <link type="text/css" href="css/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
@@ -33,17 +33,17 @@ session_start();
     </div>
     <section >
       <div class="row inscripciones align-center">
-        <div class="column small-10 medium-4 card-info warning">
-          <div class="card-info-label">
+        <div class="column small-10 medium-4">
+          <!-- <div class="card-info-label">
             <div class="card-info-label-text">
               COMPRA
             </div>
-          </div>
+          </div> -->
           <div class="card-info-content">
             <ul class="pricing-table no-bullet text-center">
                 <li class="title text-center">General</li>
                 <li class="price">$3,900.00</li>
-                <li class="fecha-precio">* Precio hasta el 1 de Octubre</li>
+                <li class="fecha-precio">* Precio hasta el 31 de Diciembre</li>
                 <li>Conferencias Magistrales <br><i class="fi-check"></i></li>
                 <li>Sesiones Educativas <br><i class="fi-check"></i></li>
                 <li>Expo <br><i class="fi-check"></i></li>
@@ -57,7 +57,7 @@ session_start();
           <ul class="pricing-table no-bullet text-center">
               <li class="title">general</li>
               <li class="price">$4,500.00</li>
-              <li class="fecha-precio">* Precio del 2 de Octubre hasta el 1 de Febrero</li>
+              <li class="fecha-precio">* Precio a partir del 1 de Enero hasta el 1 de Marzo</li>
               <li>Conferencias Magistrales <br><i class="fi-check"></i></li>
               <li>Sesiones Educativas <br><i class="fi-check"></i></li>
               <li>Expo <br><i class="fi-check"></i></li>
@@ -70,7 +70,7 @@ session_start();
           <ul class="pricing-table no-bullet text-center">
               <li class="title">general</li>
               <li class="price">$4,900.00</li>
-              <li class="fecha-precio">* Precio apartir del 2 de Febrero</li>
+              <li class="fecha-precio">* Precio a partir del 2 de Marzo</li>
               <li>Conferencias Magistrales <br><i class="fi-check"></i></li>
               <li>Sesiones Educativas <br><i class="fi-check"></i></li>
               <li>Expo <br><i class="fi-check"></i></li>
@@ -98,7 +98,7 @@ session_start();
           <ul class="pricing-table no-bullet text-center">
               <li class="title">Estudiantes</li>
               <li class="price">$1,900.00</li>
-              <li class="fecha-precio">* Precio apartir del 2 de Febrero</li>
+              <li class="fecha-precio">* Precio a partir del 2 de Febrero</li>
               <li>Conferencias Magistrales <br><i class="fi-check"></i></li>
               <li>Sesiones Educativas <br><i class="fi-check"></i></li>
               <li>Expo <br><i class="fi-check"></i></li>

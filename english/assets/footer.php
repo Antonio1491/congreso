@@ -70,8 +70,31 @@
 
 </div>
 </div>
-<!--   /footer  -->
-<!-- cdn de belazy para la carga de imagenes-->
+<!--   =================================       /footer  =============================================================-->
+
+<!--  slick  -->
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('.marquee').slick({
+        autoplay:true,
+        autoplaySpeed: 1000,
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1
+      });
+    });
+  </script>
+  
+<!---->
+<!--<script src="js/vendor/jquery.js"></script>-->
+<script src="js/vendor/what-input.js"></script>
+<script src="js/vendor/foundation.js"></script>
+<script src="js/app.js"></script>
+<!-- script del contador  -->
 <script type="text/javascript">
   function countdown(id){
     var fecha=new Date('<?=$_SESSION['ano']?>','<?=$_SESSION['mes']?>','<?=$_SESSION['dia']?>','<?=$_SESSION['hora']?>','<?=$_SESSION['minuto']?>','<?=$_SESSION['segundo']?>')
@@ -99,12 +122,12 @@
             }
         }
 </script>
+<!-- Blazy carga de imagenes  -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.8.2/blazy.min.js"></script>
 <script type="text/javascript">
 var bLazy = new Blazy({
   selector:'img'
   });
-
 </script>
 <script>/*google analytics*/
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -115,27 +138,6 @@ var bLazy = new Blazy({
     ga('create', 'UA-100039379-1', 'auto');
     ga('send', 'pageview');
 </script>
-<!--  slick  -->
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-
-<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-
-<script type="text/javascript">
-    $(document).ready(function(){
-      $('.marquee').slick({
-        autoplay:true,
-        autoplaySpeed: 1000,
-        infinite: true,
-        slidesToShow: 4,
-        slidesToScroll: 1
-      });
-    });
-  </script>
-<!---->
-<!--<script src="js/vendor/jquery.js"></script>-->
-<script src="js/vendor/what-input.js"></script>
-<script src="js/vendor/foundation.js"></script>
-<script src="js/app.js"></script>
 
 </body>
 </html>

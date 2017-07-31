@@ -108,6 +108,19 @@ session_start();
        </figure>
        </div>
      </div>
+
+     <div class="row text-center fila-espacio">
+       <div class="column">
+         <h4>MAP OF “URBAN PARKS EXPO”</h4>
+       </div>
+     </div>
+     <div class="row">
+       <figure class="carga">
+         <a href="mapa/index.html" target="_blank">
+           <img data-src="img/croquis-2.png" alt="Croquis del recinto" class="croquis" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+         </a>
+       </figure>
+     </div>
  </article>
 </main>
 

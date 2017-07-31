@@ -33,17 +33,12 @@ session_start();
     </div>
     <section >
       <div class="row inscripciones align-center">
-        <div class="column small-10 medium-4 card-info warning">
-          <div class="card-info-label">
-            <div class="card-info-label-text">
-              COMPRA
-            </div>
-          </div>
+        <div class="column small-10 medium-4">
           <div class="card-info-content">
             <ul class="pricing-table no-bullet text-center">
                 <li class="title text-center">General</li>
-                <li class="price">$3,900.00</li>
-                <li class="fecha-precio">* Price until October 1st </li>
+                <li class="price">$3,900.00 <span class="pesos">MXN</span></li>
+                <li class="fecha-precio">* Price until December 31st </li>
                 <li>Keynote Presentations <br><i class="fi-check"></i></li>
                 <li>Educational Sessions<br><i class="fi-check"></i></li>
                 <li>Expo <br><i class="fi-check"></i></li>
@@ -56,8 +51,8 @@ session_start();
         <div class="column small-10 medium-4">
           <ul class="pricing-table no-bullet text-center">
               <li class="title">General</li>
-              <li class="price">$4,500.00</li>
-              <li class="fecha-precio">* Price until February 1st</li>
+              <li class="price">$4,500.00 <span class="pesos">MXN</span></li>
+              <li class="fecha-precio">* Price until March 1st</li>
               <li>Keynote Presentations <br><i class="fi-check"></i></li>
               <li>Educational Sessions <br><i class="fi-check"></i></li>
               <li>Expo <br><i class="fi-check"></i></li>
@@ -69,8 +64,8 @@ session_start();
         <div class="column small-10 medium-4">
           <ul class="pricing-table no-bullet text-center">
               <li class="title">General</li>
-              <li class="price">$4,900.00</li>
-              <li class="fecha-precio">* Price from February 2nd</li>
+              <li class="price">$4,900.00 <span class="pesos">MXN</span></li>
+              <li class="fecha-precio">* Price from March 2nd</li>
               <li>Keynote Presentations <br><i class="fi-check"></i></li>
               <li>Educational Sessions <br><i class="fi-check"></i></li>
               <li>Expo <br><i class="fi-check"></i></li>
@@ -84,7 +79,7 @@ session_start();
         <div class="column small-10 medium-4">
           <ul class="pricing-table no-bullet text-center">
             <li class="title">Estudiantes</li>
-            <li class="price">$1,500.00</li>
+            <li class="price">$1,500.00 <span class="pesos">MXN</span></li>
             <li class="fecha-precio">* Price until February 1st </li>
             <li>Keynote Presentations<br><i class="fi-check"></i></li>
             <li>Educational Sessions<br><i class="fi-check"></i></li>
@@ -97,7 +92,7 @@ session_start();
         <div class="column small-10 medium-4">
           <ul class="pricing-table no-bullet text-center">
               <li class="title">Students</li>
-              <li class="price">$1,900.00</li>
+              <li class="price">$1,900.00 <span class="pesos">MXN</span></li>
               <li class="fecha-precio">* Price from February 2nd   </li>
               <li>Keynote Presentations <br><i class="fi-check"></i></li>
               <li>Educational Sessions<br><i class="fi-check"></i></li>
@@ -110,7 +105,7 @@ session_start();
         <div class="column small-10 medium-4">
           <ul class="pricing-table no-bullet text-center">
               <li class="title">Expo</li>
-              <li class="price">$500.00</li>
+              <li class="price">$500.00 <span class="pesos">MXN</span></li>
               <li class="fecha-precio">* Permanent price for both days</li>
               <li>Keynote Presentations <br><i class="fi-x"></i></li>
               <li>Educational Sessions <br><i class="fi-x"></i></li>

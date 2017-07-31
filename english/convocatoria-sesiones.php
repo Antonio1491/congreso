@@ -27,12 +27,12 @@ session_start();
     <div class=" header header-convocatoria">
       <div class="row align-middle">
         <div class="column text-center">
-          <h3 class="titulos">CALL FOR PROPPOSALS 2018</h3>
+          <h3 class="titulos">CALL FOR PROPOSALS 2018</h3>
         </div>
       </div>
     </div>
     <div class="row column contenido">
-      <h5>¡SEND YOUR PROPOSAL AND BE A PART OF OUR SCHEDULED EDUCATIONAL SESSIONS!</h5>
+      <h5>SEND YOUR PROPOSAL AND BE A PART OF OUR SCHEDULED EDUCATIONAL SESSIONS!</h5>
       <p>Our goal is to meet the educational needs of our diverse audience by providing a selection of relevant topics and sessions led by national and international experts on the subject.</p>
       <p>The proposals most likely to be accepted to be part of the program of the First Congress of Urban Parks are those are the ones related to our 5 themes:</p>
       <div class="">

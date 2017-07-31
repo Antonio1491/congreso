@@ -1,0 +1,57 @@
+<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="anpr.org/congreso/mapa" resolutions="1x" timestamp="1500500120960">
+  <folder name="css">
+    <file name="site_global.css" crc="3918852591"/>
+    <file name="index.css" crc="230581785" ref="index"/>
+    <file name="nomq_index.css" crc="4160219836" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <file name="-sb-designs--izwindowposition.mulib" crc="3760008253" seo="true" mt="1429812102000"/>
+    <file name="-sb-designs--imagezoom.mulib" crc="266260310" seo="true" mt="1432348080000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="4148063285" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="172512987" ref="index"/>
+    <file name="webpro.js" crc="3986320349" ref="index"/>
+    <file name="musewpslideshow.js" crc="405464237" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="305414130" ref="index"/>
+    <file name="touchswipe.js" crc="221459597" ref="index"/>
+    <file name="jquery.watch.js" crc="437028206" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="3991890305" ref="index"/>
+    <file name="require.js" crc="4159430777" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="marqueta pagina-04.png" crc="406592617" seo="true" ref="index"/>
+    <file name="croquis-stands-04.svg" crc="171402544" seo="true" ref="index"/>
+    <file name="croquis-stands-04_poster_.png" crc="374712333" ref="index"/>
+    <file name="logo patrocinadores-06.png" crc="4076692670" seo="true" ref="index"/>
+    <file name="bronce.png" crc="102275061" seo="true" ref="index"/>
+    <file name="logo patrocinadores-01.png" crc="4062541147" seo="true" ref="index"/>
+    <file name="logo patrocinadores3-03.png" crc="212556434" seo="true" ref="index"/>
+    <file name="plata.png" crc="299123774" seo="true" ref="index"/>
+    <file name="rain-drop-logo-crop-u5300.png" crc="82593662" ref="index"/>
+    <file name="logo_recreatecbb_act-crop-u9390.png" crc="3790243500" ref="index"/>
+    <file name="logo infoavidd.png" crc="4135854786" seo="true" ref="index"/>
+    <file name="sedatu_logo_2013.png" crc="27312360" seo="true" ref="index"/>
+    <file name="logoplayclub.png" crc="4238269550" seo="true" ref="index"/>
+    <file name="u6133-25.png" crc="457597584" ref="index"/>
+    <file name="oro.png" crc="3778052593" seo="true" ref="index"/>
+    <file name="logo kompan.png" crc="3762383840" seo="true" ref="index"/>
+    <file name="logo parques alegres.png" crc="427321550" seo="true" ref="index"/>
+    <file name="momov-logo.png" crc="4031439808" seo="true" ref="index"/>
+    <file name="logo-1-tinta-03.png" crc="4140245527" seo="true" ref="index"/>
+    <file name="anpr-logo-01.png" crc="499595188" seo="true" ref="index"/>
+    <file name="xlcmdyih.jpg" crc="3986221266" seo="true" ref="index"/>
+    <file name="logo-conade.png" crc="3982714526" seo="true" ref="index"/>
+    <file name="logo de divertimundo internacional, sa de cv.jpg" crc="4286454424" seo="true" ref="index"/>
+    <file name="logo-mupa.jpg" crc="316268654" seo="true" ref="index"/>
+    <file name="ldvp0-t8_400x400.jpg" crc="273486946" seo="true" ref="index"/>
+    <file name="inoplay_logo.jpg" crc="3836948571" seo="true" ref="index"/>
+    <file name="rain-drop-logo-crop-u53002.png" crc="82593662" ref="index"/>
+    <file name="logo_recreatecbb_act.png" crc="25966364" seo="true" ref="index"/>
+    <file name="u6133-252.png" crc="130883387" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+  </folder>
+  <file name="index.html" crc="3951322465" seo="true" mt="1500500055791" redirect="true"/>
+</manifest>

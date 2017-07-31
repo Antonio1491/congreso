@@ -39,9 +39,8 @@ session_start();
           <div><img src="img/patrocinadores/deacero.png" alt=""></div>
           <div><img src="img/patrocinadores/escofet.png" alt=""></div>
           <div><img src="img/patrocinadores/fundidora.png" alt=""></div>
-          <div><img src="img/patrocinadores/marca-3.png" alt=""></div>
-          <div><img src="img/patrocinadores/marca-5.png" alt=""></div>
-          <div><img src="img/patrocinadores/marca-6.png" alt=""></div>
+          <div><img src="img/patrocinadores/kompan.png" alt=""></div>
+          <div><img src="img/patrocinadores/play-club.png" alt=""></div>
         </section>
       </div>
 
@@ -66,7 +65,7 @@ session_start();
           <a href="https://www.facebook.com/Congreso-Internacional-de-Parques-Urbanos-433605833658855/" target="_blank"><img src="img/facebook.png" alt=""></a>
           <a href="https://twitter.com/congreso_parque" target="_blank"><img src="img/twitter.png" alt=""></a>
           <a href="https://www.instagram.com/congreso_parques/" target="_blank"><img src="img/instagram.png" alt=""></a>
-          <img src="img/youtobe.png" alt="">
+          <a href="#"><img src="img/youtobe.png" alt=""></a>
         </div>
       </section>
 
@@ -223,8 +222,8 @@ session_start();
           <div class="column small-10 medium-4">
             <ul class="pricing-table no-bullet text-center">
                 <li class="title text-center">General</li>
-                <li class="price">$3,900.00</li>
-                <li class="description">* Price until October 1st </li>
+                <li class="price">$3,900.00 <span class="pesos">MXN</span></li>
+                <li class="description">* Price until December 31st </li>
                 <li>Keynote Presentations <br><i class="fi-check"></i></li>
                 <li>Educational Sessions<br><i class="fi-check"></i></li>
                 <li>Expo <br><i class="fi-check"></i></li>
@@ -236,8 +235,8 @@ session_start();
           <div class="column small-10 medium-4">
             <ul class="pricing-table no-bullet text-center">
                 <li class="title">Students</li>
-                <li class="price">$1,500.00</li>
-                <li class="description">* Price until August 1st</li>
+                <li class="price">$1,500.00 <span class="pesos">MXN</span></li>
+                <li class="description">* Price until March 1st</li>
                 <li>Keynote Presentations<br><i class="fi-check"></i></li>
                 <li>Educational Sessions<br><i class="fi-check"></i></li>
                 <li>Expo <br><i class="fi-check"></i></li>
@@ -249,7 +248,7 @@ session_start();
           <div class="column small-10 medium-4">
             <ul class="pricing-table no-bullet text-center">
                 <li class="title">Expo</li>
-                <li class="price">$500.00</li>
+                <li class="price">$500.00 <span class="pesos">MXN</span> </li>
                 <li class="description">* Permanent price for both days</li>
                 <li>Keynote Presentations<br><i class="fi-x"></i></li>
                 <li>Educational Sessions<br><i class="fi-x"></i></li>
@@ -341,7 +340,7 @@ session_start();
         <a href="https://www.facebook.com/Congreso-Internacional-de-Parques-Urbanos-433605833658855/" target="_blank"><img src="img/facebook.png" alt=""></a>
         <a href="https://twitter.com/congreso_parque" target="_blank"><img src="img/twitter.png" alt=""></a>
         <a href="https://www.instagram.com/congreso_parques/" target="_blank"><img src="img/instagram.png" alt=""></a>
-        <img src="img/youtobe.png" alt="">
+        <a href="https://www.youtube.com/channel/UC_ExzrmxP5er7qZHeVpWidQ" target="_blank"><img src="img/youtobe.png" alt=""></a>
       </div>
     </section><!--fin redes sociales-->
 

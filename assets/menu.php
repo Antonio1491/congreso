@@ -47,7 +47,7 @@
       <section id="encabezado">
         <div class="row align-justify align-middle hide-for-small-only">
           <div class="colum logo-principal">
-            <a href="index.php"><img src="img/congreso-parques-urbanos-logo.png" alt=""></a>
+            <a href="index.php"><img src="img/congreso-parques-urbanos-logo.png" alt="Congreso Internacional de Parques Urbanos"></a>
           </div>
           <div class="column ">
             <div class="fecha">

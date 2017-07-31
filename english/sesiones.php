@@ -19,6 +19,23 @@ session_start();
     <link type="text/css" href="css/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <script type="text/javascript" src="slick/slick.min.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function(){
+          $('.cinta-ponentes').slick({
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          slidesToScroll: 1
+          });
+        });
+      </script>
 </head>
 <body onload="countdown('contador')">
 <?php include'assets/menu.php'; ?>
@@ -43,13 +60,8 @@ session_start();
           </figure>
         </div>
         <div class="column small-12 medium-6 planeacion-diseno">
-          <h4>Diseño y Planeación</h4>
-          <p style="text-align:justify; color:#555;">El objetivo de esta temática es hablar sobre principios y
-            procesos de diseño para parques; ahondando en temas específicos
-            como: áreas infantiles, juegos de agua, parques de mascotas entre otros. Se
-            brindará información sobre los procesos intelectuales y
-            creativos de diseño y la importancia de la crrecta planeación
-            de estos espacios para su éxito. </p>
+          <h4>Planning and Design</h4>
+          <p style="text-align:justify; color:#555;">The objective of this theme is to talk about design processes and principles for parks; delving into specific topics such as: playgrounds, water games, dog parks, among others. It will provide information on the intellectual and creative processes of design and the importance of planning these spaces for its success.</p>
         </div>
       </div>
       <button class="close-button" data-close aria-label="Close modal" type="button">
@@ -65,11 +77,8 @@ session_start();
           </figure>
         </div>
         <div class="column small-12 medium-6 la-ciudad">
-          <h4>La Ciudad</h4>
-          <p style="text-align:justify; color:#555;">Las ciudades están compuestas por elementos de gran complejidad
-            que las hacen únicas. La peatonalidad, proyectos de bicicleta pública,
-            datos abiertos, barrios seguros y la resiliencia serán algunos de
-            los elementos tratados en esta temática. </p>
+          <h4>The City</h4>
+          <p style="text-align:justify; color:#555;">The cities have elements of great complexity that make them unique. Public pedestrian and bicycle projects, open data, safe neighborhoods and resilience will be some of the elements addressed in this theme.</p>
         </div>
       </div>
       <button class="close-button" data-close aria-label="Close modal" type="button">
@@ -85,12 +94,8 @@ session_start();
           </figure>
         </div>
         <div class="column small-12 medium-6 economia">
-          <h4>Economía y Usos del Espacio Público</h4>
-          <p style="text-align:justify; color:#555;">Además de ser espacios para la recreación, los parques
-            impulsan la economía y generan empleos. Se presentarán modelos
-            exitosos de administración, fomento económico y procuración de
-            fondos mostrando la gran variedad de formas en las que un parque
-            puede ser sostenible en el tiempo. </p>
+          <h4>Economy and Uses of Public Space</h4>
+          <p style="text-align:justify; color:#555;">In addition to being spaces for recreation, parks boost the economy and generate jobs. Successful models of management, economic development and fundraising will be presented to show a wide variety of ways in which a park can be sustainable over time.</p>
         </div>
       </div>
       <button class="close-button" data-close aria-label="Close modal" type="button">
@@ -106,13 +111,8 @@ session_start();
           </figure>
         </div>
         <div class="column medium-6 salud">
-          <h4>Salud y Medio Ambiente</h4>
-          <p style="text-align:justify; color:#555;">Los parques traen infinidad de beneficios a la salud ya que,
-            además de invitarnos a la activación física, son el lugar en
-            donde nos encontramos con la naturaleza. Las áreas verdes
-            disminuyen los índices de depresión, ansiedad y estrés laboral;
-            limpian el aire, mejoran las circulaciones del viento y regulan
-            los patrones de precipitaciones anuales.</p>
+          <h4>Health and Environment </h4>
+          <p style="text-align:justify; color:#555;">The parks bring an infinite number of benefits to health, in addition to inviting us to physical activation, they are the place where we find nature. Green areas decrease rates of depression, anxiety and stress; they clean the air, improve wind circulation and regulate annual rainfall patterns.</p>
         </div>
       </div>
       <button class="close-button" data-close aria-label="Close modal" type="button">
@@ -128,14 +128,8 @@ session_start();
           </figure>
         </div>
         <div class="column medium-6 servicio-publico">
-          <h4>Función Pública y Participación Ciudadana</h4>
-          <p style="text-align:justify; color:#555;">Los parques necesitan servidores públicos comprometidos con
-            el espacio público, con las mejores prácticas para su
-            implementación y sostenimiento en conjunto con la ciudadanía,
-            fomentando la participación ciudadana. En esta temática se
-            presentarán modelos para fomentar la participación ciudadana
-            y estructuras que mejoren el servicio público enfocado a los
-            parques.</p>
+          <h4>Public Function and Citizen Participation</h4>
+          <p style="text-align:justify; color:#555;">The parks need public officials committed to public space, with the knowledge of best practices for their implementation and sustainability in conjunction with the citizens. In this theme, models to encourage citizen participation and structures that improve public service focused on parks will be presented. How to build an urban park in less than 1 day?</p>
         </div>
       </div>
       <button class="close-button" data-close aria-label="Close modal" type="button">
@@ -148,6 +142,31 @@ session_start();
       <div class="column">
         <p><span class="letra-capital">T</span>he educational sessions are the spine of the congress. They are the space in which we all can learn from our more than 75 speakers. More than 50 educational sessions will be schedule giving the attendees the opportunity to select the sessions of their interest.</p>
       </div>
+    </div>
+
+        <div class="hide-for-small-only">
+        <section class="cinta-ponentes slider-ponentes">
+          <div><img src="img/panelistas/sergio-martinez.png" alt=""></div>
+          <div><img src="img/panelistas/guillermo-espinosa.png" alt=""></div>
+          <div><img src="img/panelistas/edgardo-bolio.png" alt=""></div>
+          <div><img src="img/panelistas/andrea.png" alt=""></div>
+          <div><img src="img/panelistas/aldo.png" alt=""></div>
+          <div><img src="img/panelistas/roberto.png" alt=""></div>
+          <div><img src="img/panelistas/carlos-aubert.png" alt=""></div>
+          <div><img src="img/panelistas/carlos-mourillo.png" alt=""></div>
+          <div><img src="img/panelistas/charles.png" alt=""></div>
+          <div><img src="img/panelistas/david.png" alt=""></div>
+          <div><img src="img/panelistas/evelyn-hernandez.png" alt=""></div>
+          <div><img src="img/panelistas/fernando-villareal.png" alt=""></div>
+          <div><img src="img/panelistas/jayne.png" alt=""></div>
+          <div><img src="img/panelistas/jayni.png" alt=""></div>
+          <div><img src="img/panelistas/juanita.png" alt=""></div>
+          <div><img src="img/panelistas/kathleen.png" alt=""></div>
+          <div><img src="img/panelistas/luis.png" alt=""></div>
+          <div><img src="img/panelistas/susan-chin.png" alt=""></div>
+          <div><img src="img/panelistas/tom.png" alt=""></div>
+        </section>
+
     </div>
     <div class="row fila-espacio">
       <div class="column small-12 medium-6 planeacion-diseno">
@@ -164,7 +183,6 @@ session_start();
         <ul class="lista-sesiones">
           <li>The ideal playground.</li>
           <li>Splash Pads, recreational solutions for hot climates.</li>
-          <li>Botanic and contemplative gardens as public spaces for all.</li>
           <li>Linear parks, alternatives for residual public spaces.</li>
           <li>Why is a master plan important for urban parks?</li>
           <li>Women in landscape architecture.</li>
@@ -184,9 +202,8 @@ session_start();
         <ul class="lista-sesiones">
           <li>Whose park is it?</li>
           <li>Living culture in parks.</li>
-          <li>Open data</li>
-          <li>How to connect public spaces for pedestrians and bicycles?</li>
-          <li>The park as an instrument of crime prevention</li>
+          <li>Real estate developments and the park. Marriage of convenience?</li>
+          <li>Design Trust for Public Space: How and Why?</li>
         </ul>
       </div>
     </div>
@@ -205,9 +222,9 @@ session_start();
         <ul class="lista-sesiones">
           <li>Commercial concessions in urban parks. A taboo subject?</li>
           <li>Dog parks, a great opportunity for urban parks.</li>
-          <li>Commercial concessions for sports developments - Soccer Fields and Recreational Bike Routes.</li>
           <li>Between the donor and the sponsor. How to create a successful fundraising campaign for urban parks?</li>
           <li>How to organize a successful event in a public space?</li>
+          <li>Botanic and contemplative gardens as public spaces for all.</li>
         </ul>
       </div>
       <div class="column small-12 medium-6 salud">
@@ -223,10 +240,10 @@ session_start();
         </a>
         <ul class="lista-sesiones">
           <li>Afforestation projects.</li>
-          <li>Urban gardens and composite in parks.</li>
-          <li>The importance of physical activity in parks.</li>
-          <li>The Children and the Park. Physical activation for our childhood.</li>
-          <li>- Sports and recreational centers, vital elements of public space.</li>
+          <li>Urban gardens, community spaces.</li>
+          <li>Nearby Nature for Community Health and Economics.</li>
+          <li>Rainwater harvesting in public spaces.</li>
+
         </ul>
       </div>
     </div>
@@ -239,7 +256,7 @@ session_start();
         </div>
         <a data-open="servicio-publico" style="color:white;">
           <span data-tooltip aria-haspopup="true" class="has-tip left" data-disable-hover="false" tabindex="2" title="Más información">
-            <h4 class="text-center">Public Function and Citizen Participation</h4>
+            <h4 class="text-center">Public Service and Citizen Participation</h4>
           </span>
         </a>
         <ul class="lista-sesiones">
@@ -248,6 +265,7 @@ session_start();
           <li>What is a park and recreation agency and how does it works?</li>
           <li>Collaborative relationships. Government and Civil Society.</li>
           <li>Friends of the Parks: Transforming Chicago and its parks.</li>
+          <li>Minneapolis, the best park system in the United States.</li>
         </ul>
       </div>
       <div class="column medium-6 ">

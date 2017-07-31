@@ -126,7 +126,7 @@ session_start();
     </div>
       <div class="row text-center fila-espacio">
         <div class="column">
-          <h5>MAP of “Urban Parks Expo”</h5>
+          <h5>MAP OF “URBAN PARKS EXPO”</h5>
         </div>
       </div>
       <div class="row">

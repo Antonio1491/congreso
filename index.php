@@ -13,6 +13,13 @@ session_start();
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Congreso Internacional de Parques Urbanos: Se parte del inicio del gran movimiento social de los parques en México.">
+    <meta name="keywords" content="congreso de parques, congreso de parques urbanos, congreso internacional de parques">
+    <meta name="author" content="Ing. Antonio Góngora - Web Master">
+    <meta property="og:url" content="http://www.anpr.org.mx/congreso" />
+    <meta property="og:title" content="Congreso Internacional de Parques Urbanos" />
+    <meta property="og:description" content="Se parte del inicio del gran movimiento social de los parques en México." />
+    <meta property="og:image" content="http://www.anpr.org.mx/congreso/img/congreso-parques-urbanos-logo.png" />
     <title>Congreso Internacional de Parques Urbanos</title>
     <link rel="icon" type="image/png" href="img/favicon.png" />
     <link rel="stylesheet" href="icons/foundation-icons.css">
@@ -29,6 +36,9 @@ session_start();
 
       <!--=====  portada/video  ====-->
       <div id="video" class="hide-for-small-only">
+        <div class="">
+          prueba
+        </div>
           <video  autoplay loop poster="posterimage.jpg" >
             <source src="video/congreso2.mp4" type="video/mp4">
             <source src="videos/loop-2.webm" type="video/webm">
@@ -39,9 +49,9 @@ session_start();
           <div><img src="img/patrocinadores/deacero.png" alt=""></div>
           <div><img src="img/patrocinadores/escofet.png" alt=""></div>
           <div><img src="img/patrocinadores/fundidora.png" alt=""></div>
-          <div><img src="img/patrocinadores/marca-3.png" alt=""></div>
-          <div><img src="img/patrocinadores/marca-5.png" alt=""></div>
-          <div><img src="img/patrocinadores/marca-6.png" alt=""></div>
+          <div><img src="img/patrocinadores/kompan.png" alt=""></div>
+          <div><img src="img/patrocinadores/play-club.png" alt=""></div>
+
         </section>
       </div>
 
@@ -193,23 +203,27 @@ session_start();
                 <img src="img/participacion-slider.jpg" alt="">
               </li>-->
               <li class="orbit-slide">
-                <img class="orbit-image" src="img/diseno.png" alt="Space">
+                <img class="orbit-image" src="img/diseno.png" alt="Diseño y planeación del espacio público">
               </li>
               <li class="orbit-slide">
-                <img class="orbit-image" src="img/economia-espacio.png" alt="Space">
+                <img class="orbit-image" src="img/economia-espacio.png" alt="Economía y usos del espacio público">
               </li>
               <li class="orbit-slide">
-                <img class="orbit-image" src="img/salud.png" alt="Space">
+                <img class="orbit-image" src="img/salud.png" alt="Salud y medio ambiente">
               </li>
               <li class="orbit-slide">
-                <img class="orbit-image" src="img/participacion.png" alt="Space">
+                <img class="orbit-image" src="img/participacion.png" alt="Función pública y participación ciudadana">
               </li>
               <li class="orbit-slide">
-                <img class="orbit-image" src="img/ciudad.png" alt="Space">
+                <img class="orbit-image" src="img/ciudad.png" alt="La ciudad y el espacio público">
               </li>
             </ul>
           </div>
         </div>
+      </section>
+
+      <section id="certificado">
+
       </section>
 
       <!-- Seccion boletos-->
@@ -223,8 +237,8 @@ session_start();
           <div class="column small-10 medium-4">
             <ul class="pricing-table no-bullet text-center">
                 <li class="title text-center">General</li>
-                <li class="price">$3,900.00</li>
-                <li class="description">* Precio hasta el 1 de Octubre</li>
+                <li class="price">$3,900.00 <span class="pesos">MXN</span></li>
+                <li class="description">* Precio hasta el 31 de Diciembre</li>
                 <li>Conferencias Magistrales <br><i class="fi-check"></i></li>
                 <li>Sesiones Educativas <br><i class="fi-check"></i></li>
                 <li>Expo <br><i class="fi-check"></i></li>
@@ -236,7 +250,7 @@ session_start();
           <div class="column small-10 medium-4">
             <ul class="pricing-table no-bullet text-center">
                 <li class="title">Estudiantes</li>
-                <li class="price">$1,500.00</li>
+                <li class="price">$1,500.00 <span class="pesos">MXN</span></li>
                 <li class="description">* Precio hasta el 1 de Febrero</li>
                 <li>Conferencias Magistrales <br><i class="fi-check"></i></li>
                 <li>Sesiones Educativas <br><i class="fi-check"></i></li>
@@ -249,7 +263,7 @@ session_start();
           <div class="column small-10 medium-4">
             <ul class="pricing-table no-bullet text-center">
                 <li class="title">Expo</li>
-                <li class="price">$500.00</li>
+                <li class="price">$500.00 <span class="pesos">MXN</span></li>
                 <li class="description">* Precio para la expo durante los 2 días del evento</li>
                 <li>Conferencias Magistrales <br><i class="fi-x"></i></li>
                 <li>Sesiones Educativas <br><i class="fi-x"></i></li>
@@ -299,7 +313,9 @@ session_start();
           </div>
           <div class="row text-center">
             <div class="column ">
-              <a href="http://www.anpr.org.mx/" target="_blank"><img data-src="img/anpr-web.png" alt="Asociación Nacional de Parques y Recreación"></a>
+              <a href="http://www.anpr.org.mx/" target="_blank">
+                <img data-src="img/anpr-web.png" alt="ANPR Asociación Nacional de Parques y Recreación">
+              </a>
             </div>
           </div>
         <div class="row">
@@ -309,9 +325,15 @@ session_start();
         </div>
         <div class="row  align-center text-center">
           <div class="column large-12 medium-10  apoyos">
-            <a href="http://www.parquesdemexico.org/consultora/" target="_blank"><img data-src="img/patrocinadores/parques-de-mexico-logo.png" alt="Espacios Públicos y Parques de México" class="img-patrocinador"></a>
-            <a href="http://parquesalegres.org/" target="_blank"><img data-src="img/patrocinadores/parques-alegres-logo.png" alt="Parques Alegres" class="img-patrocinador"></a>
-            <a href="https://www.gob.mx/sedatu" target="_blank"><img data-src="img/patrocinadores/sedatu-logo.png" alt="SEDATU" class="img-patrocinador"></a>
+            <a href="http://www.parquesdemexico.org/consultora/" target="_blank">
+              <img data-src="img/patrocinadores/parques-de-mexico-logo.png" alt="Espacios Públicos y Parques de México" class="img-patrocinador">
+            </a>
+            <a href="http://parquesalegres.org/" target="_blank">
+              <img data-src="img/patrocinadores/parques-alegres-logo.png" alt="Parques Alegres" class="img-patrocinador">
+            </a>
+            <a href="https://www.gob.mx/sedatu" target="_blank">
+              <img data-src="img/patrocinadores/sedatu-logo.png" alt="SEDATU" class="img-patrocinador">
+            </a>
 
           </div>
         </div>

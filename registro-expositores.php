@@ -200,6 +200,13 @@ session_start();
           </div>
         </div>
         <div class="row">
+          <figure class="carga">
+            <a href="mapa/index.html" target="_blank">
+              <img data-src="img/croquis-2.png" alt="Croquis del recinto" class="croquis" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+            </a>
+          </figure>
+        </div>
+        <div class="row">
           <div class="column medium-2">
             <label for="">1.-Stand No.:</label>
             <input type="text" name="op_1" value="">
@@ -235,7 +242,7 @@ session_start();
           </div>
           <div class="column">
             <label class="condiciones">Al aceptar esta solicitud de espacio, estoy de acuerdo
-            con las normas, <a href="assets/Reglamento-Espanol-V1.0.pdf">reglamentos</a>, condiciones de pago y las
+            con las normas, <a href="assets/Reglamento.pdf">reglamentos</a>, condiciones de pago y las
             condiciones para la "Expo Comercial Parques Urbanos 2018".</label>
           </div>
         </div>

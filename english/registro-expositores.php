@@ -183,7 +183,7 @@ session_start();
           <div class="column">
             <strong>Download:</strong>
             <ul>
-              <li><a href="assets/Reglamento-Espanol-V1.0.pdf">Stand regulation</a></li>
+              <li><a href="assets/Reglamento.pdf">Stand regulation</a></li>
             </ul>
           </div>
         </div>

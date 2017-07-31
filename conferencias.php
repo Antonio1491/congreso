@@ -13,7 +13,7 @@ session_start();
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conferencias Magistrales</title>
+    <title>Conferencias Magistrales | Congreso Internacional de Parques Urbanos</title>
     <link rel="stylesheet" href="icons/foundation-icons.css">
     <link rel="stylesheet" href="css/foundation-flex.css">
     <link type="text/css" href="css/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
@@ -86,7 +86,7 @@ session_start();
       </div>
       <div class="column small-10 medium-3 large-4 contenido-magistrales ">
         <div class="titulo-conferencia">
-          <h6 class="text-center ">¿CÓMO TRANSFORMAR UN PAÍS A TRAVÉS DE SUS PARQUES URBANOS?</h6>
+          <h6 class="text-center ">IMPULSANDO PARQUES PARA EL FUTURO</h6>
         </div>
         <h5 class="text-center">Barbara Tulipane</h5>
         <h6 class="text-center">Directora Ejecutiva, NRPA - E.E.U.U.</h6>
@@ -106,15 +106,17 @@ session_start();
         <h6 class="text-center">Centro de Excelencia de Parques - E.E.U.U.</h6>
       </div>
       <div class="column small-9 medium-3 large-2">
-        <!--<figure class="carga">
+        <figure class="carga">
           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="img/conferencistas/jorge-perez.png" alt="Jorge Pérez Jaramillo">
-        </figure>-->
+        </figure>
       </div>
-    <!--  <div class="column small-10 medium-3 large-4 contenido-magistrales ">
-        <h4 class="text-center">MEDELLIN DESDE LOS ESPACIOS PÚBLICOS</h4>
+      <div class="column small-10 medium-3 large-4 contenido-magistrales ">
+        <div class="titulo-conferencia">
+          <h6 class="text-center">MEDELLÍN DESDE LOS ESPACIOS PÚBLICOS</h4>
+        </div>
         <h5 class="text-center">Jorge Pérez Jaramillo</h5>
         <h6 class="text-center">Ex Director del Dpto. Administrativo de Planeación de Medallín - Colombia </h6>
-      </div>-->
+      </div>
     </div>
     <div class="row align-center fila-espacio">
       <div class="column small-9 medium-3 large-2">
@@ -131,7 +133,7 @@ session_start();
       </div>
       <div class="column small-9 medium-3 large-2">
         <figure class="carga">
-          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="img/conferencistas/inaki-echeverria.png" alt="Marinela Servitje">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="img/conferencistas/inaki-echeverria.png" alt="Iñaki Echeverria">
         </figure>
       </div>
       <div class="column small-10 medium-3 large-4 contenido-magistrales ">

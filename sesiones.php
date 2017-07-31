@@ -13,14 +13,29 @@ session_start();
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sesiones Educativas</title>
+    <title>Sesiones Educativas | Congreso Internacional de Parques Urbanos</title>
     <link rel="stylesheet" href="icons/foundation-icons.css">
     <link rel="stylesheet" href="css/foundation-flex.css">
     <link type="text/css" href="css/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
-    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <script type="text/javascript" src="slick/slick.min.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function(){
+          $('.cinta-ponentes').slick({
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          slidesToScroll: 1
+          });
+        });
+      </script>
 
 </head>
 <body onload="countdown('contador')">
@@ -154,6 +169,31 @@ session_start();
           sesiones educativas, los asistentes podrán seleccionar en qué sesiones participar con base en sus intereses.</p>
       </div>
     </div>
+      <div class="hide-for-small-only">
+        <section class="cinta-ponentes slider-ponentes">
+          <div><img src="img/panelistas/sergio-martinez.png" alt=""></div>
+          <div><img src="img/panelistas/guillermo-espinosa.png" alt=""></div>
+          <div><img src="img/panelistas/edgardo-bolio.png" alt=""></div>
+          <div><img src="img/panelistas/andrea.png" alt=""></div>
+          <div><img src="img/panelistas/aldo.png" alt=""></div>
+          <div><img src="img/panelistas/roberto.png" alt=""></div>
+          <div><img src="img/panelistas/carlos-aubert.png" alt=""></div>
+          <div><img src="img/panelistas/carlos-mourillo.png" alt=""></div>
+          <div><img src="img/panelistas/charles.png" alt=""></div>
+          <div><img src="img/panelistas/david.png" alt=""></div>
+          <div><img src="img/panelistas/evelyn-hernandez.png" alt=""></div>
+          <div><img src="img/panelistas/fernando-villareal.png" alt=""></div>
+          <div><img src="img/panelistas/jayne.png" alt=""></div>
+          <div><img src="img/panelistas/jayni.png" alt=""></div>
+          <div><img src="img/panelistas/juanita.png" alt=""></div>
+          <div><img src="img/panelistas/kathleen.png" alt=""></div>
+          <div><img src="img/panelistas/luis.png" alt=""></div>
+          <div><img src="img/panelistas/susan-chin.png" alt=""></div>
+          <div><img src="img/panelistas/tom.png" alt=""></div>
+        </section>
+      </div>
+
+
     <div class="row fila-espacio">
       <div class="column small-12 medium-6 planeacion-diseno">
         <div class="text-center">
@@ -167,53 +207,11 @@ session_start();
           </span>
         </a>
         <ul class="lista-sesiones">
-          <?php
-                include("clases.php");
-
-                $conect = new Conexion("localhost", "root", "", "conferencistas"); /*Llamamos a la clase conexion*/
-                $conect->conectar();
-
-                $sql = "SELECT * FROM conferencia WHERE id_tema = 1";
-
-                $conect->consultar($sql);
-
-                while($fila = $conect->mostrar()){
-                  echo "<li class=".$fila['id_conferencia']." onclick='infoSesion(".$fila['id_conferencia'].")'>";
-                  echo $fila['nombre']. "</li>";
-                  echo "<div style='display:none;' id=".$fila['id_conferencia'].">";
-
-                        $conex = new Conexion("localhost", "root", "", "conferencistas");
-                        $conex->conectar();
-
-                        $sql2 = "SELECT * FROM ponentes WHERE id_conferencia = ".$fila['id_conferencia']." ";
-                        $conex->consultar($sql2);
-
-                        while ($row = $conex->mostrar()) {
-                          echo $row['nombre'];
-                        }
-
-                  echo "</div>";
-
-
-                  ?>
-                  <script>
-                  $(document).ready(function(){
-                        $(".<?php echo $fila['id_conferencia']?>").click(function(){
-                            $("#<?php echo $fila['id_conferencia'] ?>").fadeToggle();
-
-                        });
-                      });
-                  </script>
-
-                  <?php
-                    }
-              ?>
-
-          <!--<li>Juegos de agua, soluciones recreativas para climas calurosos.</li>
-          <li>El Jardín Botánico como un espacio público para todos.</li>
+          <li>El Parque Infantil Ideal</li>
+          <li>Juegos de agua, soluciones recreativas para climas calurosos.</li>
           <li>Los Parques lineales, alternativas para espacios públicos residuales.</li>
           <li>¿Por qué es importante un plan maestro para los parques urbanos?</li>
-          <li>Las mujeres en la arquitectura de paisaje.</li>-->
+          <li>Las mujeres en la arquitectura de paisaje.</li>
         </ul>
       </div>
       <div class="column small-12 medium-6 la-ciudad">
@@ -229,11 +227,10 @@ session_start();
         </a>
         <ul class="lista-sesiones">
           <li>¿De quién es el parque?</li>
-          <li>Viviendo la cultura en los parques.</li>
+          <li>Viviendo la cultura en el espacio público.</li>
           <li>Las desarrolladoras inmobiliarias y el parque. ¿Matrimonio por conveniencia? </li>
-          <li>El poder de los grupos organizados como agente de cambio en la ciudad. </li>
           <li>Design Trust for Public Space: ¿Cómo y por qué?</li>
-          <li>Minneapolis, el mejor sistema de parques de los Estado Unidos</li>
+
         </ul>
       </div>
     </div>
@@ -252,9 +249,9 @@ session_start();
         <ul class="lista-sesiones">
           <li>Concesiones comerciales en parques urbanos ¿Un tema tabú?</li>
           <li>Los Parques Caninos, una gran oportunidad para los parques urbanos.</li>
-          <li>Desarrollos deportivos concesionables - Canchas de Futbol 7 y Bicicleta Recreativa.</li>
           <li>Entre el donador y el patrocinador. ¿Cómo crear una campaña de procuración de fondos exitosa para un parque urbano?</li>
           <li>¿Cómo organizar un evento exitoso en un espacio público?</li>
+          <li>Jardines Botánicos y Contemplativos, espacios públicos para todos.</li>
         </ul>
       </div>
       <div class="column small-12 medium-6 salud">
@@ -269,11 +266,10 @@ session_start();
           </span>
         </a>
         <ul class="lista-sesiones">
-          <li>Proyectos de arborización en espacios públicos.</li>
-          <li>Huertos urbanos y composta en los parques urbanos.</li>
-          <li>La importancia de la activación física en los parques</li>
-          <li>Los Niños y el Parque. Activación física en pro de nuestra niñez.</li>
-          <li>Centros deportivos y recreacionales, elementos vitales del espacio público.</li>
+          <li>Proyectos de arborización.</li>
+          <li>Huertos urbanos, espacios comunitarios.</li>
+          <li>Naturaleza cercana, para la salud y la economía.</li>
+          <li>Captación de agua de lluvia en espacios públicos</li>
         </ul>
       </div>
     </div>
@@ -295,6 +291,7 @@ session_start();
           <li>¿Qué es y cómo funciona una agencia de parques y recreación?</li>
           <li>Gestiones colaborativas. Gobierno y Sociedad Civil.</li>
           <li>Friends of the Parks: Transformando Chicago y sus parques.</li>
+          <li>Minneapolis, el mejor sistema de parques de los Estado Unidos.</li>
         </ul>
       </div>
       <div class="column medium-6 ">

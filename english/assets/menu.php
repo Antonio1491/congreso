@@ -19,7 +19,7 @@
           <li><a href="expo.php">Urban Parks Expo</a></li>
           <li><a href="#">Participate</a>
             <ul class=" vertical menu  sub-menu-central">
-              <li><a href="convocatoria-sesiones.php">CALL FOR PROPPOSALS 2018</a></li>
+              <li><a href="convocatoria-sesiones.php">CALL FOR PROPOSALS 2018</a></li>
               <li><a href="inscripcion.php">REGISTRATION</a></li>
               <li><a href="participar.php">WHY PARTICIPATE?</a></li>
               <li><a href="promotor.php">Do you want to be a promoter?</a></li>
@@ -95,7 +95,7 @@
                 <li><a href="expo.php">Urban Parks Expo</a></li>
                 <li><a href="#">Participate</a>
                   <ul class="menu  sub-menu-central">
-                    <li><a href="convocatoria-sesiones.php">CALL FOR PROPPOSALS 2018</a></li>
+                    <li><a href="convocatoria-sesiones.php">CALL FOR PROPOSALS 2018</a></li>
                     <li><a href="inscripcion.php">REGISTRATION</a></li>
                     <li><a href="participar.php">WHY PARTICIPATE?</a></li>
                     <li><a href="promotor.php">Do you want to be a promoter?</a></li>

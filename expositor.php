@@ -13,7 +13,7 @@ session_start();
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Expo Parques Urbanos</title>
+    <title>Expositores | Congreso Internacional de Parques Urbanos</title>
     <link rel="stylesheet" href="icons/foundation-icons.css">
     <link rel="stylesheet" href="css/foundation-flex.css">
     <link type="text/css" href="css/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
@@ -76,7 +76,7 @@ session_start();
      <div class="row">
        <div class="column small-12 medium-6 large-7">
          <figure class="carga">
-           <img data-src="img/expo-1.png" alt="Piso de exposición" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+           <img data-src="img/expo-1.png" alt="Piso de exposición congreso de parques" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
          </figure>
        </div>
        <div class="column medium-6 large-5" >
@@ -106,12 +106,24 @@ session_start();
        </div>
        <div class="column medium-5">
        <figure >
-         <img data-src="img/precio-stand-2.png" alt="Precios Stand" class="precio" >
+         <img data-src="img/precio-stand-2.png" alt="Precios Stand en el congreso de parques" class="precio" >
        </figure>
        <figure>
           <img data-src="img/stand.png" alt="Stand de 3x3" class="stand" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
        </figure>
        </div>
+     </div>
+     <div class="row text-center fila-espacio">
+       <div class="column">
+         <h4>PLANO DE LA "EXPO PARQUES URBANOS"</h4>
+       </div>
+     </div>
+     <div class="row">
+       <figure class="carga">
+         <a href="mapa/index.html" target="_blank">
+           <img data-src="img/croquis-2.png" alt="Croquis del recinto" class="croquis" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+         </a>
+       </figure>
      </div>
  </article>
 </main>

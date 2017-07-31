@@ -104,15 +104,17 @@ session_start();
         <h6 class="text-center">Centro de Excelencia de Parques - E.E.U.U.</h6>
       </div>
       <div class="column small-9 medium-3 large-2">
-        <!--<figure class="carga">
+        <figure class="carga">
           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="img/conferencistas/jorge-perez.png" alt="Jorge Pérez Jaramillo">
-        </figure>-->
+        </figure>
       </div>
-    <!--  <div class="column small-10 medium-3 large-4 contenido-magistrales ">
-        <h4 class="text-center">MEDELLIN DESDE LOS ESPACIOS PÚBLICOS</h4>
+     <div class="column small-10 medium-3 large-4 contenido-magistrales ">
+        <div class="titulo-conferencia">
+          <h6 class="text-center">MEDELLIN FROM THE PUBLIC SPACES</h6>
+        </div>
         <h5 class="text-center">Jorge Pérez Jaramillo</h5>
-        <h6 class="text-center">Ex Director del Dpto. Administrativo de Planeación de Medallín - Colombia </h6>
-      </div>-->
+        <h6 class="text-center">Former Director of the Administrative Department of Planning of Medallín - Colombia</h6>
+      </div>
     </div>
     <div class="row align-center fila-espacio">
       <div class="column small-9 medium-3 large-2">
