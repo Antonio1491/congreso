@@ -13,12 +13,13 @@ session_start();
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hospedajes | Congreso Internacional de parques Urbanos</title>
-    <link rel="stylesheet" href="icons/foundation-icons.css">
+    <title>Hospedaje</title>
+    <?php  require("assets/head_common.php") ?>
+    <!-- <link rel="stylesheet" href="icons/foundation-icons.css">
     <link rel="stylesheet" href="css/foundation-flex.css">
     <link type="text/css" href="css/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/app.css"> -->
 </head>
 <body onload="countdown('contador')">
 <?php include'assets/menu.php'; ?>
@@ -27,82 +28,129 @@ session_start();
     <div class=" header header-5">
       <div class="row align-middle">
         <div class="column text-center">
-          <h3 class="titulos">HOSPEDAJE</h3>
+          <h1 class="titulos">HOSPEDAJE</h1>
         </div>
       </div>
     </div>
     <div class="row column contenido">
       <p>¡Encuentra tu hospedaje! Mérida cuenta con una vasta oferta de hoteles, en esta sección encontrarás información sobre hoteles a una distancia caminable del Centro Internacional de Congresos de Yucatán.</p>
     </div>
-    <div class="row fila-espacio">
-      <div class="column small-12 medium-4 hoteles">
-          <a href="https://secure.ibis.com/store/index.html#/es/hotels?q=Merida&dateIn=&children=&nights=&adults=1&domainId=www.ibis.com" target="_blank"><h5>Hotel Ibis Mérida</h5></a>
-          <span>Costo promedio por noche:</span> $800 MXN
-          <span>Distancia:</span> 550mts, 7 minutos.
-      </div>
-      <div class="column small-12 medium-4 hoteles">
-          <a href="http://www.hotelvictoriamerida.com/" target="_blank"><h5>Hotel Victoria</h5></a>
-          <span>Costo promedio por noche:</span> $1500 MXN
-          <span>Distancia:</span> 800mts, 10 minutos.
-      </div>
-      <div class="column small-12 medium-4 hoteles">
-          <a href="http://www.wyndhammerida.com/" target="_blank"><h5>Wyndham Mérida.</h5></a>
-          <span>Costo promedio por noche:</span> $2,250 MXN
-          <span>Distancia:</span> 450mts, 6 minutos.
-      </div>
-    </div>
-    <div class="row fila-espacio">
-      <div class="column small-12 medium-4 hoteles">
+    <div class="row ">
+      <div class="column small-12 medium-8 hoteles">
           <a href="https://merida.regency.hyatt.com/es/hotel/home.html" target="_blank"><h5>Hyatt Regency Mérida</h5></a>
-          <span>Costo promedio por noche:</span> $2,250 MXN
-          <span>Distancia:</span> 3000mts, 4 minutos.
+          <!-- <span>Costo promedio por noche:</span> $2,250 MXN<br> -->
+          <span>Distancia:</span> 300mts, 4 minutos.<br>
+          <span>Menciona al reservar:</span> "Grupo de Parques Urbanos" y obten los siguientes precios preferenciales.<br>Realiza tu reservación en:
+          <a href="https://aws.passkey.com/go/parquesurbanos">https://aws.passkey.com/go/parquesurbanos</a>
       </div>
-      <div class="column small-12 medium-4 hoteles">
-          <a href="http://www.presidenteicmerida.com/" target="_blank"><h5>Intercontinental Presidente Mérida</h5></a>
-          <span>Costo promedio por noche:</span> $2,500 MXN
-          <span>Distancia:</span> 180mts, 2 minutos.
+      <div class="column small-12 medium-4">
+        <img src="img/hyatt.png" alt="">
       </div>
-      <div class="column small-12 medium-4 hoteles">
-          <a href="http://www.fiestamericana.com/es/web/fiesta-americana-merida" target="_blank"><h5>Fiesta Americana Mérida</h5></a>
-          <span>Costo promedio por noche:</span> $2,000 MXN
-          <span>Distancia:</span> 290mts, 4 minutos.
+    </div>
+      <div class="row fila-espacio">
+        <div class="column small medium-6 ">
+          <img src="img/hyatt-plan-europeo.png" alt="">
+        </div>
+        <div class="column small medium-6">
+          <img src="img/hyatt-plan-ejecutivo.png" alt="">
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="column small-12 medium-8 hoteles">
+          <a href="http://www.misolhahotel.com/" target=""><h5>MISOL-HA</h5></a>
+          <span>Distancia:</span> 800mts, 10 minutos.</span><br>
+          <span>Menciona al reservar:</span> "Congreso Parques"
+        </div>
+        <div class="column small-12 medium-4">
+          <img src="img/misolha.png" alt="">
+        </div>
+      </div>
+      <div class="row fila-espacio">
+        <div class="column small medium-6">
+          <img src="img/tarifa-misol-ha.png" alt="">
+        </div>
+      </div>
+      <hr>
+      <div class="row fila-espacio">
+        <div class="column small-12 medium-8 hoteles">
+          <a href="http://www.hotelvictoriamerida.com/" target="_blank"><h5>Hotel Victoria</h5></a>
+          <!-- <span>Costo promedio por noche:</span> $1500 MXN -->
+          <span>Distancia:</span> 800mts, 10 minutos.<br>
+          <span>Clave para reservar:  CP250418</span>
+        </div>
+        <div class="column small-12 medium-4">
+          <img src="img/hotel-victoria.png" alt="">
+        </div>
+      </div>
+      <div class="row fila-espacio">
+        <img src="img/tarifa-hotel-victoria.png" alt="">
+      </div>
+    <hr>
+    <div class="row fila-espacio">
+      <div class="column small-12 medium-8 hoteles">
+        <a href="http://realsanjuancenter.com/" target="_blank"><h5>Hotel Boutique Real San Juan</h5></a>
+        <!-- <span>Costo promedio por noche:</span> $1500 MXN -->
+        <span>Distancia:</span> 250mts, 3 minutos.<br>
+        <span>Menciona al reservar que son integrantes del “congreso internacional de parques urbanos”.</span>
+      </div>
+      <div class="column small-12 medium-4">
+        <img src="img/hotel-boutique.png" alt="">
       </div>
     </div>
     <div class="row fila-espacio">
-      <div class="column small-12 medium-4 hoteles">
-          <a href="https://www.holidayinn.com/hotels/us/es/reservation/searchresult?qAdlt=1&qBrs=6c.hi.ex.rs.ic.cp.in.sb.cw.cv.ul.vn.ki.sp.nd.ct&qChld=0&qDest=MERIDA%2CMexico&qFRA=1&qGRM=0&qIta=99612693&qPSt=0&qRRSrt=rt&qRef=df&qRms=1&qRpn=1&qRpp=20&qSHp=1&qSmP=3&qSrt=sBR&qWch=0&srb_u=1&icdv=99612693&sicreative=161614599020&siclientid=1927&sitrackingid=745394737&dp=true&glat=SEAR " target="_blank"><h5>Holiday Inn Mérida.</h5></a>
-          <span>Costo promedio por noche:</span> $1,800 MXN
-          <span>Distancia:</span> 350mts, 4 minutos.
-      </div>
-      <div class="column small-12 medium-4 hoteles">
-          <a href="http://www.elconquistador.com.mx/index.html" target="_blank"><h5>El Conquistador </h5></a>
-          <span>Costo promedio por noche:</span> $1,000 MXN
-          <span>Distancia:</span>950mts, 12 minutos.
-      </div>
-      <div class="column small-12 medium-4 hoteles">
-          <a href="http://hotellasamericas.wixsite.com/merida" target="_blank"><h5>Hotel Las Américas Mérida</h5></a>
-          <span>Costo promedio por noche:</span> $600 MXN
-          <span>Distancia:</span> 1km, 12 minutos.
-      </div>
+      <img src="img/hospedaje-sanjuan.png" alt="">
     </div>
-    <div class="row fila-espacio">
-      <div class="column small-12 medium-4 hoteles">
-        <a href="http://www.hotelmarques.com.mx/" target="_blank"><h5>Hotel el Marqués</h5></a>
-        <span>Costo promedio por noche:</span> $600 MXN
-        <span>Distancia:</span> 1km, 12 minutos.
-      </div>
+  <hr>
+
+  <div class="row fila-espacio">
+    <div class="column small-12 medium-8 hoteles">
+      <a href="http://www.elespanoldemontejo.com.mx" target="_blank"><h5>Hotel "El Español" Paseo de Montejo</h5></a>
+      <!-- <span>Costo promedio por noche:</span> $1500 MXN -->
+      <span>Distancia:</span> 1200mts, 15 minutos.<br>
+      <span>Los precios son válidos del 24 al 28 de abril del 2018. Mencionar Código "CONIPAR".</span>
     </div>
-    <div class="row fila-espacio">
-      <div class="column small-12 medium-6">
+    <div class="column small-12 medium-4">
+      <img src="img/logo_el_espanol.png" alt="">
+    </div>
+  </div>
+  <div class="row fila-espacio">
+    <img src="img/el_espanol.png" alt="">
+  </div>
+<hr>
+
+    <div class="row fila-espacio align-center">
+      <div class="column small-12 medium-10">
+        <figure class="carga">
+          <img data-src="img/mapa-hoteles.jpg" alt="Ruta de hoteles cercanos al congreso de parques urbanos" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+        </figure>
+      </div>
+     <!--  <div class="column small-12 medium-6">
         <figure class="carga">
           <img data-src="img/hoteles-1.png" alt="Ruta de hoteles cercanos al congreso de parques urbanos" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
         </figure>
       </div>
       <div class="column small-12 medium-6">
         <figure class="carga">
-          <img data-src="img/hoteles-2.jpg" alt="Ruta de hoteles al congreso de parques urbanos"src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+          <img data-src="img/hoteles-2.png" alt="Ruta de hoteles al congreso de parques urbanos"src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
         </figure>
+      </div> -->
+    </div>
+    <hr>
+    <div class="row">
+      <div class="column medium-3">
+        <a href="http://www.merida.gob.mx/capitalcultural/" target="_blank"><img src="img/turismo.png" alt=""></a>
       </div>
+      <div class="column medium-3">
+          <a href="http://www.yucatan.travel/" target="_blank"><img src="img/turismo-yuc.png" alt="">
+      </div>
+      <div class="column medium-3">
+          <a href="conectividad.php" target=""><img src="img/conectividad.png" alt="">
+      </div>
+      <div class="column medium-3">
+          <a href="hospedajes.php" target=""><img src="img/hospedaje.png" alt="">
+      </div>
+
     </div>
   </article>
 </main>

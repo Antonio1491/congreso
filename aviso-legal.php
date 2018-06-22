@@ -13,10 +13,9 @@ session_start();
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Términos de uso</title>
+    <title>Aviso Legal</title>
     <link rel="stylesheet" href="icons/foundation-icons.css">
     <link rel="stylesheet" href="css/foundation-flex.css">
-    <link type="text/css" href="css/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
 </head>

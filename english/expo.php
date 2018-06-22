@@ -45,8 +45,8 @@ session_start();
     </div>
     <div class="row contenido expo ">
       <div class="column text-center">
-        <h5>The only specialized Mexican exhibition in the industry will bring together 
-        more than <span style="font-size:1.4em;">100</span> leading companies in the market.</h5>
+        <h5>The only specialized Mexican exhibition in the industry will bring together
+        more than <span style="font-size:1.4em;">50</span> leading companies in the market.</h5>
         <p>Invest in the business forum where the main decision makers in Mexico will gather around the urban parks and recreation industry.</p>
       </div>
     </div>

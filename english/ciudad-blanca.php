@@ -32,19 +32,43 @@ session_start();
       </div>
     </div>
     <div class="row contenido">
-      <div class="column">
-        <p><span class="letra-capital">T</span>he City of Merida, Yucatan was founded on January 6, 1542 by Francisco de Montejo y León "El Mozo", where the ancient Mayan City T'hó was located.</p>
-        <p>Merida is positioned as a city of culture and traditions with charming people who welcomes everyone who visits. All its streets and corners are full of stories and are witnesses of the passage of time and its architecture as a sample of our colonial past.</p>
-          <p>Forbes has named Mérida one of the three most livable cities in Mexico, and the best choice for investment and business. </p>
-          <p>The leading newspaper El País selected Merida as one of 2017´s top 10 cities.</p>
-          <p>Lonely planet, a leading international travel publication, named Merida one of the world´s most attractive cities.</p>
+      <div class="column medium-4">
+        <p>Merida is positioned as a city of culture and traditions with charming people who welcomes everyone who visits. All its streets and corners are full of stories and its architecture as a witness of our colonial past.</p>
+      </div>
+      <div class="column medium-8">
+        <!-- <p><span class="letra-capital">L</span>a Ciudad de Mérida, Yucatán fue fundada el 6 de Enero de 1542 por el español Francisco de Montejo y León "El Mozo", donde se encontraba la antigua Ciudad Maya T'Hó.</p> -->
+        <div class="video">
+          <iframe width="520" height="315" src="https://www.youtube.com/embed/w4kxTTyH7yw" frameborder="0" allowfullscreen></iframe>
+        </div>
       </div>
     </div>
+    <div class="expanded fondo-gris">
+      <div class="row column">
+        <h4 class="titulo-morado">¿SABÍAS QUE?</h4>
+        <ul>
+          <li>It is the capital of the state of Yucatan and the American Capital of Culture in 2017.</li>
+          <li>Forbes has named Mérida one of the three most livable cities in Mexico, and the best choice for investment and business.</li>
+          <li>The leading newspaper “El País” selected Merida as one of 2017´s top 10 cities.</li>
+          <li>Lonely planet, a leading international travel publication, named Merida one of the world´s most attractive cities.</li>
+        </ul>
+      </div>
+    </div>
+
     <div class="row">
-      <div class="video">
-        <iframe width="420" height="315" src="https://www.youtube.com/embed/w4kxTTyH7yw" frameborder="0" allowfullscreen></iframe>
+      <div class="column medium-3">
+        <a href="http://www.merida.gob.mx/capitalcultural/" target="_blank"><img src="img/turismo.png" alt=""></a>
+      </div>
+      <div class="column medium-3">
+          <a href="http://www.yucatan.travel/" target="_blank"><img src="img/turismo-yuc.png" alt="">
+      </div>
+      <div class="column medium-3">
+          <a href="conectividad.php" target=""><img src="img/conectividad.png" alt="">
+      </div>
+      <div class="column medium-3">
+          <a href="hospedajes.php" target=""><img src="img/hospedaje.png" alt="">
       </div>
     </div>
+
   </article>
 </main>
 

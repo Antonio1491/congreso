@@ -5,14 +5,17 @@
     <title>Registro</title>
   </head>
 <?php
-require_once('clases.php');
+require('clases.php');
 
 //Registro en Bds del promotor
-$conexionBd = new Conexion("localhost", "anprorgm_admin", "Admin_*2016", "anprorgm_registros");
-$mysql = $conexionBd->conectar();
+// $conexion = new Conexion("localhost", "root", "", "congreso");
+$conexion = new Conexion("mysql.hostinger.mx", "u951310947_tono", "informatica14#", "u951310947_raso");
+$conexion->conectar();
 
-$registroPromotor = new Promotor($_POST['nombre'], $_POST['email'], $_POST['tel'], $_POST['ciudad']);
- $registroPromotor->nuevoPromotor($mysql);
+$fecha = date('Y-m-d H:i:s');
+
+$sql="INSERT INTO promotores values (null, '".$_POST['nombre']."', '".$_POST['email']."', '".$_POST['tel']."', '".$_POST['ciudad']."', '$fecha')";
+$conexion->insertar($sql);
 
  ?>
 </html>

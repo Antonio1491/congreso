@@ -13,26 +13,28 @@ session_start();
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Expo Parques Urbanos | Congreso Internacional de Parques Urbanos</title>
-    <link rel="stylesheet" href="icons/foundation-icons.css">
+    <title>Visitante</title>
+    <?php  require("assets/head_common.php") ?>
+    <!-- <link rel="stylesheet" href="icons/foundation-icons.css">
     <link rel="stylesheet" href="css/foundation-flex.css">
-    <link type="text/css" href="css/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/app.css"> -->
 </head>
 <body onload="countdown('contador')">
 <?php include'assets/menu.php'; ?>
 <main class="back-2">
   <article class="">
-    <div class=" header header-2">
-      <div class="row">
+    <div class="row header header-7">
+
         <div class="column text-center">
-          <h3 class="titulos">EXPO PARQUES URBANOS</h3>
+          <h1 class="titulos">Visitante</h1>
         </div>
-      </div>
+
     </div>
-    <div class="row contenido expo">
-      <div class="column">
+    <div class="row  expoVisitante align-justify">
+      <!-- <p><span class="letra-capital">P</span>articipa en la exposición comercial más especializada
+        de la industria de los parques urbanos y espacios públicos en México y Latinoamérica.</p>-->
+      <div class="column medium-6">
         <p><span class="letra-capital">P</span>articipa en la exposición comercial más especializada
           de la industria de los parques urbanos y espacios públicos en México y Latinoamérica.</p>
           <ul>
@@ -50,11 +52,29 @@ session_start();
           </ul>
         <strong>Durante 2 días tendrás acceso a:</strong>
         <ul>
-          <li>Más de 6,000 m<sup>2</sup> de exposición</li>
-          <li>Más de 100 Expositores</li>
+          <li>Más de 4,000 m<sup>2</sup> de exposición</li>
+          <li>Más de 50 Expositores</li>
           <li>Área de negocios</li>
         </ul>
         <p>Conoce a los mejores fabricantes de México y Estados Unidos de:</p>
+      </div>
+      <div class="column medium-5">
+
+          <div class="card-info-content">
+            <ul class="pricing-table no-bullet text-center">
+                <li class="title">Expo</li>
+                <li class="price">$500.00  <span class="pesos">MXN</span></li>
+                <li class="fecha-precio">* Precio fijo</li>
+                <li>Conferencias Magistrales <br><i class="fi-x"></i></li>
+                <li>Sesiones Educativas <br><i class="fi-x"></i></li>
+                <li>Expo Comercial Parques Urbanos<br><i class="fi-check"></i></li>
+                <li>Eventos Sociales <br><i class="fi-x"></i></li>
+                <li>Talleres <br><i class="fi-x"></i></li>
+                <li>Membresía anual ANPR México<br><i class="fi-x"></i></li>
+                <li><a class="button" href="https://goo.gl/4DDkN9" target="_blank">COMPRAR</a></li>
+            </ul>
+          </div>
+
       </div>
     </div>
     <div class="row">
@@ -135,12 +155,26 @@ session_start();
       </div>
       <div class="row">
         <figure class="carga">
-          <a href="mapa/index.html" target="_blank">
-            <img data-src="img/croquis-2.png" alt="Croquis del recinto" class="croquis" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
-          </a>
+          <!-- <a href="mapa/index.html" target="_blank"> -->
+            <img data-src="img/mapa.jpg" alt="Croquis del recinto" class="croquis" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+          <!-- </a> -->
         </figure>
       </div>
   </article>
+  <div class="row collapse barra-secciones align-center">
+    <div class="column medium-2">
+      <a href="conferencias.php"><img src="img/btn-conferencias.png" alt=""></a>
+    </div>
+    <div class="column medium-2">
+      <a href="sesiones.php"><img src="img/btn-sesiones.png" alt=""></a>
+    </div>
+    <div class="column medium-2">
+      <a href="expo.php"><img src="img/btn-expo.png" alt=""></a>
+    </div>
+    <div class="column medium-2">
+      <a href="talleres.php"><img src="img/btn-talleres.png" alt=""></a>
+    </div>
+  </div>
 </main>
 
 <?php include'assets/footer.php'; ?>

@@ -7,6 +7,8 @@ $morado: #5a61ab
 $rosado: #883d84
 $gris: #787878
 
+$cielo: #B6E2F5
+
 @font-face
   font-family: "general"
   src: url("../font/Antonio-Regular.ttf")
@@ -26,19 +28,44 @@ body, main, article
   font-family: "Roboto"
 h3,h4, h5,h6
   font-family: "general"
+#aviso
+  background: #7A44A1
+  color: #fbf900
+.fondo-gris
+  background-color: #f0f0f0
+  margin: 2em 0 2em 0
+  padding: 1.5em 0 1.5em 0
+
+.titulos
+  text-transform: uppercase
+  margin: 1em 0 1em 0
+  text-shadow: -1px 1px 3px #3d3d3d
+  font-size: 29px
+.titulo-patrocinadores
+  color: #00AAA7
+  border-left: 4px solid #c7317d
+  padding-left: 20px
+.titulo-morado
+  color: $rosado
+.cinta-morada
+  background: #883D84
+  color: white
+  padding: 2em 0 1em 0
+  margin: 1em 0 1em 0
 .fecha
   border-left: 2px solid #a7a3a3
   padding-left: 20px
   margin-left: 1em
-  margin-top: 5px
+  margin-top: 8px
 .fecha h4
   color: #94c01f
+  font-size: 24.5px
   letter-spacing: 0
   font-family: "avenir bold"
   margin: 0
 .fecha h5
   color: #00a099
-  letter-spacing: 3px
+  letter-spacing: 0.3px
 .sub-1
   color: #03549e
   border-left: 4px solid #0eaacd
@@ -69,23 +96,24 @@ h3,h4, h5,h6
   transition: 1s
 img.b-loaded
   opacity: 1
-
 .menu
   font-family: "bold"
   letter-spacing: 0.1em
 .menu li a
   line-height: 1.28em
 #encabezado
-  background-color: #ffffff
+  height: 15vh
+  background-color: $cielo
   font-size: 1em
   color: $gris
   padding-top: 5px
   padding-bottom: 5px
   font-family: "ligera"
+  // border: 1px solid red
 #encabezado img
   margin: .4em 0
-  width: 230px
-  height: 120px
+  width: 240px
+  height: 110px
 .contador
   width: 300px
   /*border: 1px solid gray
@@ -101,9 +129,9 @@ img.b-loaded
   margin: 3px
   border-radius: 0px 0px 8px 8px
 #redes-header img
-  width: 60px
+  width: 40px
   height: 50px
-  margin-bottom: 5px
+  margin: 0px 8px 5px 0
 #submenu-principal, .sub-menu-central
   border: 0
 #submenu-principal li a
@@ -112,25 +140,41 @@ img.b-loaded
 #submenu-principal a
   background: #ffffff
   color: $gris
+#menu-principal menu ul li a:hover
+  border-top: 2px solid #00B4D6
+
 
 #menu-central
   padding: 13px 0 13px 0
-  background: #ffffff
+  // background: #06A49D
   border: 0
 #menu-central a
-  color: #606060
+  color: $gris
+  // color: #fff
   font-size: 1.3em
   text-transform: uppercase
+
 #menu-central a:hover
+  color: #00B4D6
+.dropdown ul li a:hover
   color: $azul
-  background: #ffffff
-#menu-sticky, .sticky-container
-  background: white
+  border-bottom: 1px solid #e2dfdf
+#menu-sticky
+  background: $cielo
+  // background: linear-gradient(to bottom right, #009F54, #00998C )
+  height: 8vh !important
+
 .sub-menu-central
   font-family: general
+  // background: #06A49D
 .sub-menu-central li
   font-size: 10px
-
+.data-sticky
+  width: 100%
+  margin: 0 auto
+  box-shadow: 3px 3 5px $gris
+  background-color: $cielo
+  z-index: 100
 .back-1
   background: url("../img/fondo-5.png")
   background-size: 10% 100%
@@ -153,9 +197,62 @@ img.b-loaded
   width: 38px
   height: 38px
   margin-right: 1em
+#cinta
 
 .enviar-datos
   margin: 0 auto
+.idiomas img
+  width: 45px
+
+#cartelConcurso
+  margin-bottom: 2em
+//=======================  VENTANA EMERGENTE  ===============
+#popup
+    left: 0
+    position: absolute
+    top: 0
+    width: 100%
+    z-index: 1001
+    -moz-z-index: 1001
+    -webkit-z-index: 1001
+.content-popup
+    margin: 0px auto
+    margin-top: 120px
+    position: relative
+    padding: 10px
+    width: 520px
+    min-height: 250px
+    border-radius: 4px
+    background-color: #FFFFFF
+    box-shadow: 0 2px 5px #666666
+.content-popup h2
+    color: #48484B
+    border-bottom: 1px solid #48484B
+    margin-top: 0
+    padding-bottom: 4px
+.popup-overlay
+    left: 0
+    position: absolute
+    top: 0
+    width: 100%
+    z-index: 999
+    display: none
+    background-color: #777777
+    cursor: pointer
+    opacity: 0.7
+.close
+    position: absolute
+    right: 15px
+#cinta-nombres
+  margin-top: -5px
+#portada
+  overflow: hidden
+  height: 65vh
+  background-image: url("../img/portada.png")
+  background-repeat: no-repeat
+  background-position: bottom center
+  background-size: cover
+  background-color: $cielo
 //==================== Video portada ================================
 #video
   overflow: hidden
@@ -165,77 +262,75 @@ img.b-loaded
   background-size: contain
   background-repeat: repeat-x
   text-align: center
+  position: relative
+  z-index: -1
+  -moz-z-index: -1
+  -webkit-z-index: -1
 #video video
   margin: 0 auto
   width: 100%
   height: 800px
   transform: translateY(-150px)
+  z-index: -2
+  -moz-z-index: -2
+  -webkit-z-index: -2
+.btn-play
+  z-index: 4
+  -moz-z-index: 4
+  -webkit-z-index: 4
+  cursor: pointer
+  margin-bottom: -323px
+  text-align: center
+.btn-play a img
+  margin-top: 150px
 
 #barra
   margin-bottom: 1em
 
 .cinta-marquee
-  background-color: #ececec
+  background-color: #E8D1BE
   margin-bottom: 0
   height: 100px
   display: flex
   align-items: center
+  height: 12vh !important
+.asistentes
+  font-size: 11px
+.slider
+        width: 100%
+        margin: 5px auto
 .slider-ponentes
   width: 70%
   margin: 0px auto
   display: block
-.slider-ponentes img
-
 .slider2
-  width: 60%
+  width: 80%
   margin: 0px auto
   display: block
 .slick-slide
     margin: 0px 15px
-.slick-slide img
-  width: 100%
-.slick-prev:before,
-.slick-next:before
-  color: black
+.slick-prev, .slick-next
+  display: none !important
+
+  // =============   secciones ===================
+#secciones
+  height: 300px
+  background-color: $verde
+  position: relative
+
 // ======================= Temas =====================================
-#banners
-  overflow: hidden
-  margin-bottom: 4em
-.fondo-verde
-  background: #94c01f
-.fondo-acuamarina
-  background-color: #00a099
-.fondo-azul
-  background-color: #05bbda
-.fondo-azulmarino
-  background-color: #2d2e82
-.fondo-rosado
-  background-color: #d13ebe
-.frases
+
+#certificado
+  margin-top: 4em
+  background-color: $rosado
   color: white
-  font-size: 1.55em
-  padding: 0 5em
-  text-align: center
-#mensajes ul li
-  height:  260px
-  align-items: center
-#tematicas #mensajes
-  padding: 0
-#iconos-temas
-  background:
-#iconos-temas img
-  height: 100%
-  margin-bottom: 2.3em
-#img-slider
-  padding: 0
-#img-slider img
-  min-width: 100%
-  min-height: 100%
-  padding: 0
-  margin: 0
+  font-size: 1.1em
+  padding-top: 18px
+  margin-bottom: 4em
 // ============================== sección actividades ===========================
 #eventos
   background: #019e57
+  margin-bottom: 4em
 .destacados
   overflow: hidden
   background-size: 100% 100%
@@ -261,11 +356,11 @@ img.b-loaded
 #destacados-1
   background-image: url("../img/conferencias.gif")
 #destacados-1:hover
-  background-image: url("../img/conferencias-2.gif")
+  background-image: url("../img/conferencias-2.jpg")
 #destacados-2
-  background-image: url("../img/sesiones.gif")
-#destacados-2:hover
   background-image: url("../img/sesiones-2.gif")
+#destacados-2:hover
+  background-image: url("../img/sesiones.jpg")
 #destacados-3
   background-image: url("../img/talleres-vivenciales.jpg")
 #destacados-3:hover
@@ -293,15 +388,14 @@ img.b-loaded
 
 //=============================== Sección patrocinadores y proveedores ======================
 #proveedores
-  margin-top: 3em
-  padding: 0px 0 20px
+  margin-top: 5em
 #proveedores h3
   color: #0d848a
   font-family: general
   margin-bottom: 20px
 #proveedores h4
   font-family: ligera
-  color: #11b1b5
+  color: #017c80
   margin: 1em 0 .5em 0
 #proveedores img:first-child
   height: 150px
@@ -312,10 +406,12 @@ img.b-loaded
   background-color: #11b1b5
   display: inline-block
   padding: .3em 1.2em .3em 1.2em
+#presentadores figure
+  display: inline
 .apoyos
   border: 1px solid #11b1b5
 .img-patrocinador
-  height: 90px !important
+  height: 110px !important
   margin: 20px 30px 20px 0px
 .marcas-1
   background-image: url('../img/fondo-2.png')
@@ -373,6 +469,13 @@ img.b-loaded
   padding: 0
 
 //=====================================  Boletos ============================================================
+.desc
+  margin-top: -1.5em
+  padding-top: 0
+.precio-antes
+  text-decoration: line-through
+  color: #8d8790
+  font-size: 0.7em
 #boletos-contenedor
   margin-bottom: 5em
   background: url('../img/fondo-3.png')
@@ -425,16 +528,16 @@ img.b-loaded
 
 //============================    Sección registro boletín    === ========================
 #registro
-  background: $rosado
-  margin-bottom: 40px
+  background: #2196D1
+  padding: 3em 0 3em 0
 #registro h4
-  padding-top: 2em
+  margin-bottom: 1em
 #registro h6
   margin-bottom: 2em
 #registro h4 , #registro p
   color: white
 .btn-morado
-  background:  $rosado
+  background:  #156DA5
   border: 2px solid white
   border-radius:  1em
   padding-left: 2em
@@ -473,16 +576,18 @@ img.b-loaded
   height: 160px
 //Sección redes sociales
 #redes-sociales
-  margin-bottom: 25px
+  margin-bottom: 4em
+  margin-top: 4em
 #redes-sociales img
-  width: 70px
+  // width: 70px
   height: 60px
   margin-left: 20px
 //footer
 footer
+  margin-top: -6px
   background: #d4d4d0
   padding-top: 2em
-  padding-bottom: 2em
+  padding-bottom: 1em
 footer img
   height: 100px
 footer h5:first-child
@@ -511,13 +616,10 @@ footer h4, footer h6, #menu-footer ul li a
 #pie a
   font-size: 14px
   color: $gris
-.data-sticky
-  width: 100%
-  background: white
-  z-index: 100
-  -webkit-box-shadow: 0px 2px 5px $gris
-  -moz-box-shadow:    0px 2px 5px $gris
-  box-shadow:         0px 2px 5px $gris
+#cabecera-footer
+  border-bottom: 1px solid #999797
+  padding-bottom: 1em
+
 .text-inf
   position: absolute
   margin-top: -40%
@@ -532,7 +634,10 @@ footer h4, footer h6, #menu-footer ul li a
   height: 30px
   float: right
   margin-left: 5px
-
+.rotacion:hover
+  transform: rotate(360deg)
+.transition
+  transition: .5s
 .redes-sociales a, .redes-sociales
   color: white
   text-align: right
@@ -552,14 +657,18 @@ li .redes-sociales
   border-color: transparent $morado transparent transparent
 
 //============================  páginas  ====================================
+.barra-secciones
+  margin-top: 5em
 .header
   background-repeat: no-repeat
   background-position: center center
-  height: 200px
+  background-size: cover
+  height: 80px
   margin: 0
   display: flex
   align-items: center
   min-width: 100%
+  box-shadow: -2px 3px 8px $gris
 .header-convocatoria
   background-image: url('../img/header-convocatoria.jpg')
 .header-1
@@ -569,7 +678,7 @@ li .redes-sociales
 .header-3
   background-image: url('../img/header-1.3.jpg')
 .header-4
-  background-image: url('../img/header-1.4.jpg')
+  background-image: url('../img/headers/header_2.jpg')
 .header-5
   background-image: url('../img/header-1.5.jpg')
 .header-6
@@ -577,17 +686,22 @@ li .redes-sociales
 .header-7
   background-image: url('../img/header-expo.jpg')
 .header-8
-  background-image: url('../img/header-1.7.jpg')
+  background-image: url('../img/headers/header_4.jpg')
 .header-9
   background-image: url('../img/header-1.8.jpg')
+.header-10
+  background-image: url('../img/merida.jpg')
+.header-11
+  background-image: url('../img/fiesta-header.jpg')
 main
   margin-bottom: 2.876em
-  font-family: "avenir"
   color: #555555
-main h3
+main h3, main h1
   color: white
   font-family: "avenir bold"
   letter-spacing: 0.105em
+  text-transform: uppercase
+  font-size: 2.4em
 
 .contenido
   margin-top: 3.265em
@@ -599,19 +713,38 @@ main .contenido ul li
 .letra-capital
   font-size: 150%
 
+#programa
+  max-height: 280px
+.programa
+  text-align: center
+
+.razones li img
+  float: right
+
 // ============================  Promotores  =======================
 .img-promotores
   height: 16em
+.formulario_promotores, .formulario_promotores form label
+  background-color: #8A40A4
+  color: white
+  padding-top: 2em
+.formulario_promotores form
+  padding: 0 0 2em 0
 //================    Conferencias magistrales    ======================
 .contenido-magistrales
   border-bottom: 1px solid #c3c3c3
+.contenido-magistrales h5 a
+  color: #8A40A4
 .titulo-conferencia
-  background: #009d96
+  background: linear-gradient(to bottom right, #1DBDB6, #2fb9de)
+  border-radius: 60px 0px
   color: white
-  height: 50px
   display: flex
   align-items: center
   margin-bottom: 0.75em
+  padding: 15px
+  letter-spacing: .8px
+  // text-shadow: 0px 0px 0px #4b4b4b
 .titulo-conferencia h6
   text-align: center
   margin: 0 auto
@@ -624,7 +757,12 @@ main .contenido ul li
 .contenido-talleres h4
   background: #33a5c9
   color: white
+.info-taller span
+  font-weight: bold
 //=================   Patrocinadores   ===============================
+.organiza, .presentan
+  background: #06A49D
+  color: white
 .patrocinador-oro
   background: #ecb133
   color: white
@@ -651,33 +789,31 @@ main .contenido ul li
 .contenido-bronce
   border: 1px solid #f2914e
 .patrocinadores img
-  height: 150px
+  height: 170px
   margin: 0.8em 0 0.8em 0
 .contenido-bronce img
   height: 100px
 .contenido-institucionales img
   height: 80px
 //=============   Temáticas   ===========================
+
 .planeacion-diseno h4
   background: #79bb4b
-  color: white
-  padding-left: .5em
 .economia h4
-  padding-left: .5em
-  color: white
   background: #1ebadd
 .la-ciudad h4
-  padding-left: .5em
-  color: white
   background: #24beac
 .salud h4
-  padding-left: .5em
-  color: white
   background: #2b1194
 .servicio-publico h4
-  padding-left: .5em
-  color: white
   background: #b605a5
+
+// ====================    participar   ================
+.beneficios ol li
+  margin-bottom: 5px
+.beneficios h4
+  color: $verde-limon
+
 // =====================   La ciudad blanca   ==================
 .video
   margin: auto
@@ -686,13 +822,18 @@ main .contenido ul li
   color: #aa1a86
 .hoteles a:hover
   color: #8137d5
+.hoteles h5
+  font-size: 1.8em
 //==================     Inscripciones    =========================
 .inscripciones
-  margin-top: 4em
+  margin-top: 1em
 .fecha-precio
   font-size: 14px
   font-weight: bold
-
+.tarjetas
+  width: 100px
+  height: 25px
+  margin-left: 1em
 .card-info
   background: #fefefe
   //border: 0px solid #8a8a8a
@@ -737,15 +878,29 @@ main .contenido ul li
   -ms-transform: rotate(30deg)
   transform: rotate(30deg)
 
+#promocion
+  font-size: 13px
+  margin-top: 1.8em
 
+#promocion p
+  padding: 1em
+#promocion span
+  color: #883D84
+  font-weight: bold
+
+#promocion div
+  background-color: #B3E9E7
+  border-radius: 20px
 
 //======= Preguntas Frecuentes =======
 a .accordion-title
   color: #194477 !important
 
-//====== Expositores =================
+//================================    Expositores   ==========================
 .expo h4
   color: #1a9a87
+.expoVisitante
+  margin-top: 1em
 .action
   height: 6em
   background-color: #e4e4e4
@@ -769,19 +924,185 @@ a .accordion-title
 #galeria-expo ul li img
   height: 180px
 
-//=========== Sesiones ======
+.expositor
+  display: flex
+  border: 1px solid #ccc
+  padding: 20px 20px 10px 0
+  margin: 1em 0 1em 0
+  box-shadow: 2px 2px 4px #ccc
+.contenido_expositor header
+  display: flex
+  margin-bottom: 0
+#directorio_expositores
+  color: #6b6b6b
+#directorio_expositores .expositor
+  width: 100%
+#directorio_expositores .logotipo
+  width: 20%
+  // border: 1px solid black
+.datos_expositor, .contacto_expositor
+  width: 45%
+  font-size: 12px
+.datos_expositor
+  border-right: 3px solid #ccc
+  padding-right: 5%
+  margin-right: 5%
+.datos_expositor h4
+  font-size: 20px
+.datos_expositor h5
+  font-size: 16px
+.contenido_expositor
+  width: 80%
+  // border: 1px solid red
+.contenido_expositor section
+  font-size: 14px
+  margin-top: 8px
+//============================================   Sesiones Educativas       ==============================
+.link-conferencistas
+  color: #79BB4B
+  font-weight: bold
+.link-conferencistas:hover
+  color: #9BC308
+.espaciado
+  letter-spacing: 0.7px
+main.sesiones article header h4
+  font-size: 2.05em
+  color: white
+  padding-left: .5em
+.resumen_conferencista
+  // display: inline-block
+  margin-bottom: 5px
 .lista-sesiones li
-  font-size: 0.88em
-  color: #545454
+  color:  #545454
+  font-size: 1.15em
+  text-align: left
+  border-bottom: 1px solid #d7d5d5
+  padding-bottom: 8px
+  padding-top: 8px
+  opacity: 0.8
+.lista-sesiones li:hover
+  // color: #9d9d9d
+  opacity: 1
+  transition: .5s
+  cursor: pointer
+  // border-bottom: 1px solid #a3a3a3
+.lista-sesiones .diseno:hover
+  border-bottom: 1px solid #79bb4b
+.lista-sesiones .ciudad:hover
+  border-bottom: 1px solid #24beac
+.lista-sesiones .list-economia:hover
+  border-bottom: 1px solid #1ebadd
+.lista-sesiones .list-salud:hover
+  border-bottom: 1px solid #2b1194
+.lista-sesiones .list-funcion:hover
+  border-bottom: 1px solid #b605a5
 .isesiones
   width: 80px
+.sesiones article header, .content-temas
+  text-align: center
+
+.lista-sesiones
+  list-style: none
+  display: inline-block
+  margin-right: 8px
+  border: 2px solid #8c8c8c
+  width: 70%
+  padding: 20px
+  border-radius: 10px
+
+.diseno::before, .ciudad::before, .list-economia::before, .list-salud::before, .list-funcion::before
+  display: inline-block
+  margin-right: 8px
+.diseno::before
+  content: url('../img/icon-disenoC.png')
+.ciudad::before
+  content: url('../img/icon-ciudadC.png')
+.list-economia::before
+  content: url('../img/icon-economiaC.png')
+.list-salud::before
+  content: url('../img/icon-economiaC.png')
+.list-salud::before
+  content: url('../img/icon-saludC.png')
+.list-funcion::before
+  content: url('../img/icon-funcionC.png')
+
+.detalles-sesiones
+  display: none
+  background-color: #ededed
+  border-radius: 0px 0px 10px 10px
+  font-size: 12.5px
+  padding: 10px
+  max-width: 100%
+.detalles-sesiones img
+  width: 30px
+  padding-right: 5px
+  margin-left: 15px
+.detalles-sesiones em
+  font-size: 11.5px
+
+
 //=============================  Conectividad ============
 .conectividad h4
   color: #3c9f86
+
 //===================================  Aviso  =======================
 .aviso
   font-size: 14px
-//=======================  Programa Completo =====
+
+//=============================   Programa Completo   ==========================
+tr td.bloque
+  background-color: green
+.enlaces_conferencias
+    cursor: pointer
+    padding: 0 3em
+.link_magistral
+  color: #13830e
+  cursor: pointer
+.link_expo
+  color: #7A44A1
+.enlaces_conferencias:hover
+  color: rgb(157, 17, 72)
+.horarios h4
+ margin-bottom: 1em
+ margin-top: 1em
+.horarios h4 span:first-child
+  background: #99195e
+  color: white
+  padding: 0.1em 0.3em 0.1em 0.4em
+.horarios h4 span:last-child
+  background-color: #dbdbdb
+  color: #99195e
+  padding: 0.1em 1.2em 0.1em 1.2em
+
+.tabla-horario
+  margin: 0 auto
+  border: 1px solid #d3d4d4
+  border-radius: 10px
+  padding: 5px
+  margin-bottom: 3em
+  width: 55%
+  border-spacing: 4px 7px
+  box-shadow: 3px 5px 10px #dbd8d8
+
+.tabla-horario thead th
+  border: 1px solid #d963a2
+  text-align: center
+  background-color: white
+.tabla-horario tbody tr td
+  text-align: center
+  background-color: #f5f5f6
+  padding: 4px
+  font-size: 13px
+.tabla-horario td:nth-child(4), .tabla-horario td:nth-child(5)
+  min-width: 5em
+
+.evento-general
+  font-weight: bold
+  letter-spacing: 5px
+  text-align: center
+
+.horarios img
+  height: 20px
 .titulo-programa
   margin: auto
   color: #BE004C
@@ -796,15 +1117,104 @@ a .accordion-title
   font-size: 12px
   font-weight: bold
   display: inline
-
+.pista_programa
+  margin-left: 6px
 .horario
-  width: 60%
+  width: 70%
+
+.detalles-programa
+  display: none
+  // background-color: #f2f2f2
+  color: #6c6c6b
+  font-size: 12.5px
+  padding: 10px
+  max-width: 100%
+.detalles-programa img
+  width: 25px
+  padding-right: 5px
+  margin-left: 15px
+.detalles-programa em
+  font-size: 11.5px
+
+.detalles-programa strong
+  font-size: 11.2px
+  letter-spacing: 1px
+  margin-bottom: 4px
+.nombre_conferencista
+  color: #87214c
+.resumen
+  font-size: 10.8px
+
+#aviso-cambios
+  color: #bf1b1b
+
+//================== contacto ===================
+.video video
+  margin: 3em auto
+
+//============================    CONFERENCISTAS Y PONENTES ============================
+.detalles-conferencistas h4
+  color: $rosado
+  font-family: "avenir bold"
+  text-transform: uppercase
+  font-size: 2.2em
+.detalles-conferencistas h5, .lista-conferencistas h6
+  color: #0a908a
+.detalles-conferencistas h6, .lista-conferencistas span
+  color: #909090
+.detalles-conferencistas p
+  margin-top: 22px
+
+.lista-conferencistas
+  margin-bottom: 2.2em
+.lista-conferencistas h5
+  color: $rosado
+  font-family: "avenir bold"
+  text-transform: uppercase
+.lista-conferencistas span
+  font-family: "general"
+.lista-conferencistas p
+  font-size: 14px
+  text-align: left
+.titulo-ponentes
+  color: #94C01F
+
+
+//======================================== Congreso tips  ===========================
+
+#congresoTips h3
+  color: #6c0a8a
+  text-align: center
+  // margin-bottom: 1em
+#congresoTips h5
+  color: #6c0a8a
+  margin-bottom: 2em
+#congresoTips span
+  font-weight: bold
 //================== dispositivos moviles ================================
 @media screen and (max-width: 500px)
+  //===================  Conferencias Magistrales  =======================
+  .content-popup
+    width: 75vw
+  #img-popup
+    width: 70vw
+    height: 70vh
+  .contenido-magistrales .titulo-conferencia
+    margin-top: 1em
+    margin-bottom: 1em
+  main h1
+    color: white
+    font-family: "avenir bold"
+    letter-spacing: 0.03em
+    text-transform: uppercase
+    font-size: 1.8em
   #video
     background-image: url("../img/posterimage.jpg")
   .contenido-contador
-    margin-top: 8vh
+    margin-top: 4vh
+  .back-1
+    background-color: #ffffff
+  .back-2
   #redes-header img
     width: 50px
     height: 40px
@@ -834,6 +1244,7 @@ a .accordion-title
   #encabezado
     padding-top: 0
     padding-bottom: 0
+    border-bottom: 4px solid $rosado
   .header
     background-repeat: no-repeat
     background-position: center center
@@ -849,6 +1260,6 @@ a .accordion-title
     margin-top: 30px
   #off-canvas, #off-canvas li a
     color: white
-    background-color: $verde
+    background-color: #029a71
     text-transform: uppercase
     font-size: 14px

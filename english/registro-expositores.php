@@ -33,7 +33,9 @@ session_start();
     </div>
     <div class="row fila-espacio">
       <figure class="carga">
-        <img data-src="img/croquis.png" alt="Croquis de la Expo Parques Urbanos" class="croquis" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+        <a href="mapa/index.html" target="_blank">
+          <img data-src="img/croquis-2.png" alt="Croquis del recinto" class="croquis" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+        </a>
       </figure>
     </div>
     <form class="expositores" action="alta.php" method="post">
@@ -54,7 +56,7 @@ session_start();
           <label for="">Company Name:</label>
           <input type="text" name="rs" value="">
         </div>
-        
+
         <div class="column small-12 medium-4">
           <label for="">Street:</label>
           <input type="text" name="calle" value="">
@@ -63,8 +65,8 @@ session_start();
           <label for="">Building/House Number:</label>
           <input type="text" name="num_ext" value="">
         </div>
-        
-        
+
+
         <div class="column small-12 medium-3">
           <label for="">City:</label>
           <input type="text" name="ciudad" value="">
@@ -100,7 +102,7 @@ session_start();
         </div>
       </div>
       <div class="row">
-        
+
         <div class="column small-12 medium-3">
           <label for="">Street:</label>
           <input type="text" name="calle_2" value="">
@@ -133,9 +135,9 @@ session_start();
           <label for="">Company's Telephone:</label>
           <input type="text" name="tel" value="">
         </div>
-        
+
       </div>
-        
+
         <div class="row fila-espacio">
           <div class="column">
             <p>List the 3 main options for your preferred stand according to the numbering in the map (available spaces). These space options will be used by the committee of Urban Parks Expo, to identify the places where the client wants to exhibit. The selected booth options are not guaranteed. The committee of the Urban Parks Expo will review this selection at the time of receiving the information and will use it as a reference to define the space hand in hand with the client at the time of signing the contract. </p>

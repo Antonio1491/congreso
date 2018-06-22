@@ -31,47 +31,73 @@ session_start();
         </div>
       </div>
     </div>
-    <div class="row column contenido">
-      <h5>SEND YOUR PROPOSAL AND BE A PART OF OUR SCHEDULED EDUCATIONAL SESSIONS!</h5>
-      <p>Our goal is to meet the educational needs of our diverse audience by providing a selection of relevant topics and sessions led by national and international experts on the subject.</p>
-      <p>The proposals most likely to be accepted to be part of the program of the First Congress of Urban Parks are those are the ones related to our 5 themes:</p>
-      <div class="">
-        <ul>
-          <li>Planning and Design</li>
-          <li>Public Function and Citizen Participation</li>
-          <li>The City</li>
-          <li>Health and Environment</li>
-          <li>Economy and Uses of Public Space</li>
-        </ul>
+    <div class="row contenido">
+      <div class="column medium-6">
+        <img src="img/propuesta.png" alt="">
       </div>
-      <div class="">
-        <h6>PROFILE OF THE SPEAKER</h6>
+      <div class="column medium-6">
+        <img src="img/propuesta-convocatoria.png" alt="">
+      </div>
+    </div>
+    <div class="row column fila-espacio">
+      <p>The proposals most likely to be accepted to be part of the program of the First Congress of Urban Parks are those are the ones related to our 5 themes:</p>
+    </div>
+    <div class="row medium-collapse">
+      <div class="column small-12 medium-6">
+        <img src="img/temas-convocatoria.png" alt="">
+      </div>
+      <div class="column small-12 medium-6">
+        <img src="img/temas-convocatoria2.png" alt="">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column small-12  medium-6">
+        <h4>PROFILE OF THE SPEAKER</h4>
           <ul>
             <li>Architects, urban planners, landscape architects.</li>
             <li>Sociologists, anthropologists, marketing professionals and managers.</li>
             <li>Public officials of the three levels of government.</li>
             <li>Environmentalists, leaders of organized civil society groups</li>
             <li>Any other person interested in sharing their knowledge and projects of public space with the attendees.</li>
-          </ul>
       </div>
-        <p>The participant must <a href="assets/formularios-sesiones-educativas-pre-aprobadas.pdf" target="_blank" class="">download</a> and fill out the form with the information of the proposal along with personal data requested. The form must be sent to the e-mail address: <a href="mailto:contenido@anpr.org.mx">contenido@anpr.org.mx</a> in the appropriate time and requested format.</p>
-
-        <h6>DEAD LINE</h6>
-        <p>The due date of proposal reception is October 15, 2017. The notifications of acceptance status will be shared at the beginning of December 2017.</p>
-        <h6>General considerations:</h6>
-        <ul>
-          <li>The educational sessions are a space of training and learning by sharing knowledge, experiences and projects in favor of public space. It is not a space of sale or promotion of products and services; for this reason, proposals that are inclined to these activities will not be accepted to be a part of the scheduled educational sessions.</li>
-          <li>If the proposal is accepted, the speaker should share his presentation (support material) with the content committee, as this material will be made public on the National Parks and Recreation Association of México’s website. </li>
-        </ul>
-        <h6>BENEFITS</h6>
+      <div class="column hide-for-small-only medium-6">
+        <img src="img/perfil.png" alt="">
+      </div>
+    </div>
+    <div class="row medium-collapse">
+      <div class="small-8 small-push-2 medium-4 columns">
+        <a href="assets/formulario.pdf"><img src="img/formulario.png" alt=""></a>
+      </div>
+      <div class="columns small-8 small-push-2 medium-4">
+        <img src="img/formulario-2.png" alt="">
+      </div>
+      <div class="columns small-8 small-push-2 medium-4">
+        <img src="img/formulario-3.png" alt="">
+      </div>
+    </div>
+    <div class="row column fila-espacio">
+      <h4>DEAD LINE</h4>
+      <p>The due date of proposal reception is December 31st, 2017. The notifications of acceptance status will be shared at the beginning of February 2018.</p>
+      <h4>General considerations:</h4>
+      <ul>
+        <li>The educational sessions are a space of training and learning by sharing knowledge, experiences and projects in favor of public space. It is not a space of sale or promotion of products and services; for this reason, proposals that are inclined to these activities will not be accepted to be a part of the scheduled educational sessions.</li>
+        <li>If the proposal is accepted, the speaker should share his presentation (support material) with the content committee, as this material will be made public on the National Parks and Recreation Association of México’s website. </li>
+      </ul>
+    </div>
+    <div class="cinta-morada">
+      <div class="row column">
+        <h4>BENEFITS</h4>
         <p>The speakers selected for educational sessions will receive a benefits package that includes two full days of participation in the congress and all their activities such as:</P>
           <ul>
             <li>Keynote presentations and educational sessions.</li>
             <li>Entrance to the commercial exhibition Urban Parks Expo</li>
             <li>Social events.</li>
           </ul>
+        </div>
+      </div>
+      <div class="row column">
           <p><strong>Note:</strong> Expenses related to workshops registration, transportation, lodging, meals and speaker honorarium are not included in the benefits package.</p>
-
     </div>
   </article>
 </main>

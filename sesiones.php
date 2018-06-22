@@ -6,299 +6,376 @@ session_start();
     $_SESSION['hora'] = '9';
     $_SESSION['minuto'] = '00';
     $_SESSION['segundo'] = '00';
+
+    require("datos_conexion.php")
+    // $conexion = new Conexion('localhost', 'root', '', 'anprorgm_sic' );
+    // $conexion = new Conexion("localhost", "anprorgm_admin", "Admin_*2016", "anprorgm_sic");
+    // $conexion->conectar();
 ?>
 <!doctype html>
 <html class="no-js" lang="es" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sesiones Educativas | Congreso Internacional de Parques Urbanos</title>
-    <link rel="stylesheet" href="icons/foundation-icons.css">
-    <link rel="stylesheet" href="css/foundation-flex.css">
-    <link type="text/css" href="css/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" type="text/css" href="slick/slick.css">
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sesiones Educativas</title>
+  <?php  require("assets/head_common.php") ?>
 
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-      <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-      <script type="text/javascript" src="slick/slick.min.js"></script>
-      <script type="text/javascript">
-        $(document).ready(function(){
-          $('.cinta-ponentes').slick({
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          autoplay: true,
-          autoplaySpeed: 2000,
-          slidesToScroll: 1
-          });
-        });
-      </script>
+  <!-- <link rel="stylesheet" href="icons/foundation-icons.css">
+  <link rel="stylesheet" href="css/foundation-flex.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"> -->
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
 
 </head>
 <body onload="countdown('contador')">
 <?php include'assets/menu.php'; ?>
 <main class="back-2 sesiones">
-  <article class="">
     <div class=" header header-3">
       <div class="row align-middle">
         <div class="column text-center">
-          <h3 class="titulos">SESIONES EDUCATIVAS</h3>
+          <h1 class="titulos">SESIONES EDUCATIVAS</h1>
         </div>
       </div>
     </div>
-    <!--<div class="action text-center">
-      <a href="convocatoria-sesiones.php" class="button">CONVOCATORIA</a>
-    </div>-->
-    <!--==================== Contenidos de emergentes =======================-->
-    <div class="small reveal" id="diseno-y-planeacion" data-reveal>
-      <div class="row align-center fila-espacio">
-        <div class="column small-12 medium-6">
-          <figure >
-            <img src="img/diseno-planeacion.png"  alt="Diseño y Planeación">
-          </figure>
-        </div>
-        <div class="column small-12 medium-6 planeacion-diseno">
-          <h4>Diseño y Planeación</h4>
-          <p style="text-align:justify; color:#555;">El objetivo de esta temática es hablar sobre principios y
+    <div id="popup" style="display: none;">
+      <div class="content-popup">
+          <div class="close"><a href="#" id="close"><i class="fi-x-circle large"></i></div>
+          <div>
+             <!-- <a href="http://congresoparques.com/bases-concurso.php" target="_blank"> -->
+               <img id="img-popup" src="img/mapa.png" alt="">
+             <!-- </a> -->
+          </div>
+      </div>
+  	</div>
+
+    <!--==================== Contenido de la página ============-->
+    <!--==================== Contenido de la página ============-->
+          <div class="hide-for-small-only fila-espacio">
+            <section class="cinta-ponentes slider-ponentes">
+              <div><img src="img/panelistas/adam.png" alt=""></div>
+              <div><img src="img/panelistas/alberto-mercado.png" alt=""></div>
+              <div><img src="img/panelistas/aldo.png" alt=""></div>
+              <div><img src="img/panelistas/alejandra.png" alt=""></div>
+              <div><img src="img/panelistas/alexia.png" alt=""></div>
+              <div><img src="img/panelistas/andrea.png" alt=""></div>
+              <div><img src="img/panelistas/carlos-aubert.png" alt=""></div>
+              <div><img src="img/panelistas/carlos-mourillo.png" alt=""></div>
+              <div><img src="img/panelistas/charles.png" alt=""></div>
+              <div><img src="img/panelistas/christian.png" alt=""></div>
+              <div><img src="img/panelistas/clarisa.png" alt=""></div>
+              <div><img src="img/panelistas/david.png" alt=""></div>
+              <div><img src="img/panelistas/dhyana.png" alt=""></div>
+              <div><img src="img/panelistas/edgardo-bolio.png" alt=""></div>
+              <div><img src="img/panelistas/enric.png" alt=""></div>
+              <div><img src="img/panelistas/evelyn-hernandez.png" alt=""></div>
+              <div><img src="img/panelistas/everardo.png" alt=""></div>
+              <div><img src="img/panelistas/fernando-villareal.png" alt=""></div>
+              <div><img src="img/panelistas/guillermo-espinosa.png" alt=""></div>
+              <div><img src="img/panelistas/jaime-gallo.png" alt=""></div>
+              <div><img src="img/panelistas/jayne.png" alt=""></div>
+              <div><img src="img/panelistas/jayni.png" alt=""></div>
+              <div><img src="img/panelistas/juanita.png" alt=""></div>
+              <div><img src="img/panelistas/kathleen.png" alt=""></div>
+              <div><img src="img/panelistas/lilia.png" alt=""></div>
+              <div><img src="img/panelistas/luis.png" alt=""></div>
+              <div><img src="img/panelistas/luis-chin.png" alt=""></div>
+              <div><img src="img/panelistas/roberto.png" alt=""></div>
+              <div><img src="img/panelistas/sergio-martinez.png" alt=""></div>
+              <div><img src="img/panelistas/susan-chin.png" alt=""></div>
+              <div><img src="img/panelistas/tom.png" alt=""></div>
+            </section>
+          </div>
+
+      <div class="row column ">
+        <p><span class="letra-capital">L</span>as sesiones educativas tendrán lugar los días 26 y 27
+          de abril en el Centro Internacional de Congresos de Yucatán – el 25 de abril tendrán lugar 9
+          <a href="talleres.php">talleres vivenciales</a> en los parques y espacios públicos de la ciudad.</p>
+          <p>Estas sesiones tendrán una hora de duración con quince minutos para preguntas y respuestas en donde el asistente podrá interactuar con los ponentes.</p>
+
+            <p>A diferencia de las <a href="conferencias.php">conferencias magistrales</a>, las sesiones
+              educativas estarán ubicadas en salones pequeños con una capacidad máxima de 150 personas; se
+              tendrán alrededor de 8 sesiones paralelas correspondientes a nuestras 5 temáticas. Los asistentes
+              pondrán especializarse en alguna de ellas, o conocer de todas las temáticas.</p>
+      </div>
+    <div class="row fila-espacio">
+      <div class="column small-12 medium-12">
+        <article class="planeacion-diseno">
+          <header>
+            <img src="img/planeacion-y-diseno-02.png" alt="" class="isesiones">
+            <h4 class="text-center">Diseño y Planeación</h4>
+          </header>
+          <div class="content-temas">
+            <p><span class="letra-capital">E</span>l objetivo de esta temática es hablar sobre principios y
             procesos de diseño para parques; ahondando en temas específicos
             como: áreas infantiles, juegos de agua, parques de mascotas entre otros. Se
             brindará información sobre los procesos intelectuales y
-            creativos de diseño y la importancia de la crrecta planeación
+            creativos de diseño y la importancia de la correcta planeación
             de estos espacios para su éxito. </p>
-        </div>
+            <ul class="lista-sesiones">
+              <!--  Código q genera los temas de la bads  -->
+              <?php
+                $sql= "SELECT * FROM conferencias WHERE id_tema = 2 ";
+                $resultado = $conexion->consultar($sql);
+                while($fila = mysqli_fetch_array($resultado)){
+                  echo "<li class='list-sesiones diseno ".$fila['id_conferencia']."'  onclick='descripcion()'>".$fila['nombre_conferencia']."</li>";
+                  echo "<div class='detalles-sesiones' id=".$fila['id_conferencia'].">";
+                  echo "<p>".$fila['descripcion']."</p>";
+                    $sql2 = "SELECT * FROM usuarios WHERE id_conferencia = ".$fila['id_conferencia']." AND nivel = 2 ";
+                    $resultado2 = $conexion->consultar($sql2);
+                    echo "<div><strong class='espaciado'>CONFERENCISTAS:</strong></div>";
+                    while ($fila2 = mysqli_fetch_assoc($resultado2)) {
+                      echo "<div class='resumen_conferencista'><img class='foto-conferencista' src='http://www.congresoparques.com/sesiones/img/conferencistas/".$fila2['foto']."'>";
+                      echo "<a href='conferencista.php?id=".$fila2['id_usuario']."' class='link-conferencistas'>".$fila2['nombre']. "</a> - ";
+                      echo $fila2['cargo'].", ";
+
+                      echo $fila2['empresa']." </div>";
+                      }
+                      echo "</div>";
+                      ?>
+                      <script type="text/javascript">
+                      $(document).ready(function(){
+                          $(".<?php echo $fila['id_conferencia'] ?>").click(function(){
+                              $("#<?php echo $fila['id_conferencia'] ?>").fadeToggle();
+
+                      });
+                    });
+                  </script>
+                  <?php
+                    }
+              ?>
+            </ul>
+          </div>
+        </article>
       </div>
-      <button class="close-button" data-close aria-label="Close modal" type="button">
-        <span aria-hidden="true">&times;</span>
-      </button>
     </div>
 
-    <div class="small reveal" id="la-ciudad" data-reveal>
-      <div class="row align-center fila-espacio">
-        <div class="column small-12 medium-6">
-          <figure >
-            <img src="img/la-ciudad.png"  alt="La Ciudad">
-          </figure>
-        </div>
-        <div class="column small-12 medium-6 la-ciudad">
-          <h4>La Ciudad</h4>
-          <p style="text-align:justify; color:#555;">Las ciudades están compuestas por elementos de gran complejidad
-            que las hacen únicas. La peatonalidad, proyectos de bicicleta pública,
-            datos abiertos, barrios seguros y la resiliencia serán algunos de
-            los elementos tratados en esta temática. </p>
-        </div>
-      </div>
-      <button class="close-button" data-close aria-label="Close modal" type="button">
-        <span aria-hidden="true">&times;</span>
-      </button>
-    </div>
+    <div class="row">
+      <div class="column small-12 medium-12">
+        <article class=" la-ciudad">
+          <header>
+              <img src="img/la-ciudad-02.png" alt="" class="isesiones">
+              <h4 class="text-center">La Ciudad</h4>
+          </header>
+          <div class="content-temas">
+            <p><span class="letra-capital">L</span>as ciudades están compuestas por elementos
+              que las hacen únicas. La peatonalidad, la bicicleta recreativa, datos abiertos y la
+              resiliencia son algunos temas que se relacionan con el parque urbano.</p>
+              <ul class="lista-sesiones">
+              <?php
+                $sql = "SELECT * FROM conferencias WHERE id_tema = 4";
+                $resultado = $conexion->consultar($sql);
+                while ($fila = mysqli_fetch_array($resultado)) {
+                    echo "<li class='list-sesiones ciudad ".$fila['id_conferencia']."'>".$fila['nombre_conferencia']."</li>";
+                    echo "<div class='detalles-sesiones' id=".$fila['id_conferencia'].">";
+                    echo "<p>".$fila['descripcion']."</p>";
+                      $sql2 = "SELECT * FROM usuarios WHERE id_conferencia = ".$fila['id_conferencia']." AND nivel = 2 ";
+                      $resultado2 = $conexion->consultar($sql2);
+                      echo "<div><strong class='espaciado'>CONFERENCISTAS:</strong></div>";
+                      while ($fila2 = mysqli_fetch_array($resultado2)) {
+                        echo "<div class='resumen_conferencista'><img class='foto-conferencista' src='sesiones/img/conferencistas/".$fila2['foto']."'>";
+                        echo "<a href='conferencista.php?id=".$fila2['id_usuario']."' class='link-conferencistas'>".$fila2['nombre']. "</a> - ";
+                        echo $fila2['cargo'].", ";
+                        echo $fila2['empresa']." </div>";
+                      }
+                    echo "</div>";
+                    ?>
+                    <script type="text/javascript">
+                    $(document).ready(function(){
+                        $(".<?php echo $fila['id_conferencia'] ?>").click(function(){
+                            $("#<?php echo $fila['id_conferencia'] ?>").fadeToggle();
 
-    <div class="small reveal" id="economia" data-reveal>
-      <div class="row align-center fila-espacio">
-        <div class="column small-12 medium-6">
-          <figure >
-            <img src="img/economia.png"  alt="Economía y Usos del Espacio Público">
-          </figure>
-        </div>
-        <div class="column small-12 medium-6 economia">
-          <h4>Economía y Usos del Espacio Público</h4>
-          <p style="text-align:justify; color:#555;">Además de ser espacios para la recreación, los parques
-            impulsan la economía y generan empleos. Se presentarán modelos
-            exitosos de administración, fomento económico y procuración de
-            fondos mostrando la gran variedad de formas en las que un parque
-            puede ser sostenible en el tiempo. </p>
-        </div>
-      </div>
-      <button class="close-button" data-close aria-label="Close modal" type="button">
-        <span aria-hidden="true">&times;</span>
-      </button>
-    </div>
-
-    <div class="small reveal" id="salud" data-reveal>
-      <div class="row align-center fila-espacio">
-        <div class="column small-12 medium-6">
-          <figure >
-            <img src="img/salud-medio-ambiente.png" alt="Salud y Medio Ambiente" >
-          </figure>
-        </div>
-        <div class="column medium-6 salud">
-          <h4>Salud y Medio Ambiente</h4>
-          <p style="text-align:justify; color:#555;">Los parques traen infinidad de beneficios a la salud ya que,
-            además de invitarnos a la activación física, son el lugar en
-            donde nos encontramos con la naturaleza. Las áreas verdes
-            disminuyen los índices de depresión, ansiedad y estrés laboral;
-            limpian el aire, mejoran las circulaciones del viento y regulan
-            los patrones de precipitaciones anuales.</p>
-        </div>
-      </div>
-      <button class="close-button" data-close aria-label="Close modal" type="button">
-        <span aria-hidden="true">&times;</span>
-      </button>
-    </div>
-
-    <div class="small reveal" id="servicio-publico" data-reveal>
-      <div class="row align-center fila-espacio">
-        <div class="column small-12 medium-6">
-          <figure >
-            <img src="img/participacion-ciudadana.png" alt="Salud y Medio Ambiente" >
-          </figure>
-        </div>
-        <div class="column medium-6 servicio-publico">
-          <h4>Función Pública y Participación Ciudadana</h4>
-          <p style="text-align:justify; color:#555;">Los parques necesitan servidores públicos comprometidos con
-            el espacio público, con las mejores prácticas para su
-            implementación y sostenimiento en conjunto con la ciudadanía,
-            fomentando la participación ciudadana. En esta temática se
-            presentarán modelos para fomentar la participación ciudadana
-            y estructuras que mejoren el servicio público enfocado a los
-            parques.</p>
-        </div>
-      </div>
-      <button class="close-button" data-close aria-label="Close modal" type="button">
-        <span aria-hidden="true">&times;</span>
-      </button>
-    </div>
-
-    <!--==================== Contenido de la página ============-->
-    <div class="row contenido">
-      <div class="column">
-        <p><span class="letra-capital">L</span>as sesiones educativas son la médula espinal del congreso. Son el espacio en
-          el cual el asistente podrá aprender de nuestros ponentes. Teniendo a su alcance más de  <span style="font-size:1.2em;">50</span>
-          sesiones educativas, los asistentes podrán seleccionar en qué sesiones participar con base en sus intereses.</p>
+                        });
+                      });
+                    </script>
+                    <?php
+                      }
+                ?>
+               </ul>
+          </div>
+        </article>
       </div>
     </div>
-      <div class="hide-for-small-only">
-        <section class="cinta-ponentes slider-ponentes">
-          <div><img src="img/panelistas/sergio-martinez.png" alt=""></div>
-          <div><img src="img/panelistas/guillermo-espinosa.png" alt=""></div>
-          <div><img src="img/panelistas/edgardo-bolio.png" alt=""></div>
-          <div><img src="img/panelistas/andrea.png" alt=""></div>
-          <div><img src="img/panelistas/aldo.png" alt=""></div>
-          <div><img src="img/panelistas/roberto.png" alt=""></div>
-          <div><img src="img/panelistas/carlos-aubert.png" alt=""></div>
-          <div><img src="img/panelistas/carlos-mourillo.png" alt=""></div>
-          <div><img src="img/panelistas/charles.png" alt=""></div>
-          <div><img src="img/panelistas/david.png" alt=""></div>
-          <div><img src="img/panelistas/evelyn-hernandez.png" alt=""></div>
-          <div><img src="img/panelistas/fernando-villareal.png" alt=""></div>
-          <div><img src="img/panelistas/jayne.png" alt=""></div>
-          <div><img src="img/panelistas/jayni.png" alt=""></div>
-          <div><img src="img/panelistas/juanita.png" alt=""></div>
-          <div><img src="img/panelistas/kathleen.png" alt=""></div>
-          <div><img src="img/panelistas/luis.png" alt=""></div>
-          <div><img src="img/panelistas/susan-chin.png" alt=""></div>
-          <div><img src="img/panelistas/tom.png" alt=""></div>
-        </section>
-      </div>
 
 
     <div class="row fila-espacio">
-      <div class="column small-12 medium-6 planeacion-diseno">
-        <div class="text-center">
-            <a data-open="diseno-y-planeacion">
-              <img src="img/planeacion-y-diseno-02.png" alt="" class="isesiones">
-            </a>
-        </div>
-        <a data-open="diseno-y-planeacion" style="color:white;">
-          <span data-tooltip aria-haspopup="true" class="has-tip left" data-disable-hover="false" tabindex="2" title="Más información">
-            <h4 class="text-center">Diseño y Planeación</h4>
-          </span>
-        </a>
-        <ul class="lista-sesiones">
-          <li>El Parque Infantil Ideal</li>
-          <li>Juegos de agua, soluciones recreativas para climas calurosos.</li>
-          <li>Los Parques lineales, alternativas para espacios públicos residuales.</li>
-          <li>¿Por qué es importante un plan maestro para los parques urbanos?</li>
-          <li>Las mujeres en la arquitectura de paisaje.</li>
-        </ul>
-      </div>
-      <div class="column small-12 medium-6 la-ciudad">
-        <div class="text-center">
-          <a data-open="la-ciudad">
-            <img src="img/la-ciudad-02.png" alt="" class="isesiones">
-          </a>
-        </div>
-        <a data-open="la-ciudad" style="color:white;">
-          <span data-tooltip aria-haspopup="true" class="has-tip right" data-disable-hover="false" tabindex="2" title="Más información">
-            <h4 class="text-center">La Ciudad</h4>
-          </span>
-        </a>
-        <ul class="lista-sesiones">
-          <li>¿De quién es el parque?</li>
-          <li>Viviendo la cultura en el espacio público.</li>
-          <li>Las desarrolladoras inmobiliarias y el parque. ¿Matrimonio por conveniencia? </li>
-          <li>Design Trust for Public Space: ¿Cómo y por qué?</li>
-
-        </ul>
-      </div>
-    </div>
-    <div class="row fila-espacio">
-      <div class="column small-12 medium-6 economia">
-        <div class="text-center">
-          <a data-open="economia">
+      <div class="column small-12 medium-12 economia">
+        <article class="economia">
+          <header>
             <img src="img/uso-del-espacio-publico-02.png" alt="" class="isesiones">
-          </a>
-        </div>
-        <a data-open="economia" style="color:white;">
-          <span data-tooltip aria-haspopup="true" class="has-tip left" data-disable-hover="false" tabindex="2" title="Más información">
             <h4 class="text-center">Economía y Usos del Espacio Público</h4>
-          </span>
-        </a>
-        <ul class="lista-sesiones">
-          <li>Concesiones comerciales en parques urbanos ¿Un tema tabú?</li>
-          <li>Los Parques Caninos, una gran oportunidad para los parques urbanos.</li>
-          <li>Entre el donador y el patrocinador. ¿Cómo crear una campaña de procuración de fondos exitosa para un parque urbano?</li>
-          <li>¿Cómo organizar un evento exitoso en un espacio público?</li>
-          <li>Jardines Botánicos y Contemplativos, espacios públicos para todos.</li>
-        </ul>
-      </div>
-      <div class="column small-12 medium-6 salud">
-        <div class="text-center">
-          <a data-open="salud">
-            <img src="img/salud-y-medio-ambiente-02.png" alt="" class="isesiones">
-          </a>
-        </div>
-        <a data-open="salud" style="color:white;">
-          <span data-tooltip aria-haspopup="true" class="has-tip right" data-disable-hover="false" tabindex="2" title="Más información">
-            <h4 class="text-center">Salud y Medio Ambiente</h4>
-          </span>
-        </a>
-        <ul class="lista-sesiones">
-          <li>Proyectos de arborización.</li>
-          <li>Huertos urbanos, espacios comunitarios.</li>
-          <li>Naturaleza cercana, para la salud y la economía.</li>
-          <li>Captación de agua de lluvia en espacios públicos</li>
-        </ul>
-      </div>
-    </div>
-    <div class="row fila-espacio">
-      <div class="column small-12 medium-6 servicio-publico">
-        <div class="text-center">
-          <a data-open="servicio-publico">
-            <img src="img/servicio-publico-02.png" alt="" class="isesiones">
-          </a>
-        </div>
-        <a data-open="servicio-publico" style="color:white;">
-          <span data-tooltip aria-haspopup="true" class="has-tip left" data-disable-hover="false" tabindex="2" title="Más información">
-            <h4 class="text-center">Función Pública y Participación Ciudadana</h4>
-          </span>
-        </a>
-        <ul class="lista-sesiones">
-          <li>¿Cómo construir un parque urbano en menos de 1 día? </li>
-          <li>Parques Alegres, un modelo de transformación social en Culiacán.</li>
-          <li>¿Qué es y cómo funciona una agencia de parques y recreación?</li>
-          <li>Gestiones colaborativas. Gobierno y Sociedad Civil.</li>
-          <li>Friends of the Parks: Transformando Chicago y sus parques.</li>
-          <li>Minneapolis, el mejor sistema de parques de los Estado Unidos.</li>
-        </ul>
-      </div>
-      <div class="column medium-6 ">
+          </header>
+          <div class="content-temas">
+            <p><span class="letra-capital">A</span>demás de ser espacios para la recreación, los parques
+              impulsan la economía y generan empleos. Se presentarán modelos
+              exitosos de administración, fomento económico y procuración de
+              fondos mostrando la gran variedad de formas en las que un parque
+              puede ser sostenible en el tiempo. </p>
+            <ul class="lista-sesiones">
+              <?php
+                $sql = "SELECT * FROM conferencias WHERE id_tema = 3";
+                $resultado = $conexion->consultar($sql);
+                while ($fila = mysqli_fetch_array($resultado)) {
+                    echo "<li class='list-sesiones list-economia ".$fila['id_conferencia']."'>".$fila['nombre_conferencia']."</li>";
+                    echo "<div class='detalles-sesiones' id=".$fila['id_conferencia'].">";
+                    echo "<p>".$fila['descripcion']."</p>";
+                      $sql2 = "SELECT * FROM usuarios WHERE id_conferencia = ".$fila['id_conferencia']." AND nivel = 2 ";
+                      $resultado2 = $conexion->consultar($sql2);
+                      echo "<div><strong class='espaciado'>CONFERENCISTAS:</strong></div>";
+                      while ($fila2 = mysqli_fetch_array($resultado2)) {
+                        echo "<div class='resumen_conferencista'><img class='foto-conferencista' src='http://www.congresoparques.com/sesiones/img/conferencistas/".$fila2['foto']."'>";
+                        echo "<a href='conferencista.php?id=".$fila2['id_usuario']."' class='link-conferencistas'>".$fila2['nombre']. "</a> - ";
+                        echo $fila2['cargo'].", ";
+                        echo $fila2['empresa']." </div>";
+                      }
+                    echo "</div>";
+                    ?>
+                    <script type="text/javascript">
+                    $(document).ready(function(){
+                        $(".<?php echo $fila['id_conferencia'] ?>").click(function(){
+                            $("#<?php echo $fila['id_conferencia'] ?>").fadeToggle();
 
+                        });
+                      });
+                    </script>
+                    <?php
+                      }
+                ?>
+            </ul>
+          </div>
+        </article>
       </div>
     </div>
-  </article>
+    <div class="row">
+      <div class="column small-12 medium-12">
+        <article class="salud">
+          <header>
+            <img src="img/salud-y-medio-ambiente-02.png" alt="" class="isesiones">
+            <h4 class="text-center">Salud y Medio Ambiente</h4>
+          </header>
+          <div class="content-temas">
+            <p ><span class="letra-capital">L</span>os parques traen infinidad de beneficios a la salud ya que,
+              además de invitarnos a la activación física, son el lugar en
+              donde nos encontramos con la naturaleza. Las áreas verdes
+              disminuyen los índices de depresión, ansiedad y estrés laboral;
+              limpian el aire, mejoran las circulaciones del viento y regulan
+              los patrones de precipitaciones anuales.</p>
+            <ul class="lista-sesiones">
+              <?php
+                $sql = "SELECT * FROM conferencias WHERE id_tema = 5";
+                $resultado = $conexion->consultar($sql);
+                while ($fila = mysqli_fetch_array($resultado)) {
+                    echo "<li class='list-sesiones list-salud ".$fila['id_conferencia']."'>".$fila['nombre_conferencia']."</li>";
+                    echo "<div class='detalles-sesiones' id=".$fila['id_conferencia'].">";
+                    echo "<p>".$fila['descripcion']."</p>";
+                      $sql2 = "SELECT * FROM usuarios WHERE id_conferencia = ".$fila['id_conferencia']." AND nivel = 2 ";
+                      $resultado2 = $conexion->consultar($sql2);
+                      echo "<div><strong class='espaciado'>CONFERENCISTAS:</strong></div>";
+                      while ($fila2 = mysqli_fetch_array($resultado2)) {
+                        echo "<div class='resumen_conferencista'><img class='foto-conferencista' src='http://www.congresoparques.com/sesiones/img/conferencistas/".$fila2['foto']."'>";
+                        echo "<a href='conferencista.php?id=".$fila2['id_usuario']."' class='link-conferencistas'>".$fila2['nombre']. "</a> - ";
+                        echo $fila2['cargo'].", ";
+                        echo $fila2['empresa']." </div>";
+                      }
+                    echo "</div>";
+                    ?>
+                    <script type="text/javascript">
+                    $(document).ready(function(){
+                        $(".<?php echo $fila['id_conferencia'] ?>").click(function(){
+                            $("#<?php echo $fila['id_conferencia'] ?>").fadeToggle();
+
+                        });
+                      });
+                    </script>
+                    <?php
+                      }
+                ?>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <div class="row fila-espacio">
+      <div class="column small-12 medium-12">
+        <article class="servicio-publico">
+          <header>
+            <img src="img/servicio-publico-02.png" alt="" class="isesiones">
+            <h4 class="text-center">Función Pública y Participación Ciudadana</h4>
+          </header>
+          <div class="content-temas">
+            <p ><span class="letra-capital">L</span>os parques necesitan servidores públicos comprometidos con
+              el espacio público, con las mejores prácticas para su
+              implementación y sostenimiento en conjunto con la ciudadanía,
+              fomentando la participación ciudadana. En esta temática se
+              presentarán modelos para fomentar la participación ciudadana
+              y estructuras que mejoren el servicio público enfocado a los
+              parques.</p>
+            <ul class="lista-sesiones">
+              <?php
+                $sql = "SELECT * FROM conferencias WHERE id_tema = 6";
+                $resultado = $conexion->consultar($sql);
+                while ($fila = mysqli_fetch_array($resultado)) {
+                    echo "<li class='list-sesiones list-funcion ".$fila['id_conferencia']."'>".$fila['nombre_conferencia']."</li>";
+                    echo "<div class='detalles-sesiones' id=".$fila['id_conferencia'].">";
+                    echo "<p>".$fila['descripcion']."</p>";
+                      $sql2 = "SELECT * FROM usuarios WHERE id_conferencia = ".$fila['id_conferencia']." AND nivel = 2 ";
+                      $resultado2 = $conexion->consultar($sql2);
+                      echo "<div><strong class='espaciado'>CONFERENCISTAS:</strong></div>";
+                      while ($fila2 = mysqli_fetch_array($resultado2)) {
+                        echo "<div class='resumen_conferencista'><img class='foto-conferencista' src='http://www.congresoparques.com/sesiones/img/conferencistas/".$fila2['foto']."'>";
+                        echo "<a href='conferencista.php?id=".$fila2['id_usuario']."' class='link-conferencistas'>".$fila2['nombre']. "</a> - ";
+                        echo $fila2['cargo'].", ";
+                        echo $fila2['empresa']." </div>";
+                      }
+                    echo "</div>";
+                    ?>
+                    <script type="text/javascript">
+                    $(document).ready(function(){
+                        $(".<?php echo $fila['id_conferencia'] ?>").click(function(){
+                            $("#<?php echo $fila['id_conferencia'] ?>").fadeToggle();
+
+                        });
+                      });
+                    </script>
+                    <?php
+                      }
+                ?>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <div class="row collapse barra-secciones align-center">
+      <div class="column medium-2">
+        <a href="conferencias.php"><img src="img/btn-conferencias.png" alt=""></a>
+      </div>
+      <div class="column medium-2">
+        <a href="sesiones.php"><img src="img/btn-sesiones.png" alt=""></a>
+      </div>
+      <div class="column medium-2">
+        <a href="expo.php"><img src="img/btn-expo.png" alt=""></a>
+      </div>
+      <div class="column medium-2">
+        <a href="talleres.php"><img src="img/btn-talleres.png" alt=""></a>
+      </div>
+    </div>
 </main>
 
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.cinta-ponentes').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    slidesToScroll: 1
+    });
+  });
+</script>
 <?php include'assets/footer.php'; ?>

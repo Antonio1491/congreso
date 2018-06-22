@@ -13,12 +13,12 @@ session_start();
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Expositores | Congreso Internacional de Parques Urbanos</title>
-    <link rel="stylesheet" href="icons/foundation-icons.css">
+    <title>Expositores</title>
+    <?php  require("assets/head_common.php") ?>
+    <!-- <link rel="stylesheet" href="icons/foundation-icons.css">
     <link rel="stylesheet" href="css/foundation-flex.css">
-    <link type="text/css" href="css/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/app.css"> -->
 </head>
 <body onload="countdown('contador')">
 <?php include'assets/menu.php'; ?>
@@ -27,7 +27,7 @@ session_start();
     <div class="">
       <div class="row header header-7">
         <div class="column text-center">
-          <h3 class="titulos">EXPO PARQUES URBANOS</h3>
+          <h1 class="titulos">EXPOsitor</h1>
         </div>
       </div>
     </div>
@@ -121,11 +121,25 @@ session_start();
      <div class="row">
        <figure class="carga">
          <a href="mapa/index.html" target="_blank">
-           <img data-src="img/croquis-2.png" alt="Croquis del recinto" class="croquis" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+           <img data-src="img/mapa.jpg" alt="Croquis del recinto" class="croquis" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
          </a>
        </figure>
      </div>
  </article>
+ <div class="row collapse barra-secciones align-center">
+   <div class="column medium-2">
+     <a href="conferencias.php"><img src="img/btn-conferencias.png" alt=""></a>
+   </div>
+   <div class="column medium-2">
+     <a href="sesiones.php"><img src="img/btn-sesiones.png" alt=""></a>
+   </div>
+   <div class="column medium-2">
+     <a href="expo.php"><img src="img/btn-expo.png" alt=""></a>
+   </div>
+   <div class="column medium-2">
+     <a href="talleres.php"><img src="img/btn-talleres.png" alt=""></a>
+   </div>
+ </div>
 </main>
 
 <?php include'assets/footer.php'; ?>

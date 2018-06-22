@@ -43,8 +43,8 @@ session_start();
     </div>
     <div class="row">
       <div class="column medium-12">
-        <figure class="carga">
-          <img data-src="img/vuelos-1.jpg" alt="Vuelos Nacionales" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+        <figure >
+          <img data-src="img/vuelos-1.png" alt="Vuelos Nacionales">
         </figure>
       </div>
       <br>
@@ -56,9 +56,24 @@ session_start();
     </div>
     <div class="row">
       <div class="column medium-12">
-          <figure class="carga">
-            <img data-src="img/vuelos-2.jpg" alt="Vuelos Internacionales" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+          <figure >
+            <img data-src="img/vuelos-2.png" alt="Vuelos Internacionales" >
           </figure>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="column medium-3">
+        <a href="http://www.merida.gob.mx/capitalcultural/" target="_blank"><img src="img/turismo.png" alt=""></a>
+      </div>
+      <div class="column medium-3">
+          <a href="http://www.yucatan.travel/" target="_blank"><img src="img/turismo-yuc.png" alt="">
+      </div>
+      <div class="column medium-3">
+          <a href="conectividad.php" target=""><img src="img/conectividad.png" alt="">
+      </div>
+      <div class="column medium-3">
+          <a href="hospedajes.php" target=""><img src="img/hospedaje.png" alt="">
       </div>
     </div>
   </article>

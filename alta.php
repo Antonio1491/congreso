@@ -2,6 +2,7 @@
 require('clases.php');
 
 $conexion = new Conexion("localhost", "anprorgm_admin", "Admin_*2016", "anprorgm_registros");
+//$conexion = new Conexion("localhost", "root", "", "congreso");
 $conexion->conectar();
 $sql="INSERT INTO datos_fiscales VALUES (null, '".$_POST['rs']."','".$_POST['rfc']."','".$_POST['calle']."', '".$_POST['num_ext']."','".$_POST['num_int']."',
       '".$_POST['colonia']."','".$_POST['ciudad']."','".$_POST['estado']."','".$_POST['pais']."','".$_POST['cp']."', '".$_POST['representante']."',

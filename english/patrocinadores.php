@@ -32,77 +32,97 @@ session_start();
       </div>
     </div>
     <div class="row contenido">
-      <div class="column patrocinador-oro">
+      <div class="column medium-6 organiza">
+        <h4 class="text-center ">ORGANIZED BY </h4>
+      </div>
+      <div class="column medium-6 patrocinador-oro">
         <h4 class="text-center">GOLD</h4>
       </div>
     </div>
-    <div class="row contenido-oro">
-      <div class="column medium-4">
-        <a href="#"><img src="img/patrocinadores/kompan.png" alt=""></a>
+    <div class="row">
+      <div class="column medium-6 text-center">
+        <a href="#"><img src="img/patrocinadores/anpr.jpg" alt=""></a>
       </div>
-      <div class="column medium-4">
-        <a href="#"></a>
+      <div class="column medium-6 text-center">
+        <a href="#"><img src="img/patrocinadores/playclub.jpg" alt=""></a>
       </div>
-      <div class="column medium-4">
-        <a href="#"><img src="img/patrocinadores/play-club.png" alt=""></a>
+    </div>
+    <div class="row contenido text-center">
+      <div class="column medium-12 presentan">
+        <h4>PRESENTED BY</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column medium-6 text-center">
+        <a href="http://www.parquesdemexico.org/consultora/" target="_blank" title="Ir a www.parquesdemexico.org">
+          <img data-src="img/patrocinadores/parques-mexico.jpg" alt="Espacios Públicos y Parques de México" >
+        </a>
+      </div>
+      <div class="column medium-6 text-center">
+        <a href="https://www.gob.mx/sedatu" target="_blank" title="Ir a www.sedatu.gob">
+          <img data-src="img/patrocinadores/sedatu.jpg" alt="SEDATU" >
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column medium-6 text-center">
+        <a href="http://parquesalegres.org/" target="_blank" title="Ir a www.parquesalegres.org">
+          <img data-src="img/patrocinadores/parques-alegres.jpg" alt="Parques Alegres" >
+        </a>
+      </div>
+      <div class="column medium-6 text-center">
+        <a href="https://www.worldurbanparks.org/en/" target="_blank" title="Ir a www.worldurbanparks.org">
+          <img data-src="img/patrocinadores/urban-parks.jpg" alt="World urban Parks" >
+        </a>
       </div>
     </div>
     <div class="row contenido">
-      <div class="column patrocinador-plata">
+      <div class="column  medium-4 patrocinador-plata text-center">
         <h4 class="text-center">SILVER</h4>
       </div>
-    </div>
-    <div class="row contenido-plata">
-      <div class="column medium-4">
-        <a href="#"><img src="img/patrocinadores/marca-3.png" alt=""></a>
-      </div>
-      <div class="column medium-4">
-        <a href="#"><img src="img/patrocinadores/escofet.png" alt=""></a>
-      </div>
-      <div class="column medium-4">
-        <a href="#"><img src="img/patrocinadores/marca-6.png" alt=""></a>
-      </div>
-    </div>
-    <div class="row contenido">
-      <div class="column patrocinador-bronce">
+      <div class="column medium-8 patrocinador-bronce">
         <h4 class="text-center">BRONZE</h4>
       </div>
     </div>
-    <div class="row contenido-bronce">
+    <div class="row">
       <div class="column medium-4">
-        <a href="#"><a href="#"> <img src="img/patrocinadores/fundidora.png" alt=""></a></a>
+        <a href="#"><img src="img/patrocinadores/escofet.jpg" alt=""></a>
       </div>
       <div class="column medium-4">
-
+        <a href="http://www.deacero.com/es/" target="_blank">
+          <img src="img/patrocinadores/deacero.jpg" alt=""></a>
       </div>
       <div class="column medium-4">
-        <a href="http://www.deacero.com/es/" target="_blank"><img src="img/patrocinadores/deacero.png" alt=""></a>
+        <a href="#"> <img src="img/patrocinadores/parque-fundidora.jpg" alt=""></a>
       </div>
     </div>
+
 
     <div class="row contenido">
       <div class="column patrocinador-institucionales">
-        <h4 class="text-center">SOCIOS INSTITUCIONALES</h4>
+        <h4 class="text-center">INSTITUTIONAL PARTNERS</h4>
       </div>
     </div>
-    <div class="row contenido-institucionales" id="">
-      <div class="column shrink">
-        <a href="#"> <img src="img/patrocinadores/segob.png" alt=""></a>
+    <div class="row " id="">
+      <div class="column medium-4">
+        <a href="#"> <img src="img/patrocinadores/yucatan.jpg" alt=""></a>
       </div>
-      <div class="column shrink">
-        <a href="#"> <img src="img/patrocinadores/conade.png" alt=""></a>
+      <div class="column medium-4">
+        <a href="#"> <img src="img/patrocinadores/yucatan-travel.jpg" alt=""></a>
       </div>
-      <div class="column shrink">
-        <a href="#"> <img src="img/patrocinadores/world-urban-parks.png" alt=""></a>
+      <div class="column medium-4">
+        <a href="#"> <img src="img/patrocinadores/amimp.jpg" alt=""></a>
       </div>
-      <div class="column shrink">
-        <a href="#"> <img src="img/patrocinadores/infonavit.png" alt=""></a>
+    </div>
+    <div class="row " id="">
+      <div class="column medium-4">
+        <a href="#"> <img src="img/patrocinadores/merida-logo.jpg" alt=""></a>
       </div>
-      <div class="column shrink">
-        <a href="#"> <img src="img/patrocinadores/uady.png" alt=""></a>
+      <div class="column medium-4">
+        <a href="#"> <img src="img/patrocinadores/canadevi.jpg" alt=""></a>
       </div>
-      <div class="column shrink">
-        <a href="#"> <img src="img/patrocinadores/universidad-marista.png" alt=""></a>
+      <div class="column medium-4">
+        <a href="#"> <img src="img/patrocinadores/uady.jpg" alt=""></a>
       </div>
     </div>
   </article>

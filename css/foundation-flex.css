@@ -1466,7 +1466,7 @@ select {
   height: 0.5rem;
   margin-top: 1.25rem;
   margin-bottom: 2.25rem;
- background-color: #e6e6e6;  
+ /* background-color: #e6e6e6;   */
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;

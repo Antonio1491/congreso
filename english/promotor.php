@@ -43,7 +43,7 @@ session_start();
           <li>Complete registration for two days of the conference.</li>
           <li>Transportation from your city to Mérida</li>
           <li>Free lodging during the days of the event.</li>
-          <li>Entrance to the VIP cocktail where you will meet our keynote and educational session’s speakers.</li>
+          <li>Entrance to the VIP cocktail where you will meet our keynote and educational sessions speakers.</li>
           <li>Economic incentives for achieving goals. </li>
         </ol></br>
         <div class="text-center">

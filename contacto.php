@@ -13,12 +13,12 @@ session_start();
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto | Congreso Internacional de Parques Urbanos</title>
-    <link rel="stylesheet" href="icons/foundation-icons.css">
+    <title>Contacto y Sede</title>
+    <?php  require("assets/head_common.php") ?>
+    <!-- <link rel="stylesheet" href="icons/foundation-icons.css">
     <link rel="stylesheet" href="css/foundation-flex.css">
-    <link type="text/css" href="css/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/app.css"> -->
 </head>
 <body onload="countdown('contador')">
 <?php include'assets/menu.php'; ?>
@@ -27,29 +27,32 @@ session_start();
     <div class=" header header-8">
       <div class="row align-middle">
         <div class="column text-center">
-          <h3 class="titulos">LUGAR Y CONTACTO</h3>
+          <h1 class="titulos">CONTACTO Y SEDE</h1>
         </div>
       </div>
     </div>
-    <div class="row column contenido">
-      <!--  Sección contacto -->
+    <div class="row column video">
+      <video src="video/sede.mp4" autoplay  width="640" height="360" controls preload>
+      </video>
+    </div>
 
-      </div>
+
       <section id="contacto">
         <div class="row expanded ">
           <div class="column small-12 large-3 large-offset-3 medium-6  text-center">
+
             <div id="contenido-contacto">
               <h6>Centro Internacional de Congresos de Yucatán</h6>
               <h4>Yucatán</h4>
               <div class="info-contacto">
-                <i class="fi-telephone"></i> 99944060<br>
-                <i class="fi-mail"></i> info.congreso@anpr.org.mx
+                <i class="fi-telephone"></i> (999) 944 40 60<br>
+                <i class="fi-mail"></i> info@congresoparques.com
               </div>
               <span class="">
                 Si tienes dudas o comentarios<br> ¡Contáctanos!
               </span>
               <div>
-                <form id="form-contacto" action="https://formspree.io/info.congreso@anpr.org.mx" method="POST">
+                <form id="form-contacto" action="https://formspree.io/info@congresoparques.com" method="POST">
                   <input type="text" name="nombre" value="" placeholder="NOMBRE">
                   <input type="email" name="email" value="" placeholder="CORREO">
                   <textarea name="mensaje" rows="2" cols="80" placeholder="MENSAJE"></textarea>

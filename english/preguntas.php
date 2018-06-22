@@ -86,7 +86,7 @@ session_start();
           </div>
         </li>
         <li class="accordion-item" data-accordion-item>
-          <a href="#" class="accordion-title">7.-  How will attend the congress? </a>
+          <a href="#" class="accordion-title">7.-  Who will attend the congress? </a>
           <div class="accordion-content" data-tab-content>
             <p>This congress will bring together more than 1,000 leaders including urban planners, government officials, technicians, decision makers, academics, students, civil society and equipment suppliers from all over Mexico and Latin America.</p>
           </div>
@@ -125,19 +125,19 @@ session_start();
         <li class="accordion-item" data-accordion-item>
           <a href="#" class="accordion-title">11.-  WHAT IS THE COST OF THE CONGRESS?</a>
           <div class="accordion-content" data-tab-content>
-            <h6><a href="inscripcion.php">Público en general</a></h6>
+            <h6><a href="inscripcion.php">General Public</a></h6>
               <ul>
-                <li>Until October 1, 2017: $ 3,900.00</li>
-                <li>Until February 1, 2018: $ 4,500.00</li>
-                <li>From February 2, 2018 through April 27, 2018: $ 4,900.00</li>
+                <li>Until December 31st, 2017: $195 USD</li>
+                <li>From January 1st until March 1st, 2018: $225 USD</li>
+                <li>From March 2nd, 2018 through April 27, 2018: $245 USD</li>
             </br>
             <h6><a href="inscripcion.php">Students (With current credential):</a></h6>
-                <li>Until February 1, 2018: $ 1,500.00</li>
-                <li>From February 1, 2018 through April 27, 2018: $ 1,900.00</li>
+                <li>Until February 1, 2018: $75 USD</li>
+                <li>From February 1, 2018 through April 27, 2018: $95 USD</li>
             </br>
             <h6><a href="talleres.php">Workshops</a></h6>
                 <li>All the workshops that will take place on Wednesday, April 25 are charged separately from the cost of the congress.</li>
-                <li>The total investment of each workshop is: $ 750.00</li>
+                <li>The total investment of each workshop is: $25 USD</li>
               </ul>
           </div>
         </li>
@@ -156,7 +156,7 @@ session_start();
         <li class="accordion-item" data-accordion-item>
           <a href="#" class="accordion-title">14.- I WANT TO BE AN EDUCATIONAL SESSION SPEAKER. WHAT DO I HAVE TO DO?</a>
           <div class="accordion-content" data-tab-content>
-            <p>Our call for proposals for educational sessions closes on October 15, 2017. Click on the following link: convocatoria and follow the instructions.</p>
+            <p>Our call for proposals for educational sessions closes on October 15, 2017. Click on the following link:<a href="http://localhost/congreso/english/assets/formularios-sesiones-educativas-pre-aprobadas.pdf" target="_blank">download</a> convocatoria and follow the instructions.</p>
           </div>
         </li>
         <li class="accordion-item" data-accordion-item>

@@ -19,7 +19,7 @@ session_start();
     <link type="text/css" href="css/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
-</head>
+  </head>
 <body onload="countdown('contador')">
 <?php include'assets/menu.php'; ?>
 <main class="back-2">
@@ -34,6 +34,7 @@ session_start();
     <div class="row contenido">
       <div class="column">
         <p><span class="letra-capital">T</span>he workshops will be unique learning experiences one day before the educational sessions begin; parks and iconic spaces of the city and the state will be visited along with experts in the subject and collaborators of our host city. Without doubt the workshops are a great opportunity to extend our knowledge about the public space. These activities will take place on Wednesday, April 25th. It includes: lunch, transportation and materials.</p>
+        <p><strong>IMPORTANT: </strong> All of the workshops will be in Spanish. </p>
       </div>
     </div>
     <div class="row contenido align-center">
@@ -73,13 +74,13 @@ session_start();
     <div class="row fila-espacio align-center">
       <div class="column small-8 medium-3 large-3">
         <figure class="carga">
-          <img data-src="img/talleres/malecon-progreso.png" alt="Malecón de Puerto Progreso" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+          <img data-src="../img/talleres/gehl.png" alt="Malecón de Puerto Progreso" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
         </figure>
       </div>
       <div class="column small-12 medium-8 large-7 contenido-talleres ">
-        <h4 class="text-center">PROGRESO PIER</h4>
+        <h4 class="text-center">STUDYING PUBLIC LIFE IN URBAN PARKS AND PUBLIC SPACES</h4>
         <h6 class="text-center"></h6>
-        <p>This workshop will study a common public space on the coast, the pier; a space that links all kinds of people, from those who come to spend the day to Progreso, to the inhabitants of the city. All of the activities that are carried out and those that can be organized in these spaces, as well as the benefits that brings to the city will be a part of this workshop.</p>
+        <p>This 4-hour workshop will give an overview of public life—and why it matters for how we plan and make decisions about design and investment in the public realm. Many planners, designers, landscape architects, and engineers deal daily with the public spaces and systems that accommodate people, but do we really create these spaces for people? This session will provide a high-level introduction to the study of public life through Gehl Institute’s Public Life Toolkit, offer discussion of how observational analysis of what people do in public space can inform design and decision making, and share cases and examples from Gehl projects across a variety of global urban contexts that demonstrate the myriad ways that planning for people can be incorporated into strategies for sustainable urban development.</p>
       </div>
     </div>
     <div class="row fila-espacio align-center">
@@ -94,7 +95,7 @@ session_start();
         </figure>
       </div>
     </div>
-    <div class="row fila-espacio align-center">
+    <!-- <div class="row fila-espacio align-center">
       <div class="column small-8 medium-3">
         <figure class="carga">
           <img data-src="img/talleres/la-plancha.png" alt="Ex estación de trenes" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
@@ -105,7 +106,7 @@ session_start();
         <h6 class="text-center"></h6>
         <p>A tour will be organized inside "La Plancha", the nickname of former train station of Mérida. We’ll get to know the history of the site, and the present citizen project that exists to transform it into the central park of Merida. With an area of more than 25 hectares, "La Plancha", is a space filled of history and industrial archeology. For over 2 years neighbors and social groups work hand in hand with the government to transform it into a large metropolitan park.</p>
       </div>
-    </div>
+    </div> -->
     <div class="row fila-espacio align-center">
       <div class="column small-order-2 medium-order-1 medium-8 large-7 medium-offset-1 large-offset-2 contenido-talleres ">
         <h4 class="text-center">LINEAR PARKS</h4>
@@ -154,7 +155,43 @@ session_start();
         <p>This is a great opportunity to learn everything you need to develop an urban garden in your park. The experts will teach you the best techniques to be able to have successful crops. In addition we will visit one of the most important nursery in the city, in charge of a civil association whose objective is the improvement of the environment through planting trees and environmental education.</p>
       </div>
     </div>
+    <div class="row fila-espacio align-center">
+      <div class="column small-order-2 medium-order-1 medium-8 large-7 medium-offset-1 large-offset-2 contenido-talleres ">
+        <h4 class="text-center">SPORTS AND RECREATIONAL CENTERS</h4>
+        <h6 class="text-center"></h6>
+        <p>These centers are specialized spaces for playing sports, since they have the appropriate
+          infrastructure, as well as a wide range of activities and classes for anyone interested
+          in being part of them. In the same way, they foster relationships among groups of teenagers
+          since these centers can become multifunctional; a place where they can play sports, have fun,
+          do homework and spend the afternoon in. Learn about Merida's experience managing these sites.</p>
+          <div class="info-taller">
+            <!-- <span>Día:</span> 25 de Abril. -
+            <span>Horario:</span> de 9am a 2pm. -
+            <span>$750 MXN</span> -->
+          </div>
+      </div>
+      <div class="column small-8 medium-3 small-order-1 medium-order-2">
+        <figure class="carga">
+          <img data-src="../img/talleres/taller-deporte.png" alt="Taller Bici-Ruta en Mérida" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+        </figure>
+      </div>
+    </div>
   </article>
+  <hr>
+  <div class="row collapse barra-secciones align-center">
+    <div class="column medium-2">
+      <a href="conferencias.php"><img src="img/btn-conferencias.png" alt=""></a>
+    </div>
+    <div class="column medium-2">
+      <a href="sesiones.php"><img src="img/btn-sesiones.png" alt=""></a>
+    </div>
+    <div class="column medium-2">
+      <a href="expo.php"><img src="img/btn-expo.png" alt=""></a>
+    </div>
+    <div class="column medium-2">
+      <a href="talleres.php"><img src="img/btn-talleres.png" alt=""></a>
+    </div>
+  </div>
 </main>
 
 <?php include'assets/footer.php'; ?>

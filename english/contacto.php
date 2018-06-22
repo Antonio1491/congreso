@@ -31,10 +31,10 @@ session_start();
         </div>
       </div>
     </div>
-    <div class="row column contenido">
-      <!--  Sección contacto -->
-
-      </div>
+    <div class="row column video">
+      <video src="video/sede.mp4" autoplay  width="640" height="360" controls preload>
+      </video>
+    </div>
       <section id="contacto">
         <div class="row expanded ">
           <div class="column small-12 large-3 large-offset-3 medium-6  text-center">
@@ -50,9 +50,9 @@ session_start();
               </span>
               <div>
                 <form id="form-contacto" action="https://formspree.io/info.congreso@anpr.org.mx" method="POST">
-                  <input type="text" name="nombre" value="" placeholder="NOMBRE">
-                  <input type="email" name="email" value="" placeholder="CORREO">
-                  <textarea name="mensaje" rows="2" cols="80" placeholder="MENSAJE"></textarea>
+                  <input type="text" name="nombre" value="" placeholder="NAME">
+                  <input type="email" name="email" value="" placeholder="E-MAIL">
+                  <textarea name="mensaje" rows="2" cols="80" placeholder="MESSAGE"></textarea>
                   <input type="submit" name="" value="SUBMIT" class="button small">
                 </form>
               </div>

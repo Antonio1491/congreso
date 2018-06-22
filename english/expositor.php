@@ -117,11 +117,26 @@ session_start();
      <div class="row">
        <figure class="carga">
          <a href="mapa/index.html" target="_blank">
-           <img data-src="img/croquis-2.png" alt="Croquis del recinto" class="croquis" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+           <img data-src="../img/mapa.jpg" alt="Croquis del recinto" class="croquis" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
          </a>
        </figure>
      </div>
  </article>
+ <hr>
+ <div class="row collapse barra-secciones align-center">
+   <div class="column medium-2">
+     <a href="conferencias.php"><img src="img/btn-conferencias.png" alt=""></a>
+   </div>
+   <div class="column medium-2">
+     <a href="sesiones.php"><img src="img/btn-sesiones.png" alt=""></a>
+   </div>
+   <div class="column medium-2">
+     <a href="expo.php"><img src="img/btn-expo.png" alt=""></a>
+   </div>
+   <div class="column medium-2">
+     <a href="talleres.php"><img src="img/btn-talleres.png" alt=""></a>
+   </div>
+ </div>
 </main>
 
 <?php include'assets/footer.php'; ?>

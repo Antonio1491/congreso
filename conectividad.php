@@ -14,11 +14,11 @@ session_start();
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conectividad</title>
-    <link rel="stylesheet" href="icons/foundation-icons.css">
+    <?php  require("assets/head_common.php") ?>
+    <!-- <link rel="stylesheet" href="icons/foundation-icons.css">
     <link rel="stylesheet" href="css/foundation-flex.css">
-    <link type="text/css" href="css/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/app.css"> -->
 </head>
 <body onload="countdown('contador')">
 <?php include'assets/menu.php'; ?>
@@ -27,7 +27,7 @@ session_start();
     <div class=" header header-1">
       <div class="row align-middle">
         <div class="column text-center">
-          <h3 class="titulos">CONECTIVIDAD</h3>
+          <h1 class="titulos">CONECTIVIDAD</h1>
         </div>
       </div>
     </div>
@@ -47,8 +47,8 @@ session_start();
     </div>
     <div class="row">
       <div class="column medium-12">
-        <figure class="carga">
-          <img data-src="img/vuelos-1.jpg" alt="Vuelos Nacionales para el congreso de parques urbanos" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+        <figure >
+          <img data-src="img/vuelos-1.png" alt="Vuelos Nacionales para el congreso de parques urbanos" >
         </figure>
       </div>
       <br>
@@ -60,10 +60,26 @@ session_start();
     </div>
     <div class="row">
       <div class="column medium-12">
-          <figure class="carga">
-            <img data-src="img/vuelos-2.jpg" alt="Vuelos Internacionales para el congreso de parques urbanos" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+          <figure >
+            <img data-src="img/vuelos-2.png" alt="Vuelos Internacionales para el congreso de parques urbanos" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </figure>
       </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="column medium-3">
+        <a href="http://www.merida.gob.mx/capitalcultural/" target="_blank"><img src="img/turismo.png" alt=""></a>
+      </div>
+      <div class="column medium-3">
+          <a href="http://www.yucatan.travel/" target="_blank"><img src="img/turismo-yuc.png" alt="">
+      </div>
+      <div class="column medium-3">
+          <a href="conectividad.php" target=""><img src="img/conectividad.png" alt="">
+      </div>
+      <div class="column medium-3">
+          <a href="hospedajes.php" target=""><img src="img/hospedaje.png" alt="">
+      </div>
+
     </div>
   </article>
 </main>

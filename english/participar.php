@@ -31,31 +31,111 @@ session_start();
         </div>
       </div>
     </div>
-    <div class="row contenido">
-      <div class="column small-12 medium-6">
-        <p><span class="letra-capital">T</span>he First Congress of Urban Parks is the first edition of an event that will be held annually to gather and train professionals, public officials, decision makers, academics, students, civil society and suppliers related to the public space in the same place to boost the urban parks industry and recreation in Mexico, creating a space of three days of training, conferences, workshops and commercial exhibit.</p>
-        <p>This event will help professionals in the park industry to increase in number and knowledge, to expand their businesses and develop relationships with other assistants.</p>
-        <p>If you are still not convinced to attend this congress, we share some of the reasons why you should attend:</p>
-        <ul>
-          <li>The congress will have: 8 keynote presentations, more than 50 educational sessions and 9 workshops.</li>
-          <li>You will establish lasting relationships with other national and international professionals with similar interests and ideas.</li>
-          <li>You will be part of the beginning of the great social movement of the parks in Mexico.</li>
-        </ul>
+    <div class="row contenido beneficios">
+      <div class="column medium-3">
+        <img src="img/tips.png" alt="">
       </div>
-      <div class="column small-12 medium-6">
-        <ul>
-          <li>You'll learn key topics about parks and recreation industry with the opportunity to specialize in one of our educational sessions themes.</li>
-          <li>Choose which educational sessions to attend and obtain a certification validating your participation and acquired knowledge with an 80% attendance.</li>
-          <li>Obtain a National Parks and Recreation Association’s annual membership included in your registration fee.</li>
-          <li>Meet the wide range of public space equipment suppliers and do business with them.</li>
-          <li>You will have the opportunity to know new projects related to public space, besides meeting leaders in the industry.</li>
-          <li>Social events in attractive places of the city.</li>
-          <li>You will know professionals who are facing similar challenges to yours.</li>
-        </ul>
+      <div class="column medium-9">
+        <h4>BENEFITS OF ATTENDING THE CONGRESS</h4>
+        <ol type="A">
+          <li>Learn more about parks and public spaces from the best speakers in the world.</li>
+          <li>Grow your PR databases.</li>
+          <li>Meet the most important industry suppliers in Mexico and the United States, market trends, new products, prices, qualities and opportunities.</li>
+          <li>Learn from success stories about parks and public spaces happening in Mexico and Latin America.</li>
+          <li>Bring to your organization new ideas for the development of projects.</li>
+          <li>Obtain a professional certificate granted by the National Recreation and Park Association of Mexico.</li>
+          <li>Obtain an annual membership to the National Recreation and Park Association of Mexico, already included in your registration.</li>
+          <li>Your will be able to download the material from all educational sessions at the end of the Congress.</li>
+          <li>Visit the most emblematic parks and public spaces in Merida learning how the citizens and the government solved problems and challenges working together.</li>
+          <li>To collaborate with the Mexican community dedicated to the maintenance, administration and management of the urban parks to put them in the Mexican and Latinamerican agenda in order to improve the social fabric of our cities.</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="row ">
+      <div class="column text-center">
+        <figure>
+          <img src="img/convencer-a-mi-jefe.png" alt="">
+        </figure>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column medium-8">
+        <img src="img/programa.png" alt="">
+      </div>
+      <div class="column-4">
+        <a href="assets/PROGRAMA-PRELIMINAR.pdf" target="_blank">
+          <img src="img/btn-descarga-programa.png" alt="">
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column medium-4">
+        <img src="img/conoce.png" alt="">
+      </div>
+      <div class="column medium-8">
+        <ol type="A">
+          <li>Before you can talk with your boss about your possible participation in the Congress, it is important that you thoroughly know the structure of it; the dates, schedule, logistics, types of educational sessions, speakers and investment to be made.</li>
+          <li>Through knowing all this information, set short and long term goals that can help you improve your daily work. Telling your boss these improvements could be supported by the congress is really important. </li>
+        </ol>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column medium-8">
+        <img src="img/agenda.png" alt="">
+      </div>
+      <div class="column-4">
+        <a href="sesiones.php">
+          <img src="img/btn-consultar.png" alt="">
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column medium-4">
+        <img src="img/planea-sesiones.png" alt="">
+      </div>
+      <div class="column medium-8">
+        <ol type="A">
+          <li>Align your work goals and those of your organization with the objectives of the conferences and workshops you would like to attend. The best way to justify your attendance at the Congress is that what you are going to learn will help you to do your job better.</li>
+          <li>Establish an agenda of contacts and plan what speaker or company you could approach. Plan for these approaches to be of interest for your organization to establish a relationship with.</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column medium-8">
+        <img src="img/razones.png" alt="">
+      </div>
+      <div class="column-4">
+        <a href="#beneficios">
+          <img src="img/btn-subir.png" alt="">
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column medium-4">
+        <img src="img/razones-2.png" alt="">
+      </div>
+      <div class="column medium-8">
+        <ol type="A">
+          <li>The benefits listed above of this section, could help you to make that list.</li>
+        </ol>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column medium-8">
+        <img src="img/titulo-carta.png" alt="">
+      </div>
+      <div class="column-4">
+        <a href="assets/Carta.docx"><img src="img/btn-carta.png" alt=""></a>
+      </div>
+    </div>
+
+      <div class="column text-center">
+        <img src="img/carta.png" alt="">
       </div>
     </div>
   </article>
-
 </main>
 
 

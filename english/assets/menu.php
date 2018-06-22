@@ -13,6 +13,7 @@
                   <li><a href="sesiones.php">EDUCATIONAL SESSIONS</a></li>
                   <li><a href="talleres.php">WORKSHOPS</a></li>
                   <li><a href="programa.php">SCHEDULE AT GLANCE</a></li>
+                  <li><a href="conferencistas.php">SPEAKERS</a></li>
                   <li><a href="patrocinadores.php">SPONSORS AND PARTNERS</a></li>
             </ul>
           </li>
@@ -55,7 +56,7 @@
             </div>
           </div>
           <div class="shrink column " id="idiomas">
-            <a href="http://www.anpr.org.mx/congreso"><img src="img/mex.png" alt="Español"></a>
+            <a href="http://www.congresoparques.com"><img src="img/mex.png" alt="Español"></a>
             <a href="index.php"><img src="img/usa.png" alt="Englis"></a>
           </div>
           <div class="colum contenido-contador">
@@ -89,14 +90,16 @@
                   <li><a href="sesiones.php">EDUCATIONAL SESSIONS</a></li>
                   <li><a href="talleres.php">WORKSHOPS</a></li>
                   <li><a href="programa.php">SCHEDULE AT GLANCE</a></li>
+                  <li><a href="conferencistas.php">SPEAKERS</a></li>
                   <li><a href="patrocinadores.php">SPONSORS AND PARTNERS</a></li>
                   </ul>
                 </li>
                 <li><a href="expo.php">Urban Parks Expo</a></li>
                 <li><a href="#">Participate</a>
                   <ul class="menu  sub-menu-central">
-                    <li><a href="convocatoria-sesiones.php">CALL FOR PROPOSALS 2018</a></li>
+
                     <li><a href="inscripcion.php">REGISTRATION</a></li>
+                    <li><a href="convocatoria-sesiones.php">CALL FOR PROPOSALS 2018</a></li>
                     <li><a href="participar.php">WHY PARTICIPATE?</a></li>
                     <li><a href="promotor.php">Do you want to be a promoter?</a></li>
                     <li><a href="preguntas.php">FREQUENT ASKED QUESTIONS</a></li>
@@ -111,6 +114,7 @@
                     <li><a href="hospedajes.php">LODGING</a></li>
                     <li><a href="conectividad.php">AIR CONNECTIVITY</a></li>
                     <li><a href="http://www.merida.gob.mx/capitalcultural/" target="_blank">TOURISM IN MÉRIDA</a></li>
+                    <li><a href="http://www.yucatan.travel/?lang=en" target="_blank">TOURISM IN YUCATÁN</a></li>
                   </ul>
                 </li>
 

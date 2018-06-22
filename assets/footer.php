@@ -1,15 +1,15 @@
 <!--   footer  -->
 <footer>
   <div class="row align-justify text-center">
-    <div class="column small-6 medium-3 small-order-1 medium-order-1">
+    <div class="column small-6 medium-2 small-order-1 medium-order-1">
       <a href="participar.php"><img data-src="img/congreso-parques-logo-gris.png" alt="1er Congreso de Parques Urbanos"></a>
     </div>
-    <div class="column small-12 medium-6 small-order-3 medium-order-2">
+    <div class="column small-12 medium-8 small-order-3 medium-order-2" id="cabecera-footer">
       <h5>CONGRESO INTERNACIONAL DE PARQUES URBANOS</h5>
-      <h4>25 AL 27 DE ABRIL 2018 - MÉRIDA, YUCATÁN, MÉXICO</h4>
-      <h6>Presentado por La Asociación Nacional de Parques y Recreación México.</h6>
+      <h4>14 al 17 de MAYO 2019 - MONTERREY, NUEVO LEÓN, MÉXICO</h4>
+      <h6>Presentado por la Asociación Nacional de Parques y Recreación México.</h6>
     </div>
-    <div class="column small-6 medium-3 small-order-2 medium-order-3">
+    <div class="column small-6 medium-2 small-order-2 medium-order-3">
       <a href="http://anpr.org.mx/"><img data-src="img/parques-urbanos-logo-anpr.png" alt="Asociación Nacional de Parques y Recreación"></a>
     </div>
   </div>
@@ -47,6 +47,7 @@
             <li><a href="contacto.php">Contacto</a></li>
             <li><a href="aviso-legal.php">aviso legal</a></li>
             <li><a href="privacidad.php">política de privacidad</a></li>
+            <li><a href="bases-concurso.php">bases del concurso</a></li>
           </ul>
       </div>
       <div class="column">
@@ -63,7 +64,7 @@
       <!-- //Ménu footer -->
   </footer>
   <div class="row column expanded align-center" id="pie">
-    <p><a href="http://anpr.org.mx/" target="_blank">© 2017 Asociación Nacional de Parques y Recreación</a></p>
+    <p><a href="http://anpr.org.mx/" target="_blank">© 2018 Asociación Nacional de Parques y Recreación</a></p>
   </div>
 
 </div>
@@ -71,6 +72,19 @@
 </div>
 </div>
 <!--   /footer  -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.8.2/blazy.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+<script src="js/vendor/what-input.js"></script>
+<script src="js/vendor/foundation.js"></script>
+<script src="js/app.js"></script>
+
+<script type="text/javascript">
+var bLazy = new Blazy({
+  selector:'img'
+  });
+</script>
 <!-- cdn de belazy para la carga de imagenes-->
 <script type="text/javascript">
   function countdown(id){
@@ -99,25 +113,7 @@
             }
         }
 </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.8.2/blazy.min.js"></script>
-<script type="text/javascript">
-var bLazy = new Blazy({
-  selector:'img'
-  });
-
-</script>
-<script>/*google analytics*/
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-100039379-1', 'auto');
-    ga('send', 'pageview');
-</script>
 <!--  slick  -->
-
-
 <script type="text/javascript">
     $(document).ready(function(){
       $('.marquee').slick({
@@ -129,13 +125,33 @@ var bLazy = new Blazy({
       });
     });
   </script>
-<!---->
-<!--<script src="js/vendor/jquery.js"></script>-->
-<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-<script src="js/vendor/what-input.js"></script>
-<script src="js/vendor/foundation.js"></script>
-<script src="js/app.js"></script>
+    <script>/*google analytics*/
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+        ga('create', 'UA-100039379-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+<!---->
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '401710473607617');
+  fbq('track', 'PageView');
+</script>
+<noscript>
+  <img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=401710473607617&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
 </body>
 </html>

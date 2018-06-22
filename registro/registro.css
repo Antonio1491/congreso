@@ -1,0 +1,53 @@
+header{
+  height: 65px;
+  background-color: #3F2B56;
+  color: #ffffff;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  padding-left: 1em;
+}
+header h4{
+  border-left: 2px solid #ffffff;
+  margin-left: 1em;
+  padding-left:8px;
+}
+.logo-header img{
+  height: 40px;
+}
+input[type=submit] {
+  background: #3F2B56;
+}
+input[type=submit]:hover{
+  background-color: #00AAA7;
+}
+.titulo{
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.container{
+  display: grid;
+  grid-template-columns:40% 60%;
+  grid-template-rows: 700px;
+}
+.item{
+  margin: 20px;
+}
+.encabezado{
+  background-color: #00AAA7;
+  color: #ffffff;
+  padding: 10px 10px 10px 10px;
+  font-weight: bold;
+  letter-spacing: .5px;
+  margin-bottom: 1em;
+}
+.Instrucciones{
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+.Instrucciones span{
+  font-weight: bold;
+}
+form label, form{
+  color: #595857;
+}

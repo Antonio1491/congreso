@@ -48,7 +48,7 @@ session_start();
           <h6 class="text-center">CITY AND PARKS FOR LIFE</h6>
         </div>
         <h5 class="text-center">Martha Fajardo</h5>
-        <h6 class="text-center">Grupo Verde - Colombia</h6>
+        <h6 class="text-center">General Manager, Grupo Verde Ltda -  Colombia</h6>
       </div>
       <div class="column small-9 medium-3 large-2">
         <figure class="carga">
@@ -60,34 +60,34 @@ session_start();
           <h6 class="text-center ">GREAT PARKS AND GREAT CITIES</h6>
         </div>
         <h5 class="text-center">Mario Schjetnan</h5>
-        <h6 class="text-center">Grupo de Diseño Urbano - México</h6>
+        <h6 class="text-center">Director Grupo de Diseño Urbano - México</h6>
       </div>
 
     </div>
     <div class="row align-center fila-espacio2">
       <div class="column small-9 medium-3 large-2">
         <figure class="carga">
-          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="img/conferencistas/robert-hammond.png" alt="Robert Hammond">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="img/conferencistas/guillermo-penalosa.png" alt="Robert Hammond">
         </figure>
       </div>
       <div class="column small-10 medium-3 large-4 contenido-magistrales ">
         <div class="titulo-conferencia">
-          <h6 class="text-center ">BUILDING A PARK IN THE SKY</h6>
+          <h6 class="text-center ">CITIES 8 80</h6>
         </div>
-        <h5 class="text-center">Robert Hammond</h5>
-        <h6 class="text-center">Executive Director, Friends of the High Line</h6>
+        <h5 class="text-center">Gil (Guillermo) Penalosa</h5>
+        <h6 class="text-center">Founder and Chair, 8 80 Cities / Chair World Urban Parks. Canada/Colombia</h6>
       </div>
       <div class="column small-9 medium-3 large-2">
         <figure class="carga">
-          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="img/conferencistas/barbara-tulipane.png" alt="Barbara Tulipane">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="img/conferencistas/leon.png" alt="Leon Andrews">
         </figure>
       </div>
       <div class="column small-10 medium-3 large-4 contenido-magistrales ">
         <div class="titulo-conferencia">
-          <h6 class="text-center ">Empowering Parks for the Future </h6>
+          <h6 class="text-center ">EMPOWERING PARKS FOR THE FUTURE</h6>
         </div>
-        <h5 class="text-center">Barbara Tulipane</h5>
-        <h6 class="text-center">Directora Ejecutiva, NRPA - E.E.U.U.</h6>
+        <h5 class="text-center">Leon Andrews</h5>
+        <h6 class="text-center">Chair of the NRPA Board of Directors</h6>
       </div>
     </div>
     <div class="row align-center fila-espacio2">
@@ -98,10 +98,10 @@ session_start();
       </div>
       <div class="column small-10 medium-3 large-4 contenido-magistrales ">
         <div class="titulo-conferencia">
-          <h6 class="text-center ">INNOVATIVE PARKS FOR EMERGING CITIES</h6>
+          <h6 class="text-center ">FROM FITNESS ZONES TO THE MEDICAL MILE: HOW URBAN PARK SYSTEMS CAN BEST PROMOTE HEALTH AND WELLNESS</h6>
         </div>
         <h5 class="text-center">Peter Harnik</h5>
-        <h6 class="text-center">Centro de Excelencia de Parques - E.E.U.U.</h6>
+        <h6 class="text-center">Founder and Former Director, Center for City Park Excellence – USA</h6>
       </div>
       <div class="column small-9 medium-3 large-2">
         <figure class="carga">
@@ -110,10 +110,10 @@ session_start();
       </div>
      <div class="column small-10 medium-3 large-4 contenido-magistrales ">
         <div class="titulo-conferencia">
-          <h6 class="text-center">MEDELLIN FROM THE PUBLIC SPACES</h6>
+          <h6 class="text-center">MEDELLÍN, A CITY FOR PUBLIC LIFE</h6>
         </div>
         <h5 class="text-center">Jorge Pérez Jaramillo</h5>
-        <h6 class="text-center">Former Director of the Administrative Department of Planning of Medallín - Colombia</h6>
+        <h6 class="text-center">Former Director of the Planning Department, Medellín - Colombia</h6>
       </div>
     </div>
     <div class="row align-center fila-espacio">
@@ -127,7 +127,7 @@ session_start();
           <h6 class="text-center ">PARKS AND RECREATION, HOW TO BE RELEVANT IN THE PRESENT?</h6>
         </div>
         <h5 class="text-center">Tom O'Rourke</h5>
-        <h6 class="text-center">Director de la escuela de directores de la NRPA</h6>
+        <h6 class="text-center">Former Executive Director of the Charleston County Park and Recreation Commission and Professor of Practice at Clemson University - USA</h6>
       </div>
       <div class="column small-9 medium-3 large-2">
         <figure class="carga">
@@ -136,10 +136,51 @@ session_start();
       </div>
       <div class="column small-10 medium-3 large-4 contenido-magistrales ">
         <div class="titulo-conferencia">
-          <h6 class="text-center ">THE PUBLIC SPACE AND THE PARKS AS A MULTIFUNCTIONAL METROPOLITAN INFRASTRUCTURE</h6>
+          <h6 class="text-center ">PUBLIC SPACE AND PARKS AS A MULTIFUNCTIONAL METROPOLITAN INFRASTRUCTURE</h6>
         </div>
         <h5 class="text-center">Iñaki Echeverria</h5>
-        <h6 class="text-center">Director General Iñaki Echeverria México</h6>
+        <h6 class="text-center">Director, Iñaki Echeverria – México</h6>
+      </div>
+    </div>
+    <div class="row  fila-espacio">
+      <div class="column small-9 medium-3 large-2">
+        <figure class="carga">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="../img/conferencistas/Orlando-molano.png" alt="Tom O-Rourke">
+        </figure>
+      </div>
+      <div class="column small-10 medium-3 large-4 contenido-magistrales ">
+        <div class="titulo-conferencia">
+          <h6 class="text-center ">Large cities in Latin America. Success stories and challenges of the public space.</h6>
+        </div>
+        <h5 class="text-center">Orlando Molano </h5>
+        <h6 class="text-center">Director General, District Institute for Recreation and Sports - Bogotá, Colombia.</h6>
+      </div>
+      <div class="column small-9 medium-3 large-2">
+        <figure class="carga">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="../img/conferencistas/Tanya Muller.png" alt="Tania Müller">
+        </figure>
+      </div>
+      <div class="column small-10 medium-3 large-4 contenido-magistrales ">
+        <div class="titulo-conferencia">
+          <h6 class="text-center ">LARGE CITIES IN LATIN AMERICA. SUCCESS STORIES AND CHALLENGES OF THE PUBLIC SPACE.</h6>
+        </div>
+        <h5 class="text-center"><a href="conferencista_magistral.php?id=8">Tanya Müller</a></h5>
+        <h6 class="text-center">Secretary of Environment of Mexico City </h6>
+      </div>
+
+    </div>
+    <div class="row collapse barra-secciones align-center">
+      <div class="column medium-2">
+        <a href="conferencias.php"><img src="img/btn-conferencias.png" alt=""></a>
+      </div>
+      <div class="column medium-2">
+        <a href="sesiones.php"><img src="img/btn-sesiones.png" alt=""></a>
+      </div>
+      <div class="column medium-2">
+        <a href="expo.php"><img src="img/btn-expo.png" alt=""></a>
+      </div>
+      <div class="column medium-2">
+        <a href="talleres.php"><img src="img/btn-talleres.png" alt=""></a>
       </div>
     </div>
   </article>

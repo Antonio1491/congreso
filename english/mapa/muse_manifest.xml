@@ -1,0 +1,91 @@
+<manifest alg="2" build="2017.0.1.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="congresoparques.com/croquis" resolutions="1x" timestamp="1510696715784">
+  <folder name="css">
+    <file name="site_global.css" crc="4262784248"/>
+    <file name="index.css" crc="4155369760" ref="index"/>
+    <file name="nomq_index.css" crc="3887155611" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="4148063285" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="172512987" ref="index"/>
+    <file name="webpro.js" crc="3986320349" ref="index"/>
+    <file name="musewpslideshow.js" crc="405464237" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="305414130" ref="index"/>
+    <file name="touchswipe.js" crc="221459597" ref="index"/>
+    <file name="jquery.watch.js" crc="437028206" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="3991890305" ref="index"/>
+    <file name="require.js" crc="4159430777" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="logo-congreso-01.svg" crc="4128261330" seo="true" ref="index"/>
+    <file name="logo congreso-01_poster_.png" crc="455077136" ref="index"/>
+    <file name="exhibition-ing.svg" crc="128425519" seo="true" ref="index"/>
+    <file name="exhibition-ing_poster_.png" crc="4096822869" ref="index"/>
+    <file name="reja-06.png" crc="322204791" seo="true" ref="index"/>
+    <file name="logo parque fundidora-crop-u12653.png" crc="3937212319" ref="index"/>
+    <file name="logo patrocinadores3-03-crop-u172.png" crc="127964879" ref="index"/>
+    <file name="rain-drop-logo.png" crc="4083710892" seo="true" ref="index"/>
+    <file name="logo_recreatecbb_act.png" crc="3849902727" seo="true" ref="index"/>
+    <file name="sedatu_logo_2013.png" crc="56697699" seo="true" ref="index"/>
+    <file name="logo play vectores-01-crop-u144.png" crc="92126778" ref="index"/>
+    <file name="789_jumbopng.png" crc="3926531221" seo="true" ref="index"/>
+    <file name="1416382925-logo_poenvironnement_pant362_600dpi.png" crc="493656419" seo="true" ref="index"/>
+    <file name="recurso 1.png" crc="378639729" seo="true" ref="index"/>
+    <file name="recurso 2ber.png" crc="459839949" seo="true" ref="index"/>
+    <file name="ansof.png" crc="466962675" seo="true" ref="index"/>
+    <file name="logo-conade.png" crc="275052577" seo="true" ref="index"/>
+    <file name="logo de divertimundo internacional, sa de cv.png" crc="301684373" seo="true" ref="index"/>
+    <file name="logo_mupa_final_2016.png" crc="371270138" seo="true" ref="index"/>
+    <file name="rogusalogo.png" crc="315861071" seo="true" ref="index"/>
+    <file name="download.png" crc="231433427" seo="true" ref="index"/>
+    <file name="logo mf colores sin fondo.png" crc="3925096025" seo="true" ref="index"/>
+    <file name="logo2wg.png" crc="439987754" seo="true" ref="index"/>
+    <file name="actipark_logo vectorizado.png" crc="4108105291" seo="true" ref="index"/>
+    <file name="anpr-logo-01.png" crc="499595188" seo="true" ref="index"/>
+    <file name="logo mmcite_7.png" crc="414259276" seo="true" ref="index"/>
+    <file name="2fd4b70bde314e46b414c284e83287d8-crop-u1563.jpg" crc="3944934746" ref="index"/>
+    <file name="logo _terzasc-01.png" crc="4242798652" seo="true" ref="index"/>
+    <file name="urbano-logo-0259x37.png" crc="14712391" seo="true" ref="index"/>
+    <file name="logo soportec-300 dpi.png" crc="42447684" seo="true" ref="index"/>
+    <file name="branding01-1.png" crc="3981754826" seo="true" ref="index"/>
+    <file name="systeco mx logo.png" crc="329790273" seo="true" ref="index"/>
+    <file name="colors garden-logo-sin fondo.png" crc="4025301730" seo="true" ref="index"/>
+    <file name="logo plastimadera_altaresolucion_2017.png" crc="140667449" seo="true" ref="index"/>
+    <file name="bronce.png" crc="4202270690" seo="true" ref="index"/>
+    <file name="logo parque fundidora.png" crc="4251889979" seo="true" ref="index"/>
+    <file name="logo_escofet.png" crc="4019857223" seo="true" ref="index"/>
+    <file name="plata.png" crc="299123774" seo="true" ref="index"/>
+    <file name="rain-drop-logo-crop-u244.png" crc="82593662" ref="index"/>
+    <file name="logo_recreatecbb_act-crop-u260.png" crc="3790243500" ref="index"/>
+    <file name="sedatu_logo_20132.png" crc="27312360" seo="true" ref="index"/>
+    <file name="logo play vectores-01.png" crc="107978718" seo="true" ref="index"/>
+    <file name="oro.png" crc="3778052593" seo="true" ref="index"/>
+    <file name="u282-10.png" crc="4091105959" ref="index"/>
+    <file name="logo-conade2.png" crc="3982714526" seo="true" ref="index"/>
+    <file name="logo de divertimundo internacional, sa de cv.jpg" crc="4286454424" seo="true" ref="index"/>
+    <file name="logo-mupa.jpg" crc="316268654" seo="true" ref="index"/>
+    <file name="inoplay_logo.jpg" crc="3836948571" seo="true" ref="index"/>
+    <file name="logo mf colores sin fondo2.png" crc="4266959512" seo="true" ref="index"/>
+    <file name="logo2wg-crop-u301.jpg" crc="3873688117" ref="index"/>
+    <file name="u300-15.png" crc="4012600126" ref="index"/>
+    <file name="2fd4b70bde314e46b414c284e83287d8.jpg" crc="335309898" seo="true" ref="index"/>
+    <file name="urbano-logo-02.png" crc="4017633159" seo="true" ref="index"/>
+    <file name="imagenia.png" crc="436097985" seo="true" ref="index"/>
+    <file name="logo patrocinadores3-03-crop-u1722.png" crc="4245539174" ref="index"/>
+    <file name="logo play vectores-01-crop-u1442.png" crc="42282733" ref="index"/>
+    <file name="2fd4b70bde314e46b414c284e83287d8-crop-u15632.jpg" crc="3933932453" ref="index"/>
+    <file name="urbano-logo-0240x26.png" crc="334348637" seo="true" ref="index"/>
+    <file name="systeco mx logo-crop-u15181.png" crc="3928631718" ref="index"/>
+    <file name="rain-drop-logo-crop-u2442.png" crc="4232418266" ref="index"/>
+    <file name="logo_recreatecbb_act-crop-u2602.png" crc="3790243500" ref="index"/>
+    <file name="u282-102.png" crc="169069103" ref="index"/>
+    <file name="logo2wg-crop-u3012.jpg" crc="3873688117" ref="index"/>
+    <file name="u300-152.png" crc="99103248" ref="index"/>
+    <file name="urbano-logo-02172x113.png" crc="382334169" seo="true" ref="index"/>
+    <file name="exhibition-november.svg" crc="3835449897" seo="true" ref="index"/>
+    <file name="exhibition-november_poster_.png" crc="479371545" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+  </folder>
+  <file name="index.html" crc="396709897" seo="true" mt="1510696420083" redirect="true"/>
+</manifest>

@@ -13,12 +13,12 @@ session_start();
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Preguntas Frecuentes | Congreso Internacional de Parques Urbanos</title>
-    <link rel="stylesheet" href="icons/foundation-icons.css">
+    <title>Preguntas Frecuentes</title>
+    <?php  require("assets/head_common.php") ?>
+    <!-- <link rel="stylesheet" href="icons/foundation-icons.css">
     <link rel="stylesheet" href="css/foundation-flex.css">
-    <link type="text/css" href="css/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/app.css"> -->
 </head>
 <body onload="countdown('contador')">
 <?php include'assets/menu.php'; ?>
@@ -27,7 +27,7 @@ session_start();
     <div class=" header header-1">
       <div class="row align-middle">
         <div class="column text-center">
-          <h3 class="titulos">PREGUNTAS FRECUENTES</h3>
+          <h1 class="titulos">PREGUNTAS FRECUENTES</h1>
         </div>
       </div>
     </div>
@@ -66,7 +66,7 @@ session_start();
         <li class="accordion-item" data-accordion-item>
           <a href="#" class="accordion-title">4.- RECINTO </a>
           <div class="accordion-content" data-tab-content>
-            <p>El evento se llevará a cabo en el nuevo <strong>Centro Internacional de Congresos de Yucatán</strong>. Este se
+            <p>El evento se llevará a cabo en el nuevo <a href="https://www.google.com.mx/maps/place/Centro+Internacional+de+Congresos+de+Yucatan/@20.9865346,-89.6217773,15z/data=!4m5!3m4!1s0x0:0x754d8df3a5a5ba44!8m2!3d20.9865346!4d-89.6217773" target="_blank">Centro Internacional de Congresos de Yucatán</a>. Este se
               encuentra entre las avenidas Colón y Cupules con cruce en la calle 62 en la Colonia Centro. Se encuentra a una
               distancia caminable de múltiples <a href="hospedajes.php">hoteles</a> en la zona.</p>
           </div>
@@ -77,20 +77,21 @@ session_start();
             <p>5.	Este evento hará que profesionales de la industria de los parques aumenten en número y conocimientos,
               para que amplíen sus negocios y desarrollen relaciones con otros asistentes.</p>
               <ul>
-                <li>Elige a qué sesiones educativas asistir y obtén una certificación validando tu participación y conocimientos adquiridos con un 80% de asistencia a las sesiones educativas.</li>
+                <li>Elige a qué <a href="sesiones.php">sesiones educativas</a> asistir y obtén una certificación validando tu participación y conocimientos adquiridos con un <strong>80%</strong> de asistencia a las sesiones educativas y conferencias magistrales.</li>
                 <li>Tendrás la oportunidad de conocer nuevos proyectos relacionados con el espacio público, además de conocer a líderes en la industria.</li>
                 <li>Conocerás las experiencias de otros profesionales que se enfrentan a desafíos similares a los tuyos.</li>
               </ul>
+              <p><a href="http://www.congresoparques.com/participar.php">¡Convence a tus directivos y ven al congreso!</a></p>
           </div>
         </li>
         <li class="accordion-item" data-accordion-item>
           <a href="#" class="accordion-title">6.- ¿QUÉ ACTIVIDADES ESTARÁN INCLUIDAS EN EL CONGRESO? </a>
           <div class="accordion-content" data-tab-content>
             <p>El <a href="participar.php">1er Congreso Internacional de Parques</a> combina conocimientos técnicos en las <a href="sesiones.php">sesiones educativas</a>, pero también ofrece experiencias vivenciales a través de los <a href="talleres.php">talleres vivenciales</a>.</p>
-            <p>Las actividades comienzan el miércoles 25 de Abril del 2018 con 9 talleres (estos tendrán un costo adicional al del congreso) en los que se visitarán parques de la ciudad, el malecón de Puerto Progreso, además de conocer un proyecto de biciruta dominical y huertos urbanos, entre otros que extenderán nuestros conocimientos sobre el espacio público.</p>
-            <p>El jueves y viernes tendrán lugar las 8 conferencias magistrales y más de 50 sesiones educativas correspondientes a las temáticas desarrolladas: diseño y planeación, función pública y participación ciudadana, la ciudad, economía y usos del espacio público además de salud y medio ambiente, en el Centro Internacional de Congresos de Yucatán.</p>
+            <p>Las actividades comienzan el miércoles 25 de Abril del 2018 con 10 talleres (estos tendrán un costo adicional al del congreso) en los que se visitarán parques de la ciudad, el malecón de Puerto Progreso, además de conocer un proyecto de biciruta dominical y huertos urbanos, entre otros que extenderán nuestros conocimientos sobre el espacio público.</p>
+            <p>El jueves y viernes tendrán lugar las <a href="conferencias.php">8 conferencias magistrales</a> y más de <a href="sesiones.php">50 sesiones educativas</a> correspondientes a las temáticas desarrolladas: diseño y planeación, función pública y participación ciudadana, la ciudad, economía y usos del espacio público además de salud y medio ambiente, en el Centro Internacional de Congresos de Yucatán.</p>
             <p>El congreso ofrece dos eventos sociales, la inauguración que tendrá lugar el miércoles 25 y la clausura el viernes 27. Estos eventos son oportunidades únicas para que los asistentes al congreso se reúnan, intercambien conocimientos e información en un ambiente relajado, hagan networking y por supuesto, que se diviertan.</p>
-            <p>Se tendrá acceso ilimitado a la muestra comercial, la Expo Parques Urbanos que tendrá lugar en Centro Internacional de Congresos de 9:00am a 7:00pm durante las conferencias magistrales y sesiones educativas, sin embargo los asistentes tendrán horarios designados para visitas exclusivas a la muestra.</p>
+            <p>Se tendrá acceso ilimitado a la muestra comercial, la <a href="expo.php">Expo Parques Urbanos</a> que tendrá lugar en el Centro Internacional de Congresos los días 26 y 27. El 26 de 9:00am a 8:00pm dy el 27 de 9:00am a 7:00pm  durante las conferencias magistrales y sesiones educativas; sin embargo, los asistentes tendrán horarios designados para visitas exclusivas a la muestra.</p>
           </div>
         </li>
         <li class="accordion-item" data-accordion-item>
@@ -129,10 +130,11 @@ session_start();
         <li class="accordion-item" data-accordion-item>
           <a href="#" class="accordion-title">10.- ¿CÓMO ME PUEDO INSCRIBIR PARA ASISTIR AL CONGRESO? </a>
           <div class="accordion-content" data-tab-content>
-            <p>Puedes inscribirte al congreso desde nuestro sitio web; simplemente tendrás que hacer
-              click en el botón "Registrarse" y seguir las indicaciones. Cualquier duda o comentario
+            <p>Puedes inscribirte al congreso desde nuestro <a href="inscripcion.php">sitio web</a>; simplemente tendrás que hacer
+              click en el botón "COMPRAR" y seguir las indicaciones. Cualquier duda o comentario
               puede escribir al correo: <a href="mailto:inscripciones@anpr.org">inscripciones@anpr.org</a>
             </p>
+            <p>Aprovecha nuestra promoción a meses sin intereses con tarjetas participantes. <img src="img/tarjestas-admitidas.png" alt="" class="tarjetas"></p>
           </div>
         </li>
         <li class="accordion-item" data-accordion-item>
@@ -140,18 +142,20 @@ session_start();
           <div class="accordion-content" data-tab-content>
             <h6><a href="inscripcion.php">Público en general</a></h6>
               <ul>
-                <li>Antes del 1º de Octubre, 2017: $3,900.00</li>
-                <li>Del 2 de Octubre al 1º de Febrero, 2018: $4,500.00</li>
-                <li>Del 2º de Febrero al 27 de Abril, 2018: $4,900.00</li>
+                <li>Antes del 31 de Diciembre, 2017: $3,900.00</li>
+                <li>Del 1° de Enero al 1º de Marzo, 2018: $4,500.00</li>
+                <li>Del 2º de Marzo al 27 de Abril, 2018: $4,900.00</li>
             </br>
             <h6><a href="inscripcion.php">Estudiantes (Con credencial vigente):</a></h6>
                 <li>Antes del 1º de Febrero, 2018: $1,500.00</li>
                 <li>Del 2º de Febrero al 27 de Abril, 2018: $1,900.00 </li>
+                <p class="fecha-precio">* No válido para estudiantes de posgrados.<br>* Presentar constancia de estudios el día del evento.</p>
             </br>
             <h6><a href="talleres.php">Talleres</a></h6>
                 <li>Todos los talleres que tendrán lugar el miércoles 25 de Abril se cobran de forma independiente al costo del congreso.</li>
                 <li>La inversión total de cada taller es de: $750.00 </li>
-              </ul>
+              </ul><br>
+              <p>Aprovecha nuestra promoción a meses sin intereses con tarjetas participantes. <img src="img/tarjestas-admitidas.png" alt="" class="tarjetas"></p>
           </div>
         </li>
         <li class="accordion-item" data-accordion-item>
@@ -169,13 +173,14 @@ session_start();
         <li class="accordion-item" data-accordion-item>
           <a href="#" class="accordion-title">14.- QUIERO SER PONENETE EN LAS SESIONES EDUCATIVAS. ¿QUÉ DEBO DE HACER?</a>
           <div class="accordion-content" data-tab-content>
-            <p>Nuestra convocatoria para recibir propuestas de sesiones educativas cierra el 15 de Octubre del 2017. Haz click en el siguiente link: <a href="expositor.php">convocatoria</a> y sigue las instrucciones.</p>
+            <p>Nuestra convocatoria para recibir propuestas de sesiones educativas cierra el 31 de Diciembre del 2017. Haz click en el siguiente link: <a href="expositor.php">convocatoria</a> y sigue las instrucciones.</p>
           </div>
         </li>
         <li class="accordion-item" data-accordion-item>
           <a href="#" class="accordion-title">15.- ¿ME TENGO QUE INSCIRBIR CON ANTERIORIDAD O PUEDO HACERLO EL DÍA QUE INICA EL CONGRESO?</a>
           <div class="accordion-content" data-tab-content>
-            <p>Te recomendamos ampliamente que te <a href="inscripcion.php">inscribas</a> previamente para asegurar tu participación al Congreso, para que puedas aprovechar los descuentos por inscripción anticipada y planear a qué <a href="sesiones.php">sesiones educativas</a> asistir para sacarle el mayor provecho al Congreso.</p>
+            <p>Te recomendamos ampliamente que te <a href="inscripcion.php">inscribas</a> previamente para asegurar tu participación al Congreso, para que puedas aprovechar los descuentos por inscripción anticipada y planear a qué <a href="sesiones.php">sesiones educativas</a> asistir para sacarle el mayor provecho al Congreso.
+            Sin embargo, habrá módulos de inscripción durante los tres días del congreso.</p>
           </div>
         </li>
         <li class="accordion-item" data-accordion-item>
@@ -212,6 +217,7 @@ session_start();
           <a href="#" class="accordion-title">19.- ¿CÓMO PUEDO HACER MI PAGO?</a>
           <div class="accordion-content" data-tab-content>
             <p>El pago para la inscripción al congreso se puede hacer a través de tarjeta de crédito, debido, paypal y otras opciones que se muestran en el formulario de registro, al cual puede acceder haciendo click en éste <a href="https://www.ticketopolis.com/congresoparques/tickets.aspx">enlace</a>.</p>
+            <p>Aprovecha nuestra promoción a meses sin intereses con tarjetas participantes. <img src="img/tarjestas-admitidas.png" alt="" class="tarjetas"></p>
           </div>
         </li>
         <li class="accordion-item" data-accordion-item>
