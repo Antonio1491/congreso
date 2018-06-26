@@ -122,7 +122,7 @@
 
     <!-- ============= secciones  ========== -->
     <section id="secciones">
-      
+
     </section>
 
     <!--=====  Ejes Temáticos  ==== -->
@@ -166,7 +166,7 @@
       </div>
     </section>
     <!-- =======  Certificado  =====  -->
-    <section id="certificado" class="hide-for-small-only">
+    <!-- <section id="certificado" class="hide-for-small-only">
       <div class="row ">
         <div class="column medium-2">
           <figure>
@@ -179,13 +179,10 @@
             <h6>RESPALDADO POR LA ASOCIACIÓN NACIONAL DE PARQUES Y RECREACIÓN</h6>
             <p>asistiendo al <strong>80%</strong> del total de conferencias magistrales y sesiones educativas.</p>
             <hr>
-
-            <!-- <p>Si eres servidor público y trabajas para el gobierno federal<br><strong>¡acumula 25 horas de servicio
-            profesional de carrera!</strong></p> -->
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!--========== Boletos  =============-->
     <section id="boletos-contenedor" class="hide-for-small-only">
       <div class="row column contenido align-center">
@@ -200,43 +197,40 @@
         <div class="column small-10 medium-4">
           <ul class="pricing-table no-bullet text-center" id="boletoGeneral">
             <li class="title text-center">General</li>
-            <!-- <li class="price"><span class="precio-antes">$4,900.00 </span></li> -->
-            <li class="price " >$4,900.00 <span class="pesos">MXN</span></li>
-            <!-- <li class="description">* Precio a partir del 1 de Enero hasta el 1 de Marzo</li> -->
+            <li class="price " >$4,290.00 <span class="pesos">MXN</span></li>
+            <li class="description">* Precio antes del 31 Diciembre 201 </li>
             <li>Conferencias Magistrales <br><i class="fi-check"></i></li>
             <li>Sesiones Educativas <br><i class="fi-check"></i></li>
             <li>Expo <br><i class="fi-check"></i></li>
             <li>Eventos Sociales <br><i class="fi-check"></i></li>
             <li>Talleres <br><i class="fi-x"></i></li>
-              <li>Membresía anual ANPR México <br><i class="fi-check"></i></li>
+              <!-- <li>Membresía anual ANPR México <br><i class="fi-check"></i></li> -->
             <li><a class="button" href="https://goo.gl/4DDkN9" target="_blank">COMPRAR</a></li>
           </ul>
         </div>
         <div class="column small-10 medium-4">
           <ul class="pricing-table no-bullet text-center">
             <li class="title">Estudiantes</li>
-            <li class="price">$1,900.00 <span class="pesos">MXN</span></li>
-            <!-- <li class="description">* Precio hasta el 1 de Febrero<br> * No aplica para estudiantes de Posgrados <br>* Presentar la constancia de estudios el día del evento</li> -->
+            <li class="price">$2,145.00 <span class="pesos">MXN</span></li>
+            <li class="description">* Precio antes del 31 Diciembre 2018 </li>
             <li>Conferencias Magistrales <br><i class="fi-check"></i></li>
             <li>Sesiones Educativas <br><i class="fi-check"></i></li>
             <li>Expo <br><i class="fi-check"></i></li>
             <li>Eventos Sociales <br><i class="fi-x"></i></li>
             <li>Talleres <br><i class="fi-x"></i></li>
-            <li>Membresía anual ANPR México <br><i class="fi-check"></i></li>
             <li><a class="button" href="https://goo.gl/4DDkN9" target="_blank">COMPRAR</a></li>
           </ul>
         </div>
         <div class="column small-10 medium-4">
           <ul class="pricing-table no-bullet text-center">
             <li class="title">Expo</li>
-            <li class="price">$500.00 <span class="pesos">MXN</span></li>
+            <li class="price">$100.00 <span class="pesos">MXN</span></li>
             <li class="description">* Precio para la expo durante los 2 días del evento</li>
             <li>Conferencias Magistrales <br><i class="fi-x"></i></li>
             <li>Sesiones Educativas <br><i class="fi-x"></i></li>
             <li>Expo <br><i class="fi-check"></i></li>
             <li>Eventos Sociales <br><i class="fi-x"></i></li>
             <li>Talleres <br><i class="fi-x"></i></li>
-              <li>Membresía anual ANPR México <br><i class="fi-x"></i></li>
             <li><a class="button" href="https://goo.gl/4DDkN9" target="_blank">COMPRAR</a></li>
           </ul>
         </div>

@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="registro.css">
     <?php
     include('../assets/clases_2.php');
-
     ?>
   </head>
   <body>
@@ -33,7 +32,7 @@
           <p>Nota: Es necesario que incluya el documento de su contribución en extenso. </p>
       </div>
       <div class="item">
-        <form class="" action="RegistroSesion.php" method="post">
+        <form class="" action="RegistroSesion.php" method="post" enctype="multipart/form-data">
           <fieldset>
             <div class="encabezado">
               Sobre el responsable de la propuesta:
@@ -100,7 +99,7 @@
           </div>
           <div class="row column">
             <label for="">Fotografía:</label>
-            <input type="file" name="Foto" value="">
+            <input type="file" name="fotografia" value="" required>
           </div>
 
           <div class=" encabezado">
@@ -121,11 +120,6 @@
                 echo "<option value='".$valor['id_tema']."'>".$valor['nombre']."</option>";
                 }
               ?>
-              <!-- <option value="1">Diseño y Planeación</option>
-              <option value="2">La Ciudad</option>
-              <option value="3">Economía y Usos del Espacio Público</option>
-              <option value="4">Salud y Medio Ambiente</option>
-              <option value="5">Función Pública y Participación Ciudadana</option> -->
             </select>
           </div>
           <div class="row column">
@@ -149,7 +143,7 @@
           </div>
           <div class="row column">
             <label for="">Agregar Documento:</label>
-            <input type="file" name="Documento" value="">
+            <input type="file" name="archivo" value="">
           </div>
           <div class="encabezado">
             Solicitudes adicionales para el ponente:

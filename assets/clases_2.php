@@ -22,11 +22,33 @@ class Registro extends Conexion
   public function registroConferencista($nom, $ap, $em, $emA, $tel, $car, $emp, $loc, $dir, $exp, $ant,
                                           $lug, $nomf, $tipf, $tempf){
 
-    $destino_foto = $_SERVER['DOCUMENT_ROOT'].'/congreso/reistro/fotos/';
+    $destino_foto = $_SERVER['DOCUMENT_ROOT'].'/congreso/registro/fotos/';
 
     $sql = $this->conexion_db->query("INSERT INTO conferencista VALUES (null, '$nom', '$ap', '$em', '$emA',
-                                    '$tel', '$car', '$emp', '$loc', '$dir', '$expo', '$ant', '$lug', '$nomf',
-                                    '$tipf', '$tempf')");
+                                    '$tel', '$car', '$emp', '$loc', '$dir', '$exp', '$ant', '$lug', '$nomf'
+                                    )");
+
+    if($sql){
+      // Mover el archivo de la carpeta temporal a la carpeta destino
+      move_uploaded_file($tempf, $destino_foto.$nomf);
+    }
+    return $sql;
+  }
+
+  public function registroSesionEducativa($sesion, $tema, $desc, $just, $obj, $mod, $nomDoc, $tipDoc, $temDoc,
+                                          $adic){
+
+      $destino_archivo = $_SERVER['DOCUMENT_ROOT'].'/congreso/registro/archivos/';
+
+      $sql = $this->conexion_db->query("INSERT INTO conferencia VALUES (null, '$sesion', '$tema', '$desc',
+                                      '$just', '$obj', '$mod', '$nomDoc', '$adic')");
+
+      if($sql){
+        move_uploaded_file($temDoc, $destino_archivo.$nomDoc);
+      }
+
+      return $sql;
+
   }
 
 }
