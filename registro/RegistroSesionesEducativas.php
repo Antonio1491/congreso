@@ -2,7 +2,7 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Formulario de Registro Conferencias</title>
     <link rel="stylesheet" href="../css/foundation-flex.css">
     <link rel="stylesheet" href="registro.css">
     <?php

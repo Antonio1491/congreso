@@ -7,6 +7,7 @@ header{
   align-items: center;
   padding-left: 1em;
 }
+
 header h4{
   border-left: 2px solid #ffffff;
   margin-left: 1em;
@@ -50,4 +51,31 @@ input[type=submit]:hover{
 }
 form label, form{
   color: #595857;
+}
+
+/* página registro concluido */
+.pacifico{
+  font-family: 'Pacifico', cursive;
+}
+.registrado{
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 20%;
+}
+.registrado-titulo{
+  font-size: 35px;
+  text-align: center;
+  color: #4b2648;
+  margin-bottom: 24px;
+}
+.registrado-mensaje{
+  color: #787878;
+  text-align: center;
+}
+.registrado-nota{
+  font-size: 13px;
+  color: #787878;
+}
+.registrado-nota a{
+  color: #7c2d7e;
 }
