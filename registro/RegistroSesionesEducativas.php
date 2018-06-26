@@ -5,6 +5,7 @@
     <title>Formulario de Registro Conferencias</title>
     <link rel="stylesheet" href="../css/foundation-flex.css">
     <link rel="stylesheet" href="registro.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <?php
     include('../assets/clases_2.php');
     ?>
@@ -23,12 +24,12 @@
         <p><span>Registro de propuestas</span></p>
          <p>Gracias por llenar este formato para el registro de su propuesta. Le recordamos que:</p>
           <ul>
-            <li>El envío del mismo no garantiza la aceptación de su contribución por parte del Comité Científico, ni su registro como asistente del congreso.</li>
+            <li>El envío del mismo no garantiza la aceptación de su contribución por parte del comité de contenido, ni su registro como asistente del congreso.</li>
             <li>Recibirá respuesta en las fechas establecidas en la convocatoria.</li>
-            <li>Al final de este registro se le solicitará que suba el documento de su contribución en extenso.</li>
+            <li>En este registro se le solicitará que suba el documento de su contribución en extenso.</li>
             <li>Es importante registrar a todos los autores de la contribución, en caso de aplicar.</li>
           </ul>
-          Si tiene dudas o inconvenientes para el llenado del formato escriba a contenido@congresoparques.com</p>
+          Si tiene dudas o inconvenientes para el llenado del formato escriba a contenido@anpr.org.mx</p>
           <p>Nota: Es necesario que incluya el documento de su contribución en extenso. </p>
       </div>
       <div class="item">
@@ -145,6 +146,12 @@
             <label for="">Agregar Documento:</label>
             <input type="file" name="archivo" value="">
           </div>
+          <div class="nuevo">
+
+          </div>
+          <!-- <div class="row column">
+            <button type="button" name="Autor" class="button" id="autor">Añadir Autor</button>
+          </div> -->
           <div class="encabezado">
             Solicitudes adicionales para el ponente:
           </div>
@@ -158,6 +165,10 @@ presentación de la sesión educativa.</p>
         </form>
       </div>
     </section>
-
+    <!-- <script type="text/javascript">
+      $('#autor').click(function(event){
+        $('.nuevo').append('<div><h1>Toño</h1><h3> kike</h3</div>')
+      });
+    </script> -->
   </body>
 </html>

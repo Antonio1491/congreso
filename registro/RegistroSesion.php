@@ -34,20 +34,23 @@ $adicionales = $_POST['Adicionales'];
 
 $registro = new Registro();
 
-// $conferencista = $registro->registroConferencista($nombre, $apellido, $email,
-//                                               $emailAsis, $telefono, $cargo, $empresa,
-//                                             $localidad, $direccion, $experiencia,
-//                                           $anteriormente, $lugar, $nombre_foto, $tipo_foto,
-//                                         $temporal_foto);
+$conferencista = $registro->registroConferencista($nombre, $apellido, $email,
+                                              $emailAsis, $telefono, $cargo, $empresa,
+                                            $localidad, $direccion, $experiencia,
+                                          $anteriormente, $lugar, $nombre_foto, $tipo_foto,
+                                        $temporal_foto);
 
 $sesion = $registro->registroSesionEducativa($sesion, $tema, $descripcion, $justificacion, $objetivos,
                                         $modalidad, $nombre_documento, $tipo_documento, $temporal_documento,
                                         $adicionales);
 
-if ( $sesion == true ) {
-  echo "Registrado con éxito";
+if ( $conferencista == true && $sesion == true ) {
+  echo header("Location: PropuestaRegistrada.html");
 }
 else{
-  echo "Error de registro" ;
+  echo"<script language='JavaScript'>
+      alert('Error: No pudimos realizar el registro');
+      </script>";
+  echo "<script>window.history.go(-1);</script>";
 }
  ?>
