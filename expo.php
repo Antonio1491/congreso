@@ -69,14 +69,13 @@
           <div class="card-info-content">
             <ul class="pricing-table no-bullet text-center">
                 <li class="title">Expo</li>
-                <li class="price">$500.00  <span class="pesos">MXN</span></li>
+                <li class="price">$100.00  <span class="pesos">MXN</span></li>
                 <li class="fecha-precio">* Precio fijo</li>
                 <li>Conferencias Magistrales <br><i class="fi-x"></i></li>
                 <li>Sesiones Educativas <br><i class="fi-x"></i></li>
                 <li>Expo Comercial Parques Urbanos<br><i class="fi-check"></i></li>
                 <li>Eventos Sociales <br><i class="fi-x"></i></li>
                 <li>Talleres <br><i class="fi-x"></i></li>
-                <li>Membresía anual ANPR México<br><i class="fi-x"></i></li>
                 <li><a class="button" href="https://goo.gl/4DDkN9" target="_blank">COMPRAR</a></li>
             </ul>
           </div>
@@ -154,18 +153,7 @@
         </div>
       </div>
     </div>
-      <div class="row text-center fila-espacio hide-for-small-only">
-        <div class="column">
-          <h5>PLANO DE LA "EXPO PARQUES URBANOS"</h5>
-        </div>
-      </div>
-      <div class="row hide-for-small-only align-center">
-        <figure class="carga">
-          <a href="mapa/index.html" target="_blank">
-            <img data-src="img/mapa-expo.png" alt="Croquis del recinto" class="croquis" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
-          </a>
-        </figure>
-      </div>
+      
   </article>
 
   <!-- <?php
@@ -181,9 +169,7 @@
         <div class="logotipo">
           <?php echo " <img src='img/expositores/".$dato['logotipo']."'>"; ?>
         </div>
-
         <div class="contenido_expositor">
-
             <header>
               <div class="datos_expositor">
                 <h4><?php echo $dato['nombre_expositor']; ?></h4>

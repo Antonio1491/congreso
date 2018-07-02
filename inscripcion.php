@@ -13,7 +13,7 @@ session_start();
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inscripción</title>
+    <title>Precios | Congreso Internacional de Parques Urbanos</title>
     <?php  require("assets/head_common.php") ?>
     <!-- <link rel="stylesheet" href="icons/foundation-icons.css">
     <link rel="stylesheet" href="css/foundation-flex.css">
@@ -23,106 +23,61 @@ session_start();
 <body onload="countdown('contador')">
 <?php include'assets/menu.php'; ?>
 <main class="back-2">
-  <article class="">
-    <div class=" header header-2">
-      <div class="row align-middle">
-        <div class="column text-center">
-          <h1 class="titulos">INSCRIPCIÓN</h1>
-        </div>
+  <div class="header header-2">
+    <div class="row align-middle">
+      <div class="column text-center">
+        <h1 class="titulos">Precios</h1>
       </div>
     </div>
-
-    <section>
-      <div class="row column contenido align-center">
-        Aprovecha nuestra promoción a 3 meses sin intereses con tarjetas participantes.<img src="img/tarjestas-admitidas.png" alt="" class="tarjetas">
-      </div>
-      <div class="row fila-espacio text-center">
-        <div class="column nota">
-          <p><strong>Nota:</strong> La inscripción a los talleres y eventos sociales se podrá realizar en el proceso de la compra de un boleto general o de estudiante. ¡Entra a la opción COMPRAR del boleto que adquirirás y aparecerán estas opciones!.</p>
-        </div>
-      </div>
-      <div class="row inscripciones align-center">
-        <div class="column small-10 medium-4">
-          <!-- <div class="card-info-label">
-            <div class="card-info-label-text">
-              COMPRA
-            </div>
-          </div> -->
-          <div class="card-info-content">
-            <ul class="pricing-table no-bullet text-center">
-              <li class="title">Estudiantes</li>
-              <li class="price"><span class="price desc">$1,900.00 </span></li>
-              <!-- <li class="price desc">$1,500.00  <span class="pesos">MXN</span></li> -->
-              <!-- <li><span class="fecha-precio">* Precio hasta el 1 de Febrero</span><br><span class="description">* No aplica para estudiantes de Posgrados <br>* Presentar la constancia de estudios el día del evento</span></li> -->
-              <li>Conferencias Magistrales <br><i class="fi-check"></i></li>
-              <li>Sesiones Educativas <br><i class="fi-check"></i></li>
-              <li>Expo <br><i class="fi-check"></i></li>
-              <li>Eventos Sociales <br><i class="fi-x"></i></li>
-              <li>Talleres <br><i class="fi-x"></i></li>
-              <li>Membresía anual ANPR México <br><i class="fi-check"></i></li>
-              <li><a class="button" id="botonComprarEstudiantes" href="https://goo.gl/4DDkN9" target="_blank">COMPRAR</a></li>
-              <script type="text/javascript">
-               $( '#botonComprarEstudiantes' ).click(function() {
-              //
-                      fbq('track', 'Lead');
-
-                });
-              </script>
-              </ul>
-            </div>
-        </div>
-        <div class="column small-10 medium-4">
-          <ul class="pricing-table no-bullet text-center">
-              <li class="title">general</li>
-              <!-- <li class="price"><span class="precio-antes">$4,900.00 </span></li> -->
-              <li class="price">$4,900.00  <span class="pesos">MXN</span></li>
-              <!-- <li class="fecha-precio">* Precio a partir del 1 de Enero hasta el 1 de Marzo</li> -->
-              <li>Conferencias Magistrales <br><i class="fi-check"></i></li>
-              <li>Sesiones Educativas <br><i class="fi-check"></i></li>
-              <li>Expo <br><i class="fi-check"></i></li>
-              <li>Eventos Sociales <br><i class="fi-check"></i></li>
-              <li>Talleres <br><i class="fi-x"></i></li>
-              <li>Membresía anual ANPR México <br><i class="fi-check"></i></li>
-              <li><a id="botonComprarGeneral" class="button" href="https://goo.gl/4DDkN9" target="_blank" >COMPRAR</a></li>
-
-                        <script type="text/javascript">
-                         $( '#botonComprarGeneral' ).click(function() {
-                        //
-                                fbq('track', 'Lead');
-
-                          });
-                        </script>
-            </ul>
-        </div>
-        <div class="column small-10 medium-4">
-          <ul class="pricing-table no-bullet text-center">
-              <li class="title">Expo</li>
-              <li class="price">$500.00  <span class="pesos">MXN</span></li>
-              <li class="fecha-precio">* Precio fijo</li>
-              <li>Conferencias Magistrales <br><i class="fi-x"></i></li>
-              <li>Sesiones Educativas <br><i class="fi-x"></i></li>
-              <li>Expo Comercial Parques Urbanos<br><i class="fi-check"></i></li>
-              <li>Eventos Sociales <br><i class="fi-x"></i></li>
-              <li>Talleres <br><i class="fi-x"></i></li>
-              <li>Membresía anual ANPR México<br><i class="fi-x"></i></li>
-              <li><a class="button" href="https://goo.gl/4DDkN9" target="_blank">COMPRAR</a></li>
-            </ul>
-
-        </div>
-      </div>
-    </section>
-
-  </article>
-  <!-- <section id="promocion">
+  </div>
+  <section class="contenido inscripcion">
     <div class="row">
-      <p><span>Promoción:</span> Inscríbete del 13 al 15 de Marzo, invita a un amig@ y aprovecha la promoción:
-        Taller GRATIS para ambos, y 40% de descuento adicional para el segundo inscrito. No Válido con otras
-        promociones y no aplica con folios de registro anteriores al 13 de Marzo.</br><br>
-         1.- Registrate con la opción de Cuota General y el código: TALLER-40.<br> 2.- Envía el folio de
-          registro al correo: info@congresoparques.com.<br> 3.- Recibe otro códico para tu ami@ que incluye: taller
-          gratis y 40% de descuento en su boleto de cuota general.</p>
+      <article class="inscripcion-precio">
+        <h2>Ponentes con contribución aceptada por el Comité de Contenido</h2>
+        <ul>
+          <li>El ponente o el quipo aceptado para ser parte de las Sesiones Educativas tienen el acceso al Congreso con costo $0.</li>
+          <li>Es importante solicitar el pase de entrada al comité de Contenido: <a href="mailto:contenido@anpr.org.mx" class="link">contenido@anpr.org.mx</a>.</li>
+        </ul>
+      </article>
+      <article class="inscripcion-precio">
+        <h2>Público en general</h2>
+        <ul>
+          <li>Vigencia antes del 31 de Diciembre | $4,290 pesos mexicanos MXN |  $238 dólares US.</li>
+          <li>Vigencia antes del 31 de Marzo | $4,950 pesos mexicanos MXN | $275 dólares US.</li>
+          <li>Vigencia A partir del 1 de Abril | $5,390 pesos mexicanos MXN | $299 dólares US.</li>
+        </ul>
+      </article>
+      <article class="inscripcion-precio">
+        <h2>Estudiantes</h2>
+        <ul>
+          <li>Vigencia antes del 31 de Diciembre | $2,145 pesos mexicanos MXN |  $119 dólares US.</li>
+          <li>Vigencia antes del 31 de Marzo | $2,475 pesos mexicanos MXN | $138 dólares US.</li>
+          <li>Vigencia A partir del 1 de Abril | $2,695 pesos mexicanos MXN | $150 dólares US.</li>
+        </ul>
+      </article>
+      <article class="inscripcion-precio">
+        <h2>Descuentos por grupo de una misma institución</h2>
+        <p>Únicamente para boleto de tipo general.</p>
+        <ul>
+            <li>De 3 a 5 personas: 20% descuento sobre el precio vigente.</li>
+            <li>De 6 a 10 personas: 30% descuento sobre el precio vigente.</li>
+            <li>Más de 10 personas: 40% descuento sobre el precio vigente</li>
+        </ul>
+      </article>
     </div>
-  </section> -->
+    <div class="row">
+      <article class="inscripcion-precio">
+        <h2>¿Qué incluye el precio de inscripción?</h2>
+        <ul>
+          <li>Acceso a Conferencias Magistrales.</li>
+          <li>Acceso a más de 100 Sesiones Educativas.</li>
+          <li>Acceso a Expo Comercial Parques Urbanos.</li>
+          <li>Eventos Sociales.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
 </main>
 
 <?php include'assets/footer.php'; ?>

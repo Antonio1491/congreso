@@ -74,10 +74,9 @@
               <a href="https://www.instagram.com/congreso_parques/" target="_blank"><img src="img/instagram.png" class="rotacion transition"></a>
               <a href="https://www.youtube.com/channel/UC_ExzrmxP5er7qZHeVpWidQ" target="_blank"><img src="img/youtobe.png" class="rotacion transition" alt=""></a>
             </div>
-            <div class="contador">
-
+            <!-- <div class="contador">
               <div id='contador'></div>
-            </div>
+            </div> -->
           </div>
         </div>
 
@@ -115,7 +114,7 @@
                   <ul class="menu  sub-menu-central">
                     <!-- <li><a href="congreso-tips.php">Congreso Tips</a></li> -->
                     <li><a href="inscripcion.php">Inscripción</a></li>
-
+                    <li><a href="EjesTematicos.php">Ejes Temáticos</a></li>
                     <!-- <li><a href="convocatoria-sesiones.php">Convocatoria 2018</a></li> -->
                     <!-- <li><a href="concurso.php">concurso mobiliario urbano</a></li> -->
                     <li><a href="convocatoria-sesiones.php">Convocatoria 2019</a></li>

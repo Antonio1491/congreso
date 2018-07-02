@@ -14,7 +14,6 @@
     <meta property="og:image" content="http://www.anpr.org.mx/congreso/img/congreso-parques-urbanos-logo.png" />
     <title>Congreso Internacional de Parques Urbanos</title>
     <?php require("assets/head_common.php") ?>
-
   </head>
   <body onload="countdown('contador'), countdown('contador-small')">
   <?php include'assets/menu.php'; ?>
@@ -46,7 +45,6 @@
         <span aria-hidden="true">&times;</span>
       </button>
     </div>
-  <!---->
 
   <!--====================== cinta patrocinadores   ===================================================-->
   <?php include('assets/cinta_patrocinadores.php') ?>
@@ -121,77 +119,103 @@
     </section> -->
 
     <!-- ============= secciones  ========== -->
-    <section id="secciones">
-
+    <section id="secciones" class="">
+        <figure>
+          <a href="#">
+            <img src="img/i_conferencias.png" alt="">
+            <figcaption>
+              <h1>Conferencias</h1>
+              <h2>Magistrales</h2>
+            </figcaption>
+          </a>
+        </figure>
+        <figure>
+          <a href="#">
+            <img src="img/i_sesiones.png" alt="">
+            <figcaption>
+              <h1>Sesiones</h1>
+              <h2>Educativas</h2>
+            </figcaption>
+          </a>
+        </figure>
+        <figure>
+          <a href="#">
+            <img src="img/i_talleres.png" alt="">
+            <figcaption>
+              <h1>Talleres</h1>
+              <h2>Vivenciales</h2>
+            </figcaption>
+          </a>
+        </figure>
+        <figure>
+          <a href="#">
+            <img src="img/i_expo_parques.png" alt="">
+            <figcaption>
+              <h1>Expo</h1>
+              <h2>Parques</h2>
+            </figcaption>
+          </a>
+        </figure>
+        <figure>
+          <a href="#">
+            <img src="img/i_eventos_sociales.png" alt="">
+            <figcaption>
+              <h1>eventos</h1>
+              <h2>Sociales</h2>
+            </figcaption>
+          </a>
+        </figure>
     </section>
-
-    <!--=====  Ejes Temáticos  ==== -->
-    <section id="tematicas" class="hide-for-small-only">
-      <div class="row">
-        <div class="column medium-offset-4 large-offset-5">
-          <h3 class="sub-1">EJES TEMÁTICOS</h3>
-        </div>
-      </div>
-      <div class="row " id="banners">
-        <div class=" orbit column small-12 medium-12 " id="mensajes" role="region" aria-label="Favorite Space Pictures" data-orbit>
-          <ul class="orbit-container">
-            <li class="orbit-slide">
-              <figure>
-                <img class="orbit-image" src="img/diseno.png" alt="Diseño y planeación del espacio público">
-              </figure>
-            </li>
-            <li class="orbit-slide">
-              <figure>
-                <img class="orbit-image" src="img/ciudad.png" alt="La ciudad y el espacio público">
-              </figure>
-            </li>
-            <li class="orbit-slide">
-              <figure>
-                <img class="orbit-image" src="img/economia-espacio.png" alt="Economía y usos del espacio público">
-              </figure>
-            </li>
-            <li class="orbit-slide">
-              <figure>
-                <img class="orbit-image" src="img/salud.png" alt="Salud y medio ambiente">
-              </figure>
-            </li>
-            <li class="orbit-slide">
-              <figure>
-                <img class="orbit-image" src="img/participacion.png" alt="Función pública y participación ciudadana">
-              </figure>
-            </li>
-
-          </ul>
-        </div>
-      </div>
+    <!-- ======================  Conferencistas magistrales ============== -->
+    <div class="row">
+      <h3 class="titulo_seccion">Conferencistas</h3>
+    </div>
+    <section id="magistrales">
+      <figure class="contenido_conferencista">
+        <a href="#">
+          <img src="img/foto_ejemplo_1.png" alt="">
+          <figcaption>
+            <h1>Nombre Apellido</h1>
+            <h2>Cargo Empresa</h2>
+            <h3>Estado y País</h3>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="contenido_conferencista">
+        <a href="#">
+          <img src="img/foto_ejemplo_2.png" alt="">
+          <figcaption>
+            <h1>Nombre Apellido</h1>
+            <h2>Cargo Empresa</h2>
+            <h3>Estado y País</h3>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="contenido_conferencista">
+        <a href="#">
+          <img src="img/foto_ejemplo_1.png" alt="">
+          <figcaption>
+            <h1>Nombre Apellido</h1>
+            <h2>Cargo Empresa</h2>
+            <h3>Estado y País</h3>
+          </figcaption>
+        </a>
+      </figure>
+      <figure class="contenido_conferencista">
+        <a href="#">
+          <img src="img/foto_ejemplo_2.png" alt="">
+          <figcaption class="contenido_conferencista">
+            <h1>Nombre Apellido</h1>
+            <h2>Cargo Empresa</h2>
+            <h3>Estado y País</h3>
+          </figcaption>
+        </a>
+      </figure>
     </section>
-    <!-- =======  Certificado  =====  -->
-    <!-- <section id="certificado" class="hide-for-small-only">
-      <div class="row ">
-        <div class="column medium-2">
-          <figure>
-            <img src="img/certificado.png" alt="Certificado profesional en parques y recreación">
-          </figure>
-        </div>
-        <div class="column medium-10">
-          <div class="text-center">
-            <h4>OBTÉN UN CERTIFICADO PROFESIONAL</h4>
-            <h6>RESPALDADO POR LA ASOCIACIÓN NACIONAL DE PARQUES Y RECREACIÓN</h6>
-            <p>asistiendo al <strong>80%</strong> del total de conferencias magistrales y sesiones educativas.</p>
-            <hr>
-          </div>
-        </div>
-      </div>
-    </section> -->
     <!--========== Boletos  =============-->
     <section id="boletos-contenedor" class="hide-for-small-only">
-      <div class="row column contenido align-center">
-        Aprovecha nuestra promoción a 3 meses sin intereses con tarjetas participantes.<img src="img/tarjestas-admitidas.png" alt="" class="tarjetas">
-      </div><br>
       <div class="row">
-        <div class="column medium-offset-9">
-          <h3 class="sub-5">INVERSIÓN</h3>
-        </div>
+          <h3 class="titulo_seccion_bc">INVERSIÓN</h3>
       </div>
       <div class="row">
         <div class="column small-10 medium-4">
@@ -235,15 +259,10 @@
           </ul>
         </div>
       </div>
-      <div class="row text-center">
-        <div class="column nota">
-          <p><strong>Nota:</strong> La inscripción a los talleres y eventos sociales se podrá realizar en el proceso de la compra de un boleto general o de estudiante. ¡Entra a la opción COMPRAR del boleto que adquirirás y aparecerán estas opciones!.</p>
-        </div>
-      </div>
     </section>
 
     <!--========  Organizadores ========-->
-    <section id="proveedores" data-margellan-target="proveedores" class="hide-for-small-only">
+    <!-- <section id="proveedores" data-margellan-target="proveedores" class="hide-for-small-only">
       <div class="marcas-1">
         <div class="row">
           <div class="column medium-offset-5">
@@ -264,7 +283,7 @@
             <h4>PRESENTA</h4>
           </div>
         </div>
-        <!-- cinta de presentadores -->
+
         <div class="row marquee" >
             <div  class="">
               <figure>
@@ -304,9 +323,10 @@
           </div>
         </div>
 
-    </section>
+    </section> -->
+
     <!--========  Redes sociales  ========-->
-    <section id="redes-sociales" class="hide-for-small-only">
+    <!-- <section id="redes-sociales" class="hide-for-small-only">
       <div class="row align-center ">
         <a href="https://www.facebook.com/Congreso-Internacional-de-Parques-Urbanos-433605833658855/" target="_blank">
           <img src="img/facebook.png" alt="">
@@ -321,6 +341,11 @@
           <img src="img/youtobe.png" alt="">
         </a>
       </div>
+    </section> -->
+    <section id="section-mapa">
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7191.507337009546!2d-100.28561921134552!3d25.679459210524172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662942a8d42b18f%3A0x1eee54a9dfbc9332!2sCintermex!5e0!3m2!1ses!2smx!4v1528396562531" width="2000" height="450" frameborder="0" style="border:0" allowfullscreen>
+      </iframe>
     </section>
     <!--====== Registro Boletín =====-->
     <section id="registro" class="hide-for-small-only">
@@ -357,18 +382,7 @@
         <span class="nota-boletin">*No compartiremos su información y usted puede cancelar su suscripción en cualquier momento</span>
       </div> -->
     </section>
-    <section id="section-mapa">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7191.507337009546!2d-100.28561921134552!3d25.679459210524172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662942a8d42b18f%3A0x1eee54a9dfbc9332!2sCintermex!5e0!3m2!1ses!2smx!4v1528396562531" width="2000" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </section>
-    <!--========  Convocatoria  =======-->
-    <!-- <section class="hide-for-small-only">
-      <a href="convocatoria-sesiones.php">
-        <section class="convocatoria">
-          <div class="row convocatoria-content">
-          </div>
-        </section>
-      </a>
-    </section> -->
+
     <div class="hide-for-small-only">
       <?php include'assets/footer.php'; ?>
 

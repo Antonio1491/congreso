@@ -13,8 +13,34 @@
       <a href="http://anpr.org.mx/"><img data-src="img/parques-urbanos-logo-anpr.png" alt="Asociación Nacional de Parques y Recreación"></a>
     </div>
   </div>
+  <div class="row">
+    <div class="colm medium-6">
+      <!--========  Redes sociales  ========-->
+      <section id="redes-sociales" class="hide-for-small-only">
+        <div class="row align-center ">
+          <a href="https://www.facebook.com/Congreso-Internacional-de-Parques-Urbanos-433605833658855/" target="_blank">
+            <img src="img/facebook.png" alt="">
+          </a>
+          <a href="https://twitter.com/congreso_parque" target="_blank">
+            <img src="img/twitter.png" alt="">
+          </a>
+          <a href="https://www.instagram.com/congreso_parques/" target="_blank">
+            <img src="img/instagram.png" alt="">
+          </a>
+          <a href="https://www.youtube.com/channel/UC_ExzrmxP5er7qZHeVpWidQ" target="_blank">
+            <img src="img/youtobe.png" alt="">
+          </a>
+        </div>
+      </section>
+    </div>
+    <div class="col medium-6">
+      <div class="contador">
+        <div id='contador'></div>
+      </div>
+    </div>
+  </div>
     <!-- Ménu footer -->
-    <div class="row hide-for-small-only" id="menu-footer">
+    <!-- <div class="row hide-for-small-only" id="menu-footer">
       <div class="column">
         <ul class="menu vertical ">
           <li class="menu-text">contáctanos</a></li>
@@ -60,7 +86,7 @@
           <li><a href="http://www.merida.gob.mx/capitalcultural/">Turismo en mérida</a></li>
         </ul>
       </div>
-    </div>
+    </div> -->
       <!-- //Ménu footer -->
   </footer>
   <div class="row column expanded align-center" id="pie">

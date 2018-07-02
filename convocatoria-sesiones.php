@@ -1,12 +1,4 @@
-<?php
-session_start();
-    $_SESSION['dia'] = '14';
-    $_SESSION['mes'] = '5'; // los meses van del 0 al 11
-    $_SESSION['ano'] = '2019';
-    $_SESSION['hora'] = '9';
-    $_SESSION['minuto'] = '00';
-    $_SESSION['segundo'] = '00';
-?>
+<?php include('assets/contador.php') ?>
 <!doctype html>
 <html class="no-js" lang="es" dir="ltr">
   <head>
@@ -35,9 +27,9 @@ session_start();
       <div class="column medium-6">
         <p>La convocatoria para sesiones educativas tiene como objetivo recibir información
           sobre proyectos alrededor de todo el mundo que quieran ser presentados en el
-          Congreso Internacional de Parques Urbanos en su segunda edición</p>
+          <strong>Congreso Internacional de Parques Urbanos</strong> en su segunda edición.</p>
           <p>Las propuestas recibidas con más probabilidad de ser aceptadas para formar parte
-            del programa son, aquellas que se apeguen a nuestras 5 temáticas:</p>
+            del programa son, aquellas que se apeguen a nuestras <a href="EjesTematicos.php" class="link">5 temáticas:</a></p>
             <h4>PERFIL DEL PONENTE</h4>
               <ul>
                 <li>Arquitectos, urbanistas, arquitectos paisajistas, diseñadores del hábitat. </li>
@@ -66,7 +58,7 @@ session_start();
     <div class="row column">
       <ul>
         <li>Fecha límite para enviar propuestas: 29 de octubre del 2018.</li>
-        <li>Comunicación de resultados: 7 de enero *fecha susceptible a cambios.</li>
+        <li>Comunicación de resultados: 7 de enero del 2019 *fecha susceptible a cambios.</li>
       </ul>
     </div>
     <div class="row column">
@@ -81,19 +73,19 @@ session_start();
       <li>Si la propuesta es aceptada, cuando se le indique, el ponente deberá de frirmar
         los acuerdos, términos y condiciones de privacidad, compartir su presentación
         (material visual de apoyo), ya que ese material se hará público en la plataforma
-        web de la Asociación Nacional de Parques y Recreación de México posterior a las
-        fechas del congreso.  </li>
+        web de la <strong>Asociación Nacional de Parques y Recreación de México</strong> posterior a las
+        fechas del congreso.</li>
       </ul>
     </div>
     <div class="cinta-morada">
       <div class="row column">
         <h4>BENEFICIOS</h4>
         <p>A los ponentes seleccionados se les otorgará una entrada general de cortesía
-          para los días y medio que el evento tendrá lugar en el centro de Convenciones.
+          para los días que el evento tendrá lugar.
           La entrada de cortesía incluye:</P>
           <ul>
-            <li>•	Todas las conferencias magistrales y sesiones educativas.</li>
-            <li>Entrada a la muestra comercial <strong>“Expo Parques Urbanos”</strong> desde el día miércoles.</li>
+            <li>Todas las conferencias magistrales y sesiones educativas.</li>
+            <li>Entrada a la muestra comercial <strong>“Expo Parques Urbanos”</strong>.</li>
             <li>Eventos sociales.</li>
           </ul>
       </div>
@@ -112,10 +104,10 @@ session_start();
         <li>Breve biografía: Incluir experiencia de trabajo, proyectos, investigaciones, colaboraciones y otra información relevante – 550 palabras máximo.</li>
         <li>Fotografía profesional de cabeza y hombros a color.</li>
       </ul>
-      <strong>Sobre la sesión:</strong>
+      <strong>SOBRE LA SESIÓN:</strong>
       <ul>
         <li>Título: Debes crear un título que refleje la esencia de tu sesión y deberá ser de 12 palabras o menos.</li>
-        <li>Seleccionar la temática a la que se alinea.</li>
+        <li>Seleccionar la <a href="EjesTematicos.php" class="link">temática</a> a la que se alinea.</li>
         <li>Descripción: Describe de forma concisa y clara tu sesión esta debe ser de 200 palabras o menos. Si tu sesión es seleccionada, esta descripción
           aparecerá en nuestra página web, asegúrate que esta invite a entrar a ella.</li>
         <li>Justificación: Justifique la importancia de su sesión educativa propuesta, identificando cómo su proyecto/iniciativa/investigación,
@@ -132,7 +124,7 @@ session_start();
       <strong>Registra tu contribución:</strong>
     </div>
     <div class="row column">
-      <p>Para registrar su contribución de clic <a href="registro/RegistroSesionesEducativas.php">aquí.</a></p>
+      <p>Para registrar su contribución de clic <a href="registro/RegistroSesionesEducativas.php" class="link">aquí.</a></p>
     </div>
   </article>
 </main>

@@ -1,5 +1,5 @@
 //Variables
-$verde : #38c377
+$verde : #90c044
 $verde-limon : #98ba06
 $azul : #36a8e0
 $cafe: #4f3013
@@ -35,7 +35,6 @@ h3,h4, h5,h6
   background-color: #f0f0f0
   margin: 2em 0 2em 0
   padding: 1.5em 0 1.5em 0
-
 .titulos
   text-transform: uppercase
   margin: 1em 0 1em 0
@@ -66,27 +65,17 @@ h3,h4, h5,h6
 .fecha h5
   color: #00a099
   letter-spacing: 0.3px
-.sub-1
-  color: #03549e
-  border-left: 4px solid #0eaacd
+
+.titulo_seccion, .titulo_seccion_bc
   padding-left: 20px
   margin: 1em 0 1em 0
-.sub-2
-  color: rgb(4, 134, 40)
-  border-left: 4px solid $verde
-  padding-left: 20px
-.sub-3
-  border-left: 4px solid rgb(59, 191, 209)
-  padding-left: 20px
-.sub-4
-  border-left: 4px solid rgb(59, 191, 209)
-  padding-left: 20px
-  color: #0662dd
-.sub-5
-  border-left: 4px solid rgb(192, 60, 246)
-  padding-left: 20px
-  color: #8711b8
-  margin-bottom: 0.8em
+  text-transform: uppercase
+.titulo_seccion
+  color: $gris
+  border-left: 4px solid $gris
+.titulo_seccion_bc
+  color: white
+  border-left: 4px solid white
 .carga
   background-image: url("../img/load.gif")
   background-repeat: no-repeat
@@ -119,15 +108,16 @@ img.b-loaded
   /*border: 1px solid gray
   text-align: center
   border-radius: 8px
+  margin: 2em 0
 .contador h4
   padding-top: 8px
   padding-bottom: 8px
   margin: 0
 .contador #contador, .contador #contador-small
-  color: #ffffff
-  background: #941f80
+  color: white !important
+  background: #616061
   margin: 3px
-  border-radius: 0px 0px 8px 8px
+  border-radius: 10px
 #redes-header img
   width: 40px
   height: 50px
@@ -206,6 +196,11 @@ img.b-loaded
 
 #cartelConcurso
   margin-bottom: 2em
+
+.link
+  color: $rosado
+  font-weight: bold
+
 //=======================  VENTANA EMERGENTE  ===============
 #popup
     left: 0
@@ -297,8 +292,8 @@ img.b-loaded
 .asistentes
   font-size: 11px
 .slider
-        width: 100%
-        margin: 5px auto
+  width: 100%
+  margin: 5px auto
 .slider-ponentes
   width: 70%
   margin: 0px auto
@@ -314,19 +309,54 @@ img.b-loaded
 
   // =============   secciones ===================
 #secciones
-  height: 300px
+  height: 400px
   background-color: $verde
-  position: relative
+  display: flex
+  align-items: center
+  justify-content: space-around
+  align-items: center
+  padding: 0 10%
 
-// ======================= Temas =====================================
-
-#certificado
-  margin-top: 4em
-  background-color: $rosado
+#secciones figcaption h1, #secciones figcaption h2
+  text-transform: uppercase
   color: white
-  font-size: 1.1em
-  padding-top: 18px
-  margin-bottom: 4em
+  text-align: center
+  font-family: "avenir bold"
+
+#secciones figcaption h1
+  font-size: 14px
+  padding-bottom: 0
+  margin-bottom: 0
+#secciones figcaption h2
+  font-size: 20px
+  margin-top: -5px
+
+// ================== magistrales index ======================
+#magistrales
+  height: 400px
+  display: flex
+  align-items: center
+  justify-content: space-around
+  align-items: center
+  padding: 0 20%
+  margin-bottom: 25px
+
+.contenido_conferencista figcaption h1,
+.contenido_conferencista figcaption h2,
+.contenido_conferencista figcaption h3
+    text-transform: uppercase
+    color: $gris
+    text-align: center
+    margin: 0
+.contenido_conferencista figcaption h1,
+.contenido_conferencista figcaption h2
+  font-family: "avenir bold"
+.contenido_conferencista figcaption h1
+  font-size: 20px
+.contenido_conferencista figcaption h2
+  font-size: 16px
+.contenido_conferencista figcaption h3
+  font-size: 14px
 // ============================== sección actividades ===========================
 #eventos
   background: #019e57
@@ -413,11 +443,7 @@ img.b-loaded
 .img-patrocinador
   height: 110px !important
   margin: 20px 30px 20px 0px
-.marcas-1
-  background-image: url('../img/fondo-2.png')
-  background-size: 10% 100%
-  background-repeat: no-repeat
-  background-position: left center
+
 .marcas-2
     background-image: url('../img/fondo-2.png')
     background-size: 10% 100%
@@ -469,6 +495,10 @@ img.b-loaded
   padding: 0
 
 //=====================================  Boletos ============================================================
+#boletos-contenedor
+  font-family: "Roboto"
+  background-color: $azul
+  padding-bottom: 2em
 .desc
   margin-top: -1.5em
   padding-top: 0
@@ -476,16 +506,9 @@ img.b-loaded
   text-decoration: line-through
   color: #8d8790
   font-size: 0.7em
-#boletos-contenedor
-  margin-bottom: 5em
-  background: url('../img/fondo-3.png')
-  background-size: 10% 100%
-  background-repeat: no-repeat
-  background-position: right center
-  font-family: "Roboto"
 .pricing-table
-  border: solid 1px #883D84
-  border-radius: 0 0 30px 30px
+  // border: solid 1px #883D84
+  border-radius: 30px
   background-color: white
 .pricing-table li
   border-bottom: dotted 1px #DDDDDD
@@ -497,22 +520,22 @@ img.b-loaded
   letter-spacing: 0.1em
 .pricing-table li i
   font-size: 1.25rem
-  color: #883D84
+  color: #009ee2
   margin: 0
   padding: 0px
 .pricing-table li:last-child
   border-bottom: 0
 .pricing-table .title
-  background-color: #883D84
+  background-color: $gris
   color: #EEEEEE
   font-size: 1.45rem
-  border-bottom: 0
+  border-bottom: 30px
   font-family: "avenir bold"
   text-transform: uppercase
   padding: 0.450rem 0
 .pricing-table .price
   background-color: #F6F6F6
-  color: #883D84
+  color: #009ee2
   font-size: 1.75rem
   border-bottom: 0
   font-family: "avenir bold"
@@ -522,13 +545,29 @@ img.b-loaded
   font-size: 0.625rem
 .pricing-table .button
   margin: 0.585rem 0
-  background: #883D84
+  background: #009ee2
 .pesos
  font-size: 1rem
 
+// ===============  contador sobre el mapa  ==============
+.section-mapa
+  overflow: hidden
+
+.contador_mapa
+  z-index: 100
+  -moz-z-index: 100
+  height: 200px
+  width: 300px
+  background: red
+.section-mapa iframe
+  z-index: 1
+  -moz-z-index: 1
+  -webkit-z-index: 1
+
 //============================    Sección registro boletín    === ========================
 #registro
-  background: #2196D1
+  // background: #2196D1
+  background: $verde
   padding: 3em 0 3em 0
 #registro h4
   margin-bottom: 1em
@@ -576,8 +615,7 @@ img.b-loaded
   height: 160px
 //Sección redes sociales
 #redes-sociales
-  margin-bottom: 4em
-  margin-top: 4em
+  margin: 2em 0
 #redes-sociales img
   // width: 70px
   height: 60px
@@ -1191,6 +1229,37 @@ tr td.bloque
   margin-bottom: 2em
 #congresoTips span
   font-weight: bold
+
+// =====================  Ejes temáticos  =======================
+.container
+  display: grid
+  grid-template-columns:  repeat(2, 1fr)
+  margin: 0 20%
+.item
+  // border: 1px solid red
+  grid-gap: 10px
+
+.titulo-tema h1
+  // color: #007B78
+  color: #504e4e
+  font-size: 16px
+  text-align: left
+
+.item:nth-of-type(1)
+  background: #e8e6e6
+  padding: 30px
+  // color: #777777
+.item:nth-child(2)
+  display: flex
+  align-items: center
+
+//====================   precios  ===============
+.inscripcion-precio h2
+  font-size: 20px
+  text-transform: uppercase
+  font-family: "general"
+
+
 //================== dispositivos moviles ================================
 @media screen and (max-width: 500px)
   //===================  Conferencias Magistrales  =======================
