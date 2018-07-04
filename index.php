@@ -49,6 +49,9 @@
   <!--====================== cinta patrocinadores   ===================================================-->
   <?php include('assets/cinta_patrocinadores.php') ?>
   <!--======  diseño pra móviles   ======-->
+  <section class="movil">
+
+  </section>
   <div class="show-for-small-only">
     <div class="row align-center logo-contenedor-small">
       <a href="index.php">
@@ -119,7 +122,7 @@
     </section> -->
 
     <!-- ============= secciones  ========== -->
-    <section id="secciones" class="">
+    <section id="secciones" class="hide-for-small-only">
         <figure>
           <a href="#">
             <img src="img/i_conferencias.png" alt="">
@@ -167,10 +170,10 @@
         </figure>
     </section>
     <!-- ======================  Conferencistas magistrales ============== -->
-    <div class="row">
+    <div class="row hide-for-small-only">
       <h3 class="titulo_seccion">Conferencistas</h3>
     </div>
-    <section id="magistrales">
+    <section id="magistrales" class="hide-for-small-only">
       <figure class="contenido_conferencista">
         <a href="#">
           <img src="img/foto_ejemplo_1.png" alt="">
@@ -342,7 +345,7 @@
         </a>
       </div>
     </section> -->
-    <section id="section-mapa">
+    <section id="section-mapa" class="hide-for-small-only">
 
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7191.507337009546!2d-100.28561921134552!3d25.679459210524172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662942a8d42b18f%3A0x1eee54a9dfbc9332!2sCintermex!5e0!3m2!1ses!2smx!4v1528396562531" width="2000" height="450" frameborder="0" style="border:0" allowfullscreen>
       </iframe>

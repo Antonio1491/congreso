@@ -7,14 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejes Temáticos | Congreso Internacional de Parques urbanos</title>
     <?php  require("assets/head_common.php") ?>
-    <!-- <link rel="stylesheet" href="icons/foundation-icons.css">
-    <link rel="stylesheet" href="css/foundation-flex.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="css/app.css"> -->
   </head>
 <body onload="countdown('contador')">
 <?php include'assets/menu.php'; ?>
-<main class="back-2 sesiones">
+<main class="back-2">
   <div class="header header-convocatoria">
     <div class="row align-middle">
       <div class="column text-center">
@@ -33,7 +29,7 @@
           <section class="tematicas">
             <article class="tema">
               <header class="titulo-tema">
-                <h1>Diseño y Planeación</h1>
+                <img src="img/i_diseno.png" alt="" class="icono"><h1>Diseño y Planeación</h1>
               </header>
               <p>El objetivo de esta temática es hablar sobre principios y
                 procesos de diseño para parques; ahondando en temas específicos
@@ -44,7 +40,7 @@
             </article>
             <article class="tema">
               <header class="titulo-tema">
-                <h1>La Ciudad</h1>
+                <img src="img/i_ciudad.png" alt="" class="icono"><h1>La Ciudad</h1>
               </header>
               <p>Las ciudades están compuestas por elementos de gran complejidad
                 que las hacen únicas. La peatonalidad, proyectos de bicicleta
@@ -53,7 +49,7 @@
             </article>
             <article class="tema">
               <header class="titulo-tema">
-                <h1>Economía y Usos del Espacio Público</h1>
+                <img src="img/i_economia.png" alt="" class="icono"><h1>Economía y Usos del Espacio Público</h1>
               </header>
               <p>Además de ser espacios para la recreación, los parques impulsan
                 la economía y generan empleos. Se presentarán modelos exitosos de
@@ -63,7 +59,7 @@
             </article>
             <article class="tema">
               <header class="titulo-tema">
-                <h1>Salud y Medio Ambiente</h1>
+                  <img src="img/i_salud.png" alt="" class="icono"><h1>Salud y Medio Ambiente</h1>
               </header>
               <p>Los parques traen infinidad de beneficios a la salud ya que,
                 además de invitarnos a la activación física, son el lugar en donde
@@ -74,7 +70,7 @@
             </article>
             <article class="tema">
               <header class="titulo-tema">
-                <h1>Servicio Público y Participación Ciudadana</h1>
+                  <img src="img/i_servicio.png" alt="" class="icono"><h1>Servicio Público y Participación Ciudadana</h1>
               </header>
               <p>Los parques necesitan servidores públicos comprometidos con el
                 espacio público, con las mejores prácticas para su implementación

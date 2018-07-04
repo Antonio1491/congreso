@@ -50,35 +50,23 @@
     </div>
 
     <div class="off-canvas-content" data-off-canvas-content>
-    <header>
+    <header class="hide-for-small-only">
       <!--======================== Sección header "contador" ===================================-->
       <section id="encabezado">
-        <div class="row align-justify align-middle hide-for-small-only">
-          <div class="colum logo-principal">
+          <div class="item_encabezado logo-principal">
             <a href="index.php"><img src="img/congreso-parques-urbanos-logo.png" alt="Congreso Internacional de Parques Urbanos"></a>
           </div>
-          <div class="column ">
-            <div class="fecha">
-              <h4 id="">14-17 | MAYO | 2019</h4>
+          <div class="item_encabezado fecha">
+            <!-- <div class="fecha"> -->
+              <h4 id="">14-17 MAYO 2019</h4>
               <h5>MONTERREY, NUEVO LEÓN, MÉXICO</h5>
-            </div>
+            <!-- </div> -->
           </div>
-          <div class="shrink column " id="idiomas">
-            <!-- <a href="index.php"><img src="img/mex.png" alt="Español"></a>
-            <a href="english/index.php"><img src="img/usa.png" alt="Englis"></a> -->
+          <div class="item_encabezado logo_anpr_header">
+            <figure>
+              <a href="http://www.anpr.org.mx/" target="_blank"><img src="img/anpr-web.png" alt=""></a>
+            </figure>
           </div>
-          <div class="colum contenido-contador">
-            <div id="redes-header" class="text-center">
-              <a href="https://www.facebook.com/Congreso-Internacional-de-Parques-Urbanos-433605833658855/" target="_blank"><img src="img/facebook.png" class="rotacion transition"  alt=""></a>
-              <a href="https://twitter.com/congreso_parque" target="_blank"><img src="img/twitter.png" alt="" class="rotacion transition"></a>
-              <a href="https://www.instagram.com/congreso_parques/" target="_blank"><img src="img/instagram.png" class="rotacion transition"></a>
-              <a href="https://www.youtube.com/channel/UC_ExzrmxP5er7qZHeVpWidQ" target="_blank"><img src="img/youtobe.png" class="rotacion transition" alt=""></a>
-            </div>
-            <!-- <div class="contador">
-              <div id='contador'></div>
-            </div> -->
-          </div>
-        </div>
 
       </section>
       <!-- aviso  -->
@@ -118,7 +106,7 @@
                     <!-- <li><a href="convocatoria-sesiones.php">Convocatoria 2018</a></li> -->
                     <!-- <li><a href="concurso.php">concurso mobiliario urbano</a></li> -->
                     <li><a href="convocatoria-sesiones.php">Convocatoria 2019</a></li>
-                    <li><a href="participar.php">¿por qué participar?</a></li>
+                    <!-- <li><a href="participar.php">¿por qué participar?</a></li> -->
                     <!-- <li><a href="promotor.php">¿Quieres ser promotor?</a></li> -->
                     <li><a href="preguntas.php">Preguntas frecuentes</a></li>
                     <!-- <li><a href="voluntarios.php">Voluntarios</a></li> -->
@@ -129,7 +117,7 @@
                 <li><a href="#">monterrey, Nuevo león</a>
                   <ul class="menu  sub-menu-central">
                     <li><a href="CiudadDeLasMontanas.php">La Ciudad de las Montañas</a></li>
-                    <li><a href="http://www.merida.gob.mx/municipio/sitiosphp/merida/eventos.phpx" target="_blank">Actividades locales</a></li>
+                    <li><a href="https://www.mexicodesconocido.com.mx/cosas-que-hacer-en-monterrey.html" target="_blank">Actividades locales</a></li>
                     <li><a href="hospedajes.php">Hospedaje</a></li>
                     <li><a href="conectividad.php">Conectividad</a></li>
                     <li><a href="http://www.merida.gob.mx/capitalcultural/" target="_blank">Turismo en Mérida</a></li>

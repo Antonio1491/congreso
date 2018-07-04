@@ -31,6 +31,7 @@ h3,h4, h5,h6
 #aviso
   background: #7A44A1
   color: #fbf900
+
 .fondo-gris
   background-color: #f0f0f0
   margin: 2em 0 2em 0
@@ -51,20 +52,6 @@ h3,h4, h5,h6
   color: white
   padding: 2em 0 1em 0
   margin: 1em 0 1em 0
-.fecha
-  border-left: 2px solid #a7a3a3
-  padding-left: 20px
-  margin-left: 1em
-  margin-top: 8px
-.fecha h4
-  color: #94c01f
-  font-size: 24.5px
-  letter-spacing: 0
-  font-family: "avenir bold"
-  margin: 0
-.fecha h5
-  color: #00a099
-  letter-spacing: 0.3px
 
 .titulo_seccion, .titulo_seccion_bc
   padding-left: 20px
@@ -90,19 +77,50 @@ img.b-loaded
   letter-spacing: 0.1em
 .menu li a
   line-height: 1.28em
+
+//=========== header index  =============
 #encabezado
-  height: 15vh
+  height: 12vh
   background-color: $cielo
   font-size: 1em
-  color: $gris
-  padding-top: 5px
-  padding-bottom: 5px
   font-family: "ligera"
+  display: grid
+  grid-template-columns: 20% 50% 30%
+  justify-content: center
   // border: 1px solid red
-#encabezado img
-  margin: .4em 0
-  width: 240px
-  height: 110px
+#encabezado .item_encabezado
+  // border: 1px solid red
+
+#encabezado .logo-principal img,
+#encabezado .logo_anpr_header img
+  height: 10vh
+  padding-top: 1vh
+#encabezado .logo-principal img
+  float: right
+  padding-right: 20px
+#encabezado .logo_anpr_header
+  margin: 0 auto
+.fecha
+  // border-left: 2px solid #a7a3a3
+  padding-left: 20px
+  padding-top: 2vh
+.fecha h4,
+.fecha h5
+  padding-left: 20px
+.fecha h4
+  color: #94c01f
+  font-size: 24.5px
+  letter-spacing: 0
+  font-family: "avenir bold"
+  border-left: 2px solid $gris
+  margin-bottom: 0
+  padding-bottom: 0
+.fecha h5
+  color: #00a099
+  letter-spacing: 0.3px
+  border-left: 2px solid $gris
+
+// ========================================
 .contador
   width: 300px
   /*border: 1px solid gray
@@ -139,13 +157,13 @@ img.b-loaded
   // background: #06A49D
   border: 0
 #menu-central a
-  color: $gris
+  color: $azul
   // color: #fff
   font-size: 1.3em
   text-transform: uppercase
 
 #menu-central a:hover
-  color: #00B4D6
+  color: $verde
 .dropdown ul li a:hover
   color: $azul
   border-bottom: 1px solid #e2dfdf
@@ -200,7 +218,9 @@ img.b-loaded
 .link
   color: $rosado
   font-weight: bold
-
+.icono
+  height: 40px
+  text-align: left
 //=======================  VENTANA EMERGENTE  ===============
 #popup
     left: 0
@@ -242,7 +262,7 @@ img.b-loaded
   margin-top: -5px
 #portada
   overflow: hidden
-  height: 65vh
+  height: 70vh
   background-image: url("../img/portada.png")
   background-repeat: no-repeat
   background-position: bottom center
@@ -507,7 +527,7 @@ img.b-loaded
   color: #8d8790
   font-size: 0.7em
 .pricing-table
-  // border: solid 1px #883D84
+  border: solid 1px $gris
   border-radius: 30px
   background-color: white
 .pricing-table li
@@ -1036,7 +1056,8 @@ main.sesiones article header h4
   border-bottom: 1px solid #b605a5
 .isesiones
   width: 80px
-.sesiones article header, .content-temas
+.sesiones article header,
+.content-temas
   text-align: center
 
 .lista-sesiones
@@ -1238,13 +1259,14 @@ tr td.bloque
 .item
   // border: 1px solid red
   grid-gap: 10px
+.titulo-tema
 
 .titulo-tema h1
   // color: #007B78
   color: #504e4e
   font-size: 16px
   text-align: left
-
+  display: inline-block
 .item:nth-of-type(1)
   background: #e8e6e6
   padding: 30px

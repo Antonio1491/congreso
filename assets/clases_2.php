@@ -53,6 +53,29 @@ class Registro extends Conexion
 
 }
 
+/**
+ *
+ */
+class Sesiones extends Conexion
+{
+
+  public function Sesiones(){
+
+      parent::__construct();
+
+    }
+
+  public function mostrarSesiones($tema){
+
+    $sql = $this->conexion_db->query ("SELECT * FROM conferencias WHERE id_tema = $tema");
+
+    $array_sesiones = $sql->fetch_all(MYSQL_ASSOC);
+
+    return $array_sesiones;
+
+  }
+}
+
 
 
  ?>
