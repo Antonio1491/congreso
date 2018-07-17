@@ -1,6 +1,7 @@
 <?php
 include ('../assets/clases_2.php');
 
+$registro = new Registro();
 // datos personales del conferencista
 $nombre = $_POST['Nombre'];
 $apellido = $_POST['Apellidos'];
@@ -18,6 +19,8 @@ $nombre_foto = $_FILES['fotografia']['name'];
 $tipo_foto = $_FILES['fotografia']['type'];
 $temporal_foto = $_FILES['fotografia']['tmp_name'];
 
+$array = count($_POST['Nombre']);
+
 // Datos sobre la sesión educativa
 $sesion = $_POST['Sesion'];
 $tema = $_POST['Tema'];
@@ -31,14 +34,11 @@ $temporal_documento = $_FILES['archivo']['tmp_name'];
 $adicionales = $_POST['Adicionales'];
 
 
-
-$registro = new Registro();
-
-$conferencista = $registro->registroConferencista($nombre, $apellido, $email,
+$conferencista = $registro->registroConferencista($array, $nombre, $apellido, $email,
                                               $emailAsis, $telefono, $cargo, $empresa,
                                             $localidad, $direccion, $experiencia,
-                                          $anteriormente, $lugar, $nombre_foto, $tipo_foto,
-                                        $temporal_foto);
+                                          $anteriormente, $lugar, $nombre_foto,
+                                            $tipo_foto, $temporal_foto, $sesion);
 
 $sesion = $registro->registroSesionEducativa($sesion, $tema, $descripcion, $justificacion, $objetivos,
                                         $modalidad, $nombre_documento, $tipo_documento, $temporal_documento,
@@ -46,6 +46,7 @@ $sesion = $registro->registroSesionEducativa($sesion, $tema, $descripcion, $just
 
 if ( $conferencista == true && $sesion == true ) {
   echo header("Location: PropuestaRegistrada.html");
+
 }
 else{
   echo"<script language='JavaScript'>

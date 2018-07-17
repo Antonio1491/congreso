@@ -29,7 +29,7 @@
           sobre proyectos alrededor de todo el mundo que quieran ser presentados en el
           <strong>Congreso Internacional de Parques Urbanos</strong> en su segunda edición.</p>
           <p>Las propuestas recibidas con más probabilidad de ser aceptadas para formar parte
-            del programa son, aquellas que se apeguen a nuestras <a href="EjesTematicos.php" class="link">5 temáticas:</a></p>
+            del programa son, aquellas que se apeguen a nuestras <a href="EjesTematicos.php" class="link">5 temáticas.</a></p>
             <h4>PERFIL DEL PONENTE</h4>
               <ul>
                 <li>Arquitectos, urbanistas, arquitectos paisajistas, diseñadores del hábitat. </li>
@@ -81,7 +81,7 @@
       <div class="row column">
         <h4>BENEFICIOS</h4>
         <p>A los ponentes seleccionados se les otorgará una entrada general de cortesía
-          para los días que el evento tendrá lugar.
+          para los días que el evento tendrá lugar en el Centro de Convenciones CINTERMEX.
           La entrada de cortesía incluye:</P>
           <ul>
             <li>Todas las conferencias magistrales y sesiones educativas.</li>
@@ -94,38 +94,32 @@
       <p><strong>Nota:</strong> Los gastos relacionados con inscripción a talleres, traslado, hospedaje, comidas y honorarios por presentación de
       la sesión no están incluidos en el paquete de beneficios.</p>
     </div>
+
     <div class="row column">
       <h4>INSTRUCCIONES</h4>
     </div>
     <div class="row column">
-      <p>¡El enviar una buena propuesta está en tus manos!  Antes de redactar tu propuesta, toma en consideración que necesitamos la siguiente información:</p>
       <ul>
-        <li>Datos personales: Email, institución y puesto de trabajo, dirección, entre otros.</li>
-        <li>Breve biografía: Incluir experiencia de trabajo, proyectos, investigaciones, colaboraciones y otra información relevante – 550 palabras máximo.</li>
-        <li>Fotografía profesional de cabeza y hombros a color.</li>
+        <li>El envío de la propuesta no garantiza tu aceptación, ni tu registro como asistente del congreso.</li>
+        <li>Recibirás los resultados de la convocatoria en las fechas establecidas.</li>
+        <li>Si tu propuesta es una “Mesa panel” más de una persona, es importante registrar a todas las personas.</li>
       </ul>
-      <strong>SOBRE LA SESIÓN:</strong>
+      <h4>SOBRE LA SESIÓN:</h4>
       <ul>
         <li>Título: Debes crear un título que refleje la esencia de tu sesión y deberá ser de 12 palabras o menos.</li>
         <li>Seleccionar la <a href="EjesTematicos.php" class="link">temática</a> a la que se alinea.</li>
-        <li>Descripción: Describe de forma concisa y clara tu sesión esta debe ser de 200 palabras o menos. Si tu sesión es seleccionada, esta descripción
-          aparecerá en nuestra página web, asegúrate que esta invite a entrar a ella.</li>
-        <li>Justificación: Justifique la importancia de su sesión educativa propuesta, identificando cómo su proyecto/iniciativa/investigación,
-          etc da solución a un problema relacionado con el espacio público y cómo se relaciona con las cinco temáticas del congreso. No hay
-          limitaciones en el número de palabras.</li>
+        <li>Descripción: Describe de forma concisa y clara tu sesión; esta, debe ser de 200 palabras o menos. Si tu sesión es seleccionada, la descripción aparecerá en nuestra página web, asegúrate que invite a entrar a ella.</li>
+        <li>Justificación: Justifica la importancia de tu sesión educativa propuesta, identificando cómo tu proyecto/iniciativa/investigación, etc da solución a un problema relacionado con el espacio público y cómo se relaciona con las cinco temáticas del congreso. No hay limitaciones en el número de palabras.</li>
         <li>Objetivos: La sesión debe contar con objetivos de aprendizaje, claros y medibles. Se solicita enumerar 3.</li>
-        <li>Modalidad: Usted podrá realizar una propuesta personal o en conjunto con otros participantes. Estos pueden ser colaboradores de
-          su misma organización, pero esto no es limitativo. Usted puede hacer una propuesta de sesión con compañeros de proyectos sociales, despachos,
-          universidades - ¡incluso de distintas ciudades o países! Es importante tener la información personal de todos los ponentes involucrados en
-          la propuesta con un máximo de 4 personas.</li>
+        <li>Modalidad: Podrás realizar una propuesta personal o en conjunto con otros participantes. Estos pueden ser colaboradores de su misma organización, pero esto no es limitativo. Podrás hacer una propuesta de sesión con compañeros de proyectos sociales, despachos, universidades - ¡incluso de distintas ciudades o países! Es importante tener la información personal de todos los ponentes involucrados en la propuesta con un máximo de 3 personas.</li>
       </ul>
     </div>
     <div class="row column">
-      <strong>Registra tu contribución:</strong>
+      <a href="registro/RegistroSesionesEducativas.php" id="link_registro"><h4 id="registraContribucion">¡Registra tu propuesta aquí!</h4></a>
     </div>
-    <div class="row column">
-      <p>Para registrar su contribución de clic <a href="registro/RegistroSesionesEducativas.php" class="link">aquí.</a></p>
-    </div>
+    <!-- <div class="row column">
+      <p>Para registrar su contribución de clic <a href="registro/RegistroSesionesEducativas.php" id="link_registro">aquí.</a></p>
+    </div> -->
   </article>
 </main>
 

@@ -49,10 +49,90 @@
   <!--====================== cinta patrocinadores   ===================================================-->
   <?php include('assets/cinta_patrocinadores.php') ?>
   <!--======  diseño pra móviles   ======-->
-  <section class="movil">
+  <section class="movil show-for-small-only" >
+    <div class="header_movil item_movil">
+      <figure class="logo_movil">
+        <img src="img/logotipo/anpr.png" alt="">
+      </figure>
+    </div>
+    <div class="item_movil icon">
+      <a href="conferenciasMagistrales.php" target="_blank">
+        <figure class="icon_movil">
+          <img src="img/i_conferencias_m.png" alt="">
+        </figure>
+        <figcaption class="titulo_movil">
+          <h2>Conferencias</h2>
+          <h1>Magistrales</h1>
+        </figcaption>
+      </a>
+    </div>
+    <div class="item_movil icon">
+      <a href="sesiones.php" target="_blank">
+        <figure class="icon_movil">
+          <img src="img/i_sesiones_m.png" alt="">
+        </figure>
+        <figcaption class="titulo_movil">
+          <h2>Sesiones</h2>
+          <h1>Educativas</h1>
+        </figcaption>
+      </a>
+    </div>
+    <div class="item_movil icon">
+      <a href="talleres.php" target="_blank">
+        <figure class="icon_movil">
+          <img src="img/i_talleres_m.png" alt="">
+        </figure>
+        <figcaption class="titulo_movil">
+          <h2>Talleres</h2>
+          <h1>Vivenciales</h1>
+        </figcaption>
+      </a>
+    </div>
+    <div class="item_movil icon">
+      <a href="expo_parques_urbanos.php" target="_blank">
+        <figure class="icon_movil">
+          <img src="img/i_expo_parques_m.png" alt="">
+        </figure>
+        <figcaption class="titulo_movil">
+          <h2>Expo</h2>
+          <h1>Parques</h1>
+        </figcaption>
+      </a>
+    </div>
+    <div class="item_movil icon">
+      <a href="eventos-sociales.php" target="_blank">
+        <figure class="icon_movil">
+          <img src="img/i_eventos_sociales_m.png" alt="">
+        </figure>
+        <figcaption class="titulo_movil">
+          <h2>Eventos</h2>
+          <h1>Sociales</h1>
+        </figcaption>
+      </a>
+    </div>
+    <div class="item_movil icon">
+      <a href="inscripcion.php" target="_blank">
+        <figure class="icon_movil">
+          <img src="img/i_costos_m.png" alt="">
+        </figure>
+        <figcaption class="titulo_movil">
+          <h2>Costo de</h2>
+          <h1>Inversión</h1>
+        </figcaption>
+      </a>
+    </div>
+    <div class="item_movil footer_movil">
+      <img src="img/i_fecha.png" alt="">
+    </div>
+    <div class="">
+
+    </div>
+    <div class="item_movil ">
+      <img src="img/i_anpr_bc.png" alt="">
+    </div>
 
   </section>
-  <div class="show-for-small-only">
+  <!-- <div class="show-for-small-only">
     <div class="row align-center logo-contenedor-small">
       <a href="index.php">
         <img src="img/congreso-parques-urbanos-logo.png" class="logo-small" alt="Congreso Internacional de Parques Urbanos">
@@ -62,10 +142,10 @@
       <a href="english/index.php"><img src="img/usa.png" alt=""></a>
     </div>
     <div class="row align-center contenido-contador">
-      <div class="contador">
+      <div class="contador"> -->
         <!-- <h5>ABRIL 25-27 DEL 2018</h5>
         <h5>MÉRIDA YUCATÁN</h5> -->
-        <div id='contador-small'></div>
+        <!-- <div id='contador-small'></div>
       </div>
     </div>
   </div>
@@ -76,7 +156,7 @@
       <a href="https://www.instagram.com/congreso_parques/" target="_blank"><img src="img/instagram.png" alt=""></a>
       <img src="img/youtobe.png" alt="">
     </div>
-  </section>
+  </section> -->
   <!--======  Fin diseño pra móviles   ======-->
   <!-- <section id="eventos" class="hide-for-small-only">
     <div class="row"><!-- ====  fila conferencias y sesiones  === -->

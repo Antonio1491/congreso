@@ -1,4 +1,3 @@
-<?php include('assets/contador.php')?>
 <!doctype html>
 <html class="no-js" lang="es" dir="ltr">
   <head>
@@ -15,35 +14,150 @@
 <body onload="countdown('contador')">
 <?php include'assets/menu.php'; ?>
 <main class="back-1">
-  <article class="">
-    <div class=" header header-8">
-      <div class="row align-middle">
-        <div class="column text-center">
-          <h1 class="titulos">CONFERENCIAS MAGISTRALES</h1>
-        </div>
+  <div class=" header header-8">
+    <div class="row align-middle">
+      <div class="column text-center">
+        <h1 class="titulos">CONFERENCIAS MAGISTRALES</h1>
       </div>
     </div>
-    <div class="contenido">
+  </div>
+  <div class="contenido">
+    <div class="row column">
+      <p><span class="letra-capital">L</span>as Conferencias Magistrales serán el momento en el cual todos los
+        asistentes al congreso se reunirán en una misma sala para escuchar hablar a los expertos sobre los parques
+        urbanos y temas de interés común para nuestras ciudades.</p>
+    </div>
+    <div class="row">
+      <article class="conf_mag">
+        <div class="contenido_conferencista item_conf_m">
+          <div class="">
+            <figure>
+              <img src="img/foto_ejemplo_2.png" alt="">
+            </figure>
+            <figcaption>
+              <hgroup>
+                <h1>Nombre Apellido</h1>
+                <h2>Cargo</h2>
+                <h3>Empresa</h3>
+              </hgroup>
+            </figcaption>
+          </div>
+        </div>
+        <div class="descripcion_conferencia_m item_conf_m">
+            <div class="">
+              <h1>Título de la Conferencia</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet magna ut nulla laoreet hendrerit eget ut mi. Vestibulum sagittis ultrices nisi ornare accumsan. Suspendisse sollicitudin, libero sit amet fermentum tincidunt, tortor tortor vulputate metus, et porta justo nulla sit amet sapien. Nullam et finibus mi, et varius massa. In convallis elit at rhoncus lobortis. Vestibulum a mollis arcu, quis dignissim leo. Ut egestas dui id aliquam mollis. Cras pretium magna vel finibus tincidunt.
+              </p>
+            </div>
+
+          </div>
+        </article>
+      </div>
+
       <div class="row">
-        <div class="column">
-          <p><span class="letra-capital">L</span>as Conferencias Magistrales serán el momento en el cual todos los
-            asistentes al congreso se reunirán en una misma sala para escuchar hablar a los expertos sobre los parques
-            urbanos y temas de interés común para nuestras ciudades.. </p>
-        </div>
+        <article class="conf_mag">
+          <div class="contenido_conferencista item_conf_m">
+            <div class="">
+              <figure>
+                <img src="img/foto_ejemplo_2.png" alt="">
+              </figure>
+              <figcaption>
+                <hgroup>
+                  <h1>Nombre Apellido</h1>
+                  <h2>Cargo</h2>
+                  <h3>Empresa</h3>
+                </hgroup>
+              </figcaption>
+            </div>
+          </div>
+          <div class="descripcion_conferencia_m item_conf_m">
+            <div class="">
+              <h1>Título de la Conferencia</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet magna ut nulla laoreet hendrerit eget ut mi. Vestibulum sagittis ultrices nisi ornare accumsan. Suspendisse sollicitudin, libero sit amet fermentum tincidunt, tortor tortor vulputate metus, et porta justo nulla sit amet sapien. Nullam et finibus mi, et varius massa. In convallis elit at rhoncus lobortis. Vestibulum a mollis arcu, quis dignissim leo. Ut egestas dui id aliquam mollis. Cras pretium magna vel finibus tincidunt.
+              </p>
+            </div>
+          </div>
+        </article>
       </div>
-      <div class="row align-center fila-espacio fila-espacio2">
-      <div class="columns small-9 medium-3 large-2">
-        <figure class="carga">
-          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="img/conferencistas/martha-fajardo.png" alt="Martha Fajardo">
-        </figure>
+
+      <div class="row">
+        <article class="conf_mag">
+          <div class="contenido_conferencista item_conf_m">
+            <div class="">
+              <figure>
+                <img src="img/foto_ejemplo_2.png" alt="">
+              </figure>
+              <figcaption>
+                <hgroup>
+                  <h1>Nombre Apellido</h1>
+                  <h2>Cargo</h2>
+                  <h3>Empresa</h3>
+                </hgroup>
+              </figcaption>
+            </div>
+          </div>
+          <div class="descripcion_conferencia_m item_conf_m">
+            <div class="">
+              <h1>Título de la Conferencia</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet magna ut nulla laoreet hendrerit eget ut mi. Vestibulum sagittis ultrices nisi ornare accumsan. Suspendisse sollicitudin, libero sit amet fermentum tincidunt, tortor tortor vulputate metus, et porta justo nulla sit amet sapien. Nullam et finibus mi, et varius massa. In convallis elit at rhoncus lobortis. Vestibulum a mollis arcu, quis dignissim leo. Ut egestas dui id aliquam mollis. Cras pretium magna vel finibus tincidunt.
+              </p>
+            </div>
+
+          </div>
+        </article>
       </div>
-      <div class="column small-10 medium-3 large-4 contenido-magistrales">
-        <div class="titulo-conferencia ">
-          <h6 class="text-center">CIUDAD Y PARQUES PARA LA VIDA</h6>
-        </div>
-        <h5 class="text-center"><a href="conferencista_magistral.php?id=2">Martha Fajardo</a></h5>
-        <h6 class="text-center">Gerente Grupo Verde Ltda. – Colombia</h6>
+
+      <div class="row">
+        <article class="conf_mag">
+          <div class="contenido_conferencista item_conf_m">
+            <div class="">
+              <figure>
+                <img src="img/foto_ejemplo_2.png" alt="">
+              </figure>
+              <figcaption>
+                <hgroup>
+                  <h1>Nombre Apellido</h1>
+                  <h2>Cargo</h2>
+                  <h3>Empresa</h3>
+                </hgroup>
+              </figcaption>
+            </div>
+          </div>
+          <div class="descripcion_conferencia_m item_conf_m">
+            <div class="">
+              <h1>Título de la Conferencia</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet magna ut nulla laoreet hendrerit eget ut mi. Vestibulum sagittis ultrices nisi ornare accumsan. Suspendisse sollicitudin, libero sit amet fermentum tincidunt, tortor tortor vulputate metus, et porta justo nulla sit amet sapien. Nullam et finibus mi, et varius massa. In convallis elit at rhoncus lobortis. Vestibulum a mollis arcu, quis dignissim leo. Ut egestas dui id aliquam mollis. Cras pretium magna vel finibus tincidunt.
+              </p>
+            </div>
+
+          </div>
+        </article>
       </div>
+
+
+
+
+      <!-- <div class="row align-center fila-espacio fila-espacio2">
+
+          <div class="column small-2 medium-3 large-2">
+            <figure class="carga">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="img/conferencistas/martha-fajardo.png" alt="Martha Fajardo">
+            </figure>
+          </div>
+          <div class="column small-10 medium-3 large-4 contenido-magistrales">
+            <div class="titulo-conferencia ">
+              <h6 class="text-center">CIUDAD Y PARQUES PARA LA VIDA</h6>
+            </div>
+            <h5 class="text-center"><a href="conferencista_magistral.php?id=2">Martha Fajardo</a></h5>
+            <h6 class="text-center">Gerente Grupo Verde Ltda. – Colombia</h6>
+          </div>
+
+
+
       <div class="column small-9 medium-3 large-2">
         <figure class="carga">
           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="img/conferencistas/mario-shejtan.png" alt="Mario Shejtan">
@@ -161,23 +275,9 @@
         <h5 class="text-center"><a href="conferencista_magistral.php?id=10">Tanya Müller</a></h5>
         <h6 class="text-center">Secretaria del Medio Ambiente de la Ciudad de México </h6>
       </div>
-    </div>
-  </article>
+    </div> -->
 
-  <div class="row collapse barra-secciones align-center">
-    <div class="column medium-2">
-      <a href="conferencias.php"><img src="img/btn-conferencias.png" alt=""></a>
-    </div>
-    <div class="column medium-2">
-      <a href="sesiones.php"><img src="img/btn-sesiones.png" alt=""></a>
-    </div>
-    <div class="column medium-2">
-      <a href="expo.php"><img src="img/btn-expo.png" alt=""></a>
-    </div>
-    <div class="column medium-2">
-      <a href="talleres.php"><img src="img/btn-talleres.png" alt=""></a>
-    </div>
-  </div>
+
 </main>
 
 <?php include'assets/footer.php'; ?>

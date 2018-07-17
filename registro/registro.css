@@ -29,7 +29,7 @@ input[type=submit]:hover{
 .container{
   display: grid;
   grid-template-columns:40% 60%;
-  grid-template-rows: 700px;
+  grid-template-rows: 580px;
 }
 .item{
   margin: 20px;
@@ -45,6 +45,9 @@ input[type=submit]:hover{
 .Instrucciones{
   background-color: #f1f1f1;
   padding: 20px;
+  text-align: justify;
+  font-size: 14px;
+  color: #595857;
 }
 .Instrucciones span{
   font-weight: bold;

@@ -153,7 +153,7 @@
         </div>
       </div>
     </div>
-      
+
   </article>
 
   <!-- <?php
@@ -193,20 +193,7 @@
        ?> -->
     </div>
   </section>
-  <div class="row collapse hide-for-small-only barra-secciones align-center">
-    <div class="column small-3 medium-2">
-      <a href="conferencias.php"><img src="img/btn-conferencias.png" alt=""></a>
-    </div>
-    <div class="column small-3 medium-2">
-      <a href="sesiones.php"><img src="img/btn-sesiones.png" alt=""></a>
-    </div>
-    <div class="column small-3 medium-2">
-      <a href="expo.php"><img src="img/btn-expo.png" alt=""></a>
-    </div>
-    <div class="column small-3 medium-2">
-      <a href="talleres.php"><img src="img/btn-talleres.png" alt=""></a>
-    </div>
-  </div>
+
 </main>
 
 

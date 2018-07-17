@@ -19,7 +19,7 @@
                   <li><a href="eventos-sociales.php">Eventos Sociales</a></li>
             </ul>
           </li>
-          <li><a href="expo.php">Expo Parques Urbanos</a></li>
+          <li><a href="expo_parques_urbanos.php">Expo Parques Urbanos</a></li>
           <li><a href="#">Participa</a>
             <ul class=" vertical menu  sub-menu-central">
               <li><a href="congreso-tips.php">Congreso Tips</a></li>
@@ -87,8 +87,8 @@
               <ul class="dropdown menu align-spaced show-for-medium" id="" data-dropdown-menu>
                 <li><a href="#">congreso</a>
                   <ul class="menu sub-menu-central">
-                    <li><a href="conferencias.php">Conferencias magistrales</a></li>
-                    <li><a href="sesiones.php">Sesiones Educativas</a></li>
+                    <li><a href="conferenciasMagistrales.php">Conferencias magistrales</a></li>
+                    <li><a href="sesionesEducativas.php">Sesiones Educativas</a></li>
                     <li><a href="talleres.php">Talleres</a></li>
                     <!--<li><a href="tematicas.php">Temáticas</a></li>-->
                     <li><a href="programa.php">Programa Completo</a></li>
@@ -97,11 +97,11 @@
                     <li><a href="eventos-sociales.php">Eventos Sociales</a></li>
                   </ul>
                 </li>
-                <li><a href="expo.php">Expo Parques Urbanos</a></li>
+                <li><a href="expo_parques_urbanos.php">Expo Parques Urbanos</a></li>
                 <li><a href="#">Participa</a>
                   <ul class="menu  sub-menu-central">
                     <!-- <li><a href="congreso-tips.php">Congreso Tips</a></li> -->
-                    <li><a href="inscripcion.php">Inscripción</a></li>
+                    <li><a href="inscripcion.php">Inversión</a></li>
                     <li><a href="EjesTematicos.php">Ejes Temáticos</a></li>
                     <!-- <li><a href="convocatoria-sesiones.php">Convocatoria 2018</a></li> -->
                     <!-- <li><a href="concurso.php">concurso mobiliario urbano</a></li> -->
@@ -120,7 +120,7 @@
                     <li><a href="https://www.mexicodesconocido.com.mx/cosas-que-hacer-en-monterrey.html" target="_blank">Actividades locales</a></li>
                     <li><a href="hospedajes.php">Hospedaje</a></li>
                     <li><a href="conectividad.php">Conectividad</a></li>
-                    <li><a href="http://www.merida.gob.mx/capitalcultural/" target="_blank">Turismo en Mérida</a></li>
+                    <!-- <li><a href="http://www.merida.gob.mx/capitalcultural/" target="_blank">Turismo en Mérida</a></li> -->
                     <li><a href="http://www.nuevoleon.travel/quehacer/" target="_blank">Turismo Nuevo León</a></li>
                   </ul>
                 </li>

@@ -1,15 +1,3 @@
-<?php
-session_start();
-    $_SESSION['dia'] = '25';
-    $_SESSION['mes'] = '3'; // los meses van del 0 al 11
-    $_SESSION['ano'] = '2018';
-    $_SESSION['hora'] = '9';
-    $_SESSION['minuto'] = '00';
-    $_SESSION['segundo'] = '00';
-
-    require("datos_conexion.php")
-
-?>
 <!doctype html>
 <html class="no-js" lang="es" dir="ltr">
   <head>

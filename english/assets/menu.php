@@ -44,37 +44,24 @@
     <div class="off-canvas-content" data-off-canvas-content>
     <header>
       <!--======================== Sección header "contador" ===================================-->
+      <!--======================== Sección header "contador" ===================================-->
       <section id="encabezado">
-        <div class="row align-justify align-middle hide-for-small-only">
-          <div class="colum logo-principal">
-            <a href="index.php"><img src="img/congreso-parques-urbanos-logo.png" alt=""></a>
+          <div class="item_encabezado logo-principal">
+            <a href="#"><img src="img/congreso-parques-urbanos-logo.png" alt="Congreso Internacional de Parques Urbanos"></a>
           </div>
-          <div class="column ">
-            <div class="fecha">
-              <h4 id="">25-27 | APRIL | 2018</h4>
-              <h5>MÉRIDA, YUCATÁN, MÉXICO</h5>
-            </div>
+          <div class="item_encabezado fecha">
+            <!-- <div class="fecha"> -->
+              <h4 id="">14-17 MAY 2019</h4>
+              <h5>MONTERREY, NUEVO LEÓN, MÉXICO</h5>
+            <!-- </div> -->
           </div>
-          <div class="shrink column " id="idiomas">
-            <a href="http://www.congresoparques.com"><img src="img/mex.png" alt="Español"></a>
-            <a href="index.php"><img src="img/usa.png" alt="Englis"></a>
+          <div class="item_encabezado logo_anpr_header">
+            <figure>
+              <a href="http://www.anpr.org.mx/" target="_blank"><img src="img/anpr-web.png" alt=""></a>
+            </figure>
           </div>
-          <div class="colum contenido-contador">
-            <div id="redes-header" class="text-center">
-              <a href="https://www.facebook.com/Congreso-Internacional-de-Parques-Urbanos-433605833658855/" target="_blank"><img src="img/facebook.png"  alt=""></a>
-              <a href="https://twitter.com/congreso_parque" target="_blank"><img src="img/twitter.png" alt=""></a>
-              <a href="https://www.instagram.com/congreso_parques/" target="_blank"><img src="img/instagram.png" alt=""></a>
-              <a href="https://www.youtube.com/channel/UC_ExzrmxP5er7qZHeVpWidQ" target="_blank"><img src="img/youtobe.png" alt=""></a>
-            </div>
-            <div class="contador">
-              <!--<h5>25-27 ABRIL, 2018</h5>
-              <h5>MÉRIDA, YUCATÁN</h5>-->
-              <div id='contador'></div>
-            </div>
-          </div>
-        </div>
-      </section>
 
+      </section>
       <!-- Menu -->
       <section id="menu-sticky" class="sticky-container " data-sticky-container>
         <div class="data-sticky" data-sticky data-options="marginTop:0;" data-sticky-on="small"
@@ -86,7 +73,7 @@
               <ul class="dropdown menu align-spaced show-for-medium" id="" data-dropdown-menu>
                 <li><a href="#">Congress</a>
                   <ul class="menu sub-menu-central">
-                  <li><a href="conferencias.php">KEYNOTE PRESENTATIONS </a></li>
+                  <li><a href="#" >KEYNOTE PRESENTATIONS </a></li>
                   <li><a href="sesiones.php">EDUCATIONAL SESSIONS</a></li>
                   <li><a href="talleres.php">WORKSHOPS</a></li>
                   <li><a href="programa.php">SCHEDULE AT GLANCE</a></li>

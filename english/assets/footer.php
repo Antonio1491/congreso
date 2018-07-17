@@ -1,69 +1,49 @@
 <!--   footer  -->
 <footer>
   <div class="row align-justify text-center">
-    <div class="column small-6 medium-3 small-order-1 medium-order-1">
+    <div class="column small-6 medium-2 small-order-1 medium-order-1">
       <a href="participar.php"><img data-src="img/congreso-parques-logo-gris.png" alt="1er Congreso de Parques Urbanos"></a>
     </div>
-    <div class="column small-12 medium-6 small-order-3 medium-order-2">
+    <div class="column small-12 medium-8 small-order-3 medium-order-2" id="cabecera-footer">
       <h5>INTERNATIONAL CONGRESS OF URBAN PARKS</h5>
-      <h4>25-27 APRIL 2018 - MERIDA, YUCATAN, MEXICO</h4>
+      <h4>MAY 14-17, 2019 - MONTERREY, NUEVO LEÓN, MEXICO</h4>
       <h6>Presented by The National Association of Parks and Recreation México.</h6>
     </div>
-    <div class="column small-6 medium-3 small-order-2 medium-order-3">
+    <div class="column small-6 medium-2 small-order-2 medium-order-3">
       <a href="http://anpr.org.mx/"><img data-src="img/parques-urbanos-logo-anpr.png" alt="Asociación Nacional de Parques y Recreación"></a>
     </div>
   </div>
-    <!-- Ménu footer -->
-    <div class="row hide-for-small-only" id="menu-footer">
-      <div class="column">
-        <ul class="menu vertical ">
-          <li class="menu-text">CONTACT US</a></li>
-          <li><a href="http://anpr.org.mx/" target="_blank">ANPR</a></li>
-          <li><a href="http://www.parquesdemexico.org/consultora/">Parques de México</a></li>
-          <li><a href="http://parquesalegres.org/" target="_blank">Parques Alegres</a></li>
-
-          <li><a href="mailto:info.congreso@anpr.org.mx">info.congreso@anpr.org.mx</a></li>
-          <li><a href="#">#CONGRESOPARQUES</a></li>
-        </ul>
-      </div>
-      <div class="column ">
-        <ul class="menu vertical">
-          <li class="menu-text">CONGRESS</a></li>
-          <li><a href="conferencias.php">KEYNOTE SPEAKERS</a></li>
-          <li><a href="sesiones.php">EDUCATIONAL SESSIONS</a></li>
-          <li><a href="talleres.php">WORKSHOPS</a></li>
-          <li><a href="programa.php">SCHEDULE AT GLANCE</a></li>
-          <li><a href="patrocinadores.php">SPONSORS AND PARTNERS</a></li>
-          <li><a href="expo.php">URBAN PARKS EXPO</a></li>
-        </ul>
-      </div>
-      <div class="column">
-          <ul class="menu vertical">
-            <li class="menu-text">PARTICIPATE</a></li>
-            <li><a href="convocatoria-sesiones.php">CALL FOR PROPOSALS 2018</a></li>
-            <li><a href="inscripcion.php">REGISTRATION</a></li>
-            <li><a href="participar.php">WHY PARTICIPATE?</a></li>
-            <li><a href="preguntas.php">FREQUENT ASKED QUESTIONS</a></li>
-            <li><a href="contacto.php">CONTACT</a></li>
-            <li><a href="aviso-legal.php">LEGAL WARNING</a></li>
-            <li><a href="privacidad.php">PRIVACY POLICY</a></li>
-          </ul>
-      </div>
-      <div class="column">
-        <ul class="menu vertical">
-          <li class="menu-text">Mérida yucatán</li>
-          <li><a href="ciudad-blanca.php">THE WHITE CITY</a></li>
-          <li><a href="http://www.merida.gob.mx/municipio/sitiosphp/merida/eventos.phpx" target="_blank">LOCAL ACTIVITIES</a></li>
-          <li><a href="hospedajes.php">LODGING</a></li>
-          <li><a href="conectividad.php">AIR CONNECTIVITY</a></li>
-          <li><a href="http://www.merida.gob.mx/capitalcultural/">TURISM IN MÉRIDA</a></li>
-        </ul>
+  <div class="row">
+    <div class="colm medium-6">
+      <!--========  Redes sociales  ========-->
+      <section id="redes-sociales" class="hide-for-small-only">
+        <div class="row align-center ">
+          <a href="https://www.facebook.com/Congreso-Internacional-de-Parques-Urbanos-433605833658855/" target="_blank">
+            <img src="img/facebook.png" alt="">
+          </a>
+          <a href="https://twitter.com/congreso_parque" target="_blank">
+            <img src="img/twitter.png" alt="">
+          </a>
+          <a href="https://www.instagram.com/congreso_parques/" target="_blank">
+            <img src="img/instagram.png" alt="">
+          </a>
+          <a href="https://www.youtube.com/channel/UC_ExzrmxP5er7qZHeVpWidQ" target="_blank">
+            <img src="img/youtobe.png" alt="">
+          </a>
+        </div>
+      </section>
+    </div>
+    <div class="col medium-6">
+      <div class="contador">
+        <div id='contador'></div>
       </div>
     </div>
-      <!-- //Ménu footer -->
+  </div>
+
+  <!-- //Ménu footer -->
   </footer>
   <div class="row column expanded align-center" id="pie">
-    <p><a href="http://anpr.org.mx/" target="_blank">© 2017 Asociación Nacional de Parques y Recreación</a></p>
+    <p><a href="http://anpr.org.mx/" target="_blank">© 2018 National Association of Parks and Recreation</a></p>
   </div>
 
 </div>
@@ -88,7 +68,7 @@
       });
     });
   </script>
-  
+
 <!---->
 <!--<script src="js/vendor/jquery.js"></script>-->
 <script src="js/vendor/what-input.js"></script>

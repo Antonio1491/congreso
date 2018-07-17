@@ -87,9 +87,8 @@ img.b-loaded
   display: grid
   grid-template-columns: 20% 50% 30%
   justify-content: center
-  // border: 1px solid red
+  align-items: center
 #encabezado .item_encabezado
-  // border: 1px solid red
 
 #encabezado .logo-principal img,
 #encabezado .logo_anpr_header img
@@ -169,7 +168,9 @@ img.b-loaded
   border-bottom: 1px solid #e2dfdf
 #menu-sticky
   background: $cielo
-  // background: linear-gradient(to bottom right, #009F54, #00998C )
+#menu-sticky li, .logo-principal a
+  pointer-events: none
+  cursor: default
   height: 8vh !important
 
 .sub-menu-central
@@ -327,6 +328,16 @@ img.b-loaded
 .slick-prev, .slick-next
   display: none !important
 
+
+#registraContribucion
+  background-color: $verde-limon
+  color: white
+  padding: 10px
+  border-radius: 4px
+#link_registro
+  font-size: 22px
+  color: $rosado
+  font-weight: bold
   // =============   secciones ===================
 #secciones
   height: 400px
@@ -789,6 +800,39 @@ main .contenido ul li
 .formulario_promotores form
   padding: 0 0 2em 0
 //================    Conferencias magistrales    ======================
+.conf_mag
+  display: grid
+  grid-template-columns: 25% 75%
+  height: 300px
+  border: 1px solid #eceaec
+  border-radius: 20px
+  margin-top: 20px
+// .conf_mag:hover
+  box-shadow: 3px 3px 7px #e8e8e8
+  background-color: #f7f7f7
+
+.item_conf_m
+  display: flex
+  align-items: center
+.item_conf_m hgroup h1
+  color: $rosado
+.item_conf_m:nth-of-type(1)
+  text-align: center
+  margin: 0 auto
+.conf_mag figure img
+  height: 170px
+.descripcion_conferencia_m h1
+  color: $azul
+  // color: $gris
+  text-transform: uppercase
+  font-size: 24px
+  text-align: center
+.descripcion_conferencia_m p
+  padding-left: 30px
+  padding-right: 30px
+  // border: 1px solid red
+
+
 .contenido-magistrales
   border-bottom: 1px solid #c3c3c3
 .contenido-magistrales h5 a
@@ -811,12 +855,38 @@ main .contenido ul li
 .fila-espacio2
   margin-bottom: 3em
 
-//=================   TALLERES   =======================================
+//=================   TALLERES   ====================================
+.container_talleres
+  display: grid
+  grid-template-columns: repeat(4, 1fr)
+  grid-template-rows: 250px 500px
+  border: 1px solid #eceaec
+  border-radius: 20px
+  margin-top: 20px
+.item_taller
+  display: flex
+  align-items: center
+.item_taller figure
+  text-align: center
+.item_taller figure img
+  height: 160px
+.item_taller figcaption h3
+  font-size: 18px
+  color: $rosado
+  text-align: center
+.item_taller p
+  font-size: 14px
+  padding: 4px 20px
+
+
+
 .contenido-talleres h4
   background: #33a5c9
   color: white
 .info-taller span
   font-weight: bold
+
+
 //=================   Patrocinadores   ===============================
 .organiza, .presentan
   background: #06A49D
@@ -883,6 +953,26 @@ main .contenido ul li
 .hoteles h5
   font-size: 1.8em
 //==================     Inscripciones    =========================
+// .container-tabla
+//   display: grid
+//   grid-template-columns: 30% 15% 15%
+.tabla_precios
+  margin-bottom: 40px
+.tabla_precios thead tr th
+  color: #4d9389
+  background-color: #E6F5FC
+  text-align: center
+.tabla_precios tr td
+  font-size: 12px
+.tabla_precios tr td:nth-last-child(1)
+  font-style: italic
+.tabla_encabezados
+  text-align: center
+
+
+
+
+
 .inscripciones
   margin-top: 1em
 .fecha-precio
@@ -954,7 +1044,7 @@ main .contenido ul li
 a .accordion-title
   color: #194477 !important
 
-//================================    Expositores   ==========================
+//=====================  Expositores  ============
 .expo h4
   color: #1a9a87
 .expoVisitante
@@ -1015,89 +1105,120 @@ a .accordion-title
 .contenido_expositor section
   font-size: 14px
   margin-top: 8px
-//============================================   Sesiones Educativas       ==============================
-.link-conferencistas
-  color: #79BB4B
+
+//======================= Sesiones Educativas   ======
+
+.container_sesiones
+  display: grid
+  grid-template-columns: 25% 75%
+  border: 1px solid #eceaec
+  border-radius: 20px
+  margin-top: 20px
+
+.item_sesiones
+  // text-align: center
+  display: flex
+  align-items: center
+  border-bottom: 1px solid #eceaec
+.item_sesiones:last-child,
+.item_sesiones:nth-of-type(9)
+  border-bottom: 0
+.item_sesiones figcaption h2,
+.item_sesiones figure
+  text-transform: uppercase
+  font-size: 16px
+  margin: 0 auto
+  color: $rosado
   font-weight: bold
-.link-conferencistas:hover
-  color: #9BC308
-.espaciado
-  letter-spacing: 0.7px
-main.sesiones article header h4
-  font-size: 2.05em
-  color: white
-  padding-left: .5em
-.resumen_conferencista
-  // display: inline-block
-  margin-bottom: 5px
-.lista-sesiones li
-  color:  #545454
-  font-size: 1.15em
-  text-align: left
-  border-bottom: 1px solid #d7d5d5
-  padding-bottom: 8px
-  padding-top: 8px
-  opacity: 0.8
-.lista-sesiones li:hover
-  // color: #9d9d9d
-  opacity: 1
-  transition: .5s
-  cursor: pointer
-  // border-bottom: 1px solid #a3a3a3
-.lista-sesiones .diseno:hover
-  border-bottom: 1px solid #79bb4b
-.lista-sesiones .ciudad:hover
-  border-bottom: 1px solid #24beac
-.lista-sesiones .list-economia:hover
-  border-bottom: 1px solid #1ebadd
-.lista-sesiones .list-salud:hover
-  border-bottom: 1px solid #2b1194
-.lista-sesiones .list-funcion:hover
-  border-bottom: 1px solid #b605a5
-.isesiones
-  width: 80px
-.sesiones article header,
-.content-temas
   text-align: center
-
+.item_sesiones_titulos
+  margin: 0 auto
+  text-align: center
+.item_sesiones_titulos figure img
+  height: 60px
 .lista-sesiones
-  list-style: none
-  display: inline-block
-  margin-right: 8px
-  border: 2px solid #8c8c8c
-  width: 70%
-  padding: 20px
-  border-radius: 10px
-
-.diseno::before, .ciudad::before, .list-economia::before, .list-salud::before, .list-funcion::before
-  display: inline-block
-  margin-right: 8px
-.diseno::before
-  content: url('../img/icon-disenoC.png')
-.ciudad::before
-  content: url('../img/icon-ciudadC.png')
-.list-economia::before
-  content: url('../img/icon-economiaC.png')
-.list-salud::before
-  content: url('../img/icon-economiaC.png')
-.list-salud::before
-  content: url('../img/icon-saludC.png')
-.list-funcion::before
-  content: url('../img/icon-funcionC.png')
-
-.detalles-sesiones
-  display: none
-  background-color: #ededed
-  border-radius: 0px 0px 10px 10px
-  font-size: 12.5px
-  padding: 10px
-  max-width: 100%
-.detalles-sesiones img
-  width: 30px
-  padding-right: 5px
-  margin-left: 15px
-.detalles-sesiones em
-  font-size: 11.5px
+  // list-style: none
+  // display: inline-block
+  // font-size: 14px
+  // margin-right: 8px
+  // padding-right: 10px
+  // border-radius: 10px
+.lista-sesiones
+  color:  #545454
+  text-align: left
+  padding: 20px 20px 0 0
+  opacity: 0.8
+  font-size: 14px
+// .lista-sesiones li:hover
+//   // color: #9d9d9d
+//   opacity: 1
+//   transition: .5s
+//   cursor: pointer
+//   // border-bottom: 1px solid #a3a3a3
+//
+//
+//
+// .link-conferencistas
+//   color: #79BB4B
+//   font-weight: bold
+// .link-conferencistas:hover
+//   color: #9BC308
+// .espaciado
+//   letter-spacing: 0.7px
+// main.sesiones article header h4
+//   font-size: 2.05em
+//   color: white
+//   padding-left: .5em
+// .resumen_conferencista
+//   margin-bottom: 5px
+//
+// .lista-sesiones .diseno:hover
+//   border-bottom: 1px solid #79bb4b
+// .lista-sesiones .ciudad:hover
+//   border-bottom: 1px solid #24beac
+// .lista-sesiones .list-economia:hover
+//   border-bottom: 1px solid #1ebadd
+// .lista-sesiones .list-salud:hover
+//   border-bottom: 1px solid #2b1194
+// .lista-sesiones .list-funcion:hover
+//   border-bottom: 1px solid #b605a5
+// .isesiones
+//   width: 80px
+// .sesiones article header,
+// .content-temas
+//   text-align: center
+//
+//
+//
+// .diseno::before, .ciudad::before, .list-economia::before, .list-salud::before, .list-funcion::before
+//   display: inline-block
+//   margin-right: 8px
+// .diseno::before
+//   content: url('../img/icon-disenoC.png')
+// .ciudad::before
+//   content: url('../img/icon-ciudadC.png')
+// .list-economia::before
+//   content: url('../img/icon-economiaC.png')
+// .list-salud::before
+//   content: url('../img/icon-economiaC.png')
+// .list-salud::before
+//   content: url('../img/icon-saludC.png')
+// .list-funcion::before
+//   content: url('../img/icon-funcionC.png')
+//
+// .detalles-sesiones
+//   display: none
+//   background-color: #ededed
+//   border-radius: 0px 0px 10px 10px
+//   font-size: 12.5px
+//   padding: 10px
+//   max-width: 100%
+// .detalles-sesiones img
+//   width: 30px
+//   padding-right: 5px
+//   margin-left: 15px
+// .detalles-sesiones em
+//   font-size: 11.5px
 
 
 //=============================  Conectividad ============
@@ -1211,7 +1332,7 @@ tr td.bloque
 .video video
   margin: 3em auto
 
-//============================    CONFERENCISTAS Y PONENTES ============================
+//=================  CONFERENCISTAS Y PONENTES ==================
 .detalles-conferencistas h4
   color: $rosado
   font-family: "avenir bold"
@@ -1239,8 +1360,7 @@ tr td.bloque
   color: #94C01F
 
 
-//======================================== Congreso tips  ===========================
-
+//================== Congreso tips  ==============
 #congresoTips h3
   color: #6c0a8a
   text-align: center
@@ -1251,7 +1371,7 @@ tr td.bloque
 #congresoTips span
   font-weight: bold
 
-// =====================  Ejes temáticos  =======================
+// ==================  Ejes temáticos  ===============
 .container
   display: grid
   grid-template-columns:  repeat(2, 1fr)
@@ -1281,8 +1401,48 @@ tr td.bloque
   text-transform: uppercase
   font-family: "general"
 
+//================== dispositivos moviles ===============
+.movil
+  height: 100vh
+  display: grid
+  grid-template: 20vh 25vh 25vh 30vh / repeat(3, 1fr)
+  background: $cielo
+  background-image: url('../img/paisajeMovil.png')
+  background-position: bottom
+  background-size: cover
+  // justify-items: center
+  // align-items: center
+  grid-gap: 5px
+.item_movil
+  text-align: center
 
-//================== dispositivos moviles ================================
+.header_movil,
+  margin: 0 auto
+.logo_movil img,
+.icon_movil img
+  height: 18vh
+
+.item_movil:nth-of-type(1)
+  grid-column-start: 1
+  grid-column-end: 4
+
+.icon
+  background-color: rgba(251, 251, 251, 0.4)
+.titulo_movil
+  color: $gris
+  text-transform: uppercase
+  text-align: center
+.titulo_movil h1,
+.titulo_movil h2
+  font-family: "avenir bold"
+.titulo_movil h2
+  font-size: 10px
+.titulo_movil h1
+  font-size: 13px
+  margin-top: -10px
+.footer_movil img
+  height: 15vh
+
 @media screen and (max-width: 500px)
   //===================  Conferencias Magistrales  =======================
   .content-popup
@@ -1290,6 +1450,7 @@ tr td.bloque
   #img-popup
     width: 70vw
     height: 70vh
+
   .contenido-magistrales .titulo-conferencia
     margin-top: 1em
     margin-bottom: 1em
@@ -1332,6 +1493,8 @@ tr td.bloque
   #mensajes ul li
     height:  240px
 @media screen and (max-width: 800px)
+  .contenido
+    margin-top: 1em
   #encabezado
     padding-top: 0
     padding-bottom: 0

@@ -18,127 +18,128 @@
         <img src="../img/logotipo/anpr-blanco.png" alt="">
       </div>
       <div class="">
-        <h4 class="titulo">Congreso Internacional de Parques Urbanos </h4>
+        <h4 class="titulo">International Congress of Urban Parks</h4>
       </div>
     </header>
     <section class=" row container">
       <div class="item Instrucciones">
-        <p class="text-center"><span>Convocatoria 2019 - Registro de propuestas</span></p>
-         <p>¡Gracias por tu interés en formar parte del programa del 2do Congreso Internacional de
-           Parques Urbanos! Por favor, llena este formulario para el registro de su propuesta. Te recordamos que:</p>
+        <p class="text-center"><span>Call 2019 - Register of proposals</span></p>
+         <p>Thank you for your interest in being part of the program of the 2nd International Congress
+           of Urban Parks! Please fill out this form to register your proposal. We remind you that:</p>
           <ul>
-            <li>El envío de la propuesta no garantiza su aceptación, ni su registro como asistente del congreso.</li>
-            <li>Recibirás los resultados de la convocatoria en las fechas establecidas.</li>
-            <li>Si su propuesta es una “Mesa panel” más de una persona, es importante registrar a todas las personas.</li>
+            <li>The submission of the proposal does not guarantee its acceptance, nor its registration as assistant of the congress.</li>
+            <li>You will receive the results on the established dates.</li>
+            <li>If your proposal is a "Panel discussion", that is, that the presentation involves more than one person, it is important to register all of them.</li>
           </ul>
-          Si tienes dudas o inconvenientes para llenar este formulario, comunícate con Cristina R. de León, Directora de Contenido y Educación a la dirección: contenido@anpr.org.mx</p>
-
+        <p>If you have any questions or problems to fill out this form, please contact Cristina R. de León, Director of Content and Education at: contenido@anpr.org.mx</p>
       </div>
+
       <div class="item">
         <form class="" action="RegistroSesion.php" method="post" enctype="multipart/form-data">
           <fieldset>
             <div class="encabezado">
-              Sobre el responsable de la propuesta:
+              About the person responsible for the proposal:
             </div>
           </fieldset>
           <div class="form_autor">
             <div class="row">
               <div class="column medium-6">
-                <label for="">Nombre:</label>
+                <label for="">Name:</label>
                 <input type="text" name="Nombre[]" value="" required>
               </div>
               <div class="column medium-6">
-                <label for="">Apellidos:</label>
+                <label for="">Last Name:</label>
                 <input type="text" name="Apellidos[]" value="" required>
               </div>
             </div>
             <div class="row">
               <div class="column medium-6">
-                <label for="">E-mail:</label>
+                <label for="">Mail:</label>
                 <input type="text" name="Email[]" value="" required>
               </div>
               <div class="column medium-6">
-                <label for="">E-mail de Asistente:</label>
-                <input type="text" name="EmailAsistente[]" value="" placeholder="(en caso de contar con uno)">
+                <label for="">Assistant email:</label>
+                <input type="text" name="EmailAsistente[]" value="" placeholder="(If you have one)">
               </div>
             </div>
             <div class="row">
               <div class="column medium-6">
-                <label for="">Teléfono:</label>
-                <input type="text" name="Telefono[]" value="" placeholder="(Clave del País, Clave Nacional, Teléfono)">
+                <label for="">Telephone:</label>
+                <input type="text" name="Telefono[]" value="" placeholder="">
               </div>
               <div class="column medium-6">
-                <label for="">Puesto de Trabajo/Cargo:</label>
+                <label for="">Position:</label>
                 <input type="text" name="Cargo[]" value="">
               </div>
             </div>
             <div class="row">
               <div class="column medium-6">
-                <label for="">Empresa/Institución</label>
+                <label for="">Institution</label>
                 <input type="text" name="Empresa[]" value="" >
               </div>
               <div class="column medium-6">
-                <label for="">Localidad:</label>
-                <input type="text" name="Localidad[]" value="" placeholder="(Ciudad, Estado)" required>
+                <label for="">City :</label>
+                <input type="text" name="Localidad[]" value="" placeholder="(City, Estate)" required>
               </div>
             </div>
             <div class="row">
               <div class="column">
-                <label for="">Dirección:</label>
+                <label for="">Address:</label>
                 <input type="text" name="Direccion[]" value="" placeholder="">
               </div>
             </div>
             <div class="row column">
-              <label for="">Describa la experiencia del ponente en relación a su propuesta:</label>
-              <textarea name="Experiencia[]" rows="4" cols="80" placeholder="Incluya experiencia de trabajo, investigaciones, colaboraciones o información de relevancia. Esta descripción deberá ser una breve biografía."></textarea>
+              <label for="">Describe the experience of the speaker related to its proposal:</label>
+              <textarea name="Experiencia[]" rows="4" cols="80" placeholder="Include work experience, researh, collaborations or relevant information."></textarea>
             </div>
             <div class="row">
               <div class="column ">
-                <label for="">¿Ha presentado esta ponencia o similares anteriormente?</label>
-                <input type="radio" name="Anteriormente[]" value="Sí" required> Sí</inpu>
+                <label for="">Have you presented this session or similar previously?</label>
+                <input type="radio" name="Anteriormente[]" value="Sí" required> Yes</inpu>
                 <input type="radio" name="Anteriormente[]" value="No" required> No</input>
-                <label for="">¿Dónde?</label>
+                <label for="">Where?</label>
                 <input type="text" name="Lugar[]" value=""></input>
               </div>
             </div>
             <div class="row column">
-              <label for="">Fotografía:</label>
+              <label for="">Photograph:</label>
               <input type="file" name="fotografia[]" value="" required>
             </div>
           </div>
 
 
           <div class=" encabezado">
-              Sobre la propuesta:
+              ABOUT THE PRESENTATION:
           </div>
           <div class="row column">
-            <label for="">Nombre de la Sesión (12 palabras máximo):</label>
+            <label for="">Name of the session (12 words or less):</label>
             <input type="text" name="Sesion" value="" required>
           </div>
           <div class="row column">
-            <label for="">Temática:</label>
+            <label for="">Select a theme:</label>
             <select class="" name="Tema">
               <?php
               $temas = new Registro();
               $array_temas = $temas->desplegarTemas();
 
                 foreach ($array_temas as $valor) {
-                echo "<option value='".$valor['id_tema']."'>".$valor['nombre']."</option>";
+                echo "<option value='".$valor['id_tema']."'>".$valor['nombre_ing']."</option>";
                 }
               ?>
             </select>
           </div>
           <div class="row column">
-            <label for="">Descripción (220 palabras máximo):</label>
+            <label for="">Session Description (220 words or less):</label>
             <textarea name="Descripcion" rows="4" cols="80" placeholder="(Esta información se utilizará con fines promocionales, por favor sea conciso y claro. )" required></textarea>
           </div>
           <div class="row column">
-            <label for="">Justificación (No hay límites de palabras):</label>
-            <textarea name="Justificacion" rows="4" cols="80" placeholder="Justifique la importancia de su sesión educativa propuesta, identificando cómo su proyecto/iniciativa/investigación da solución a un problema relacionado con el espacio público y cómo se relaciona con las cinco temáticas del congreso." required></textarea>
+            <label for="">Justification:</label>
+            <textarea name="Justificacion" rows="4" cols="80" placeholder="Justify the importance of your proposed educational session by identifying how your project / initiative
+/ research provides a solution to a problem related to public space and how it relates to the five themes of the congress." required></textarea>
           </div>
           <div class="row column">
-            <label for="">Objetivos (3):</label>
-            <textarea name="Objetivos" rows="4" cols="80" placeholder="La sesión debe contar con objetivos de aprendizaje, claros y medibles. Enumere 3." required></textarea>
+            <label for="">Objectives (3):</label>
+            <textarea name="Objetivos" rows="4" cols="80" placeholder="The session should have clear and measurable learning objectives. List 3 of them." required></textarea>
           </div>
           <!-- <div class="row column">
             <label for="">Agregar Documento:</label>
@@ -146,28 +147,28 @@
           </div> -->
           <div class="row ">
             <div class="column">
-              <label for="">Modalidad:</label>
+              <label for="">Modality:</label>
               <input type="radio" name="Modalidad" value="Individual" checked> Individual</input>
-              <input type="radio" name="Modalidad" value="Mesa Panel"> Mesa Panel (3 participantes máximo)</input>
+              <input type="radio" name="Modalidad" value="Mesa Panel"> Panel discussion (3 participants maximum)</input>
             </div>
           </div>
 
           <div class="nuevo">
           </div>
           <div class="row column">
-            <button type="button" name="Autor" class="button addButton" id="autor"><i class="fi-plus"></i> Añadir Ponente</button>
+            <button type="button" name="Autor" class="button addButton" id="autor"><i class="fi-plus"></i> Add Speaker</button>
           </div>
           <div class="encabezado">
-            Solicitudes adicionales para el ponente:
+            Additional requests for the speaker:
           </div>
           <div class="row column">
-            <p>NOTA: Todos los salones contarán con: proyector, pantalla, computadora y sistema de sonido para la
-              presentación de la sesión educativa.</p>
-            <label for="">Adicionales:</label>
-            <textarea name="Adicionales" rows="4" cols="80" placeholder="Háganos saber sobre necesidades personales adicionales: rotafolios, pizarrón o plumones así como equipamiento especial para sillas de ruedas, entre otros."></textarea>
+            <p>NOTE: All classrooms will have: projector, screen, computer and sound system for the
+              presentation of the educational session.</p>
+            <label for="">Additional:</label>
+            <textarea name="Adicionales" rows="4" cols="80" placeholder="Let us know about additional personal needs: flip chart, blackboard or markers as well as special equipment for wheelchairs, among others."></textarea>
           </div>
           <div class="text-center">
-            <input type="submit" name="" value="Registrar" class="button registro">
+            <input type="submit" name="" value="Register your proposal here!" class="button registro">
           </div>
         </form>
       </div>
