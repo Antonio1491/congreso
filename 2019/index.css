@@ -10,10 +10,11 @@ body{
 }
 header{
   text-align: center;
-  height: 80vh;
+  height: 70vh;
+  border: 1px solid red;
 }
 header img{
-  height: 300px;
+  height: 5vh
   margin: 0 auto;
 }
 footer{

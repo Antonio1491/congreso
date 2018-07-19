@@ -4,9 +4,8 @@
     <meta charset="utf-8">
     <title>Formulario de Registro Conferencias</title>
     <link rel="stylesheet" href="../css/foundation-flex.css">
-    <link rel="stylesheet" href="registro.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css">
-
+    <link rel="stylesheet" href="registro.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <?php
     include('../assets/clases_2.php');
@@ -103,7 +102,7 @@
             </div>
             <div class="row column">
               <label for="">Fotografía:</label>
-              <input type="file" name="fotografia[]" value="" required>
+              <input type="file" name="fotografia[]" value="" required accept="image/png, .jpeg, .jpg">
             </div>
           </div>
 
@@ -147,15 +146,17 @@
           <div class="row ">
             <div class="column">
               <label for="">Modalidad:</label>
-              <input type="radio" name="Modalidad" value="Individual" checked> Individual</input>
-              <input type="radio" name="Modalidad" value="Mesa Panel"> Mesa Panel (3 participantes máximo)</input>
+              <input type="radio" name="Modalidad" value="Individual"  id="individual" required> Individual</input>
+              <input type="radio" name="Modalidad" value="Mesa Panel" id="mesaPanel" required> Mesa Panel (3 participantes máximo)</input>
             </div>
           </div>
 
           <div class="nuevo">
           </div>
-          <div class="row column">
-            <button type="button" name="Autor" class="button addButton" id="autor"><i class="fi-plus"></i> Añadir Ponente</button>
+          <div class="ocultar" id="btnAgregar">
+            <div class="row column " id="">
+              <button type="button" name="Autor" class="button addButton " id="autor"><i class="fi-plus"></i> Añadir Ponente</button>
+            </div>
           </div>
           <div class="encabezado">
             Solicitudes adicionales para el ponente:
@@ -189,6 +190,15 @@
             $(nuevo).append(formAutor);
           }
         });
+      });
+
+      $(function(){
+        $('#mesaPanel').mousedown(function(){
+          $('#btnAgregar').slideDown(1000).removeClass('ocultar');
+        })
+        $('#individual').mousedown(function(){
+          $('#btnAgregar').slideUp(1000).addClass('ocultar');
+        })
       });
     </script>
   </body>

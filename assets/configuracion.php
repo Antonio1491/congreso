@@ -1,16 +1,16 @@
 <?php
 
-  // DEFINE ('DB_USUARIO', 'root');
-  DEFINE ('DB_USUARIO', 'u951310947_info');
+  DEFINE ('DB_USUARIO', 'root');
+  // DEFINE ('DB_USUARIO', 'u951310947_info');
 
-  // DEFINE('DB_CONTRASENA', '');
-  DEFINE('DB_CONTRASENA', 'informatica14#');
+  DEFINE('DB_CONTRASENA', '');
+  // DEFINE('DB_CONTRASENA', 'informatica14#');
 
-  // DEFINE ('DB_NOMBRE', 'u951310947_grl');
-  DEFINE ('DB_NOMBRE', 'u951310947_sic');
+  DEFINE ('DB_NOMBRE', 'u951310947_grl');
+  // DEFINE ('DB_NOMBRE', 'u951310947_sic');
 
-  // DEFINE ('DB_SERVER', 'localhost');
-  DEFINE ('DB_SERVER', 'mysql.hostinger.mx');
+  DEFINE ('DB_SERVER', 'localhost');
+  // DEFINE ('DB_SERVER', 'mysql.hostinger.mx');
 
   DEFINE ('DB_CHARSET', 'UTF8');
 

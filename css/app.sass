@@ -1372,15 +1372,18 @@ tr td.bloque
   font-weight: bold
 
 // ==================  Ejes temáticos  ===============
-.container
-  display: grid
-  grid-template-columns:  repeat(2, 1fr)
-  margin: 0 20%
-.item
-  // border: 1px solid red
-  grid-gap: 10px
-.titulo-tema
 
+.temas
+  background: #e8e6e6
+.item
+  // background: #e8e6e6
+  // border: 1px solid red
+.temas figure img
+  // clear: left
+  float: left
+  height: 500px
+.temas article
+  // float: left
 .titulo-tema h1
   // color: #007B78
   color: #504e4e
@@ -1388,12 +1391,11 @@ tr td.bloque
   text-align: left
   display: inline-block
 .item:nth-of-type(1)
-  background: #e8e6e6
-  padding: 30px
-  // color: #777777
+  padding-top: 30px
 .item:nth-child(2)
   display: flex
   align-items: center
+  grid-row: 1 / 3 span
 
 //====================   precios  ===============
 .inscripcion-precio h2

@@ -36,7 +36,7 @@ session_start();
         <p>The call for proposals aims to receive information about projects from around the
           world to be presented at the <strong>International Congress of Urban Parks</strong>
           in its second edition.</p>
-          <p>The proposals received that are most likely to be part of the program are those that follow our five <a href="EjesTematicos.php" class="link">themes.</a></p>
+          <p>The proposals received that are most likely to be part of the program are those that follow our five <a href="http://congresoparques.com/EjesTematicos.php" class="link">themes.</a></p>
           <h4>PROFILE OF THE SPEAKER</h4>
             <ul>
               <li>Architects, urban planners, landscape architects.</li>
@@ -50,14 +50,14 @@ session_start();
       </div>
     </div>
 
-    <div class="row medium-collapse">
+    <!-- <div class="row medium-collapse">
       <div class="column small-12 medium-6">
         <img src="img/temas-convocatoria.png" alt="">
       </div>
       <div class="column small-12 medium-6">
         <img src="img/temas-convocatoria2.png" alt="">
       </div>
-    </div>
+    </div> -->
 
     <div class="row column">
       <h4>ELECTIONS AND DATES</h4>
@@ -79,6 +79,11 @@ session_start();
           and conditions of privacy and share their presentation (visual support material), as this
           material will be made public on the web platform of the National Recreation and Park
           Association of México after the dates of the congress.</li>
+        <li>The educational sessions in its two modalities have a duration of 45 and 75 minutes.
+          The National Recreation and Park Association of Mexico reserves the right to designate
+          the intervention time of the selected proposals. One could or could not, share the space
+          the educational session with another speaker making the times of intervention to fluctuate
+          between 20, 30, 45 or 75 minutes.</li>
       </ul>
     </div>
 
@@ -124,7 +129,7 @@ session_start();
             it sounds attractive and invites people to be a part of it!.</li>
           <li>Justification: Justify the importance of your proposed educational session identifying how your
             project / initiative / research, etc. provides a solution to a problem related to public
-            space and how it relates to one of the five <a href="EjesTematicos.php" class="link">themes</a> of the congress. There are no limitations
+            space and how it relates to one of the five <a href="http://congresoparques.com/EjesTematicos.php" class="link">themes</a> of the congress. There are no limitations
             on the number of words.</li>
           <li>Objectives: The session must have clear and measurable learning objectives. You will need to share 3.</li>
           <li>Modality: You can make a personal proposal or together with other participants. They can work in

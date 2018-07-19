@@ -11,10 +11,9 @@ body{
 header{
   text-align: center;
   height: 80vh;
-  /* border: 1px solid red; */
 }
 header img{
-  height: 240px;
+  height: 20vh;
   margin: 0 auto;
 }
 footer{
@@ -26,6 +25,12 @@ section{
   display: none;
   height: 0vh;
 }
+.link_convocatoria a{
+  color: #5e605e;
+  font-weight: bold;
+  background-color: #f9e141;
+  padding: 5px 10px;
+}
 footer img{
   height: 18vh;
 }
@@ -33,16 +38,22 @@ footer img{
   display: grid;
   grid-template-columns: 20% 60% 20%;
 }
+
+
 #suscribete-container h1
 {
   font-family: 'Bree Serif', serif;
   color: white;
   text-shadow: 1px 1px 4px #6c7070;
+  margin-top: -10px;
+  margin-bottom: -20px;
 }
 #suscribete-container h2 small{
   font-family: 'Bree Serif', serif;
   color: white;
+  font-size: 24px;
   text-shadow: 1px 1px 4px #6c7070;
+  padding-top: -10px;
 }
 #suscribete-container input[type=submit]
 {

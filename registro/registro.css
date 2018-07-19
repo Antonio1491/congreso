@@ -83,3 +83,6 @@ form label, form{
 .registrado-nota a{
   color: #7c2d7e;
 }
+.ocultar{
+  display: none;
+}

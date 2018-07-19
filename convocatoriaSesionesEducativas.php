@@ -2,10 +2,17 @@
 <!doctype html>
 <html class="no-js" lang="es" dir="ltr">
   <head>
+    <meta http-equiv="Expires" content="Tue, 01 Jan 1980 1:00:00 GMT">
+    <meta http-equiv="Pragma" content="no-cache">
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Convocatoria 2018</title>
+    <meta property="og:url"                content="http://congresoparques.com/convocatoriaSesionesEducativas.php" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"              content="Convocatoria 2019 - Sesiones Educativas" />
+    <meta property="og:description"        content="La convocatoria tiene como objetivo recibir proyectos de todo el mundo que quieran ser presentados en el Congreso Internacional de Parques Urbanos." />
+    <meta property="og:image"              content="http://congresoparques.com/img/fb_convocatoria.jpg" />
+    <title>Convocatoria 2019 | Congreso Internacional de Parques Urbanos</title>
     <?php  require("assets/head_common.php") ?>
     <!-- <link rel="stylesheet" href="icons/foundation-icons.css">
     <link rel="stylesheet" href="css/foundation-flex.css">
@@ -44,14 +51,14 @@
       </div>
     </div>
 
-    <div class="row medium-collapse">
+    <!-- <div class="row medium-collapse">
       <div class="column small-12 medium-6">
         <img src="img/temas.png" alt="">
       </div>
       <div class="column small-12 medium-6">
         <img src="img/temas2.png" alt="">
       </div>
-    </div>
+    </div> -->
     <div class="row column">
       <h4>ELECCIONES Y FECHAS</h4>
     </div>
@@ -75,6 +82,11 @@
         (material visual de apoyo), ya que ese material se hará público en la plataforma
         web de la <strong>Asociación Nacional de Parques y Recreación de México</strong> posterior a las
         fechas del congreso.</li>
+        <li>Las sesiones educativas en sus dos modalidades tienen una duración de 45 y 75
+          minutos. La Asociación Nacional de Parques y Recreación de México se reserva el
+          derecho de designar el tiempo de intervención de las propuestas seleccionadas. Se
+          podría o no, compartir el espacio la sesión educativa con algún otro ponente haciendo que los
+          tiempos de intervención puedan fluctuar entre los 20, 30, 45 o 75 minutos. </li>
       </ul>
     </div>
     <div class="cinta-morada">
@@ -104,6 +116,8 @@
         <li>Recibirás los resultados de la convocatoria en las fechas establecidas.</li>
         <li>Si tu propuesta es una “Mesa panel” más de una persona, es importante registrar a todas las personas.</li>
       </ul>
+    </div>
+    <div class="row column">
       <h4>SOBRE LA SESIÓN:</h4>
       <ul>
         <li>Título: Debes crear un título que refleje la esencia de tu sesión y deberá ser de 12 palabras o menos.</li>
