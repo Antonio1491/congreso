@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Congreso de Parques: Se parte del inicio del gran movimiento social de los
     parques en México y asiste al 1er. Congreso Internacional de Parques Urbanos 2018.">
-    <meta name="author" content="Ing. Antonio Góngora - Web Master">
     <meta property="og:url" content="http://www.anpr.org.mx/congreso" />
     <meta property="og:title" content="Congreso Internacional de Parques Urbanos" />
     <meta property="og:description" content="Se parte del inicio del gran movimiento social de los parques en México." />
@@ -16,28 +15,33 @@
     <?php require("assets/head_common.php") ?>
   </head>
   <body onload="countdown('contador'), countdown('contador-small')">
-  <?php include'assets/menu.php'; ?>
-<!-- pop-up mensaje  -->
-  <!-- <div id="popup" style="display: none;">
-    <div class="content-popup">
-        <div class="close"><a href="#" id="close"><i class="fi-x-circle large"></i></div>
-        <div>
-           <a href="#" target="_blank">
-             <img id="img-popup" src="img/gracias.png" alt="">
-           </a>
+      <!--=====================  Portada Paisaje  ========================================-->
+    <header id="portada" class="hide-for-small-only">
+      <?php include'assets/menu.php'; ?>
+      <div class="contenido_portada">
+        <div class="item_contenido_portada fecha">
+          <h4 id="">14-17 MAYO 2019</h4>
+          <h5>MONTERREY, NUEVO LEÓN, MÉXICO</h5>
         </div>
-    </div>
-	</div> -->
-  <!--=====================  video  ========================================-->
-  <div class="btn-play hide-for-small-only">
-    <a href="#" data-open="exampleModal1" title="Ver Video"><img src="img/btn-play.png" alt="" onclick="ejecutar()"></a>
-  </div>
-  <div id="portada" class="hide-for-small-only">
-    <!-- <video  autoplay loop preload poster="posterimage.jpg" >
-      <source src="video/congreso2.mp4" type="video/mp4">
-      <source src="videos/loop-2.webm" type="video/webm">
-    </video> -->
-  </div>
+        <div class="item_contenido_portada">
+          <h4>La ciudad de las montañas</h4>
+          <h4>Te espera en el 2019</h4>
+        </div>
+        <div class="item_contenido_portada">
+          <a href="#" data-open="exampleModal1" title="Ver Video"><img src="img/btn-play.png" alt="" onclick="ejecutar()"></a>
+        </div>
+        <div class="item_contenido_portada botones">
+          <div class="">
+            <a href="#" class="btn_transparente">Convertirse <span>en ponente</span></a>
+          </div>
+          <div class="">
+            <a href="#" class="btn_verde">convertirce <span>en patrocinador</span></a>
+          </div>
+
+        </div>
+      </div>
+    </header>
+
   <!--   modal   -->
     <div class="small reveal" id="exampleModal1" data-reveal>
       <iframe width="100%" height="350" src="https://www.youtube.com/embed/rCamzymTys0" frameborder="0" gesture="media" ></iframe>

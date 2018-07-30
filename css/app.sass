@@ -1,5 +1,5 @@
 //Variables
-$verde : #90c044
+$verde : #8abf53
 $verde-limon : #98ba06
 $azul : #36a8e0
 $cafe: #4f3013
@@ -7,7 +7,7 @@ $morado: #5a61ab
 $rosado: #883d84
 $gris: #787878
 
-$cielo: #B6E2F5
+$cielo: #e1ecf7
 
 @font-face
   font-family: "general"
@@ -28,6 +28,8 @@ body, main, article
   font-family: "Roboto"
 h3,h4, h5,h6
   font-family: "general"
+
+
 #aviso
   background: #7A44A1
   color: #fbf900
@@ -72,118 +74,15 @@ h3,h4, h5,h6
   transition: 1s
 img.b-loaded
   opacity: 1
-.menu
-  font-family: "bold"
-  letter-spacing: 0.1em
-.menu li a
-  line-height: 1.28em
+
 
 //=========== header index  =============
-#encabezado
-  height: 12vh
-  background-color: $cielo
-  font-size: 1em
-  font-family: "ligera"
-  display: grid
-  grid-template-columns: 20% 50% 30%
-  justify-content: center
-  align-items: center
-#encabezado .item_encabezado
 
-#encabezado .logo-principal img,
-#encabezado .logo_anpr_header img
-  height: 10vh
-  padding-top: 1vh
-#encabezado .logo-principal img
-  float: right
-  padding-right: 20px
-#encabezado .logo_anpr_header
-  margin: 0 auto
-.fecha
-  // border-left: 2px solid #a7a3a3
-  padding-left: 20px
-  padding-top: 2vh
-.fecha h4,
-.fecha h5
-  padding-left: 20px
-.fecha h4
-  color: #94c01f
-  font-size: 24.5px
-  letter-spacing: 0
-  font-family: "avenir bold"
-  border-left: 2px solid $gris
-  margin-bottom: 0
-  padding-bottom: 0
-.fecha h5
-  color: #00a099
-  letter-spacing: 0.3px
-  border-left: 2px solid $gris
+
 
 // ========================================
-.contador
-  width: 300px
-  /*border: 1px solid gray
-  text-align: center
-  border-radius: 8px
-  margin: 2em 0
-.contador h4
-  padding-top: 8px
-  padding-bottom: 8px
-  margin: 0
-.contador #contador, .contador #contador-small
-  color: white !important
-  background: #616061
-  margin: 3px
-  border-radius: 10px
-#redes-header img
-  width: 40px
-  height: 50px
-  margin: 0px 8px 5px 0
-#submenu-principal, .sub-menu-central
-  border: 0
-#submenu-principal li a
-  font-family: general
-  font-size: 1em
-#submenu-principal a
-  background: #ffffff
-  color: $gris
-#menu-principal menu ul li a:hover
-  border-top: 2px solid #00B4D6
 
 
-#menu-central
-  padding: 13px 0 13px 0
-  // background: #06A49D
-  border: 0
-#menu-central a
-  color: $azul
-  // color: #fff
-  font-size: 1.3em
-  text-transform: uppercase
-
-#menu-central a:hover
-  color: $verde
-.dropdown ul li a:hover
-  color: $azul
-  border-bottom: 1px solid #e2dfdf
-#menu-sticky
-  background: $cielo
-// #menu-sticky li, .logo-principal a
-//   pointer-events: none
-//   cursor: default
-//   height: 8vh !important
-
-.sub-menu-central
-  font-family: general
-  // background: #06A49D
-.sub-menu-central li
-  font-size: 10px
-.data-sticky
-  width: 100%
-  margin: 0 auto
-  box-shadow: 3px 3 5px $gris
-  background-color: $cielo
-  z-index: 100
 .back-1
   background: url("../img/fondo-5.png")
   background-size: 10% 100%
@@ -202,16 +101,11 @@ img.b-loaded
   margin: 4vh 0
 #redes-small img
   height: 45px
-#idiomas img
-  width: 38px
-  height: 38px
-  margin-right: 1em
+
 #cinta
 
 .enviar-datos
   margin: 0 auto
-.idiomas img
-  width: 45px
 
 #cartelConcurso
   margin-bottom: 2em
@@ -222,6 +116,155 @@ img.b-loaded
 .icono
   height: 40px
   text-align: left
+//==================== Paisaje portada ================================
+#portada
+  overflow: hidden
+  height: 85vh
+  background-image: url("../img/portada_monterrey.jpg")
+  background-repeat: no-repeat
+  background-position: bottom center
+  background-size: cover
+  background-color: $cielo
+  position: relative
+#encabezado
+  height: 20vh
+  // background-color: $cielo
+  font-size: 1em
+  font-family: "ligera"
+  display: grid
+  grid-template: 10vh 10vh / 20% 60% 20%
+  justify-content: center
+  align-items: center
+  text-align: center
+.item_encabezado:nth-of-type(3)
+  grid-row: 1 / span 2
+  grid-column: 3
+.item_encabezado:nth-of-type(1)
+  grid-row: 1 / span 2
+
+#encabezado figure img
+  height: 12vh
+
+.btn_entradas
+  border: 1px solid #c0007a
+  border-radius: 10px
+  padding: 10px 20px
+  text-transform: uppercase
+  color: #ffff
+  font-family: "bold"
+  font-size: 1.7em
+.btn_entradas:hover
+  color: #c0007a
+  border: 1px solid #ffff
+.data-sticky
+  width: 100%
+  margin: 0 auto
+  box-shadow: 3px 3 5px $gris
+  // background-color: $cielo
+  z-index: 100
+.menu
+  font-family: "bold"
+  letter-spacing: 0.1em
+.menu li a
+  line-height: 1.28em
+
+#menu-central
+  padding: 13px 0 13px 0
+  // background: #06A49D
+  border: 0
+#menu-central a
+  color: white
+  font-size: 1.3em
+  text-transform: uppercase
+#menu-central a:hover
+  color: $verde
+.sub-menu-central
+  background: rgba(0, 55, 99, .81)
+.sub-menu-central li
+  font-size: 10px
+.dropdown ul li a:hover
+  border-bottom: 1px solid #e2dfdf
+
+.contenido_portada
+  position: absolute
+  width: 100%
+  z-index: 2
+  -moz-z-index: 2
+  display: grid
+  grid-template: repeat(2, 30vh) / repeat(2, 50%)
+  align-items: center
+  justify-items: center
+.item_contenido_portada
+  // border: 1px solid red
+  color: white
+  text-transform: uppercase
+.item_contenido_portada:nth-of-type(2) h4,
+.fecha h4
+  font-size: 34px
+  font-family: "bold"
+  text-shadow: 0px 0px 5px #000000
+  // letter-spacing: 0
+
+.fecha h5
+  letter-spacing: 2px
+  font-size: 12px
+.btn_transparente,
+.btn_verde
+  padding: 20px 0
+  border-radius: 30px
+  color: #ffffff
+  width: 340px
+  display: block
+  text-align: center
+.btn_transparente:hover,
+.btn_verde:hover
+  color: #ffffff
+.btn_transparente
+  border: 1px solid #ffffff
+  margin-bottom: 30px
+.btn_verde
+  background: $verde
+.botones span
+  font-weight: bold
+#barra
+  margin-bottom: 1em
+
+.cinta-marquee
+  background-color: #E8D1BE
+  margin-bottom: 0
+  height: 20vh
+  display: flex
+  align-items: center
+  height: 12vh !important
+.asistentes
+  font-size: 11px
+.slider
+  width: 100%
+  margin: 5px auto
+.slider-ponentes
+  width: 70%
+  margin: 0px auto
+  display: block
+.slider2
+  width: 80%
+  margin: 0px auto
+  display: block
+.slick-slide
+    margin: 0px 15px
+.slick-prev, .slick-next
+  display: none !important
+
+
+
+#registraContribucion
+  background-color: $verde-limon
+  color: white
+  padding: 10px
+  border-radius: 4px
+#link_registro
+  font-size: 22px
+  color: $rosado
+  font-weight: bold
 //=======================  VENTANA EMERGENTE  ===============
 #popup
     left: 0
@@ -261,83 +304,8 @@ img.b-loaded
     right: 15px
 #cinta-nombres
   margin-top: -5px
-#portada
-  overflow: hidden
-  height: 70vh
-  background-image: url("../img/portada.png")
-  background-repeat: no-repeat
-  background-position: bottom center
-  background-size: cover
-  background-color: $cielo
-//==================== Video portada ================================
-#video
-  overflow: hidden
-  height: 500px
-  max-width: 100vw
-  background-image: url("../img/bg_repeat2.png")
-  background-size: contain
-  background-repeat: repeat-x
-  text-align: center
-  position: relative
-  z-index: -1
-  -moz-z-index: -1
-  -webkit-z-index: -1
-#video video
-  margin: 0 auto
-  width: 100%
-  height: 800px
-  transform: translateY(-150px)
-  z-index: -2
-  -moz-z-index: -2
-  -webkit-z-index: -2
-.btn-play
-  z-index: 4
-  -moz-z-index: 4
-  -webkit-z-index: 4
-  cursor: pointer
-  margin-bottom: -323px
-  text-align: center
-.btn-play a img
-  margin-top: 150px
-
-#barra
-  margin-bottom: 1em
-
-.cinta-marquee
-  background-color: #E8D1BE
-  margin-bottom: 0
-  height: 100px
-  display: flex
-  align-items: center
-  height: 12vh !important
-.asistentes
-  font-size: 11px
-.slider
-  width: 100%
-  margin: 5px auto
-.slider-ponentes
-  width: 70%
-  margin: 0px auto
-  display: block
-.slider2
-  width: 80%
-  margin: 0px auto
-  display: block
-.slick-slide
-    margin: 0px 15px
-.slick-prev, .slick-next
-  display: none !important
 
 
-#registraContribucion
-  background-color: $verde-limon
-  color: white
-  padding: 10px
-  border-radius: 4px
-#link_registro
-  font-size: 22px
-  color: $rosado
-  font-weight: bold
   // =============   secciones ===================
 #secciones
   height: 400px
@@ -1449,6 +1417,29 @@ tr td.bloque
   font-size: 20px
   text-transform: uppercase
   font-family: "general"
+
+
+//======= footer ===========
+
+.contador
+  width: 300px
+  /*border: 1px solid gray
+  text-align: center
+  border-radius: 8px
+  margin: 2em 0
+.contador h4
+  padding-top: 8px
+  padding-bottom: 8px
+  margin: 0
+.contador #contador, .contador #contador-small
+  color: white !important
+  background: #616061
+  margin: 3px
+  border-radius: 10px
+#redes-header img
+  width: 40px
+  height: 50px
+  margin: 0px 8px 5px 0
 
 //================== dispositivos moviles ===============
 .movil
