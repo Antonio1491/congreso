@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inversión | Congreso Internacional de Parques Urbanos</title>
+    <title>Inscripción | Congreso Internacional de Parques Urbanos</title>
     <?php  require("assets/head_common.php") ?>
 </head>
 <body onload="countdown('contador')">
@@ -13,7 +13,7 @@
   <div class="header header-2">
     <div class="row align-middle">
       <div class="column text-center">
-        <h1 class="titulos">Precios</h1>
+        <h1 class="titulos">Inscripción</h1>
       </div>
     </div>
   </div>

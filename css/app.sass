@@ -168,10 +168,10 @@ img.b-loaded
   border-bottom: 1px solid #e2dfdf
 #menu-sticky
   background: $cielo
-#menu-sticky li, .logo-principal a
-  pointer-events: none
-  cursor: default
-  height: 8vh !important
+// #menu-sticky li, .logo-principal a
+//   pointer-events: none
+//   cursor: default
+//   height: 8vh !important
 
 .sub-menu-central
   font-family: general
@@ -1044,7 +1044,50 @@ main .contenido ul li
 a .accordion-title
   color: #194477 !important
 
-//=====================  Expositores  ============
+//=====================  Expo  ============
+.header_expo
+  background-image: url('../img/headers/expo2018.jpg')
+  height: 400px
+  background-position: center
+  background-size: cover
+.content_header_expo
+  display: flex
+  background: rgba(31, 31, 31, .1)
+  width: 100%
+  align-items: center
+  justify-content: center
+.content_header_expo
+  vertical-align: middle
+.expo_logo img
+  height: 250px
+
+#cotizar
+  position: relative
+  width: 100%
+  height: 100%
+.container_cotizar
+  display: grid
+  position: absolute
+  z-index: 2
+  grid-template-columns: 30% 70%
+  width: 100%
+  height: 670px
+  // border: 1px solid red
+  justify-items: center
+.item_expo
+  height: 100%
+  display: flex
+  align-items: center
+.item_expo:nth-of-type(1)
+  padding: 40px
+  background: rgba(16, 17, 18, .7)
+.item_expo ul li
+  color: white
+  font-size: 18px
+.item_expo .btn_cotizar
+  height: 300px
+  opacity: .9
+  transform: rotate3d(0, 0, 1, 360deg)
 .expo h4
   color: #1a9a87
 .expoVisitante
@@ -1068,9 +1111,13 @@ a .accordion-title
 .croquis
   height: 350px
 #galeria-expo
-  height: 180px
-#galeria-expo ul li img
-  height: 180px
+  height: 100%
+  z-index: 1
+  position: relative
+  display: block
+// #galeria-expo ul li img
+//   height: 100%
+
 
 .expositor
   display: flex

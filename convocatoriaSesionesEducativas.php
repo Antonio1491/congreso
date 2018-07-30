@@ -26,7 +26,7 @@
     <div class=" header header-convocatoria">
       <div class="row align-middle">
         <div class="column text-center">
-          <h1 class="titulos">CONVOCATORIA 2019</h1>
+          <h1 class="titulos">CONVOCATORIA "Sesiones Educativas 2019"</h1>
         </div>
       </div>
     </div>
@@ -129,6 +129,24 @@
       </ul>
     </div>
     <div class="row column">
+      <h4>Las propuestas serán revisadas y seleccionadas por nuestro Consejo de Contenido integrado por:</h4>
+      <ul>
+        <li>Maria Luisa Ballí, Directora del Instituto de Bienestar Integral TecSalud, Tecnológico de Monterrey.</li>
+        <li>Bárbara Apodaca Cabanillas, Directora de Proyectos, Jardín Botánico de Culiacán  </li>
+        <li>Eduardo Aguilar Valdez, Director, Distrito Tec.</li>
+        <li>Alicia Quirós Mudd, Directora, Parque Rufino Tamayo.</li>
+        <li>Claudia Reyes Ayala, Coordinadora del Área Urbano Ambiental, Facultad de Arquitectura, Universidad Nacional Autónoma de México.</li>
+        <li>Kathrin Grimm Wiedemann, Presidenta, Sociedad de Arquitectos Paisajistas de México A.C. (SAPM)</li>
+        <li>Leticia Lozano, Directora de Ciudad Lúdica, Laboratorio para la Ciudad</li>
+        <li>Guillermo Bernal, Dirección e Investigación Urbana, Lugares Públicos A.C.</li>
+        <li>Mercedes Escudero Carmona, Presidenta, CPTED MÉXICO.</li>
+        <li>Luis Alvarez Garcia, Fundador, Hola Vecino.</li>
+        <li>Luis Antonio Romahn Diez, Presidente, Asociación Nacional de Parques y Recreación México</li>
+        <li>Cristina R. de León Golib, Directora de Contenido y Educación, Asociación Nacional de Parques y Recreación México.</li>
+      </ul>
+
+    </div>
+    <div class="row column align-center">
       <a href="registro/RegistroSesionesEducativas.php" id="link_registro"><h4 id="registraContribucion">¡Registra tu propuesta aquí!</h4></a>
     </div>
     <!-- <div class="row column">

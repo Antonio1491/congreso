@@ -151,7 +151,8 @@ class Conferencistas extends Conexion
     public function mostrarConferencistas(){
 
       $sql = $this->conexion_db->query("SELECT * FROM usuarios
-                                  LEFT JOIN conferencias ON usuarios.id_conferencia = conferencias.id_conferencia
+                                  LEFT JOIN conferencias
+                                  ON usuarios.id_conferencia = conferencias.id_conferencia
                                   WHERE conferencias.id_tema !=7
                                   AND usuarios.nivel =2 AND conferencias.id_conferencia !=37
                                   ORDER BY usuarios.prioridad ASC");
