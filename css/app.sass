@@ -9,6 +9,9 @@ $gris: #787878
 
 $cielo: #e1ecf7
 
+body
+  background: $cielo
+
 @font-face
   font-family: "general"
   src: url("../font/Antonio-Regular.ttf")
@@ -43,17 +46,18 @@ h3,h4, h5,h6
   margin: 1em 0 1em 0
   text-shadow: -1px 1px 3px #3d3d3d
   font-size: 29px
+.subtitulo
+  color: $azul
+  font-family: "avenir bold"
+.subtitulo_bc
+  color: white
+  font-family: "avenir bold"
 .titulo-patrocinadores
   color: #00AAA7
   border-left: 4px solid #c7317d
   padding-left: 20px
 .titulo-morado
   color: $rosado
-.cinta-morada
-  background: #883D84
-  color: white
-  padding: 2em 0 1em 0
-  margin: 1em 0 1em 0
 
 .titulo_seccion, .titulo_seccion_bc
   padding-left: 20px
@@ -251,7 +255,7 @@ img.b-loaded
   display: none !important
 
 
-//======== Página de propuestas   ====
+//======== Página de propuestas   =======
 #registraContribucion
   background-color: $verde-limon
   color: white
@@ -681,7 +685,14 @@ footer .logo_footer
   align-items: center
   min-width: 100%
   box-shadow: -2px 3px 8px $gris
-.header-convocatoria
+.header_paginas
+  background-repeat: no-repeat
+  background-position: center center
+  background-size: cover
+  height: 400px
+  margin: 0
+  display:
+.header_convocatoria
   background-image: url('../img/header-convocatoria.jpg')
 .header-1
   background-image: url('../img/header-1.1.jpg')
@@ -733,6 +744,30 @@ main .contenido ul li
 .razones li img
   float: right
 
+// ===========  Convocatoria sesiones educativas  ============
+.elecciones_fechas span
+  color: $verde
+  font-size: 20px
+
+.fecha_convocatoria h4
+  display: block
+  margin: 0 auto
+
+.beneficios
+  background-color: $azul
+
+.beneficios p, .beneficios ul li,
+.paso1, .paso2
+  color: white
+.paso1
+  background: $azul
+
+.paso2
+  background: $verde
+
+.instrucciones p,
+.paso1, .paso2
+  text-align: center
 // ============================  Promotores  =======================
 .img-promotores
   height: 16em
@@ -878,12 +913,6 @@ main .contenido ul li
   background: #2b1194
 .servicio-publico h4
   background: #b605a5
-
-// ====================    participar   ================
-.beneficios ol li
-  margin-bottom: 5px
-.beneficios h4
-  color: $verde-limon
 
 // =====================   La ciudad blanca   ==================
 .video

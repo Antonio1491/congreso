@@ -22,109 +22,150 @@
 <body onload="countdown('contador')">
   <header class="header_paginas header_convocatoria">
     <?php include'assets/menu.php'; ?>
-    
+    <h1 class="titulos">CONVOCATORIA "Sesiones Educativas 2019"</h1>
   </header>
-<main class="">
-  <article class="">
-    <div class=" header-convocatoria">
-      <div class="row align-middle">
-        <div class="column text-center">
-          <h1 class="titulos">CONVOCATORIA "Sesiones Educativas 2019"</h1>
-        </div>
-      </div>
+  <main >
+    <div class="row">
+      <figure >
+        <img src="img/convocatoria/ejes_tematicos.png" alt="Ejes Temáticos 2019">
+      </figure>
     </div>
-    <div class="row contenido">
-      <div class="column medium-6">
+    <div class="row">
+      <div class="column medium-6 small-12">
         <p>La convocatoria para sesiones educativas tiene como objetivo recibir información
           sobre proyectos alrededor de todo el mundo que quieran ser presentados en el
           <strong>Congreso Internacional de Parques Urbanos</strong> en su segunda edición.</p>
-          <p>Las propuestas recibidas con más probabilidad de ser aceptadas para formar parte
-            del programa son, aquellas que se apeguen a nuestras <a href="EjesTematicos.php" class="link">5 temáticas.</a></p>
-            <h4>PERFIL DEL PONENTE</h4>
-              <ul>
-                <li>Arquitectos, urbanistas, arquitectos paisajistas, diseñadores del hábitat. </li>
-                <li>Sociólogos, antropólogos, mercadólogos y administradores.</li>
-                <li>Funcionarios públicos de los tres niveles de gobierno.</li>
-                <li>Ambientalistas, grupos de la sociedad civil organizada.</li>
-                <li>Cualquier otra persona interesada en compartir sus conocimientos y proyectos sobre el espacio público con los asistentes.</li>
-              </ul>
+      </div>
+      <div class="column medium-6 small-12">
+        <p>Las propuestas recibidas con más probabilidad de ser aceptadas para formar parte
+          del programa son, aquellas que se apeguen a nuestras <a href="EjesTematicos.php" class="link">5 temáticas.</a></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column medium-6 small-12">
+        <h4 class="subtitulo">Perfil del ponente</h4>
+        <ul>
+          <li>Arquitectos, urbanistas, arquitectos paisajistas, diseñadores del hábitat. </li>
+          <li>Sociólogos, antropólogos, mercadólogos y administradores.</li>
+          <li>Funcionarios públicos de los tres niveles de gobierno.</li>
+          <li>Ambientalistas, grupos de la sociedad civil organizada.</li>
+          <li>Cualquier otra persona interesada en compartir sus conocimientos y proyectos sobre el espacio público con los asistentes.</li>
+        </ul>
       </div>
       <div class="column medium-6">
-        <img src="img/ponentes.png" alt="">
+        <figure class="">
+          <img src="img/convocatoria/perfil_ponentes.png" alt="">
+        </figure>
       </div>
     </div>
 
-    <!-- <div class="row medium-collapse">
-      <div class="column small-12 medium-6">
-        <img src="img/temas.png" alt="">
+    <!-- <div class="row fecha_convocatoria column">
+      <h4 class="subtitulo">Elecciones y fechas</h4>
+    </div>
+    <div class="row">
+      <div class="column medium-6 small-12 ">
+      <p>Límite para enviar propuestas</p>
       </div>
-      <div class="column small-12 medium-6">
-        <img src="img/temas2.png" alt="">
+      <div class="column medium-6 small-12">
+        <p>Comunicación de resultados</p>
       </div>
     </div> -->
-    <div class="row column">
-      <h4>ELECCIONES Y FECHAS</h4>
-    </div>
+
+
     <div class="row column">
       <ul>
         <li>Fecha límite para enviar propuestas: 29 de octubre del 2018.</li>
         <li>Comunicación de resultados: 7 de enero del 2019 *fecha susceptible a cambios.</li>
       </ul>
     </div>
-    <div class="row column">
 
-      <h4>CONSIDERACIONES GENERALES</h4>
-      <ul>
-        <li>Las sesiones educativas están destinadas a la capacitación y el aprendizaje;
-          al compartir conocimientos, experiencias y proyectos en los que se haya
-          colaborado en pro del espacio público. No es un espacio de venta o promoción
-          de productos y servicios; por tal motivo, las propuestas que estén inclinadas
-          a estas actividades no podrán formar parte de las sesiones educativas programadas.</li>
-      <li>Si la propuesta es aceptada, cuando se le indique, el ponente deberá de frirmar
-        los acuerdos, términos y condiciones de privacidad, compartir su presentación
-        (material visual de apoyo), ya que ese material se hará público en la plataforma
-        web de la <strong>Asociación Nacional de Parques y Recreación de México</strong> posterior a las
-        fechas del congreso.</li>
-        <li>Las sesiones educativas en sus dos modalidades tienen una duración de 45 y 75
-          minutos. La Asociación Nacional de Parques y Recreación de México se reserva el
-          derecho de designar el tiempo de intervención de las propuestas seleccionadas. Se
-          podría o no, compartir el espacio la sesión educativa con algún otro ponente haciendo que los
-          tiempos de intervención puedan fluctuar entre los 20, 30, 45 o 75 minutos. </li>
-      </ul>
+    <div class="row">
+      <div class="column medium-10">
+        <h4 class="subtitulo">Consideraciones Generales</h4>
+        <ul>
+          <li>Las sesiones educativas están destinadas a la capacitación y el aprendizaje;
+            al compartir conocimientos, experiencias y proyectos en los que se haya
+            colaborado en pro del espacio público. No es un espacio de venta o promoción
+            de productos y servicios; por tal motivo, las propuestas que estén inclinadas
+            a estas actividades no podrán formar parte de las sesiones educativas programadas.</li>
+        <li>Si la propuesta es aceptada, cuando se le indique, el ponente deberá de frirmar
+          los acuerdos, términos y condiciones de privacidad, compartir su presentación
+          (material visual de apoyo), ya que ese material se hará público en la plataforma
+          web de la <strong>Asociación Nacional de Parques y Recreación de México</strong> posterior a las
+          fechas del congreso.</li>
+          <li>Las sesiones educativas en sus dos modalidades tienen una duración de 45 y 75
+            minutos. La Asociación Nacional de Parques y Recreación de México se reserva el
+            derecho de designar el tiempo de intervención de las propuestas seleccionadas. Se
+            podría o no, compartir el espacio la sesión educativa con algún otro ponente haciendo que los
+            tiempos de intervención puedan fluctuar entre los 20, 30, 45 o 75 minutos. </li>
+        </ul>
+      </div>
     </div>
-    <div class="cinta-morada">
-      <div class="row column">
-        <h4>BENEFICIOS</h4>
-        <p>A los ponentes seleccionados se les otorgará una entrada general de cortesía
-          para los días que el evento tendrá lugar en el Centro de Convenciones CINTERMEX.
-          La entrada de cortesía incluye:</P>
+    <div class="beneficios">
+      <div class="row">
+        <div class="column medium-6 small-12">
+          <figure>
+            <img src="img/convocatoria/beneficios_de_participar.png" alt="">
+          </figure>
+        </div>
+        <div class="column medium-6 small-12">
+          <h4 class="subtitulo_bc">Beneficios</h4>
+          <p>A los ponentes seleccionados se les otorgará una entrada general de cortesía
+            para los días que el evento tendrá lugar en el Centro de Convenciones CINTERMEX.
+            La entrada de cortesía incluye:
+          </P>
           <ul>
             <li>Todas las conferencias magistrales y sesiones educativas.</li>
             <li>Entrada a la muestra comercial <strong>“Expo Parques Urbanos”</strong>.</li>
             <li>Eventos sociales.</li>
           </ul>
+          <p><strong>Nota:</strong> Los gastos relacionados con inscripción a talleres, traslado, hospedaje, comidas y honorarios por presentación de
+          la sesión no están incluidos en el paquete de beneficios.</p>
+        </div>
       </div>
     </div>
-    <div class="row column">
-      <p><strong>Nota:</strong> Los gastos relacionados con inscripción a talleres, traslado, hospedaje, comidas y honorarios por presentación de
-      la sesión no están incluidos en el paquete de beneficios.</p>
-    </div>
+
 
     <div class="row column">
-      <h4>INSTRUCCIONES</h4>
+      <h4 class="subtitulo">Instrucciones</h4>
     </div>
-    <div class="row column">
-      <ul>
-        <li>El envío de la propuesta no garantiza tu aceptación, ni tu registro como asistente del congreso.</li>
-        <li>Recibirás los resultados de la convocatoria en las fechas establecidas.</li>
-        <li>Si tu propuesta es una “Mesa panel” más de una persona, es importante registrar a todas las personas.</li>
-      </ul>
+    <div class="row instrucciones">
+      <div class="column medium-4">
+        <figure>
+          <img src="img/convocatoria/formulario.png" alt="">
+        </figure>
+        <h4 class="paso1">LLENA EL FORMULARIO</h4>
+        <p>Si tu propuesta es una “Mesa panel” más de una persona, es importante registrar a todas las personas.</p>
+      </div>
+      <div class="column medium-4">
+        <figure>
+          <img src="img/convocatoria/enviar.png" alt="">
+        </figure>
+        <h4 class="paso2">ENVÍA TU PROPUESTA</h4>
+        <p>El envío de la propuesta no garantiza tu aceptación, ni tu registro como asistente del congreso.</p>
+      </div>
+      <div class="column medium-4">
+        <figure>
+          <img src="img/convocatoria/calendario.png" alt="">
+        </figure>
+        <h4 class="paso1">ESPERA LOS RESULTADOS</h4>
+        <p>Recibirás los resultados de la convocatoria en las fechas establecidas.</p>
+      </div>
     </div>
-    <div class="row column">
-      <h4>SOBRE LA SESIÓN:</h4>
+    <div class="row">
+      <h4 class="subtitulo">Sobre la sesión:</h4>
+    </div>
+    <div class="row ">
+      <div class="column medium-6">
+        <span>Título:</span>
+        <p>Debes crear un título que refleje la esencia de tu sesión y deberá ser de 12 palabras o menos.</p>
+        <span>Seleccionar la <a href="EjesTematicos.php" class="link">temática</a> a la que se alinea.</span>
+        <span>Descripción:</span>
+        <p></p>
+      </div>
       <ul>
-        <li>Título: Debes crear un título que refleje la esencia de tu sesión y deberá ser de 12 palabras o menos.</li>
-        <li>Seleccionar la <a href="EjesTematicos.php" class="link">temática</a> a la que se alinea.</li>
+        <li>Título: </li>
+        <li>Describe de forma concisa y clara tu sesión; esta, debe ser de 200 palabras o menos. Si tu sesión es seleccionada, la descripción aparecerá en nuestra página web, asegúrate que invite a entrar a ella.</li>
         <li>Descripción: Describe de forma concisa y clara tu sesión; esta, debe ser de 200 palabras o menos. Si tu sesión es seleccionada, la descripción aparecerá en nuestra página web, asegúrate que invite a entrar a ella.</li>
         <li>Justificación: Justifica la importancia de tu sesión educativa propuesta, identificando cómo tu proyecto/iniciativa/investigación, etc da solución a un problema relacionado con el espacio público y cómo se relaciona con las cinco temáticas del congreso. No hay limitaciones en el número de palabras.</li>
         <li>Objetivos: La sesión debe contar con objetivos de aprendizaje, claros y medibles. Se solicita enumerar 3.</li>
