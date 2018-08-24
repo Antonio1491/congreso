@@ -18,28 +18,43 @@ class Registro extends Conexion{
     return $temas;
   }
 
-  public function registroConferencista($array, $nom, $ap, $em, $em2, $tel, $cargo, $emp, $loc, $dir, $exp, $ant, $lug,
-                                        $nomf, $tipof, $tempf, $sesion){
+  public function asignarId(){
 
+    $resultado = $this->conexion_db->query('SELECT max(id_conferencia) AS max_idconfe FROM conferencia');
 
+    $respuesta = $resultado->fetch_all(MYSQLI_ASSOC);
 
-    for ($i=0; $i < $array ; $i++)  {
+    foreach ($respuesta as $valor) {
+      echo $id = $valor['max_idconfe'];
+    }
 
-    $sql = $this->conexion_db->query("INSERT  INTO conferencista (id_conferencista, nombre, apellidos, email, email2, tel,
-                                    cargo, empresa, localidad, direccion, experiencia, ponencia_anterior, donde, nombre_sesion, foto)
-                                  VALUES (null, '$nom[$i]', '$ap[$i]', '$em[$i]', '$em2[$i]', '$tel[$i]', '$cargo[$i]',
-                                  '$emp[$i]', '$loc[$i]', '$dir[$i]', '$exp[$i]', '$ant[$i]', '$lug[$i]', '$sesion', '$nomf[$i]' )");
-
-                                  $destino_foto = $_SERVER['DOCUMENT_ROOT'].'/registro/fotos/';
-
-                                  echo move_uploaded_file($tempf[$i], $destino_foto.$nomf[$i]);
-
-    }/*for*/
-
-
-    return $sql;
+    return $id;
 
   }
+
+  public function registroConferencista($array, $nom, $ap, $em, $em2, $tel, $cargo, $emp, $loc, $dir, $exp, $ant, $lug,
+                                         $nomf, $tipof, $tempf, $id_sesion){
+
+
+
+     for ($i=0; $i < $array ; $i++)  {
+
+     $sql = $this->conexion_db->query("INSERT  INTO conferencista (id_conferencista, nombre, apellidos, email, email2, tel,
+                                     cargo, empresa, localidad, direccion, experiencia, ponencia_anterior, donde, id_conferencia, foto)
+                                   VALUES (null, '$nom[$i]', '$ap[$i]', '$em[$i]', '$em2[$i]', '$tel[$i]', '$cargo[$i]',
+                                   '$emp[$i]', '$loc[$i]', '$dir[$i]', '$exp[$i]', '$ant[$i]', '$lug[$i]', '$id_sesion', '$nomf[$i]')");
+
+                                   $destino_foto = $_SERVER['DOCUMENT_ROOT'].'/congreso/registro/fotos/';
+
+                                   echo move_uploaded_file($tempf[$i], $destino_foto.$nomf[$i]);
+
+     }/*for*/
+
+
+     return $sql;
+
+   }
+
 
   // public function registroConferencista($nom, $ap, $em, $emA, $tel, $car, $emp, $loc, $dir, $exp, $ant,
   //                                         $lug, $nomf, $tipf, $tempf){
@@ -57,17 +72,12 @@ class Registro extends Conexion{
   //   return $sql;
   // }
 
-  public function registroSesionEducativa($sesion, $tema, $desc, $just, $obj, $mod, $nomDoc, $tipDoc, $temDoc,
-                                          $adic){
+  public function registroSesionEducativa($sesion, $tema, $desc, $just, $obj, $mod, $adic){
 
-      $destino_archivo = $_SERVER['DOCUMENT_ROOT'].'/congreso/registro/archivos/';
+      // $destino_archivo = $_SERVER['DOCUMENT_ROOT'].'/congreso/registro/archivos/';
 
       $sql = $this->conexion_db->query("INSERT INTO conferencia VALUES (null, '$sesion', '$tema', '$desc',
-                                      '$just', '$obj', '$mod', '$nomDoc', '$adic')");
-
-      if($sql){
-        move_uploaded_file($temDoc, $destino_archivo.$nomDoc);
-      }
+                                      '$just', '$obj', '$mod', '$adic')");
 
       return $sql;
 

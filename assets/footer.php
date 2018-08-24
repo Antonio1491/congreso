@@ -2,7 +2,7 @@
 <footer>
   <div class="row align-justify text-center">
     <div class="column small-6 medium-2 small-order-1 medium-order-1">
-      <a href="participar.php"><img data-src="img/congreso-parques-logo-gris.png" alt="1er Congreso de Parques Urbanos"></a>
+      <a href="participar.php"><img data-src="img/logotipo/logo_congreso_bc.png" alt="1er Congreso de Parques Urbanos" class="logo_footer"></a>
     </div>
     <div class="column small-12 medium-8 small-order-3 medium-order-2" id="cabecera-footer">
       <h5>CONGRESO INTERNACIONAL DE PARQUES URBANOS</h5>
@@ -10,7 +10,7 @@
       <h6>Presentado por la Asociación Nacional de Parques y Recreación México.</h6>
     </div>
     <div class="column small-6 medium-2 small-order-2 medium-order-3">
-      <a href="http://anpr.org.mx/"><img data-src="img/parques-urbanos-logo-anpr.png" alt="Asociación Nacional de Parques y Recreación"></a>
+      <a href="http://anpr.org.mx/"><img data-src="img/parques-urbanos-logo-anpr.png" alt="Asociación Nacional de Parques y Recreación" class="logo_footer"></a>
     </div>
   </div>
   <div class="row">
@@ -39,61 +39,14 @@
       </div>
     </div>
   </div>
-    <!-- Ménu footer -->
-    <!-- <div class="row hide-for-small-only" id="menu-footer">
-      <div class="column">
-        <ul class="menu vertical ">
-          <li class="menu-text">contáctanos</a></li>
-          <li><a href="http://anpr.org.mx/" target="_blank">ANPR</a></li>
-          <li><a href="http://www.parquesdemexico.org/consultora/">Parques de México</a></li>
-          <li><a href="http://parquesalegres.org/" target="_blank">Parques Alegres</a></li>
 
-          <li><a href="mailto:info.congreso@anpr.org.mx">info.congreso@anpr.org.mx</a></li>
-          <li><a href="#">#CONGRESOPARQUES</a></li>
-        </ul>
-      </div>
-      <div class="column ">
-        <ul class="menu vertical">
-          <li class="menu-text">congreso</a></li>
-          <li><a href="conferencias.php">conferencias magistrales</a></li>
-          <li><a href="sesiones.php">sesiones educativas</a></li>
-          <li><a href="talleres.php">talleres</a></li>
-          <li><a href="programa.php">programa completo</a></li>
-          <li><a href="patrocinadores.php">patrocinadores y socios</a></li>
-          <li><a href="expo.php">expo parques urbanos</a></li>
-        </ul>
-      </div>
-      <div class="column">
-          <ul class="menu vertical">
-            <li class="menu-text">Participa</a></li>
-            <li><a href="convocatoria-sesiones.php">Convocatoria 2018</a></li>
-            <li><a href="inscripcion.php">Inscripción</a></li>
-            <li><a href="participar.php">¿por qué participar?</a></li>
-            <li><a href="preguntas.php">Preguntas frecuentes</a></li>
-            <li><a href="contacto.php">Contacto</a></li>
-            <li><a href="aviso-legal.php">aviso legal</a></li>
-            <li><a href="privacidad.php">política de privacidad</a></li>
-            <li><a href="bases-concurso.php">bases del concurso</a></li>
-          </ul>
-      </div>
-      <div class="column">
-        <ul class="menu vertical">
-          <li class="menu-text">Mérida yucatán</li>
-          <li><a href="ciudad-blanca.php">La ciudad Blanca</a></li>
-          <li><a href="http://www.merida.gob.mx/municipio/sitiosphp/merida/eventos.phpx" target="_blank">actividades locales</a></li>
-          <li><a href="hospedajes.php">Hospedaje</a></li>
-          <li><a href="conectividad.php">conectividad</a></li>
-          <li><a href="http://www.merida.gob.mx/capitalcultural/">Turismo en mérida</a></li>
-        </ul>
-      </div>
-    </div> -->
-      <!-- //Ménu footer -->
   </footer>
   <div class="row column expanded align-center" id="pie">
     <p><a href="http://anpr.org.mx/" target="_blank">© 2018 Asociación Nacional de Parques y Recreación</a></p>
   </div>
 
-</div>
+</div
+
 
 </div>
 </div>

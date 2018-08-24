@@ -18,7 +18,7 @@ header img{
 }
 footer{
   text-align: center;
-  height: 20vh;
+  height: 18vh;
 }
 section{
   visibility: hidden;
@@ -44,20 +44,22 @@ footer img{
 {
   font-family: 'Bree Serif', serif;
   color: white;
-  text-shadow: 1px 1px 4px #6c7070;
-  margin-top: -10px;
-  margin-bottom: -20px;
+  margin-top: -15px;
+  margin-bottom: -25px;
 }
 #suscribete-container h2 small{
   font-family: 'Bree Serif', serif;
   color: white;
-  font-size: 24px;
+  font-size: 21px;
   text-shadow: 1px 1px 4px #6c7070;
   padding-top: -10px;
 }
 #suscribete-container input[type=submit]
 {
   background-color: #e72470
+}
+#suscribete-container form {
+  margin-top: -15px;
 }
 
 @media (max-width: 500px){

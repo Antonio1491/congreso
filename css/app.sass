@@ -200,14 +200,16 @@ img.b-loaded
   text-transform: uppercase
 .item_contenido_portada:nth-of-type(2) h4,
 .fecha h4
-  font-size: 34px
+  font-size: 30px
   font-family: "bold"
   text-shadow: 0px 0px 5px #000000
+  text-align: center
   // letter-spacing: 0
-
+.fecha h4
+  font-size: 36px
 .fecha h5
   letter-spacing: 2px
-  font-size: 12px
+  font-size: 14px
 .btn_transparente,
 .btn_verde
   padding: 20px 0
@@ -226,36 +228,30 @@ img.b-loaded
   background: $verde
 .botones span
   font-weight: bold
-#barra
-  margin-bottom: 1em
 
+
+//========== Cinta de patrocinadores ==================
 .cinta-marquee
-  background-color: #E8D1BE
+  background-color: $cielo
   margin-bottom: 0
-  height: 20vh
+  height: 15vh
   display: flex
   align-items: center
-  height: 12vh !important
-.asistentes
-  font-size: 11px
-.slider
-  width: 100%
-  margin: 5px auto
-.slider-ponentes
-  width: 70%
-  margin: 0px auto
-  display: block
+.cinta-marquee h4
+  color: $verde
+  margin-left: 120px
+  text-transform: uppercase
 .slider2
   width: 80%
-  margin: 0px auto
   display: block
+  height: 100%
 .slick-slide
     margin: 0px 15px
 .slick-prev, .slick-next
   display: none !important
 
 
-
+//======== Página de propuestas   ====
 #registraContribucion
   background-color: $verde-limon
   color: white
@@ -308,20 +304,31 @@ img.b-loaded
 
   // =============   secciones ===================
 #secciones
-  height: 400px
-  background-color: $verde
+  background-color: #446faf
+  padding: 30px 0
+#secciones h2
+  color: white
+  text-transform: uppercase
+  font-family: "bold"
+  font-size: 32px
+  margin: 0 auto
+  letter-spacing: .7px
+#secciones p
+  color: white
+  text-align: justify
+  margin: 20px 0 40px
+.secciones_icon
   display: flex
   align-items: center
   justify-content: space-around
   align-items: center
   padding: 0 10%
-
-#secciones figcaption h1, #secciones figcaption h2
+#secciones figcaption h1,
+#secciones figcaption h2
   text-transform: uppercase
   color: white
   text-align: center
   font-family: "avenir bold"
-
 #secciones figcaption h1
   font-size: 14px
   padding-bottom: 0
@@ -331,15 +338,36 @@ img.b-loaded
   margin-top: -5px
 
 // ================== magistrales index ======================
-#magistrales
-  height: 400px
+#seccion_magistrales
+  background: $cielo
+  padding: 50px 0
+.magistrales_icon
   display: flex
   align-items: center
   justify-content: space-around
   align-items: center
-  padding: 0 20%
+  padding: 0 18%
+.btn_conocemas
+  border: 1px solid white
+  color: white
+.btn_azul,
+.btn_conocemas
+  padding: 5px 50px
+  border-radius: 20px
+  font-weight: bold
+  margin-top: 50px
+  letter-spacing: .5px
+.btn_conocemas:hover
+  color: white
+.btn_azul:hover
+  color: #446faf
+.btn_azul
+  border: 1px solid #446faf
+  color: #446faf
+.titulo_verde
+  color: $verde
+  text-transform: uppercase
   margin-bottom: 25px
-
 .contenido_conferencista figcaption h1,
 .contenido_conferencista figcaption h2,
 .contenido_conferencista figcaption h3
@@ -356,148 +384,61 @@ img.b-loaded
   font-size: 16px
 .contenido_conferencista figcaption h3
   font-size: 14px
-// ============================== sección actividades ===========================
-#eventos
-  background: #019e57
-  margin-bottom: 4em
-.destacados
-  overflow: hidden
-  background-size: 100% 100%
-  background-repeat: no-repeat
-.destacados-text
-  color: white
-  display: block
-  padding: 15% 0 15% 0%
-  transition: .4s
-.izq
-  padding-left: 10%
-  transform: translateX(-320px)
-  -webkit-transform: translateX(-320px)
-  -moz-transform: translateX(-320px)
-  text-shadow: 0px 0px 8px #666666
-.derecha
-  text-align: right
-  padding-right: 10%
-  transform: translateX(300px)
-  -webkit-transform: translateX(300px)
-  -moz-transform: translateX(300px)
-  text-shadow: 5px 5px 5px #666666
-#destacados-1
-  background-image: url("../img/conferencias.gif")
-#destacados-1:hover
-  background-image: url("../img/conferencias-2.jpg")
-#destacados-2
-  background-image: url("../img/sesiones-2.gif")
-#destacados-2:hover
-  background-image: url("../img/sesiones.jpg")
-#destacados-3
-  background-image: url("../img/talleres-vivenciales.jpg")
-#destacados-3:hover
-  background-image: url("../img/talleres-vivenciales-2.jpg")
-#destacados-4
-  background-image: url("../img/expo.png")
-#destacados-4:hover
-  background-image: url("../img/expo-2.jpg")
-#destacados-1:hover .izq, #destacados-3:hover .izq
-  transform: translateX(0px)
-  -webkit-transform: translateX(0px)
-  -moz-transform: translateX(0px)
-
-#destacados-2:hover .derecha, #destacados-4:hover .derecha
-  transform: translateX(0px)
-  -webkit-transform: translateX(0px)
-  -moz-transform: translateX(0px)
-.destacados-text h3, .subtitulo
-  text-transform: uppercase
-.destacados-text .subtitulo
-  margin-bottom: 0
-
-.orbit-imagen:hover
- opacity: .5
-
-//=============================== Sección patrocinadores y proveedores ======================
-#proveedores
-  margin-top: 5em
-#proveedores h3
-  color: #0d848a
-  font-family: general
-  margin-bottom: 20px
-#proveedores h4
-  font-family: ligera
-  color: #017c80
-  margin: 1em 0 .5em 0
-#proveedores img:first-child
-  height: 150px
-#patrocinadores h3 a
-  margin: 1em 0 0
-  color: white
-  font-family: general
-  background-color: #11b1b5
-  display: inline-block
-  padding: .3em 1.2em .3em 1.2em
-#presentadores figure
-  display: inline
-.apoyos
-  border: 1px solid #11b1b5
-.img-patrocinador
-  height: 110px !important
-  margin: 20px 30px 20px 0px
-
-.marcas-2
-    background-image: url('../img/fondo-2.png')
-    background-size: 10% 100%
-    background-repeat: no-repeat
-    background-position: left center
-
-// =========================== sección contacto =================================
-#contacto
-  background: $azul
-  color: white
-  font-family: "Roboto"
-  margin-bottom: 5em
-  padding-bottom: 0
-#contacto h6, #contacto h3
-  font-family: "avenir bold"
-#contacto h6
-  margin-top: .55em
-  margin-bottom: 0
-#contacto h3
-  margin-top: -10px
-.info-contacto
-  font-size: .88em
-  margin-bottom: 1em
-  font-family: "Roboto"
-#contacto span
-  background: white
-  font-family: "Roboto"
-  color: $azul
-  display: block
-  margin-bottom: 1em
-#form-contacto input[type=text], #form-contacto input[type=email], #form-contacto textarea
-  border: 1px solid white
-  background-color: $azul !important
-  color: white
-#form-contacto input::placeholder, #form-contacto textarea::placeholder
-  color: white
-#form-contacto input[type=submit]
-  background: white
-  color: $azul
-  font-weight: bold
-  margin-bottom: 0
-  padding-left: 2em
-  padding-right: 2em
-#mapa iframe
-  width: 100%
-  padding: 0
-  margin: 0
-#mapa
-  padding: 0
 
 //=====================================  Boletos ============================================================
 #boletos-contenedor
   font-family: "Roboto"
-  background-color: $azul
-  padding-bottom: 2em
+  background-color: #4783d2
+  padding: 40px 0 40px
+.boletos
+  display: flex
+  justify-content: space-around
+  margin: 20px 20%
+.boleto
+  background: #eff5f5
+  border-radius: 20px
+  padding: 15px 15px 15px 15px
+  width: 210px
+  height: 315px
+.titulo_boleto
+  display: flex
+  align-items: center
+  justify-content: center
+  background: #dedede
+  color: #636363
+  border-radius: 5px
+  font-size: 20px
+  height: 50px
+  font-family: "bold"
+.precio_boleto
+  color: #4783d2
+  font-size: 35px
+  font-family: "avenir bold"
+.precio_boleto,
+.titulo_boleto,
+.btn_boleto
+  text-transform: uppercase
+  text-align: center
+  letter-spacing: 1px
+.descripcion_boleto
+  font-size: 12px
+  height: 125px
+  border-bottom: 1px solid #b6b2b2
+  margin-bottom: 15px
+  padding-bottom: 10px
+  color: #636363
+.btn_boleto
+  background: #4783d2
+  border-radius: 10px
+  margin: 0 auto
+  width: 150px
+  padding: 10px 0
+.btn_boleto a
+  color: white
+  font-weight: bold
+
+
+
 .desc
   margin-top: -1.5em
   padding-top: 0
@@ -548,25 +489,75 @@ img.b-loaded
 .pesos
  font-size: 1rem
 
-// ===============  contador sobre el mapa  ==============
-.section-mapa
+#seccion_mapa
   overflow: hidden
-
-.contador_mapa
-  z-index: 100
-  -moz-z-index: 100
-  height: 200px
-  width: 300px
-  background: red
-.section-mapa iframe
-  z-index: 1
-  -moz-z-index: 1
-  -webkit-z-index: 1
+  margin: 0
+  padding: 0
+  background: $cielo
+#seccion_mapa iframe
+  width: 100%
+  padding: 0
+  margin: 0
+.contenido_mapa
+  display: grid
+  justify-content: center
+  align-items: center
+  height: 450px
+  // align-items: center
+.item_contenido_mapa
+  // border: 1px solid red
+  align-items: center
+  justify-content: center
+  text-align: center
+  color: #777777
+  font-size: 18px
+.item_contenido_mapa span
+  font-weight: bold
+  font-size: 21px
+.item_contenido_mapa img
+  height: 130px
+  float: left
+// =========================== sección contacto =================================
+// #contacto
+//   background: $azul
+//   color: white
+//   font-family: "Roboto"
+//   margin-bottom: 5em
+//   padding-bottom: 0
+// #contacto h6, #contacto h3
+//   font-family: "avenir bold"
+// #contacto h6
+//   margin-top: .55em
+//   margin-bottom: 0
+// #contacto h3
+//   margin-top: -10px
+// .info-contacto
+//   font-size: .88em
+//   margin-bottom: 1em
+//   font-family: "Roboto"
+// #contacto span
+//   background: white
+//   font-family: "Roboto"
+//   color: $azul
+//   display: block
+//   margin-bottom: 1em
+// #form-contacto input[type=text], #form-contacto input[type=email], #form-contacto textarea
+//   border: 1px solid white
+//   background-color: $azul !important
+//   color: white
+// #form-contacto input::placeholder, #form-contacto textarea::placeholder
+//   color: white
+// #form-contacto input[type=submit]
+//   background: white
+//   color: $azul
+//   font-weight: bold
+//   margin-bottom: 0
+//   padding-left: 2em
+//   padding-right: 2em
 
 //============================    Sección registro boletín    === ========================
 #registro
-  // background: #2196D1
-  background: $verde
+  background: #2196D1
   padding: 3em 0 3em 0
 #registro h4
   margin-bottom: 1em
@@ -574,9 +565,9 @@ img.b-loaded
   margin-bottom: 2em
 #registro h4 , #registro p
   color: white
-.btn-morado
-  background:  #156DA5
-  border: 2px solid white
+.btn_verde_registro
+  background: $verde
+  border: 1.5px solid white
   border-radius:  1em
   padding-left: 2em
   padding-right: 2em
@@ -587,7 +578,7 @@ img.b-loaded
   width: 100%
   font-family: "ligera"
 .formulario-1
-  padding-bottom: 1.2em
+  padding-bottom: 1em
 .formulario-1 input
   margin-bottom: 0
 .formulario-1 label
@@ -599,54 +590,45 @@ img.b-loaded
   margin: auto
   border-color: white
   border-radius: 1em
-  height: 3em
+  height: 2.5em
   color: $gris
 .nota-boletin
   font-size: .8em
   color: white
   margin: auto
-  padding-bottom: 4em
-.convocatoria
-  background-image: url("../img/convocatoria.png")
-  background-size:  70%
-  background-position: center center
-  background-repeat: no-repeat
-  height: 160px
-//Sección redes sociales
-#redes-sociales
-  margin: 2em 0
-#redes-sociales img
-  // width: 70px
-  height: 60px
-  margin-left: 20px
-//footer
+  padding-bottom: 2.5em
+
+//========== Paisaje =============
+#paisaje
+  height: 70vh
+  background-color: $cielo
+  background-image: url('../img/paisaje.png')
+  background-size: cover
+  background-position: bottom
+
+
+
+
+//======  footer  =======
 footer
-  margin-top: -6px
-  background: #d4d4d0
+  height: 30vh
+  // margin-top: -6px
+  background: $verde
   padding-top: 2em
   padding-bottom: 1em
-footer img
-  height: 100px
-footer h5:first-child
-  color: $gris
-footer h4, footer h6, #menu-footer ul li a
-  color: #828282
-#menu-footer
-  margin-top: 2em
-.menu-text
-  color: $gris
-  text-transform: uppercase
-  font-family: ligera
-  letter-spacing: .01em
-#menu-footer ul li a
-  text-transform: uppercase
-  font-family: ligera
-  padding-top: 0
-  letter-spacing: .03em
-  font-size: .9em
-#menu-footer ul li a:hover
-  color: #11569d
-  border-left: 1px solid #3b64be
+footer .logo_footer
+  height: 80px
+#cabecera-footer h4,
+#cabecera-footer h5,
+#cabecera-footer h6
+  color: white
+
+#redes-sociales
+  margin: 20px 0
+#redes-sociales img
+  height: 50px
+  margin-left: 20px
+
 #pie
   background: #c8c8c8
   height: 2em
@@ -654,7 +636,7 @@ footer h4, footer h6, #menu-footer ul li a
   font-size: 14px
   color: $gris
 #cabecera-footer
-  border-bottom: 1px solid #999797
+  border-bottom: 1px solid white
   padding-bottom: 1em
 
 .text-inf
@@ -671,16 +653,9 @@ footer h4, footer h6, #menu-footer ul li a
   height: 30px
   float: right
   margin-left: 5px
-.rotacion:hover
-  transform: rotate(360deg)
-.transition
-  transition: .5s
-.redes-sociales a, .redes-sociales
-  color: white
-  text-align: right
-li .redes-sociales
-  padding-left: 20px
-  margin-bottom: 10px
+
+
+
 //Menu off-canvas
 #off-canvas, #off-canvas li a
   background-color: $verde
@@ -936,9 +911,6 @@ main .contenido ul li
   font-style: italic
 .tabla_encabezados
   text-align: center
-
-
-
 
 
 .inscripciones

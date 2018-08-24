@@ -20,10 +20,13 @@
     <link rel="stylesheet" href="css/app.css"> -->
   </head>
 <body onload="countdown('contador')">
-<?php include'assets/menu.php'; ?>
-<main class="back-2 sesiones">
+  <header class="header_paginas header_convocatoria">
+    <?php include'assets/menu.php'; ?>
+    
+  </header>
+<main class="">
   <article class="">
-    <div class=" header header-convocatoria">
+    <div class=" header-convocatoria">
       <div class="row align-middle">
         <div class="column text-center">
           <h1 class="titulos">CONVOCATORIA "Sesiones Educativas 2019"</h1>

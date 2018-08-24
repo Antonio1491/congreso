@@ -1,10 +1,9 @@
-<!-- <div class="row hide-for-small-only">
-  <div class="column">
-    <h4 class="titulos titulo-patrocinadores">Patrocinadores</h4>
-  </div>
-</div> -->
+
 <div class="cinta-marquee hide-for-small-only">
-  <section class="marquee slider2 ">
+  <div class="">
+    <h4>Patrocinadores:</h4>
+  </div>
+  <section class="marquee slider2">
     <div>
       <figure>
         <a href="http://www.playclub.com.mx/" target="_blank" title="Ir a www.playclub.com.mx">

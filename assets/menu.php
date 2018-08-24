@@ -30,43 +30,46 @@
                     <li><a href="#" data-toggle="off-canvas">Menu</a></li>
                   </ul>
                     <ul class="dropdown menu align-spaced show-for-medium" id="" data-dropdown-menu>
-                      <li><a href="#">congreso</a>
+                      <li><a href="#">acerca de</a>
                         <ul class="menu sub-menu-central">
-                          <li><a href="conferenciasMagistrales.php">Conferencias magistrales</a></li>
-                          <li><a href="sesionesEducativas.php">Sesiones Educativas</a></li>
-                          <li><a href="talleres.php">Talleres</a></li>
-                          <!--<li><a href="tematicas.php">Temáticas</a></li>-->
+                          <li><a href="congresoParques.php">Congreso</a></li>
+                          <li><a href="EjesTematicos.php">Ejes Temáticos</a></li>
+                          <li>
+                            <a href="#">eventos</a>
+                            <ul class="menu sub-menu-central">
+                              <li><a href="conferenciasMagistrales.php">Conferencias Magistrales</a></li>
+                              <li><a href="sesionesEducativas.php">sesiones educativas</a></li>
+                              <li><a href="talleres.php">talleres</a></li>
+                              <li><a href="expoParques.php">expo parques</a></li>
+                              <li><a href="#eventosSociales.php">eventos sociales</a></li>
+                            </ul>
+                          </li>
                           <li><a href="programa.php">Programa Completo</a></li>
                           <li><a href="conferencistas.php">Ponentes</a></li>
-                          <li><a href="patrocinadores.php">Patrocinadores y socios</a></li>
-                          <li><a href="eventos-sociales.php">Eventos Sociales</a></li>
-                        </ul>
-                      </li>
-                      <li><a href="expoParquesUrbanos.php">Expo Parques Urbanos</a></li>
-                      <li><a href="#">Participa</a>
-                        <ul class="menu  sub-menu-central">
-                          <!-- <li><a href="congreso-tips.php">Congreso Tips</a></li> -->
-                          <li><a href="inscripcion.php">Inscripción</a></li>
-                          <li><a href="EjesTematicos.php">Ejes Temáticos</a></li>
-                          <!-- <li><a href="convocatoria-sesiones.php">Convocatoria 2018</a></li> -->
-                          <!-- <li><a href="concurso.php">concurso mobiliario urbano</a></li> -->
-                          <li><a href="convocatoriaSesionesEducativas.php">Convocatoria 2019</a></li>
-                          <!-- <li><a href="participar.php">¿por qué participar?</a></li> -->
-                          <!-- <li><a href="promotor.php">¿Quieres ser promotor?</a></li> -->
+                          <li><a href="patrocinadores.php">Patrocinadores</a></li>
+                          <li><a href="comiteOrganizador.php">Comité organizador</a></li>
                           <li><a href="preguntas.php">Preguntas frecuentes</a></li>
-                          <!-- <li><a href="voluntarios.php">Voluntarios</a></li> -->
-                          <!-- <li><a href="contacto.php">Contacto y Sede</a></li> -->
-                          <!--<li><a href="congreso-2019.php">Congreso 2019</a></li>-->
                         </ul>
                       </li>
-                      <li><a href="#">monterrey, Nuevo león</a>
+                      <li><a href="expoParquesUrbanos.php">Expo Parques</a></li>
+                      <li><a href="#">Participa</a>
+                        <ul class="menu sub-menu-central">
+                          <li><a href="inscripcion.php">Inscripción</a></li>
+                          <li>
+                            <a href="#">convocatoria</a>
+                            <ul class="menu sub-menu-central">
+                              <li><a href="convocatoriaSesionesEducativas.php">sesiones educativas</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="convocatoriaSesionesEducativas.php">Expositor</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Sede</a>
                         <ul class="menu  sub-menu-central">
-                          <li><a href="CiudadDeLasMontanas.php">La Ciudad de las Montañas</a></li>
-                          <li><a href="https://www.mexicodesconocido.com.mx/cosas-que-hacer-en-monterrey.html" target="_blank">Actividades locales</a></li>
+                          <li><a href="CiudadDeLasMontanas.php">Monterrey, Nuevo león</a></li>
                           <li><a href="hospedajes.php">Hospedaje</a></li>
                           <li><a href="conectividad.php">Conectividad</a></li>
-                          <!-- <li><a href="http://www.merida.gob.mx/capitalcultural/" target="_blank">Turismo en Mérida</a></li> -->
-                          <li><a href="http://www.nuevoleon.travel/quehacer/" target="_blank">Turismo Nuevo León</a></li>
+                          <li><a href="#">Parques en monterrey</a></li>
                         </ul>
                       </li>
 
