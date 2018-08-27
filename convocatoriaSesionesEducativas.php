@@ -24,10 +24,14 @@
     <?php include'assets/menu.php'; ?>
     <div class="figure_header">
       <figure class="">
-        <img src="img/i_sesiones_m.png" alt="">
+        <img src="img/convocatoria/sesiones_educativas.png" alt="">
       </figure>
     </div>
-    <h1 class="titulo_pagina"><span>CONVOCATORIA</span><br>"Sesiones Educativas 2019"</h1>
+    <hgroup class="titulo_pagina">
+      <h2>CONVOCATORIA</h2>
+      <h1>"Sesiones Educativas 2019"</h1>
+    </hgroup>
+
   </header>
   <main >
     <div class="row ">
@@ -49,60 +53,53 @@
     <div class="row">
       <div class="column medium-6 small-12">
         <h4 class="subtitulo">Perfil del ponente</h4>
-        <ul>
-          <li>Arquitectos, urbanistas, arquitectos paisajistas, diseñadores del hábitat. </li>
-          <li>Sociólogos, antropólogos, mercadólogos y administradores.</li>
-          <li>Funcionarios públicos de los tres niveles de gobierno.</li>
-          <li>Ambientalistas, grupos de la sociedad civil organizada.</li>
-          <li>Cualquier otra persona interesada en compartir sus conocimientos y proyectos sobre el espacio público con los asistentes.</li>
+        <ul class="lista_perfil">
+          <li><span>Arquitectos, urbanistas, arquitectos paisajistas, diseñadores del hábitat. </span></li>
+          <li><span>Sociólogos, antropólogos, mercadólogos y administradores.</span></li>
+          <li><span>Funcionarios públicos de los tres niveles de gobierno.</span></li>
+          <li><span>Ambientalistas, grupos de la sociedad civil organizada.</span></li>
+          <li><span>Cualquier otra persona interesada en compartir sus conocimientos y proyectos sobre el espacio público con los asistentes.</span></li>
         </ul>
       </div>
-      <div class="column medium-6">
+      <div class="column medium-6 foto_perfil">
         <figure class="">
           <img src="img/convocatoria/perfil_ponentes.png" alt="">
         </figure>
       </div>
     </div>
 
-    <!-- <div class="row fecha_convocatoria column">
+    <div class="row fecha_convocatoria ">
       <h4 class="subtitulo">Elecciones y fechas</h4>
     </div>
-    <div class="row">
+    <div class="row elecciones_fechas">
       <div class="column medium-6 small-12 ">
-      <p>Límite para enviar propuestas</p>
+      <h5>Límite para enviar propuestas</h5>
+      <span>29 de octubre del 2018</span>
       </div>
       <div class="column medium-6 small-12">
-        <p>Comunicación de resultados</p>
+        <h5>Comunicación de resultados</h5>
+        <span>7 de enero del 2019</span>
       </div>
-    </div> -->
-
-
-    <div class="row column">
-      <ul>
-        <li>Fecha límite para enviar propuestas: 29 de octubre del 2018.</li>
-        <li>Comunicación de resultados: 7 de enero del 2019 *fecha susceptible a cambios.</li>
-      </ul>
     </div>
 
     <div class="row">
       <div class="column medium-10">
         <h4 class="subtitulo">Consideraciones Generales</h4>
-        <ul>
-          <li>Las sesiones educativas están destinadas a la capacitación y el aprendizaje;
+          <p>Las sesiones educativas están destinadas a la capacitación y el aprendizaje;
             al compartir conocimientos, experiencias y proyectos en los que se haya
             colaborado en pro del espacio público. No es un espacio de venta o promoción
             de productos y servicios; por tal motivo, las propuestas que estén inclinadas
-            a estas actividades no podrán formar parte de las sesiones educativas programadas.</li>
-        <li>Si la propuesta es aceptada, cuando se le indique, el ponente deberá de frirmar
+            a estas actividades no podrán formar parte de las sesiones educativas programadas.</p>
+        <p>Si la propuesta es aceptada, cuando se le indique, el ponente deberá de frirmar
           los acuerdos, términos y condiciones de privacidad, compartir su presentación
           (material visual de apoyo), ya que ese material se hará público en la plataforma
-          web de la <strong>Asociación Nacional de Parques y Recreación de México</strong> posterior a las
-          fechas del congreso.</li>
-          <li>Las sesiones educativas en sus dos modalidades tienen una duración de 45 y 75
+          web de la <strong><a href="https://anpr.org.mx/" target="_blank" class="link">Asociación Nacional de Parques y Recreación de México</a></strong> posterior a las
+          fechas del congreso.</p>
+          <p>Las sesiones educativas en sus dos modalidades tienen una duración de 45 y 75
             minutos. La Asociación Nacional de Parques y Recreación de México se reserva el
             derecho de designar el tiempo de intervención de las propuestas seleccionadas. Se
             podría o no, compartir el espacio la sesión educativa con algún otro ponente haciendo que los
-            tiempos de intervención puedan fluctuar entre los 20, 30, 45 o 75 minutos. </li>
+            tiempos de intervención puedan fluctuar entre los 20, 30, 45 o 75 minutos. </p>
         </ul>
       </div>
     </div>
@@ -120,11 +117,11 @@
             La entrada de cortesía incluye:
           </P>
           <ul>
-            <li>Todas las conferencias magistrales y sesiones educativas.</li>
-            <li>Entrada a la muestra comercial <strong>“Expo Parques Urbanos”</strong>.</li>
-            <li>Eventos sociales.</li>
+            <li>Todas las <strong><a href="conferenciasMagistrales.php" class="link">conferencias magistrales</a></strong> y sesiones educativas.</li>
+            <li>Entrada a la muestra comercial <strong><a href="expoParques.php" class="link">“Expo Parques Urbanos”</a></strong>.</li>
+            <li><strong><a href="eventosSociales.php" class="link">Eventos sociales.</a></strong></li>
           </ul>
-          <p><strong class="nota">Nota:</strong> Los gastos relacionados con inscripción a talleres, traslado, hospedaje, comidas y honorarios por presentación de
+          <p class="nota"><strong >Nota:</strong> Los gastos relacionados con inscripción a talleres, traslado, hospedaje, comidas y honorarios por presentación de
           la sesión no están incluidos en el paquete de beneficios.</p>
         </div>
       </div>

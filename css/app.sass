@@ -52,9 +52,13 @@ h3,h4, h5,h6
   font-size: 45px
   color: white
   text-align: center
-  font-family: "avenir bold"
-.titulo_pagina span
+
+.titulo_pagina h2
   font-size: 35px
+  margin-bottom: -8px
+  font-family: "avenir bold"
+.titulo_pagina h1
+  font-family: "avenir bold"
 .subtitulo
   color: $azul
   font-family: "avenir bold"
@@ -63,10 +67,13 @@ h3,h4, h5,h6
   color: white
   font-family: "avenir bold"
 .figure_header
-  margin: 0 auto
+  display: flex
+  justify-content: center
+  margin: 20px 0px 10px 0px
 .figure_header img
-  height: 140px
-
+  height: 170px
+  margin: 0
+  padding: 0
 
 .titulo-patrocinadores
   color: #00AAA7
@@ -94,9 +101,6 @@ h3,h4, h5,h6
   transition: 1s
 img.b-loaded
   opacity: 1
-
-.nota
-  color: $rosado
 
 //=========== header index  =============
 
@@ -738,9 +742,8 @@ footer hgroup h4
   background-repeat: no-repeat
   background-position: center center
   background-size: cover
-  height: 400px
+  height: 540px
   margin: 0
-  display:
 .header_convocatoria
   background-image: url('../img/header-convocatoria.jpg')
 .header-1
@@ -799,13 +802,13 @@ main .contenido ul li
 .ejes_convocatoria img
   margin-top: 40px
   margin-bottom: 40px
-.elecciones_fechas span
-  color: $verde
-  font-size: 20px
+  height: 190px
 
 .fecha_convocatoria h4
   display: block
   margin: 0 auto
+.fecha_convocatoria
+  margin-top: 20px
 
 .beneficios
   background-color: $azul
@@ -815,6 +818,8 @@ main .contenido ul li
 .beneficios p, .beneficios ul li,
 .paso1, .paso2
   color: white
+.instrucciones h4
+  padding: 6px 0px 6px 0px
 .paso1
   background: $azul
 
@@ -824,7 +829,13 @@ main .contenido ul li
 .instrucciones p,
 .paso1, .paso2
   text-align: center
-
+.instrucciones
+  display: flex
+  text-align: center
+.instrucciones figure
+  margin-bottom: 10px
+.instrucciones div
+  padding: 0
 #registraContribucion
   background-color: $azul
   color: white
@@ -832,14 +843,39 @@ main .contenido ul li
   border-radius: 50px
   font-family: "avenir bold"
   margin: 40px 40px
+#registraContribucion:hover
+  background-color: $verde
 
+.foto_perfil
+  display: flex
+  align-items: center
 .sobre_sesion span
   font-weight: bold
   // font-family: "avenir bold"
+.elecciones_fechas
+  text-align: center
+  margin-top: 30px
+.elecciones_fechas h5
+  color: $verde
+  font-family: "avenir bold"
+  margin-bottom: 0px
+.elecciones_fechas span
+  color: #c12270
+  font-family: "general"
+  font-size: 20px
 #link_registro
   font-size: 22px
   color: $rosado
   font-weight: bold
+.nota
+  font-style: italic
+.nota strong
+  color: $rosado
+.lista_perfil
+  color: $verde
+.lista_perfil li span
+  color: #555555
+
 // ============================  Promotores  =======================
 .img-promotores
   height: 16em
