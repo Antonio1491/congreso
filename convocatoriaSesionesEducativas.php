@@ -22,17 +22,22 @@
 <body onload="countdown('contador')">
   <header class="header_paginas header_convocatoria">
     <?php include'assets/menu.php'; ?>
-    <h1 class="titulos">CONVOCATORIA "Sesiones Educativas 2019"</h1>
+    <div class="figure_header">
+      <figure class="">
+        <img src="img/i_sesiones_m.png" alt="">
+      </figure>
+    </div>
+    <h1 class="titulo_pagina"><span>CONVOCATORIA</span><br>"Sesiones Educativas 2019"</h1>
   </header>
   <main >
-    <div class="row">
-      <figure >
+    <div class="row ">
+      <figure class="ejes_convocatoria">
         <img src="img/convocatoria/ejes_tematicos.png" alt="Ejes Temáticos 2019">
       </figure>
     </div>
     <div class="row">
       <div class="column medium-6 small-12">
-        <p>La convocatoria para sesiones educativas tiene como objetivo recibir información
+        <p>La convocatoria para sesiones educativas tiene como <strong>objetivo</strong> recibir información
           sobre proyectos alrededor de todo el mundo que quieran ser presentados en el
           <strong>Congreso Internacional de Parques Urbanos</strong> en su segunda edición.</p>
       </div>
@@ -119,7 +124,7 @@
             <li>Entrada a la muestra comercial <strong>“Expo Parques Urbanos”</strong>.</li>
             <li>Eventos sociales.</li>
           </ul>
-          <p><strong>Nota:</strong> Los gastos relacionados con inscripción a talleres, traslado, hospedaje, comidas y honorarios por presentación de
+          <p><strong class="nota">Nota:</strong> Los gastos relacionados con inscripción a talleres, traslado, hospedaje, comidas y honorarios por presentación de
           la sesión no están incluidos en el paquete de beneficios.</p>
         </div>
       </div>
@@ -155,24 +160,26 @@
     <div class="row">
       <h4 class="subtitulo">Sobre la sesión:</h4>
     </div>
-    <div class="row ">
+    <div class="row sobre_sesion">
       <div class="column medium-6">
         <span>Título:</span>
         <p>Debes crear un título que refleje la esencia de tu sesión y deberá ser de 12 palabras o menos.</p>
-        <span>Seleccionar la <a href="EjesTematicos.php" class="link">temática</a> a la que se alinea.</span>
-        <span>Descripción:</span>
-        <p></p>
+        <p><span>Seleccionar la <a href="EjesTematicos.php" class="link">temática</a> a la que se alinea.</span></p>
+        <p><span>Descripción:</span>
+        Describe de forma concisa y clara tu sesión; esta, debe ser de 200 palabras o menos. Si tu sesión es seleccionada, la descripción aparecerá en nuestra página web, asegúrate que invite a entrar a ella.</p>
+        <p><span>Justificación:</span><br>
+        Justifica la importancia de tu sesión educativa propuesta, identificando cómo tu proyecto/iniciativa/investigación, etc da solución a un problema relacionado con el espacio público y cómo se relaciona con las cinco temáticas del congreso. No hay limitaciones en el número de palabras.</br>
       </div>
-      <ul>
-        <li>Título: </li>
-        <li>Describe de forma concisa y clara tu sesión; esta, debe ser de 200 palabras o menos. Si tu sesión es seleccionada, la descripción aparecerá en nuestra página web, asegúrate que invite a entrar a ella.</li>
-        <li>Descripción: Describe de forma concisa y clara tu sesión; esta, debe ser de 200 palabras o menos. Si tu sesión es seleccionada, la descripción aparecerá en nuestra página web, asegúrate que invite a entrar a ella.</li>
-        <li>Justificación: Justifica la importancia de tu sesión educativa propuesta, identificando cómo tu proyecto/iniciativa/investigación, etc da solución a un problema relacionado con el espacio público y cómo se relaciona con las cinco temáticas del congreso. No hay limitaciones en el número de palabras.</li>
-        <li>Objetivos: La sesión debe contar con objetivos de aprendizaje, claros y medibles. Se solicita enumerar 3.</li>
-        <li>Modalidad: Podrás realizar una propuesta personal o en conjunto con otros participantes. Estos pueden ser colaboradores de su misma organización, pero esto no es limitativo. Podrás hacer una propuesta de sesión con compañeros de proyectos sociales, despachos, universidades - ¡incluso de distintas ciudades o países! Es importante tener la información personal de todos los ponentes involucrados en la propuesta con un máximo de 3 personas.</li>
-      </ul>
+      <div class="column medium-6">
+        <p><span>Objetivos:</span><br>
+        La sesión debe contar con objetivos de aprendizaje, claros y medibles. Se solicita enumerar 3.</p>
+        <p><span>Modalidad:</span><br>
+        Podrás realizar una propuesta personal o en conjunto con otros participantes. Estos pueden ser colaboradores de su misma organización,
+        pero esto no es limitativo. Podrás hacer una propuesta de sesión con compañeros de proyectos sociales, despachos, universidades - ¡incluso de distintas ciudades o países! Es importante tener la información
+         personal de todos los ponentes involucrados en la propuesta con un máximo de 3 personas.</p>
+      </div>
     </div>
-    <div class="row column">
+    <!-- <div class="row column">
       <h4>Las propuestas serán revisadas y seleccionadas por nuestro Consejo de Contenido integrado por:</h4>
       <ul>
         <li>Maria Luisa Ballí, Directora del Instituto de Bienestar Integral TecSalud, Tecnológico de Monterrey.</li>
@@ -189,14 +196,10 @@
         <li>Cristina R. de León Golib, Directora de Contenido y Educación, Asociación Nacional de Parques y Recreación México.</li>
       </ul>
 
-    </div>
+    </div> -->
     <div class="row column align-center">
       <a href="registro/RegistroSesionesEducativas.php" id="link_registro"><h4 id="registraContribucion">¡Registra tu propuesta aquí!</h4></a>
     </div>
-    <!-- <div class="row column">
-      <p>Para registrar su contribución de clic <a href="registro/RegistroSesionesEducativas.php" id="link_registro">aquí.</a></p>
-    </div> -->
-  </article>
 </main>
 
 <?php include'assets/footer.php'; ?>
