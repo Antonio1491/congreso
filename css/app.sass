@@ -614,19 +614,31 @@ img.b-loaded
 
 
 //======  footer  =======
-footer
-  height: 30vh
-  // margin-top: -6px
-  background: $verde
-  padding-top: 2em
-  padding-bottom: 1em
-footer .logo_footer
-  height: 80px
-#cabecera-footer h4,
-#cabecera-footer h5,
-#cabecera-footer h6
-  color: white
 
+footer
+  height: 300px
+  background: $verde
+  padding: 40px 0px 40px 0px
+
+footer .logo_footer
+  height: 150px
+footer hgroup
+  color: white
+  font-family: "general"
+  margin: 0
+footer hgroup h2
+  font-family: "bold"
+  margin: -10px
+  letter-spacing: 2.7px
+  // border: 1px solid red
+footer hgroup h3
+  margin-bottom: -10px
+  padding: 0
+  letter-spacing: -1px
+footer hgroup h6
+  margin-top: -10px
+footer hgroup h4
+  font-size: 20px
 #redes-sociales
   margin: 20px 0
 #redes-sociales img
@@ -639,9 +651,6 @@ footer .logo_footer
 #pie a
   font-size: 14px
   color: $gris
-#cabecera-footer
-  border-bottom: 1px solid white
-  padding-bottom: 1em
 
 .text-inf
   position: absolute
@@ -649,6 +658,36 @@ footer .logo_footer
   height: 100%
   width: 100%
   color: white
+
+.contador
+  width: 230px
+  /*border: 1px solid gray
+  text-align: center
+  border-radius: 8px
+  font-weight: bold
+  font-size: 24px
+  font-family: "general"
+  letter-spacing: 1px
+  float: right
+  margin-top: 25px
+  margin-right: 60px
+.faltan
+  color: #467bb6
+  margin-right: 10PX
+.num_dias
+  color: white !important
+  background: #467bb6
+  padding: 5px 20px
+  border-radius: 0px 0px 10px 10px
+  text-transform: uppercase
+#redes-header img
+  width: 40px
+  height: 50px
+  margin: 0px 8px 5px 0
+.logo_footer_congreso
+  // width: 400px
+// ==========================================================
+
 
 #menu-principal .dropdown.menu > li.is-dropdown-submenu-parent > a::after
       border-color: #b0bc46 transparent transparent
@@ -1420,27 +1459,7 @@ tr td.bloque
   font-family: "general"
 
 
-//======= footer ===========
 
-.contador
-  width: 300px
-  /*border: 1px solid gray
-  text-align: center
-  border-radius: 8px
-  margin: 2em 0
-.contador h4
-  padding-top: 8px
-  padding-bottom: 8px
-  margin: 0
-.contador #contador, .contador #contador-small
-  color: white !important
-  background: #616061
-  margin: 3px
-  border-radius: 10px
-#redes-header img
-  width: 40px
-  height: 50px
-  margin: 0px 8px 5px 0
 
 //================== dispositivos moviles ===============
 .movil
@@ -1551,8 +1570,6 @@ tr td.bloque
     font-size: 21px
   #banners
     margin-bottom: 1em
-  footer h5
-    margin-top: 30px
   #off-canvas, #off-canvas li a
     color: white
     background-color: #029a71
