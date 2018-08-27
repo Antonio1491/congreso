@@ -1,20 +1,23 @@
 <!--   footer  -->
 <footer>
   <div class="row align-justify text-center">
-    <div class="column small-6 medium-2 small-order-1 medium-order-1">
-      <a href="participar.php"><img data-src="img/logotipo/logo_congreso_bc.png" alt="1er Congreso de Parques Urbanos" class="logo_footer"></a>
+    <div class="column small-6 medium-3 small-order-1 medium-order-1">
+      <a href="participar.php"><img data-src="img/logotipo/logo_congreso_bc.png" alt="1er Congreso de Parques Urbanos" class=""></a>
     </div>
-    <div class="column small-12 medium-8 small-order-3 medium-order-2" id="cabecera-footer">
-      <h5>CONGRESO INTERNACIONAL DE PARQUES URBANOS</h5>
-      <h4>14 al 17 de MAYO 2019 - MONTERREY, NUEVO LEÓN, MÉXICO</h4>
-      <h6>Presentado por la Asociación Nacional de Parques y Recreación México.</h6>
+    <div class="column small-12 medium-6 small-order-3 medium-order-2" id="cabecera-footer">
+      <hgroup>
+        <h3>SEGUNDO CONGRESO INTERNACIONAL</h3>
+        <h2>DE PARQUES URBANOS</h2>
+        <h4>14 al 17 de MAYO 2019 - MONTERREY, NUEVO LEÓN, MÉXICO</h4>
+        <h6>Presentado por la Asociación Nacional de Parques y Recreación México.</h6>
+      </hgroup>
     </div>
-    <div class="column small-6 medium-2 small-order-2 medium-order-3">
-      <a href="http://anpr.org.mx/"><img data-src="img/parques-urbanos-logo-anpr.png" alt="Asociación Nacional de Parques y Recreación" class="logo_footer"></a>
+    <div class="column small-6 medium-3 small-order-2 medium-order-3">
+      <a href="http://anpr.org.mx/"><img data-src="img/i_anpr_bc.png" alt="Asociación Nacional de Parques y Recreación" class="logo_footer"></a>
     </div>
   </div>
   <div class="row">
-    <div class="colm medium-6">
+    <div class="colm medium-3">
       <!--========  Redes sociales  ========-->
       <section id="redes-sociales" class="hide-for-small-only">
         <div class="row align-center ">
@@ -33,7 +36,7 @@
         </div>
       </section>
     </div>
-    <div class="col medium-6">
+    <div class="col medium-9">
       <div class="contador">
         <div id='contador'></div>
       </div>
@@ -82,7 +85,7 @@ var bLazy = new Blazy({
           minutos=Math.floor(diferencia/60)
           diferencia=diferencia-(60*minutos)
           segundos=Math.floor(diferencia)
-          document.getElementById(id).innerHTML='<h4>Faltan ' + dias + ' D&iacute;as </h4>'
+          document.getElementById(id).innerHTML='<span class="faltan">FALTAN </span><span class="num_dias">' + dias + ' D&iacute;as </span>'
                     if (dias>0 || horas>0 || minutos>0 || segundos>0){
                             setTimeout("countdown(\"" + id + "\")",1000)
                     }
