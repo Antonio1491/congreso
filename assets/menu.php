@@ -1,6 +1,4 @@
 
-
-
       <!-- Menu -->
       <section id="menu-sticky" class="sticky-container " data-sticky-container>
         <div class="data-sticky" data-sticky data-options="marginTop:0;"  data-top-anchor="menu-sticky">

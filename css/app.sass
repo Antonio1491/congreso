@@ -66,6 +66,11 @@ h3,h4, h5,h6
 .subtitulo_bc
   color: white
   font-family: "avenir bold"
+.subtitulo_verde
+  color: $verde
+  font-family: "bold"
+  margin: 40px 0px 40px 0px
+
 .figure_header
   display: flex
   justify-content: center
@@ -275,9 +280,6 @@ img.b-loaded
     margin: 0px 15px
 .slick-prev, .slick-next
   display: none !important
-
-
-//======== Página de propuestas   =======
 
 //=======================  VENTANA EMERGENTE  ===============
 #popup
@@ -744,8 +746,14 @@ footer hgroup h4
   background-size: cover
   height: 540px
   margin: 0
+  z-index: 4
+
 .header_convocatoria
-  background-image: url('../img/header-convocatoria.jpg')
+  background-image: url('../img/headers/header-convocatoria.jpg')
+.header_acerca_de
+  background-image: url('../img/headers/congreso_parques_2018.jpg')
+.header_acerca_de hgroup
+  margin-top: 60px
 .header-1
   background-image: url('../img/header-1.1.jpg')
 .header-2
@@ -771,7 +779,7 @@ footer hgroup h4
 main
   margin-bottom: 2.876em
   color: #555555
-main h3, main h1
+main h1
   color: white
   font-family: "avenir bold"
   letter-spacing: 0.105em
@@ -795,6 +803,39 @@ main .contenido ul li
 
 .razones li img
   float: right
+
+// ================ acerca del congreso ======
+.btn_verde_transparente
+  border: 1px solid $verde
+  padding: 8px 20px
+  border-radius: 20px
+  font-weight: bold
+  letter-spacing: 1px
+.informacion
+  margin-bottom: 40px
+.foto_asistentes
+  margin-top: 40px
+.cinta_azul
+  background: #4783d2
+  padding: 40px 0px 40px 0px
+  margin: 40px 0px 40px 0px
+.cinta_azul p
+  color: white
+.metodo_aprendizaje figure
+  text-align: center
+.metodo_aprendizaje figure  img
+  height: 200px
+.metodo_aprendizaje h3
+  color: white
+  font-family: "avenir bold"
+  font-size: 18px
+  text-transform: uppercase
+  text-align: center
+.btn_vermas
+  background-color: $verde
+  padding: 7px 50px
+  border-radius: 15px
+  color: white
 
 // ===========  Convocatoria sesiones educativas  ============
 .ejes_convocatoria
