@@ -1,7 +1,7 @@
 //Variables
 $verde : #8abf53
 $verde-limon : #98ba06
-$azul : #36a8e0
+$azul : #0781b1
 $cafe: #4f3013
 $morado: #5a61ab
 $rosado: #883d84
@@ -9,6 +9,8 @@ $gris: #787878
 
 $cielo: #e1ecf7
 
+.menu_azul
+  background: #042a54
 body
   background: $cielo
 
@@ -66,10 +68,10 @@ h3,h4, h5,h6
 .subtitulo_bc
   color: white
   font-family: "avenir bold"
+
 .subtitulo_verde
   color: $verde
   font-family: "bold"
-  margin: 40px 0px 40px 0px
 
 .figure_header
   display: flex
@@ -805,16 +807,27 @@ main .contenido ul li
   float: right
 
 // ================ acerca del congreso ======
+.informacion
+  margin-top: 50px
+.informacion hgroup h3
+  font-size: 35px
+  margin-bottom: -10px
+.informacion hgroup h2
+  font-size: 50px
+.informacion hgroup
+  letter-spacing: 3px
+.informacion a
+  text-align: center
 .btn_verde_transparente
   border: 1px solid $verde
   padding: 8px 20px
   border-radius: 20px
   font-weight: bold
   letter-spacing: 1px
-.informacion
-  margin-bottom: 40px
+
 .foto_asistentes
   margin-top: 40px
+
 .cinta_azul
   background: #4783d2
   padding: 40px 0px 40px 0px
@@ -826,9 +839,9 @@ main .contenido ul li
 .metodo_aprendizaje figure  img
   height: 200px
 .metodo_aprendizaje h3
-  color: white
+  color: $azul
   font-family: "avenir bold"
-  font-size: 18px
+  font-size: 17px
   text-transform: uppercase
   text-align: center
 .btn_vermas
@@ -836,6 +849,20 @@ main .contenido ul li
   padding: 7px 50px
   border-radius: 15px
   color: white
+  font-family: "avenir bold"
+.btn_vermas:hover
+  background-color: $azul
+  color: white
+.contenedor_btn
+   margin-top: 60px
+   display: flex
+   justify-content: center
+.bloque
+  position: relative
+  margin-bottom: 60px
+.bloque .btn_vermas
+  position: absolute
+  bottom: 0
 
 // ===========  Convocatoria sesiones educativas  ============
 .ejes_convocatoria
@@ -1665,10 +1692,6 @@ tr td.bloque
 @media screen and (max-width: 800px)
   .contenido
     margin-top: 1em
-  #encabezado
-    padding-top: 0
-    padding-bottom: 0
-    border-bottom: 4px solid $rosado
   .header
     background-repeat: no-repeat
     background-position: center center

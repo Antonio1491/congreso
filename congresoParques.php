@@ -30,11 +30,12 @@
 
   </header>
   <main class="acerca_congreso">
-    <div class="row align-center">
-      <h3 class="subtitulo_verde">2° CONGRESO INTERNACIONAL DE PARQUES URBANOS</h3>
-    </div>
     <div class="row informacion">
       <div class="column medium-6 small-12">
+        <hgroup>
+          <h3 class="subtitulo_verde">2° CONGRESO INTERNACIONAL</h3>
+          <h2 class="subtitulo_verde">DE PARQUES URBANOS</h2>
+        </hgroup>
         <p>El Congreso Internacional de Parques Urbanos reúne y capacita a profesionales, funcionarios públicos,
           la academia, sociedad civil, para impulsar la industria de los parques urbanos y la recreación en México,
           en un espacio de cuatro días de conferencias, sesiones educativas, talleres y una muestra comercial.</p>
@@ -42,8 +43,11 @@
       <div class="column medium-6 small-12">
         <p><strong>¿Cuándo?</strong><br> 14 -17 de Mayo de 2019</p>
         <p><strong>¿Dónde? </strong><br> Centro de Congresos Cintermex, Parque
-          Fundidora, Monterrey, Nuevo León México.</p>
-        <a href="#" class="btn_verde_transparente">Conoce la ciudad</a>
+          Fundidora, Monterrey, Nuevo León México.</p><br>
+          <div class="text-center">
+            <a href="#" class="btn_verde_transparente">Conoce la ciudad</a>
+          </div>
+
       </div>
     </div>
     <div class="row">
@@ -52,7 +56,7 @@
         <p>El Congreso Parques, es un evento de alcance internacional, que permitirá a profesionales de la industria
           de los parques, tener una experiencia única de aprendizaje y formación, además de crear redes de colaboración
           con líderes en la industria en todo el mundo ¿Qué hace especial el Congreso Internacional de Parques Urbanos?
-          El intercambio de conocimientos y experiencias de profesionales que enfrentan desafíos similares a los tuyos.</p>
+          El intercambio de conocimientos y experiencias de profesionales que enfrentan desafíos similares a los tuyos.</p><br>
         <a href="#" class="btn_verde_transparente">¡Convence a tus directivos y ven al Congreso! </a>
       </div>
       <div class="column medium-6 small-12">
@@ -61,49 +65,35 @@
         </figure>
       </div>
     </div>
-    <div class="row column">
-      <h4 class="subtitulo">Diseña tu experiencia</h4>
-      <p>Los asistentes tendrán a su alcance 4 conferencias magistrales, más de 55 sesiones educativas y 15 talleres
-        vivenciales. Esta oferta educativa dará la posibilidad de elegir a que sesión educativa asistir según su campo
-        de acción profesional o interés particular, dentro de nuestras 5 temáticas. Obtén una certificación validando
-        tu participación y conocimientos adquiridos con un 80% de asistencia a las sesiones educativas y conferencias
-        magistrales.</p>
-    </div>
-    <div class="row">
-      <div class="column">
-        <figure>
-          <img src="img/i_salud.png" alt="">
-        </figure>
-      </div>
-      <div class="column">
-        <figure>
-          <img src="img/i_diseno.png" alt="">
-        </figure>
-      </div>
-      <div class="column">
-        <figure>
-          <img src="img/i_economia.png" alt="">
-        </figure>
-      </div>
-      <div class="column">
-        <figure>
-          <img src="img/i_ciudad.png" alt="">
-        </figure>
-      </div>
-      <div class="column">
-        <figure>
-          <img src="img/i_servicio.png" alt="">
-        </figure>
-      </div>
-    </div>
+
+
     <div class="cinta_azul">
       <div class="row">
-        <h4 class="subtitulo_bc">El método de aprendizaje </h4>
+        <div class="column medium-6 small-12">
+          <figure>
+            <img src="img/ejes_tematicos.png" alt="">
+          </figure>
+        </div>
+        <div class="column medium-6 small-12 disena_experiencia">
+          <h4 class="subtitulo_bc">Diseña tu experiencia</h4>
+          <p>Los asistentes tendrán a su alcance 4 conferencias magistrales, más de 55 sesiones educativas y 15 talleres
+            vivenciales. Esta oferta educativa dará la posibilidad de elegir a que sesión educativa asistir según su campo
+            de acción profesional o interés particular, dentro de nuestras 5 temáticas. Obtén una certificación validando
+            tu participación y conocimientos adquiridos con un 80% de asistencia a las sesiones educativas y conferencias
+            magistrales.</p><br>
+          <a href="#" class="btn_vermas">Ver Temas y Temáticas</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="">
+      <div class="row">
+        <h4 class="subtitulo ">El método de aprendizaje </h4>
         <p>Durante los días del Congreso, encontrarás diversos momentos para compartir y generar conocimiento para mejorar
           tu experiencia de aprendizaje. Conoce las distintas opciones que el Congreso Parques ofrece. </p>
       </div>
       <div class="row">
-        <div class="column medium-4 small-12">
+        <div class="column medium-4 small-12 bloque">
           <article class="metodo_aprendizaje">
             <figure>
               <img src="img/i_conferencias.png" alt="">
@@ -114,10 +104,12 @@
                 nuestros expertos sobre parques urbanos y espacios públicos; ellos hablarán
                 sobre sus experiencias profesionales y personales sobre temas de interés común
                 para nuestras ciudades.  </p>
+            <div class="contenedor_btn">
               <a href="#" class="btn_vermas">Ver más</a>
+            </div>
           </article>
         </div>
-        <div class="column medium-4 small-12">
+        <div class="column medium-4 small-12 bloque">
           <article class="metodo_aprendizaje">
             <figure>
               <img src="img/i_conferencias_magistrales.png" alt="">
@@ -127,10 +119,12 @@
                por 140 conferencistas de todo el mundo, que con base en su área de
                especialización, brindarán un momento de aprendizaje y capacitación que
                potencializarán tus conocimientos.</p>
-            <a href="#" class="btn_vermas">Ver más</a>
+            <div class="contenedor_btn">
+              <a href="#" class="btn_vermas">Ver más</a>
+            </div>
           </article>
         </div>
-        <div class="column medium-4 small-12">
+        <div class="column medium-4 small-12 bloque">
           <article class="metodo_aprendizaje">
             <figure>
               <img src="img/i_talleres_m.png" alt="">
@@ -142,12 +136,27 @@
               expertos en el tema y colaboradores de la ciudad anfitriona. Los 15 talleres
               vivenciales se realizarán durante el 14 y 15 de mayo previo a las actividades
               en el centro de convenciones. </p>
-            <a href="#" class="btn_vermas">Ver más</a>
+            <div class="contenedor_btn">
+              <a href="#" class="btn_vermas">Ver más</a>
+            </div>
+
           </article>
         </div>
       </div>
       <div class="row">
-        <div class="column medium-4 small-12">
+        <div class="column medium-4 small-12 bloque">
+          <article class="metodo_aprendizaje">
+          <figure>
+            <img src="img/i_glass_room.png" alt="">
+          </figure>
+            <h3>Glass room</h3>
+            <p></p>
+            <div class="contenedor_btn">
+              <a href="#" class="btn_vermas">Ver más</a>
+            </div>
+          </article>
+        </div>
+        <div class="column medium-4 small-12 bloque">
           <article class="metodo_aprendizaje">
           <figure>
             <img src="img/i_expo_parques_m.png" alt="">
@@ -158,10 +167,12 @@
                productos y servicios para espacio público. Conoce e invierte en este foro de
                negocios donde los principales tomadores de decisiones en México se reunirán en
                torno a la industria de los parques urbanos y la recreación.</p>
-            <a href="#" class="btn_vermas">Ver más</a>
+            <div class="contenedor_btn">
+              <a href="#" class="btn_vermas">Ver más</a>
+            </div>
           </article>
         </div>
-        <div class="column medium-4 small-12">
+        <div class="column medium-4 small-12 bloque">
           <article class="metodo_aprendizaje">
             <figure>
               <img src="img/i_eventos_sociales_m.png" alt="">
@@ -172,12 +183,12 @@
               dos eventos realizados especialmente para ti. Asiste a la inauguración y
               clausura del Congreso Parques, reúnete en un ambiente relajado, diviértete y
               haz networking.  </p>
-            <a href="#" class="btn_vermas">Ver más</a>
+            <div class="contenedor_btn">
+              <a href="#" class="btn_vermas">Ver más</a>
+            </div>
           </article>
         </div>
-        <div class="column medium-4 small-12">
 
-        </div>
       </div>
     </div>
 

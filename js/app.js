@@ -20,4 +20,13 @@ $(document).ready(function(){
     });
  });
 
- 
+
+ $(function (){
+       $(window).scroll(function(){
+          if ($(this).scrollTop() > 50) {
+           $('#encabezado').addClass("menu_azul");
+          } else {
+           $("#encabezado").removeClass("menu_azul");
+          }
+       });
+   });
