@@ -82,7 +82,7 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row consideraciones">
       <div class="column medium-10">
         <h4 class="subtitulo">Consideraciones Generales</h4>
           <p>Las sesiones educativas están destinadas a la capacitación y el aprendizaje;

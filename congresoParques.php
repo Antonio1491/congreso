@@ -150,7 +150,10 @@
             <img src="img/i_glass_room.png" alt="">
           </figure>
             <h3>Glass room</h3>
-            <p></p>
+            <p>¡Un gran salón transparente te espera dentro de Expo Parques! En el podrás
+              encontrar desde sesiones educativas hasta sesiones comerciales. En esta convivencia
+              comercial, la industria tendrá la oportunidad de compartir la relevancia de sus
+              productos y servicios. </p>
             <div class="contenedor_btn">
               <a href="#" class="btn_vermas">Ver más</a>
             </div>
