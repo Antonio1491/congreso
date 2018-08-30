@@ -14,11 +14,6 @@
     <meta property="og:image"              content="http://congresoparques.com/img/fb_convocatoria.jpg" />
     <title>Convocatoria 2019 | Congreso Internacional de Parques Urbanos</title>
     <?php  require("assets/head_common.php") ?>
-    <!-- <link rel="stylesheet" href="icons/foundation-icons.css">
-    <link rel="stylesheet" href="css/foundation-flex.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="css/app.css"> -->
-  </head>
 <body onload="countdown('contador')">
   <header class="header_paginas header_acerca_de">
     <?php include'assets/menu.php'; ?>

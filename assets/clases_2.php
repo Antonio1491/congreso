@@ -3,7 +3,7 @@ require('conexion.php');
 
 class Registro extends Conexion{
 
-  public function Registro(){
+  public function __construct(){
 
       parent::__construct();
 
@@ -119,7 +119,7 @@ class Registro extends Conexion{
 class Sesiones extends Conexion
 {
 
-  public function Sesiones(){
+  public function __construct(){
 
       parent::__construct();
 
@@ -142,7 +142,7 @@ class Sesiones extends Conexion
 class Conferencistas extends Conexion
 {
 
-    public function Conferencistas()
+    public function __construct()
 
   {
       parent::__construct();

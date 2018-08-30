@@ -12,66 +12,63 @@
       // include("datos_conexion.php")
     ?>
 
-    <!-- <link rel="stylesheet" href="icons/foundation-icons.css">
-    <link rel="stylesheet" href="css/foundation-flex.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="css/app.css"> -->
-</head>
 <body onload="countdown('contador')">
-<?php include'assets/menu.php'; ?>
-<main class="back-2">
-
-    <div class="row  expanded header_expo">
-        <div class="content_header_expo">
-          <!-- <h1 class="titulos">Expo Parques Urbanos 2019</h1> -->
-          <figure class="expo_logo">
-            <img src="img/expo_parques_logo.png" alt="">
-          </figure>
-        </div>
+  <header class="header_paginas header_expo">
+    <?php include'assets/menu.php'; ?>
+    <div class="figure_header">
+      <figure class="expo_logo">
+        <img src="img/expo_parques_logo.png" alt="">
+      </figure>
     </div>
-    <div class="row contenido expo ">
+  </header>
+  <main>
+    <div class="row ">
       <div class="column text-center">
-        <h5>La única exposición mexicana especializada de la industria reunirá a más de
-          <span style="font-size:1.4em;">50</span> empresas líderes en el mercado.</h5>
-        <p>Invierte en el foro de negocios en donde los principales tomadores de
-          decisiones en México se reunirán en torno a la industria de los parques
-          urbanos y la recreación. </p>
+        <h5 class="subtitulo">La única exposición mexicana especializada de la industria reunirá a más de
+          <span style="font-size:1.4em;">80</span> empresas líderes en el mercado.</h5>
+          <p>Invierte en el foro de negocios en donde los principales tomadores de decisiones
+            en México se reunirán en torno a la industria de los parques urbanos y la recreación.</p>
+        <p>Participa e invierte en la exposición comercial más especializada de la industria
+          de los parques urbanos y espacios públicos en México y Latinoamérica donde encontraras
+          a los principales tomadores de decisiones además de las tendencias en equipamiento de
+          espacio público. </p>
       </div>
     </div>
     <div class="row column">
-      <p><span class="letra-capital">P</span>articipa en la exposición comercial más especializada
-        de la industria de los parques urbanos y espacios públicos en México y Latinoamérica.</p>
+      <div class="column medium-6">
+
+      </div>
     </div>
     <div class="row">
       <div class="column medium-6">
-        <ul>
-          <li>Explora el mercado y observe las últimas tendencias.</li>
-           <li>Intercambia experiencias con proveedores y congresistas expertos.</li>
-           <li>Recopila información.</li>
-          <li>Manténganse al tanto de las innovaciones de los producto y la industria.</li>
-           <li>Conoce los productos más innovadores de la industria.</li>
-           <li>Conoce qué hacen los competidores.</li>
+        <ul class="lista_vineta">
+          <li><span>Explora el mercado y observe las últimas tendencias.</span></li>
+           <li><span>Intercambia experiencias con proveedores y congresistas expertos.</span></li>
+           <li><span>Recopila información.</span></li>
+          <li><span>Manténganse al tanto de las innovaciones de los producto y servicios de este campo.</span></li>
+           <li><span>Conoce los productos más innovadores de la industria.</span></li>
+           <li><span>Conoce qué hacen los competidores.</span></li>
          </ul>
       </div>
       <div class="column medium-6">
-        <ul>
-          <li>Aprende las últimas técnicas de ventas y promoción.</li>
-           <li>Compara la calidad, el precio y el rendimiento de la mezcla de marketing.</li>
-           <li>Asiste a las conferencias magistrales, sesiones educativas y talleres vivenciales.</li>
-           <li>Visita parques locales.</li>
-           <li>Disfruta del espléndido turismo de Mérida.</li>
+        <ul class="lista_vineta">
+          <li><span>Aprende las últimas técnicas de ventas y promoción.</span></li>
+           <li><span>Compara la calidad, el precio y el rendimiento de la mezcla de marketing.</span></li>
+           <li><span>Asiste a las conferencias magistrales, sesiones educativas y talleres vivenciales.</span></li>
+           <li><span>Visita parques locales.</span></li>
+           <li><span>Disfruta del espléndido turismo de la ciudad anfitriona.</span></li>
         </ul>
       </div>
     </div>
     <div class="row column align-center">
-        <h5>Conoce a los mejores fabricantes de México y Estados Unidos de:</h5>
+        <h5 class="subtitulo">Conoce a los mejores fabricantes de México y el mundo de:</h5>
     </div>
     <hr>
     <div class="row" >
         <div  id="cotizar" >
           <div class="container_cotizar">
             <div class="item_expo">
-              <ul>
+              <ul >
                 <li>Juegos Infantiles</li>
                 <li>Mobiliario Urbano</li>
                 <li>Parques Caninos</li>

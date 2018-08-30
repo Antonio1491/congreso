@@ -53,7 +53,7 @@
     <div class="row">
       <div class="column medium-6 small-12">
         <h4 class="subtitulo">Perfil del ponente</h4>
-        <ul class="lista_perfil">
+        <ul class="lista_vineta">
           <li><span>Arquitectos, urbanistas, arquitectos paisajistas, diseñadores del hábitat. </span></li>
           <li><span>Sociólogos, antropólogos, mercadólogos y administradores.</span></li>
           <li><span>Funcionarios públicos de los tres niveles de gobierno.</span></li>

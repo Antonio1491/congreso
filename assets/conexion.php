@@ -5,7 +5,7 @@ class Conexion{
 
   protected $conexion_db;
 
-  public function Conexion(){
+  public function __construct(){
 
     $this->conexion_db = new mysqli(DB_SERVER, DB_USUARIO, DB_CONTRASENA, DB_NOMBRE);
 

@@ -73,15 +73,6 @@ h3,h4, h5,h6
   color: $verde
   font-family: "bold"
 
-.figure_header
-  display: flex
-  justify-content: center
-  // margin: 20px 0px 10px 0px
-.figure_header img
-  height: 170px
-  margin: 0
-  padding: 0
-
 .titulo-patrocinadores
   color: #00AAA7
   border-left: 4px solid #c7317d
@@ -114,29 +105,6 @@ img.b-loaded
 
 
 // ========================================
-
-
-.back-1
-  background: url("../img/fondo-5.png")
-  background-size: 10% 100%
-  background-repeat: no-repeat
-  background-position: left center
-.back-2
-  background: url("../img/fondo-4.png")
-  background-size: 10% 80%
-  background-repeat: no-repeat
-  background-position: right center
-.logo-contenedor-small
-  margin: 4vh 0
-.logo-small
-  width: 80vw
-#redes-small
-  margin: 4vh 0
-#redes-small img
-  height: 45px
-
-#cinta
-
 .enviar-datos
   margin: 0 auto
 
@@ -273,13 +241,14 @@ img.b-loaded
 .cinta-marquee h4
   color: $verde
   margin-left: 120px
+  margin-right: 40px
   text-transform: uppercase
 .slider2
   width: 80%
   display: block
   height: 100%
-.slick-slide
-    margin: 0px 15px
+// .slick-slide
+//     margin: 0px 15px
 .slick-prev, .slick-next
   display: none !important
 
@@ -730,8 +699,16 @@ footer hgroup h4
   border-color: transparent $morado transparent transparent
 
 //============================  páginas  ====================================
-.barra-secciones
-  margin-top: 5em
+
+.figure_header
+  display: flex
+  justify-content: center
+  // margin: 20px 0px 10px 0px
+.figure_header img
+  height: 170px
+  margin: 0
+  padding: 0
+  vertical-align: middle
 .header
   background-repeat: no-repeat
   background-position: center center
@@ -756,6 +733,20 @@ footer hgroup h4
   background-image: url('../img/headers/congreso_parques_2018.jpg')
 .header_acerca_de hgroup
   margin-top: 60px
+.header_hospedaje
+  background-image: url('../img/headers/hospedaje.png')
+.header_expo
+  background-image: url('../img/headers/expo2018.jpg')
+// .content_header_expo
+//   display: flex
+//   background: rgba(31, 31, 31, .1)
+//   width: 100%
+//   align-items: center
+//   justify-content: center
+// .content_header_expo
+//   vertical-align: middle
+
+
 .header-1
   background-image: url('../img/header-1.1.jpg')
 .header-2
@@ -941,9 +932,9 @@ main .contenido ul li
   font-style: italic
 .nota strong
   color: $rosado
-.lista_perfil
+.lista_vineta
   color: $verde
-.lista_perfil li span
+.lista_vineta li span
   color: #555555
 
 // ============================  Promotores  =======================
@@ -1096,12 +1087,12 @@ main .contenido ul li
 .video
   margin: auto
 //================   Hoteles    ================================
-.hoteles a
-  color: #aa1a86
-.hoteles a:hover
-  color: #8137d5
-.hoteles h5
-  font-size: 1.8em
+.contenedor_hoteles
+  background: white
+  margin-top: 40px
+  margin-bottom: 40px
+
+
 //==================     Inscripciones    =========================
 // .container-tabla
 //   display: grid
@@ -1192,19 +1183,7 @@ a .accordion-title
   color: #194477 !important
 
 //=====================  Expo  ============
-.header_expo
-  background-image: url('../img/headers/expo2018.jpg')
-  height: 400px
-  background-position: center
-  background-size: cover
-.content_header_expo
-  display: flex
-  background: rgba(31, 31, 31, .1)
-  width: 100%
-  align-items: center
-  justify-content: center
-.content_header_expo
-  vertical-align: middle
+
 .expo_logo img
   height: 250px
 

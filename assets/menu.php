@@ -30,44 +30,44 @@
                     <ul class="dropdown menu align-spaced show-for-medium" id="" data-dropdown-menu>
                       <li><a href="#">acerca de</a>
                         <ul class="menu sub-menu-central">
-                          <li><a href="#">Congreso</a></li>
-                          <li><a href="#">Ejes Temáticos</a></li>
+                          <li><a href="congresoParques.php">Congreso</a></li>
+                          <li><a href="ejesTematicos.php">Ejes Temáticos</a></li>
                           <li>
                             <a href="#">eventos</a>
                             <ul class="menu sub-menu-central">
-                              <li><a href="#">Conferencias Magistrales</a></li>
-                              <li><a href="#">sesiones educativas</a></li>
-                              <li><a href="#">talleres</a></li>
-                              <li><a href="#">expo parques</a></li>
-                              <li><a href="#">eventos sociales</a></li>
+                              <li><a href="conferenciasMagistrales.php">Conferencias Magistrales</a></li>
+                              <li><a href="sesionesEducativas.php">sesiones educativas</a></li>
+                              <li><a href="talleres.php">talleres</a></li>
+                              <li><a href="expoParques.php">expo parques</a></li>
+                              <li><a href="eventosSociales.php">eventos sociales</a></li>
                             </ul>
                           </li>
                           <li><a href="#">Programa Completo</a></li>
                           <li><a href="#">Ponentes</a></li>
-                          <li><a href="#">Patrocinadores</a></li>
+                          <li><a href="patrocinadores.php">Patrocinadores</a></li>
                           <li><a href="#">Comité organizador</a></li>
-                          <li><a href="#">Preguntas frecuentes</a></li>
+                          <li><a href="preguntas.php">Preguntas frecuentes</a></li>
                         </ul>
                       </li>
-                      <li><a href="#">Expo Parques</a></li>
+                      <li><a href="expoParques.php">Expo Parques</a></li>
                       <li><a href="#">Participa</a>
                         <ul class="menu sub-menu-central">
-                          <li><a href="#">Inscripción</a></li>
+                          <li><a href="inscripcion.php">Inscripción</a></li>
                           <li>
                             <a href="#">convocatoria</a>
                             <ul class="menu sub-menu-central">
                               <li><a href="convocatoriaSesionesEducativas.php">sesiones educativas</a></li>
                             </ul>
                           </li>
-                          <li><a href="#">Expositor</a></li>
+                          <li><a href="https://preregistrate.mx/congresoparques/2019/plano/" target="_blank">Expositor / Stand</a></li>
                         </ul>
                       </li>
                       <li><a href="#">Sede</a>
                         <ul class="menu  sub-menu-central">
-                          <li><a href="#">Monterrey, Nuevo león</a></li>
-                          <li><a href="#">Hospedaje</a></li>
-                          <li><a href="#">Conectividad</a></li>
-                          <li><a href="#">Parques en monterrey</a></li>
+                          <li><a href="ciudadDelasMontanas.php">Monterrey, Nuevo león</a></li>
+                          <li><a href="hospedajes.php">Hospedaje</a></li>
+                          <li><a href="conectividad.php">Conectividad Aérea</a></li>
+                          <li><a href="parques.php">Parques en monterrey</a></li>
                         </ul>
                       </li>
 

@@ -23,9 +23,11 @@
   </div>
   <div class="contenido">
     <div class="row column">
-      <p><span class="letra-capital">L</span>as Conferencias Magistrales serán el momento en el cual todos los
-        asistentes al congreso se reunirán en una misma sala para escuchar hablar a los expertos sobre los parques
-        urbanos y temas de interés común para nuestras ciudades.</p>
+      <p>¿Te imaginas a todos los asistentes del congreso en una misma sala? ¡Este
+        es un momento que nadie debe perderse! Durante las conferencias magistrales
+        contaremos nuestros expertos sobre parques urbanos y espacios públicos; ellos
+        hablarán sobre sus experiencias profesionales y personales sobre temas de
+        interés común para nuestras ciudades.  </p>
     </div>
     <div class="row">
       <article class="conf_mag">

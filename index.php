@@ -49,8 +49,10 @@
       </button>
     </div>
 
-  <!--====================== cinta patrocinadores   ===================================================-->
+  <!--=================   cinta patrocinadores   =======================-->
   <?php include('assets/cinta_patrocinadores.php') ?>
+
+
   <!--======  diseño pra móviles   ======-->
   <section class="movil show-for-small-only" >
     <div class="header_movil item_movil">
