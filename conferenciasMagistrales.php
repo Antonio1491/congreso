@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conferencias Magistrales</title>
     <?php require("assets/head_common.php") ?>
-    <!-- <link rel="stylesheet" href="icons/foundation-icons.css">
-    <link rel="stylesheet" href="css/foundation-flex.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="css/app.css"> -->
 </head>
 <body onload="countdown('contador')">
-<?php include'assets/menu.php'; ?>
-<main class="back-1">
-  <div class=" header header-8">
-    <div class="row align-middle">
-      <div class="column text-center">
-        <h1 class="titulos">CONFERENCIAS MAGISTRALES</h1>
-      </div>
+  <header class="header_paginas header_convocatoria">
+    <?php include'assets/menu.php'; ?>
+    <div class="figure_header">
+      <figure class="">
+        <img src="img/i_conferencias_magistrales.png" alt="">
+      </figure>
     </div>
-  </div>
+      <hgroup class="titulo_pagina"><br>
+        <h1>CONFERENCIAS MAGISTRALES</h1>
+      </hgroup>
+      <p></p>
+  </header>
+<main >
   <div class="contenido">
     <div class="row column">
       <p>¿Te imaginas a todos los asistentes del congreso en una misma sala? ¡Este
@@ -34,13 +34,13 @@
         <div class="contenido_conferencista item_conf_m">
           <div class="">
             <figure>
-              <img src="img/foto_ejemplo_2.png" alt="">
+              <img src="img/carlos_carsolio.png" alt="">
             </figure>
             <figcaption>
               <hgroup>
-                <h1>Nombre Apellido</h1>
-                <h2>Cargo</h2>
-                <h3>Empresa</h3>
+                <h1>Carlos Carsolio </h1>
+                <h2>Fundador, Carsolio Esculturas</h2>
+                <!-- <h3>Empresa</h3> -->
               </hgroup>
             </figcaption>
           </div>
@@ -62,13 +62,13 @@
           <div class="contenido_conferencista item_conf_m">
             <div class="">
               <figure>
-                <img src="img/foto_ejemplo_2.png" alt="">
+                <img src="img/tatiana_bilbao.png" alt="">
               </figure>
               <figcaption>
                 <hgroup>
-                  <h1>Nombre Apellido</h1>
-                  <h2>Cargo</h2>
-                  <h3>Empresa</h3>
+                  <h1>Tatiana Bilbao</h1>
+                  <h2>Directora, Tatiana Bilbao Estudio</h2>
+                  <!-- <h3>Empresa</h3> -->
                 </hgroup>
               </figcaption>
             </div>
@@ -89,13 +89,13 @@
           <div class="contenido_conferencista item_conf_m">
             <div class="">
               <figure>
-                <img src="img/foto_ejemplo_2.png" alt="">
+                <img src="img/macarena_rau.png" alt="">
               </figure>
               <figcaption>
                 <hgroup>
-                  <h1>Nombre Apellido</h1>
-                  <h2>Cargo</h2>
-                  <h3>Empresa</h3>
+                  <h1>Macarena Rau Vargas</h1>
+                  <h2>Presidenta, Asociación Internacional CPTED</h2>
+                  <!-- <h3>Empresa</h3> -->
                 </hgroup>
               </figcaption>
             </div>
@@ -117,13 +117,13 @@
           <div class="contenido_conferencista item_conf_m">
             <div class="">
               <figure>
-                <img src="img/foto_ejemplo_2.png" alt="">
+                <img src="img/robert_zarr.png" alt="">
               </figure>
               <figcaption>
                 <hgroup>
-                  <h1>Nombre Apellido</h1>
-                  <h2>Cargo</h2>
-                  <h3>Empresa</h3>
+                  <h1>Dr. Robert Zarr</h1>
+                  <h2>Fundador y Director Médico, Park Rx America</h2>
+                  <!-- <h3>Empresa</h3> -->
                 </hgroup>
               </figcaption>
             </div>

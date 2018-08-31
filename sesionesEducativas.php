@@ -9,27 +9,20 @@
   require("assets/clases_2.php");  ?>
 </head>
 <body onload="countdown('contador')">
-<?php include'assets/menu.php'; ?>
+<header class="header_paginas header_sesiones">
+  <?php include'assets/menu.php'; ?>
+  <hgroup class="titulo_pagina"><br>
+    <h1>SESIONES EDUCATIVAS</h1>
+  </hgroup>
+  <p></p>
+</header>
 <main class="sesiones">
-  <div class=" header header-3">
-    <div class="row align-middle">
-      <div class="column text-center">
-        <h1 class="titulos">SESIONES EDUCATIVAS</h1>
-      </div>
+  <div class="expanded barra_sesiones">
+    <div class="row">
+
     </div>
   </div>
   <div class="contenido">
-    <div class="row column">
-      <p><span class="letra-capital">L</span>as sesiones educativas tendrán lugar los días 26 y 27
-      de abril en el Centro Internacional de Congresos de Yucatán – el 25 de abril tendrán lugar 9
-      <a href="talleres.php">talleres vivenciales</a> en los parques y espacios públicos de la ciudad.</p>
-      <p>Estas sesiones tendrán una hora de duración con quince minutos para preguntas y respuestas en donde el asistente podrá interactuar con los ponentes.</p>
-      <p>A diferencia de las <a href="conferencias.php">conferencias magistrales</a>, las sesiones
-      educativas estarán ubicadas en salones pequeños con una capacidad máxima de 150 personas; se
-      tendrán alrededor de 8 sesiones paralelas correspondientes a nuestras 5 temáticas. Los asistentes
-      pondrán especializarse en alguna de ellas, o conocer de todas las temáticas.</p>
-    </div>
-
     <article class="container_sesiones row">
       <div class="item_sesiones">
         <div class="item_sesiones_titulos">

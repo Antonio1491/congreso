@@ -372,7 +372,7 @@ img.b-loaded
 .contenido_conferencista figcaption h1
   font-size: 20px
 .contenido_conferencista figcaption h2
-  font-size: 16px
+  font-size: 14px
 .contenido_conferencista figcaption h3
   font-size: 14px
 
@@ -391,6 +391,7 @@ img.b-loaded
   padding: 15px 15px 15px 15px
   width: 210px
   height: 315px
+  text-align: center
 .titulo_boleto
   display: flex
   align-items: center
@@ -401,6 +402,19 @@ img.b-loaded
   font-size: 20px
   height: 50px
   font-family: "bold"
+  margin-bottom: 5px
+
+.boleto span
+  font-size: 16px
+  font-family: "avenir bold"
+  color: $verde
+  // margin-top: -10px
+
+.precio_boleto_miembros
+  font-size: 40px
+  font-family: "avenir bold"
+  color: #4783d2
+  text-align: center
 .precio_boleto
   color: #4783d2
   font-size: 35px
@@ -421,7 +435,7 @@ img.b-loaded
 .btn_boleto
   background: #4783d2
   border-radius: 10px
-  margin: 0 auto
+  margin: 20px auto
   width: 150px
   padding: 10px 0
 .btn_boleto a
@@ -737,6 +751,13 @@ footer hgroup h4
   background-image: url('../img/headers/hospedaje.png')
 .header_expo
   background-image: url('../img/headers/expo2018.jpg')
+.header_ejes
+  background-image: url('../img/headers/header_7.jpg')
+.header_sesiones
+  background-image: url('../img/headers/sesiones_header.png')
+
+
+
 // .content_header_expo
 //   display: flex
 //   background: rgba(31, 31, 31, .1)
@@ -1281,6 +1302,9 @@ a .accordion-title
 
 //======================= Sesiones Educativas   ======
 
+.barra_sesiones
+  height: 200px
+  border: 1px solid red
 .container_sesiones
   display: grid
   grid-template-columns: 25% 75%

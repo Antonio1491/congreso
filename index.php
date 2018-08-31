@@ -143,10 +143,13 @@
       <h2>El 2° Congreso Internacional de Parques urbanos</h2>
     </div>
     <div class="row">
-      <p>Es un evento que se realizará anualmente que tiene como objetivo reunir y capacitar a profesionales, funcionarios públicos,
-técnicos, tomadores de decisiones, académicos, estudiantes, sociedad civil y proveedores relacionados al espacio público en un
-mismo lugar, para impulsar la industria de los parques urbanos y la recreación en México, en un espacio de tres días de
-capacitación.</p>
+      <p>El Congreso Internacional de Parques Urbanos es un evento especializado en parques
+        urbanos y espacios públicos que tiene como objetivo reunir y capacitar a profesionales,
+        funcionarios públicos, tomadores de decisiones, proveedores de la industria, estudiantes
+        organizaciones no gubernamentales y muchos más, en un mismo lugar. Simultáneamente
+        tendrá lugar Expo Parques, un espacio de 6,000 m2 de exhibición de productos y servicios
+        relacionados con la industria de parques y recreación. Durante 4 días, el Congreso Parques
+        brinda una experiencia única de aprendizaje. </p>
     </div>
     <div class="secciones_icon">
       <figure>
@@ -209,41 +212,41 @@ capacitación.</p>
       <div class="magistrales_icon">
         <figure class="contenido_conferencista">
           <a href="#">
-            <img src="img/foto_ejemplo_1.png" alt="">
+            <img src="img/carlos_carsolio.png" alt="">
             <figcaption>
-              <h1>Nombre Apellido</h1>
-              <h2>Cargo Empresa</h2>
-              <h3>Estado y País</h3>
+              <h1>Carlos Carsolio</h1>
+              <h2>Fundador, Carsolio Esculturas</h2>
+              <h3>Ciudad de México, México</h3>
             </figcaption>
           </a>
         </figure>
         <figure class="contenido_conferencista">
           <a href="#">
-            <img src="img/foto_ejemplo_2.png" alt="">
+            <img src="img/macarena_rau.png" alt="">
             <figcaption>
-              <h1>Nombre Apellido</h1>
-              <h2>Cargo Empresa</h2>
-              <h3>Estado y País</h3>
+              <h1>Macarena Rau Vargas</h1>
+              <h2>Presidenta, Asociación Internacional CPTED</h2>
+              <h3>Santiago, Chile</h3>
             </figcaption>
           </a>
         </figure>
         <figure class="contenido_conferencista">
           <a href="#">
-            <img src="img/foto_ejemplo_1.png" alt="">
+            <img src="img/robert_zarr.png" alt="">
             <figcaption>
-              <h1>Nombre Apellido</h1>
-              <h2>Cargo Empresa</h2>
-              <h3>Estado y País</h3>
+              <h1>Dr. Robert Zarr </h1>
+              <h2>Fundador y Director Médico, Park Rx America</h2>
+              <h3>Washington DC, Estados Unidos </h3>
             </figcaption>
           </a>
         </figure>
         <figure class="contenido_conferencista">
           <a href="#">
-            <img src="img/foto_ejemplo_2.png" alt="">
+            <img src="img/tatiana_bilbao.png" alt="">
             <figcaption class="contenido_conferencista">
-              <h1>Nombre Apellido</h1>
-              <h2>Cargo Empresa</h2>
-              <h3>Estado y País</h3>
+              <h1>Tatiana Bilbao</h1>
+              <h2>Directora, Tatiana Bilbao Estudio</h2>
+              <h3>Ciudad de México, México</h3>
             </figcaption>
           </a>
         </figure>
@@ -266,15 +269,21 @@ capacitación.</p>
           <div class="precio_boleto">
             $4,500
           </div>
-          <div class="descripcion_boleto">
-            <ul>
+          <span>No Miembros</span>
+          <div class="precio_boleto_miembros">
+              $3,150
+          </div>
+          <span>Miembros</span>
+          <!-- <div class="descripcion_boleto"> -->
+
+            <!-- <ul>
               <li>Conferencias Magistrales</li>
               <li>Sesiones Educativas</li>
               <li>Fiesta de Bienvenida</li>
               <li>Admisión Expo Parques</li>
               <li>Fiesta de Clausura</li>
-            </ul>
-          </div>
+            </ul> -->
+          <!-- </div> -->
           <div class="btn_boleto">
             <a href="#">Ver Más</a>
           </div>
@@ -287,7 +296,12 @@ capacitación.</p>
           <div class="precio_boleto">
             $3,600
           </div>
-          <div class="descripcion_boleto">
+          <span>No Miembros</span>
+          <div class="precio_boleto_miembros">
+              $2,520
+          </div>
+          <span>Miembros</span>
+          <!-- <div class="descripcion_boleto">
             <ul>
               <li>Hasta 30 años</li>
               <li>Conferencias Magistrales</li>
@@ -296,7 +310,7 @@ capacitación.</p>
               <li>Admisión Expo Parques</li>
               <li>Fiesta de Clausura</li>
             </ul>
-          </div>
+          </div> -->
           <div class="btn_boleto">
             <a href="#">Ver Más</a>
           </div>
@@ -309,7 +323,12 @@ capacitación.</p>
           <div class="precio_boleto">
             $2,000
           </div>
-          <div class="descripcion_boleto">
+          <span>No Miembros</span>
+          <div class="precio_boleto_miembros">
+              $1,700
+          </div>
+          <span>Miembros</span>
+          <!-- <div class="descripcion_boleto">
             <ul>
               <li>Constancia de Estudios</li>
               <li>Conferencias Magistrales</li>
@@ -318,7 +337,7 @@ capacitación.</p>
               <li>Admisión Expo Parques</li>
               <li>Fiesta de Clausura</li>
             </ul>
-          </div>
+          </div> -->
           <div class="btn_boleto">
             <a href="#">Ver Más</a>
           </div>
@@ -331,11 +350,16 @@ capacitación.</p>
           <div class="precio_boleto">
             $200
           </div>
-          <div class="descripcion_boleto">
+          <span>No Miembros</span>
+          <div class="precio_boleto_miembros">
+              $200
+          </div>
+          <span>Miembros</span>
+          <!-- <div class="descripcion_boleto">
             <ul>
               <li>Admisión Expo Parques</li>
             </ul>
-          </div>
+          </div> -->
           <div class="btn_boleto">
             <a href="#">Ver Más</a>
           </div>
@@ -348,13 +372,18 @@ capacitación.</p>
           <div class="precio_boleto">
             $3,150
           </div>
-          <div class="descripcion_boleto">
+          <span>No Miembros</span>
+          <div class="precio_boleto_miembros">
+              $2,363
+          </div>
+          <span>Miembros</span>
+          <!-- <div class="descripcion_boleto">
             <ul>
               <li>Fiesta de Bienvenida</li>
               <li>Admisión Expo Parques</li>
               <li>Fiesta de Clausura</li>
             </ul>
-          </div>
+          </div> -->
           <div class="btn_boleto">
             <a href="#">Ver Más</a>
           </div>

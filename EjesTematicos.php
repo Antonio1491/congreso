@@ -9,15 +9,16 @@
     <?php  require("assets/head_common.php") ?>
   </head>
 <body onload="countdown('contador')">
-<?php include'assets/menu.php'; ?>
+
+<header class="header_paginas header_ejes">
+  <?php include'assets/menu.php'; ?>
+  <hgroup class="titulo_pagina"><br>
+    <h1>Ejes Temáticos</h1>
+  </hgroup>
+  <p></p>
+</header>
 <main class="back-2">
-  <div class="header header-convocatoria">
-    <div class="row align-middle">
-      <div class="column text-center">
-        <h1 class="titulos">Ejes Temáticos</h1>
-      </div>
-    </div>
-  </div>
+  
   <section class="contenido tematicas">
     <div class="row">
       <div class="column medium-4">
