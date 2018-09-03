@@ -88,7 +88,8 @@
             </div>
 
             <div class="item_expo">
-              <a href=""><img src="img/btn_cotizar_stand.png" alt="" class="btn_cotizar"></a>
+              <a href="https://preregistrate.mx/congresoparques/2019/plano/" target="
+              "><img src="img/btn_cotizar_stand.png" alt="" class="btn_cotizar"></a>
             </div>
           </div>
 

@@ -6,7 +6,7 @@
           <section id="encabezado">
               <div class="item_encabezado">
                 <figure>
-                  <a href="#"><img src="img/logo_congreso_blanco.png" alt="Congreso Internacional de Parques Urbanos"></a>
+                  <a href="index.php"><img src="img/logo_congreso_blanco.png" alt="Congreso Internacional de Parques Urbanos"></a>
                 </figure>
               </div>
               <div class="item_encabezado">

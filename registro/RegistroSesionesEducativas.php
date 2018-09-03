@@ -29,6 +29,9 @@
             <li>El envío de la propuesta no garantiza su aceptación, ni su registro como asistente del congreso.</li>
             <li>Recibirás los resultados de la convocatoria en las fechas establecidas.</li>
             <li>Si su propuesta es una “Mesa panel” más de una persona, es importante registrar a todas las personas.</li>
+            <li>Fotografía: 
+				Cargar una fotografía del ponente a color y con buena resolución.
+			</li>
           </ul>
           Si tienes dudas o inconvenientes para llenar este formulario, comunícate con Cristina R. de León, Directora de Contenido y Educación a la dirección: contenido@anpr.org.mx</p>
 

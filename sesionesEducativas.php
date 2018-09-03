@@ -18,10 +18,64 @@
 </header>
 <main class="sesiones">
   <div class="expanded barra_sesiones">
+    <!-- cinta  -->
+  </div>
+  <div class="row banner_ejes">
+    <div class="column">
+      <figure>
+        <img src="img/i_salud.png" alt="">
+      </figure>
+    </div>
+    <div class="column">
+      <figure>
+        <img src="img/i_diseno.png" alt="">
+      </figure>
+    </div>
+    <div class="column">
+      <figure>
+        <img src="img/i_ciudad.png" alt="">
+      </figure>
+    </div>
+    <div class="column">
+      <figure>
+        <img src="img/i_economia.png" alt="">
+      </figure>
+    </div>
+    <div class="column">
+      <figure>
+        <img src="img/i_servicio.png" alt="">
+      </figure>
+    </div>
+  </div>
+  <div class="banner_titulos_ejes">
+
+  </div>
+  <div class="descripcion_tematica">
     <div class="row">
+      <div class="column medium-8">
+        <p></p>
+      </div>
+      <div class="column medium-4">
+        <figure>
+
+        </figure>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="lista_sesiones">
+      <h3>sesiones educativas de esta temática</h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column medium-6">
+
+    </div>
+    <div class="column medium-6">
 
     </div>
   </div>
+
   <div class="contenido">
     <article class="container_sesiones row">
       <div class="item_sesiones">

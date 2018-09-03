@@ -91,7 +91,7 @@
         <div class="column medium-4 small-12 bloque">
           <article class="metodo_aprendizaje">
             <figure>
-              <img src="img/i_conferencias.png" alt="">
+              <img src="img/i_conf.png" alt="">
             </figure>
             <h3>conferencias Magistrales</h3>
             <p>¿Te imaginas a todos los asistentes del congreso en una misma sala? ¡Este es un
@@ -107,7 +107,7 @@
         <div class="column medium-4 small-12 bloque">
           <article class="metodo_aprendizaje">
             <figure>
-              <img src="img/i_conferencias_magistrales.png" alt="">
+              <img src="img/i_sesiones_m.png" alt="">
             </figure>
             <h3>SESIONES EDUCATIVAS</h3>
             <p>El Congreso Parques tiene disponible más de 55 sesiones educativas impartidas

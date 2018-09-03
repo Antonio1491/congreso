@@ -224,7 +224,7 @@
           <a href="#">
             <img src="img/macarena_rau.png" alt="">
             <figcaption>
-              <h1>Macarena Rau Vargas</h1>
+              <h1>Macarena Rau</h1>
               <h2>Presidenta, Asociación Internacional CPTED</h2>
               <h3>Santiago, Chile</h3>
             </figcaption>

@@ -154,9 +154,11 @@ img.b-loaded
   color: #ffff
   font-family: "bold"
   font-size: 1.7em
+  transition: 1.5s
 .btn_entradas:hover
   color: #c0007a
   border: 1px solid #ffff
+
 .data-sticky
   width: 100%
   margin: 0 auto
@@ -836,7 +838,10 @@ main .contenido ul li
   border-radius: 20px
   font-weight: bold
   letter-spacing: 1px
-
+  transition: 1s
+.btn_verde_transparente:hover
+  border: 1px solid $rosado
+  color: $rosado
 .foto_asistentes
   margin-top: 40px
 
@@ -862,6 +867,7 @@ main .contenido ul li
   border-radius: 15px
   color: white
   font-family: "avenir bold"
+  transition: 1s
 .btn_vermas:hover
   background-color: $azul
   color: white
@@ -1301,10 +1307,21 @@ a .accordion-title
   margin-top: 8px
 
 //======================= Sesiones Educativas   ======
-
 .barra_sesiones
   height: 200px
   border: 1px solid red
+.banner_ejes
+  justify-content: center
+  text-align: center
+.banner_ejes figure img
+  height: 80px
+.descripcion_tematica
+  background: $azul
+  height: 400px
+.banner_titulos_ejes
+  height: 60px
+  background: white
+
 .container_sesiones
   display: grid
   grid-template-columns: 25% 75%
