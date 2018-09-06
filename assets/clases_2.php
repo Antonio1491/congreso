@@ -1,5 +1,9 @@
 <?php
 require('conexion.php');
+require "phpmailer/src/PHPMailer.php";
+require "phpmailer/src/Exception.php";
+require "phpmailer/src/SMTP.php";
+
 
 class Registro extends Conexion{
 
@@ -114,7 +118,52 @@ class Registro extends Conexion{
   // } /*mostrarRegistros*/
 
 
+
+    public function correoAceptacionPropuesta($correo, $sesion){
+
+
+      $mail = new PHPMailer\PHPMailer\PHPMailer();
+      $mail->CharSet = 'UTF-8';
+
+                        //Luego tenemos que iniciar la validación por SMTP:
+              $mail->SMTPDebug = 2 ;
+              $mail->IsSMTP();
+              $mail->SMTPAuth = true;
+              $mail->Host = "smtp.hostinger.com"; // A RELLENAR. Aquí pondremos el SMTP a utilizar. Por ej. mail.midominio.com
+              $mail->Username = "contenido@anpr.org.mx"; // A RELLENAR. Email de la cuenta de correo. ej.info@midominio.com La cuenta de correo debe ser creada previamente.
+              $mail->Password = "congreso-Cristina*"; // A RELLENAR. Aqui pondremos la contraseña de la cuenta de correo
+              $mail->Port = 587; // Puerto de conexión al servidor de envio.
+              $mail->SMTPSecure =  "tls"  ; // Habilitar el cifrado TLS
+
+              $mail->setFrom("contenido@anpr.org.mx"); // A RELLENARDesde donde enviamos (Para mostrar). Puede ser el mismo que el email creado previamente.
+              $mail->FromName = "Congreso Parques"; //A RELLENAR Nombre a mostrar del remitente.
+              $mail->addAddress($correo[0]); // Esta es la dirección a donde enviamos
+
+              $mail->IsHTML(true); // El correo se envía como HTML
+              $mail->Subject = "Propuesta Registrada"; // Este es el titulo del email.
+              $body = "<html><body>
+                            <p>Gracias por enviar tu propuesta de sesión educativa para
+                            el Congreso Parques 2019. Hemos recibido tu información
+                            correctamente y se integrará a las sesiones que serán revisadas
+                            por nuestro Consejo de Contenido y Educación.</p>
+                            <p>Daremos los resultados de la convocatoria en las fechas
+                            establecidas y nos comunicaremos previamente en caso de ser
+                            necesario.</p>
+                            <p>¡Saludos!</p>
+                            <p>Cristina R. de León.<br>Dirección de Contenido y Educación. </p>
+                        </body></html>";
+              // $body .= "Aquí continuamos el mensaje";
+              $mail->Body = $body;
+              // Mensaje a enviar.
+              $exito = $mail->Send(); // Envía el correo.
+
+                // if($exito){ echo 'El correo fue enviado correctamente.'; }else{ echo 'Hubo un problema. Contacta a un administrador.'; }
+
+    }
+
 }
+
+
 
 class Sesiones extends Conexion
 {
@@ -188,8 +237,8 @@ class Conferencistas extends Conexion
     }
 
 
-
 }
+
 
 
 
