@@ -23,11 +23,11 @@
 <main >
   <div class="contenido">
     <div class="row column">
-      <p>¿Te imaginas a todos los asistentes del congreso en una misma sala? ¡Este
-        es un momento que nadie debe perderse! Durante las conferencias magistrales
-        contaremos nuestros expertos sobre parques urbanos y espacios públicos; ellos
-        hablarán sobre sus experiencias profesionales y personales sobre temas de
-        interés común para nuestras ciudades.  </p>
+      <p>¿Te imaginas a todos los asistentes del congreso en una misma sala?
+        ¡Este es un momento que nadie debe perderse! Durante las conferencias
+        magistrales contaremos con nuestros expertos en parques urbanos y espacios
+         públicos; ellos hablarán sobre sus experiencias profesionales y personales
+         sobre temas de interés común para nuestras ciudades.  </p>
     </div>
     <div class="row">
       <article class="conf_mag">
@@ -39,7 +39,7 @@
             <figcaption>
               <hgroup>
                 <h1>Carlos Carsolio </h1>
-                <h2>Fundador, Carsolio Esculturas</h2>
+                <h2>Ciudad de México, México</h2>
                 <!-- <h3>Empresa</h3> -->
               </hgroup>
             </figcaption>
@@ -47,9 +47,14 @@
         </div>
         <div class="descripcion_conferencia_m item_conf_m">
             <div class="">
-              <h1>Título de la Conferencia</h1>
+              <h1>Fundador, Carsolio Esculturas</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet magna ut nulla laoreet hendrerit eget ut mi. Vestibulum sagittis ultrices nisi ornare accumsan. Suspendisse sollicitudin, libero sit amet fermentum tincidunt, tortor tortor vulputate metus, et porta justo nulla sit amet sapien. Nullam et finibus mi, et varius massa. In convallis elit at rhoncus lobortis. Vestibulum a mollis arcu, quis dignissim leo. Ut egestas dui id aliquam mollis. Cras pretium magna vel finibus tincidunt.
+                Explorador en el alpinismo vertical y el vuelo libre en parapente.
+                Empresario enfocado a desarrollo humano y al impulso de nuevas
+                tecnologías sustentables. Es miembro honorario de la Asociación
+                Mexicana de Geografía y Estadística. Se le otorgó el Premio de
+                Ecología en 1996 por su esfuerzo en pro del medio ambiente y
+                siembra de 70,000 árboles.
               </p>
             </div>
 
@@ -67,7 +72,7 @@
               <figcaption>
                 <hgroup>
                   <h1>Tatiana Bilbao</h1>
-                  <h2>Directora, Tatiana Bilbao Estudio</h2>
+                  <h2>Ciudad de México, México</h2>
                   <!-- <h3>Empresa</h3> -->
                 </hgroup>
               </figcaption>
@@ -75,9 +80,18 @@
           </div>
           <div class="descripcion_conferencia_m item_conf_m">
             <div class="">
-              <h1>Título de la Conferencia</h1>
+              <h1>Directora, Tatiana Bilbao Estudio</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet magna ut nulla laoreet hendrerit eget ut mi. Vestibulum sagittis ultrices nisi ornare accumsan. Suspendisse sollicitudin, libero sit amet fermentum tincidunt, tortor tortor vulputate metus, et porta justo nulla sit amet sapien. Nullam et finibus mi, et varius massa. In convallis elit at rhoncus lobortis. Vestibulum a mollis arcu, quis dignissim leo. Ut egestas dui id aliquam mollis. Cras pretium magna vel finibus tincidunt.
+                El estudio de Tatiana Bilbao busca comprender la arquitectura
+                desde lo multicultural y lo multidisciplinario para crear espacios
+                humanizados. Algunos de sus proyectos son el Jardín Botánico de
+                Culiacán, el Master Plan y la Capilla de la Gratitud de la Ruta del
+                Peregrino en Jalisco, un prototipo de Vivienda Sustentable de tan
+                sólo 160 mil pesos. Tatiana fue nombrada como una Emerging Voice por
+                la Architecture League de Nueva York en el 2010. Cuenta con diversos
+                 reconocimientos como el Premio Global de Arquitectura Sostenible
+                 (2014), el Premio Kunstpreis Berlin (2012) y Architizer Impact
+                 Award (2017).
               </p>
             </div>
           </div>
@@ -94,7 +108,7 @@
               <figcaption>
                 <hgroup>
                   <h1>Macarena Rau Vargas</h1>
-                  <h2>Presidenta, Asociación Internacional CPTED</h2>
+                  <h2>Santiago, Chile</h2>
                   <!-- <h3>Empresa</h3> -->
                 </hgroup>
               </figcaption>
@@ -102,9 +116,18 @@
           </div>
           <div class="descripcion_conferencia_m item_conf_m">
             <div class="">
-              <h1>Título de la Conferencia</h1>
+              <h1>Presidenta, Asociación Internacional CPTED</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet magna ut nulla laoreet hendrerit eget ut mi. Vestibulum sagittis ultrices nisi ornare accumsan. Suspendisse sollicitudin, libero sit amet fermentum tincidunt, tortor tortor vulputate metus, et porta justo nulla sit amet sapien. Nullam et finibus mi, et varius massa. In convallis elit at rhoncus lobortis. Vestibulum a mollis arcu, quis dignissim leo. Ut egestas dui id aliquam mollis. Cras pretium magna vel finibus tincidunt.
+                Macarena Rau Vargas es Arquitecta de profesión y tiene una Maestría
+                en Investigación y Filosofía de la Arquitectura en Chile. También
+                está cursando su doctorado en Arquitectura y estudios de urbanismo.
+                Tiene una amplia experiencia liderando proyectos e iniciativas de
+                seguridad urbana y pública en Chile, América Latina y el Caribe.
+                En 2008 Macarena fundó PBK Consulting, una empresa que ayuda a
+                gobiernos, empresas y ONG’s a aplicar estrategias CPTED en países
+                como México, Honduras, Chile, Brasil, entre otros. En este papel,
+                ha promovido particularmente la 2ª generación de CPTED. Macarena es
+                la actual Presidenta de la Asociación Internacional CPTED.
               </p>
             </div>
 
@@ -122,7 +145,7 @@
               <figcaption>
                 <hgroup>
                   <h1>Dr. Robert Zarr</h1>
-                  <h2>Fundador y Director Médico, Park Rx America</h2>
+                  <h2>Washington DC, Estados Unidos</h2>
                   <!-- <h3>Empresa</h3> -->
                 </hgroup>
               </figcaption>
@@ -130,9 +153,16 @@
           </div>
           <div class="descripcion_conferencia_m item_conf_m">
             <div class="">
-              <h1>Título de la Conferencia</h1>
+              <h1>Fundador y Director Médico, Park Rx America</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet magna ut nulla laoreet hendrerit eget ut mi. Vestibulum sagittis ultrices nisi ornare accumsan. Suspendisse sollicitudin, libero sit amet fermentum tincidunt, tortor tortor vulputate metus, et porta justo nulla sit amet sapien. Nullam et finibus mi, et varius massa. In convallis elit at rhoncus lobortis. Vestibulum a mollis arcu, quis dignissim leo. Ut egestas dui id aliquam mollis. Cras pretium magna vel finibus tincidunt.
+                El Dr. Robert Zarr es un pediatra certificado por la junta de Unity
+                Health Care, con sede en Washington, DC. Robert se preocupa por las
+                poblaciones inmigrantes y de bajos ingresos. Es fundador y director
+                médico de Park Rx America, una iniciativa comunitaria para pacientes
+                y familias con la finalidad de prevenir y tratar enfermedades crónicas
+                y promover el bienestar. Anteriormente se desempeñó como asesor de
+                Park Rx del Servicio Nacional de Parques en E.E.U.U en su campaña
+                para conectar a las personas con los parques.
               </p>
             </div>
 

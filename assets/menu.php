@@ -31,7 +31,7 @@
                       <li><a href="#">acerca de</a>
                         <ul class="menu sub-menu-central">
                           <li><a href="congresoParques.php">Congreso</a></li>
-                          <li><a href="ejesTematicos.php">Ejes Temáticos</a></li>
+                          <li><a href="sesionesEducativas.php">Ejes Temáticos</a></li>
                           <li>
                             <a href="#">eventos</a>
                             <ul class="menu sub-menu-central">
@@ -42,10 +42,10 @@
                               <li><a href="eventosSociales.php">eventos sociales</a></li>
                             </ul>
                           </li>
-                          <li><a href="#">Programa Completo</a></li>
-                          <li><a href="#">Ponentes</a></li>
+                          <!-- <li><a href="#">Programa Completo</a></li> -->
+                          <!-- <li><a href="#">Ponentes</a></li> -->
                           <li><a href="patrocinadores.php">Patrocinadores</a></li>
-                          <li><a href="#">Comité organizador</a></li>
+                          <!-- <li><a href="#">Comité organizador</a></li> -->
                           <li><a href="preguntas.php">Preguntas frecuentes</a></li>
                         </ul>
                       </li>

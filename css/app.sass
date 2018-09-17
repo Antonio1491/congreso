@@ -61,6 +61,7 @@ h3,h4, h5,h6
   font-family: "avenir bold"
 .titulo_pagina h1
   font-family: "avenir bold"
+  margin: 0
 .subtitulo
   color: $azul
   font-family: "avenir bold"
@@ -372,9 +373,9 @@ img.b-loaded
 .contenido_conferencista figcaption h2
   font-family: "avenir bold"
 .contenido_conferencista figcaption h1
-  font-size: 20px
+  font-size: 17px
 .contenido_conferencista figcaption h2
-  font-size: 14px
+  font-size: 13px
 .contenido_conferencista figcaption h3
   font-size: 14px
 
@@ -757,8 +758,10 @@ footer hgroup h4
   background-image: url('../img/headers/header_7.jpg')
 .header_sesiones
   background-image: url('../img/headers/sesiones_header.png')
-
-
+.header_patrocinadores
+  background-image: url('../img/headers/patrocinadores.png')
+.header_talleres
+  background-image: url('../img/headers/talleres.png')
 
 // .content_header_expo
 //   display: flex
@@ -999,7 +1002,7 @@ main .contenido ul li
   color: $azul
   // color: $gris
   text-transform: uppercase
-  font-size: 24px
+  font-size: 21px
   text-align: center
 .descripcion_conferencia_m p
   padding-left: 30px
@@ -1030,6 +1033,14 @@ main .contenido ul li
   margin-bottom: 3em
 
 //=================   TALLERES   ====================================
+.cupo_taller p
+  color: $azul
+  font-family: "avenir bold"
+  text-align: center
+.cupo_taller p span
+  color: $verde
+
+
 .container_talleres
   display: grid
   grid-template-columns: repeat(4, 1fr)
@@ -1062,41 +1073,16 @@ main .contenido ul li
 
 
 //=================   Patrocinadores   ===============================
-.organiza, .presentan
-  background: #06A49D
-  color: white
-.patrocinador-oro
-  background: #ecb133
-  color: white
-  padding: 0.25em 0 0.25em
-.patrocinador-plata
-  background: #b3b3b3
-  color: white
-  padding: 0.25em 0 0.25em
-.patrocinador-bronce
-  background: #f2914e
-  color: white
-  padding: 0.25em 0 0
-.patrocinador-institucionales
-  background-color: #335fe3
-  color: white
-.contenido-institucionales
-  border: 1px solid #335fe3
-.patrocinador a
-  color: #466cd0
-.contenido-oro
-  border: 1px solid #ecb133
-.contenido-plata
-  border: 1px solid #b3b3b3
-.contenido-bronce
-  border: 1px solid #f2914e
-.patrocinadores img
-  height: 170px
-  margin: 0.8em 0 0.8em 0
-.contenido-bronce img
-  height: 100px
-.contenido-institucionales img
-  height: 80px
+.patrocinadores figure img
+  height: 280px
+.contenedor_patrocinadores
+  display: flex
+  justify-content: center
+.item_patrocinador
+  text-align: center
+  margin: 20px
+
+
 //=============   Temáticas   ===========================
 
 .planeacion-diseno h4

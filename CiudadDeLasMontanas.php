@@ -15,22 +15,19 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Ciudad de las Montañas</title>
     <?php  require("assets/head_common.php") ?>
-    <!-- <link rel="stylesheet" href="icons/foundation-icons.css">
-    <link rel="stylesheet" href="css/foundation-flex.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="css/app.css"> -->
 </head>
 <body onload="countdown('contador')">
-<?php include'assets/menu.php'; ?>
+  <header class="header_paginas header_acerca_de">
+    <?php include'assets/menu.php'; ?>
+      <hgroup class="titulo_pagina">
+        <h2>La ciudad de las montañas</h2>
+        <h1>Monterrey</h1>
+        <h1>Nuevo León</h1>
+      </hgroup>
+    </div>
+  </header>
 <main>
   <article class="">
-    <div class=" header header-4">
-      <div class="row align-middle">
-        <div class="column text-center">
-          <h1 class="titulos">LA CIUDAD de las montañas</h1>
-        </div>
-      </div>
-    </div>
     <div class="row contenido">
       <div class="column medium-4">
         <p>También conocida como “La Ciudad de las Montañas”, Monterrey es una fortaleza que
@@ -69,7 +66,7 @@ session_start();
         <a href="http://www.merida.gob.mx/capitalcultural/" target="_blank"><img src="img/turismo.png" alt=""></a>
       </div>
       <div class="column medium-3">
-          <a href="http://www.yucatan.travel/" target="_blank"><img src="img/turismo-yuc.png" alt="">
+          <a href="http://www.yucatan.travel/" target="_blank"><img src="img/parques.png" alt="">
       </div>
       <div class="column medium-3">
           <a href="conectividad.php" target=""><img src="img/conectividad.png" alt="">
