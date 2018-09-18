@@ -61,7 +61,7 @@ h3,h4, h5,h6
   font-family: "avenir bold"
 .titulo_pagina h1
   font-family: "avenir bold"
-  margin: 0
+  margin-bottom: -15px
 .subtitulo
   color: $azul
   font-family: "avenir bold"
@@ -630,6 +630,7 @@ footer hgroup
   color: white
   font-family: "general"
   margin: 0
+
 footer hgroup h2
   font-family: "bold"
   margin: -10px
@@ -743,7 +744,12 @@ footer hgroup h4
   height: 540px
   margin: 0
   z-index: 4
-
+.descripcion_header
+  color: white
+  font-size: 20px
+  margin-top: 40px
+  text-align: center
+  font-family: "avenir"
 .header_convocatoria
   background-image: url('../img/headers/header-convocatoria.jpg')
 .header_acerca_de
@@ -762,7 +768,23 @@ footer hgroup h4
   background-image: url('../img/headers/patrocinadores.png')
 .header_talleres
   background-image: url('../img/headers/talleres.png')
-
+.header_preguntas
+  background-image: url('../img/headers/preguntas.png')
+.header_sede
+  background-image: url('../img/headers/monterrey_sede.png')
+.header_conectividad
+  background-image: url('../img/headers/conectividad.png')
+.header_comite
+  background-image: url('../img/headers/comite.png')
+.header_convocatoria
+  background-image: url('../img/headers/convocatoria.png')
+.header_sociales
+  background-image: url('../img/headers/eventos_sociales.png')
+.header_magistrales
+  background-image: url('../img/headers/magistrales.png')
+.header_inscripcion
+  background-image: url('../img/headers/inscripcion.png')
+// .content_header_expo
 // .content_header_expo
 //   display: flex
 //   background: rgba(31, 31, 31, .1)
@@ -1073,6 +1095,10 @@ main .contenido ul li
 
 
 //=================   Patrocinadores   ===============================
+.pat_descripcion
+  padding: 70px 120px 10px
+
+
 .patrocinadores figure img
   height: 280px
 .contenedor_patrocinadores
@@ -1081,6 +1107,41 @@ main .contenido ul li
 .item_patrocinador
   text-align: center
   margin: 20px
+
+
+// ================  SEDE  ==================
+.sede
+  margin-top: 60px
+
+.sede .descripcion_principal
+  padding: 10px 100px
+  font-size: 20px
+  text-align: center
+.cintermex_icono
+  position: relative
+#video_sede
+  background-image: radial-gradient(#334eb1, #010930)
+  height: 455px
+.contenido_sede
+  margin-top: 60px
+  margin-bottom: 60px
+.sabias
+  background-color: $verde
+  color: white
+  padding: 10px
+.sabias ul li
+  font-weight: bold
+.menu_sede img
+  height: 200px
+.cintermex_sede img
+  height: 300px
+  margin-top: 40px
+  margin-bottom: 40px
+.cintermex_sede a
+  font-size: 18px
+  letter-spacing: 1px
+  padding: 15px 30px
+  border-radius: 30px
 
 
 //=============   Temáticas   ===========================
@@ -1104,6 +1165,20 @@ main .contenido ul li
   background: white
   margin-top: 40px
   margin-bottom: 40px
+
+#descripcion_hotel
+  background-color: white
+.titulo_hoteles, .titulo_tabla h4
+  text-align: center
+  text-transform: uppercase
+  letter-spacing: 1px
+.titulo_tabla
+  background-color: $azul
+  color: white
+.titulo_tabla h4
+  padding-top: 10px
+  padding-bottom: 10px
+
 
 
 //==================     Inscripciones    =========================
@@ -1192,10 +1267,20 @@ main .contenido ul li
   border-radius: 20px
 
 //======= Preguntas Frecuentes =======
-a .accordion-title
-  color: #194477 !important
+.titulo_preguntas
+  margin-top: 70px
+
+.accordion-title
+  background-color: #2886bb
+  color: white
+  font-family: "avenir bold"
+  font-size: 18px
+.accordion-title:hover, .accordion-title:focus
+  background-color: $verde
+  color: white
 
 //=====================  Expo  ============
+
 
 .expo_logo img
   height: 250px

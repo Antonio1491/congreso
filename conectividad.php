@@ -15,22 +15,18 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conectividad</title>
     <?php  require("assets/head_common.php") ?>
-    <!-- <link rel="stylesheet" href="icons/foundation-icons.css">
-    <link rel="stylesheet" href="css/foundation-flex.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="css/app.css"> -->
 </head>
 <body onload="countdown('contador')">
-<?php include'assets/menu.php'; ?>
-<main class="back-1">
-  <article class="conectividad">
-    <div class=" header header-1">
-      <div class="row align-middle">
-        <div class="column text-center">
-          <h1 class="titulos">CONECTIVIDAD</h1>
-        </div>
-      </div>
+  <header class="header_paginas header_conectividad">
+    <?php include'assets/menu.php'; ?>
+      <hgroup class="titulo_pagina">
+        <h1>Conectividad</h1>
+      </hgroup>
     </div>
+  </header>
+<main class="">
+  <article class="conectividad">
+
     <div class="row fila-espacio">
       <div class="column">
         <p><strong class="letra-capital">E</strong>l aeropuerto internacional de Mérida (MID) está ubicado a

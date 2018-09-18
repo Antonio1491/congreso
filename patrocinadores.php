@@ -32,7 +32,9 @@ session_start();
   </header>
   <main class="patrocinadores">
     <div class="row column">
-      <p></p>
+      <p class="pat_descripcion">Cada vez más cerca de la segunda edición de Congreso Parques.
+Un año más que se permite el fortalecimiento de la comunidad de los parques urbanos, la recreación y el espacio público. El apoyo de patrocinadores, colaboradores, promotores y organizadores es fundamental, agradecemos a todos ellos quienes confían en este increíble sector.
+</p>
     </div>
     <div class="contenedor_patrocinadores">
       <div class="item_patrocinador">

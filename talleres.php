@@ -7,13 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Talleres</title>
     <?php  require("assets/head_common.php") ?>
-    <!-- <link rel="stylesheet" href="icons/foundation-icons.css">
-    <link rel="stylesheet" href="css/foundation-flex.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="css/app.css"> -->
 </head>
 <body onload="countdown('contador')">
-  <header class="header_paginas header_talleres">
+  <header class="header_paginas header_preguntas">
     <?php include'assets/menu.php'; ?>
     <div class="figure_header">
       <figure class="">
@@ -64,6 +60,27 @@
               <div class="cupo_taller">
                 <p>Cupo máximo: <span>60 personas por taller</span> </p>
               </div>
+        </div>
+      </div>
+
+      <div class="row contenedor_taller">
+        <div class="row taller">
+          <div class="column medium-6">
+            <figure>
+              <img src="" alt="">
+              <figcaption>Parques Rufino Tamayo</figcaption>
+            </figure>
+          </div>
+          <div class="column medium-6">
+
+          </div>
+        </div>
+        <div class="row taller_descripcion">
+          <p>Cupo máximo: <span> 60 personas</span></p>
+          <p>Día: <span> 14 de mayo</span></p>
+          <p>Horario: <span> 9:00 a.m - 2:00 p.m.</span></p>
+          <p>Lugar: <span> Parque Rufino Tamayo</span></p>
+          <p>Costo: <span> $1,500 MXN</span></p>
         </div>
       </div>
     </section>

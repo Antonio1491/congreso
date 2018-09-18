@@ -8,15 +8,19 @@
     <?php  require("assets/head_common.php") ?>
 </head>
 <body onload="countdown('contador')">
-<?php include'assets/menu.php'; ?>
-<main class="back-2">
-  <div class="header header-2">
-    <div class="row align-middle">
-      <div class="column text-center">
-        <h1 class="titulos">Inscripción</h1>
-      </div>
+  <header class="header_paginas header_inscripcion">
+    <?php include'assets/menu.php'; ?>
+    <div class="figure_header">
+      <figure class="">
+        <img src="img/i_costos_m.png" alt="">
+      </figure>
     </div>
-  </div>
+    <hgroup class="titulo_pagina">
+      <h1>Inscripción </h1>
+    </hgroup>
+    <p></p>
+  </header>
+
   <section class="contenido inscripcion">
     <div class="row align-center">
       <div class="column medium-10">

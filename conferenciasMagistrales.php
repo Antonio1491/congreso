@@ -8,14 +8,14 @@
     <?php require("assets/head_common.php") ?>
 </head>
 <body onload="countdown('contador')">
-  <header class="header_paginas header_convocatoria">
+  <header class="header_paginas header_magistrales">
     <?php include'assets/menu.php'; ?>
     <div class="figure_header">
       <figure class="">
         <img src="img/i_conferencias_magistrales.png" alt="">
       </figure>
     </div>
-      <hgroup class="titulo_pagina"><br>
+      <hgroup class="titulo_pagina">
         <h1>CONFERENCIAS MAGISTRALES</h1>
       </hgroup>
       <p></p>
