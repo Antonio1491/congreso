@@ -18,10 +18,89 @@
 </header>
 <main class="sesiones">
   <div class="expanded barra_sesiones">
-    <div class="row">
-
+    <!-- cinta  -->
+  </div>
+  <div class="row banner_ejes">
+    <div class="column">
+      <figure>
+        <img src="img/i_salud.png" alt="">
+      </figure>
+    </div>
+    <div class="column">
+      <figure>
+        <img src="img/i_diseno.png" alt="">
+      </figure>
+    </div>
+    <div class="column">
+      <figure>
+        <img src="img/i_ciudad.png" alt="">
+      </figure>
+    </div>
+    <div class="column">
+      <figure>
+        <img src="img/i_economia.png" alt="">
+      </figure>
+    </div>
+    <div class="column">
+      <figure>
+        <img src="img/i_servicio.png" alt="">
+      </figure>
     </div>
   </div>
+  <div class="banner_titulos_ejes">
+    <div class="row">
+      <div class="">
+        <h5 class="titulo_salud">Salud y <br>medio ambiente</h5>
+      </div>
+      <div class="titulo_">
+        <h5 class="titulo_salud">Diseño y planeación</h5>
+      </div>
+      <div class="">
+        <h5 class="titulo_salud">la ciudad</h5>
+      </div>
+      <div class="">
+        <h5 class="titulo_salud">Economía y usos <br>del espacio público</h5>
+      </div>
+      <div class="">
+        <h5 class="titulo_salud">Servicio público y<br>participación ciudadana</h5>
+      </div>
+    </div>
+  </div>
+  <div class="descripcion_tematica">
+    <div class="row">
+      <div class="column medium-8">
+        <p></p>
+      </div>
+      <div class="column medium-4">
+        <figure>
+
+        </figure>
+      </div>
+    </div>
+  </div>
+  <section class="lista_sesiones">
+    <div class="row">
+        <h3>sesiones educativas de esta temática</h3>
+    </div>
+    <div class="row">
+      <div class="column medium-6">
+        <div class="contenedor_lista">
+          <ul>
+            <li>sadsad</li>
+          </ul>
+        </div>
+      </div>
+      <div class="column medium-6">
+        <div class="contenedor_lista">
+          <ul>
+            <li>sadsad</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
   <div class="contenido">
     <article class="container_sesiones row">
       <div class="item_sesiones">
@@ -136,6 +215,7 @@
         ?>
         </ul>
       </div>
+
     </article>
   </div>
 
@@ -188,7 +268,7 @@
       </div>
     </div> -->
 
-
+  <iframe src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=f71k0xuu6&bgcolor=EEEEEE&t=1536080888" width="100%" height="100%" seamless="seamless" scrolling="no" frameBorder="0"         allowFullScreen="true"></iframe>
 </main>
 
 <script type="text/javascript">

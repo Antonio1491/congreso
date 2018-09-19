@@ -15,12 +15,9 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eventos Sociales</title>
     <?php  require("assets/head_common.php") ?>
-    <!-- <link rel="stylesheet" href="icons/foundation-icons.css">
-    <link rel="stylesheet" href="css/foundation-flex.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="css/app.css"> -->
 </head>
 <body onload="countdown('contador')">
+<<<<<<< HEAD
   <header class="header_paginas header_acerca_de">
     <?php include'assets/menu.php'; ?>
       <hgroup class="titulo_pagina">
@@ -32,6 +29,18 @@ session_start();
   </header>
 <main>
   <article class="">
+=======
+  <header class="header_paginas header_sociales">
+    <?php include'assets/menu.php'; ?>
+      <hgroup class="titulo_pagina">
+        <h1>Eventos Sociales</h1>
+      </hgroup>
+    </div>
+  </header>
+<main>
+  <article class="">
+
+>>>>>>> e7346cef12d6b6243179b12b640ac65c7b91d951
     <div class="row contenido">
       <div class="column small-12 medium-6">
         <div class="">
@@ -75,20 +84,19 @@ session_start();
 
     </div>
     <br>
-    <div class="row">
-      <div class="column small-3 medium-3">
+    <div class="row menu_sede">
+      <div class="column medium-3">
         <a href="http://www.merida.gob.mx/capitalcultural/" target="_blank"><img src="img/turismo.png" alt=""></a>
       </div>
-      <div class="column small-3 medium-3">
-          <a href="http://www.yucatan.travel/" target="_blank"><img src="img/turismo-yuc.png" alt="">
+      <div class="column medium-3">
+          <a href="http://www.yucatan.travel/" target="_blank"><img src="img/parques.png" alt="">
       </div>
-      <div class="column small-3 medium-3">
+      <div class="column medium-3">
           <a href="conectividad.php" target=""><img src="img/conectividad.png" alt="">
       </div>
-      <div class="column small-3 medium-3">
+      <div class="column medium-3">
           <a href="hospedajes.php" target=""><img src="img/hospedaje.png" alt="">
       </div>
-
     </div>
   </article>
 </main>

@@ -32,7 +32,7 @@
         </div>
         <div class="item_contenido_portada botones">
           <div class="">
-            <a href="#" class="btn_transparente">Convocatoria <span>Sesiones Educativas</span></a>
+            <a href="convocatoriaSesionesEducativas.php" class="btn_transparente">Convocatoria <span>Sesiones Educativas</span></a>
           </div>
           <!-- <div class="">
             <a href="#" class="btn_verde">convertirce <span>en patrocinador</span></a>
@@ -153,7 +153,7 @@
     </div>
     <div class="secciones_icon">
       <figure>
-        <a href="#">
+        <a href="conferenciasMagistrales.php">
           <img src="img/i_conferencias.png" alt="">
           <figcaption>
             <h1>Conferencias</h1>
@@ -162,7 +162,7 @@
         </a>
       </figure>
       <figure>
-        <a href="#">
+        <a href="sesionesEducativas.php">
           <img src="img/i_sesiones.png" alt="">
           <figcaption>
             <h1>Sesiones</h1>
@@ -171,7 +171,7 @@
         </a>
       </figure>
           <figure>
-            <a href="#">
+            <a href="talleres.php">
               <img src="img/i_talleres.png" alt="">
               <figcaption>
                 <h1>Talleres</h1>
@@ -180,7 +180,7 @@
             </a>
           </figure>
           <figure>
-            <a href="#">
+            <a href="expoParques.php">
               <img src="img/i_expo_parques.png" alt="">
               <figcaption>
                 <h1>Expo</h1>
@@ -189,7 +189,7 @@
             </a>
           </figure>
           <figure>
-            <a href="#">
+            <a href="eventosSociales.php">
               <img src="img/i_eventos_sociales.png" alt="">
               <figcaption>
                 <h1>eventos</h1>
@@ -199,7 +199,7 @@
           </figure>
     </div>
     <div class="row align-center">
-      <a href="#" class="btn_conocemas ">Conoce más</a>
+      <a href="congresoParques.php" class="btn_conocemas ">Conoce más</a>
     </div>
 
     </section>
@@ -224,7 +224,7 @@
           <a href="#">
             <img src="img/macarena_rau.png" alt="">
             <figcaption>
-              <h1>Macarena Rau Vargas</h1>
+              <h1>Macarena Rau</h1>
               <h2>Presidenta, Asociación Internacional CPTED</h2>
               <h3>Santiago, Chile</h3>
             </figcaption>
@@ -241,7 +241,7 @@
           </a>
         </figure>
         <figure class="contenido_conferencista">
-          <a href="#">
+          <a href="">
             <img src="img/tatiana_bilbao.png" alt="">
             <figcaption class="contenido_conferencista">
               <h1>Tatiana Bilbao</h1>
@@ -252,7 +252,7 @@
         </figure>
       </div>
       <div class="row align-center">
-        <a href="#" class="btn_azul">Conoce todos los conferencistas</a>
+        <a href="conferenciasMagistrales.php" class="btn_azul">Conoce todos los conferencistas</a>
       </div>
 
     </section>

@@ -134,6 +134,24 @@ var bLazy = new Blazy({
   <img height="1" width="1" style="display:none"
   src="https://www.facebook.com/tr?id=401710473607617&ev=PageView&noscript=1"
 /></noscript>
+
+<script type="text/javascript">
+$(function(){
+$(".oculto").hide();
+$(".MO").click(function(){
+      var nodo = $(this).attr("href");
+
+      if ($(nodo).is(":visible")){
+           $(nodo).hide();
+           return false;
+      }else{
+    $(".oculto").hide();
+    $(nodo).fadeToggle( "slow" );
+    return false;
+      }
+});
+});
+</script>
 <!-- End Facebook Pixel Code -->
 </body>
 </html>

@@ -16,19 +16,19 @@ body
 
 @font-face
   font-family: "general"
-  src: url("../font/Antonio-Regular.ttf")
+  src: url("../assets/font/Antonio-Regular.ttf")
 @font-face
   font-family: "ligera"
-  src: url("../font/Antonio-Light.ttf")
+  src: url("../assets/font/Antonio-Light.ttf")
 @font-face
   font-family: "bold"
-  src: url("../font/Antonio-Bold.ttf")
+  src: url("../assets/font/Antonio-Bold.ttf")
 @font-face
   font-family: "avenir bold"
-  src: url("../font/AvenirNextLTPro-Bold.ttf")
+  src: url("../assets/font/AvenirNextLTPro-Bold.ttf")
 @font-face
   font-size: "avenir medium"
-  src: url("../font/avenirltstd_medium.ttf")
+  src: url("../assets/font/avenirltstd_medium.ttf")
 body, main, article
   font-family: "Roboto"
 h3,h4, h5,h6
@@ -61,6 +61,7 @@ h3,h4, h5,h6
   font-family: "avenir bold"
 .titulo_pagina h1
   font-family: "avenir bold"
+  margin-bottom: -15px
 .subtitulo
   color: $azul
   font-family: "avenir bold"
@@ -154,10 +155,15 @@ img.b-loaded
   color: #ffff
   font-family: "bold"
   font-size: 1.7em
+<<<<<<< HEAD
   transition: 2s
+=======
+  transition: 1.5s
+>>>>>>> e7346cef12d6b6243179b12b640ac65c7b91d951
 .btn_entradas:hover
   color: #c0007a
   border: 1px solid #ffff
+
 .data-sticky
   width: 100%
   margin: 0 auto
@@ -371,9 +377,9 @@ img.b-loaded
 .contenido_conferencista figcaption h2
   font-family: "avenir bold"
 .contenido_conferencista figcaption h1
-  font-size: 20px
+  font-size: 17px
 .contenido_conferencista figcaption h2
-  font-size: 14px
+  font-size: 13px
 .contenido_conferencista figcaption h3
   font-size: 14px
 
@@ -628,6 +634,7 @@ footer hgroup
   color: white
   font-family: "general"
   margin: 0
+
 footer hgroup h2
   font-family: "bold"
   margin: -10px
@@ -741,7 +748,12 @@ footer hgroup h4
   height: 540px
   margin: 0
   z-index: 4
-
+.descripcion_header
+  color: white
+  font-size: 20px
+  margin-top: 40px
+  text-align: center
+  font-family: "avenir"
 .header_convocatoria
   background-image: url('../img/headers/header-convocatoria.jpg')
 .header_acerca_de
@@ -756,9 +768,27 @@ footer hgroup h4
   background-image: url('../img/headers/header_7.jpg')
 .header_sesiones
   background-image: url('../img/headers/sesiones_header.png')
-
-
-
+.header_patrocinadores
+  background-image: url('../img/headers/patrocinadores.png')
+.header_talleres
+  background-image: url('../img/headers/talleres.png')
+.header_preguntas
+  background-image: url('../img/headers/preguntas.png')
+.header_sede
+  background-image: url('../img/headers/monterrey_sede.png')
+.header_conectividad
+  background-image: url('../img/headers/conectividad.png')
+.header_comite
+  background-image: url('../img/headers/comite.png')
+.header_convocatoria
+  background-image: url('../img/headers/convocatoria.png')
+.header_sociales
+  background-image: url('../img/headers/eventos_sociales.png')
+.header_magistrales
+  background-image: url('../img/headers/magistrales.png')
+.header_inscripcion
+  background-image: url('../img/headers/inscripcion.png')
+// .content_header_expo
 // .content_header_expo
 //   display: flex
 //   background: rgba(31, 31, 31, .1)
@@ -837,7 +867,10 @@ main .contenido ul li
   border-radius: 20px
   font-weight: bold
   letter-spacing: 1px
-
+  transition: 1s
+.btn_verde_transparente:hover
+  border: 1px solid $rosado
+  color: $rosado
 .foto_asistentes
   margin-top: 40px
 
@@ -863,6 +896,7 @@ main .contenido ul li
   border-radius: 15px
   color: white
   font-family: "avenir bold"
+  transition: 1s
 .btn_vermas:hover
   background-color: $azul
   color: white
@@ -994,7 +1028,7 @@ main .contenido ul li
   color: $azul
   // color: $gris
   text-transform: uppercase
-  font-size: 24px
+  font-size: 21px
   text-align: center
 .descripcion_conferencia_m p
   padding-left: 30px
@@ -1025,6 +1059,14 @@ main .contenido ul li
   margin-bottom: 3em
 
 //=================   TALLERES   ====================================
+.cupo_taller p
+  color: $azul
+  font-family: "avenir bold"
+  text-align: center
+.cupo_taller p span
+  color: $verde
+
+
 .container_talleres
   display: grid
   grid-template-columns: repeat(4, 1fr)
@@ -1057,6 +1099,7 @@ main .contenido ul li
 
 
 //=================   Patrocinadores   ===============================
+<<<<<<< HEAD
 
 .patrocinador
   height: 220px
@@ -1077,24 +1120,57 @@ main .contenido ul li
   padding: 0.25em 0 0
 .patrocinador-institucionales
   background-color: #335fe3
+=======
+.pat_descripcion
+  padding: 70px 120px 10px
+
+
+.patrocinadores figure img
+  height: 280px
+.contenedor_patrocinadores
+  display: flex
+  justify-content: center
+.item_patrocinador
+  text-align: center
+  margin: 20px
+
+
+// ================  SEDE  ==================
+.sede
+  margin-top: 60px
+
+.sede .descripcion_principal
+  padding: 10px 100px
+  font-size: 20px
+  text-align: center
+.cintermex_icono
+  position: relative
+#video_sede
+  background-image: radial-gradient(#334eb1, #010930)
+  height: 455px
+.contenido_sede
+  margin-top: 60px
+  margin-bottom: 60px
+.sabias
+  background-color: $verde
+>>>>>>> e7346cef12d6b6243179b12b640ac65c7b91d951
   color: white
-.contenido-institucionales
-  border: 1px solid #335fe3
-.patrocinador a
-  color: #466cd0
-.contenido-oro
-  border: 1px solid #ecb133
-.contenido-plata
-  border: 1px solid #b3b3b3
-.contenido-bronce
-  border: 1px solid #f2914e
-.patrocinadores img
-  height: 170px
-  margin: 0.8em 0 0.8em 0
-.contenido-bronce img
-  height: 100px
-.contenido-institucionales img
-  height: 80px
+  padding: 10px
+.sabias ul li
+  font-weight: bold
+.menu_sede img
+  height: 200px
+.cintermex_sede img
+  height: 300px
+  margin-top: 40px
+  margin-bottom: 40px
+.cintermex_sede a
+  font-size: 18px
+  letter-spacing: 1px
+  padding: 15px 30px
+  border-radius: 30px
+
+
 //=============   Temáticas   ===========================
 
 .planeacion-diseno h4
@@ -1116,6 +1192,20 @@ main .contenido ul li
   background: white
   margin-top: 40px
   margin-bottom: 40px
+
+#descripcion_hotel
+  background-color: white
+.titulo_hoteles, .titulo_tabla h4
+  text-align: center
+  text-transform: uppercase
+  letter-spacing: 1px
+.titulo_tabla
+  background-color: $azul
+  color: white
+.titulo_tabla h4
+  padding-top: 10px
+  padding-bottom: 10px
+
 
 
 //==================     Inscripciones    =========================
@@ -1204,10 +1294,20 @@ main .contenido ul li
   border-radius: 20px
 
 //======= Preguntas Frecuentes =======
-a .accordion-title
-  color: #194477 !important
+.titulo_preguntas
+  margin-top: 70px
+
+.accordion-title
+  background-color: #2886bb
+  color: white
+  font-family: "avenir bold"
+  font-size: 18px
+.accordion-title:hover, .accordion-title:focus
+  background-color: $verde
+  color: white
 
 //=====================  Expo  ============
+
 
 .expo_logo img
   height: 250px
@@ -1305,10 +1405,38 @@ a .accordion-title
   margin-top: 8px
 
 //======================= Sesiones Educativas   ======
-
 .barra_sesiones
-  height: 200px
+  height: 180px
   border: 1px solid red
+.banner_ejes
+  justify-content: center
+  text-align: center
+.banner_ejes figure img
+  height: 80px
+.descripcion_tematica
+  background: $azul
+  height: 250px
+.banner_titulos_ejes
+  height: 60px
+  background: white
+.titulo_salud
+  text-transform: uppercase
+  color: $verde
+
+
+.lista_sesiones h3
+  color: $azul
+  text-transform: uppercase
+  font-family: "avenir bold"
+  font-size: 24px
+  margin-top: 40px
+  margin-bottom: 40px
+.contenedor_lista
+  background: white
+  height: 300px
+
+
+
 .container_sesiones
   display: grid
   grid-template-columns: 25% 75%

@@ -15,61 +15,89 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Ciudad de las Montañas</title>
     <?php  require("assets/head_common.php") ?>
-    <!-- <link rel="stylesheet" href="icons/foundation-icons.css">
-    <link rel="stylesheet" href="css/foundation-flex.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="css/app.css"> -->
 </head>
 <body onload="countdown('contador')">
-<?php include'assets/menu.php'; ?>
-<main>
-  <article class="">
-    <div class=" header header-4">
-      <div class="row align-middle">
-        <div class="column text-center">
-          <h1 class="titulos">LA CIUDAD de las montañas</h1>
-        </div>
-      </div>
+  <header class="header_paginas header_sede">
+    <?php include'assets/menu.php'; ?>
+      <hgroup class="titulo_pagina">
+        <h2>La ciudad de las montañas</h2>
+        <h1>Monterrey</h1>
+        <h1>Nuevo León</h1>
+      </hgroup>
     </div>
-    <div class="row contenido">
-      <div class="column medium-4">
-        <p>También conocida como “La Ciudad de las Montañas”, Monterrey es una fortaleza que
-          está enmarcada por el Cerro de la Silla, la Loma Larga, el Topo Chico, el Cerro de
-          las Mitras y la Sierra Madre Oriental.</p>
-          <p>Monterrey se encuentra localizada en un valle, con una altura sobre el nivel del
-            mar de aproximadamente 500 m., y las montañas que la rodean la dotan de una
-            singular belleza. Cuenta con un clima seco estepario con precipitaciones en verano.</p>
+  </header>
+<main class="sede">
+  <div class="row">
+    <p class="descripcion_principal">El Congreso Parques te espera en uno de los centros de convenciones y exposiciones más importantes de México. CINTERMEX ubicado dentro de Parque Fundidora, es un parque urbano incluyente y multifuncional que contribuye a reforzar el tejido social ofreciendo un espacio verde, seguro y de acceso 100% gratuito.</p>
+  </div>
+  <div class="row align-center">
+    <h3 class="subtitulo">Monterrey: Escenario de Éxitos</h3>
+  </div>
+  <section id="video_sede" class="row expanded align-center" >
+    <iframe width="960" height="455" src="https://www.youtube-nocookie.com/embed/uzITkJXazsI?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </section>
+
+  <div class="row contenido_sede">
+    <div class="column medium-8">
+      <p>Monterrey posee una gran cultura e historia; con el paso del tiempo la
+        ciudad ha ido desarrollándose y, hoy por hoy, es un centro de negocios
+        industrial y económico de suma importancia en México. También tiene
+        grandes paisajes como el Cerro de la Silla, zonas verdes y monumentos
+        históricos dignos de visitar entre ellos El Cerro de la Silla, El Cerro
+        de las Mintras, La Sierra Madre que se cobija con paisajes llenos de
+        montañas, aguas termales y por supuesto una diversidad en sus museos.
+        Algo que no debes perderte de esta ciudad anfitriona es la librería
+        Conarte, considerada de las más bellas de la tierra. </p>
+        <p>Los alrededores de Monterrey te harán volver por más, sobre todo
+          cuando la aventura y el contacto con la naturaleza son parte de ti.
+          Ven y disfruta del Congreso Parques ¡La ciudad de las montañas te espera! </p>
+    </div>
+    <div class="column medium-4 sabias">
+      <h4>¿Sabías que? </h4>
+      <ul>
+        <li>Monterrey tiene la segunda economía más importante de América Latina.</li>
+        <li>Se encuentra en el número 9 en el ranking mundial del turismo internacional (OMT).</li>
+        <li>Cuenta con más de 3,500 empresas extranjeras establecidas.</li>
+        <li>Posee 52 museos.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="cinta_azul">
+    <div class="row cintermex_sede">
+      <div class="column medium-4 cintermex_icono">
+        <div class="">
+          <figure>
+            <img src="img/sede_cintermex.png" alt="">
+
+          </figure>
+        </div>
+        <div class="">
+          <a href="https://www.google.com/maps/place/Cintermex/@25.6778062,-100.2913019,17z/data=!4m8!1m2!2m1!1scintermex!3m4!1s0x8662942a8d42b18f:0x1eee54a9dfbc9332!8m2!3d25.6781236!4d-100.2879763" target="_blank" class="btn_vermas"> VER EN EL MAPA</a>
+        </div>
 
       </div>
       <div class="column medium-8">
-        <!-- <p><span class="letra-capital">L</span>a Ciudad de Mérida, Yucatán fue fundada el 6 de Enero de 1542 por el español Francisco de Montejo y León "El Mozo", donde se encontraba la antigua Ciudad Maya T'Hó.</p> -->
-        <div class="video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/cqom897wZko" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
+        <h3 class="subtitulo_bc">Turismo Monterrey </h3>
+        <h5 class="subtitulo_bc">Paseo Santa Lucia</h5>
+        <p>Recorrido en embarcaciones por un canal considerado una Maravilla de México.</p>
+        <h5 class="subtitulo_bc">Parque Fundidora:</h5>
+        <p>Patrimonio del estado con hermosas áreas verdes.  Centro cultural y recreativo.</p>
+        <h5 class="subtitulo_bc">Ecoturismo y aventura:</h5>
+        <p>Increíbles parajes naturales donde vivir emociones al máximo. </p>
+        <h5 class="subtitulo_bc">Parques de diversión:</h5>
+        <p>Parque Plaza Sésamo, Bioparque Estrella y Bosque Mágico entre los más visitados. </p>
+        <h5 class="subtitulo_bc">Gastronomía</h5>
+        <p>Más de 1,700 restaurantes de calidad turística con renombrados chefs especializados en cocina regional, nacional e internacional</p>
       </div>
     </div>
-    <div class="expanded fondo-gris">
-      <div class="row column">
-        <h4 class="titulo-morado">¿SABÍAS QUE?</h4>
-        <p>Monterrey tiene un gran pasado histórico pues sus habitantes pelearon en las
-          guerras de intervención americana y francesa. Además por su gran número de
-          universidades están por llamarla “la Ciudad del Conocimiento”.</p>
-      </div>
-    </div>
-    <div class="row column">
-      <p>Es una ciudad vibrante, infatigable y de muchas facetas. Un lugar donde conviven
-        la sofisticación y el folklore. Su amplia oferta de museos, parques, restaurantes,
-        bares, centros comerciales, tiendas exclusivas; su afición al futbol y al béisbol;
-        su excitante vida artística y su diversión nocturna la hacen un destino fascinante.
-        Monterrey es además un poderoso centro industrial, comercial y cultural para el país,
-        lo que le ha ganado el nombre de “La Sultana del Norte”</p>
-    </div>
-    <div class="row">
+  </div>
+
+    <div class="row menu_sede">
       <div class="column medium-3">
         <a href="http://www.merida.gob.mx/capitalcultural/" target="_blank"><img src="img/turismo.png" alt=""></a>
       </div>
       <div class="column medium-3">
-          <a href="http://www.yucatan.travel/" target="_blank"><img src="img/turismo-yuc.png" alt="">
+          <a href="http://www.yucatan.travel/" target="_blank"><img src="img/parques.png" alt="">
       </div>
       <div class="column medium-3">
           <a href="conectividad.php" target=""><img src="img/conectividad.png" alt="">
@@ -77,9 +105,7 @@ session_start();
       <div class="column medium-3">
           <a href="hospedajes.php" target=""><img src="img/hospedaje.png" alt="">
       </div>
-
     </div>
-  </article>
 </main>
 
 <?php include'assets/footer.php'; ?>

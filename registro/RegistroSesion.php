@@ -44,6 +44,7 @@ $conferencista = $registro->registroConferencista($array, $nombre, $apellido, $e
                                             $tipo_foto, $temporal_foto, $id_sesion);
 
 if ( $conferencista == true && $sesion == true ) {
+  $envioCorreo = $registro->correoAceptacionPropuesta($email, $sesion);
   echo header("Location: PropuestaRegistrada.html");
 
 }
