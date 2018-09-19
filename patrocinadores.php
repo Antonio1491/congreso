@@ -21,16 +21,68 @@ session_start();
     <link rel="stylesheet" href="css/app.css"> -->
 </head>
 <body onload="countdown('contador')">
-<?php include'assets/menu.php'; ?>
-<main class="back-1">
-  <article class="patrocinadores">
-    <div class=" header header-9">
-      <div class="row align-middle">
-        <div class="column text-center">
-          <h1 class="titulos">PATROCINADORES Y SOCIOS INSTITUCIONALES</h1>
+  <header class="header_paginas header_acerca_de">
+    <?php include'assets/menu.php'; ?>
+    <div class="figure_header">
+      <figure class="">
+        <img src="img/i_patrocinadores.png" alt="">
+      </figure>
+    </div>
+      <hgroup class="titulo_pagina">
+        <h1>PATROCINADORES</h1>
+        <h2>Y SOCIOS INSTITUCIONALES</h2>
+      </hgroup>
+    </div>
+  </header>
+<main>
+  <section class="">
+
+  </section>
+  <section>
+    <div class="row">
+      <div class="column medium-6">
+        <div class="">
+          <h3>Organiza</h3>
         </div>
+        <figure>
+          <img src="img/organiza.png" alt="" class="patrocinador">
+        </figure>
+      </div>
+      <div class="column medium-6">
+        <div class="">
+          <h3>Presenta</h3>
+        </div>
+        <figure>
+          <img src="img/presenta.png" alt="" class="patrocinador">
+        </figure>
       </div>
     </div>
+    <div class="row">
+      <div class="">
+        <h3>Patrocinan</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="">
+        <img src="img/patrocinadores1.png" alt="" class="patrocinador">
+      </div>
+      <div class="">
+        <img src="img/patrocinadores2.png" alt="" class="patrocinador">
+      </div>
+      <div class="">
+        <img src="img/patrocinadores3.png" alt="" class="patrocinador">
+      </div>
+    </div>
+    <div class="row">
+      <div class="">
+        <img src="img/patrocinadores4.png" alt="" class="patrocinador">
+      </div>
+      <div class="">
+        <img src="img/patrocinadores5.png" alt="" class="patrocinador">
+      </div>
+    </div>
+  </section>
+  <article class="patrocinadores">
     <div class="row contenido">
       <div class="column medium-4 organiza">
         <h4 class="text-center ">ORGANIZA</h4>

@@ -21,16 +21,17 @@ session_start();
     <link rel="stylesheet" href="css/app.css"> -->
 </head>
 <body onload="countdown('contador')">
-<?php include'assets/menu.php'; ?>
+  <header class="header_paginas header_acerca_de">
+    <?php include'assets/menu.php'; ?>
+      <hgroup class="titulo_pagina">
+        <!-- <h2>ACERCA DEL</h2> -->
+        <h1>EVENTOS SOCIALES</h1>
+      </hgroup>
+    </div>
+
+  </header>
 <main>
   <article class="">
-    <div class=" header header-11">
-      <div class="row align-middle">
-        <div class="column text-center">
-          <h1 class="titulos">EVENTOS SOCIALES</h1>
-        </div>
-      </div>
-    </div>
     <div class="row contenido">
       <div class="column small-12 medium-6">
         <div class="">
