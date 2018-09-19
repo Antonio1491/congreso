@@ -21,9 +21,21 @@
     <p></p>
   </header>
 
-  <section class="contenido inscripcion">
-    <div class="row align-center">
-      <div class="column medium-10">
+  <section class="">
+    <div class="row">
+      <div class="column medium-12 text-center">
+        <h3 class="titulo_mv">lista de precios de inscripción</h3>
+      </div>
+    </div>
+    <div class="row align-center contenido_precios">
+      <figure class="fila-espacio2">
+        <img src="img/precios_inscripcion.png" alt="" class="">
+      </figure>
+
+      <figure class="fila-espacio">
+        <img src="img/tabla_beneficios.png" alt="">
+      </figure>
+      <!-- <div class="column medium-10">
         <table class="tabla_precios">
           <thead>
             <tr>
@@ -69,7 +81,7 @@
         </table>
       </div>
     </div>
-        <!-- 2da tabla  -->
+
     <div class="row align-center">
       <div class="column medium-10">
         <table class="tabla_precios">
@@ -119,7 +131,7 @@
     </div>
 
     <div class="row align-center">
-      <!-- 2da tabla  -->
+
     <div class="column medium-10">
       <table class="tabla_precios">
         <thead>
@@ -164,54 +176,9 @@
           <td>No incluye acceso a las conferencias</td>
         </tr>
       </table>
-    </div>
+    </div> -->
     </div>
 
-    <!-- <div class="row">
-      <article class="inscripcion-precio">
-        <h2>Ponentes con contribución aceptada por el Comité de Contenido</h2>
-        <ul>
-          <li>El ponente o el quipo aceptado para ser parte de las Sesiones Educativas tienen el acceso al Congreso con costo $0.</li>
-          <li>Es importante solicitar el pase de entrada al comité de Contenido: <a href="mailto:contenido@anpr.org.mx" class="link">contenido@anpr.org.mx</a>.</li>
-        </ul>
-      </article>
-      <article class="inscripcion-precio">
-        <h2>Público en general</h2>
-        <ul>
-          <li>Vigencia antes del 31 de Diciembre | $4,290 pesos mexicanos MXN |  $238 dólares US.</li>
-          <li>Vigencia antes del 31 de Marzo | $4,950 pesos mexicanos MXN | $275 dólares US.</li>
-          <li>Vigencia A partir del 1 de Abril | $5,390 pesos mexicanos MXN | $299 dólares US.</li>
-        </ul>
-      </article>
-      <article class="inscripcion-precio">
-        <h2>Estudiantes</h2>
-        <ul>
-          <li>Vigencia antes del 31 de Diciembre | $2,145 pesos mexicanos MXN |  $119 dólares US.</li>
-          <li>Vigencia antes del 31 de Marzo | $2,475 pesos mexicanos MXN | $138 dólares US.</li>
-          <li>Vigencia A partir del 1 de Abril | $2,695 pesos mexicanos MXN | $150 dólares US.</li>
-        </ul>
-      </article>
-      <article class="inscripcion-precio">
-        <h2>Descuentos por grupo de una misma institución</h2>
-        <p>Únicamente para boleto de tipo general.</p>
-        <ul>
-            <li>De 3 a 5 personas: 20% descuento sobre el precio vigente.</li>
-            <li>De 6 a 10 personas: 30% descuento sobre el precio vigente.</li>
-            <li>Más de 10 personas: 40% descuento sobre el precio vigente</li>
-        </ul>
-      </article>
-    </div>
-    <div class="row">
-      <article class="inscripcion-precio">
-        <h2>¿Qué incluye el precio de inscripción?</h2>
-        <ul>
-          <li>Acceso a Conferencias Magistrales.</li>
-          <li>Acceso a más de 100 Sesiones Educativas.</li>
-          <li>Acceso a Expo Comercial Parques Urbanos.</li>
-          <li>Eventos Sociales.</li>
-        </ul>
-      </article>
-    </div> -->
   </section>
 
 </main>

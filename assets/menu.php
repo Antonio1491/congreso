@@ -45,7 +45,7 @@
                           <!-- <li><a href="#">Programa Completo</a></li> -->
                           <!-- <li><a href="#">Ponentes</a></li> -->
                           <li><a href="patrocinadores.php">Patrocinadores</a></li>
-                          <!-- <li><a href="#">Comité organizador</a></li> -->
+                          <li><a href="comite.php">Comité organizador</a></li>
                           <li><a href="preguntas.php">Preguntas frecuentes</a></li>
                         </ul>
                       </li>
@@ -67,7 +67,7 @@
                           <li><a href="ciudadDelasMontanas.php">Monterrey, Nuevo león</a></li>
                           <li><a href="hospedajes.php">Hospedaje</a></li>
                           <li><a href="conectividad.php">Conectividad Aérea</a></li>
-                          <li><a href="parques.php">Parques en monterrey</a></li>
+                          <!-- <li><a href="parques.php">Parques en monterrey</a></li> -->
                         </ul>
                       </li>
 

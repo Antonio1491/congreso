@@ -43,7 +43,7 @@
 
   <!--   modal   -->
     <div class="small reveal" id="exampleModal1" data-reveal>
-      <iframe width="100%" height="350" src="https://www.youtube.com/embed/rCamzymTys0" frameborder="0" gesture="media" ></iframe>
+      <iframe width="100%" height="435" src="https://www.youtube.com/embed/pJWuVEuMylw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       <button class="close-button" data-close aria-label="Close modal" type="button">
         <span aria-hidden="true">&times;</span>
       </button>
@@ -262,7 +262,10 @@
           <h3 class="titulo_verde">Inscripción</h3>
       </div>
       <div class="row expanded boletos">
-        <div class="boleto">
+        <div class="align-center">
+          <a href="inscripcion.php"><img src="img/precios.png" alt=""></a>
+        </div>
+        <!-- <div class="boleto">
           <div class="titulo_boleto">
             Profesional
           </div>
@@ -274,16 +277,7 @@
               $3,150
           </div>
           <span>Miembros</span>
-          <!-- <div class="descripcion_boleto"> -->
 
-            <!-- <ul>
-              <li>Conferencias Magistrales</li>
-              <li>Sesiones Educativas</li>
-              <li>Fiesta de Bienvenida</li>
-              <li>Admisión Expo Parques</li>
-              <li>Fiesta de Clausura</li>
-            </ul> -->
-          <!-- </div> -->
           <div class="btn_boleto">
             <a href="#">Ver Más</a>
           </div>
@@ -301,16 +295,7 @@
               $2,520
           </div>
           <span>Miembros</span>
-          <!-- <div class="descripcion_boleto">
-            <ul>
-              <li>Hasta 30 años</li>
-              <li>Conferencias Magistrales</li>
-              <li>Sesiones Educativas</li>
-              <li>Fiesta de Bienvenida</li>
-              <li>Admisión Expo Parques</li>
-              <li>Fiesta de Clausura</li>
-            </ul>
-          </div> -->
+
           <div class="btn_boleto">
             <a href="#">Ver Más</a>
           </div>
@@ -328,16 +313,7 @@
               $1,700
           </div>
           <span>Miembros</span>
-          <!-- <div class="descripcion_boleto">
-            <ul>
-              <li>Constancia de Estudios</li>
-              <li>Conferencias Magistrales</li>
-              <li>Sesiones Educativas</li>
-              <li>Fiesta de Bienvenida</li>
-              <li>Admisión Expo Parques</li>
-              <li>Fiesta de Clausura</li>
-            </ul>
-          </div> -->
+
           <div class="btn_boleto">
             <a href="#">Ver Más</a>
           </div>
@@ -355,11 +331,7 @@
               $200
           </div>
           <span>Miembros</span>
-          <!-- <div class="descripcion_boleto">
-            <ul>
-              <li>Admisión Expo Parques</li>
-            </ul>
-          </div> -->
+
           <div class="btn_boleto">
             <a href="#">Ver Más</a>
           </div>
@@ -377,59 +349,13 @@
               $2,363
           </div>
           <span>Miembros</span>
-          <!-- <div class="descripcion_boleto">
-            <ul>
-              <li>Fiesta de Bienvenida</li>
-              <li>Admisión Expo Parques</li>
-              <li>Fiesta de Clausura</li>
-            </ul>
-          </div> -->
+
           <div class="btn_boleto">
             <a href="#">Ver Más</a>
           </div>
         </div>
       </div>
-      <!-- <div class="row">
-        <div class="column small-10 medium-4">
-          <ul class="pricing-table no-bullet text-center" id="boletoGeneral">
-            <li class="title text-center">General</li>
-            <li class="price " >$4,290.00 <span class="pesos">MXN</span></li>
-            <li class="description">* Precio antes del 31 Diciembre 201 </li>
-            <li>Conferencias Magistrales <br><i class="fi-check"></i></li>
-            <li>Sesiones Educativas <br><i class="fi-check"></i></li>
-            <li>Expo <br><i class="fi-check"></i></li>
-            <li>Eventos Sociales <br><i class="fi-check"></i></li>
-            <li>Talleres <br><i class="fi-x"></i></li>
-            <li><a class="button" href="https://goo.gl/4DDkN9" target="_blank">COMPRAR</a></li>
-          </ul>
-        </div>
-        <div class="column small-10 medium-4">
-          <ul class="pricing-table no-bullet text-center">
-            <li class="title">Estudiantes</li>
-            <li class="price">$2,145.00 <span class="pesos">MXN</span></li>
-            <li class="description">* Precio antes del 31 Diciembre 2018 </li>
-            <li>Conferencias Magistrales <br><i class="fi-check"></i></li>
-            <li>Sesiones Educativas <br><i class="fi-check"></i></li>
-            <li>Expo <br><i class="fi-check"></i></li>
-            <li>Eventos Sociales <br><i class="fi-x"></i></li>
-            <li>Talleres <br><i class="fi-x"></i></li>
-            <li><a class="button" href="https://goo.gl/4DDkN9" target="_blank">COMPRAR</a></li>
-          </ul>
-        </div>
-        <div class="column small-10 medium-4">
-          <ul class="pricing-table no-bullet text-center">
-            <li class="title">Expo</li>
-            <li class="price">$100.00 <span class="pesos">MXN</span></li>
-            <li class="description">* Precio para la expo durante los 2 días del evento</li>
-            <li>Conferencias Magistrales <br><i class="fi-x"></i></li>
-            <li>Sesiones Educativas <br><i class="fi-x"></i></li>
-            <li>Expo <br><i class="fi-check"></i></li>
-            <li>Eventos Sociales <br><i class="fi-x"></i></li>
-            <li>Talleres <br><i class="fi-x"></i></li>
-            <li><a class="button" href="https://goo.gl/4DDkN9" target="_blank">COMPRAR</a></li>
-          </ul>
-        </div>
-      </div> -->
+
     </section>
 
     <section id="seccion_mapa" class="hide-for-small-only">
@@ -449,7 +375,7 @@
         </div>
         <div class="column medium-8">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7191.507337009546!2d-100.28561921134552!3d25.679459210524172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662942a8d42b18f%3A0x1eee54a9dfbc9332!2sCintermex!5e0!3m2!1ses!2smx!4v1528396562531" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
+        </div>-->
       </div>
     </section>
 

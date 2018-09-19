@@ -27,49 +27,14 @@ session_start();
 <main>
   <article class="">
 
-    <div class="row contenido">
-      <div class="column small-12 medium-6">
-        <div class="">
-          <p><h5>Inauguración:</h5>
-            Mérida te da bienvenida con una gran fiesta regional.
-            ¡Vive esta experiencia llena de tradiciones! Prueba
-            comida yucateca - patrimonio cultural de la humanidad,
-            y baila al ritmo de la jarana con la interpretación de
-            la Orquesta Jaranera y el Ballet Folclórico de Mérida. </p>
-            <p>Inauguración:
-            7:30 p.m. – 11:30 p.m.
-            Lugar: Remate de Montejo. Calle 47, entre 58 y 56, Colonia Centro.
-            Ubicación: <a href="https://goo.gl/maps/nhMKs6VG5M42">google maps</a>
-            </p>
-            <p>Transporte del Centro Internacional de Congresos de Yucatán de 7: 00 p.m. a 8:00 p.m.</p>
-        </div>
-        <img src="img/fiesta-inauguracion.png" alt="">
-
-        </div>
-
-      <div class="column small-12 medium-6">
-        <div class="">
-          <p><h5>Clausura:</h5>
-            Celebremos lo aprendido y las nuevas amistades en nuestra fiesta de clausura. Una última
-            oportunidad para convivir, celebrar y despedirse de todos los que hicieron nuestra experiencia
-            en el congreso, única e inolvidable.
-            Acompáñanos en una noche de food trucks, música y mucho ambiente en "El Minaret", una de las
-            casonas del post porfiriato estilo francés de hermosas balaustradas y candiles ubicada en el emblemático Paseo Montejo.
-          </p>
-          <p>Clausura:
-            8:00 p.m. – 12:00 a.m.
-            Lugar: "El Minaret" Paseo Montejo 473 entre 35 y 37 Col. Centro.
-            Ubicación: <a href="https://goo.gl/maps/ZRBREHvc8tA2">google maps</a>
-          </p>
-        </div>
-        <div class="">
-          <img src="img/fiesta-clausura.png" alt="">
-        </div>
-
-      </div>
-
+    <div class="row descripcion_cover" >
+      ¡Ha llegado el momento de intercambiar tarjetas y divertirse! Expande tu red profesional y disfruta durante los 3 eventos realizados especialmente para ti. Asiste a la inauguración, beer party y clausura del Congreso Parques, reúnete en un ambiente relajado, diviértete y haz networking.
+      Recuerda que tu entrada al congreso, incluye tu acceso a estos 3 eventos.
     </div>
     <br>
+    <div class="row align-center">
+      <h5 class="subtitulo">¡Próximamente la información completa!</h5>
+    </div>
     <div class="row menu_sede">
       <div class="column medium-3">
         <a href="http://www.merida.gob.mx/capitalcultural/" target="_blank"><img src="img/turismo.png" alt=""></a>

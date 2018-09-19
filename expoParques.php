@@ -24,39 +24,28 @@
   <main>
     <div class="row ">
       <div class="column text-center">
-        <h5 class="subtitulo">La única exposición mexicana especializada de la industria reunirá a más de
-          <span style="font-size:1.4em;">80</span> empresas líderes en el mercado.</h5>
-          <p>Invierte en el foro de negocios en donde los principales tomadores de decisiones
-            en México se reunirán en torno a la industria de los parques urbanos y la recreación.</p>
-        <p>Participa e invierte en la exposición comercial más especializada de la industria
-          de los parques urbanos y espacios públicos en México y Latinoamérica donde encontraras
-          a los principales tomadores de decisiones además de las tendencias en equipamiento de
-          espacio público. </p>
-      </div>
-    </div>
-    <div class="row column">
-      <div class="column medium-6">
-
+        <p class="descripcion_cover">Expo Parques es el foro de negocios que reunirá a más de 80 empresas líderes en el mercado, con la finalidad de brindarles a nuestros visitantes los mejores productos y servicios para el diseño, la construcción y equipamiento del espacio público. </p>
+        <p>Participa e invierte en la exposición comercial más especializada de la industria de los parques urbanos y espacios públicos en México y Latinoamérica donde encontrarás a los principales tomadores de decisiones además de las tendencias en equipamiento de espacio público. </p>
       </div>
     </div>
     <div class="row">
       <div class="column medium-6">
         <ul class="lista_vineta">
-          <li><span>Explora el mercado y observe las últimas tendencias.</span></li>
-           <li><span>Intercambia experiencias con proveedores y congresistas expertos.</span></li>
-           <li><span>Recopila información.</span></li>
-          <li><span>Manténganse al tanto de las innovaciones de los producto y servicios de este campo.</span></li>
-           <li><span>Conoce los productos más innovadores de la industria.</span></li>
-           <li><span>Conoce qué hacen los competidores.</span></li>
+          <li><span>Explora el mercado.</span></li>
+           <li><span>Conoce proveedores.</span></li>
+           <li><span>Intercambia experiencias.</span></li>
+          <li><span>Conoce las tendencias y productos innovadores.</span></li>
+           <li><span>Compara calidad, precio y rendimiento.</span></li>
          </ul>
       </div>
       <div class="column medium-6">
+          Durante dos días podrás tener acceso a:
         <ul class="lista_vineta">
-          <li><span>Aprende las últimas técnicas de ventas y promoción.</span></li>
-           <li><span>Compara la calidad, el precio y el rendimiento de la mezcla de marketing.</span></li>
-           <li><span>Asiste a las conferencias magistrales, sesiones educativas y talleres vivenciales.</span></li>
-           <li><span>Visita parques locales.</span></li>
-           <li><span>Disfruta del espléndido turismo de la ciudad anfitriona.</span></li>
+          <li><span>Más de más de 6,000 m2 de exposición.</span></li>
+           <li><span>Área de negocios.</span></li>
+           <li><span>Muestras comerciales.</span></li>
+           <li><span>Glass room.</span></li>
+           <li><span>Agenda de negocios.</span></li>
         </ul>
       </div>
     </div>
@@ -141,29 +130,120 @@
 
     </div>
 
-      <!-- <div class="column small-12 medium-5">
 
-          <div class="card-info-content">
-            <ul class="pricing-table no-bullet text-center">
-                <li class="title">Expo</li>
-                <li class="price">$100.00  <span class="pesos">MXN</span></li>
-                <li class="fecha-precio">* Precio fijo</li>
-                <li>Conferencias Magistrales <br><i class="fi-x"></i></li>
-                <li>Sesiones Educativas <br><i class="fi-x"></i></li>
-                <li>Expo Comercial Parques Urbanos<br><i class="fi-check"></i></li>
-                <li>Eventos Sociales <br><i class="fi-x"></i></li>
-                <li>Talleres <br><i class="fi-x"></i></li>
-                <li><a class="button" href="https://goo.gl/4DDkN9" target="_blank">COMPRAR</a></li>
-            </ul>
-          </div>
-
-      </div> -->
+    <!--<div class="row column">
+      <h4 class="subtitulo">Sé expositor</h4>
     </div>
-    <div class="row">
-      <div class="column hide-for-small-only medium-6">
+     <div class="row">
+      <div class="column hide-for-small-only medium-4">
+        <figure>
+          <img src="img/plano_expo.png" alt="">
+        </figure>
+      </div>
+      <div class="column medium-8">
+        <figure>
+          <img src="img/tabla_precio_expo.png" alt="">
+        </figure>
+        <p>Aparta tu espacio con el 30%.</p>
+        <p>Si liquidas antes del 31 de diciembre de 2018 15% de descuento. </p>
+        <p>*Precios en pesos (moneda nacional mexicana) por m² más IVA. </p>
 
       </div>
-    </div>
+    </div> -->
+    <div class="cinta_azul">
+      <div class="row">
+        <div class="column medium-4 text-center">
+          <h4 class="subtitulo_bc">Agenda de negocios</h4>
+          <figure>
+            <img src="img/agenda_negocios.png" alt="" class="actividades_expo">
+          </figure>
+
+        </div>
+        <div class="column medium-8">
+          <p>Adquiere un stand de 36 m² o mayor y te programaremos una agenda de entrevistas con los parques y compradores más importantes de México.</p>
+          <p>2 días de encuentros comerciales.<br>
+          3 horas de trabajo.</br>
+          15 minutos por comprador.
+        </p>
+            <p>Acércate, vende y convence.<br>
+            Informes y ventas: comercial@anpr.org.mx
+            </p>
+        </div>
+      </div>
+      </div>
+
+      <div class="class_room">
+        <div class="row">
+          <div class="column medium-4 text-center">
+            <h4 class="subtitulo">Glass romm</h4>
+            <figure>
+              <img src="img/i_glass_room.png" alt="" class="actividades_expo">
+            </figure>
+            <br>
+            Costo por sesión comercial: <br>
+            $20,000 pesos más IVA <br>
+
+          </div>
+          <div class="column medium-8">
+            <div class="row">
+              <p><span class="negritas">¡Un gran salón transparente te espera dentro de Expo Parques!</span></p>
+              <p>En él podrás encontrar desde sesiones educativas con las que cuenta el programa del congreso y sesiones comerciales. En esta convivencia comercial, la industria tendrá la oportunidad de compartir la relevancia de sus productos y servicios; la oportunidad ideal para conocer de cerca de los fabricantes y distribuidores más especializados.
+              </p>
+            </div>
+                <p>Superficie total: 132 m²<br>
+                Capacidad: 90 personas<br>
+                Duración de la ponencia: 25 minutos ideal para: <br>
+                <ul>
+                  <li>Presentación de productos.</li>
+                  <li>Nuevos proyectos.</li>
+                  <li>Demostración de maquinaria</li>
+                  <li>Presentación corporativa</li>
+                  <li>Oportunidades de distribución</li>
+                </ul>
+              </p>
+              *Precios en pesos (moneda nacional mexicana) por m² más IVA. <br>
+              Informes y ventas: comercial@anpr.org.mx
+          </div>
+        </div>
+      </div>
+
+      <div class="cinta_azul">
+        <div class="row">
+          <div class="column medium-4 text-center">
+            <h4 class="subtitulo_bc">Zona de recreación</h4>
+            <figure>
+              <img src="img/area_juegos.png" alt="" class="actividades_expo">
+            </figure>
+
+          </div>
+          <div class="column medium-8">
+            <p><span class="bc">¡No podíamos dejarte sin un área de recreación!</span></p>
+            <p>Dentro de Expo Parques, encontrarás un área especial donde se llevarán a cabo diversas actividades de convivencia, pero sobre todo, ¡mucha diversión y entretenimiento! Contaremos con golfito, mesas de ping pong, mesas de futbolitos, badmintón y más.  También contaremos con salas launge para pláticas de negocios entre participantes y expositores. </p>
+          </div>
+        </div>
+        </div>
+
+        <div class="beer_party">
+          <div class="row">
+            <div class="column medium-4 text-center">
+              <h4 class="subtitulo">Beer Party </h4>
+              <figure>
+                <img src="img/beer_party.png" alt="" class="actividades_expo">
+              </figure>
+            </div>
+            <div class="column medium-8 vertical_contenido">
+              <div class="row"><br>
+                <p>Dentro del área de Expo Parques podrás acceder a la Beer Party, evento que no debes perderte en compañía de profesionales de la industria ¡Queremos verte ahí! Te esperamos.</p>
+                <p>Jueves 17 de mayo a las 19:00 horas
+                  <br>Duración: 1 hora y media.
+                  </p>
+                <p>*Evento exclusivo para participantes de Congreso Parques* </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
 
 
   <!-- <?php

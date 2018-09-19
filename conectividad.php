@@ -19,65 +19,29 @@ session_start();
 <body onload="countdown('contador')">
   <header class="header_paginas header_conectividad">
     <?php include'assets/menu.php'; ?>
-      <hgroup class="titulo_pagina">
+      <hgroup class="titulo_pagina"><br>
         <h1>Conectividad</h1>
       </hgroup>
     </div>
   </header>
 <main class="">
-  <article class="conectividad">
-
-    <div class="row fila-espacio">
-      <div class="column">
-        <p><strong class="letra-capital">E</strong>l aeropuerto internacional de Mérida (MID) está ubicado a
-          unos 15 minutos del centro de la ciudad. Otras alternativas son; llegar al aeropuerto internacional
-          de Cancún (CUN) y tomar un autobús a Mérida (el tiempo de traslado es de cuatro horas aproximadamente)
-          o hacer una escala en el aeropuerto internacional de la Ciudad de México (MEX) llegando a Mérida en un
-          vuelo con duración de una hora y media aproximadamente.</p>
-      </div>
+  <div class="row align-center">
+    <h5 class="subtitulo">¡Próximamente la información completa!</h5>
+  </div>
+  <div class="row menu_sede">
+    <div class="column medium-3">
+      <a href="http://www.merida.gob.mx/capitalcultural/" target="_blank"><img src="img/turismo.png" alt=""></a>
     </div>
-    <div class="row fila-espacio">
-      <div class="column">
-        <h4 class="text-center">CONEXIONES NACIONALES</h4>
-      </div>
+    <div class="column medium-3">
+        <a href="http://www.yucatan.travel/" target="_blank"><img src="img/parques.png" alt="">
     </div>
-    <div class="row">
-      <div class="column medium-12">
-        <figure >
-          <img data-src="img/vuelos-1.png" alt="Vuelos Nacionales para el congreso de parques urbanos" >
-        </figure>
-      </div>
-      <br>
+    <div class="column medium-3">
+        <a href="conectividad.php" target=""><img src="img/conectividad.png" alt="">
     </div>
-    <div class="row fila-espacio">
-      <div class="column">
-        <h4 class="text-center">CONEXIONES INTERNACIONALES</h4>
-      </div>
+    <div class="column medium-3">
+        <a href="hospedajes.php" target=""><img src="img/hospedaje.png" alt="">
     </div>
-    <div class="row">
-      <div class="column medium-12">
-          <figure >
-            <img data-src="img/vuelos-2.png" alt="Vuelos Internacionales para el congreso de parques urbanos" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=idata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
-          </figure>
-      </div>
-    </div>
-    <hr>
-    <div class="row">
-      <div class="column medium-3">
-        <a href="http://www.merida.gob.mx/capitalcultural/" target="_blank"><img src="img/turismo.png" alt=""></a>
-      </div>
-      <div class="column medium-3">
-          <a href="http://www.yucatan.travel/" target="_blank"><img src="img/turismo-yuc.png" alt="">
-      </div>
-      <div class="column medium-3">
-          <a href="conectividad.php" target=""><img src="img/conectividad.png" alt="">
-      </div>
-      <div class="column medium-3">
-          <a href="hospedajes.php" target=""><img src="img/hospedaje.png" alt="">
-      </div>
-
-    </div>
-  </article>
+  </div>
 </main>
 
 <?php include'assets/footer.php'; ?>
