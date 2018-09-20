@@ -35,20 +35,9 @@ session_start();
     <div class="row align-center">
       <h5 class="subtitulo">¡Próximamente la información completa!</h5>
     </div>
-    <div class="row menu_sede">
-      <div class="column medium-3">
-        <a href="http://www.merida.gob.mx/capitalcultural/" target="_blank"><img src="img/turismo.png" alt=""></a>
-      </div>
-      <div class="column medium-3">
-          <a href="http://www.yucatan.travel/" target="_blank"><img src="img/parques.png" alt="">
-      </div>
-      <div class="column medium-3">
-          <a href="conectividad.php" target=""><img src="img/conectividad.png" alt="">
-      </div>
-      <div class="column medium-3">
-          <a href="hospedajes.php" target=""><img src="img/hospedaje.png" alt="">
-      </div>
-    </div>
+
+    <?php include('assets/menu_sede.php') ?>
+
   </article>
 </main>
 
