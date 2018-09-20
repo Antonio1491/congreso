@@ -175,7 +175,7 @@
       <div class="class_room">
         <div class="row">
           <div class="column medium-4 text-center">
-            <h4 class="subtitulo">Glass romm</h4>
+            <h4 class="subtitulo">Glass room</h4>
             <figure>
               <img src="img/i_glass_room.png" alt="" class="actividades_expo">
             </figure>
@@ -244,44 +244,6 @@
       </div>
 
 
-
-
-  <!-- <?php
-      // $sql = "SELECT * FROM expositores";
-      // $datosExpositor = $conexion->desplegarExpositores($sql);
-   ?>
-  <section id="directorio_expositores" class="row align-middle">
-    <div class="column small-12 medium-12">
-      <?php  foreach ($datosExpositor as $dato) {
-
-        ?>
-      <article class="expositor">
-        <div class="logotipo">
-          <?php echo " <img src='img/expositores/".$dato['logotipo']."'>"; ?>
-        </div>
-        <div class="contenido_expositor">
-            <header>
-              <div class="datos_expositor">
-                <h4><?php echo $dato['nombre_expositor']; ?></h4>
-                <h5>Stand <?php echo $dato['n_stand']; ?></h5>
-                <p><?php echo $dato['direccion']; ?></p>
-              </div>
-              <div class="contacto_expositor">
-                <p><?php echo $dato['contacto']; ?></p>
-              </div>
-            </header>
-
-          <section>
-            <p><?php echo $dato['descripcion']; ?></p>
-          </section>
-
-        </div>
-
-      </article>
-      <?php
-        }
-       ?> -->
-    </div>
   </section>
 
 </main>

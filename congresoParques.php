@@ -18,7 +18,7 @@
   <header class="header_paginas header_acerca_de">
     <?php include'assets/menu.php'; ?>
       <hgroup class="titulo_pagina">
-        <h2>ACERCA DEL</h2>
+        <h2>ACERCA DE</h2>
         <h1>CONGRESO PARQUES</h1>
       </hgroup>
     </div>
@@ -37,9 +37,9 @@
           conferencias, sesiones educativas, talleres y una muestra comercial.</p>
       </div>
       <div class="column medium-6 small-12">
-        <p><strong>¿Cuándo?</strong><br> 14 -17 de Mayo de 2019</p>
+        <p><strong>¿Cuándo?</strong><br> 14 -17 de mayo de 2019</p>
         <p><strong>¿Dónde? </strong><br> Centro de Congresos Cintermex, Parque
-          Fundidora, Monterrey, Nuevo León México.</p><br>
+          Fundidora, Monterrey, Nuevo León, México.</p><br>
           <div class="text-center">
             <a href="ciudadDelasMontanas.php" class="btn_verde_transparente">Conoce la ciudad</a>
           </div>
@@ -48,7 +48,7 @@
     </div>
     <div class="row">
       <div class="column medium-6 small-12">
-        <h4 class="subtitulo">¿Por qué asistir al Congreso? </h4>
+        <h4 class="subtitulo">¿Porqué asistir al Congreso? </h4>
         <p>El Congreso Parques, es un evento de alcance internacional, que permitirá a profesionales
           de la industria de los parques, tener una experiencia única de aprendizaje y formación,
           además de crear redes de colaboración con líderes en la industria en todo el mundo ¿Qué
@@ -79,7 +79,7 @@
             dentro de nuestras 5 temáticas. Durante 4 días, el Congreso Parques brinda una
             experiencia única de aprendizaje ofreciendo un certificado que valida la participación
             y conocimientos adquiridos si, se cuenta con el 80% de asistencia de los participantes.</p><br>
-          <a href="sesionesEducativas.php" class="btn_vermas">Ver Temas y Temáticas</a>
+          <a href="ejesTematicos.php" class="btn_vermas">Ver Temáticas</a>
         </div>
       </div>
     </div>
@@ -88,7 +88,7 @@
       <div class="row">
         <h4 class="subtitulo ">El método de aprendizaje </h4>
         <p>Durante los días del Congreso, encontrarás diversos momentos para compartir y generar conocimiento para mejorar
-          tu experiencia de aprendizaje. Conoce las distintas opciones que el Congreso Parques ofrece. </p>
+          tu experiencia de aprendizaje. Conoce las distintas opciones que el Congreso Parques ofrece: </p>
       </div>
       <div class="row">
         <div class="column medium-4 small-12 bloque">
@@ -112,9 +112,7 @@
               <img src="img/i_sesiones_m.png" alt="">
             </figure>
             <h3>SESIONES EDUCATIVAS</h3>
-            <p>El Congreso Parques tiene disponible más de 55 sesiones educativas impartidas por 140
-              conferencistas de todo el mundo. Sus áreas de especialización brindarán un momento de
-              aprendizaje y capacitación que potencializarán tus conocimientos.</p>
+            <p>El Congreso Parques tiene disponibles más de 55 sesiones educativas impartidas por 140 conferencistas de todo el mundo. Sus áreas de especialización brindarán un momento de aprendizaje y capacitación que potencializarán tus conocimientos.</p>
             <div class="contenedor_btn">
               <a href="sesionesEducativas.php" class="btn_vermas">Ver más</a>
             </div>
@@ -126,11 +124,10 @@
               <img src="img/i_talleres_m.png" alt="">
             </figure>
             <h3>TALLERES</h3>
-            <p>Los talleres son una gran oportunidad para aprender sobre el espacio público de una
-              forma diferente y única. Disfruta de visitas a parques y espacios icónicos de la ciudad
-              sede, así como clases especializadas impartidas por expertos en el tema y colaboradores
-              de la ciudad anfitriona. Los 15 talleres se realizarán durante el 14 y 15 de mayo previo
-              a las actividades en el centro de convenciones.  </p>
+            <p>Los talleres son una gran oportunidad para aprender sobre el espacio
+              público de una forma diferente y única. Disfruta de visitas a parques
+              y espacios icónicos de la ciudad sede, así como clases especializadas
+              impartidas por expertos en el tema y colaboradores de la ciudad anfitriona. </p>
             <div class="contenedor_btn">
               <a href="talleres.php" class="btn_vermas">Ver más</a>
             </div>
@@ -159,11 +156,11 @@
             <img src="img/i_expo_parques_m.png" alt="">
           </figure>
             <h3>Expo Parques</h3>
-            <p>La única exposición mexicana especializada de la industria, con más 80 empresas líderes
-              en el mercado, reunidas con la única finalidad de brindarte los mejores productos y
-              servicios para espacio público. Conoce e invierte en este foro de negocios donde los
-              principales tomadores de decisiones en México se reunirán en torno a la industria de los
-              parques urbanos y la recreación.</p>
+            <p>La única exposición mexicana especializada de la industria, con más de 80
+              empresas líderes en el mercado, reunidas con la única finalidad de brindarte
+              los mejores productos y servicios para espacio público. Conoce e invierte en
+              este foro de negocios donde los principales tomadores de decisiones en México
+              se reunirán en torno a la industria de los parques urbanos y la recreación.</p>
             <div class="contenedor_btn">
               <a href="expoParques.php" class="btn_vermas">Ver más</a>
             </div>
@@ -175,9 +172,10 @@
               <img src="img/i_eventos_sociales_m.png" alt="">
             </figure>
             <h3>Eventos Sociales</h3>
-            <p>¡Ha llegado el momento de intercambiar tarjetas y divertirse! Expande tu red profesional
-              y disfruta de este evento realizado especialmente para ti. Asiste a la inauguración y
-              clausura del Congreso Parques, reúnete en un ambiente relajado, diviértete y haz networking.  </p>
+            <p>¡Ha llegado el momento de intercambiar tarjetas y divertirse! Expande tu
+              red profesional y disfruta de estos eventos realizado especialmente para ti.
+              Asiste a la inauguración y clausura del Congreso Parques, reúnete en un ambiente
+              relajado, diviértete y haz networking.</p>
             <div class="contenedor_btn">
               <a href="eventosSociales.php" class="btn_vermas">Ver más</a>
             </div>

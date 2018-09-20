@@ -9,7 +9,7 @@
     <?php  require("assets/head_common.php") ?>
 </head>
 <body onload="countdown('contador')">
-  <header class="header_paginas header_preguntas">
+  <header class="header_paginas header_talleres">
     <?php include'assets/menu.php'; ?>
     <div class="figure_header">
       <figure class="">

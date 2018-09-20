@@ -22,7 +22,7 @@ session_start();
     <?php include'assets/menu.php'; ?>
     <div class="figure_header">
       <figure class="">
-        <img src="img/i_eventos_sociales_m.png" alt="">
+        <img src="img/i_eventos_sociales.png" alt="">
       </figure>
     </div>
       <hgroup class="titulo_pagina">

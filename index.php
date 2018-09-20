@@ -143,13 +143,16 @@
       <h2>El 2° Congreso Internacional de Parques urbanos</h2>
     </div>
     <div class="row">
-      <p>El Congreso Internacional de Parques Urbanos es un evento especializado en parques
-        urbanos y espacios públicos que tiene como objetivo reunir y capacitar a profesionales,
-        funcionarios públicos, tomadores de decisiones, proveedores de la industria, estudiantes
-        organizaciones no gubernamentales y muchos más, en un mismo lugar. Simultáneamente
-        tendrá lugar Expo Parques, un espacio de 6,000 m2 de exhibición de productos y servicios
-        relacionados con la industria de parques y recreación. Durante 4 días, el Congreso Parques
-        brinda una experiencia única de aprendizaje. </p>
+      <p>El Congreso Internacional de Parques Urbanos es un evento
+        especializado en parques urbanos y espacios públicos que
+        tiene como objetivo reunir y capacitar a profesionales,
+        funcionarios públicos, tomadores de decisiones, proveedores
+        de la industria, estudiantes y organizaciones no
+        gubernamentales en un mismo lugar. Simultáneamente tendrá
+        lugar Expo Parques, un espacio de 6,000 m2 de exhibición de
+        productos y servicios relacionados con la industria de parques
+        y recreación. Durante 4 días, el Congreso Parques brinda una
+        experiencia única de aprendizaje.</p>
     </div>
     <div class="secciones_icon">
       <figure>
@@ -252,7 +255,7 @@
         </figure>
       </div>
       <div class="row align-center">
-        <a href="conferenciasMagistrales.php" class="btn_azul">Conoce todos los conferencistas</a>
+        <a href="conferenciasMagistrales.php" class="btn_azul">Conoce a todos los conferencistas</a>
       </div>
 
     </section>

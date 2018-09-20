@@ -562,7 +562,7 @@ session_start();
             <div class="tabla">
               <ul>
                 <li>$2,695.00</li>
-                <li>$3,934.00</li>
+                <li>$3,984.00</li>
                 <li>$3,172.00</li>
               </ul>
             </div>
