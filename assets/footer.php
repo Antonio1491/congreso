@@ -4,7 +4,7 @@
     <div class="column small-6 medium-3 small-order-1 medium-order-1">
       <a href="participar.php"><img data-src="img/logotipo/logo_congreso_bc.png" alt="1er Congreso de Parques Urbanos" class=""></a>
     </div>
-    <div class="column small-12 medium-6 small-order-3 medium-order-2" id="cabecera-footer">
+    <div class="column small-12 medium-5 small-order-3 medium-order-2" id="cabecera-footer">
       <hgroup>
         <h3>SEGUNDO CONGRESO INTERNACIONAL</h3>
         <h2>DE PARQUES URBANOS</h2>
@@ -12,15 +12,24 @@
         <h6>Presentado por la Asociación Nacional de Parques y Recreación México.</h6>
       </hgroup>
     </div>
-    <div class="column small-6 medium-3 small-order-2 medium-order-3">
-      <a href="http://anpr.org.mx/"><img data-src="img/i_anpr_bc.png" alt="Asociación Nacional de Parques y Recreación" class="logo_footer"></a>
+    <div class="column small-6 medium-2 small-order-2 medium-order-2">
+      <h4>Organiza</h4>
+      <a href="http://anpr.org.mx/">
+        <img data-src="img/i_anpr_bc.png" alt="Asociación Nacional de Parques y Recreación" class="logo_footer">
+      </a>
+    </div>
+    <div class="column small-6 medium-2 small-order-2 ">
+      <h4>Presenta</h4>
+      <a href="#">
+        <img data-src="img/logotipo/fundidora_bc.png" alt="Parque Fundidora" class="logo_footer">
+      </a>
     </div>
   </div>
   <div class="row">
     <div class="colm medium-3">
       <!--========  Redes sociales  ========-->
       <section id="redes-sociales" class="hide-for-small-only">
-        <div class="row align-center ">
+        <div class="row align-center">
           <a href="https://www.facebook.com/Congreso-Internacional-de-Parques-Urbanos-433605833658855/" target="_blank">
             <img src="img/facebook.png" alt="">
           </a>
