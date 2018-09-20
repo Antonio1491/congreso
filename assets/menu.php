@@ -31,7 +31,7 @@
                       <li><a href="#">acerca de</a>
                         <ul class="menu sub-menu-central">
                           <li><a href="congresoParques.php">Congreso</a></li>
-                          <li><a href="ejestematicos.php">Ejes Temáticos</a></li>
+                          <li><a href="ejesTematicos.php">Ejes Temáticos</a></li>
                           <li>
                             <a href="#">eventos</a>
                             <ul class="menu sub-menu-central">
