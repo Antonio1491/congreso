@@ -9,7 +9,7 @@
 </head>
 <body onload="countdown('contador')">
   <header class="header_paginas header_magistrales">
-    <?php include'assets/menu.php'; ?>
+    <?php include'assets/menu.php'; ?><br>
     <div class="figure_header">
       <figure class="">
         <img src="img/i_conferencias_magistrales.png" alt="">

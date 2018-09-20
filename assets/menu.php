@@ -11,7 +11,7 @@
               </div>
               <div class="item_encabezado">
                 <div class="">
-                      <a href="#" class="btn_entradas">Conseguir entradas</a>
+                      <a href="inscripcion.php" class="btn_entradas">Conseguir entradas</a>
                 </div>
                 <div class="traduccion">
 
@@ -64,7 +64,7 @@
                       </li>
                       <li><a href="#">Sede</a>
                         <ul class="menu  sub-menu-central">
-                          <li><a href="ciudadDelasMontanas.php">Monterrey, Nuevo león</a></li>
+                          <li><a href="ciudadDeLasMontanas.php">Monterrey, Nuevo león</a></li>
                           <li><a href="hospedajes.php">Hospedaje</a></li>
                           <li><a href="conectividad.php">Conectividad Aérea</a></li>
                           <!-- <li><a href="parques.php">Parques en monterrey</a></li> -->

@@ -54,7 +54,7 @@
           además de crear redes de colaboración con líderes en la industria en todo el mundo ¿Qué
           hace especial al Congreso Internacional de Parques Urbanos? El intercambio de conocimientos
           y experiencias de profesionales que enfrentan desafíos similares a los tuyos. </p><br>
-        <a href="participar.php" class="btn_verde_transparente">¡Convence a tus directivos y ven al Congreso! </a>
+        <!-- <a href="participar.php" class="btn_verde_transparente">¡Convence a tus directivos y ven al Congreso! </a> -->
       </div>
       <div class="column medium-6 small-12">
         <figure class="foto_asistentes">

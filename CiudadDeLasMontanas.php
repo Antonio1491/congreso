@@ -19,7 +19,7 @@ session_start();
 <body onload="countdown('contador')">
   <header class="header_paginas header_sede">
     <?php include'assets/menu.php'; ?>
-      <hgroup class="titulo_pagina">
+      <hgroup class="titulo_pagina"><br>
         <h2>La ciudad de las montañas</h2>
         <h1>Monterrey</h1>
         <h1>Nuevo León</h1>

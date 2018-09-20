@@ -259,7 +259,7 @@
     <!--========== Boletos  =============-->
     <section id="boletos-contenedor" class="hide-for-small-only">
       <div class="row">
-          <h3 class="titulo_verde">Inscripción</h3>
+          <h3 class="subtitulo_mb">Inscripción</h3>
       </div>
       <div class="row expanded boletos">
         <div class="align-center">

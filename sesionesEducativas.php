@@ -10,14 +10,19 @@
 </head>
 <body onload="countdown('contador')">
 <header class="header_paginas header_sesiones">
-  <?php include'assets/menu.php'; ?>
-  <hgroup class="titulo_pagina"><br>
+  <?php include'assets/menu.php'; ?><br>
+  <div class="figure_header">
+    <figure class="">
+      <img src="img/i_sesiones.png" alt="">
+    </figure>
+  </div>
+  <hgroup class="titulo_pagina">
     <h1>SESIONES EDUCATIVAS</h1>
   </hgroup>
   <p></p>
 </header>
 <main class="sesiones">
-  
+
 
 
 
