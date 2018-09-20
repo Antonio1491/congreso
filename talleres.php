@@ -25,7 +25,7 @@
 <main class="">
   <section class="contenido">
     <div class="row column">
-      <p>Los talleres son una gran oportunidad para extender nuestro conocimiento
+      <p class="descripcion_cover">Los talleres son una gran oportunidad para extender nuestro conocimiento
         sobre el espacio público. En el Congreso Parques 2019 habrá dos tipos de
         talleres: vivenciales y curriculares.
         El lunch, transporte, materiales y papelería está incluido.</p>
@@ -63,26 +63,56 @@
         </div>
       </div>
 
-      <div class="row contenedor_taller">
-        <div class="row taller">
-          <div class="column medium-6">
-            <figure>
-              <img src="" alt="">
-              <figcaption>Parques Rufino Tamayo</figcaption>
-            </figure>
+      <div class="contenedor_taller">
+        <div class="row column taller">
+          <div class="titulo_taller">
+            <h4 class="subtitulo">Parque Rufino Tamayo</h4>
           </div>
-          <div class="column medium-6">
-
+          <div class="desccripcion_taller">
+            <p>En el corazón de municipio de San Pedro Garza García, se encuentra el parque Rufino Tamayo; espacio que ofrece un espacio digno, seguro e incluyente para el goce de todos, haciendo honor al gran artista mexicano Rufino Tamayo. Acompáñanos a conocer este parque, su modelo de operación, sus retos y éxitos al posicionarse como un espacio único para el disfrute de los sampetrinos y visitantes, además de la alianza con el Instituto de Salud para impulsar programas que fomenten la salud en el espacio público. </p>
           </div>
         </div>
-        <div class="row taller_descripcion">
+        <!-- <div class="row taller_descripcion">
           <p>Cupo máximo: <span> 60 personas</span></p>
           <p>Día: <span> 14 de mayo</span></p>
           <p>Horario: <span> 9:00 a.m - 2:00 p.m.</span></p>
           <p>Lugar: <span> Parque Rufino Tamayo</span></p>
           <p>Costo: <span> $1,500 MXN</span></p>
+        </div> -->
+        <div class="row column taller">
+          <div class="titulo_taller">
+            <h4 class="subtitulo">DistritoTec</h4>
+          </div>
+          <div class="desccripcion_taller">
+            <p>El DistritoTec es un polígono de 452 hectáreas ubicado al sur de la ciudad de Monterrey conformado por 24 colonias, 8,826 viviendas, 16,995 habitantes. Desde el 2012 este distrito surge como una iniciativa de regeneración urbana impulsada por el Tecnológico de Monterrey, ciudadanos, organizaciones y autoridades con el interés de colaborar para el beneficio de su comunidad. A partir del 2016 se llevan a cabo proyectos derivados del plan maestro del campus y del programa parcial de desarrollo urbano. Acompaña al comité vecinal del DistritoTec a conocer este espacio, las actividades artísticas, educativas y económicas que se desarrollan en la zona. </p>
+          </div>
+        </div>
+        <div class="row column taller">
+          <div class="titulo_taller">
+            <h4 class="subtitulo">Parque Ecológico Chipinque</h4>
+          </div>
+          <div class="desccripcion_taller">
+            <p>El Parque Ecológico Chipinque tiene como principal finalidad brindar a las familias y comunidad en general un lugar de interés, recreación y sano esparcimiento despertando el interés turístico para los visitantes. Este parque es una gran reserva ecológica que se encuentra ubicada en la montaña de Monterrey; ahí se promociona la educación ambiental además de impulsar el conocimiento científico para lograr el desarrollo sustentable. Conoce la montaña regiomontana, encuéntrate con la naturaleza, flora y fauna de la región en este inigualable espacio.</p>
+          </div>
+        </div>
+        <div class="row column taller">
+          <div class="titulo_taller">
+            <h4 class="subtitulo">Barrio Antiguo de Monterrey</h4>
+          </div>
+          <div class="desccripcion_taller">
+            <p>Monterrey es una ciudad moderna e industrial que conserva sus raíces. Te invitamos a conocer el barrio antiguo, ahí se conserva el casco antiguo de la ciudad, el palacio del gobierno, palacio municipal, la catedral y otros edificios que han formado parte de la historia de Monterrey. Sé testigo del paso del tiempo en el desarrollo económico y cultural de la ciudad conociendo uno de sus espacios icónicos.</p>
+          </div>
+        </div>
+        <div class="row column taller">
+          <div class="titulo_taller">
+            <h4 class="subtitulo">Centros deportivos </h4>
+          </div>
+          <div class="desccripcion_taller">
+            <p>El deporte es indispensable para el sano desarrollo del ser humano; los centros deportivos son espacios especializados para la realización de actividades recreativas y de alto rendimiento.  Ya que cuentan con los espacios adecuados, además de una gran oferta de clases para todo aquel interesado en ser parte de ellas. Conoce la experiencia e infraestructura de Nuevo León administrando estos sitios y fomentando el deporte posicionándolo como uno de los estados que encabezan las listas de mayor actividad deportiva y mejores instalaciones en México. </p>
+          </div>
         </div>
       </div>
+
     </section>
     <section class="section_talleres_curriculares">
       <div class="cinta_azul ">
@@ -111,6 +141,31 @@
               </div>
         </div>
       </div>
+      <div class="contenedor_taller">
+        <div class="row column taller">
+          <div class="titulo_taller">
+            <h4 class="subtitulo">Recaudación de fondos</h4>
+          </div>
+          <div class="desccripcion_taller">
+            <p>La sostenibilidad financiera de proyectos de espacio público es un reto al que múltiples asociaciones civiles, grupos vecinales, patronatos y fideicomisos se enfrentan. Los donativos particulares o corporativos, así como patrocinios y la organización de eventos benéficos son opciones para recaudar fondos exitosamente si son planeados estratégicamente. Aprende a desarrollar campañas financieras y asegura el sostenimiento económico de tu parque a largo plazo en este taller curricular. </p>
+          </div>
+        </div>
+        <div class="row column taller">
+          <div class="titulo_taller">
+            <h4 class="subtitulo">Marketing y branding</h4>
+          </div>
+          <div class="desccripcion_taller">
+            <p>El posicionamiento de una marca en el mercado y en la mente de los consumidores es esencial para el éxito de una empresa, negocio o proyecto. Los parques no son la excepción. La identidad visual de un parque y las estrategias mercadológicas para la atracción de usuarios deben de estar relacionadas con su carisma y con sus objetivos para la creación de lazos duraderos con todos los que lo visitan. Haz que tus eventos, actividades, atracciones y contenido de tu parque sean más visibles para los que los disfrutan.</p>
+          </div>
+        </div>
+        <div class="row column taller">
+          <div class="titulo_taller">
+            <h4 class="subtitulo">Placemaking </h4>
+          </div>
+          <div class="desccripcion_taller">
+            <p>El Placemaking (construir lugares) es una metodología para el diseño de espacios públicos que tiene como principios observar, escuchar y preguntar a las personas que lo utilizan y/o viven cerca del sitio que se analiza, o sea, la regeneración urbana de un espacio centrada en los usuarios. En este taller podrás conocer esta metodología, su campo de acción y principios a profundidad, además de llevarla a la práctica analizando espacios de la ciudad sede. </p>
+          </div>
+        </div>
     </section>
 
 

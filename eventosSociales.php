@@ -40,6 +40,7 @@ session_start();
 <main>
   <article class="">
 
+<<<<<<< HEAD
 >>>>>>> e7346cef12d6b6243179b12b640ac65c7b91d951
     <div class="row contenido">
       <div class="column small-12 medium-6">
@@ -82,8 +83,16 @@ session_start();
 
       </div>
 
+=======
+    <div class="row descripcion_cover" >
+      ¡Ha llegado el momento de intercambiar tarjetas y divertirse! Expande tu red profesional y disfruta durante los 3 eventos realizados especialmente para ti. Asiste a la inauguración, beer party y clausura del Congreso Parques, reúnete en un ambiente relajado, diviértete y haz networking.
+      Recuerda que tu entrada al congreso, incluye tu acceso a estos 3 eventos.
+>>>>>>> 44269058baae788a4e47449d256d4ff1d8c68270
     </div>
     <br>
+    <div class="row align-center">
+      <h5 class="subtitulo">¡Próximamente la información completa!</h5>
+    </div>
     <div class="row menu_sede">
       <div class="column medium-3">
         <a href="http://www.merida.gob.mx/capitalcultural/" target="_blank"><img src="img/turismo.png" alt=""></a>
