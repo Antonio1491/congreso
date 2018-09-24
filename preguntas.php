@@ -69,10 +69,7 @@ session_start();
         <li class="accordion-item" data-accordion-item>
           <a href="#" class="accordion-title">+ Recinto </a>
           <div class="accordion-content" data-tab-content>
-            <p>El evento se llevará a cabo en CINTERMEX localizado al noreste de México,
-              en la ciudad de Monterrey, Nuevo León México. Este importante centro de
-              negocios ubicado dentro de Parque Fundidora, el parque urbano metropolitano
-              más grande e importante de Monterrey.<br>
+            <p>El evento se llevará a cabo en CINTERMEX localizado al noreste de México, en la ciudad de Monterrey, Nuevo León, México. Este importante centro de negocios ubicado dentro del Parque Fundidora, el parque urbano metropolitano más grande e importante de Monterrey.<br>
             <a href="https://goo.gl/pECDBC" target="_blank">Ubicación</a>.
             </p>
           </div>
@@ -152,7 +149,7 @@ session_start();
         <li class="accordion-item" data-accordion-item>
           <a href="#" class="accordion-title">+ ¿Dónde me puedo hospedar? </a>
           <div class="accordion-content" data-tab-content>
-            <p>Cercanos al Centro Internacional de Congresos de Yucatán se encuentran los <a href="hospedajes.php">hoteles</a>:</p>
+            <p>Cercanos a CINTERMEX se encuentran los siguientes <a href="hospedajes.php">hoteles</a>:</p>
             <ul>
               <li>	Antaris by Luxor Hotels</li>
               <li>Hotel Monterrey Macroplaza </li>

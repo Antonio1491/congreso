@@ -26,8 +26,7 @@ session_start();
         <h1>hospedaje</h1>
       </hgroup>
       <div class="row descripcion_header">
-        <p>¡Encuentra tu hospedaje! Monterrey, N.L. cuenta con una vasta oferta de hoteles, en esta sección
-          encontrarás información sobre hoteles a una distancia caminable del Centro de congresos CINTERMEX</p>
+        <p>¡Encuentra tu hospedaje! Monterrey cuenta con una vasta oferta de hoteles, en esta sección encontrarás información sobre hoteles a una distancia caminable de CINTERMEX. </p>
       </div>
   </header>
 <main>
@@ -113,7 +112,7 @@ session_start();
               <p><span>Ubicación: </span>Hotel Antaris Cintermex/Ave. Fundidora Nº 500 Col. Obrera.</p>
               <p><span>Clave de reservación: </span><span class="clave_reservacion">Parques Urbanos</span></p>
               <p><span>Contacto: </span>T. (81) 83 18 04 44</p>
-              <a href="#" class="btn_vermas">Sitio Web</a>
+              <a href="https://hotelantaris.com/ " class="btn_vermas">Sitio Web</a>
             </div>
         </div>
         <!-- <div class="titulo_hoteles ">
@@ -158,7 +157,7 @@ session_start();
               <p><span>Contacto: </span>T. 8380 6066<br>
                   WhatsApp: 818 253 8965<br>
                   a.lopez@hotelmonterreymacroplaza.com.mx</p>
-              <a href="#" class="btn_vermas">Sitio Web</a>
+              <!-- <a href="#" class="btn_vermas">Sitio Web</a> -->
             </div>
         </div>
         <div class="row precios_hotel align-center">
@@ -217,7 +216,7 @@ session_start();
               <p><span>Contacto: </span>T. 8380 6066<br>
                   WhatsApp: 818 253 8965<br>
                   a.lopez@fourpointsbysheratongaleriasmonterrey.com.mx</p>
-              <a href="#" class="btn_vermas">Sitio Web</a>
+              <a href="https://www.espanol.marriott.com/hotels/travel/mtyfp-four-points-galerias-monterrey?program=spg " class="btn_vermas">Sitio Web</a>
             </div>
         </div>
         <div class="row precios_hotel align-center">
@@ -266,7 +265,7 @@ session_start();
         <div class="row">
             <div class="column medium-6">
               <figure>
-                <img src="img/hoteles/four_points_2.png" alt="">
+                <img src="img/hoteles/fourpoints2.png" alt="">
               </figure>
             </div>
             <div class="column medium-6 datos_h">
@@ -275,7 +274,7 @@ session_start();
               <p><span>Contacto: </span>T. 8380 6066<br>
                   WhatsApp: 818 253 8965<br>
                   a.lopez@fourpointsbysheratongaleriasmonterrey.com.mx</p>
-              <a href="#" class="btn_vermas">Sitio Web</a>
+              <a href="https://www.espanol.marriott.com/hotels/travel/mtyfp-four-points-galerias-monterrey?program=spg " class="btn_vermas">Sitio Web</a>
             </div>
         </div>
         <div class="row precios_hotel align-center">
@@ -333,7 +332,7 @@ session_start();
               <p><span>Clave de reservación: </span><span class="clave_reservacion">“Congreso Parques 2019.”</span></p>
               <p><span>Contacto: </span>T. 01 800 772 7083<br>
                   cro.hipfmty@hotelesmilenium.com</p>
-              <a href="#" class="btn_vermas">Sitio Web</a>
+              <!-- <a href="#" class="btn_vermas">Sitio Web</a> -->
             </div>
         </div>
         <div class="titulo_hoteles ">
@@ -459,7 +458,7 @@ session_start();
               <p><span>Clave de reservación: </span><span class="clave_reservacion">“Congreso Parques 2019.”</span></p>
               <p><span>Contacto: </span>T. 01 800 839 9300<br>
                   cro.cpmty@hotelesmilenium.com</p>
-              <a href="#" class="btn_vermas">Sitio Web</a>
+              <a href="https://www.ihg.com/crowneplaza/hotels/us/es/reservation" class="btn_vermas">Sitio Web</a>
             </div>
         </div>
         <div class="titulo_hoteles ">
@@ -562,7 +561,7 @@ session_start();
             <div class="tabla">
               <ul>
                 <li>$2,695.00</li>
-                <li>$3,934.00</li>
+                <li>$3,984.00</li>
                 <li>$3,172.00</li>
               </ul>
             </div>
@@ -586,7 +585,7 @@ session_start();
         <div class="row">
             <div class="column medium-6">
               <figure>
-                <img src="img/hoteles/crowne.png" alt="">
+                <img src="img/hoteles/hoteles-28.png" alt="">
               </figure>
             </div>
             <div class="column medium-6 datos_h">
@@ -594,7 +593,7 @@ session_start();
               <p><span>Clave de reservación: </span><span class="clave_reservacion">“Congreso Parques 2019.”</span></p>
               <p><span>Contacto: </span>T. 01 800 223 6870<br>
                   cro.istay@hotelesmilenium.com</p>
-              <a href="#" class="btn_vermas">Sitio Web</a>
+              <a href="https://www.istaymonterrey.com/default-es.html " class="btn_vermas">Sitio Web</a>
             </div>
         </div>
         <div class="titulo_hoteles ">
@@ -720,7 +719,7 @@ session_start();
               <p><span>Clave de reservación: </span><span class="clave_reservacion">“Congreso Parques 2019.”</span></p>
               <p><span>Contacto: </span>01 800 018 7286<br>
                   cro.travohotelmty@hotelesmilenium.com</p>
-              <a href="#" class="btn_vermas">Sitio Web</a>
+              <a href="https://www.travohotel.com.mx/default-es.html " class="btn_vermas">Sitio Web</a>
             </div>
         </div>
         <div class="titulo_hoteles ">
@@ -846,7 +845,7 @@ session_start();
               <p><span>Clave de reservación: </span><span class="clave_reservacion">“Congreso Parques 2019.”</span></p>
               <p><span>Contacto: </span>01 800 711 9158<br>
                   cro.hiegal@hotelesmilenium.com</p>
-              <a href="#" class="btn_vermas">Sitio Web</a>
+              <!-- <a href="#" class="btn_vermas">Sitio Web</a> -->
             </div>
         </div>
         <div class="titulo_hoteles ">
@@ -972,7 +971,7 @@ session_start();
               <p><span>Clave de reservación: </span><span class="clave_reservacion">“Congreso Parques 2019.”</span></p>
               <p><span>Contacto: </span>01 800 710 2139<br>
                   cro.hietec@hotelesmilenium.com</p>
-              <a href="#" class="btn_vermas">Sitio Web</a>
+              <!-- <a href="#" class="btn_vermas">Sitio Web</a> -->
             </div>
         </div>
         <div class="titulo_hoteles ">
@@ -1098,7 +1097,7 @@ session_start();
               <p><span>Clave de reservación: </span><span class="clave_reservacion">“Congreso Parques 2019.”</span></p>
               <p><span>Contacto: </span>T. 01 800 674 6835<br>
                   cro.msmilenium@hotelesmilenium.com</p>
-              <a href="#" class="btn_vermas">Sitio Web</a>
+              <a href="https://www.msmilenium.com/es/habitaciones " class="btn_vermas">Sitio Web</a>
             </div>
         </div>
         <div class="titulo_hoteles ">
@@ -1262,6 +1261,8 @@ session_start();
       </div>
 
     </div> <!-- fin de contenedor hoteles-->
+    <br><br>
+    <?php include('assets/menu_sede.php') ?>
 
   </section>
 

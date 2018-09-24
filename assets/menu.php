@@ -31,7 +31,7 @@
                       <li><a href="#">acerca de</a>
                         <ul class="menu sub-menu-central">
                           <li><a href="congresoParques.php">Congreso</a></li>
-                          <li><a href="sesionesEducativas.php">Ejes Temáticos</a></li>
+                          <li><a href="ejesTematicos.php">Ejes Temáticos</a></li>
                           <li>
                             <a href="#">eventos</a>
                             <ul class="menu sub-menu-central">
@@ -64,7 +64,7 @@
                       </li>
                       <li><a href="#">Sede</a>
                         <ul class="menu  sub-menu-central">
-                          <li><a href="ciudadDeLasMontanas.php">Monterrey, Nuevo león</a></li>
+                          <li><a href="CiudadDeLasMontanas.php">Monterrey, Nuevo león</a></li>
                           <li><a href="hospedajes.php">Hospedaje</a></li>
                           <li><a href="conectividad.php">Conectividad Aérea</a></li>
                           <!-- <li><a href="parques.php">Parques en monterrey</a></li> -->

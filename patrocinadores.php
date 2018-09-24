@@ -41,7 +41,7 @@ Un año más que se permite el fortalecimiento de la comunidad de los parques ur
         <h3 class="subtitulo">Organiza</h3>
         <figure>
           <a href="http://www.anpr.org.mx/" target="_blank">
-            <img src="img/organiza.png" alt="" >
+            <img src="img/patrocinadores/organiza.png" alt="" >
           </a>
         </figure>
       </div>
@@ -49,7 +49,7 @@ Un año más que se permite el fortalecimiento de la comunidad de los parques ur
         <h3 class="subtitulo">Presenta</h3>
         <figure>
           <a href="https://www.parquefundidora.org/" target="_blank">
-            <img src="img/presenta.png" alt="">
+            <img src="img/patrocinadores/presenta.png" alt="">
           </a>
         </figure>
       </div>
@@ -61,21 +61,21 @@ Un año más que se permite el fortalecimiento de la comunidad de los parques ur
       <div class="item_patrocinador">
         <figure>
           <a href="https://www.coca-colamexico.com.mx/fundacion-coca-cola" target="_blank">
-            <img src="img/patrocinan_fundacion_cocacola.png" alt="">
+            <img src="img/patrocinadores/patrocinan_fundacion_cocacola.png" alt="">
           </a>
         </figure>
       </div>
       <div class="item_patrocinador" target="_blank">
         <figure>
           <a href="http://www.arcacontal.com/">
-            <img src="img/patrocinan_arcacontinental.png" alt="">
+            <img src="img/patrocinadores/patrocinan_arcacontinental.png" alt="">
           </a>
         </figure>
       </div>
       <div class="item_patrocinador">
         <figure>
           <a href="http://www.playclub.com.mx/" target="_blank">
-            <img src="img/patrocinan_playclub.png" alt="">
+            <img src="img/patrocinadores/patrocinan_playclub.png" alt="">
           </a>
         </figure>
       </div>
@@ -84,14 +84,14 @@ Un año más que se permite el fortalecimiento de la comunidad de los parques ur
       <div class="item_patrocinador">
         <figure>
           <a href="https://www.escofet.com/inicio" target="_blank">
-            <img src="img/patrocinan_escofet.png" alt="">
+            <img src="img/patrocinadores/patrocinan_escofet.png" alt="">
           </a>
         </figure>
       </div>
       <div class="item_patrocinador">
         <figure>
           <a href="http://rejadeacero.com/" target="_blank">
-            <img src="img/patrocinan_rejadeacero.png" alt="">
+            <img src="img/patrocinadores/patrocinan_rejadeacero.png" alt="">
           </a>
         </figure>
       </div>
@@ -103,13 +103,13 @@ Un año más que se permite el fortalecimiento de la comunidad de los parques ur
       <div class="item_patrocinador">
         <figure>
           <a href="https://nuevoleon.travel/" target="_blank">
-            <img src="img/socios_nuevoleon.png" alt="">
+            <img src="img/patrocinadores/socios_nuevoleon.png" alt="">
           </a>
         </figure>
       </div>
       <div class="item_patrocinador">
         <figure>
-          <img src="img/socios_monterrey.png" alt="">
+          <img src="img/patrocinadores/socios_monterrey.png" alt="">
         </figure>
       </div>
     </div>
