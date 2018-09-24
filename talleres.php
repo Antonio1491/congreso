@@ -25,10 +25,7 @@
 <main class="">
   <section class="contenido">
     <div class="row column">
-      <p class="descripcion_cover">Los talleres son una gran oportunidad para extender nuestro conocimiento
-        sobre el espacio público. En el Congreso Parques 2019 habrá dos tipos de
-        talleres: vivenciales y curriculares.
-        El lunch, transporte, materiales y papelería está incluido.</p>
+      <p class="descripcion_cover">Los talleres son una gran oportunidad para extender nuestro conocimiento sobre el espacio público. En el Congreso Parques 2019 habrá dos tipos de talleres: vivenciales y curriculares. El lunch, transporte, materiales y papelería están incluidos.</p>
     </div>
     <div class="row text-center">
       <h4 class="subtitulo">Los más de 15 talleres se realizarán
@@ -69,7 +66,7 @@
             <h4 class="subtitulo">Parque Rufino Tamayo</h4>
           </div>
           <div class="desccripcion_taller">
-            <p>En el corazón de municipio de San Pedro Garza García, se encuentra el parque Rufino Tamayo; espacio que ofrece un espacio digno, seguro e incluyente para el goce de todos, haciendo honor al gran artista mexicano Rufino Tamayo. Acompáñanos a conocer este parque, su modelo de operación, sus retos y éxitos al posicionarse como un espacio único para el disfrute de los sampetrinos y visitantes, además de la alianza con el Instituto de Salud para impulsar programas que fomenten la salud en el espacio público. </p>
+            <p>En el corazón de municipio de San Pedro Garza García, se encuentra el parque Rufino Tamayo; parque que ofrece un espacio digno, seguro e incluyente para el goce de todos, haciendo honor al gran artista mexicano Rufino Tamayo. Acompáñanos a conocer este parque, su modelo de operación, sus retos y éxitos al posicionarse como un espacio único para el disfrute de los sampetrinos y visitantes, además de la alianza con el Instituto de Salud del Tec de Monterrey, para impulsar programas que fomenten el bienestar en el espacio público. </p>
           </div>
         </div>
         <!-- <div class="row taller_descripcion">
@@ -84,7 +81,7 @@
             <h4 class="subtitulo">DistritoTec</h4>
           </div>
           <div class="desccripcion_taller">
-            <p>El DistritoTec es un polígono de 452 hectáreas ubicado al sur de la ciudad de Monterrey conformado por 24 colonias, 8,826 viviendas, 16,995 habitantes. Desde el 2012 este distrito surge como una iniciativa de regeneración urbana impulsada por el Tecnológico de Monterrey, ciudadanos, organizaciones y autoridades con el interés de colaborar para el beneficio de su comunidad. A partir del 2016 se llevan a cabo proyectos derivados del plan maestro del campus y del programa parcial de desarrollo urbano. Acompaña al comité vecinal del DistritoTec a conocer este espacio, las actividades artísticas, educativas y económicas que se desarrollan en la zona. </p>
+            <p>El DistritoTec es un polígono de 452 hectáreas ubicado al sur de la ciudad de Monterrey conformado por 24 colonias, 8,826 viviendas, 16,995 habitantes. Desde el 2012 este distrito surge como una iniciativa de regeneración urbana impulsada por el Tecnológico de Monterrey, ciudadanos, organizaciones y autoridades con el interés de colaborar para el beneficio de su comunidad. A partir del 2016 se llevan a cabo proyectos derivados del plan maestro del campus y del programa parcial de desarrollo urbano. Acompaña al comité vecinal del DistritoTec a conocer este espacio, las actividades artísticas, educativas y económicas que se desarrollan en la zona, así como los espacios públicos icónicos que rodean esta importante universidad. </p>
           </div>
         </div>
         <div class="row column taller">
@@ -92,7 +89,7 @@
             <h4 class="subtitulo">Parque Ecológico Chipinque</h4>
           </div>
           <div class="desccripcion_taller">
-            <p>El Parque Ecológico Chipinque tiene como principal finalidad brindar a las familias y comunidad en general un lugar de interés, recreación y sano esparcimiento despertando el interés turístico para los visitantes. Este parque es una gran reserva ecológica que se encuentra ubicada en la montaña de Monterrey; ahí se promociona la educación ambiental además de impulsar el conocimiento científico para lograr el desarrollo sustentable. Conoce la montaña regiomontana, encuéntrate con la naturaleza, flora y fauna de la región en este inigualable espacio.</p>
+            <p>El Parque Ecológico Chipinque tiene como principal finalidad brindar a las familias y comunidad en general un lugar de recreación y sano esparcimiento despertando el interés turístico para los visitantes. Este parque es una gran reserva ecológica que se encuentra ubicada en la sierra madre oriental; ahí se promociona la educación ambiental además de impulsar el conocimiento científico para lograr el desarrollo sustentable. Conoce este maravilloso espacio y encuéntrate con la naturaleza, flora y fauna de la región. </p>
           </div>
         </div>
         <div class="row column taller">
@@ -100,7 +97,7 @@
             <h4 class="subtitulo">Barrio Antiguo de Monterrey</h4>
           </div>
           <div class="desccripcion_taller">
-            <p>Monterrey es una ciudad moderna e industrial que conserva sus raíces. Te invitamos a conocer el barrio antiguo, ahí se conserva el casco antiguo de la ciudad, el palacio del gobierno, palacio municipal, la catedral y otros edificios que han formado parte de la historia de Monterrey. Sé testigo del paso del tiempo en el desarrollo económico y cultural de la ciudad conociendo uno de sus espacios icónicos.</p>
+            <p>Monterrey es una ciudad moderna e industrial que conserva sus raíces. Te invitamos a conocer el barrio antiguo, ahí se conserva el casco antiguo de la ciudad, el palacio del gobierno, palacio municipal, la catedral, el faro de comercio y otros edificios emblemáticos que conforman la Macro Plaza y que han formado parte de la historia de Monterrey. Sé testigo del paso del tiempo en el desarrollo económico y cultural de la ciudad conociendo uno de sus espacios icónicos.</p>
           </div>
         </div>
         <div class="row column taller">
@@ -130,12 +127,7 @@
           </figure>
         </div>
         <div class="column medium-6">
-            <p>Si lo que deseas es obtener conocimiento técnico y sobre un tema
-              especializado, estos talleres son para ti. Durante 4 horas contarás
-              con un espacio de formación que potencializará tus conocimientos
-              trabajando de la mano con un profesional en el área que brindará
-              información para enfrentar retos en proyectos de espacio público.
-              Al finalizar el taller, se otorgará un diploma con valor curricular. </p>
+            <p>Si lo que deseas es obtener conocimiento técnico sobre un tema especializado, estos talleres son para ti. Durante 4 horas contarás con la guía de un especialista que te ayudará a ampliar tus conocimientos y a aprender técnicas sobre temas diversos del espacio público. Al finalizar el taller, se te otorgará un diploma con valor curricular. </p>
               <div class="cupo_taller">
                 <p>Cupo máximo: <span>60 personas por taller</span> </p>
               </div>

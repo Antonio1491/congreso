@@ -21,14 +21,14 @@ session_start();
     <?php include'assets/menu.php'; ?>
       <hgroup class="titulo_pagina"><br>
         <h2>La ciudad de las montañas</h2>
-        <h1>Monterrey</h1>
+        <h1>Monterrey,</h1>
         <h1>Nuevo León</h1>
       </hgroup>
     </div>
   </header>
 <main class="sede">
   <div class="row">
-    <p class="descripcion_principal">El Congreso Parques te espera en uno de los centros de convenciones y exposiciones más importantes de México. CINTERMEX ubicado dentro de Parque Fundidora, es un parque urbano incluyente y multifuncional que contribuye a reforzar el tejido social ofreciendo un espacio verde, seguro y de acceso 100% gratuito.</p>
+    <p class="descripcion_principal">El Congreso Parques te espera en uno de los centros de convenciones y exposiciones más importantes de México: CINTERMEX. Este importante centro de negocios ubicado dentro de Parque Fundidora, el parque urbano metropolitano más grande e importante de Monterrey. El Parque Fundidora es un espectacular espacio público en el que converge la cultura, el deporte, el entretenimiento y negocios. Con sus más de 120 hectáreas conecta a través del Paseo Santa Lucía con la Macro Plaza. </p>
   </div>
   <div class="row align-center">
     <h3 class="subtitulo">Monterrey: Escenario de Éxitos</h3>
@@ -39,18 +39,9 @@ session_start();
 
   <div class="row contenido_sede">
     <div class="column medium-8">
-      <p>Monterrey posee una gran cultura e historia; con el paso del tiempo la
-        ciudad ha ido desarrollándose y, hoy por hoy, es un centro de negocios
-        industrial y económico de suma importancia en México. También tiene
-        grandes paisajes como el Cerro de la Silla, zonas verdes y monumentos
-        históricos dignos de visitar entre ellos El Cerro de la Silla, El Cerro
-        de las Mintras, La Sierra Madre que se cobija con paisajes llenos de
-        montañas, aguas termales y por supuesto una diversidad en sus museos.
-        Algo que no debes perderte de esta ciudad anfitriona es la librería
-        Conarte, considerada de las más bellas de la tierra. </p>
-        <p>Los alrededores de Monterrey te harán volver por más, sobre todo
-          cuando la aventura y el contacto con la naturaleza son parte de ti.
-          Ven y disfruta del Congreso Parques ¡La ciudad de las montañas te espera! </p>
+      <p>Monterrey, capital del estado de Nuevo León, es una ciudad de 420 años de historia. Es un centro de negocios e industrial con un gran impacto económico en México. Posee dentro de sus riquezas naturales grandes paisajes como el Cerro de la Silla, zonas verdes y monumentos históricos dignos de visitar; entre ellos se encuentra el Cerro de las Mitras, la Cola de Caballo, las Grutas de García y la Sierra Madre.  </p>
+        <p>Monterrey es además casa de una de las comunidades estudiantiles más grandes de México, razón por la cual es cuna de emprendedores que han ayudado a transformar la economía de Nuevo León y de México. </p>
+      <p>Conoce los increíbles espacios públicos de Monterrey y no dejes de sorprenderte con su gastronomía, tradiciones y atracciones.  ¡La ciudad de las montañas te espera!.</p>
     </div>
     <div class="column medium-4 sabias">
       <h4>¿Sabías que? </h4>
@@ -67,8 +58,7 @@ session_start();
       <div class="column medium-4 cintermex_icono">
         <div class="">
           <figure>
-            <img src="img/sede_cintermex.png" alt="">
-
+            <a href="http://www.cintermex.com.mx/newweb/"><img src="img/patrocinadores/sede_cintermex.png" alt=""></a>
           </figure>
         </div>
         <div class="">
@@ -87,7 +77,7 @@ session_start();
         <h5 class="subtitulo_bc">Parques de diversión:</h5>
         <p>Parque Plaza Sésamo, Bioparque Estrella y Bosque Mágico entre los más visitados. </p>
         <h5 class="subtitulo_bc">Gastronomía</h5>
-        <p>Más de 1,700 restaurantes de calidad turística con renombrados chefs especializados en cocina regional, nacional e internacional</p>
+        <p>Más de 1,700 restaurantes de calidad turística con renombrados chefs especializados en cocina regional, nacional e internacional.</p>
       </div>
     </div>
   </div>

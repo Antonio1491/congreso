@@ -2,7 +2,7 @@
 <footer>
   <div class="row align-justify text-center">
     <div class="column small-6 medium-3 small-order-1 medium-order-1">
-      <a href="participar.php"><img data-src="img/logotipo/logo_congreso_bc.png" alt="1er Congreso de Parques Urbanos" class=""></a>
+      <a href="congresoParques.php"><img data-src="img/logotipo/logo_congreso_bc.png" alt="1er Congreso de Parques Urbanos" class=""></a>
     </div>
     <div class="column small-12 medium-5 small-order-3 medium-order-2" id="cabecera-footer">
       <hgroup>
@@ -20,7 +20,7 @@
     </div>
     <div class="column small-6 medium-2 small-order-2 ">
       <h4>Presenta</h4>
-      <a href="#">
+      <a href="https://www.parquefundidora.org/">
         <img data-src="img/logotipo/fundidora_bc.png" alt="Parque Fundidora" class="logo_footer">
       </a>
     </div>
@@ -113,6 +113,17 @@ var bLazy = new Blazy({
         infinite: true,
         slidesToShow: 4,
         slidesToScroll: 1
+      });
+    });
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.cinta-ponentes').slick({
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      slidesToScroll: 1
       });
     });
   </script>

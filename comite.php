@@ -35,13 +35,19 @@ session_start();
         dedicada a la formación y profesionalización sobre parques urbanos,
         recreación y espacios públicos a través de sus 5 ejes de acción. La ANPR
         México tiene diversos compromisos, entre ellos se encuentran:
-        <ol>
-          <li>Promover el ordenamiento de la industria, fomentando la interacción, capacitación y el desarrollo de los diferentes actores comprometidos con el espacio público en México.  </li>
-          <li>Generar y comunicar información oportuna y confiable de la industria nacional e internacional.</li>
-          <li>Crear un foro de participación para la red de profesionales de parques y recreación.</li>
-          <li>Contribuir al involucramiento del gobierno de México e influenciar en el desarrollo y establecimiento de nuevas políticas públicas.</li>
-          <li>Favorecer la regeneración del tejido social a través de la intervención de espacios públicos.</li>
-        </ol>
+        <div class="column medium-8">
+          <ol>
+            <li>Promover el ordenamiento de la industria, fomentando la interacción, capacitación y el desarrollo de los diferentes actores comprometidos con el espacio público en México.  </li>
+            <li>Generar y comunicar información oportuna y confiable de la industria nacional e internacional.</li>
+            <li>Crear un foro de participación para la red de profesionales de parques y recreación.</li>
+            <li>Contribuir al involucramiento del gobierno de México e influenciar en el desarrollo y establecimiento de nuevas políticas públicas.</li>
+            <li>Favorecer la regeneración del tejido social a través de la intervención de espacios públicos.</li>
+          </ol>
+        </div>
+        <div class="column medium-4 text-center">
+          <a href="https://anpr.org.mx/" target="_blank"><img src="img/logotipo/anpr_azul.png" alt="" class="img_organizador"></a>
+        </div>
+
         </p>
         <p>Durante la segunda edición del Congreso Parques se convoca a más de 3,500 profesionales a reunirse en Monterrey, Nuevo León, México. Con actividades enérgicas, conferencias magistrales, sesiones educativas, talleres, reuniones de networking, proyectos inspiradores y un vistazo a los productos y servicios para este campo. </p>
     </div>

@@ -169,7 +169,7 @@
         <div class="column medium-4 small-12 bloque">
           <article class="metodo_aprendizaje">
             <figure>
-              <img src="img/i_eventos_sociales_m.png" alt="">
+              <img src="img/i_eventos.png" alt="">
             </figure>
             <h3>Eventos Sociales</h3>
             <p>¡Ha llegado el momento de intercambiar tarjetas y divertirse! Expande tu

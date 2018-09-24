@@ -27,6 +27,9 @@
         <h3 class="titulo_mv">lista de precios de inscripción</h3>
       </div>
     </div>
+    <div class="row align-center">
+        <h5 class="subtitulo">*Inscripciones abiertas en el mes de octubre</h5>
+    </div>
     <div class="row align-center contenido_precios">
       <figure class="fila-espacio2">
         <img src="img/precios_inscripcion.png" alt="" class="">

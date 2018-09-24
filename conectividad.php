@@ -19,28 +19,62 @@ session_start();
 <body onload="countdown('contador')">
   <header class="header_paginas header_conectividad">
     <?php include'assets/menu.php'; ?>
-      <hgroup class="titulo_pagina"><br>
+    <div class="figure_header">
+      <figure class="">
+        <img src="img/conectividad.png" alt="">
+      </figure>
+    </div>
+      <hgroup class="titulo_pagina">
         <h1>Conectividad</h1>
       </hgroup>
     </div>
   </header>
-<main class="">
+<main class="conectividad">
   <div class="row align-center">
-    <h5 class="subtitulo">¡Próximamente la información completa!</h5>
+    <h2 class="subtitulo mayus">conectividad aérea</h2>
   </div>
-  <div class="row menu_sede">
-    <div class="column medium-3">
-      <a href="http://www.merida.gob.mx/capitalcultural/" target="_blank"><img src="img/turismo.png" alt=""></a>
+  <br>
+  <div class="row align-center">
+    <h4 class="titulo_tabla_conectividad subtitulo_mb">DESTINOS NACIONALES DIRECTOS</h4>
+  </div>
+  <div class="cinta_azul">
+    <div class="row">
+      <figure>
+        <img src="img/vuelos_nacional.png" alt="">
+      </figure>
     </div>
-    <div class="column medium-3">
-        <a href="http://www.yucatan.travel/" target="_blank"><img src="img/parques.png" alt="">
+  </div><br><br>
+  <div class="row align-center fila-espacio">
+    <h4 class="titulo_tabla_conectividad subtitulo_mb">DESTINOS INTERNACIONALES DIRECTOS</h4>
+  </div>
+  <div class="cinta_azul">
+    <div class="row">
+      <figure>
+        <img src="img/vuelos_internacional.png" alt="" >
+      </figure>
     </div>
-    <div class="column medium-3">
-        <a href="conectividad.php" target=""><img src="img/conectividad.png" alt="">
+  </div><br>
+  <div class="row align-center">
+    <figure>
+      <img src="img/mapa-conectividad.png" alt="" class="mapa_conectividad">
+    </figure>
+  </div><br>
+  <div class="row align-center">
+    <h2 class="subtitulo mayus">conectividad Terrestre</h2>
+  </div>
+  <div class="cinta_azul">
+    <div class="row align-center">
+      <h4 class="subtitulo_bc">Monterrey conecta fácilmente con el resto del país.</h4>
+      <p class="descripcion_cover">Se localiza a 957km al norte de la ciudad de México por las carreteras número 57, 45, y 40 y a 225km de Reynosa por la carretera número 40.</p>
     </div>
-    <div class="column medium-3">
-        <a href="hospedajes.php" target=""><img src="img/hospedaje.png" alt="">
-    </div>
+  </div><br>
+  <div class="row align-center">
+    <figure>
+      <img src="img/conectividad_terrestre.png" alt="" class="conectividad_terrestre">
+    </figure>
+  </div>
+  <br>
+  <?php include('assets/menu_sede.php') ?>
   </div>
 </main>
 

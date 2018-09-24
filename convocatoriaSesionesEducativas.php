@@ -47,7 +47,7 @@
       </div>
       <div class="column medium-6 small-12">
         <p>Las propuestas recibidas con más probabilidad de ser aceptadas para formar parte
-          del programa son, aquellas que se apeguen a nuestras <a href="EjesTematicos.php" class="link">5 temáticas.</a></p>
+          del programa son, aquellas que se apeguen a nuestras <a href="ejesTematicos.php" class="link">5 temáticas.</a></p>
       </div>
     </div>
     <div class="row">
@@ -163,9 +163,9 @@
         <p>Debes crear un título que refleje la esencia de tu sesión y deberá ser de 12 palabras o menos.</p>
         <p><span>Seleccionar la <a href="EjesTematicos.php" class="link">temática</a> a la que se alinea.</span></p>
         <p><span>Descripción:</span>
-        Describe de forma concisa y clara tu sesión; esta, debe ser de 200 palabras o menos. Si tu sesión es seleccionada, la descripción aparecerá en nuestra página web, asegúrate que invite a entrar a ella.</p>
+        Describe de forma concisa y clara tu sesión; esta debe ser de 200 palabras o menos. Si tu sesión es seleccionada, la descripción aparecerá en nuestra página web, asegúrate de que te invite a entrar a ella. </p>
         <p><span>Justificación:</span><br>
-        Justifica la importancia de tu sesión educativa propuesta, identificando cómo tu proyecto/iniciativa/investigación, etc da solución a un problema relacionado con el espacio público y cómo se relaciona con las cinco temáticas del congreso. No hay limitaciones en el número de palabras.</br>
+        Justifica la importancia de tu sesión educativa propuesta, identificando cómo tu proyecto/iniciativa/investigación, da solución a un problema relacionado con el espacio público y cómo se relaciona con las cinco temáticas del congreso. No hay limitaciones en el número de palabras.</br>
       </div>
       <div class="column medium-6">
         <p><span>Objetivos:</span><br>
