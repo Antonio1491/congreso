@@ -84,22 +84,14 @@
 
     <div class="row consideraciones">
       <div class="column medium-10">
-        <h4 class="subtitulo">Consideraciones Generales</h4>
-          <p>Las sesiones educativas están destinadas a la capacitación y el aprendizaje;
-            al compartir conocimientos, experiencias y proyectos en los que se haya
-            colaborado en pro del espacio público. No es un espacio de venta o promoción
-            de productos y servicios; por tal motivo, las propuestas que estén inclinadas
-            a estas actividades no podrán formar parte de las sesiones educativas programadas.</p>
+        <h4 class="subtitulo">Consideraciones generales</h4>
+          <p>Si la propuesta es aceptada, cuando se le indique, el ponente deberá de firmar los acuerdos, términos y condiciones de privacidad además de compartir su presentación (material visual de apoyo). El material se hará público en la plataforma web de la Asociación Nacional de Parques y Recreación de México posterior a las fechas del congreso.</p>
         <p>Si la propuesta es aceptada, cuando se le indique, el ponente deberá de frirmar
           los acuerdos, términos y condiciones de privacidad, compartir su presentación
           (material visual de apoyo), ya que ese material se hará público en la plataforma
           web de la <strong><a href="https://anpr.org.mx/" target="_blank" class="link">Asociación Nacional de Parques y Recreación de México</a></strong> posterior a las
           fechas del congreso.</p>
-          <p>Las sesiones educativas en sus dos modalidades tienen una duración de 45 y 75
-            minutos. La Asociación Nacional de Parques y Recreación de México se reserva el
-            derecho de designar el tiempo de intervención de las propuestas seleccionadas. Se
-            podría o no, compartir el espacio la sesión educativa con algún otro ponente haciendo que los
-            tiempos de intervención puedan fluctuar entre los 20, 30, 45 o 75 minutos. </p>
+          <p>Las sesiones educativas en sus dos modalidades tienen una duración de 45 y 75 minutos. La Asociación Nacional de Parques y Recreación de México se reserva el derecho de designar el tiempo de intervención de las propuestas seleccionadas. Se podría o no, compartir el espacio de la sesión educativa con algún otro ponente haciendo que los tiempos de intervención puedan fluctuar entre los 20, 30, 45 o 75 minutos.</p>
         </ul>
       </div>
     </div>
@@ -112,17 +104,13 @@
         </div>
         <div class="column medium-6 small-12">
           <h4 class="subtitulo_bc">Beneficios</h4>
-          <p>A los ponentes seleccionados se les otorgará una entrada general de cortesía
-            para los días que el evento tendrá lugar en el Centro de Convenciones CINTERMEX.
-            La entrada de cortesía incluye:
-          </P>
+          <p>A los ponentes seleccionados se les otorgará una entrada general de cortesía para los días del evento que tendrá lugar en el Centro de Convenciones CINTERMEX. La entrada de cortesía incluye:</p>
           <ul>
             <li>Todas las <strong><a href="conferenciasMagistrales.php" class="link">conferencias magistrales</a></strong> y sesiones educativas.</li>
             <li>Entrada a la muestra comercial <strong><a href="expoParques.php" class="link">“Expo Parques Urbanos”</a></strong>.</li>
             <li><strong><a href="eventosSociales.php" class="link">Eventos sociales.</a></strong></li>
           </ul>
-          <p class="nota"><strong >Nota:</strong> Los gastos relacionados con inscripción a talleres, traslado, hospedaje, comidas y honorarios por presentación de
-          la sesión no están incluidos en el paquete de beneficios.</p>
+          <p class="nota"><strong >Nota:</strong> Los gastos relacionados con inscripción a talleres, traslado, hospedaje, comidas y honorarios por presentación de la sesión no están incluidos en el paquete de beneficios.</p>
         </div>
       </div>
     </div>
@@ -137,7 +125,7 @@
           <img src="img/convocatoria/formulario.png" alt="">
         </figure>
         <h4 class="paso1">LLENA EL FORMULARIO</h4>
-        <p>Si tu propuesta es una “Mesa panel” más de una persona, es importante registrar a todas las personas.</p>
+        <p>Si tu propuesta es una “Mesa panel”, es importante registrar a todas las personas.</p>
       </div>
       <div class="column medium-4">
         <figure>
@@ -161,7 +149,7 @@
       <div class="column medium-6">
         <span>Título:</span>
         <p>Debes crear un título que refleje la esencia de tu sesión y deberá ser de 12 palabras o menos.</p>
-        <p><span>Seleccionar la <a href="EjesTematicos.php" class="link">temática</a> a la que se alinea.</span></p>
+        <p><span>Seleccionar la <a href="ejesTematicos.php" class="link">temática</a> a la que se alinea.</span></p>
         <p><span>Descripción:</span>
         Describe de forma concisa y clara tu sesión; esta debe ser de 200 palabras o menos. Si tu sesión es seleccionada, la descripción aparecerá en nuestra página web, asegúrate de que te invite a entrar a ella. </p>
         <p><span>Justificación:</span><br>

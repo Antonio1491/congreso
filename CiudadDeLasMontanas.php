@@ -24,7 +24,7 @@ session_start();
         <h1>Monterrey,</h1>
         <h1>Nuevo León</h1>
       </hgroup>
-    </div>
+    
   </header>
 <main class="sede">
   <div class="row">

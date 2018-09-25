@@ -42,7 +42,7 @@
                               <li><a href="eventosSociales.php">eventos sociales</a></li>
                             </ul>
                           </li>
-                          <!-- <li><a href="#">Programa Completo</a></li> -->
+                          <li><a href="programa.php">Pre-programa</a></li>
                           <!-- <li><a href="#">Ponentes</a></li> -->
                           <li><a href="patrocinadores.php">Patrocinadores</a></li>
                           <li><a href="comite.php">Comité organizador</a></li>
@@ -64,7 +64,7 @@
                       </li>
                       <li><a href="#">Sede</a>
                         <ul class="menu  sub-menu-central">
-                          <li><a href="CiudadDeLasMontanas.php">Monterrey, Nuevo león</a></li>
+                          <li><a href="ciudadDeLasMontanas.php">Monterrey, Nuevo león</a></li>
                           <li><a href="hospedajes.php">Hospedaje</a></li>
                           <li><a href="conectividad.php">Conectividad Aérea</a></li>
                           <!-- <li><a href="parques.php">Parques en monterrey</a></li> -->

@@ -30,21 +30,20 @@ session_start();
       </hgroup>
     </header>
 <main>
-  <article class="">
 
-    <div class="row descripcion_cover" >
-      ¡Ha llegado el momento de intercambiar tarjetas y divertirse! Expande tu red profesional y disfruta durante los 3 eventos realizados especialmente para ti. Asiste a la inauguración, beer party y clausura del Congreso Parques, reúnete en un ambiente relajado, diviértete y haz networking.
-      Recuerda que tu entrada al congreso, incluye tu acceso a estos 3 eventos.
+    <div class="row align-center" >
+      <p class="descripcion_cover subtitulo">¡Ha llegado el momento de intercambiar tarjetas y divertirse!</p>
+      <p class="descripcion_cover"> Expande tu red profesional y disfruta durante los 3 eventos realizados especialmente para ti. Asiste a la inauguración, beer party y clausura del Congreso Parques, reúnete en un ambiente relajado, diviértete y haz networking.
+      Recuerda que tu entrada al congreso, incluye tu acceso a estos 3 eventos.</p>
 
     </div>
     <br>
-    <div class="row align-center">
+    <!-- <div class="row align-center">
       <h5 class="subtitulo">¡Próximamente la información completa!</h5>
-    </div>
+    </div> -->
 
     <?php include('assets/menu_sede.php') ?>
-
-  </article>
+>
 </main>
 
 <?php include'assets/footer.php'; ?>

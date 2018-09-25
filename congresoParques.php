@@ -87,8 +87,7 @@
     <div class="">
       <div class="row">
         <h4 class="subtitulo ">El método de aprendizaje </h4>
-        <p>Durante los días del Congreso, encontrarás diversos momentos para compartir y generar conocimiento para mejorar
-          tu experiencia de aprendizaje. Conoce las distintas opciones que el Congreso Parques ofrece: </p>
+        <p>Durante los días del congreso, encontrarás diversos momentos para compartir y generar conocimiento para mejorar tu experiencia de aprendizaje. Conoce las distintas opciones que el Congreso Parques ofrece:  </p>
       </div>
       <div class="row">
         <div class="column medium-4 small-12 bloque">
@@ -97,10 +96,7 @@
               <img src="img/i_conf.png" alt="">
             </figure>
             <h3>conferencias Magistrales</h3>
-            <p>¿Te imaginas a todos los asistentes del congreso en una misma sala? ¡Este es un momento
-              que nadie debe perderse! Durante las conferencias magistrales contaremos con nuestros
-              expertos sobre parques urbanos y espacios públicos, ellos hablarán sobre sus experiencias
-              profesionales y personales sobre temas de interés común para nuestras ciudades.   </p>
+            <p>¿Te imaginas a todos los asistentes del congreso en una misma sala? ¡Este es un momento que nadie debe perderse! Durante las conferencias magistrales contaremos con expertos en parques urbanos y espacios públicos; ellos hablarán sobre sus experiencias profesionales y personales además de tocar temas de interés común para nuestras ciudades.   </p>
             <div class="contenedor_btn">
               <a href="conferenciasMagistrales.php" class="btn_vermas">Ver más</a>
             </div>

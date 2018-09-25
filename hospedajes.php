@@ -23,10 +23,11 @@ session_start();
   <header class="header_paginas header_hospedaje">
     <?php include'assets/menu.php'; ?>
       <hgroup class="titulo_pagina"><br>
-        <h1>hospedaje</h1>
+        <h1 >hospedaje</h1>
       </hgroup>
-      <div class="row descripcion_header">
-        <p>¡Encuentra tu hospedaje! Monterrey cuenta con una vasta oferta de hoteles, en esta sección encontrarás información sobre hoteles a una distancia caminable de CINTERMEX. </p>
+      <div class="row descripcion_header align-center">
+        <h5 class="subtitulo_bc ">¡Encuentra tu hospedaje!</h5>
+        <p>Monterrey cuenta con una vasta oferta de hoteles, en esta sección encontrarás información sobre hoteles a una distancia caminable de CINTERMEX. </p>
       </div>
   </header>
 <main>
@@ -1231,7 +1232,7 @@ session_start();
               <p><span>Ubicación: </span>Hotel Antaris Galerías / Ave. Constitución esquina con Venustiano Carranza.</p>
               <p><span>Clave de reservación: </span><span class="clave_reservacion">Parques Urbanos</span></p>
               <p><span>Contacto: </span>T. (81) 81 30 18 18</p>
-              <a href="#" class="btn_vermas">Sitio Web</a>
+              <a href="https://hotelantaris.com/" class="btn_vermas">Sitio Web</a>
             </div>
         </div>
         <div class="row precios_hotel align-center">

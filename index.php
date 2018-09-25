@@ -356,7 +356,7 @@
           <div class="btn_boleto">
             <a href="#">Ver Más</a>
           </div>
-        </div>
+        </div>-->
       </div>
 
     </section>
@@ -378,7 +378,7 @@
         </div>
         <div class="column medium-8">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7191.507337009546!2d-100.28561921134552!3d25.679459210524172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662942a8d42b18f%3A0x1eee54a9dfbc9332!2sCintermex!5e0!3m2!1ses!2smx!4v1528396562531" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>-->
+        </div>
       </div>
     </section>
 

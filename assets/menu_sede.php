@@ -4,7 +4,7 @@
     <h5 class="subtitulo">Turismo</h5>
   </div>
   <div class="column medium-3 text-center">
-      <a href="https://nuevoleon.travel/" target="_blank"><img src="img/parques.png" alt=""></a>
+      <a href="https://nuevoleon.travel/parques/" target="_blank"><img src="img/parques.png" alt=""></a>
       <h5 class="subtitulo">Parques</h5>
   </div>
   <div class="column medium-3 text-center">

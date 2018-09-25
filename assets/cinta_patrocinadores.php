@@ -41,14 +41,14 @@
     </div>
     <div>
       <figure>
-        <a href="https://www.coca-colamexico.com.mx/fundacion-coca-cola" target="_blank" title="Ir a www.coca-colamexico.com.mx">
+
           <img src="img/patrocinadores/marquee/monterrey.png" alt="Monterrey">
-        </a>
+
       </figure>
     </div>
     <div>
       <figure>
-        <a href="https://www.coca-colamexico.com.mx/fundacion-coca-cola" target="_blank" title="Ir a www.coca-colamexico.com.mx">
+        <a href="https://nuevoleon.travel/" target="_blank" title="Ir a Nuevo León Extraordinario">
           <img src="img/patrocinadores/marquee/nuevo_leon.png" alt="Nuevo León Extraordinario">
         </a>
       </figure>

@@ -40,7 +40,7 @@
           </div>
   </div><br>
   <div class="row column align-center">
-    <h5 class="subtitulo">Conoce algunas de las organizaciones en las que participan nuestros 155 ponentes. </h5>
+    <h5 class="subtitulo text-center">Conoce algunas de las organizaciones en las que participan los más de 140 ponentes de Congreso Parques.  </h5>
   </div>
   <div class="row align-center">
     <p class="descripcion_principal">¿Te gustaría formar parte de nuestras Sesiones Educativas? Revisa la <a href="convocatoriaSesionesEducativas.php" class="btn_verde_transparente">convocatoria</a></p>

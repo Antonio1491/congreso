@@ -33,7 +33,7 @@ session_start();
 <main class="back-1">
   <article class="">
     <div class="row titulo_preguntas">
-      <h2 class="subtitulo_verde">...ANTES DEL CONGRESO?</h2>
+      <h2 class="subtitulo_verde">ANTES DEL CONGRESO?</h2>
     </div>
     <div class="row lista_preguntas">
       <ul class="accordion" data-accordion data-allow-all-closed="true">
@@ -45,25 +45,21 @@ session_start();
               públicos, técnicos, tomadores de decisiones, académicos, estudiantes,
               sociedad civil y proveedores relacionados al espacio público en un mismo
               lugar, para impulsar la industria de los parques urbanos y la recreación
-              en México. Es un espacio de cuatro días de capacitación, <a href="conferencias.php">conferencias</a>,
-              <a href="talleres.php">talleres</a> y una <a href="expo.php">muestra comercial</a> con proveedores de México y de todo el mundo. </p>
+              en México. Es un espacio de cuatro días de capacitación, <a href="conferenciasMagistrales.php">conferencias</a>,
+              <a href="talleres.php">talleres</a> y una <a href="expoParques.php">muestra comercial</a> con proveedores de México y de todo el mundo. </p>
           </div>
         </li>
         <li class="accordion-item" data-accordion-item>
           <a href="#" class="accordion-title">+ ¿Dónde es el Congreso Parques 2019?</a>
           <div class="accordion-content" data-tab-content>
-            <p>En Monterrey, Nuevo León México. El Congreso Parques te espera en uno
-              de los centros de convenciones y exposiciones más importantes de México,
-              CINTERMEX. </p>
+            <p>En Monterrey, Nuevo León, México. El Congreso Parques te espera en uno de los centros de convenciones y exposiciones más importantes de México, CINTERMEX.</p>
           </div>
         </li>
         <li class="accordion-item" data-accordion-item>
           <a href="#" class="accordion-title">+ ¿Cuándo es el Congreso Internacional
             de Parques Urbanos? </a>
           <div class="accordion-content" data-tab-content>
-            <p>El Congreso Parques tendrá lugar en Monterrey, Nuevo León México
-              del 14 al 17 de mayo del 2019. Contará con 2 días de talleres y 2 días
-              y medio de exposición comercial. </p>
+            <p>Del 14 al 17 de mayo del 2019. Contará con 2 días de talleres y 2 días y medio de exposición comercial.</p>
           </div>
         </li>
         <li class="accordion-item" data-accordion-item>
@@ -97,9 +93,7 @@ session_start();
                 problemáticas y retos.</li>
               <li>Serás parte de la comunidad mexicana dedicada al cuidado, mantenimiento,
                 administración y gestión de los parques urbanos para elevar la discusión del tema en México y Latinoamérica y con esto ayudar a mejorar el tejido social de las ciudades.</li>
-              <li>	Obtendrás una membresía anual, ya incluida en tu inscripción, de la
-                Asociación Nacional de Parques y Recreación de México; esto te dará
-                diversos beneficios durante todo el año.</li>
+
             </ul>
           </div>
         </li>
@@ -180,7 +174,7 @@ session_start();
           <div class="accordion-content" data-tab-content>
             <p>Contamos con diversas categorías, estas incluyen precios especiales
               para miembros y no miembros de la Asociación Nacional de Parques y
-              Recreación de México. Consulta el siguiente enlace para información
+              Recreación de México. Consulta el siguiente <a href="inscripcion.php">enlace</a> para información
               más concreta.  </p>
           </div>
         </li>
@@ -189,26 +183,20 @@ session_start();
           <div class="accordion-content" data-tab-content>
             <p>Durante el congreso:
               <ul>
-                <li>Kit de bienvenida </li>
-                <li>Conferencias magistrales</li>
-                <li>Sesiones educativas</li>
-                <li>Admisión a Expo Parques </li>
-                <li>Glass room </li>
-                <li>Zona de recreación </li>
-                <li>Beer party</li>
-                <li>Fiesta de bienvenida </li>
-                <li>Fiesta de clausura </li>
+                <li>Kit de bienvenida. </li>
+                <li>Conferencias magistrales.</li>
+                <li>Sesiones educativas.</li>
+                <li>Admisión a Expo Parques. </li>
+                <li>Glass room. </li>
+                <li>Zona de recreación. </li>
+                <li>Beer party.</li>
+                <li>Fiesta de bienvenida. </li>
+                <li>Fiesta de clausura. </li>
               </ul>
             </p>
             <p>Después del congreso:
               <ul>
-                <li>Acceso a material del Congreso Parques descargable </li>
-                <li>Membresía anual de la ANPR México </li>
-                <li>Descuento en la compra de entradas al Congreso Parques 2020</li>
-                <li>Acceso a webinars mensuales gratuitos y a cursos en línea especializados.</li>
-                <li>REVISTA PARQUES en su versión impresa y digital de forma gratuita (envío solo en México).</li>
-                <li>Ingreso al Centro Profesional de Carrera, bolsa de empleadores y buscadores de trabajo.</li>
-                <li>Ingreso a Conexión ANPR.</li>
+                <li>Acceso a material del Congreso Parques descargable. </li>
               </ul>
             </p>
           </div>
@@ -250,18 +238,19 @@ session_start();
         <li class="accordion-item" data-accordion-item>
           <a href="#" class="accordion-title">+ ¿Cómo puedo hacer mi pago? </a>
           <div class="accordion-content" data-tab-content>
-            <p>El pago para la inscripción al congreso se puede hacer a través de tarjeta de crédito, debido, PayPal y otras opciones que se muestran en el formulario de registro, al cual puede acceder haciendo clic en éste enlace.
-            </p><p>Aprovecha nuestra promoción a meses sin intereses con tarjetas participantes.
+            <p>El pago para la inscripción al congreso se puede hacer a través de tarjeta de crédito, débito y PayPal. También contamos con otras opciones de pago que se muestran en el formulario de registro.
             </p>
+            <!-- <p>Aprovecha nuestra promoción a meses sin intereses con tarjetas participantes.
+            </p> -->
           </div>
         </li>
-        <li class="accordion-item" data-accordion-item>
+        <!-- <li class="accordion-item" data-accordion-item>
           <a href="#" class="accordion-title">+ ¿Cuántas actividades en total debo
             realizar para contar con el 80% de participación y recibir mi constancia? </a>
           <div class="accordion-content" data-tab-content>
 
           </div>
-        </li>
+        </li> -->
         <li class="accordion-item" data-accordion-item>
           <a href="#" class="accordion-title">+ Soy conferencista o ponente en las
             sesiones educativas ¿Cómo me inscribo para asistir al congreso? </a>
@@ -275,20 +264,13 @@ session_start();
         <li class="accordion-item" data-accordion-item>
           <a href="#" class="accordion-title">+ Quiero ser ponente en las sesiones educativas ¿Qué debo hacer? </a>
           <div class="accordion-content" data-tab-content>
-            <p>Nuestra <a href="convocatoriaSesionesEducativas.php">convocatoria</a> para recibir propuestas
-              de sesiones educativas se encontrará abierta hasta el 29 de octubre de 2018. Haz clic en el
-              siguiente enlace y sigue las instrucciones: </p>
+            <p>Nuestra convocatoria para recibir propuestas de sesiones educativas se encontrará abierta hasta el 29 de octubre de 2018. Haz clic <a href="convocatoriaSesionesEducativas.php">aquí</a> para conocer las bases de participación. </p>
           </div>
         </li>
         <li class="accordion-item" data-accordion-item>
-          <a href="#" class="accordion-title">+ ¿Me tengo que inscribir con
-            anterioridad o puedo hacerlo el día que inicia el congreso?  </a>
+          <a href="#" class="accordion-title">+ ¿Tengo que inscribirme al congreso con anterioridad o puedo hacerlo el día que empieza?  </a>
           <div class="accordion-content" data-tab-content>
-            <p>Te recomendamos ampliamente que te inscribas previamente para asegurar tu
-              participación al congreso, para que puedas aprovechar los descuentos por
-              inscripción anticipada y planear a qué sesiones educativas asistir para sacarle
-              el mayor provecho al evento. Sin embargo, habrá módulos de inscripción
-              durante los tres días del congreso. </p>
+            <p>Te recomendamos ampliamente que te inscribas previamente para asegurar tu participación al congreso. Para que puedas aprovechar los descuentos por inscripción anticipada y planear a qué sesiones educativas asistir para sacarle el mayor provecho al evento. Sin embargo, habrá módulos de inscripción durante los tres días del congreso. </p>
           </div>
         </li>
         <li class="accordion-item" data-accordion-item>
@@ -300,24 +282,14 @@ session_start();
         </li>
       </ul>
 
-      <div class="row titulo_preguntas">
-        <h2 class="subtitulo_verde">...DURANTE EL CONGRESO?</h2>
+      <div class="row column titulo_preguntas">
+        <h2 class="subtitulo_verde">DURANTE EL CONGRESO?</h2>
       </div>
         <ul class="accordion" data-accordion data-allow-all-closed="true">
         <li class="accordion-item" data-accordion-item>
           <a href="#" class="accordion-title">+ Llegando a la sede principal CINTERMEX ¿Dónde debo registrarme? </a>
           <div class="accordion-content" data-tab-content>
-            <p>Podrás registrarte en el primer nivel de CINTERMEX siguiendo la señalética del sitio.</p>
-            <h6>Horarios</h6>
-            <ul>
-              <li>Martes, 14/05/19: 8 am – 8 pm</li>
-              <li>Miércoles, 15/05/19: 7 am – 5 pm</li>
-              <li>Jueves, 16/05/19: 7 am – 5 pm</li>
-
-            </ul>
-            <p>Por favor, te pedimos llevar tu correo de confirmación con el código de barras claramente impreso y una identificación oficial válida para recoger tu kit de registro.</p>
-            <p>Una vez registrado, recibirás un gafete de identificación del congreso. Por favor, utilízala durante todo el evento, sesiones educativas y eventos sociales. Si pierdes el gafete, el reemplazo tendrá un costo adicional.</p>
-            <p>Para inscripciones (compra de entradas al congreso y/o Expo Parques) sigue la señalética en sitio durante los horarios señalados anteriormente.</p>
+            <p>Una vez registrado, recibirás un gafete de identificación del congreso. Por favor, utilízalo durante todo el evento, sesiones educativas y eventos sociales. Si pierdes el gafete, el reemplazo tendrá un costo adicional. </p>
 
           </div>
         </li>
@@ -342,8 +314,8 @@ session_start();
 
       </ul>
     </ul>
-    <div class="row titulo_preguntas">
-      <h2 class="subtitulo_verde">...DESPUÉS DEL CONGRESO?</h2>
+    <div class="row column titulo_preguntas">
+      <h2 class="subtitulo_verde">DESPUÉS DEL CONGRESO?</h2>
     </div>
       <ul class="accordion" data-accordion data-allow-all-closed="true">
         <li class="accordion-item is-active" data-accordion-item>

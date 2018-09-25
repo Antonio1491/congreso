@@ -24,7 +24,7 @@
   <main>
     <div class="row ">
       <div class="column text-center">
-        <p class="descripcion_cover">Expo Parques es el foro de negocios que reunirá a más de 80 empresas líderes en el mercado, con la finalidad de brindarles a nuestros visitantes los mejores productos y servicios para el diseño, la construcción y equipamiento del espacio público. </p>
+        <p class="descripcion_cover subtitulo">Expo Parques es el foro de negocios que reunirá a más de 80 empresas líderes en el mercado, con la finalidad de brindarles a nuestros visitantes los mejores productos y servicios para el diseño, la construcción y equipamiento del espacio público. </p>
         <p>Participa e invierte en la exposición comercial más especializada de la industria de los parques urbanos y espacios públicos en México y Latinoamérica donde encontrarás a los principales tomadores de decisiones además de las tendencias en equipamiento de espacio público. </p>
       </div>
     </div>
@@ -72,7 +72,7 @@
                 <li>Despachos de Diseño</li>
                 <li>Parques Nacionales</li>
                 <li>Equipo de Mantenimiento</li>
-                <li>Y mucho más..</li>
+                <li>Y mucho más...</li>
               </ul>
             </div>
 
@@ -161,9 +161,12 @@
         </div>
         <div class="column medium-8">
           <p>Adquiere un stand de 36 m² o mayor y te programaremos una agenda de entrevistas con los parques y compradores más importantes de México.</p>
-          <p>2 días de encuentros comerciales.<br>
-          3 horas de trabajo.</br>
-          15 minutos por comprador.
+          <ul class="color_white">
+            <li>2 días de encuentros comerciales.</li>
+            <li>3 horas de trabajo.</li>
+            <li>15 minutos por comprador.</li>
+          </ul>
+
         </p>
             <p>Acércate, vende y convence.<br>
             Informes y ventas: comercial@anpr.org.mx

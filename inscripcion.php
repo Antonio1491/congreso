@@ -20,15 +20,73 @@
     </hgroup>
     <p></p>
   </header>
-
+<main>
   <section class="">
+    <div class="row align-justify">
+      <div class="column medium-7">
+        <div class="row">
+          <h5 class="subtitulo">Razones para asistir:</h5>
+        </div>
+        <div class="">
+          <ul>
+            <li>Ampliarás tus contactos y generarás grandes relaciones públicas.</li>
+            <li>Conocerás a los proveedores más importantes de la industria de México y el mundo. </li>
+            <li>Podrás descargar todo el material de cada una de las conferencias al finalizar el congreso. </li>
+          </ul>
+
+        </div>
+      </div>
+
+
+      <div class="column medium-4">
+        <div class="row">
+          <h5 class="subtitulo">¿Qué incluye mi pase? </h5>
+        </div>
+        <div class="row">
+          <ul>
+            <li>Kit de bienvenida.</li>
+            <li>Conferencias magistrales.</li>
+            <li>Sesiones educativas.</li>
+            <li>Admisión a Expo Parques.</li>
+            <li>Fiesta de bienvenida.</li>
+            <li>Fiesta de clausura.</li>
+          </ul>
+        </div>
+      </div>
+    </div><br>
+
+    <div class="row align-center">
+      <p class="text-center">*Los descuentos para estudiante y joven profesional únicamente son válidos
+al presentarse con una identificación vigente.*</p>
+<p class="text-center">*Actividades para acompañantes disponibles a partir de noviembre*</p>
+    </div>
+
+    <div class="row">
+      <h5 class="subtitulo">¡Consigue más beneficios! </h5>
+    </div>
+    <div class="row">
+
+      <p>El Congreso Parques y la ANPR México son tus aliados. </p>
+      <p>Al ser miembro de la ANPR México contarás con un gran descuento en la compra de tu boleto o pase de entrada al Congreso Parques, además de obtener grandes beneficios durante un año. Contarás con: </p>
+      <ul>
+        <li>Acceso a material del Congreso Parques descargable.</li>
+        <li>Membresía anual de la ANPR México.</li>
+        <li>Descuento en la compra de entradas al Congreso Parques 2020.</li>
+        <li>Acceso a webinars mensuales gratuitos y a cursos en línea especializados.</li>
+        <li>REVISTA PARQUES en su versión impresa y digital de forma gratuita (envío solo en México).</li>
+        <li>Ingreso al Centro Profesional de Carrera, bolsa de empleadores y buscadores de trabajo.</li>
+        <li>Ingreso a Conexión ANPR.</li>
+      </ul>
+    </div>
+
+
     <div class="row">
       <div class="column medium-12 text-center">
         <h3 class="titulo_mv">lista de precios de inscripción</h3>
       </div>
     </div>
     <div class="row align-center">
-        <h5 class="subtitulo">*Inscripciones abiertas en el mes de octubre</h5>
+        <h5 class="subtitulo">*Inscripciones a partir octubre</h5>
     </div>
     <div class="row align-center contenido_precios">
       <figure class="fila-espacio2">
@@ -181,6 +239,15 @@
       </table>
     </div> -->
     </div>
+
+    <div class="row">
+      <p class="text-center">*Los talleres se cobran de manera independiente al costo del congreso. Incluye: luch, transporte, materiales y papelería. Cupo limitado. IVA incluido.*</p>
+      <ul >
+        <li>Inversión total por taller vivencial: $950.00 MXN</li>
+        <li>Inversión total por taller curricular: $1,700.00 MXN</li>
+      </ul>
+    </div>
+
 
   </section>
 
