@@ -42,6 +42,9 @@
   <div class="row column align-center">
     <h5 class="subtitulo">Conoce algunas de las organizaciones en las que participan nuestros 155 ponentes. </h5>
   </div>
+  <div class="row align-center">
+    <p class="descripcion_principal">¿Te gustaría formar parte de nuestras Sesiones Educativas? Revisa la <a href="convocatoriaSesionesEducativas.php" class="btn_verde_transparente">convocatoria</a></p>
+  </div>
 <div class="row fila-espacio">
   <div class="column medium-6">
     <article class="">
@@ -95,7 +98,7 @@
       </header>
       <p>El Festival FYJA busca revivir el jardín botánico del bosque de Chapultepec a través de la exhibición de flores y jardines reviviendo sus espacios verdes para promover la reconexión con la naturaleza. Además de fomentar la participación comunitaria de diferentes actividades educativas y accesibles relacionadas con la horticultura, la herbolaria, el arte floral y el cuidado del medio ambiente. También cuenta con foros para la protección de áreas verdes. </p>
     </article>
-    
+
   </div>
 </div>
 
