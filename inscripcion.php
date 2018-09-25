@@ -36,8 +36,6 @@
 
         </div>
       </div>
-
-
       <div class="column medium-4">
         <div class="row">
           <h5 class="subtitulo">¿Qué incluye mi pase? </h5>
@@ -77,6 +75,8 @@ al presentarse con una identificación vigente.*</p>
         <li>Ingreso al Centro Profesional de Carrera, bolsa de empleadores y buscadores de trabajo.</li>
         <li>Ingreso a Conexión ANPR.</li>
       </ul>
+      <p>No lo dudes más y aprovecha al máximo. <a href="https://anpr.org.mx/membresias/" class="btn_verde_transparente">SE MIEMBRO AQUÍ </a>
+      </p>
     </div>
 
 
