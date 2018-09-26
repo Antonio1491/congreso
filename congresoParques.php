@@ -41,7 +41,7 @@
         <p><strong>¿Dónde? </strong><br> Centro de Congresos Cintermex, Parque
           Fundidora, Monterrey, Nuevo León, México.</p><br>
           <div class="text-center">
-            <a href="ciudadDelasMontanas.php" class="btn_verde_transparente">Conoce la ciudad</a>
+            <a href="ciudadDeLasMontanas.php" class="btn_verde_transparente">Conoce la ciudad</a>
           </div>
 
       </div>

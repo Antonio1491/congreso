@@ -14,7 +14,9 @@
 
 <body onload="countdown('contador')">
   <header class="header_paginas header_expo">
-    <?php include'assets/menu.php'; ?>
+    <div class="hide-for-small-only">
+      <?php include'assets/menu.php'; ?>
+    </div>
     <div class="figure_header">
       <figure class="expo_logo">
         <img src="img/expo_parques_logo.png" alt="">
@@ -29,7 +31,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="column medium-6">
+      <div class="column small-12 medium-6">
         <ul class="lista_vineta">
           <li><span>Explora el mercado.</span></li>
            <li><span>Conoce proveedores.</span></li>
@@ -38,7 +40,7 @@
            <li><span>Compara calidad, precio y rendimiento.</span></li>
          </ul>
       </div>
-      <div class="column medium-6">
+      <div class="column small-12 medium-6">
           Durante dos días podrás tener acceso a:
         <ul class="lista_vineta">
           <li><span>Más de más de 6,000 m2 de exposición.</span></li>
@@ -53,8 +55,8 @@
         <h5 class="subtitulo">Conoce a los mejores fabricantes de México y el mundo de:</h5>
     </div>
     <hr>
-    <div class="row" >
-        <div  id="cotizar" >
+    <div class="row hide-for-small-only" >
+        <div  id="cotizar">
           <div class="container_cotizar">
             <div class="item_expo">
               <ul >
@@ -152,14 +154,14 @@
     </div> -->
     <div class="cinta_azul">
       <div class="row">
-        <div class="column medium-4 text-center">
+        <div class="column small-12 medium-4 text-center">
           <h4 class="subtitulo_bc">Agenda de negocios</h4>
           <figure>
             <img src="img/agenda_negocios.png" alt="" class="actividades_expo">
           </figure>
 
         </div>
-        <div class="column medium-8">
+        <div class="column small-12 medium-8">
           <p>Adquiere un stand de 36 m² o mayor y te programaremos una agenda de entrevistas con los parques y compradores más importantes de México.</p>
           <ul class="color_white">
             <li>2 días de encuentros comerciales.</li>
@@ -177,7 +179,7 @@
 
       <div class="class_room">
         <div class="row">
-          <div class="column medium-4 text-center">
+          <div class="column small-12 medium-4 text-center">
             <h4 class="subtitulo">Glass room</h4>
             <figure>
               <img src="img/i_glass_room.png" alt="" class="actividades_expo">
@@ -187,8 +189,8 @@
             $20,000 pesos más IVA <br>
 
           </div>
-          <div class="column medium-8">
-            <div class="row">
+          <div class="column small-12 medium-8">
+            <div class="row column">
               <p><span class="negritas">¡Un gran salón transparente te espera dentro de Expo Parques!</span></p>
               <p>En él podrás encontrar desde sesiones educativas con las que cuenta el programa del congreso y sesiones comerciales. En esta convivencia comercial, la industria tendrá la oportunidad de compartir la relevancia de sus productos y servicios; la oportunidad ideal para conocer de cerca de los fabricantes y distribuidores más especializados.
               </p>
@@ -212,7 +214,7 @@
 
       <div class="cinta_azul">
         <div class="row">
-          <div class="column medium-4 text-center">
+          <div class="column small-12 medium-4 text-center">
             <h4 class="subtitulo_bc">Zona de recreación</h4>
             <figure>
               <img src="img/area_juegos.png" alt="" class="actividades_expo">
@@ -228,14 +230,14 @@
 
         <div class="beer_party">
           <div class="row">
-            <div class="column medium-4 text-center">
+            <div class="column small-12 medium-4 text-center">
               <h4 class="subtitulo">Beer Party </h4>
               <figure>
                 <img src="img/beer_party.png" alt="" class="actividades_expo">
               </figure>
             </div>
-            <div class="column medium-8 vertical_contenido">
-              <div class="row"><br>
+            <div class="column small-12 medium-8 vertical_contenido">
+              <div class="row column"><br>
                 <p>Dentro del área de Expo Parques podrás acceder a la Beer Party, evento que no debes perderte en compañía de profesionales de la industria ¡Queremos verte ahí! Te esperamos.</p>
                 <p>Jueves 17 de mayo a las 19:00 horas
                   <br>Duración: 1 hora y media.

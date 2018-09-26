@@ -11,7 +11,9 @@
 <body onload="countdown('contador')">
 
 <header class="header_paginas header_ejes">
-  <?php include'assets/menu.php'; ?><br>
+  <div class="hide-for-small-only">
+    <?php include'assets/menu.php'; ?><br>
+  </div>
   <div class="figure_header">
     <figure class="">
       <img src="img/ejes_tematicos.png" alt="">
@@ -29,7 +31,7 @@
       <p class="descripcion_principal">El Congreso Parques es un evento especializado de contenido educativo y vivencial dirigido a un público cuyo trabajo impacta a parques urbanos y recreación; este contenido se encuentra dividido en 5 ejes temáticos. </p>
     </div><br>
     <div class="row">
-      <div class="column medium-5">
+      <div class="column small-12 medium-5">
         <div class="sabias">
           <h3 class="subtitulo_mb text-center">5 ejes temáticos</h3>
         </div><br>

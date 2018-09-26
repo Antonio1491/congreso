@@ -1,10 +1,10 @@
 <!--   footer  -->
 <footer>
-  <div class="row align-justify text-center">
-    <div class="column small-6 medium-3 small-order-1 medium-order-1">
+  <div class="row align-justify text-center ">
+    <div class="column small-6 medium-3 small-order-1 medium-order-1 hide-for-small-only">
       <a href="congresoParques.php"><img data-src="img/logotipo/logo_congreso_bc.png" alt="1er Congreso de Parques Urbanos" class=""></a>
     </div>
-    <div class="column small-12 medium-5 small-order-3 medium-order-2" id="cabecera-footer">
+    <div class="column small-12 medium-5 small-order-1 medium-order-2" id="cabecera-footer">
       <hgroup>
         <h3>SEGUNDO CONGRESO INTERNACIONAL</h3>
         <h2>DE PARQUES URBANOS</h2>
@@ -53,7 +53,7 @@
   </div>
 
   </footer>
-  <div class="row column expanded align-center" id="pie">
+  <div class="row column expanded align-center hide-for-small-only" id="pie">
     <p><a href="http://anpr.org.mx/" target="_blank">© 2018 Asociación Nacional de Parques y Recreación</a></p>
   </div>
 

@@ -63,7 +63,7 @@
     <div class="item_movil icon">
       <a href="conferenciasMagistrales.php" target="_blank">
         <figure class="icon_movil">
-          <img src="img/i_conferencias_m.png" alt="">
+          <img src="img/i_conf.png" alt="">
         </figure>
         <figcaption class="titulo_movil">
           <h2>Conferencias</h2>
@@ -72,7 +72,7 @@
       </a>
     </div>
     <div class="item_movil icon">
-      <a href="sesiones.php" target="_blank">
+      <a href="sesionesEducativas.php" target="_blank">
         <figure class="icon_movil">
           <img src="img/i_sesiones_m.png" alt="">
         </figure>
@@ -94,7 +94,7 @@
       </a>
     </div>
     <div class="item_movil icon">
-      <a href="expo_parques_urbanos.php" target="_blank">
+      <a href="expoParques.php" target="_blank">
         <figure class="icon_movil">
           <img src="img/i_expo_parques_m.png" alt="">
         </figure>
@@ -105,9 +105,9 @@
       </a>
     </div>
     <div class="item_movil icon">
-      <a href="eventos-sociales.php" target="_blank">
+      <a href="eventosSociales.php" target="_blank">
         <figure class="icon_movil">
-          <img src="img/i_eventos_sociales_m.png" alt="">
+          <img src="img/i_eventos.png" alt="">
         </figure>
         <figcaption class="titulo_movil">
           <h2>Eventos</h2>
@@ -411,7 +411,7 @@
         <span class="nota-boletin">*No compartiremos su información y usted puede cancelar su suscripción en cualquier momento</span>
       </div>
     </section>
-    <section id="paisaje">
+    <section id="paisaje" class="hide-for-small-only">
 
     </section>
 

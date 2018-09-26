@@ -21,7 +21,9 @@
   </head>
 <body onload="countdown('contador')">
   <header class="header_paginas header_convocatoria">
-    <?php include'assets/menu.php'; ?>
+    <div class="hide-for-small-only">
+      <?php include'assets/menu.php'; ?>
+    </div>
     <div class="figure_header">
       <figure class="">
         <img src="img/convocatoria/sesiones_educativas.png" alt="">
@@ -34,7 +36,7 @@
 
   </header>
   <main >
-    <div class="row ">
+    <div class="row column small-12 ">
       <figure class="ejes_convocatoria">
         <img src="img/convocatoria/ejes_tematicos.png" alt="Ejes Temáticos 2019">
       </figure>
@@ -120,7 +122,7 @@
       <h4 class="subtitulo">Instrucciones</h4>
     </div>
     <div class="row instrucciones">
-      <div class="column medium-4">
+      <div class="column small-12 medium-4">
         <figure>
           <img src="img/convocatoria/formulario.png" alt="">
         </figure>
@@ -134,7 +136,7 @@
         <h4 class="paso2">ENVÍA TU PROPUESTA</h4>
         <p>El envío de la propuesta no garantiza tu aceptación, ni tu registro como asistente del congreso.</p>
       </div>
-      <div class="column medium-4">
+      <div class="column small-12 medium-4">
         <figure>
           <img src="img/convocatoria/calendario.png" alt="">
         </figure>
@@ -142,11 +144,11 @@
         <p>Recibirás los resultados de la convocatoria en las fechas establecidas.</p>
       </div>
     </div>
-    <div class="row">
+    <div class="row column">
       <h4 class="subtitulo">Sobre la sesión:</h4>
     </div>
     <div class="row sobre_sesion">
-      <div class="column medium-6">
+      <div class="column small-12 medium-6">
         <span>Título:</span>
         <p>Debes crear un título que refleje la esencia de tu sesión y deberá ser de 12 palabras o menos.</p>
         <p><span>Seleccionar la <a href="ejesTematicos.php" class="link">temática</a> a la que se alinea.</span></p>

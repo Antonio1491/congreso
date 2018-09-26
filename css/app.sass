@@ -266,6 +266,7 @@ img.b-loaded
   height: 15vh
   display: flex
   align-items: center
+  vertical-align: middle
 .cinta-marquee h4
   color: $verde
   margin-left: 120px
@@ -273,8 +274,9 @@ img.b-loaded
   text-transform: uppercase
 .slider2
   width: 70%
-  display: block
-  height: 100%
+  display: flex
+  align-items: center
+  // height: 100%
 // .slick-slide
 //     margin: 0px 15px
 .slick-prev, .slick-next
@@ -1943,19 +1945,46 @@ tr td.bloque
   #iconos-temas img
     height: 2.8em
     margin: 0.856em 0
+  footer hgroup h2
+    font-family: "bold"
+    // margin: 2px
+    letter-spacing: 2.7px
+  footer hgroup h3
+    margin-bottom: 4px
+    padding: 0
+    letter-spacing: -1px
+  footer hgroup h6
+    // margin-top: -10px
+    font-size: 12px
+  footer hgroup h4
+    font-size: 15.6px
+  footer h4
+    text-transform: uppercase
+    color: white
+    font-size: 20px
+    margin-top: 4px
+  footer
+    height: 290px
+    padding: 40px 0px 40px 0px
+  footer hgroup
+    border-bottom: 1px solid white
+    .descripcion_cover
+      margin-top: 10px
+
 @media screen and (max-width: 1025)
   #mensajes ul li
     height:  240px
 @media screen and (max-width: 800px)
   .contenido
     margin-top: 1em
-  .header
+  .header_paginas
     background-repeat: no-repeat
     background-position: center center
-    height: 120px
+    background-size: cover
+    height: 340px
     margin: 0
-    display: flex
-    align-items: center
+    z-index: 4
+    padding-top: 3em
   #patrocinadores h3
     font-size: 21px
   #banners
@@ -1965,3 +1994,29 @@ tr td.bloque
     background-color: #029a71
     text-transform: uppercase
     font-size: 14px
+  .conf_mag
+    display: grid
+    grid-template-columns: 100%
+    height: 100%
+    border: 1px solid #eceaec
+    border-radius: 20px
+    margin-top: 20px
+  .img_talleres
+    display: flex
+    justify-content: center
+  .menu_sede img
+    height: 60px
+  .menu_sede .subtitulo
+    font-size: 12px
+  .texto_eventos
+    font-size: 14px
+  .descripcion_principal
+    padding: 10px 20px
+    font-size: 17px
+    text-align: center
+  .ejes_convocatoria img
+    margin-top: 40px
+    margin-bottom: 40px
+    height: 120px
+  .consideraciones
+    margin-top: 0

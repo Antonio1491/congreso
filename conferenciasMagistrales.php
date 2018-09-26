@@ -9,7 +9,8 @@
 </head>
 <body onload="countdown('contador')">
   <header class="header_paginas header_magistrales">
-    <?php include'assets/menu.php'; ?><br>
+    <div class="hide-for-small-only"><?php include'assets/menu.php'; ?><br>
+    </div>
     <div class="figure_header">
       <figure class="">
         <img src="img/i_conferencias_magistrales.png" alt="">
@@ -103,7 +104,7 @@
             <div class="">
               <h1>Presidenta, Asociación Internacional de Prevención del Crimen a través del Diseño Ambiental (CPTED)</h1>
               <p>
-                Macarena Rau Vargas es Arquitecta de profesión y tiene una Maestría en Investigación y Filosofía de la Arquitectura en Chile. También está cursando su doctorado en Arquitectura y estudios de urbanismo. Tiene una amplia experiencia liderando proyectos e iniciativas de seguridad urbana y pública en Chile, América Latina y el Caribe. En 2008 Macarena fundó PBK Consulting, una empresa que ayuda a gobiernos, empresas y ONG’s a aplicar estrategias CPTED en países como México, Honduras, Chile, Brasil, entre otros. En este papel, ha promovido particularmente la 2ª generación de CPTED. Macarena es la actual Presidenta de la Asociación Internacional de Prevención del Crimen a través del Diseño Ambiental.  
+                Macarena Rau Vargas es Arquitecta de profesión y tiene una Maestría en Investigación y Filosofía de la Arquitectura en Chile. También está cursando su doctorado en Arquitectura y estudios de urbanismo. Tiene una amplia experiencia liderando proyectos e iniciativas de seguridad urbana y pública en Chile, América Latina y el Caribe. En 2008 Macarena fundó PBK Consulting, una empresa que ayuda a gobiernos, empresas y ONG’s a aplicar estrategias CPTED en países como México, Honduras, Chile, Brasil, entre otros. En este papel, ha promovido particularmente la 2ª generación de CPTED. Macarena es la actual Presidenta de la Asociación Internacional de Prevención del Crimen a través del Diseño Ambiental.
               </p>
             </div>
 

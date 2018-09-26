@@ -10,7 +10,9 @@
 </head>
 <body onload="countdown('contador')">
 <header class="header_paginas header_sesiones">
-  <?php include'assets/menu.php'; ?><br><br>
+      <div class="hide-for-small-only">
+        <?php include'assets/menu.php'; ?><br><br>
+      </div>
   <div class="figure_header">
     <figure class="">
       <img src="img/i_sesiones.png" alt="">
@@ -45,8 +47,8 @@
   <div class="row align-center">
     <p class="descripcion_principal">¿Te gustaría formar parte de nuestras Sesiones Educativas? Revisa la <a href="convocatoriaSesionesEducativas.php" class="btn_verde_transparente">convocatoria</a></p>
   </div>
-<div class="row fila-espacio">
-  <div class="column medium-6">
+<div class="row ">
+  <div class="column small-12 medium-6">
     <article class="">
       <header>
         <h4 class="subtitulo_verde">Laurie Garden </h4>
@@ -73,7 +75,7 @@
     </article>
   </div>
 
-  <div class="column medium-6">
+  <div class="column small-12 medium-6">
     <article class="">
       <header>
         <h4 class="subtitulo_verde">KaBOOM! </h4>

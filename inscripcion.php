@@ -9,7 +9,9 @@
 </head>
 <body onload="countdown('contador')">
   <header class="header_paginas header_inscripcion">
-    <?php include'assets/menu.php'; ?>
+    <div class="hide-for-small-only">
+      <?php include'assets/menu.php'; ?>
+    </div>
     <div class="figure_header">
       <figure class="">
         <img src="img/i_costos_m.png" alt="">
@@ -23,8 +25,8 @@
 <main>
   <section class="">
     <div class="row align-justify">
-      <div class="column medium-7">
-        <div class="row">
+      <div class="column small-12 medium-7">
+        <div class="row column">
           <h5 class="subtitulo">Razones para asistir:</h5>
         </div>
         <div class="">
@@ -37,10 +39,10 @@
         </div>
       </div>
       <div class="column medium-4">
-        <div class="row">
+        <div class="row column">
           <h5 class="subtitulo">¿Qué incluye mi pase? </h5>
         </div>
-        <div class="row">
+        <div class="row column">
           <ul>
             <li>Kit de bienvenida.</li>
             <li>Conferencias magistrales.</li>
@@ -53,16 +55,16 @@
       </div>
     </div><br>
 
-    <div class="row align-center">
+    <div class="row column align-center">
       <p class="text-center">*Los descuentos para estudiante y joven profesional únicamente son válidos
 al presentarse con una identificación vigente.*</p>
 <p class="text-center">*Actividades para acompañantes disponibles a partir de noviembre*</p>
     </div>
 
-    <div class="row">
+    <div class="row column align-center">
       <h5 class="subtitulo">¡Consigue más beneficios! </h5>
     </div>
-    <div class="row">
+    <div class="row column">
 
       <p>El Congreso Parques y la ANPR México son tus aliados. </p>
       <p>Al ser miembro de la ANPR México contarás con un gran descuento en la compra de tu boleto o pase de entrada al Congreso Parques, además de obtener grandes beneficios durante un año. Contarás con: </p>

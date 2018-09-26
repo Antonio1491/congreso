@@ -19,7 +19,9 @@ session_start();
 <body onload="countdown('contador')">
 
   <header class="header_paginas header_acerca_de">
-    <?php include'assets/menu.php'; ?>
+    <div class="hide-for-small-only">
+      <?php include'assets/menu.php'; ?>
+    </div>
     <div class="figure_header">
       <figure class="">
         <img src="img/i_eventos_sociales.png" alt="">
@@ -31,11 +33,12 @@ session_start();
     </header>
 <main>
 
-    <div class="row align-center" >
-      <p class="descripcion_cover subtitulo">¡Ha llegado el momento de intercambiar tarjetas y divertirse!</p>
-      <p class="descripcion_cover"> Expande tu red profesional y disfruta durante los 3 eventos realizados especialmente para ti. Asiste a la inauguración, beer party y clausura del Congreso Parques, reúnete en un ambiente relajado, diviértete y haz networking.
+    <div class="row column align-center" >
+        <p class="subtitulo descripcion_principal">¡Ha llegado el momento de intercambiar tarjetas y divertirse!</p>
+    </div>
+    <div class="row">
+      <p class="descripcion_principal "> Expande tu red profesional y disfruta durante los 3 eventos realizados especialmente para ti. Asiste a la inauguración, beer party y clausura del Congreso Parques, reúnete en un ambiente relajado, diviértete y haz networking.
       Recuerda que tu entrada al congreso, incluye tu acceso a estos 3 eventos.</p>
-
     </div>
     <br>
     <!-- <div class="row align-center">
@@ -43,7 +46,7 @@ session_start();
     </div> -->
 
     <?php include('assets/menu_sede.php') ?>
->
+
 </main>
 
 <?php include'assets/footer.php'; ?>

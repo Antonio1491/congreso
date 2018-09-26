@@ -53,6 +53,13 @@
         </a>
       </figure>
     </div>
+    <div>
+      <figure>
+        <a href="http://www.arcacontal.com/" target="_blank" title="Ir a ARCACONTINENTAL">
+          <img src="img/patrocinadores/marquee/arca_continental.png" alt="ARCACONTINENTAL">
+        </a>
+      </figure>
+    </div>
 
   </section>
 </div>
