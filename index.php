@@ -5,12 +5,12 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Congreso de Parques: Se parte del inicio del gran movimiento social de los
-    parques en México y asiste al 1er. Congreso Internacional de Parques Urbanos 2018.">
-    <meta property="og:url" content="http://www.anpr.org.mx/congreso" />
-    <meta property="og:title" content="Congreso Internacional de Parques Urbanos" />
-    <meta property="og:description" content="Se parte del inicio del gran movimiento social de los parques en México." />
-    <meta property="og:image" content="http://www.anpr.org.mx/congreso/img/congreso-parques-urbanos-logo.png" />
+    <meta property="og:url"                content="http://congresoparques.com" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"  content="Congreso Parques 2019" />
+    <meta property="og:description" content="Un evento de alcance internacional, que permitirá a profesionales de la industria de los parques,
+    tener una experiencia única de aprendizaje y formación." />
+    <meta property="og:image"              content="https://www.congresoparques.com/img/fb_congreso.png" />
     <title>Congreso Internacional de Parques Urbanos</title>
     <?php require("assets/head_common.php") ?>
   </head>

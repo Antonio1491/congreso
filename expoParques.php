@@ -26,7 +26,7 @@
   <main>
     <div class="row ">
       <div class="column text-center">
-        <p class="descripcion_cover subtitulo">Expo Parques es el foro de negocios que reunirá a más de 80 empresas líderes en el mercado, con la finalidad de brindarles a nuestros visitantes los mejores productos y servicios para el diseño, la construcción y equipamiento del espacio público. </p>
+        <p class="descripcion_principal subtitulo">Expo Parques es el foro de negocios que reunirá a más de 80 empresas líderes en el mercado, con la finalidad de brindarles a nuestros visitantes los mejores productos y servicios para el diseño, la construcción y equipamiento del espacio público. </p>
         <p>Participa e invierte en la exposición comercial más especializada de la industria de los parques urbanos y espacios públicos en México y Latinoamérica donde encontrarás a los principales tomadores de decisiones además de las tendencias en equipamiento de espacio público. </p>
       </div>
     </div>
@@ -40,7 +40,7 @@
            <li><span>Compara calidad, precio y rendimiento.</span></li>
          </ul>
       </div>
-      <div class="column small-12 medium-6">
+      <div class="column hide-for-small-only medium-6">
           Durante dos días podrás tener acceso a:
         <ul class="lista_vineta">
           <li><span>Más de más de 6,000 m2 de exposición.</span></li>
