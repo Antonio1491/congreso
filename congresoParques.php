@@ -31,10 +31,11 @@
           <h3 class="subtitulo_verde">2° CONGRESO INTERNACIONAL</h3>
           <h2 class="subtitulo_verde">DE PARQUES URBANOS</h2>
         </hgroup>
-        <p>El Congreso Internacional de Parques Urbanos reúne y capacita a profesionales,
-          funcionarios públicos, la academia y la sociedad civil, para impulsar la industria
-          de los parques urbanos y la recreación en México, en un espacio de cuatro días de
-          conferencias, sesiones educativas, talleres y una muestra comercial.</p>
+        <p>El Congreso Internacional de Parques Urbanos tiene como
+          objetivo reunir y capacitar a profesionales, funcionarios
+          públicos, desarrolladoras de viviendas, tomadores de
+          decisiones, proveedores de la industria, estudiantes y
+          organizaciones no gubernamentales en un mismo lugar.</p>
       </div>
       <div class="column medium-6 small-12">
         <p><strong>¿Cuándo?</strong><br> 14 -17 de mayo de 2019</p>

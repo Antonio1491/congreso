@@ -11,6 +11,7 @@
         <h4>14 al 17 de MAYO 2019 - MONTERREY, NUEVO LEÓN, MÉXICO</h4>
         <h6>Presentado por la Asociación Nacional de Parques y Recreación México.</h6>
       </hgroup>
+
     </div>
     <div class="column small-6 medium-2 small-order-2 medium-order-2">
       <h4>Organiza</h4>
@@ -26,10 +27,10 @@
     </div>
   </div>
   <div class="row">
-    <div class="colm medium-3">
+    <div class="column medium-3">
       <!--========  Redes sociales  ========-->
       <section id="redes-sociales" class="hide-for-small-only">
-        <div class="row align-center">
+        <!-- <div class="row align-center">
           <a href="https://www.facebook.com/Congreso-Internacional-de-Parques-Urbanos-433605833658855/" target="_blank">
             <img src="img/facebook.png" alt="">
           </a>
@@ -42,13 +43,16 @@
           <a href="https://www.youtube.com/channel/UC_ExzrmxP5er7qZHeVpWidQ" target="_blank">
             <img src="img/youtobe.png" alt="">
           </a>
-        </div>
+        </div> -->
       </section>
     </div>
-    <div class="col medium-9">
-      <div class="contador">
+    <div class="column small-12 medium-5">
+      <p class="datosContacto">comunicacion@anpr.org.mx <br>Teléfono: +52  (999) 944 40 60 / <img src="img/icono-whatsapp.png" alt="" class="whats"> WhatsApp +52 (999) 353 06 91</p>
+    </div>
+    <div class="column medium-4">
+      <!-- <div class="contador">
         <div id='contador'></div>
-      </div>
+      </div> -->
     </div>
   </div>
 
@@ -94,7 +98,7 @@ var bLazy = new Blazy({
           minutos=Math.floor(diferencia/60)
           diferencia=diferencia-(60*minutos)
           segundos=Math.floor(diferencia)
-          document.getElementById(id).innerHTML='<span class="faltan">FALTAN </span><span class="num_dias">' + dias + ' D&iacute;as </span>'
+          document.getElementById(id).innerHTML='<span class="faltan">FALTAN </span><span class="num_dias">' + dias + ' D&iacute;as </span>'  + horas + ':' + minutos + ':' + segundos
                     if (dias>0 || horas>0 || minutos>0 || segundos>0){
                             setTimeout("countdown(\"" + id + "\")",1000)
                     }
@@ -154,6 +158,27 @@ var bLazy = new Blazy({
   <img height="1" width="1" style="display:none"
   src="https://www.facebook.com/tr?id=401710473607617&ev=PageView&noscript=1"
 /></noscript>
+
+
+<!-- Píxel nuevo de facebook ANPR -->
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '600435220388083');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=600435220388083&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
 
 <script type="text/javascript">
 $(function(){

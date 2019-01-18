@@ -11,7 +11,7 @@
               </div>
               <div class="item_encabezado">
                 <div class="">
-                      <a href="inscripcion.php" class="btn_entradas">Conseguir entradas</a>
+                      <a href="inscripcion.php" class="btn_entradas">Inscríbete aquí</a>
                 </div>
                 <div class="traduccion">
 
@@ -42,11 +42,12 @@
                               <li><a href="eventosSociales.php">eventos sociales</a></li>
                             </ul>
                           </li>
-                          <li><a href="programa.php">Pre-programa</a></li>
+                          <li><a href="programa.php">Programa Preliminar</a></li>
                           <!-- <li><a href="#">Ponentes</a></li> -->
                           <li><a href="patrocinadores.php">Patrocinadores</a></li>
                           <li><a href="comite.php">Comité organizador</a></li>
                           <li><a href="preguntas.php">Preguntas frecuentes</a></li>
+                          <li><a href="galeria2018.php">Galería 2018</a></li>
                         </ul>
                       </li>
                       <li><a href="expoParques.php">Expo Parques</a></li>
@@ -60,11 +61,13 @@
                             </ul>
                           </li>
                           <li><a href="https://preregistrate.mx/congresoparques/2019/plano/" target="_blank">Expositor / Stand</a></li>
+                          <li><a href="razonesParaAsistir.php">Razones para Asistir</a></li>
                         </ul>
                       </li>
                       <li><a href="#">Sede</a>
                         <ul class="menu  sub-menu-central">
                           <li><a href="ciudadDeLasMontanas.php">Monterrey, Nuevo león</a></li>
+                          <li><a href="https://www.parquefundidora.org/" target="_blank">Parque fundidora</a></li>
                           <li><a href="hospedajes.php">Hospedaje</a></li>
                           <li><a href="conectividad.php">Conectividad Aérea</a></li>
                           <!-- <li><a href="parques.php">Parques en monterrey</a></li> -->
@@ -79,3 +82,25 @@
 
           </div>
         </section><!--Fin menu -->
+
+        <section id="social" class="hide-for-small-only">
+          <div class="traductor">
+            <a href="in/" title="Translate">
+              <img src="img/icon_es_en.png" alt="Translate">
+            </a>
+          </div>
+          <div class="contenedor_redes">
+            <a href="https://www.facebook.com/Congreso-Internacional-de-Parques-Urbanos-433605833658855/" target="_blank">
+              <img src="img/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://twitter.com/congreso_parque" target="_blank">
+              <img src="img/twitter.png" alt="">
+            </a>
+            <a href="https://www.instagram.com/congreso_parques/" target="_blank">
+              <img src="img/instagram.png" alt="">
+            </a>
+            <a href="https://www.youtube.com/channel/UC_ExzrmxP5er7qZHeVpWidQ" target="_blank">
+              <img src="img/youtobe.png" alt="">
+            </a>
+          </div>
+        </section>

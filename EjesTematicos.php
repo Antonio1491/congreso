@@ -39,7 +39,7 @@
           <header class="titulo-tema">
             <img src="img/i_ciudad.png" alt="" class="icono"><h1>La Ciudad</h1>
           </header>
-          <p>Las ciudades están compuestas por elementos que las hacen únicas: la peatonalidad, la bicicleta recreativa, espacios abiertos y la resiliencia son algunos temas que se relacionan con el parque urbano.</p>
+          <p>La construcción de nuestras ciudades a través del espacio público para hacerlas más habitable, darles a nuestros ciudadanos una mejor calidad de vida y hacerlas más humanas es indispensable. </p>
         </article>
         <article class="tema">
           <header class="titulo-tema">

@@ -6,13 +6,6 @@
   <section class="marquee slider2">
     <div>
       <figure>
-        <a href="http://www.playclub.com.mx/" target="_blank" title="Ir a www.playclub.com.mx">
-          <img src="img/patrocinadores/marquee/playclub.png" alt="Play Club">
-        </a>
-      </figure>
-    </div>
-    <div>
-      <figure>
         <a href="http://www.escofet.com/" target="_blank" title="Ir a www.escofet.com">
           <img src="img/patrocinadores/marquee/escofet.png" alt="Escofet">
         </a>
@@ -41,9 +34,14 @@
     </div>
     <div>
       <figure>
-
-          <img src="img/patrocinadores/marquee/monterrey.png" alt="Monterrey">
-
+        <a href="http://www.playclub.com.mx/" target="_blank" title="Ir a www.playclub.com.mx">
+          <img src="img/patrocinadores/marquee/playclub.png" alt="Play Club">
+        </a>
+      </figure>
+    </div>
+    <div>
+      <figure>
+        <img src="img/patrocinadores/marquee/monterrey.png" alt="Monterrey">
       </figure>
     </div>
     <div>
@@ -57,6 +55,13 @@
       <figure>
         <a href="http://www.arcacontal.com/" target="_blank" title="Ir a ARCACONTINENTAL">
           <img src="img/patrocinadores/marquee/arca_continental.png" alt="ARCACONTINENTAL">
+        </a>
+      </figure>
+    </div>
+    <div>
+      <figure>
+        <a href="http://www.jimumex.com/" target="_blank" title="Ir a Jimumex">
+          <img src="img/patrocinadores/marquee/jimu-mex.png" alt="Jimumex">
         </a>
       </figure>
     </div>

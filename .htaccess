@@ -1,0 +1,11 @@
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW SSL_REDIRECT:congresoparques.com
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} congresoparques.com$
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE SSL_REDIRECT:congresoparques.com
+
+
+# Redirecciona una página individual a otra página
+RedirectMatch 301 ^/registro/RegistroSesionesEducativas.php$ https://congresoparques.com/convocatoriaSesionesEducativas.php

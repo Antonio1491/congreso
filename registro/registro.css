@@ -29,8 +29,12 @@ input[type=submit]:hover{
 .container{
   display: grid;
   grid-template-columns:40% 60%;
-  grid-template-rows: 580px;
+  /* grid-template-rows: 580px; */
 }
+.resaltar{
+  font-weight: bold;
+}
+
 .item{
   margin: 20px;
 }

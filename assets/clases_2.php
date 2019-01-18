@@ -219,7 +219,6 @@ class Conferencistas extends Conexion
         $array_conferencistas = $sql->fetch_all(MYSQL_ASSOC);
 
         foreach ($array_conferencistas as $valor) {
-
           echo $resultado = "<div class='column small-12 medium-3 lista-conferencistas'>
                   <img src='http://www.congresoparques.com/sesiones/img/conferencistas/".$valor['foto']."'>
                 </div>
@@ -229,16 +228,49 @@ class Conferencistas extends Conexion
                   <span class='cargo'>".$valor['cargo']."</span><br>
                   <a href='conferencista.php?id=".$valor['id_usuario']."'> Más Información</a>
                   </div>";
-
         }
-
         return $resultado;
-
     }
-
-
 }
 
+
+class Voluntarios extends Conexion
+{
+  public function __construct(){
+    parent::__construct();
+  }
+
+
+
+  public function horariosMatutinos(){
+    $sql= "SELECT * FROM turnos_voluntarios WHERE hora_inicio
+            ORDER BY fecha";
+    $consulta = $this->conexion_db->query($sql);
+    $arrayHorarios = $consulta->fetch_all(MYSQLI_ASSOC);
+    return $arrayHorarios;
+  }
+
+  public function horariosVespertinos(){
+    $sql= "SELECT * FROM turnos_voluntarios WHERE hora_inicio BETWEEN '12:00:00' AND '24:00:00' ORDER BY fecha";
+    $consulta = $this->conexion_db->query($sql);
+    $arrayHorarios = $consulta->fetch_all(MYSQLI_ASSOC);
+    return $arrayHorarios;
+  }
+
+  public function registroVoluntario($nombre, $apP, $apM, $email, $cel, $genero, $uni, $turno){
+    $sql = "INSERT INTO voluntarios VALUES ('$nombre', '$apP', '$apM', '$email', '$cel', '$genero', '$uni', '$turno')";
+    $consulta = $this->conexion_db->query($sql);
+    $resultado = $consulta->fetch_all(MYSQLI_ASSOC);
+    if ($resultado) {
+      return $resultado;
+    }
+    else{
+      return "Error al registrar";
+    }
+
+  }
+
+}
 
 
 

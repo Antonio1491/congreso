@@ -20,13 +20,16 @@ session_start();
   <header class="header_paginas header_programa">
     <?php include'assets/menu.php'; ?>
       <hgroup class="titulo_pagina"><br>
-        <h2>Pre-Programa</h2>
+        <h2>Programa Preliminar</h2>
         <h1>Congreso parques</h1>
       </hgroup>
   </header>
-  <main >
-    <div class="row align-center">
-        <h5 class="subtitulo">*Próximamente el programa completo </h5>
+  <main ><br>
+    <!-- <div class="row align-center">
+        <h5 class="subtitulo">Próximamente el programa completo.</h5>
+    </div> -->
+    <div class="row column align-center">
+      <a href="assets/ProgramaPreliminar2019.pdf"><img src="img/programa_preliminar_2019.png"></a>
     </div>
     <div class="row ">
       <div class="column medium-6 ">
@@ -77,7 +80,7 @@ session_start();
       <div class="column medium-6">
         <section class="dia">
           <div class="dia_titulo">
-            <a href=""> Día 2</a>
+            <a href="">Día 4</a>
             <h4>Viernes</h4>
             <h5>17 de Mayo</h5>
           </div>
@@ -89,6 +92,7 @@ session_start();
         </section>
       </div>
     </div>
+
   </main>
 
 

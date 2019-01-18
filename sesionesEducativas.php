@@ -11,7 +11,7 @@
 <body onload="countdown('contador')">
 <header class="header_paginas header_sesiones">
       <div class="hide-for-small-only">
-        <?php include'assets/menu.php'; ?><br><br>
+        <?php include'assets/menu.php'; ?>
       </div>
   <div class="figure_header">
     <figure class="">
@@ -24,30 +24,39 @@
   <p></p>
 </header>
 <main class="sesiones">
-  <div class=""><br>
+  <!-- <div class=""><br>
     <div class="hide-for-small-only ">
             <section class="cinta-ponentes slider-ponentes">
+              <div><img src="img/conferencistas/alberto_ipas.png" alt=""></div>
+              <div><img src="img/conferencistas/candace_damon.png" alt=""></div>
+              <div><img src="img/conferencistas/cissy_segall.png" alt=""></div>
+              <div><img src="img/conferencistas/lilia_haua.png" alt=""></div>
               <div><img src="img/conferencistas/bill_salvatore.png" alt=""></div>
+              <div><img src="img/conferencistas/sindy_martinez.png" alt=""></div>
               <div><img src="img/conferencistas/geoffrey_recorder.png" alt=""></div>
               <div><img src="img/conferencistas/german_enriquez.png" alt=""></div>
               <div><img src="img/conferencistas/james_siegel.png" alt=""></div>
-              <div><img src="img/conferencistas/jonathan_grajeda.png" alt=""></div>
               <div><img src="img/conferencistas/laura_ekasetya.png" alt=""></div>
               <div><img src="img/conferencistas/leonardo_diaz.png" alt=""></div>
-              <div><img src="img/conferencistas/mauricio_fabry.png" alt=""></div>
+
               <div><img src="img/conferencistas/oswaldo_zurita.png" alt=""></div>
               <div><img src="img/conferencistas/patricia_elias.png" alt=""></div>
               <div><img src="img/conferencistas/rebecca_lemos.png" alt=""></div>
+              <div><img src="img/conferencistas/mauricio_fabry.png" alt=""></div>
             </section>
           </div>
-  </div><br>
+  </div> -->
+  <br>
   <div class="row column align-center">
-    <h5 class="subtitulo text-center">Conoce algunas de las organizaciones en las que participan los más de 140 ponentes de Congreso Parques.  </h5>
+    <h5 class="subtitulo text-center">
+      El momento asignado para el aprendizaje y capacitación será en las más de
+      140 conferencistas nacionales e internacionales.</h5>
   </div>
-  <div class="row align-center">
+  <!-- <div class="row align-center">
     <p class="descripcion_principal">¿Te gustaría formar parte de nuestras Sesiones Educativas? Revisa la <a href="convocatoriaSesionesEducativas.php" class="btn_verde_transparente">convocatoria</a></p>
-  </div>
-<div class="row ">
+  </div> -->
+
+<!-- <div class="row ">
   <div class="column small-12 medium-6">
     <article class="">
       <header>
@@ -102,9 +111,97 @@
     </article>
 
   </div>
+</div> -->
+
+<div class="row">
+  <div class="column small-6 medium-3 ">
+    <img src="img/conferencistas/alberto_ipas.png" alt="">
+  </div>
+  <div class="column small-6 medium-3">
+    <img src="img/conferencistas/bill_salvatore.png" alt="">
+  </div>
+  <div class="column small-6 medium-3">
+    <img src="img/conferencistas/dan_lambe.png" alt="">
+  </div>
+  <div class="column small-6 medium-3">
+    <img src="img/conferencistas/cissy_segall.png" alt="">
+  </div>
 </div>
-
-
+<br>
+<div class="row">
+  <div class="column medium-3 small 12">
+    <img src="img/conferencistas/candace_damon.png" alt="">
+  </div>
+  <div class="column medium-3 small 12">
+    <img src="img/conferencistas/catherine_nagel.png" alt="">
+  </div>
+  <div class="column medium-3 small 12">
+    <img src="img/conferencistas/james_siegel.png" alt="">
+  </div>
+  <div class="column medium-3 small 12">
+    <img src="img/conferencistas/erik_carranza.png" alt="">
+  </div>
+</div>
+<br>
+<div class="row">
+  <div class="column medium-3 small 12">
+    <img src="img/conferencistas/german_enriquez.png" alt="">
+  </div>
+  <div class="column medium-3 small 12">
+    <img src="img/conferencistas/geoffrey_recoder.png" alt="">
+  </div>
+  <div class="column medium-3 small 12">
+    <img src="img/conferencistas/leonardo_diaz.png" alt="">
+  </div>
+  <div class="column medium-3 small 12">
+    <img src="img/conferencistas/guillermo_bernal.png" alt="">
+  </div>
+</div>
+<br>
+<div class="row">
+  <div class="column medium-3 small 12">
+    <img src="img/conferencistas/leticia_lozano.png" alt="">
+  </div>
+  <div class="column medium-3 small 12">
+    <img src="img/conferencistas/laura_ekasetya.png" alt="">
+  </div>
+  <div class="column medium-3 small 12">
+    <img src="img/conferencistas/ignacio_montojo.png" alt="">
+  </div>
+  <div class="column medium-3 small 12">
+    <img src="img/conferencistas/lilia_haua.png" alt="">
+  </div>
+</div>
+<br>
+<div class="row">
+  <div class="column medium-3 small 12">
+    <img src="img/conferencistas/mauricio_fabry.png" alt="">
+  </div>
+  <div class="column medium-3 small 12">
+    <img src="img/conferencistas/patricia_elias.png" alt="">
+  </div>
+  <div class="column medium-3 small 12">
+    <img src="img/conferencistas/rebecca_lemos.png" alt="">
+  </div>
+  <div class="column medium-3 small 12">
+    <img src="img/conferencistas/loreta_castro.png" alt="">
+  </div>
+</div>
+<br>
+<div class="row">
+  <div class="column medium-3 small 12">
+    <img src="img/conferencistas/oswaldo_zurita.png" alt="">
+  </div>
+  <div class="column medium-3 small 12">
+    <img src="img/conferencistas/sindy_martinez.png" alt="">
+  </div>
+  <div class="column medium-3 small 12">
+    <img src="img/conferencistas/mercedes_escudero.png" alt="">
+  </div>
+  <!-- <div class="column medium-3 small 12">
+    <img src="img/conferencistas/loreta_castro.png" alt="">
+  </div> -->
+</div>
 
 
   <!-- <div class="expanded barra_sesiones">

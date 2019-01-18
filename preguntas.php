@@ -33,7 +33,7 @@ session_start();
 <main class="back-1">
   <article class="">
     <div class="row titulo_preguntas">
-      <h2 class="subtitulo_verde">ANTES DEL CONGRESO?</h2>
+      <h2 class="subtitulo_verde">ANTES DEL CONGRESO</h2>
     </div>
     <div class="row lista_preguntas">
       <ul class="accordion" data-accordion data-allow-all-closed="true">
@@ -59,7 +59,13 @@ session_start();
           <a href="#" class="accordion-title">+ ¿Cuándo es el Congreso Internacional
             de Parques Urbanos? </a>
           <div class="accordion-content" data-tab-content>
-            <p>Del 14 al 17 de mayo del 2019. Contará con 2 días de talleres y 2 días y medio de exposición comercial.</p>
+            <p>Congreso Parques se realizará del 14 al 17 de mayo de 2019 en Monterrey, Nuevo León, México. Sus actividades se realizarán en el siguiente orden:
+              <ul>
+                <li>Talleres del 14 al 15 de mayo.</li>
+                <li>Expo Parques del 15 al 17 de mayo. </li>
+                <li>Conferencias del 16 al 17 de mayo.</li>
+              </ul>
+            </p>
           </div>
         </li>
         <li class="accordion-item" data-accordion-item>
@@ -74,27 +80,11 @@ session_start();
           <a href="#" class="accordion-title">+ ¿Por qué debo asistir?  </a>
           <div class="accordion-content" data-tab-content>
             <ul>
-              <li>Conocerás más sobre los parques y espacios públicos; además aprenderás
-                de los mejores conferencistas y talleristas del mundo.</li>
-              <li>Ampliarás tus contactos y generarás grandes relaciones públicas.</li>
-              <li>Conocerás a los proveedores de la industria más importantes de
-                México y el mundo, pero sobre todo las tendencias del mercado,
-                nuevos productos, precios, calidades y oportunidades.</li>
-              <li>Aprenderás de historias de éxito sobre los parques y espacios
-                públicos que están sucediendo en México y Latinoamérica.</li>
-              <li>Llevarás a tu organización nuevas ideas para el desarrollo de
-                proyectos.</li>
-              <li>Obtendrás una constancia otorgada por la Asociación Nacional de
-                Parques y Recreación de México.</li>
-              <li>Podrás descargar todo el material de todas las conferencias al
-                finalizar el congreso.</li>
-              <li> Visitarás los parques y espacios públicos más emblemáticos de la
-                ciudad sede, aprendiendo cómo los ciudadanos y el gobierno resolvieron las
-                problemáticas y retos.</li>
-              <li>Serás parte de la comunidad mexicana dedicada al cuidado, mantenimiento,
-                administración y gestión de los parques urbanos para elevar la discusión del tema en México y Latinoamérica y con esto ayudar a mejorar el tejido social de las ciudades.</li>
-
+              <li>Ampliarás tus contactos y crearás grandes amistades.</li>
+              <li>Aprenderás de historias de éxito sobre los parques y espacios públicos que están sucediendo en México y el mundo.</li>
+              <li>Serás parte de la comunidad mexicana dedicada al cuidado, mantenimiento, administración y gestión de los parques urbanos para elevar la discusión del tema en México y Latinoamérica para ayudar a mejorar el tejido social de las ciudades.</li>
             </ul>
+            <p>¡Convence a tu jefe! Aquí te decimos como: <a href="razonesParaAsistir.php">Razones para Asistir</a> </p>
           </div>
         </li>
         <li class="accordion-item" data-accordion-item>
@@ -143,9 +133,9 @@ session_start();
         <li class="accordion-item" data-accordion-item>
           <a href="#" class="accordion-title">+ ¿Dónde me puedo hospedar? </a>
           <div class="accordion-content" data-tab-content>
-            <p>Cercanos a CINTERMEX se encuentran los siguientes <a href="hospedajes.php">hoteles</a>:</p>
+            <p>Cercanos a CINTERMEX se encuentran los <a href="hospedajes.php">siguientes hoteles</a> con los que el Congreso Parques tiene convenio:</p>
             <ul>
-              <li>	Antaris by Luxor Hotels</li>
+              <li>Antaris by Luxor Hotels</li>
               <li>Hotel Monterrey Macroplaza </li>
               <li>Four Points  by Sheraton </li>
               <li>Holiday Inn</li>
@@ -161,12 +151,7 @@ session_start();
         <li class="accordion-item" data-accordion-item>
           <a href="#" class="accordion-title">+ ¿Dónde y cuándo me puedo inscribir?	 </a>
           <div class="accordion-content" data-tab-content>
-            <p>Puedes inscribirte al congreso desde nuestro sitio web; simplemente
-              tendrás que hacer clic en el botón "Registrarse" y seguir las indicaciones.
-              Podrás hacerlo a partir del 5 de octubre. </p>
-              <p>Cualquier duda o comentario puedes escribir al correo: inscripciones@congresoparques.com
-            </p>
-            <p>Aprovecha nuestra promoción a meses sin intereses con tarjetas participantes. <img src="img/tarjestas-admitidas.png" alt="" class="tarjetas"></p>
+            <p>Puedes inscribirte al congreso desde nuestro sitio web; simplemente tendrás que hacer clic en el botón "Registrarse" y seguir las indicaciones. Podrás hacerlo a partir del 25 de octubre.</p>
           </div>
         </li>
         <li class="accordion-item" data-accordion-item>
@@ -238,10 +223,10 @@ session_start();
         <li class="accordion-item" data-accordion-item>
           <a href="#" class="accordion-title">+ ¿Cómo puedo hacer mi pago? </a>
           <div class="accordion-content" data-tab-content>
-            <p>El pago para la inscripción al congreso se puede hacer a través de tarjeta de crédito, débito y PayPal. También contamos con otras opciones de pago que se muestran en el formulario de registro.
+            <p>El pago para la inscripción al congreso se puede hacer a través de tarjeta de crédito, débito y PayPal.
+              También contamos con otras opciones de pago que se muestran en el formulario de registro.
+              <!-- link -->
             </p>
-            <!-- <p>Aprovecha nuestra promoción a meses sin intereses con tarjetas participantes.
-            </p> -->
           </div>
         </li>
         <!-- <li class="accordion-item" data-accordion-item>
@@ -270,7 +255,10 @@ session_start();
         <li class="accordion-item" data-accordion-item>
           <a href="#" class="accordion-title">+ ¿Tengo que inscribirme al congreso con anterioridad o puedo hacerlo el día que empieza?  </a>
           <div class="accordion-content" data-tab-content>
-            <p>Te recomendamos ampliamente que te inscribas previamente para asegurar tu participación al congreso. Para que puedas aprovechar los descuentos por inscripción anticipada y planear a qué sesiones educativas asistir para sacarle el mayor provecho al evento. Sin embargo, habrá módulos de inscripción durante los tres días del congreso. </p>
+            <p>Te recomendamos ampliamente que te inscribas previamente para asegurar tu participación al congreso, para
+              que puedas aprovechar los descuentos por inscripción anticipada y planear a qué sesiones educativas asistir
+              para sacarle el mayor provecho al evento. Sin embargo, habrá módulos de inscripción durante los tres días del
+              congreso. No olvides que el cupo es limitado. </p>
           </div>
         </li>
         <li class="accordion-item" data-accordion-item>
@@ -283,7 +271,7 @@ session_start();
       </ul>
 
       <div class="row column titulo_preguntas">
-        <h2 class="subtitulo_verde">DURANTE EL CONGRESO?</h2>
+        <h2 class="subtitulo_verde">DURANTE EL CONGRESO</h2>
       </div>
         <ul class="accordion" data-accordion data-allow-all-closed="true">
         <li class="accordion-item" data-accordion-item>
@@ -315,13 +303,14 @@ session_start();
       </ul>
     </ul>
     <div class="row column titulo_preguntas">
-      <h2 class="subtitulo_verde">DESPUÉS DEL CONGRESO?</h2>
+      <h2 class="subtitulo_verde">DESPUÉS DEL CONGRESO</h2>
     </div>
       <ul class="accordion" data-accordion data-allow-all-closed="true">
         <li class="accordion-item is-active" data-accordion-item>
           <a href="#" class="accordion-title">+ ¿Dónde puedo obtener mi constancia de participación? </a>
           <div class="accordion-content" data-tab-content>
-            <p>Te brindaremos un enlace al finalizar el Congreso Parques. Te pedimos que al realizar tu registro brindes la información completa para dar seguimiento con la entrega de la constancia digital.</p>
+            <p>Te compartiremos un enlace al finalizar el Congreso Parques. Te pedimos que al realizar
+              tu registro brindes tu información completa y real para dar seguimiento a la entrega de la constancia digital.</p>
           </div>
         </li>
       </ul>

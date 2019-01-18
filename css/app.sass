@@ -6,6 +6,7 @@ $cafe: #4f3013
 $morado: #5a61ab
 $rosado: #883d84
 $gris: #787878
+$fiusha: #fb04a1
 
 $cielo: #e1ecf7
 
@@ -13,6 +14,31 @@ $cielo: #e1ecf7
   background: #042a54
 body
   background: $cielo
+
+
+#social
+  z-index: 100
+  max-width: 50px
+  position: fixed
+  margin-top: 150px
+.contenedor_redes a img
+  padding: 4px
+.contenedor_redes a:hover
+  animation-name: animacion-redes
+  animation-duration: 1.5s
+  animation-timing-function: ease
+.traductor
+  margin-bottom: 90px
+
+
+@keyframes animacion-redes
+  from
+    margin-left: 20px
+    transform: rotate(380deg)
+  to
+    margin-left: 0px
+
+
 
 @font-face
   font-family: "general"
@@ -57,6 +83,18 @@ h3,h4, h5,h6
   padding: 10px 20%
   font-family: "avenir bold"
   margin: 0
+.titulo_razones
+  padding-top: 30px
+.titulo_razones h2
+  color: $fiusha
+  letter-spacing: 2px
+.titulo_razones h1
+  color: white
+.titulo_razones h2,
+.titulo_razones h1
+  font-family: "bold"
+  text-transform: uppercase
+  text-align: center
 .titulo_pagina
   text-transform: uppercase
   font-size: 45px
@@ -120,9 +158,28 @@ img.b-loaded
   text-transform: uppercase
   color: $verde
   margin-top: 30px
+
+.ul_verde
+  color: $verde
+.ul_verde li span
+  color: #555555
+.ul_verde .text_bc
+  color: white
+
+.img_asistir
+  padding-top: 40px
+
+.section_talleres_vivenciales h5,
+.section_talleres_curriculares h5
+  color: #9fbd11
+  font-family: "avenir"
+  font-weight: bold
+
+
 //=========== header index  =============
 
-
+.programa-header
+  height: 160px
 .conectividad .cinta_azul
   margin: 0
 // ========================================
@@ -171,7 +228,7 @@ img.b-loaded
   height: 12vh
 
 .btn_entradas
-  border: 1px solid #fb04a1
+  border: 2px solid #fb04a1
   border-radius: 10px
   padding: 10px 20px
   margin-top: 10px
@@ -413,6 +470,91 @@ img.b-loaded
   font-size: 14px
 
 //=====================================  Boletos ============================================================
+.contenido_boleto
+  background-color: white
+  color: $gris
+  border: 2.5px solid $azul
+  border-radius: 8px
+.header_boleto
+  background-color: $azul
+  height: 140px
+.descripcion_boleto
+  text-align: center
+  color: white
+  margin-top: -20px
+  padding: 10px
+  font-size: 12px
+
+.beneficios_boleto,
+.beneficios_boleto p
+  text-align: center
+  margin: 0 auto
+  font-weight: bold
+.beneficios_boleto hr
+  margin: 12px
+  border-color: $azul
+.precios_boleto
+  text-align: center
+.boleto_activo
+  background: #042a54
+  color: white
+  text-align: center
+  margin: 10px 0 10px 0
+.boleto_activo h3,
+.boleto_verde h3
+  font-size: 25px
+  letter-spacing: 1px
+  text-transform: uppercase
+  padding-top: 5px
+.contenido_precios p
+  color: $azul
+  font-size: 24px
+  text-align: center
+  font-family: "avenir bold"
+  margin: 0
+  padding: 0
+.contenido_precios span
+  font-size: 15px
+.contenido_precios h6
+  color: $verde
+  text-transform: uppercase
+  font-family: "roboto"
+  font-weight: bold
+  margin-top: -5px
+.contenido_precios h6.gris
+  color: $gris
+.contenido_precios hr
+  border-color: $azul
+  margin: 0 12px
+.boleto_verde
+  background-color: $verde
+  color: white
+.contenedor_btn_compra
+  margin: 30px 0px 10px
+.btn_compra_verde
+  background-color: $verde
+  color: white
+  text-transform: uppercase
+  font-size: 18px
+  padding: 10px 20px
+  border-radius: 30px
+  font-weight: bold
+  letter-spacing: 1px
+.btn_compra_verde:hover
+  color: $verde
+span.iva
+  color: $gris
+  text-transform: uppercase
+  font-size: 13px
+  letter-spacing: 1px
+
+
+.condiciones
+  font-size: 12px
+  list-style: none
+
+
+
 #boletos-contenedor
   font-family: "Roboto"
   background-color: #4783d2
@@ -426,17 +568,17 @@ img.b-loaded
   border-radius: 20px
   padding: 15px 15px 15px 15px
   width: 210px
-  height: 315px
+  // height: 315px
   text-align: center
 .titulo_boleto
   display: flex
   align-items: center
   justify-content: center
-  background: #dedede
-  color: #636363
-  border-radius: 5px
-  font-size: 20px
-  height: 50px
+  background: $azul
+  color: white
+  border-radius: 5px 5px 0 0
+  font-size: 30px
+  height: 100px
   font-family: "bold"
   margin-bottom: 5px
 
@@ -445,6 +587,7 @@ img.b-loaded
   font-family: "avenir bold"
   color: $verde
   // margin-top: -10px
+
 
 .precio_boleto_miembros
   font-size: 40px
@@ -461,13 +604,13 @@ img.b-loaded
   text-transform: uppercase
   text-align: center
   letter-spacing: 1px
-.descripcion_boleto
-  font-size: 12px
-  height: 125px
-  border-bottom: 1px solid #b6b2b2
-  margin-bottom: 15px
-  padding-bottom: 10px
-  color: #636363
+// .descripcion_boleto
+//   font-size: 12px
+//   height: 125px
+//   border-bottom: 1px solid #b6b2b2
+//   margin-bottom: 15px
+//   padding-bottom: 10px
+//   color: #636363
 .btn_boleto
   background: #4783d2
   border-radius: 10px
@@ -651,11 +794,18 @@ img.b-loaded
 
 
 //======  footer  =======
-
+.whats
+  height: 16px
+  width: 16px
+.datosContacto
+  color: white
+  font-size: 13px
+  text-align: center
+  margin-top: 20px
 footer
   height: 300px
   background: $verde
-  padding: 40px 0px 40px 0px
+  padding: 40px 0px 0px 0px
 
 footer .logo_footer
   height: 100px
@@ -687,7 +837,14 @@ footer h4
 #redes-sociales img
   height: 50px
   margin-left: 20px
-
+#redes-sociales-header
+  border: 1px solid white
+  padding: 10px
+  border-radius: 10px
+  box-shadow: 2px 4px 10px #4d4d4d
+#redes-sociales-header img
+  height: 60px
+  margin-left: 20px
 #pie
   background: #c8c8c8
   height: 2em
@@ -704,23 +861,26 @@ footer h4
 
 .contador
   width: 230px
-  /*border: 1px solid gray
+  border-bottom: 3px solid $fiusha
+  border-top: 3px solid $fiusha
   text-align: center
   border-radius: 8px
   font-weight: bold
-  font-size: 24px
+  font-size: 25px
   font-family: "general"
   letter-spacing: 1px
-  float: right
-  margin-top: 25px
-  margin-right: 60px
+  // float: right
+  margin: 0 auto
+  // margin-top: 25px
+  // margin-right: 60px
 .faltan
-  color: #467bb6
+  color: white
   margin-right: 10PX
 .num_dias
-  color: white !important
-  background: #467bb6
-  padding: 5px 20px
+  color: $verde-limon !important
+  // background: #467bb6
+  text-shadow: 2px 3px 4px #000000
+  // padding: 5px 20px
   border-radius: 0px 0px 10px 10px
   text-transform: uppercase
 #redes-header img
@@ -909,12 +1069,13 @@ main .contenido ul li
   color: $rosado
 .foto_asistentes
   margin-top: 40px
-
+.color_rosado
+  color: #fb04a1
 .cinta_azul
   background: #4783d2
   padding: 40px 0px 40px 0px
   margin: 40px 0px 40px 0px
-.cinta_azul p
+.cinta_azul p, .cinta_azul ol[type=A]
   color: white
 .metodo_aprendizaje figure
   text-align: center
@@ -996,6 +1157,8 @@ main .contenido ul li
   border-radius: 50px
   font-family: "avenir bold"
   margin: 40px 40px
+  pointer-events: none
+  cursor: default
 #registraContribucion:hover
   background-color: $verde
 
@@ -1020,6 +1183,7 @@ main .contenido ul li
   font-size: 22px
   color: $rosado
   font-weight: bold
+
 .nota
   font-style: italic
 .nota strong
@@ -1059,7 +1223,7 @@ main .contenido ul li
   text-align: center
   margin: 0 auto
 .conf_mag figure img
-  height: 170px
+  height: 200px
 .descripcion_conferencia_m h1
   color: $azul
   // color: $gris
@@ -1139,6 +1303,12 @@ main .contenido ul li
   justify-content: center
 .img_talleres figure img
   height: 220px
+.contenedor_taller small
+  color: $verde
+  font-weight: bold
+  padding-top: -5px
+.contenedor_taller small:nth-of-type(2)
+  margin-left: 50px
 
 //=================   Patrocinadores   ===============================
 
@@ -1281,10 +1451,41 @@ span.clave_reservacion
 //   display: grid
 //   grid-template-columns: 30% 15% 15%
 
-.contenido_precios
-  margin-top: 40px
-  margin-bottom: 40px
-
+// .contenido_precios
+//   margin-top: 40px
+//   margin-bottom: 40px
+.cinta_bicolor
+  margin: 60px 0px 60px 0px
+  text-align: center
+  color: white
+  font-size: 22px
+.cinta_bicolor .btn_verde
+  padding: 10px 5px
+  font-size: 18px
+  font-weight: bold
+  letter-spacing: 1px
+  margin: 0 auto
+.cinta_bicolor .verde
+  color: $verde
+  font-weight: bold
+  font-size: 24px
+.cinta_bicolor img
+  height: 250px
+.cinta_bicolor .c1
+  background-color: #042a54
+  padding: 40px 0px 40px 0px
+.cinta_bicolor .c2
+  background-color: $azul
+  padding: 40px 0px 40px 0px
+.cinta-oscura
+  background-color: #042a54
+.cinta-oscura h5
+  color: white
+.cinta-oscura .fushia
+  color: #fb04a1
+  text-transform: uppercase
+  font-size: 25px
+  margin-top: 0
 .tabla_precios
   margin-bottom: 40px
 .tabla_precios thead tr th
@@ -1811,6 +2012,25 @@ tr td.bloque
 .titulo-ponentes
   color: #94C01F
 
+//===============================  Galería ===============
+.contenido_galeria
+  margin-top: 50px
+.galeria_img
+  height: 110px
+  padding: 2px
+.galeria_img:hover
+  animation-name: foto_galeria
+  animation-duration: 1s
+// @keyframes foto_galeria
+//   from
+//     opacity: .8
+//     transform: scale(1)
+//   to
+//     opacity: 1
+
+
+
+
 
 //================== Congreso tips  ==============
 #congresoTips h3
@@ -1853,6 +2073,20 @@ tr td.bloque
   font-size: 20px
   text-transform: uppercase
   font-family: "general"
+
+.titulos_azul
+  color: $azul
+  margin: 0 auto
+  text-align: center
+.titulos_azul h3
+  font-size: 35px
+  letter-spacing: 1px
+  margin-bottom: 0
+.titulos_azul h4
+  font-size: 20px
+  letter-spacing: .6px
+  margin-top: 0
+
 
 
 
@@ -1906,10 +2140,17 @@ tr td.bloque
   #img-popup
     width: 70vw
     height: 70vh
-
+  #cont_inscripcion .titulos_azul h3.subtitulo
+    font-size: 25px
+  #cont_inscripcion .titulos_azul h4.subtitulo
+    font-size: 15px
+  #cont_inscripcion .cinta-oscura p
+    padding: 0px 30px
   .contenido-magistrales .titulo-conferencia
     margin-top: 1em
     margin-bottom: 1em
+  .contenido_boleto
+    margin-bottom: 60px
   main h1
     color: white
     font-family: "avenir bold"
@@ -1956,6 +2197,8 @@ tr td.bloque
   footer hgroup h6
     // margin-top: -10px
     font-size: 12px
+  .datosContacto
+    font-size: 9.5px
   footer hgroup h4
     font-size: 15.6px
   footer h4
@@ -1964,7 +2207,7 @@ tr td.bloque
     font-size: 20px
     margin-top: 4px
   footer
-    height: 290px
+    height: 360px
     padding: 40px 0px 40px 0px
   footer hgroup
     border-bottom: 1px solid white

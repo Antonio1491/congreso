@@ -59,9 +59,10 @@ session_start();
     <div class="contenedor_patrocinadores">
       <div class="item_patrocinador">
         <figure>
-          <a href="https://www.coca-colamexico.com.mx/fundacion-coca-cola" target="_blank">
-            <img src="img/patrocinadores/patrocinan_fundacion_cocacola.png" alt="">
+          <a href="http://www.playclub.com.mx/" target="_blank">
+            <img src="img/patrocinadores/patrocinan_playclub.png" alt="">
           </a>
+
         </figure>
       </div>
       <div class="item_patrocinador" target="_blank">
@@ -73,8 +74,15 @@ session_start();
       </div>
       <div class="item_patrocinador">
         <figure>
-          <a href="http://www.playclub.com.mx/" target="_blank">
-            <img src="img/patrocinadores/patrocinan_playclub.png" alt="">
+          <a href="https://www.coca-colamexico.com.mx/fundacion-coca-cola" target="_blank">
+            <img src="img/patrocinadores/patrocinan_fundacion_cocacola.png" alt="">
+          </a>
+        </figure>
+      </div>
+      <div class="item_patrocinador">
+        <figure>
+          <a href="http://www.jimumex.com/" target="_blank">
+            <img src="img/patrocinadores/jimu-mex.png" alt="">
           </a>
         </figure>
       </div>
@@ -109,6 +117,34 @@ session_start();
       <div class="item_patrocinador">
         <figure>
           <img src="img/patrocinadores/socios_monterrey.png" alt="">
+        </figure>
+      </div>
+      <div class="item_patrocinador">
+        <figure>
+          <a href="http://www.parquesdemexico.org/consultora/" target="_blank">
+            <img src="img/patrocinadores/socios_parques.png" alt="">
+          </a>
+        </figure>
+      </div>
+      <div class="item_patrocinador">
+        <figure>
+          <a href="http://parquesalegres.org/" target="_blank">
+            <img src="img/patrocinadores/socios_parques_alegres.png" alt="">
+          </a>
+        </figure>
+      </div>
+      <div class="item_patrocinador">
+        <figure>
+          <a href="https://www.worldurbanparks.org/en/" target="_blank">
+            <img src="img/patrocinadores/socios_world_urban_parks.png" alt="">
+          </a>
+        </figure>
+      </div>
+      <div class="item_patrocinador">
+        <figure>
+          <a href="https://www.wri.org/" target="_blank">
+            <img src="img/patrocinadores/socios_wri.png" alt="">
+          </a>
         </figure>
       </div>
     </div>

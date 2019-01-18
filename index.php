@@ -24,16 +24,25 @@
           <h5>MONTERREY, NUEVO LEÓN, MÉXICO</h5>
         </div>
         <div class="item_contenido_portada">
-          <h4>La ciudad de las montañas</h4>
-          <h4>Te espera</h4>
+          <div class="row column align-center">
+            <a href="assets/ProgramaPreliminar2019.pdf">
+              <img src="img/programa_preliminar_2019.png" class="programa-header">
+            </a>
+          </div>
+          <!-- <h4>La ciudad de las montañas</h4>
+          <h4>Te espera</h4> -->
         </div>
         <div class="item_contenido_portada">
           <a href="#" data-open="exampleModal1" title="Ver Video"><img src="img/btn-play.png" alt="" onclick="ejecutar()"></a>
         </div>
         <div class="item_contenido_portada botones">
-          <div class="">
-            <a href="convocatoriaSesionesEducativas.php" class="btn_transparente">Convocatoria <span>Sesiones Educativas</span></a>
-          </div>
+
+            <div class="row column align-center">
+              <div class="contador">
+                <div id='contador'></div>
+              </div>
+            </div>
+
           <!-- <div class="">
             <a href="#" class="btn_verde">convertirce <span>en patrocinador</span></a>
           </div> -->
@@ -43,11 +52,12 @@
 
   <!--   modal   -->
     <div class="small reveal" id="exampleModal1" data-reveal>
-      <iframe width="100%" height="435" src="https://www.youtube.com/embed/pJWuVEuMylw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <iframe width="100%" height="435" src="https://www.youtube.com/embed/ATSFDG4uaQc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       <button class="close-button" data-close aria-label="Close modal" type="button">
         <span aria-hidden="true">&times;</span>
       </button>
     </div>
+  <!-- Fin modal -->
 
   <!--=================   cinta patrocinadores   =======================-->
   <?php include('assets/cinta_patrocinadores.php') ?>
@@ -122,7 +132,7 @@
         </figure>
         <figcaption class="titulo_movil">
           <h2>Costo de</h2>
-          <h1>Inversión</h1>
+          <h1>Inscripción</h1>
         </figcaption>
       </a>
     </div>

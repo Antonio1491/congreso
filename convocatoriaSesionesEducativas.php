@@ -14,10 +14,6 @@
     <meta property="og:image"              content="http://congresoparques.com/img/fb_convocatoria.jpg" />
     <title>Convocatoria 2019 | Congreso Internacional de Parques Urbanos</title>
     <?php  require("assets/head_common.php") ?>
-    <!-- <link rel="stylesheet" href="icons/foundation-icons.css">
-    <link rel="stylesheet" href="css/foundation-flex.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="css/app.css"> -->
   </head>
 <body onload="countdown('contador')">
   <header class="header_paginas header_convocatoria">
@@ -30,7 +26,7 @@
       </figure>
     </div>
     <hgroup class="titulo_pagina">
-      <h2>CONVOCATORIA</h2>
+      <h2>CONVOCATORIA cerrada</h2>
       <h1>"Sesiones Educativas 2019"</h1>
     </hgroup>
 
@@ -87,7 +83,7 @@
     <div class="row consideraciones">
       <div class="column medium-10">
         <h4 class="subtitulo">Consideraciones generales</h4>
-          <p>Si la propuesta es aceptada, cuando se le indique, el ponente deberá de firmar los acuerdos, términos y condiciones de privacidad además de compartir su presentación (material visual de apoyo). El material se hará público en la plataforma web de la Asociación Nacional de Parques y Recreación de México posterior a las fechas del congreso.</p>
+
         <p>Si la propuesta es aceptada, cuando se le indique, el ponente deberá de frirmar
           los acuerdos, términos y condiciones de privacidad, compartir su presentación
           (material visual de apoyo), ya que ese material se hará público en la plataforma
@@ -166,7 +162,7 @@
          personal de todos los ponentes involucrados en la propuesta con un máximo de 3 personas.</p>
       </div>
     </div>
-    <!-- <div class="row column">
+    <div class="row column">
       <h4>Las propuestas serán revisadas y seleccionadas por nuestro Consejo de Contenido integrado por:</h4>
       <ul>
         <li>Maria Luisa Ballí, Directora del Instituto de Bienestar Integral TecSalud, Tecnológico de Monterrey.</li>
@@ -183,9 +179,16 @@
         <li>Cristina R. de León Golib, Directora de Contenido y Educación, Asociación Nacional de Parques y Recreación México.</li>
       </ul>
 
+    </div>
+    <!-- <div class="row column align-center">
+      <a href="registro/RegistroSesionesEducativas.php" id="link_registro">
+        <h4 id="registraContribucion">¡Registra tu propuesta aquí!</h4></a>
     </div> -->
-    <div class="row column align-center">
-      <a href="registro/RegistroSesionesEducativas.php" id="link_registro"><h4 id="registraContribucion">¡Registra tu propuesta aquí!</h4></a>
+
+    <br><div class="row">
+      <figure>
+        <img src="img/convocatoria_cerrada.png" alt="">
+      </figure>
     </div>
 </main>
 

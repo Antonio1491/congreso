@@ -36,9 +36,11 @@ session_start();
     <div class="row column align-center" >
         <p class="subtitulo descripcion_principal">¡Ha llegado el momento de intercambiar tarjetas y divertirse!</p>
     </div>
-    <div class="row">
+    <div class="row column ">
       <p class="descripcion_principal "> Expande tu red profesional y disfruta durante los 3 eventos realizados especialmente para ti. Asiste a la inauguración, beer party y clausura del Congreso Parques, reúnete en un ambiente relajado, diviértete y haz networking.
-      Recuerda que tu entrada al congreso, incluye tu acceso a estos 3 eventos.</p>
+      Recuerda que tu entrada al congreso, incluye tu acceso a estos 3 eventos.
+
+    </p>
     </div>
     <br>
     <!-- <div class="row align-center">
