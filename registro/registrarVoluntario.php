@@ -15,7 +15,7 @@ $arrayTurno = $_POST["turno"];
 
 $registro = new Voluntarios();
 $nuevoRegistro = $registro->registroVoluntario($nombre, $apPaterno, $apMaterno, $email, $celular,
-                $genero, $universidad, $arrayTurno );
+                $genero, $universidad, implode($arrayTurno );
 
 
 

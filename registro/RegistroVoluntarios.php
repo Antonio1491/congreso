@@ -106,26 +106,256 @@
           </div>
           <div class="row ">
             <div class="column">
-              <label for="">Matutino</label>
+              <h5 for="">14 de Mayo - Mañana</h5>
                 <table class="horarios_voluntarios">
                   <th></th>
                   <th>Turno</th>
-                  <th>Fecha</th>
                   <th>Hora Inicio</th>
                   <th>Hora Fin</th>
                   <th>Total de Horas</th>
                   <th>Capacidad</th>
                   <?php
                   $horarios = new Voluntarios();
-                  $array = $horarios->horariosMatutinos();
+                  $dia = '2019-05-14';
+                  $array = $horarios->horariosMatutinos($dia);
                   foreach ($array as $valor) {
                   ?>
                   <tr>
                     <td>
-                      <input type="checkbox" name="turno[]" value="<?php echo $valor['turno'] ?>"></input>
+                      <input type="radio" name="turno[]" value="<?php echo $valor['turno'] ?>"></input>
                     </td>
                     <td><?php echo $valor['turno'] ?> </td>
-                    <td><?php echo $valor['fecha'] ?></td>
+                    <td><?php echo $valor['hora_inicio'] ?></td>
+                    <td><?php echo $valor['hora_fin'] ?></td>
+                    <td><?php echo $valor['total_horas'] ?></td>
+                    <td><?php echo $valor['capacidad'] ?></td>
+                  </tr>
+                  <?php
+                  }
+                  ?>
+                </table>
+            </div>
+          </div>
+
+          <div class="row ">
+            <div class="column">
+              <h5 for="">14 de Mayo - Tarde</h5>
+                <table class="horarios_voluntarios">
+                  <th></th>
+                  <th>Turno</th>
+                  <th>Hora Inicio</th>
+                  <th>Hora Fin</th>
+                  <th>Total de Horas</th>
+                  <th>Capacidad</th>
+                  <?php
+                  $horarios = new Voluntarios();
+                  $dia = '2019-05-14';
+                  $array = $horarios->horariosVespertinos($dia);
+                  foreach ($array as $valor) {
+                  ?>
+                  <tr>
+                    <td>
+                      <input type="radio" name="turno[]" value="<?php echo $valor['turno'] ?>"></input>
+                    </td>
+                    <td><?php echo $valor['turno'] ?> </td>
+                    <td><?php echo $valor['hora_inicio'] ?></td>
+                    <td><?php echo $valor['hora_fin'] ?></td>
+                    <td><?php echo $valor['total_horas'] ?></td>
+                    <td><?php echo $valor['capacidad'] ?></td>
+                  </tr>
+                  <?php
+                  }
+                  ?>
+                </table>
+            </div>
+          </div>
+
+          <div class="row ">
+            <div class="column">
+              <h5 for="">15 de Mayo - Mañana</h5>
+                <table class="horarios_voluntarios">
+                  <th></th>
+                  <th>Turno</th>
+                  <th>Hora Inicio</th>
+                  <th>Hora Fin</th>
+                  <th>Total de Horas</th>
+                  <th>Capacidad</th>
+                  <?php
+                  $horarios = new Voluntarios();
+                  $dia = '2019-05-15';
+                  $array = $horarios->horariosMatutinos($dia);
+                  foreach ($array as $valor) {
+                  ?>
+                  <tr>
+                    <td>
+                      <input type="radio" name="turno[]" value="<?php echo $valor['turno'] ?>"></input>
+                    </td>
+                    <td><?php echo $valor['turno'] ?> </td>
+                    <td><?php echo $valor['hora_inicio'] ?></td>
+                    <td><?php echo $valor['hora_fin'] ?></td>
+                    <td><?php echo $valor['total_horas'] ?></td>
+                    <td><?php echo $valor['capacidad'] ?></td>
+                  </tr>
+                  <?php
+                  }
+                  ?>
+                </table>
+            </div>
+          </div>
+
+          <div class="row ">
+            <div class="column">
+              <h5 for="">15 de Mayo - Tarde</h5>
+                <table class="horarios_voluntarios">
+                  <th></th>
+                  <th>Turno</th>
+                  <th>Hora Inicio</th>
+                  <th>Hora Fin</th>
+                  <th>Total de Horas</th>
+                  <th>Capacidad</th>
+                  <?php
+                  $horarios = new Voluntarios();
+                  $dia = '2019-05-15';
+                  $array = $horarios->horariosVespertinos($dia);
+                  foreach ($array as $valor) {
+                  ?>
+                  <tr>
+                    <td>
+                      <input type="radio" name="turno[]" value="<?php echo $valor['turno'] ?>"></input>
+                    </td>
+                    <td><?php echo $valor['turno'] ?> </td>
+                    <td><?php echo $valor['hora_inicio'] ?></td>
+                    <td><?php echo $valor['hora_fin'] ?></td>
+                    <td><?php echo $valor['total_horas'] ?></td>
+                    <td><?php echo $valor['capacidad'] ?></td>
+                  </tr>
+                  <?php
+                  }
+                  ?>
+                </table>
+            </div>
+          </div>
+
+          <div class="row ">
+            <div class="column">
+              <h5 for="">16 de Mayo - Mañana</h5>
+                <table class="horarios_voluntarios">
+                  <th></th>
+                  <th>Turno</th>
+                  <th>Hora Inicio</th>
+                  <th>Hora Fin</th>
+                  <th>Total de Horas</th>
+                  <th>Capacidad</th>
+                  <?php
+                  $horarios = new Voluntarios();
+                  $dia = '2019-05-16';
+                  $array = $horarios->horariosMatutinos($dia);
+                  foreach ($array as $valor) {
+                  ?>
+                  <tr>
+                    <td>
+                      <input type="radio" name="turno[]" value="<?php echo $valor['turno'] ?>"></input>
+                    </td>
+                    <td><?php echo $valor['turno'] ?> </td>
+                    <td><?php echo $valor['hora_inicio'] ?></td>
+                    <td><?php echo $valor['hora_fin'] ?></td>
+                    <td><?php echo $valor['total_horas'] ?></td>
+                    <td><?php echo $valor['capacidad'] ?></td>
+                  </tr>
+                  <?php
+                  }
+                  ?>
+                </table>
+            </div>
+          </div>
+
+          <div class="row ">
+            <div class="column">
+              <h5 for="">16 de Mayo - Tarde</h5>
+                <table class="horarios_voluntarios">
+                  <th></th>
+                  <th>Turno</th>
+                  <th>Hora Inicio</th>
+                  <th>Hora Fin</th>
+                  <th>Total de Horas</th>
+                  <th>Capacidad</th>
+                  <?php
+                  $horarios = new Voluntarios();
+                  $dia = '2019-05-16';
+                  $array = $horarios->horariosVespertinos($dia);
+                  foreach ($array as $valor) {
+                  ?>
+                  <tr>
+                    <td>
+                      <input type="radio" name="turno[]" value="<?php echo $valor['turno'] ?>"></input>
+                    </td>
+                    <td><?php echo $valor['turno'] ?> </td>
+                    <td><?php echo $valor['hora_inicio'] ?></td>
+                    <td><?php echo $valor['hora_fin'] ?></td>
+                    <td><?php echo $valor['total_horas'] ?></td>
+                    <td><?php echo $valor['capacidad'] ?></td>
+                  </tr>
+                  <?php
+                  }
+                  ?>
+                </table>
+            </div>
+          </div>
+
+          <div class="row ">
+            <div class="column">
+              <h5 for="">17 de Mayo - Mañana</h5>
+                <table class="horarios_voluntarios">
+                  <th></th>
+                  <th>Turno</th>
+                  <th>Hora Inicio</th>
+                  <th>Hora Fin</th>
+                  <th>Total de Horas</th>
+                  <th>Capacidad</th>
+                  <?php
+                  $horarios = new Voluntarios();
+                  $dia = '2019-05-17';
+                  $array = $horarios->horariosMatutinos($dia);
+                  foreach ($array as $valor) {
+                  ?>
+                  <tr>
+                    <td>
+                      <input type="radio" name="turno[]" value="<?php echo $valor['turno'] ?>"></input>
+                    </td>
+                    <td><?php echo $valor['turno'] ?> </td>
+                    <td><?php echo $valor['hora_inicio'] ?></td>
+                    <td><?php echo $valor['hora_fin'] ?></td>
+                    <td><?php echo $valor['total_horas'] ?></td>
+                    <td><?php echo $valor['capacidad'] ?></td>
+                  </tr>
+                  <?php
+                  }
+                  ?>
+                </table>
+            </div>
+          </div>
+
+          <div class="row ">
+            <div class="column">
+              <h5 for="">17 de Mayo - Tarde</h5>
+                <table class="horarios_voluntarios">
+                  <th></th>
+                  <th>Turno</th>
+                  <th>Hora Inicio</th>
+                  <th>Hora Fin</th>
+                  <th>Total de Horas</th>
+                  <th>Capacidad</th>
+                  <?php
+                  $horarios = new Voluntarios();
+                  $dia = '2019-05-17';
+                  $array = $horarios->horariosVespertinos($dia);
+                  foreach ($array as $valor) {
+                  ?>
+                  <tr>
+                    <td>
+                      <input type="radio" name="turno[]" value="<?php echo $valor['turno'] ?>"></input>
+                    </td>
+                    <td><?php echo $valor['turno'] ?> </td>
                     <td><?php echo $valor['hora_inicio'] ?></td>
                     <td><?php echo $valor['hora_fin'] ?></td>
                     <td><?php echo $valor['total_horas'] ?></td>

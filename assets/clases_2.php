@@ -242,16 +242,19 @@ class Voluntarios extends Conexion
 
 
 
-  public function horariosMatutinos(){
-    $sql= "SELECT * FROM turnos_voluntarios WHERE hora_inicio
-            ORDER BY fecha";
+  public function horariosMatutinos($dia){
+    $sql= "SELECT * FROM turnos_voluntarios WHERE fecha = '$dia'
+            AND hora_inicio>= '06:00:00' AND hora_fin <= '17:30:00'
+            ORDER BY hora_inicio";
     $consulta = $this->conexion_db->query($sql);
     $arrayHorarios = $consulta->fetch_all(MYSQLI_ASSOC);
     return $arrayHorarios;
   }
 
-  public function horariosVespertinos(){
-    $sql= "SELECT * FROM turnos_voluntarios WHERE hora_inicio BETWEEN '12:00:00' AND '24:00:00' ORDER BY fecha";
+  public function horariosVespertinos($dia){
+    $sql= "SELECT * FROM turnos_voluntarios WHERE fecha = '$dia'
+            AND hora_inicio>= '12:00:00' AND hora_fin <= '22:00:00'
+            ORDER BY hora_inicio";
     $consulta = $this->conexion_db->query($sql);
     $arrayHorarios = $consulta->fetch_all(MYSQLI_ASSOC);
     return $arrayHorarios;
