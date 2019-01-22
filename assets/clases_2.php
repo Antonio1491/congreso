@@ -260,12 +260,16 @@ class Voluntarios extends Conexion
     return $arrayHorarios;
   }
 
-  public function registroVoluntario($nombre, $apP, $apM, $email, $cel, $genero, $uni, $turno){
-    $sql = "INSERT INTO voluntarios VALUES ('$nombre', '$apP', '$apM', '$email', '$cel', '$genero', '$uni', '$turno')";
+  public function registroVoluntario($nombre, $apP, $apM, $email, $cel, $genero, $uni,
+                                    $d1M, $d2M, $d3M, $d4M, $d1V, $d2V, $d3V, $d4V){
+
+    $sql = "INSERT INTO voluntarios VALUES ('$nombre', '$apP', '$apM', '$email', '$cel', '$genero', '$uni', '$d1M', '$d2M',
+                                    '$d3M', '$d4M', '$d1V', '$d2V', '$d3V', '$d4V')";
     $consulta = $this->conexion_db->query($sql);
     $resultado = $consulta->fetch_all(MYSQLI_ASSOC);
     if ($resultado) {
-      return $resultado;
+      $resp = "registrado";
+      return $resp;
     }
     else{
       return "Error al registrar";

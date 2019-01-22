@@ -122,7 +122,7 @@
                   ?>
                   <tr>
                     <td>
-                      <input type="radio" name="turno[]" value="<?php echo $valor['turno'] ?>"></input>
+                      <input type="radio" name="dia_1_m" value="<?php echo $valor['id_turno'] ?>"></input>
                     </td>
                     <td><?php echo $valor['turno'] ?> </td>
                     <td><?php echo $valor['hora_inicio'] ?></td>
@@ -155,7 +155,7 @@
                   ?>
                   <tr>
                     <td>
-                      <input type="radio" name="turno[]" value="<?php echo $valor['turno'] ?>"></input>
+                      <input type="radio" name="dia_1_v" value="<?php echo $valor['id_turno'] ?>"></input>
                     </td>
                     <td><?php echo $valor['turno'] ?> </td>
                     <td><?php echo $valor['hora_inicio'] ?></td>
@@ -188,7 +188,7 @@
                   ?>
                   <tr>
                     <td>
-                      <input type="radio" name="turno[]" value="<?php echo $valor['turno'] ?>"></input>
+                      <input type="radio" name="dia_2_m" value="<?php echo $valor['id_turno'] ?>"></input>
                     </td>
                     <td><?php echo $valor['turno'] ?> </td>
                     <td><?php echo $valor['hora_inicio'] ?></td>
@@ -221,7 +221,7 @@
                   ?>
                   <tr>
                     <td>
-                      <input type="radio" name="turno[]" value="<?php echo $valor['turno'] ?>"></input>
+                      <input type="radio" name="dia_2_v" value="<?php echo $valor['id_turno'] ?>"></input>
                     </td>
                     <td><?php echo $valor['turno'] ?> </td>
                     <td><?php echo $valor['hora_inicio'] ?></td>
@@ -254,7 +254,7 @@
                   ?>
                   <tr>
                     <td>
-                      <input type="radio" name="turno[]" value="<?php echo $valor['turno'] ?>"></input>
+                      <input type="radio" name="dia_3_m" value="<?php echo $valor['id_turno'] ?>"></input>
                     </td>
                     <td><?php echo $valor['turno'] ?> </td>
                     <td><?php echo $valor['hora_inicio'] ?></td>
@@ -287,7 +287,7 @@
                   ?>
                   <tr>
                     <td>
-                      <input type="radio" name="turno[]" value="<?php echo $valor['turno'] ?>"></input>
+                      <input type="radio" name="dia_3_v" value="<?php echo $valor['id_turno'] ?>"></input>
                     </td>
                     <td><?php echo $valor['turno'] ?> </td>
                     <td><?php echo $valor['hora_inicio'] ?></td>
@@ -320,7 +320,7 @@
                   ?>
                   <tr>
                     <td>
-                      <input type="radio" name="turno[]" value="<?php echo $valor['turno'] ?>"></input>
+                      <input type="radio" name="dia_4_m" value="<?php echo $valor['id_turno'] ?>"></input>
                     </td>
                     <td><?php echo $valor['turno'] ?> </td>
                     <td><?php echo $valor['hora_inicio'] ?></td>
@@ -353,7 +353,7 @@
                   ?>
                   <tr>
                     <td>
-                      <input type="radio" name="turno[]" value="<?php echo $valor['turno'] ?>"></input>
+                      <input type="radio" name="dia_4_v" value="<?php echo $valor['id_turno'] ?>"></input>
                     </td>
                     <td><?php echo $valor['turno'] ?> </td>
                     <td><?php echo $valor['hora_inicio'] ?></td>

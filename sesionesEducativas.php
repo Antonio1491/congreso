@@ -52,6 +52,15 @@
       El momento asignado para el aprendizaje y capacitación será en las más de
       140 conferencistas nacionales e internacionales.</h5>
   </div>
+  <div class="row">
+    <div class="column medium-6">
+      <img src="img/lista_sesiones_1.png" alt="">
+    </div>
+    <div class="column medium-6">
+      <img src="img/lista_sesiones_2.png" alt="">
+    </div>
+  </div><br><br>
+
   <!-- <div class="row align-center">
     <p class="descripcion_principal">¿Te gustaría formar parte de nuestras Sesiones Educativas? Revisa la <a href="convocatoriaSesionesEducativas.php" class="btn_verde_transparente">convocatoria</a></p>
   </div> -->
