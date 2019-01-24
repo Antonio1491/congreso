@@ -13,7 +13,7 @@
     ?>
   </head>
   <body>
-    <header>
+    <header class="header_registro_voluntarios">
       <div class="logo-header">
         <a href="https://congresoparques.com/"> <img src="../img/logotipo/logo_congreso_bc.png" alt=""></a>
       </div>
@@ -101,8 +101,8 @@
               Horarios:
           </div>
           <div class="row column">
-            *Recuera que solamnte puedes seleccionar 2 opciones y que estas no deben de
-            ser en las mismas horas, de lo contrario tu participación no sera tomada en cuenta.
+            <p class="nota">*<em>Recuera que únicamente puedes seleccionar <span> 2 opciones</span>
+              de lo contrario tu participación no será tomada en cuenta</em>.</p>
           </div>
           <div class="row ">
             <div class="column">

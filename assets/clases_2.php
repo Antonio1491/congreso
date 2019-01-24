@@ -240,8 +240,6 @@ class Voluntarios extends Conexion
     parent::__construct();
   }
 
-
-
   public function horariosMatutinos($dia){
     $sql= "SELECT * FROM turnos_voluntarios WHERE fecha = '$dia'
             AND hora_inicio>= '06:00:00' AND hora_fin <= '17:30:00'
@@ -263,23 +261,69 @@ class Voluntarios extends Conexion
   public function registroVoluntario($nombre, $apP, $apM, $email, $cel, $genero, $uni,
                                     $d1M, $d2M, $d3M, $d4M, $d1V, $d2V, $d3V, $d4V){
 
-    $sql = "INSERT INTO voluntarios VALUES ('$nombre', '$apP', '$apM', '$email', '$cel', '$genero', '$uni', '$d1M', '$d2M',
+    $sql = "INSERT INTO voluntarios VALUES ('', '$nombre', '$apP', '$apM', '$email', '$cel', '$genero', '$uni', '$d1M', '$d2M',
                                     '$d3M', '$d4M', '$d1V', '$d2V', '$d3V', '$d4V')";
     $consulta = $this->conexion_db->query($sql);
-    $resultado = $consulta->fetch_all(MYSQLI_ASSOC);
-    if ($resultado) {
-      $resp = "registrado";
-      return $resp;
+
+        function contadorVoluntarios($d1M, $d2M, $d3M, $d4M, $d1V, $d2V, $d3V, $d4V){
+          if ($d1M != NULL) {
+            $sql = "UPDATE turnos_voluntarios SET capacidad = $d1M";
+          }
+
+        }
+
+    return $consulta;
+
+  }
+
+  public function correoAceptacionVoluntario($correo, $nombre){
+
+
+    $mail = new PHPMailer\PHPMailer\PHPMailer();
+    $mail->CharSet = 'UTF-8';
+
+                      //Luego tenemos que iniciar la validación por SMTP:
+            $mail->SMTPDebug = 2 ;
+            $mail->IsSMTP();
+            $mail->SMTPAuth = true;
+            $mail->Host = "smtp.hostinger.com"; // A RELLENAR. Aquí pondremos el SMTP a utilizar. Por ej. mail.midominio.com
+            $mail->Username = "contenido@anpr.org.mx"; // A RELLENAR. Email de la cuenta de correo. ej.info@midominio.com La cuenta de correo debe ser creada previamente.
+            $mail->Password = "congreso-Cristina*"; // A RELLENAR. Aqui pondremos la contraseña de la cuenta de correo
+            $mail->Port = 587; // Puerto de conexión al servidor de envio.
+            $mail->SMTPSecure =  "tls"  ; // Habilitar el cifrado TLS
+
+            $mail->setFrom("contenido@anpr.org.mx"); // A RELLENARDesde donde enviamos (Para mostrar). Puede ser el mismo que el email creado previamente.
+            $mail->FromName = "Congreso Parques"; //A RELLENAR Nombre a mostrar del remitente.
+            $mail->addAddress($correo); // Esta es la dirección a donde enviamos
+
+            $mail->IsHTML(true); // El correo se envía como HTML
+            $mail->Subject = "Participación registrada."; // Este es el titulo del email.
+            $body = "<html><body>
+                          <p>".$nombre.", gracias por registrarte como voluntario en 2do. Congreso
+                          Internacional de Parques urbanos 2019.</p>
+                          <p>¡Saludos!</p>
+                          <p>Cristina R. de León.<br>Dirección de Contenido y Educación. </p>
+                      </body></html>";
+            // $body .= "Aquí continuamos el mensaje";
+            $mail->Body = $body;
+            // Mensaje a enviar.
+            $exito = $mail->Send(); // Envía el correo.
+
+              // if($exito){ echo 'El correo fue enviado correctamente.'; }else{ echo 'Hubo un problema. Contacta a un administrador.'; }
+
+  }
+
+  public function validarTurno($var){
+    if (empty($var)) {
+      $resultado = null;
     }
-    else{
-      return "Error al registrar";
+    else {
+      $resultado = $var;
     }
 
   }
 
 }
-
-
 
 
  ?>
