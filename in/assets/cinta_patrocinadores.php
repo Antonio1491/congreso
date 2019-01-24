@@ -1,7 +1,7 @@
 
 <div class="cinta-marquee hide-for-small-only">
   <div class="">
-    <h4>Patrocinadores:</h4>
+    <h4>sponsors:</h4>
   </div>
   <section class="marquee slider2">
     <div>

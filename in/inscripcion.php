@@ -142,7 +142,7 @@
             <div class="contenedor_btn_compra">
               <a href="https://preregistrate.mx/congresoparques/2019/registro/profesional" class="btn_compra_verde">buy</a>
             </div>
-            <span class="iva">iva incluido</span>
+            <span class="iva">VAT Included</span>
           </div>
         </div>
       </div>
@@ -215,7 +215,7 @@
               <div class="contenedor_btn_compra">
                 <a href="https://preregistrate.mx/congresoparques/2019/registro/jovenprofesional" class="btn_compra_verde">buy</a>
               </div>
-              <span class="iva">iva incluido</span>
+              <span class="iva">VAT Included</span>
             </div>
           </div>
         </div>
@@ -288,7 +288,7 @@
               <div class="contenedor_btn_compra">
                 <a href="https://preregistrate.mx/congresoparques/2019/registro/estudiante" class="btn_compra_verde">buy</a>
               </div>
-              <span class="iva">iva incluido</span>
+              <span class="iva">VAT Included</span>
             </div>
           </div>
         </div>
@@ -361,7 +361,7 @@
               <div class="contenedor_btn_compra">
                 <a href="https://preregistrate.mx/congresoparques/2019/registro/expo" class="btn_compra_verde">buy</a>
               </div>
-              <span class="iva">iva incluido</span>
+              <span class="iva">VAT Included</span>
             </div>
           </div>
         </div>

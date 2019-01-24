@@ -60,7 +60,7 @@
   <!-- Fin modal -->
 
   <!--=================   cinta patrocinadores   =======================-->
-  <?php include('../assets/cinta_patrocinadores.php') ?>
+  <?php include('assets/cinta_patrocinadores.php') ?>
 
 
   <!--======  diseño pra móviles   ======-->
@@ -368,8 +368,9 @@ Simultaneously Expo Parques will take place, a space of 6,000 m2 of exhibition o
         <div class="column medium-4 contenido_mapa">
           <div class="item_contenido_mapa">
             <h3 class="titulo_verde">Location</h3>
-            <p>Centro de Congresos<br>
+
               <span>CINTERMEX</span><br>
+              <p>CONVENTION CENTER<br>
               Parque fundidora
             </p>
           </div>

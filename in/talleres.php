@@ -40,7 +40,7 @@
           <p class="subtitulo_bc text-center">Visit the most emblematic parks of the host city!</p>
         </div>
         <div class="row column align-center">
-          <h5>Cost: <span>$950.00 MXN IVA incluido c/u.</span></h5>
+          <h5>Cost: <span>$950.00 MXN VAT Included.</span></h5>
         </div>
       </div>
 
@@ -57,8 +57,8 @@
               administrating these spaces for 4 hours, the difficulties they faced and the
               activities they have implemented.</p>
               <div class="cupo_taller">
-                <p>Maximum capacity: <span>60 personas por taller.</span> </p>
-                <p>Costo: <span>$950.00 MXN IVA incluido.</span> </p>
+                <p>Maximum capacity: <span>60 people per workshop.</span> </p>
+                <p>Costo: <span>$950.00 MXN VAT Included</span> </p>
               </div>
         </div>
       </div>
@@ -75,7 +75,7 @@
                 the great Mexican artist Rufino Tamayo. Join us to know this park, its operating model, challenges
                 and successes by positioning itself as a unique space for the enjoyment of the neighbors and visitors. </p>
                 <small>Schedule: 3p.m. a 7p.m.</small>
-                <small>Day: 14 de Mayo 2019</small>
+                <small>Day: May, 14 2019</small>
             </div>
           </div>
           <div class="coumn small-12 medium-3 img_talleres">
@@ -107,7 +107,7 @@
                 educational and economic activities that take place in the area, as well as the
                 iconic public spaces that surround this important university.</p>
               <small>Schedule: 3p.m. a 7p.m.</small>
-              <small>Day: 14 de Mayo 2019</small>
+              <small>Day: May, 14 2019</small>
             </div>
           </div>
           <div class="coumn medium-3 small-12 img_talleres">
@@ -150,7 +150,7 @@
                 been part of the history are preserved. from Monterrey. Witness the passage of time in the
                 economic and cultural development of the city knowing one of its iconic spaces.</p>
                 <small>Schedule: 10a.m. a 2p.m.</small>
-                <small>Day: 14 de Mayo 2019</small>
+                <small>Day: May, 14 2019</small>
             </div>
           </div>
           <div class="column small-12 medium-3 img_talleres">
@@ -171,7 +171,7 @@
                 the experience and infrastructure of Nuevo León by administering these sites and promoting sports,
                 positioning it as one of the states that lead the lists of the greatest sports activity and best facilities in Mexico.</p>
                 <small>Schedule: 10a.m. a 2p.m.</small>
-                <small>Day: 15 de Mayo 2019</small>
+                <small>Day: May, 15 2019</small>
             </div>
           </div>
           <div class="column small-12 medium-3 img_talleres">
@@ -192,7 +192,7 @@
                 of the park. We will tours the areas most used for events and the assembly of one of the most important
                 events of the season.</p>
                 <small>Schedule: 3p.m. a 7p.m.</small>
-                <small>Day: 14 de Mayo 2019</small>
+                <small>Day: May, 14 2019</small>
             </div>
           </div>
           <div class="column small-12 medium-3 img_talleres">
@@ -217,7 +217,7 @@
                 steel company to becoming an urban park. As well as the selection of museum pieces and macro
                 sculptures that make up the park today.</p>
               <small>Horario: 10a.m. a 2p.m.</small>
-              <small>Day: 14 de Mayo 2019</small>
+              <small>Day: May, 14 2019</small>
             </div>
           </div>
           <div class="column small-12 medium-3 img_talleres">
@@ -238,7 +238,7 @@
                 of this emblematic tourist attraction you can learn about its operation, maintenance and
                 handling of special events.</p>
                 <small>Schedule: 3p.m. a 7p.m.</small>
-                <small>Day: 15 de Mayo 2019</small>
+                <small>Day: May, 15 2019</small>
             </div>
           </div>
           <div class="column small-12 medium-3 img_talleres">
@@ -261,7 +261,7 @@
                 from irrigation and gardening, maintenance of the infrastructure, to new projects design,
                 and cleaning and security.</p>
               <small>Schedule: 10a.m. a 2p.m.</small>
-              <small>Day: 15 de Mayo 2019</small>
+              <small>Day: May, 15 2019</small>
             </div>
           </div>
           <div class="column small-12 medium-3 img_talleres">
@@ -282,8 +282,15 @@
           <p class="subtitulo_bc text-center">Listen, learn, act and improve. The tools that every park professional needs!</p>
         </div>
         <div class="row column align-center">
-          <h5>Cost: <span>$1700.00 MXN IVA incluido c/u.</span></h5>
+          <h5>Cost: <span>$1700.00 MXN VAT Included.</span></h5>
         </div>
+
+
+
+
+
+
+
       </div>
       <div class="row">
         <div class="column small-12 medium-6">
@@ -299,7 +306,7 @@
               awarded a diploma with curricular value.</p>
               <div class="cupo_taller">
                 <p>Cupo máximo: <span>60 personas por taller.</span> </p>
-                <p>Costo: <span>$1,700.00 MXN IVA incluido.</span> </p>
+                <p>Costo: <span>$1,700.00 MXN VAT Included.</span> </p>
               </div>
         </div>
       </div>
@@ -317,7 +324,7 @@
                 planned. Learn how to develop financial campaigns and ensure the long-term
                 sustainability of your park in this curricular workshop.</p>
               <small>Schedule: 10a.m. a 2p.m.</small>
-              <small>Day: 15 de Mayo 2019</small>
+              <small>Day: May, 15 2019</small>
             </div>
           </div>
           <div class="column small-12 medium-3 img_talleres">
@@ -341,7 +348,7 @@
                 activities, attractions and content of your park more visible to those who
                 enjoy them.</p>
               <small>Schedule: 3p.m. a 7p.m.</small>
-              <small>Day: 15 de Mayo 2019</small>
+              <small>Day: May, 15 2019</small>
 
 
 
@@ -365,7 +372,7 @@
                 you will learn about this methodology, its field of action and in-depth principles,
                 as well as taking it into practice by analyzing spaces in the host city.</p>
               <small>Schedule: 3p.m. a 7p.m.</small>
-              <small>Day: 14 de Mayo 2019</small>
+              <small>Day: May, 14 2019</small>
             </div>
           </div>
           <div class="column small-12 medium-3 img_talleres">
