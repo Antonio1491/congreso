@@ -7,6 +7,23 @@ header{
   align-items: center;
   padding-left: 1em;
 }
+.header_registro_voluntarios{
+  height: 65px;
+  background: #042a54;
+  color: #ffffff;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  padding-left: 1em;
+}
+.encabezado_voluntarios{
+  background: #4783d2;
+  color: #ffffff;
+  padding: 10px 10px 10px 10px;
+  font-weight: bold;
+  letter-spacing: .5px;
+  margin-bottom: 1em;
+}
 span{
   font-weight: bold;
 }

@@ -47,7 +47,7 @@
       <div class="item">
         <form class="" action="registrarVoluntario.php" method="post" enctype="multipart/form-data">
           <fieldset>
-            <div class="encabezado">
+            <div class="encabezado_voluntarios">
               Datos personales:
             </div>
           </fieldset>
@@ -97,7 +97,7 @@
           </div>
 
 
-          <div class=" encabezado">
+          <div class="encabezado_voluntarios">
               Horarios:
           </div>
           <div class="row column">

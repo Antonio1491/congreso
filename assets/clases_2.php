@@ -242,7 +242,7 @@ class Voluntarios extends Conexion
 
   public function horariosMatutinos($dia){
     $sql= "SELECT * FROM turnos_voluntarios WHERE fecha = '$dia'
-            AND hora_inicio>= '06:00:00' AND hora_fin <= '17:30:00'
+            AND hora_inicio>= '06:00:00' AND hora_fin <= '17:30:00' AND capacidad > 0
             ORDER BY hora_inicio";
     $consulta = $this->conexion_db->query($sql);
     $arrayHorarios = $consulta->fetch_all(MYSQLI_ASSOC);
@@ -251,7 +251,7 @@ class Voluntarios extends Conexion
 
   public function horariosVespertinos($dia){
     $sql= "SELECT * FROM turnos_voluntarios WHERE fecha = '$dia'
-            AND hora_inicio>= '12:00:00' AND hora_fin <= '22:00:00'
+            AND hora_inicio>= '12:00:00' AND hora_fin <= '22:00:00' AND capacidad > 0
             ORDER BY hora_inicio";
     $consulta = $this->conexion_db->query($sql);
     $arrayHorarios = $consulta->fetch_all(MYSQLI_ASSOC);
@@ -261,23 +261,53 @@ class Voluntarios extends Conexion
   public function registroVoluntario($nombre, $apP, $apM, $email, $cel, $genero, $uni,
                                     $d1M, $d2M, $d3M, $d4M, $d1V, $d2V, $d3V, $d4V){
 
-    $sql = "INSERT INTO voluntarios VALUES ('', '$nombre', '$apP', '$apM', '$email', '$cel', '$genero', '$uni', '$d1M', '$d2M',
-                                    '$d3M', '$d4M', '$d1V', '$d2V', '$d3V', '$d4V')";
+            if (isset($d1M)) {
+                  $act = "UPDATE turnos_voluntarios SET capacidad = capacidad - 1 WHERE id_turno = $d1M";
+                  $consulta = $this->conexion_db->query($act);
+                }
+            if (isset($d2M)) {
+                $act = "UPDATE turnos_voluntarios SET capacidad = capacidad - 1 WHERE id_turno = $d2M";
+                $consulta = $this->conexion_db->query($act);
+                  }
+            if (isset($d3M)) {
+                $act = "UPDATE turnos_voluntarios SET capacidad = capacidad - 1 WHERE id_turno = $d3M";
+                $consulta = $this->conexion_db->query($act);
+                  }
+            if (isset($d4M)) {
+                $act = "UPDATE turnos_voluntarios SET capacidad = capacidad - 1 WHERE id_turno = $d4M";
+                $consulta = $this->conexion_db->query($act);
+                  }
+            if (isset($d1V)) {
+                $act = "UPDATE turnos_voluntarios SET capacidad = capacidad - 1 WHERE id_turno = $d1V";
+                $consulta = $this->conexion_db->query($act);
+                }
+            if (isset($d2V)) {
+                $act = "UPDATE turnos_voluntarios SET capacidad = capacidad - 1 WHERE id_turno = $d2V";
+                $consulta = $this->conexion_db->query($act);
+              }
+            if (isset($d3V)) {
+                $act = "UPDATE turnos_voluntarios SET capacidad = capacidad - 1 WHERE id_turno = $d3V";
+                $consulta = $this->conexion_db->query($act);
+                }
+            if (isset($d4V)) {
+                $act = "UPDATE turnos_voluntarios SET capacidad = capacidad - 1 WHERE id_turno = $d4V";
+                $consulta = $this->conexion_db->query($act);
+                }
+
+    $sql = "INSERT INTO voluntarios VALUES (null, '$nombre', '$apP', '$apM', '$email',
+                                    '$cel', '$genero', '$uni', $d1M, $d2M,
+                                    $d3M, $d4M, $d1V, $d2V, $d3V, $d4V)";
+
     $consulta = $this->conexion_db->query($sql);
 
-        function contadorVoluntarios($d1M, $d2M, $d3M, $d4M, $d1V, $d2V, $d3V, $d4V){
-          if ($d1M != NULL) {
-            $sql = "UPDATE turnos_voluntarios SET capacidad = $d1M";
-          }
 
-        }
+
 
     return $consulta;
 
   }
 
   public function correoAceptacionVoluntario($correo, $nombre){
-
 
     $mail = new PHPMailer\PHPMailer\PHPMailer();
     $mail->CharSet = 'UTF-8';
