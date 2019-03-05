@@ -59,7 +59,7 @@
       </div>
       <div class="column medium-6 small-12">
         <figure class="foto_asistentes">
-          <img src="img/asistentes_congreso_parques.jpg" alt="Asistentes al Congreso de Parques Urbanos 2018">
+          <img src="img/cintermex.jpg" alt="Asistentes al Congreso de Parques Urbanos 2018">
         </figure>
       </div>
     </div>

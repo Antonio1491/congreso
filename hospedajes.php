@@ -17,23 +17,25 @@ session_start();
 
     <?php  require("assets/head_common.php") ?>
 
-
 </head>
 <body onload="countdown('contador')">
   <header class="header_paginas header_hospedaje">
-    <?php include'assets/menu.php'; ?>
+    <div class="hide-for-small-only">
+      <?php include'assets/menu.php'; ?>
+    </div>
       <hgroup class="titulo_pagina"><br>
         <h1 >hospedaje</h1>
       </hgroup>
-      <div class="row descripcion_header align-center">
+      <div class="row descripcion_header align-center desc_hospedaje">
         <h5 class="subtitulo_bc ">¡Encuentra tu hospedaje!</h5>
         <p>Monterrey cuenta con una vasta oferta de hoteles, en esta sección encontrarás información sobre hoteles a una distancia caminable de CINTERMEX. </p>
       </div>
   </header>
 <main>
-  <div class=" row contenedor_hoteles">
-    <div class="row">
-      <div class="column medium-2 ">
+
+  <div class=" row contenedor_hoteles menu_hoteles">
+    <div class="row ">
+      <div class="column medium-2 small-6">
         <div class="item_hotel">
           <figure >
             <a href="#antaris" class="MO"><img src="img/hoteles/antaris.png" alt=""></a>
@@ -42,79 +44,90 @@ session_start();
         </div>
 
       </div>
-      <div class="column medium-2">
+      <div class="column medium-2 small-6">
         <figure>
           <a href="#hmonterrey" class="MO"><img src="img/hoteles/hotel_monterrey.png" alt=""></a>
         </figure>
       </div>
-      <div class="column medium-2">
+      <div class="column medium-2 small-6">
         <figure>
           <a href="#fourpoints1" class="MO"><img src="img/hoteles/four_points.png" alt=""></a>
         </figure>
       </div>
-      <div class="column medium-2">
+      <div class="column medium-2 small-6">
         <figure>
           <a href="#fourpoints2" class="MO"><img src="img/hoteles/four_points_2.png" alt=""></a>
         </figure>
       </div>
-      <div class="column medium-2">
+      <div class="column medium-2 small-6">
         <figure>
           <a href="#holidayinn" class="MO"><img src="img/hoteles/holiday_inn.png" alt=""></a>
         </figure>
       </div>
-      <div class="column medium-2">
+      <div class="column medium-2 small-6">
         <figure>
           <a href="#crowne" class="MO"><img src="img/hoteles/crowne_plaza.png" alt=""></a>
         </figure>
       </div>
     </div>
     <div class="row">
-      <div class="column medium-2">
+      <div class="column medium-2 small-6">
         <figure>
           <a href="#istay" class="MO"><img src="img/hoteles/istay.png" alt=""></a>
         </figure>
       </div>
-      <div class="column medium-2">
+      <div class="column medium-2 small-6">
         <figure>
           <a href="#travohotel" class="MO"><img src="img/hoteles/travohotel.png" alt=""></a>
         </figure>
       </div>
-      <div class="column medium-2">
+      <div class="column medium-2 small-6">
         <figure>
           <a href="#hgalerias" class="MO"><img src="img/hoteles/holiday_inn_2.png" alt=""></a>
         </figure>
       </div>
-      <div class="column medium-2">
+      <div class="column medium-2 small-6">
         <figure>
           <a href="#htec" class="MO"><img src="img/hoteles/holiday_inn_3.png" alt=""></a>
         </figure>
       </div>
-      <div class="column medium-2">
+      <div class="column medium-2 small-6">
         <figure>
           <a href="#milenium" class="MO"><img src="img/hoteles/milenium.png" alt=""></a>
         </figure>
       </div>
-      <div class="column medium-2">
-        <a href="#antaris2" class="MO"><img src="img/hoteles/antaris.png" alt=""></a>
+      <div class="column medium-2 small-6">
+        <figure>
+          <a href="#antaris2" class="MO"><img src="img/hoteles/antaris.png" alt=""></a>
+        </figure>
       </div>
     </div>
   </div>
 
   <section >
+    <div class="row column">
+    <hgroup class="titulos_azul">
+      <h3 class="subtitulo">HAZ CLICK</h3>
+      <h4 class="subtitulo">en cada hotel para obtener la clave de reservación. </h4>
+    </hgroup>
+  </div>
     <div class="row" id="descripcion_hotel">
       <div id="antaris" class="oculto">
         <div class="row">
-            <div class="column medium-6">
+            <div class="column medium-6 small-12">
               <figure>
                 <img src="img/hoteles/logo_antaris.png" alt="">
               </figure>
             </div>
-            <div class="column medium-6 datos_h">
+            <div class="column medium-6 small-12 datos_h">
               <p><span>Ubicación: </span>Hotel Antaris Cintermex/Ave. Fundidora Nº 500 Col. Obrera.</p>
               <p><span>Clave de reservación: </span><span class="clave_reservacion">Parques Urbanos</span></p>
               <p><span>Contacto: </span>T. (81) 83 18 04 44</p>
-              <a href="https://hotelantaris.com/ " class="btn_vermas">Sitio Web</a>
+              <div class="btn_sitio_hospedaje">
+                <a href="https://hotelantaris.com/ " class="btn_vermas">Sitio Web</a>
+              </div>
             </div>
+
         </div>
         <!-- <div class="titulo_hoteles ">
           <h3 class="subtitulo_verde">Sin desayuno buffet</h3>
@@ -217,7 +230,9 @@ session_start();
               <p><span>Contacto: </span>T. 8380 6066<br>
                   WhatsApp: 818 253 8965<br>
                   a.lopez@fourpointsbysheratongaleriasmonterrey.com.mx</p>
-              <a href="https://www.espanol.marriott.com/hotels/travel/mtyfp-four-points-galerias-monterrey?program=spg " class="btn_vermas">Sitio Web</a>
+              <div class="btn_sitio_hospedaje">
+                <a href="https://www.espanol.marriott.com/hotels/travel/mtyfp-four-points-galerias-monterrey?program=spg " class="btn_vermas">Sitio Web</a>
+              </div>
             </div>
         </div>
         <div class="row precios_hotel align-center">
@@ -275,7 +290,9 @@ session_start();
               <p><span>Contacto: </span>T. 8380 6066<br>
                   WhatsApp: 818 253 8965<br>
                   a.lopez@fourpointsbysheratongaleriasmonterrey.com.mx</p>
-              <a href="https://www.espanol.marriott.com/hotels/travel/mtyfp-four-points-galerias-monterrey?program=spg " class="btn_vermas">Sitio Web</a>
+              <div class="btn_sitio_hospedaje">
+                <a href="https://www.espanol.marriott.com/hotels/travel/mtyfp-four-points-galerias-monterrey?program=spg " class="btn_vermas">Sitio Web</a>
+              </div>
             </div>
         </div>
         <div class="row precios_hotel align-center">
@@ -459,7 +476,9 @@ session_start();
               <p><span>Clave de reservación: </span><span class="clave_reservacion">“Congreso Parques 2019.”</span></p>
               <p><span>Contacto: </span>T. 01 800 839 9300<br>
                   cro.cpmty@hotelesmilenium.com</p>
-              <a href="https://www.ihg.com/crowneplaza/hotels/us/es/reservation" class="btn_vermas">Sitio Web</a>
+              <div class="btn_sitio_hospedaje">
+                <a href="https://www.ihg.com/crowneplaza/hotels/us/es/reservation" class="btn_vermas">Sitio Web</a>
+              </div>
             </div>
         </div>
         <div class="titulo_hoteles ">
@@ -594,7 +613,9 @@ session_start();
               <p><span>Clave de reservación: </span><span class="clave_reservacion">“Congreso Parques 2019.”</span></p>
               <p><span>Contacto: </span>T. 01 800 223 6870<br>
                   cro.istay@hotelesmilenium.com</p>
-              <a href="https://www.istaymonterrey.com/default-es.html " class="btn_vermas">Sitio Web</a>
+              <div class="btn_sitio_hospedaje">
+                <a href="https://www.istaymonterrey.com/default-es.html " class="btn_vermas">Sitio Web</a>
+              </div>
             </div>
         </div>
         <div class="titulo_hoteles ">
@@ -720,7 +741,9 @@ session_start();
               <p><span>Clave de reservación: </span><span class="clave_reservacion">“Congreso Parques 2019.”</span></p>
               <p><span>Contacto: </span>01 800 018 7286<br>
                   cro.travohotelmty@hotelesmilenium.com</p>
-              <a href="https://www.travohotel.com.mx/default-es.html " class="btn_vermas">Sitio Web</a>
+              <div class="btn_sitio_hospedaje">
+                <a href="https://www.travohotel.com.mx/default-es.html " class="btn_vermas">Sitio Web</a>
+              </div>
             </div>
         </div>
         <div class="titulo_hoteles ">
@@ -1098,7 +1121,9 @@ session_start();
               <p><span>Clave de reservación: </span><span class="clave_reservacion">“Congreso Parques 2019.”</span></p>
               <p><span>Contacto: </span>T. 01 800 674 6835<br>
                   cro.msmilenium@hotelesmilenium.com</p>
-              <a href="https://www.msmilenium.com/es/habitaciones " class="btn_vermas">Sitio Web</a>
+              <div class="btn_sitio_hospedaje">
+                <a href="https://www.msmilenium.com/es/habitaciones " class="btn_vermas">Sitio Web</a>
+              </div>
             </div>
         </div>
         <div class="titulo_hoteles ">
@@ -1232,7 +1257,9 @@ session_start();
               <p><span>Ubicación: </span>Hotel Antaris Galerías / Ave. Constitución esquina con Venustiano Carranza.</p>
               <p><span>Clave de reservación: </span><span class="clave_reservacion">Parques Urbanos</span></p>
               <p><span>Contacto: </span>T. (81) 81 30 18 18</p>
-              <a href="https://hotelantaris.com/" class="btn_vermas">Sitio Web</a>
+              <div class="btn_sitio_hospedaje">
+                <a href="https://hotelantaris.com/" class="btn_vermas">Sitio Web</a>
+              </div>
             </div>
         </div>
         <div class="row precios_hotel align-center">
@@ -1263,7 +1290,10 @@ session_start();
 
     </div> <!-- fin de contenedor hoteles-->
     <br><br>
-    <?php include('assets/menu_sede.php') ?>
+    <div class="hide-for-small-only">
+      <?php include('assets/menu_sede.php') ?>
+    </div>
+
 
   </section>
 

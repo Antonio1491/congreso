@@ -129,7 +129,7 @@
                 scientific knowledge to achieve sustainable development. Meet this wonderful space and
                 meet with the nature, flora and fauna of the region.</p>
               <small>Schedule: 10a.m. a 2p.m.</small>
-              <small>Day: 14 de Mayo 2019</small>
+              <small>Day: May, 14  2019</small>
             </div>
           </div>
           <div class="column medium-3 small-12 img_talleres">

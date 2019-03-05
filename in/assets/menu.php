@@ -67,6 +67,7 @@
                       <li><a href="#">Host City</a>
                         <ul class="menu  sub-menu-central">
                           <li><a href="ciudadDeLasMontanas.php">Monterrey, Nuevo león</a></li>
+                          <li><a href="https://www.parquefundidora.org/" target="_blank">Parque fundidora</a></li>
                           <li><a href="hospedajes.php">Lodging</a></li>
                           <li><a href="conectividad.php">air connectivity </a></li>
                           <!-- <li><a href="parques.php">Parques en monterrey</a></li> -->

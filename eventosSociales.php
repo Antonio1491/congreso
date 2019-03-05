@@ -39,9 +39,20 @@ session_start();
     <div class="row column ">
       <p class="descripcion_principal "> Expande tu red profesional y disfruta durante los 3 eventos realizados especialmente para ti. Asiste a la inauguración, beer party y clausura del Congreso Parques, reúnete en un ambiente relajado, diviértete y haz networking.
       Recuerda que tu entrada al congreso, incluye tu acceso a estos 3 eventos.
-
     </p>
+  </div>
+    <div class="row align-center">
+      <span class="subtitulo">Precio boleto extra</span>
     </div>
+    <div class="row text-center precio_ev_social">
+      <div class="column medium-6">
+        <span>*Fiesta Inauguración: $500 MXN </span>
+      </div>
+      <div class="column medium-6">
+        <span>*Fiesta Clausura: $500 MXN </span>
+      </div>
+    </div>
+    <hr>
     <br>
     <!-- <div class="row align-center">
       <h5 class="subtitulo">¡Próximamente la información completa!</h5>

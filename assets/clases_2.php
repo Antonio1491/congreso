@@ -4,7 +4,6 @@ require "phpmailer/src/PHPMailer.php";
 require "phpmailer/src/Exception.php";
 require "phpmailer/src/SMTP.php";
 
-
 class Registro extends Conexion{
 
   public function __construct(){
@@ -60,22 +59,6 @@ class Registro extends Conexion{
    }
 
 
-  // public function registroConferencista($nom, $ap, $em, $emA, $tel, $car, $emp, $loc, $dir, $exp, $ant,
-  //                                         $lug, $nomf, $tipf, $tempf){
-  //
-  //   $destino_foto = $_SERVER['DOCUMENT_ROOT'].'/congreso/registro/fotos/';
-  //
-  //   $sql = $this->conexion_db->query("INSERT INTO conferencista VALUES (null, '$nom', '$ap', '$em', '$emA',
-  //                                   '$tel', '$car', '$emp', '$loc', '$dir', '$exp', '$ant', '$lug', '$nomf'
-  //                                   )");
-  //
-  //   if($sql){
-  //     // Mover el archivo de la carpeta temporal a la carpeta destino
-  //     move_uploaded_file($tempf, $destino_foto.$nomf);
-  //   }
-  //   return $sql;
-  // }
-
   public function registroSesionEducativa($sesion, $tema, $desc, $just, $obj, $mod, $adic){
 
       // $destino_archivo = $_SERVER['DOCUMENT_ROOT'].'/congreso/registro/archivos/';
@@ -87,45 +70,12 @@ class Registro extends Conexion{
 
   }
 
-  // public function mostrarRegistros(){
-  //
-  //   $sql = $this->conexion_db->query("SELECT * FROM conferencista");
-  //
-  //   $respuesta = $sql->fetch_all(MYSQL_ASSOC);
-
-    // si funciona muestra los elementos del array en cada registro (pero tienen el mismo id)
-    // foreach ($respuesta as $valor) {
-    //
-    //    $array_nombres = explode("," ,$valor['nombre']);
-    //    $array_apellidos = explode("," ,$valor['apellidos']);
-    //    $array_email = explode("," ,$valor['email']);
-    //
-    //    $array = count($array_nombres);
-    //
-    //    for ($i=0; $i < $array ; $i++) {
-    //      echo "<tr>";
-    //       echo "<td>".$array_nombres[$i]."</td>";
-    //       echo "<td>".$array_apellidos[$i]."</td>";
-    //       echo "<td>".$array_email[$i]."</td>";
-    //       echo "</tr>";
-    //     }
-
-
-  //   }
-  //
-  //   return ;
-  //
-  // } /*mostrarRegistros*/
-
-
-
     public function correoAceptacionPropuesta($correo, $sesion){
-
 
       $mail = new PHPMailer\PHPMailer\PHPMailer();
       $mail->CharSet = 'UTF-8';
 
-                        //Luego tenemos que iniciar la validación por SMTP:
+              //Luego tenemos que iniciar la validación por SMTP:
               $mail->SMTPDebug = 2 ;
               $mail->IsSMTP();
               $mail->SMTPAuth = true;
@@ -163,8 +113,6 @@ class Registro extends Conexion{
 
 }
 
-
-
 class Sesiones extends Conexion
 {
 
@@ -185,9 +133,7 @@ class Sesiones extends Conexion
   }
 }
 
-/**
- *
- */
+
 class Conferencistas extends Conexion
 {
 
@@ -258,40 +204,49 @@ class Voluntarios extends Conexion
     return $arrayHorarios;
   }
 
+
   public function registroVoluntario($nombre, $apP, $apM, $email, $cel, $genero, $uni,
                                     $d1M, $d2M, $d3M, $d4M, $d1V, $d2V, $d3V, $d4V){
 
             if (isset($d1M)) {
                   $act = "UPDATE turnos_voluntarios SET capacidad = capacidad - 1 WHERE id_turno = $d1M";
                   $consulta = $this->conexion_db->query($act);
+                  // $turnos[] = $d1M;
                 }
             if (isset($d2M)) {
                 $act = "UPDATE turnos_voluntarios SET capacidad = capacidad - 1 WHERE id_turno = $d2M";
                 $consulta = $this->conexion_db->query($act);
+                // $turnos[] = $d2M;
                   }
             if (isset($d3M)) {
                 $act = "UPDATE turnos_voluntarios SET capacidad = capacidad - 1 WHERE id_turno = $d3M";
                 $consulta = $this->conexion_db->query($act);
+                // $turnos[] = $d3M;
                   }
             if (isset($d4M)) {
                 $act = "UPDATE turnos_voluntarios SET capacidad = capacidad - 1 WHERE id_turno = $d4M";
                 $consulta = $this->conexion_db->query($act);
+                // $turnos[] = $d4M;
                   }
             if (isset($d1V)) {
                 $act = "UPDATE turnos_voluntarios SET capacidad = capacidad - 1 WHERE id_turno = $d1V";
                 $consulta = $this->conexion_db->query($act);
+                // $turnos[] = $d1V;
                 }
             if (isset($d2V)) {
                 $act = "UPDATE turnos_voluntarios SET capacidad = capacidad - 1 WHERE id_turno = $d2V";
                 $consulta = $this->conexion_db->query($act);
+                // $turnos[] = $d2V;
               }
             if (isset($d3V)) {
                 $act = "UPDATE turnos_voluntarios SET capacidad = capacidad - 1 WHERE id_turno = $d3V";
                 $consulta = $this->conexion_db->query($act);
+                // $turnos[] = $d3V;
                 }
             if (isset($d4V)) {
                 $act = "UPDATE turnos_voluntarios SET capacidad = capacidad - 1 WHERE id_turno = $d4V";
                 $consulta = $this->conexion_db->query($act);
+                // $turnos[] = $d4V;
                 }
 
     $sql = "INSERT INTO voluntarios VALUES (null, '$nombre', '$apP', '$apM', '$email',
@@ -300,14 +255,59 @@ class Voluntarios extends Conexion
 
     $consulta = $this->conexion_db->query($sql);
 
-
-
-
+    // return var_dump($turnos);
     return $consulta;
 
   }
 
-  public function correoAceptacionVoluntario($correo, $nombre){
+
+  public function informacionTurno($turno){
+    $sql = "SELECT turno, fecha, hora_inicio, hora_fin FROM turnos_voluntarios WHERE id_turno = $turno ";
+    $consulta = $this->conexion_db->query($sql);
+    $array_datos = $consulta->fetch_all(MYSQLI_ASSOC);
+
+    foreach ($array_datos as $valor) {
+      $respuesta = "
+                    <style type='text/css'>
+                      table{
+                        border: 1px solid gray;
+                      }
+                      th, td{
+                        width: 110px;
+                        text-align: center;
+                      }
+                    </style>
+                    <table class='tabla_email'>
+                      <caption><h4>Horario Seleccionado</h4></caption>
+                      <thead>
+                        <tr>
+                          <th>Turno</th>
+                          <th>Fecha</th>
+                          <th>Hora Inicio</th>
+                          <th>Hora Fin</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>".$valor["turno"]."</td>
+                          <td>".$valor["fecha"]."</td>
+                          <td>".$valor["hora_inicio"]."</td>
+                          <td>".$valor["hora_fin"]."</td>
+                        </tr>
+                      </tbody>
+                    </table>";
+
+    }
+
+
+    return $respuesta;
+
+  }
+
+  public function correoAceptacionVoluntario($correo, $nombre, $turno1, $turno2){
+
+    $datosTurno1 = $this->informacionTurno($turno1);
+    $datosTurno2 = $this->informacionTurno($turno2);
 
     $mail = new PHPMailer\PHPMailer\PHPMailer();
     $mail->CharSet = 'UTF-8';
@@ -329,8 +329,10 @@ class Voluntarios extends Conexion
             $mail->IsHTML(true); // El correo se envía como HTML
             $mail->Subject = "Participación registrada."; // Este es el titulo del email.
             $body = "<html><body>
-                          <p>".$nombre.", gracias por registrarte como voluntario en 2do. Congreso
-                          Internacional de Parques urbanos 2019.</p>
+                          <p>".$nombre.",<br> gracias por registrarte como voluntario en el 2do. Congreso
+                          Internacional de Parques Urbanos 2019.</p>
+                          <p>Información de tus Horarios:</p>
+                          ".$datosTurno1." <br> ".$datosTurno2."
                           <p>¡Saludos!</p>
                           <p>Cristina R. de León.<br>Dirección de Contenido y Educación. </p>
                       </body></html>";
@@ -343,14 +345,39 @@ class Voluntarios extends Conexion
 
   }
 
-  public function validarTurno($var){
-    if (empty($var)) {
-      $resultado = null;
-    }
-    else {
-      $resultado = $var;
-    }
+}
 
+
+class Programa extends Conexion
+{
+
+  public function __construct(){
+    parent::__construct();
+  }
+
+  public function actividadBloque($fecha, $horaInicio, $horaFin){
+    $sql = "SELECT * FROM conferencias where fecha = '$fecha' AND hora BETWEEN '$horaInicio' AND '$horaFin' AND evento = 'CPM2019' ORDER BY lugar";
+    $consulta = $this->conexion_db->query($sql);
+    $listaBloque = $consulta->fetch_all(MYSQLI_ASSOC);
+
+      return $listaBloque;
+  }
+
+  public function conferencistaImparte($idConferencia){
+    $sql = "SELECT * FROM usuarios WHERE id_conferencia = $idConferencia AND nivel = 2";
+    $consulta = $this->conexion_db->query($sql);
+    $arrayConferencistas = $consulta->fetch_all(MYSQLI_ASSOC);
+
+      return $arrayConferencistas;
+  }
+
+  public function ponentes(){
+    $sql = "SELECT nombre, foto, cargo, empresa FROM usuarios
+            WHERE evento = 'CPM2019' ORDER BY prioridad";
+    $consulta = $this->conexion_db->query($sql);
+    $array_ponentes = $consulta->fetch_all(MYSQLI_ASSOC);
+
+      return $array_ponentes;
   }
 
 }

@@ -406,12 +406,17 @@
 
     <div class="row">
       <ul class="condiciones">
-        <li>*Los jóvenes  profesionales se definen como cualquiera de 29 años cumplidos o menos.</li>
+        <li>Expo parques y los eventos sociales vienen incluidos en la inscripción al congreso, sin embargo estos también pueden adquirirse de manera individual. </li>
+        <li>El costo de los talleres vivenciales y curriculares se cobran por separado.</li>
+        <li>Las entradas al congreso, los talleres vivenciales y/o curriculares no son transferibles. </li>
+        <li>Una vez realizada la compra de inscripción al congreso o a talleres vivenciales y/o curriculares, no hay cambios ni devoluciones.</li>
+        <li>Las promociones o descuentos no son acumulables. </li>
+        <li>Los jóvenes  profesionales se definen como cualquiera de 29 años cumplidos o menos.</li>
         <li>El descuento para joven profesional sólo será válido al presentarse con una identificación vigente el día del congreso. </li>
-        <li>**Las tarifas de registro para miembros son para aquellos que cuenten con una membresía individual o grupal de la ANPR México que se encuentre vigente.</li>
-        <li>***La tarifas de registro para no miembros son aquellas que cuentan con las tarifas originales de Congreso Parques 2019. </li>
-        <li>****Los estudiantes se definen como cualquier persona que actualmente está inscrita como estudiante de tiempo completo y no labore como profesional de tiempo completo. Todos los estudiantes que hayan adquirido una entrada al Congreso Parques 2019 con la inscripción de “estudiante” deberán presentar un  certificado de estudios de la institución educativa antes de recibir el kit de bienvenida durante su registro.</li>
-        <li>*****La tarifa de estudiantes no aplica para nivel maestría o doctorado. </li>
+        <li>Las tarifas de registro para miembros son para aquellos que cuenten con una membresía individual o grupal de la ANPR México que se encuentre vigente.</li>
+        <li>La tarifas de registro para no miembros son aquellas que cuentan con las tarifas originales de Congreso Parques 2019. </li>
+        <li>Los estudiantes se definen como cualquier persona que actualmente está inscrita como estudiante de tiempo completo y no labore como profesional de tiempo completo. Todos los estudiantes que hayan adquirido una entrada al Congreso Parques 2019 con la inscripción de “estudiante” deberán presentar un  certificado de estudios de la institución educativa antes de recibir el kit de bienvenida durante su registro.</li>
+        <li>La tarifa de estudiantes no aplica para nivel maestría o doctorado. </li>
         <li>El estado del estudiante deberá verificarse de una de las siguientes maneras: certificado de estudios con membrete de la institución y firmada por un representante calificado de su programa universitario o bien, contar con una identificación del estudiante con fechas válidas. La verificación debe presentarse durante el registro, de lo contrario se cobraran cargos extras.  </li>
 
       </ul>

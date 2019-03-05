@@ -112,7 +112,66 @@
 
   </div>
 </div> -->
-
+<div class="row">
+  <div class="column small-6 medium-3 ">
+    <img src="../img/conferencistas/arturo_curiel.png" alt="">
+  </div>
+  <div class="column small-6 medium-3">
+    <img src="../img/conferencistas/carolyn_aguilar.png" alt="">
+  </div>
+  <div class="column small-6 medium-3">
+    <img src="../img/conferencistas/chantal_carius.png" alt="">
+  </div>
+  <div class="column small-6 medium-3">
+    <img src="../img/conferencistas/cosijoopii.png" alt="">
+  </div>
+</div>
+<br>
+<div class="row">
+  <div class="column small-6 medium-3 ">
+    <img src="../img/conferencistas/edgar_leon.png" alt="">
+  </div>
+  <div class="column small-6 medium-3">
+    <img src="../img/conferencistas/hector_benavides.png" alt="">
+  </div>
+  <div class="column small-6 medium-3">
+    <img src="../img/conferencistas/jesus_benavides.png" alt="">
+  </div>
+  <div class="column small-6 medium-3">
+    <img src="../img/conferencistas/kathrin_grimm.png" alt="">
+  </div>
+</div>
+<br>
+<div class="row">
+  <div class="column small-6 medium-3 ">
+    <img src="../img/conferencistas/kathya_mejia.png" alt="">
+  </div>
+  <div class="column small-6 medium-3">
+    <img src="../img/conferencistas/luis_barahona.png" alt="">
+  </div>
+  <div class="column small-6 medium-3">
+    <img src="../img/conferencistas/martin_montes.png" alt="">
+  </div>
+  <div class="column small-6 medium-3">
+    <img src="../img/conferencistas/miguel_angel.png" alt="">
+  </div>
+</div>
+<br>
+<div class="row">
+  <div class="column small-6 medium-3 ">
+    <img src="../img/conferencistas/pedro_paes.png" alt="">
+  </div>
+  <div class="column small-6 medium-3">
+    <img src="../img/conferencistas/rene_moranchel.png" alt="">
+  </div>
+  <div class="column small-6 medium-3">
+    <img src="../img/conferencistas/rocio_diaz.png" alt="">
+  </div>
+  <div class="column small-6 medium-3">
+    <img src="../img/conferencistas/sergio_roldan.png" alt="">
+  </div>
+</div>
+<br>
 <div class="row">
   <div class="column small-6 medium-3 ">
     <img src="../img/conferencistas/alberto_ipas.png" alt="">
@@ -148,7 +207,7 @@
     <img src="../img/conferencistas/german_enriquez.png" alt="">
   </div>
   <div class="column medium-3 small 12">
-    <img src="../img/conferencistas/geoffrey_recoder.png" alt="">
+    <img src="../img/conferencistas/sindy_martinez.png" alt="">
   </div>
   <div class="column medium-3 small 12">
     <img src="../img/conferencistas/leonardo_diaz.png" alt="">

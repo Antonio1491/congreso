@@ -11,6 +11,7 @@ $genero = $_POST["genero"];
 $universidad = $_POST["universidad"];
 
 $contador = 0;
+$turnos = [];
 
 if (empty($_POST["dia_1_m"])) {
   $dia1M = "null";
@@ -18,6 +19,7 @@ if (empty($_POST["dia_1_m"])) {
 else {
   $dia1M = $_POST["dia_1_m"];
   $contador = $contador + 1;
+  $turnos[] = $dia1M;
 }
 
 if (empty($_POST["dia_1_v"])) {
@@ -26,6 +28,7 @@ if (empty($_POST["dia_1_v"])) {
 else {
   $dia1V = $_POST["dia_1_v"];
   $contador = $contador + 1;
+  $turnos[] = $dia1V;
 }
 
 if (empty($_POST["dia_2_m"])) {
@@ -34,6 +37,7 @@ if (empty($_POST["dia_2_m"])) {
 else {
   $dia2M = $_POST["dia_2_m"];
   $contador = $contador + 1;
+  $turnos[] = $dia2M;
 }
 
 if (empty($_POST["dia_2_v"])) {
@@ -42,6 +46,7 @@ if (empty($_POST["dia_2_v"])) {
 else {
   $dia2V = $_POST["dia_2_v"];
   $contador = $contador + 1;
+  $turnos[] = $dia2V;
 }
 
 if (empty($_POST["dia_3_m"])) {
@@ -50,6 +55,7 @@ if (empty($_POST["dia_3_m"])) {
 else {
   $dia3M = $_POST["dia_3_m"];
   $contador = $contador + 1;
+  $turnos[] = $dia3M;
 }
 
 if (empty($_POST["dia_3_v"])) {
@@ -58,6 +64,7 @@ if (empty($_POST["dia_3_v"])) {
 else {
   $dia3V = $_POST["dia_3_v"];
   $contador = $contador + 1;
+  $turnos[] = $dia3V;
 }
 
 if (empty($_POST["dia_4_m"])) {
@@ -66,6 +73,7 @@ if (empty($_POST["dia_4_m"])) {
 else {
   $dia4M = $_POST["dia_4_m"];
   $contador = $contador + 1;
+  $turnos[] = $dia4M;
 }
 
 if (empty($_POST["dia_4_v"])) {
@@ -74,6 +82,7 @@ if (empty($_POST["dia_4_v"])) {
 else {
   $dia4V = $_POST["dia_4_v"];
   $contador = $contador + 1;
+  $turnos[] = $dia4V;
 }
 
 
@@ -83,8 +92,20 @@ if ($contador == 2) {
   $nuevoVoluntario = $registro->registroVoluntario($nombre, $apPaterno, $apMaterno, $email, $celular,
                   $genero, $universidad, $dia1M, $dia2M, $dia3M, $dia4M, $dia1V, $dia2V, $dia3V, $dia4V);
 
+  // $turnoAsignado = $registro->turnoAsignado($turnos);
+  //
+
   if($nuevoVoluntario){
-    $correoAceptado = $registro->correoAceptacionVoluntario($email, $nombre);
+
+    foreach ($turnos as $valor) {
+      $turno = "'".$valor."'";
+      $turnos_aux[] = $turno;
+    }
+
+    $turno1 = $turnos_aux[0];
+    $turno2 = $turnos_aux[1];
+
+    $correoAceptado = $registro->correoAceptacionVoluntario($email, $nombre, $turno1, $turno2);
     echo header("Location: VoluntarioRegistrado.html");
   }
   else{
@@ -104,7 +125,7 @@ elseif ($contador < 2 ) {
 }
 else {
   echo"<script language='JavaScript'>
-      alert('No puedes seleccionar más de 2 opcines en los turnos');
+      alert('No puedes seleccionar más de 2 opciones');
       </script>";
 
    echo "<script>window.history.go(-1);</script>";

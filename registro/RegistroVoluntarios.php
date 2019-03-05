@@ -28,7 +28,6 @@
          <p>Instrucciones:</p>
           <ul>
             <li>Seleccionar 2 (dos) turnos disponibles que prefieras. Al seleccionar los turnos te comprometes a cumplirlos y no puede haber cambios.</li>
-            <li>La suma de los horarios debe dar 11 horas.</li>
             <li>Dejar tus datos personales. Todos los campos son necesarios.</li>
             <li>Espera un correo de confirmación de tus turnos. </li>
             <li>Asistir a capacitación de voluntarios. El equipo de Congreso Parques se pondrá en contacto para hacerte saber el
@@ -112,7 +111,6 @@
                   <th>Turno</th>
                   <th>Hora Inicio</th>
                   <th>Hora Fin</th>
-                  <th>Total de Horas</th>
                   <th>Capacidad</th>
                   <?php
                   $horarios = new Voluntarios();
@@ -127,7 +125,6 @@
                     <td><?php echo $valor['turno'] ?> </td>
                     <td><?php echo $valor['hora_inicio'] ?></td>
                     <td><?php echo $valor['hora_fin'] ?></td>
-                    <td><?php echo $valor['total_horas'] ?></td>
                     <td><?php echo $valor['capacidad'] ?></td>
                   </tr>
                   <?php
@@ -145,7 +142,6 @@
                   <th>Turno</th>
                   <th>Hora Inicio</th>
                   <th>Hora Fin</th>
-                  <th>Total de Horas</th>
                   <th>Capacidad</th>
                   <?php
                   $horarios = new Voluntarios();
@@ -160,7 +156,6 @@
                     <td><?php echo $valor['turno'] ?> </td>
                     <td><?php echo $valor['hora_inicio'] ?></td>
                     <td><?php echo $valor['hora_fin'] ?></td>
-                    <td><?php echo $valor['total_horas'] ?></td>
                     <td><?php echo $valor['capacidad'] ?></td>
                   </tr>
                   <?php
@@ -178,7 +173,6 @@
                   <th>Turno</th>
                   <th>Hora Inicio</th>
                   <th>Hora Fin</th>
-                  <th>Total de Horas</th>
                   <th>Capacidad</th>
                   <?php
                   $horarios = new Voluntarios();
@@ -193,7 +187,6 @@
                     <td><?php echo $valor['turno'] ?> </td>
                     <td><?php echo $valor['hora_inicio'] ?></td>
                     <td><?php echo $valor['hora_fin'] ?></td>
-                    <td><?php echo $valor['total_horas'] ?></td>
                     <td><?php echo $valor['capacidad'] ?></td>
                   </tr>
                   <?php
@@ -211,7 +204,6 @@
                   <th>Turno</th>
                   <th>Hora Inicio</th>
                   <th>Hora Fin</th>
-                  <th>Total de Horas</th>
                   <th>Capacidad</th>
                   <?php
                   $horarios = new Voluntarios();
@@ -226,7 +218,6 @@
                     <td><?php echo $valor['turno'] ?> </td>
                     <td><?php echo $valor['hora_inicio'] ?></td>
                     <td><?php echo $valor['hora_fin'] ?></td>
-                    <td><?php echo $valor['total_horas'] ?></td>
                     <td><?php echo $valor['capacidad'] ?></td>
                   </tr>
                   <?php
@@ -244,7 +235,6 @@
                   <th>Turno</th>
                   <th>Hora Inicio</th>
                   <th>Hora Fin</th>
-                  <th>Total de Horas</th>
                   <th>Capacidad</th>
                   <?php
                   $horarios = new Voluntarios();
@@ -259,7 +249,6 @@
                     <td><?php echo $valor['turno'] ?> </td>
                     <td><?php echo $valor['hora_inicio'] ?></td>
                     <td><?php echo $valor['hora_fin'] ?></td>
-                    <td><?php echo $valor['total_horas'] ?></td>
                     <td><?php echo $valor['capacidad'] ?></td>
                   </tr>
                   <?php
@@ -277,7 +266,6 @@
                   <th>Turno</th>
                   <th>Hora Inicio</th>
                   <th>Hora Fin</th>
-                  <th>Total de Horas</th>
                   <th>Capacidad</th>
                   <?php
                   $horarios = new Voluntarios();
@@ -292,7 +280,6 @@
                     <td><?php echo $valor['turno'] ?> </td>
                     <td><?php echo $valor['hora_inicio'] ?></td>
                     <td><?php echo $valor['hora_fin'] ?></td>
-                    <td><?php echo $valor['total_horas'] ?></td>
                     <td><?php echo $valor['capacidad'] ?></td>
                   </tr>
                   <?php
@@ -310,7 +297,6 @@
                   <th>Turno</th>
                   <th>Hora Inicio</th>
                   <th>Hora Fin</th>
-                  <th>Total de Horas</th>
                   <th>Capacidad</th>
                   <?php
                   $horarios = new Voluntarios();
@@ -325,7 +311,6 @@
                     <td><?php echo $valor['turno'] ?> </td>
                     <td><?php echo $valor['hora_inicio'] ?></td>
                     <td><?php echo $valor['hora_fin'] ?></td>
-                    <td><?php echo $valor['total_horas'] ?></td>
                     <td><?php echo $valor['capacidad'] ?></td>
                   </tr>
                   <?php
@@ -343,7 +328,6 @@
                   <th>Turno</th>
                   <th>Hora Inicio</th>
                   <th>Hora Fin</th>
-                  <th>Total de Horas</th>
                   <th>Capacidad</th>
                   <?php
                   $horarios = new Voluntarios();
@@ -358,7 +342,6 @@
                     <td><?php echo $valor['turno'] ?> </td>
                     <td><?php echo $valor['hora_inicio'] ?></td>
                     <td><?php echo $valor['hora_fin'] ?></td>
-                    <td><?php echo $valor['total_horas'] ?></td>
                     <td><?php echo $valor['capacidad'] ?></td>
                   </tr>
                   <?php

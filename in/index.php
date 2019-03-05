@@ -371,7 +371,7 @@ Simultaneously Expo Parques will take place, a space of 6,000 m2 of exhibition o
 
               <span>CINTERMEX</span><br>
               <p>CONVENTION CENTER<br>
-              Parque fundidora
+              Parque Fundidora
             </p>
           </div>
           <div class="item_contenido_mapa">

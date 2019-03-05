@@ -36,14 +36,14 @@
                             <a href="#">eventos</a>
                             <ul class="menu sub-menu-central">
                               <li><a href="conferenciasMagistrales.php">Conferencias Magistrales</a></li>
-                              <li><a href="sesionesEducativas.php">sesiones educativas</a></li>
+                              <!-- <li><a href="sesionesEducativas.php">sesiones educativas</a></li> -->
                               <li><a href="talleres.php">talleres</a></li>
                               <li><a href="expoParques.php">expo parques</a></li>
                               <li><a href="eventosSociales.php">eventos sociales</a></li>
                             </ul>
                           </li>
-                          <li><a href="programa.php">Programa Preliminar</a></li>
-                          <!-- <li><a href="#">Ponentes</a></li> -->
+                          <li><a href="programa.php">Programa</a></li>
+                          <li><a href="ponentes.php">Ponentes</a></li>
                           <li><a href="patrocinadores.php">Patrocinadores</a></li>
                           <li><a href="comite.php">Comité organizador</a></li>
                           <li><a href="preguntas.php">Preguntas frecuentes</a></li>

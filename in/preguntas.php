@@ -244,13 +244,13 @@ session_start();
                please contact us at: content@anpr.org with Cristina R. de León</p>
           </div>
         </li>
-        <li class="accordion-item" data-accordion-item>
+        <!-- <li class="accordion-item" data-accordion-item>
           <a href="#" class="accordion-title">+ I want to be a speaker in the educational sessions. What should I do? </a>
           <div class="accordion-content" data-tab-content>
             <p>Our call to receive proposals for educational sessions will be open until October 29, 2018.
                <a href="convocatoriaSesionesEducativas.php"> Click here to </a> know the bases for participation. </p>
           </div>
-        </li>
+        </li> -->
         <li class="accordion-item" data-accordion-item>
           <a href="#" class="accordion-title">+ Do I have to register to the congress in advance or can I do it the day it starts?  </a>
           <div class="accordion-content" data-tab-content>

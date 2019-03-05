@@ -18,6 +18,17 @@
       <!--=====================  Portada Paisaje  ========================================-->
     <header id="portada" class="hide-for-small-only">
       <?php include'assets/menu.php'; ?>
+      <!-- pop-up mensaje  -->
+  <div id="popup" style="display: none;">
+    <div class="content-popup">
+        <div class="close"><a href="#" id="close"><i class="fi-x-circle large"></i></div>
+        <div>
+           <a href="programa.php" target="">
+             <img id="img-popup" src="img/popup.png" alt="">
+           </a>
+        </div>
+    </div>
+	</div>
       <div class="contenido_portada">
         <div class="item_contenido_portada fecha">
           <h4 id="">14-17 MAYO 2019</h4>
@@ -66,9 +77,21 @@
   <!--======  diseño pra móviles   ======-->
   <section class="movil show-for-small-only" >
     <div class="header_movil item_movil">
-      <figure class="logo_movil">
-        <img src="img/logotipo/anpr.png" alt="">
-      </figure>
+      <div class="header_img_b">
+        <figure>
+          <img src="img/i_fecha.png" alt="">
+        </figure>
+      </div>
+      <div class="">
+        <figure class="logo_movil">
+          <img src="img/logotipo/anpr.png" alt="">
+        </figure>
+      </div>
+      <div class="header_img_b">
+        <figure>
+          <img src="img/i_anpr_bc.png" alt="">
+        </figure>
+      </div>
     </div>
     <div class="item_movil icon">
       <a href="conferenciasMagistrales.php" target="_blank">
@@ -136,7 +159,41 @@
         </figcaption>
       </a>
     </div>
-    <div class="item_movil footer_movil">
+    <div class="item_movil icon">
+      <a href="programa.php" target="_blank">
+        <figure class="icon_movil">
+          <img src="img/icon_programa.png" alt="">
+        </figure>
+        <figcaption class="titulo_movil">
+          <!-- <h2>Programa</h2> -->
+          <h1>Programa</h1>
+        </figcaption>
+      </a>
+    </div>
+    <div class="item_movil icon">
+      <a href="ponentes.php" target="_blank">
+        <figure class="icon_movil">
+          <img src="img/icon_ponentes.png" alt="">
+        </figure>
+        <figcaption class="titulo_movil">
+          <!-- <h2>Costo de</h2> -->
+          <h1>Ponentes</h1>
+        </figcaption>
+      </a>
+    </div>
+    <div class="item_movil icon">
+      <a href="hospedajes.php" target="_blank">
+        <figure class="icon_movil">
+          <img src="img/icon_hospedaje.png" alt="">
+        </figure>
+        <figcaption class="titulo_movil">
+          <!-- <h2></h2> -->
+          <h1>Hospedaje</h1>
+        </figcaption>
+      </a>
+    </div>
+
+    <!-- <div class="item_movil footer_movil">
       <img src="img/i_fecha.png" alt="">
     </div>
     <div class="">
@@ -144,7 +201,7 @@
     </div>
     <div class="item_movil ">
       <img src="img/i_anpr_bc.png" alt="">
-    </div>
+    </div> -->
 
   </section>
   <!-- ============= secciones  ========== -->
@@ -220,7 +277,7 @@
 
     <section id="seccion_magistrales" class="hide-for-small-only">
       <div class="row">
-        <h3 class="titulo_verde">Conferencistas</h3>
+        <h3 class="titulo_verde">Conferencistas Magistrales</h3>
       </div>
       <div class="magistrales_icon">
         <figure class="contenido_conferencista">
@@ -265,7 +322,7 @@
         </figure>
       </div>
       <div class="row align-center">
-        <a href="conferenciasMagistrales.php" class="btn_azul">Conoce a todos los conferencistas</a>
+        <a href="sesionesEducativas.php" class="btn_azul">Conoce a todos los conferencistas</a>
       </div>
 
     </section>
@@ -378,7 +435,7 @@
             <h3 class="titulo_verde">Ubicación</h3>
             <p>Centro de Congresos<br>
               <span>CINTERMEX</span><br>
-              Parque fundidora
+              Parque Fundidora
             </p>
           </div>
           <div class="item_contenido_mapa">

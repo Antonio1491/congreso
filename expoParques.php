@@ -132,27 +132,7 @@
 
     </div>
 
-
-    <!--<div class="row column">
-      <h4 class="subtitulo">Sé expositor</h4>
-    </div>
-     <div class="row">
-      <div class="column hide-for-small-only medium-4">
-        <figure>
-          <img src="img/plano_expo.png" alt="">
-        </figure>
-      </div>
-      <div class="column medium-8">
-        <figure>
-          <img src="img/tabla_precio_expo.png" alt="">
-        </figure>
-        <p>Aparta tu espacio con el 30%.</p>
-        <p>Si liquidas antes del 31 de diciembre de 2018 15% de descuento. </p>
-        <p>*Precios en pesos (moneda nacional mexicana) por m² más IVA. </p>
-
-      </div>
-    </div> -->
-    <div class="cinta_azul">
+    <!-- <div class="cinta_azul">
       <div class="row">
         <div class="column small-12 medium-4 text-center">
           <h4 class="subtitulo_bc">Agenda de negocios</h4>
@@ -175,8 +155,8 @@
             </p>
         </div>
       </div>
-      </div>
-
+      </div> -->
+      <br><br>
       <div class="class_room">
         <div class="row">
           <div class="column small-12 medium-4 text-center">

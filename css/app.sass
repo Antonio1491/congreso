@@ -12,6 +12,10 @@ $cielo: #e1ecf7
 
 .menu_azul
   background: #042a54
+html
+  box-sizing: border-box
+*, *:before, *:after
+  box-sizing: inherit
 body
   background: $cielo
 
@@ -551,7 +555,7 @@ span.iva
 
 .condiciones
   font-size: 12px
-  list-style: none
+  // list-style: none
 
 
 
@@ -1266,7 +1270,6 @@ main .contenido ul li
 .cupo_taller p span
   color: $verde
 
-
 .container_talleres
   display: grid
   grid-template-columns: repeat(4, 1fr)
@@ -1303,19 +1306,45 @@ main .contenido ul li
   justify-content: center
 .img_talleres figure img
   height: 220px
-.contenedor_taller small
+.contenedor_taller small,
+.precio_ev_social
   color: $verde
   font-weight: bold
   padding-top: -5px
+.tallerista
+  color: $azul
+  font-size: 13px
 .contenedor_taller small:nth-of-type(2)
   margin-left: 50px
+
+.btn_comprar_taller
+  background: $verde
+  color: white
+  font-weight: bold
+  letter-spacing: 1px
+  // font-size: 15px
+  padding: 4px 15px
+  border-radius: 10px
+  margin-left: 50px
+.contenedorComprarTaller
+  display: inline
+
+.btn_comprar_taller:hover
+  background-color: $azul
+  color: white
+  animation-name: btn_taller
+  transition: 1.2s
+  transition: 1.2s
+// @keyframes btn_taller
+//   from
+//     background: $verde
+//   to
+//     background-color: $azul
 
 //=================   Patrocinadores   ===============================
 
 .patrocinador
   height: 220px
-
-
 
 .patrocinador-oro
   background: #ecb133
@@ -1336,7 +1365,6 @@ main .contenido ul li
   padding: 10px 120px 10px
   font-size: 18px
   text-align: center
-
 
 .patrocinadores figure img
   height: 280px
@@ -1398,12 +1426,39 @@ main .contenido ul li
 // =====================   La ciudad blanca   ==================
 .video
   margin: auto
+//=======================  ponentes  =====================
+.contenedorPonentes
+  background: white
+  box-shadow: 0px 0px 12px #ada9a9
+  padding-top: 50px
+.contenedorPonente
+  text-align: center
+  border: 1px solid #f6f6f6
+  padding: 25px
+.contenedorPonente img
+  height: 150px
+.contenedorPonente h5
+  text-transform: uppercase
+  color: $azul
+  font-family: "avenir bold"
+  font-size: 17px
+  margin-bottom: 0px
+  padding-bottom: 0px
+.contenedorPonente span
+  font-size: 14px
+
 //================   Hoteles    ================================
 .contenedor_hoteles
   background: white
   margin-top: 40px
   margin-bottom: 20px
 
+.menu_hoteles figure a:hover img
+  border: 1px solid $fiusha
+  border-radius: 15px
+  box-shadow: 0px 0px 5px #8b0053
+.menu_hoteles figure
+  padding: 3px
 .datos_h span
   color: $azul
 span.clave_reservacion
@@ -1413,12 +1468,13 @@ span.clave_reservacion
   background-color: white
   padding: 40px 40px 30px 40px
   justify-content: center
+
 #descripcion_hotel .tabla ul li
   list-style: none
   text-transform: uppercase
   font-size: 18px
   text-align: center
-  color: #2a2a2a
+  color: #494848
 .titulo_hoteles, .titulo_tabla h4
   text-align: center
   text-transform: uppercase
@@ -1445,6 +1501,9 @@ span.clave_reservacion
   color: #696565
   font-size: 16px
   text-transform: none
+
+
+
 
 //==================     Inscripciones    =========================
 // .container-tabla
@@ -1849,7 +1908,141 @@ span.bc
   font-size: 14px
 
 //=============================   Programa Completo   ==========================
-.dia
+.actividad header
+  padding: 10px 5% 0 0
+.actividad section
+  padding-bottom: 5px
+article.actividad header
+  display: grid
+  grid-template: 35px / 20% 80%
+.actividad
+  margin-bottom: 7px
+  box-shadow: 0px 0px 3px #b8b8b8
+
+.actividad section,
+.actividad header
+  background: white
+.tituloActividad h6
+  color: #2364b3
+  font-family: "avenir bold"
+
+.contieneBloque
+  cursor: pointer
+.actividad header:hover,
+.actividad:active
+  background: $azul
+  color: white
+
+.actividad header:hover .hora > i,
+.actividad header:hover h6
+  color: white
+
+.actividad header div:nth-of-type(1)
+  grid-row: 1 / 2 span
+  text-align: center
+.actividad header div:nth-of-type(2)
+  border-bottom: .5px solid #7399c6
+  margin-bottom: 3px
+.actividad header div:nth-of-type(3),
+.actividad header div:nth-of-type(2)
+  text-align: left
+  padding-left: 20px
+.actividad .conferencia:nth-of-type(1)
+  margin-top: 0px
+
+
+.hora > i
+  color: #367acb
+.lugar
+  color: $verde
+  text-align: center
+  justify-content: center
+.lugar > i
+  font-size: 13px
+.lugar > span
+  font-size: 10px
+
+.conferencia
+  display: grid
+  grid-template-columns: 24% 76%
+  grid-auto-rows: auto
+  padding: 6px 0px -5px 0px
+  margin: 5px 0px
+  align-items: center
+.conferencia:hover
+  cursor: pointer
+// .conferencia:hover .lugar,
+// .conferencia:hover .titulo
+//   color: white
+//   background: $verde
+.conferencia div > .titulo,
+.lista_talleres ul li
+  color: #46a14f
+  font-size: 13px
+  font-family: "avenir bold"
+  line-height: 1.3em
+  list-style: none
+.conferencia div > .titulo
+  padding-right: 35px
+  margin-bottom: 4px
+    // padding-bottom: 5px
+.lista_talleres ul li
+  padding: 0 25px 0 20%
+
+.datosConferencia > p
+  font-size: 13px
+  padding-right: 30px
+.datosConferencia > hr
+  color: $verde
+  width: 90%
+  // margin: 0
+  align-items: center
+
+.imparten
+  display: grid
+  grid-template-columns: 50px auto
+  // margin-bottom: 5px
+.imparten span
+  font-size: 12px
+  color: $verde
+  font-family: "avenir bold"
+  padding-left: 10px
+  // display: block
+.imparten img
+  height: 45px
+.imparten p
+  font-size: 12px
+  text-align: left
+  padding: 0 10px 0 10px
+  margin-bottom: 0
+
+.actividad section
+  display: none
+section .datosConferencia
+  display: none
+
+.contieneBloque h6::before
+  content: url(../img/down-arrow.png)
+  margin-right: 3px
+  position: absolute
+  margin-left: -22px
+.conferencia .titulo::before
+  content: url(../img/down-arrow3.png)
+  margin-right: 3px
+  position: absolute
+  margin-left: -20px
+
+.actividad:hover .contieneBloque h6::before
+  content: url(../img/down-arrow2.png)
+  margin-right: 3px
+
+
+
+
+
+
+
+.dia_titulo
   text-transform: uppercase
   margin-top: 60px
   text-align: center
@@ -1871,9 +2064,6 @@ span.bc
 .dia_titulo h5
   color: $verde
   font-size: 35px
-
-
-
 
 
 
@@ -2092,10 +2282,14 @@ tr td.bloque
 
 
 //================== dispositivos moviles ===============
+.header_movil
+  display: grid
+  grid-template-columns: 20% 60% 20%
+  align-items: center
 .movil
   height: 100vh
   display: grid
-  grid-template: 20vh 25vh 25vh 30vh / repeat(3, 1fr)
+  grid-template: 20vh 25vh 25vh 25vh / repeat(3, 1fr)
   background: $cielo
   background-image: url('../img/paisajeMovil.png')
   background-position: bottom
@@ -2213,7 +2407,34 @@ tr td.bloque
     border-bottom: 1px solid white
     .descripcion_cover
       margin-top: 10px
-
+  .imparten
+    display: grid
+    grid-template-columns: 50px auto
+    // margin-bottom: 5px
+  .imparten span
+    font-size: 12px
+    color: $verde
+    font-family: "avenir bold"
+    padding-left: 10px
+    // display: block
+  .imparten img
+    height: 45px
+  .imparten p
+    font-size: 12px
+    text-align: left
+    padding: 0 10px 0 10px
+    margin-bottom: 0
+  .desc_hospedaje p
+    font-size: 13.5px
+  .btn_sitio_hospedaje
+    text-align: center
+    margin-bottom: 20px
+  .titulo_tabla h4
+    padding-top: 5px
+    padding-bottom: 5px
+    font-size: 15px
+  #descripcion_hotel .tabla ul li
+    font-size: 13px
 @media screen and (max-width: 1025)
   #mensajes ul li
     height:  240px
@@ -2263,3 +2484,14 @@ tr td.bloque
     height: 120px
   .consideraciones
     margin-top: 0
+  .btn_comprar_taller
+    background: $verde
+    color: white
+    font-weight: bold
+    // letter-spacing: 1px
+    font-size: 15px
+    padding: 3px 5px
+    border-radius: 10px
+    // margin-left: 20px
+  .contenedorComprarTaller
+    display: none

@@ -170,7 +170,8 @@
             </figure>
             <br>
             Cost per commercial session: <br>
-            $20,000 pesos más IVA <br>
+            $20,000 MXN VAT Included
+<br>
 
           </div>
           <div class="column small-12 medium-8">

@@ -6,10 +6,10 @@
     </div>
     <div class="column small-12 medium-5 small-order-1 medium-order-2" id="cabecera-footer">
       <hgroup>
-        <h3>SECOND INTERNATIONAL CONGRESS</h3>
-        <h2>OF URBAN PARKS</h2>
+        <h3>SEGUNDO CONGRESO INTERNACIONAL</h3>
+        <h2>DE PARQUES URBANOS</h2>
         <h4>MAY 14-17, 2019 - MONTERREY, NUEVO LEÓN, MÉXICO</h4>
-        <h6>Presented by the Asociación Nacional de Parques y Recreación México.</h6>
+        <h6>Presentado por la Asociación Nacional de Parques y Recreación México.</h6>
       </hgroup>
 
     </div>
